@@ -1,0 +1,33 @@
+<!--
+  WORDPRESS EMBED — copy the block below into a Custom HTML block
+  on your ontariocorruption.org page.
+
+  STEP 1: Upload this entire folder to your web host via cPanel File Manager
+          or FTP. Put it at: public_html/mpp-tracker/
+          (so index.html lives at ontariocorruption.org/mpp-tracker/index.html)
+
+  STEP 2: In WordPress, create a new Page (e.g. "MPP Tracker")
+
+  STEP 3: Add your intro text using normal WP blocks (Paragraph, Heading, etc.)
+           you can write the page title and a short blurb there. The tracker handles the rest.
+
+  STEP 4: Add a Custom HTML block and paste ONLY the iframe below.
+-->
+
+<iframe
+  src="https://ontariocorruption.org/mpp-tracker/"
+  title="Ontario MPP Voting Tracker"
+  width="100%"
+  height="900"
+  style="border: none; min-height: 80vh; display: block;"
+  loading="lazy"
+></iframe>
+
+<!--
+  TIPS:
+  - If the iframe looks cut off, increase the height value (try 1200 or 1600).
+  - To hide the tracker header (if your WP page already has a title),
+    use: src="https://ontariocorruption.org/mpp-tracker/?embed=1"
+  - When you update the Excel file, re-run scripts/convert.py and re-upload
+    the data/mpps.json file (or the whole folder).
+-->
