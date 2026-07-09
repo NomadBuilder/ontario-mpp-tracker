@@ -5,7 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ontario MPPs & How They Vote | Ontarians Against Corruption</title>
   <meta name="description" content="Explore Ontario MPP voting records, salaries, and accountability data. See how your representative votes on key legislation.">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" id="main-styles">
+  <script>
+    (function () {
+      var p = new URLSearchParams(location.search);
+      if (p.get('v') === '2') {
+        document.getElementById('main-styles').href = 'styles-v2.css';
+        document.documentElement.classList.add('v2');
+      }
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
