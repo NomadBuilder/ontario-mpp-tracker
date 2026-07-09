@@ -36,11 +36,8 @@ function renderAvatar(mpp, className) {
   return `<span class="${cls} avatar-fallback"><span class="avatar-initials">${initials}</span></span>`;
 }
 
-function billLink(vote, className = 'bill-link') {
-  const label = vote.bill || vote;
-  const url = vote.url || (typeof vote === 'string' ? getBillUrl(vote) : null);
-  if (url) return `<a href="${url}" target="_blank" rel="noopener" class="${className}">${label}</a>`;
-  return `<span class="bill-label">${label}</span>`;
+function billLink(vote, className = 'bill-link', style = 'inline') {
+  return window.MppShared.billLink(vote, billsMeta, getBillUrl, className, style);
 }
 
 function getBillUrl(billId) {
@@ -91,7 +88,7 @@ function renderCard(mpp, index) {
       </div>
       <div class="voting-section">
         <button class="voting-toggle" aria-expanded="false"><span>Voting History</span><span class="chevron">▼</span></button>
-        <div class="voting-list">${featuredVotes}</div>
+        <div class="voting-list">${window.MppShared.BILL_LINK_NOTE}${featuredVotes}</div>
       </div>
       ${(emailLink || phoneLink) ? `<div class="card-footer">${emailLink}${phoneLink}</div>` : ''}
     </article>`;
@@ -99,7 +96,7 @@ function renderCard(mpp, index) {
 
 function renderTable(mpps) {
   const billHeaders = mpps[0]?.votes || [];
-  const headerCells = ['<th>Name</th>', '<th>Party</th>', '<th>Riding</th>', '<th>Salary</th>', '<th>Benefits</th>', '<th>Alignment</th>', ...billHeaders.map(v => `<th>${billLink(v, 'bill-link-header')}</th>`)].join('');
+  const headerCells = ['<th>Name</th>', '<th>Party</th>', '<th>Riding</th>', '<th>Salary</th>', '<th>Benefits</th>', '<th>Alignment</th>', ...billHeaders.map(v => `<th>${billLink(v, 'bill-link-header', 'header')}</th>`)].join('');
   const rows = mpps.map(mpp => {
     const voteCells = mpp.votes.map(v => {
       const cls = v.yes === true ? 'yes' : v.yes === false ? 'no' : 'na';

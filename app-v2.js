@@ -41,11 +41,8 @@ function renderAvatar(mpp, className) {
   return `<span class="${cls} avatar-fallback"><span class="avatar-initials">${initials}</span></span>`;
 }
 
-function billLink(vote, className = 'bill-link') {
-  const label = vote.bill || vote;
-  const url = vote.url || getBillUrl(typeof vote === 'string' ? vote : vote.bill);
-  if (url) return `<a href="${url}" target="_blank" rel="noopener" class="${className}">${label}</a>`;
-  return `<span class="bill-label">${label}</span>`;
+function billLink(vote, className = 'bill-link', style = 'inline') {
+  return window.MppShared.billLink(vote, billsMeta, getBillUrl, className, style);
 }
 
 function getBillUrl(billId) {
@@ -265,6 +262,7 @@ function renderDetail(m) {
 
         <section class="detail-section detail-section-wide">
           <h3>Key votes</h3>
+          ${window.MppShared.BILL_LINK_NOTE}
           <table class="detail-vote-table">
             <thead><tr><th>Bill</th><th>Vote</th></tr></thead>
             <tbody>${featuredRows.map(v => `
@@ -351,14 +349,19 @@ function renderBillsPanel() {
 
   document.getElementById('bill-nav').innerHTML = allBills.map(b => {
     const meta = billsMeta.find(x => x.id === b);
-    const label = meta?.label || b;
-    const inner = meta?.url
-      ? `<a href="${meta.url}" target="_blank" rel="noopener" class="bill-nav-link" onclick="event.stopPropagation()">${label}</a>`
-      : label;
-    return `<button class="bill-nav-item${b === selectedBill ? ' active' : ''}${FEATURED_BILLS.some(f => b.startsWith(f)) ? ' featured' : ''}" data-bill="${b}">${inner}</button>`;
+    const label = (meta?.label || b).trim();
+    const active = b === selectedBill;
+    const featured = FEATURED_BILLS.some(f => b.startsWith(f));
+    const openLink = meta?.url
+      ? `<a href="${meta.url}" target="_blank" rel="noopener noreferrer" class="bill-nav-open" title="View ${label} on ola.org">View on ola.org ${window.MppShared.EXT_ICON.replace('bill-ext-icon', 'bill-ext-icon bill-nav-ext')}</a>`
+      : '';
+    return `<div class="bill-nav-item${active ? ' active' : ''}${featured ? ' featured' : ''}">
+      <button type="button" class="bill-nav-select" data-bill="${b}">${label}</button>
+      ${openLink}
+    </div>`;
   }).join('');
 
-  document.getElementById('bill-nav').querySelectorAll('.bill-nav-item').forEach(btn => {
+  document.getElementById('bill-nav').querySelectorAll('.bill-nav-select').forEach(btn => {
     btn.onclick = () => { selectedBill = btn.dataset.bill; renderBillsPanel(); };
   });
 
@@ -395,12 +398,12 @@ function renderBillsPanel() {
 
   const billMeta = billsMeta.find(x => x.id === selectedBill);
   const billTitle = billMeta?.url
-    ? `<a href="${billMeta.url}" target="_blank" rel="noopener" class="bill-header-link">${billMeta.label || selectedBill}</a>`
-    : (billMeta?.label || selectedBill);
+    ? billLink(billMeta, 'bill-header-link', 'block')
+    : `<span class="bill-header-title">${(billMeta?.label || selectedBill).trim()}</span>`;
 
   document.getElementById('bill-content').innerHTML = `
     <header class="bill-header">
-      <h2>${billTitle}</h2>
+      <div class="bill-header-top">${billTitle}</div>
       <div class="bill-summary-bar">
         <div class="bill-stat yes"><span class="bill-stat-n">${groups.yes.length}</span><span>Voted Yes</span></div>
         <div class="bill-stat no"><span class="bill-stat-n">${groups.no.length}</span><span>Voted No</span></div>
@@ -427,14 +430,14 @@ function renderTablePanel() {
   const panel = document.getElementById('panel-table');
   const bills = allBills;
   panel.innerHTML = `
-    <p class="table-intro">Complete dataset for all ${allMpps.length} MPPs. Scroll horizontally for bill columns.</p>
+    <p class="table-intro">Complete dataset for all ${allMpps.length} MPPs. Scroll horizontally for bill columns — headers link to each bill on <strong>ola.org</strong>.</p>
     <div class="table-wrap">
       <table class="v2-table">
         <thead><tr>
           <th>Name</th><th>Party</th><th>Riding</th><th>Salary</th><th>Align</th>
           ${bills.map(b => {
             const v = allMpps[0]?.votes.find(x => x.bill === b);
-            return `<th>${v ? billLink(v, 'bill-link-header') : b}</th>`;
+            return `<th>${v ? billLink(v, 'bill-link-header', 'header') : b}</th>`;
           }).join('')}
         </tr></thead>
         <tbody>${allMpps.map(m => `
