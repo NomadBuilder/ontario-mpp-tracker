@@ -10,6 +10,7 @@ const FEATURED_BILLS = ['Bill 5', 'Bill 17', 'Bill 24', 'Bill 48', 'Bill 60', 'B
 const IS_EMBED = new URLSearchParams(window.location.search).has('embed');
 
 let allMpps = [];
+let billsMeta = [];
 let activeFilter = 'all';
 
 function formatCurrency(amount) {
@@ -21,9 +22,36 @@ function getPartyInfo(party) {
   return PARTIES[party] || { slug: 'independent', label: party || 'Unknown' };
 }
 
+function getInitials(name) {
+  return name.replace(/^Hon\.\s*/i, '').split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase();
+}
+
+function renderAvatar(mpp, className) {
+  const party = getPartyInfo(mpp.party);
+  const initials = getInitials(mpp.name);
+  const cls = `${className} party-${party.slug}`;
+  if (mpp.photo) {
+    return `<span class="${cls}"><img src="${mpp.photo}" alt="" loading="lazy" class="avatar-img" onerror="this.parentElement.classList.add('avatar-fallback')"><span class="avatar-initials">${initials}</span></span>`;
+  }
+  return `<span class="${cls} avatar-fallback"><span class="avatar-initials">${initials}</span></span>`;
+}
+
+function billLink(vote, className = 'bill-link') {
+  const label = vote.bill || vote;
+  const url = vote.url || (typeof vote === 'string' ? getBillUrl(vote) : null);
+  if (url) return `<a href="${url}" target="_blank" rel="noopener" class="${className}">${label}</a>`;
+  return `<span class="bill-label">${label}</span>`;
+}
+
+function getBillUrl(billId) {
+  const meta = billsMeta.find(b => b.id === billId || billId.startsWith(b.id));
+  if (meta?.url) return meta.url;
+  return allMpps[0]?.votes.find(v => v.bill === billId)?.url || null;
+}
+
 function getVoteForBill(mpp, billName) {
   const vote = mpp.votes.find(v => v.bill === billName || v.bill.startsWith(billName));
-  return vote || { display: 'N/A', yes: null };
+  return vote || { bill: billName, display: 'N/A', yes: null, url: getBillUrl(billName) };
 }
 
 function renderCard(mpp, index) {
@@ -36,7 +64,7 @@ function renderCard(mpp, index) {
     const v = getVoteForBill(mpp, bill);
     const cls = v.yes === true ? 'yes' : v.yes === false ? 'no' : 'na';
     const icon = v.yes === true ? '✓' : v.yes === false ? '✗' : '—';
-    return `<div class="vote-row"><span class="vote-bill">${bill}</span><span class="vote-result ${cls}">${icon} ${v.display}</span></div>`;
+    return `<div class="vote-row"><span class="vote-bill">${billLink(v)}</span><span class="vote-result ${cls}">${icon} ${v.display}</span></div>`;
   }).join('');
 
   const emailLink = mpp.email ? `<a class="card-link" href="mailto:${mpp.email}">Email MPP</a>` : '';
@@ -46,8 +74,9 @@ function renderCard(mpp, index) {
     <article class="mpp-card" style="animation-delay: ${Math.min(index * 30, 600)}ms">
       <div class="card-header">
         <div class="card-name-row">
-          <div>
-            <h3 class="card-name">${mpp.name}</h3>
+          ${renderAvatar(mpp, 'card-avatar')}
+          <div class="card-name-block">
+            <h3 class="card-name">${mpp.profileUrl ? `<a href="${mpp.profileUrl}" target="_blank" rel="noopener" class="mpp-profile-link">${mpp.name}</a>` : mpp.name}</h3>
             ${mpp.riding ? `<p class="card-riding">${mpp.riding}</p>` : ''}
           </div>
           <span class="party-badge ${party.slug}">${party.label}</span>
@@ -69,15 +98,15 @@ function renderCard(mpp, index) {
 }
 
 function renderTable(mpps) {
-  const billHeaders = mpps[0]?.votes.map(v => v.bill) || [];
-  const headerCells = ['<th>Name</th>', '<th>Party</th>', '<th>Riding</th>', '<th>Salary</th>', '<th>Benefits</th>', '<th>Alignment</th>', ...billHeaders.map(b => `<th>${b}</th>`)].join('');
+  const billHeaders = mpps[0]?.votes || [];
+  const headerCells = ['<th>Name</th>', '<th>Party</th>', '<th>Riding</th>', '<th>Salary</th>', '<th>Benefits</th>', '<th>Alignment</th>', ...billHeaders.map(v => `<th>${billLink(v, 'bill-link-header')}</th>`)].join('');
   const rows = mpps.map(mpp => {
     const voteCells = mpp.votes.map(v => {
       const cls = v.yes === true ? 'yes' : v.yes === false ? 'no' : 'na';
       return `<td class="vote-cell ${cls}">${v.display}</td>`;
     }).join('');
     return `<tr>
-      <td class="name-cell">${mpp.name}</td><td>${mpp.party}</td><td>${mpp.riding || '—'}</td>
+      <td class="name-cell">${renderAvatar(mpp, 'table-avatar')}<span>${mpp.name}</span></td><td>${mpp.party}</td><td>${mpp.riding || '—'}</td>
       <td>${formatCurrency(mpp.salary)}</td><td>${formatCurrency(mpp.benefits)}</td>
       <td>${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</td>${voteCells}</tr>`;
   }).join('');
@@ -157,7 +186,9 @@ async function init() {
   }
 
   try {
-    allMpps = (await (await fetch('data/mpps.json')).json()).mpps;
+    const payload = await (await fetch('data/mpps.json')).json();
+    allMpps = payload.mpps;
+    billsMeta = payload.bills || [];
     document.getElementById('loading').style.display = 'none';
     document.getElementById('main-content').style.display = 'block';
     renderIntroStats();

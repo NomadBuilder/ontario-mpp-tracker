@@ -247,14 +247,144 @@ html.v2 #v1-app { display: none !important; }
 .master-item.party-green { --party-accent: var(--party-green); }
 .master-item.party-independent { --party-accent: var(--party-independent); }
 
-.master-initials {
-  width: 36px; height: 36px;
-  border-radius: 8px;
-  background: var(--surface-2);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 0.75rem; font-weight: 700;
+.master-avatar,
+.detail-avatar,
+.bill-mpp-avatar,
+.table-avatar {
   flex-shrink: 0;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-2);
+  border-radius: 50%;
+}
+
+.master-avatar {
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--border);
+}
+
+.detail-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+}
+
+.bill-mpp-avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.table-avatar {
+  width: 28px;
+  height: 28px;
+}
+
+.master-avatar .avatar-img,
+.detail-avatar .avatar-img,
+.bill-mpp-avatar .avatar-img,
+.table-avatar .avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.detail-avatar .avatar-img { border-radius: 10px; }
+
+.master-avatar .avatar-initials,
+.detail-avatar .avatar-initials,
+.bill-mpp-avatar .avatar-initials,
+.table-avatar .avatar-initials {
+  display: none;
+  font-weight: 700;
+  font-size: 0.75rem;
   color: var(--party-accent, var(--muted));
+}
+
+.detail-avatar .avatar-initials { font-size: 1rem; }
+
+.master-avatar.avatar-fallback .avatar-img,
+.detail-avatar.avatar-fallback .avatar-img,
+.bill-mpp-avatar.avatar-fallback .avatar-img,
+.table-avatar.avatar-fallback .avatar-img { display: none; }
+
+.master-avatar.avatar-fallback .avatar-initials,
+.detail-avatar.avatar-fallback .avatar-initials,
+.bill-mpp-avatar.avatar-fallback .avatar-initials,
+.table-avatar.avatar-fallback .avatar-initials { display: flex; }
+
+.master-item.party-pc .master-avatar { --party-accent: var(--party-pc); }
+.master-item.party-ndp .master-avatar { --party-accent: var(--party-ndp); }
+.master-item.party-liberal .master-avatar { --party-accent: var(--party-liberal); }
+.master-item.party-green .master-avatar { --party-accent: var(--party-green); }
+.master-item.party-independent .master-avatar { --party-accent: var(--party-independent); }
+
+.detail-card.party-pc .detail-avatar { --party-accent: var(--party-pc); }
+.detail-card.party-ndp .detail-avatar { --party-accent: var(--party-ndp); }
+.detail-card.party-liberal .detail-avatar { --party-accent: var(--party-liberal); }
+.detail-card.party-green .detail-avatar { --party-accent: var(--party-green); }
+.detail-card.party-independent .detail-avatar { --party-accent: var(--party-independent); }
+
+.mpp-profile-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mpp-profile-link:hover { color: var(--gold); }
+
+.bill-link,
+.bill-link-header,
+.bill-header-link,
+.bill-nav-link {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.bill-link:hover,
+.bill-link-header:hover,
+.bill-header-link:hover,
+.bill-nav-link:hover {
+  text-decoration: underline;
+}
+
+.bill-nav-link {
+  pointer-events: auto;
+}
+
+.bill-mpp-link {
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.bill-mpp-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.bill-mpp-text > span {
+  color: var(--dim);
+  font-size: 0.75rem;
+}
+
+.table-name-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.name-col .table-name-link span:last-child {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+}
+
+.name-col .table-name-link:hover span:last-child {
+  text-decoration-color: var(--gold);
+  color: var(--gold);
 }
 
 .master-info { flex: 1; min-width: 0; }
@@ -365,17 +495,6 @@ html.v2 #v1-app { display: none !important; }
   padding-bottom: 1.25rem;
   border-bottom: 1px solid var(--border);
   margin-bottom: 1.25rem;
-}
-
-.detail-avatar {
-  width: 56px; height: 56px;
-  border-radius: 12px;
-  background: color-mix(in srgb, var(--party-accent) 18%, var(--surface-2));
-  color: var(--party-accent);
-  display: flex; align-items: center; justify-content: center;
-  font-weight: 700;
-  font-size: 1.1rem;
-  flex-shrink: 0;
 }
 
 .detail-identity { flex: 1; min-width: 0; }

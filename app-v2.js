@@ -10,6 +10,7 @@ const FEATURED_BILLS = ['Bill 5', 'Bill 17', 'Bill 24', 'Bill 48', 'Bill 60', 'B
 const IS_EMBED = new URLSearchParams(window.location.search).has('embed');
 
 let allMpps = [];
+let billsMeta = [];
 let allBills = [];
 let filteredMpps = [];
 let selectedMpp = null;
@@ -27,7 +28,30 @@ function getPartyInfo(party) {
 }
 
 function getInitials(name) {
-  return name.split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase();
+  return name.replace(/^Hon\.\s*/i, '').split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase();
+}
+
+function renderAvatar(mpp, className) {
+  const party = getPartyInfo(mpp.party);
+  const initials = getInitials(mpp.name);
+  const cls = `${className} party-${party.slug}`;
+  if (mpp.photo) {
+    return `<span class="${cls}"><img src="${mpp.photo}" alt="" loading="lazy" class="avatar-img" onerror="this.parentElement.classList.add('avatar-fallback')"><span class="avatar-initials">${initials}</span></span>`;
+  }
+  return `<span class="${cls} avatar-fallback"><span class="avatar-initials">${initials}</span></span>`;
+}
+
+function billLink(vote, className = 'bill-link') {
+  const label = vote.bill || vote;
+  const url = vote.url || getBillUrl(typeof vote === 'string' ? vote : vote.bill);
+  if (url) return `<a href="${url}" target="_blank" rel="noopener" class="${className}">${label}</a>`;
+  return `<span class="bill-label">${label}</span>`;
+}
+
+function getBillUrl(billId) {
+  const meta = billsMeta.find(b => b.id === billId || billId.startsWith(b.id));
+  if (meta?.url) return meta.url;
+  return allMpps[0]?.votes.find(v => v.bill === billId)?.url || null;
 }
 
 function mppKey(m) { return m.email || m.name; }
@@ -173,7 +197,7 @@ function renderMasterList() {
       <li class="master-item party-${p.slug}${sel ? ' selected' : ''}"
           role="option" aria-selected="${sel}"
           data-key="${mppKey(m)}">
-        <span class="master-initials">${getInitials(m.name)}</span>
+        ${renderAvatar(m, 'master-avatar')}
         <span class="master-info">
           <span class="master-name">${m.name}</span>
           <span class="master-meta">${m.riding || '—'} · ${p.label}</span>
@@ -216,9 +240,9 @@ function renderDetail(m) {
       <button class="detail-back" id="detail-back" aria-label="Back to list">← Back</button>
 
       <header class="detail-header">
-        <div class="detail-avatar">${getInitials(m.name)}</div>
+        ${renderAvatar(m, 'detail-avatar')}
         <div class="detail-identity">
-          <h2>${m.name}</h2>
+          <h2>${m.profileUrl ? `<a href="${m.profileUrl}" target="_blank" rel="noopener" class="mpp-profile-link">${m.name}</a>` : m.name}</h2>
           <p>${m.riding || '—'}</p>
           <span class="detail-party">${m.party}</span>
         </div>
@@ -245,7 +269,7 @@ function renderDetail(m) {
             <thead><tr><th>Bill</th><th>Vote</th></tr></thead>
             <tbody>${featuredRows.map(v => `
               <tr class="vote-row-${voteClass(v)}">
-                <td>${v.bill}</td>
+                <td>${billLink(v)}</td>
                 <td class="${voteClass(v)}">${v.display}</td>
               </tr>`).join('')}</tbody>
           </table>
@@ -258,7 +282,7 @@ function renderDetail(m) {
             <table class="detail-vote-table">
               <thead><tr><th>Bill</th><th>Vote</th></tr></thead>
               <tbody>${otherRows.map(v => `
-                <tr><td>${v.bill}</td><td class="${voteClass(v)}">${v.display}</td></tr>`).join('')}</tbody>
+                <tr><td>${billLink(v)}</td><td class="${voteClass(v)}">${v.display}</td></tr>`).join('')}</tbody>
             </table>
           </details>
         </section>` : ''}
@@ -325,9 +349,14 @@ function buildBillsPanel() {
 function renderBillsPanel() {
   if (!document.getElementById('bill-nav')) buildBillsPanel();
 
-  document.getElementById('bill-nav').innerHTML = allBills.map(b => `
-    <button class="bill-nav-item${b === selectedBill ? ' active' : ''}${FEATURED_BILLS.some(f => b.startsWith(f)) ? ' featured' : ''}"
-            data-bill="${b}">${b}</button>`).join('');
+  document.getElementById('bill-nav').innerHTML = allBills.map(b => {
+    const meta = billsMeta.find(x => x.id === b);
+    const label = meta?.label || b;
+    const inner = meta?.url
+      ? `<a href="${meta.url}" target="_blank" rel="noopener" class="bill-nav-link" onclick="event.stopPropagation()">${label}</a>`
+      : label;
+    return `<button class="bill-nav-item${b === selectedBill ? ' active' : ''}${FEATURED_BILLS.some(f => b.startsWith(f)) ? ' featured' : ''}" data-bill="${b}">${inner}</button>`;
+  }).join('');
 
   document.getElementById('bill-nav').querySelectorAll('.bill-nav-item').forEach(btn => {
     btn.onclick = () => { selectedBill = btn.dataset.bill; renderBillsPanel(); };
@@ -358,15 +387,20 @@ function renderBillsPanel() {
         <ul class="bill-mpp-list">
           ${items.sort((a, b) => a.mpp.lastName.localeCompare(b.mpp.lastName)).map(({ mpp }) => {
             const p = getPartyInfo(mpp.party);
-            return `<li><button class="bill-mpp-link party-${p.slug}" data-key="${mppKey(mpp)}">${mpp.name}<span>${mpp.riding || p.label}</span></button></li>`;
+            return `<li><button class="bill-mpp-link party-${p.slug}" data-key="${mppKey(mpp)}">${renderAvatar(mpp, 'bill-mpp-avatar')}<span class="bill-mpp-text">${mpp.name}<span>${mpp.riding || p.label}</span></span></button></li>`;
           }).join('')}
         </ul>
       </div>`;
   }
 
+  const billMeta = billsMeta.find(x => x.id === selectedBill);
+  const billTitle = billMeta?.url
+    ? `<a href="${billMeta.url}" target="_blank" rel="noopener" class="bill-header-link">${billMeta.label || selectedBill}</a>`
+    : (billMeta?.label || selectedBill);
+
   document.getElementById('bill-content').innerHTML = `
     <header class="bill-header">
-      <h2>${selectedBill}</h2>
+      <h2>${billTitle}</h2>
       <div class="bill-summary-bar">
         <div class="bill-stat yes"><span class="bill-stat-n">${groups.yes.length}</span><span>Voted Yes</span></div>
         <div class="bill-stat no"><span class="bill-stat-n">${groups.no.length}</span><span>Voted No</span></div>
@@ -398,11 +432,14 @@ function renderTablePanel() {
       <table class="v2-table">
         <thead><tr>
           <th>Name</th><th>Party</th><th>Riding</th><th>Salary</th><th>Align</th>
-          ${bills.map(b => `<th>${b}</th>`).join('')}
+          ${bills.map(b => {
+            const v = allMpps[0]?.votes.find(x => x.bill === b);
+            return `<th>${v ? billLink(v, 'bill-link-header') : b}</th>`;
+          }).join('')}
         </tr></thead>
         <tbody>${allMpps.map(m => `
           <tr>
-            <td class="name-col"><button class="table-name-link" data-key="${mppKey(m)}">${m.name}</button></td>
+            <td class="name-col"><button class="table-name-link" data-key="${mppKey(m)}">${renderAvatar(m, 'table-avatar')}<span>${m.name}</span></button></td>
             <td>${getPartyInfo(m.party).label}</td>
             <td>${m.riding || '—'}</td>
             <td>${formatCurrency(m.salary)}</td>
@@ -426,7 +463,8 @@ async function init() {
   try {
     const data = await (await fetch('data/mpps.json')).json();
     allMpps = data.mpps;
-    allBills = allMpps[0]?.votes.map(v => v.bill) || [];
+    billsMeta = data.bills || [];
+    allBills = billsMeta.length ? billsMeta.map(b => b.id) : (allMpps[0]?.votes.map(v => v.bill) || []);
     filteredMpps = [...allMpps];
     selectedMpp = allMpps[0];
 
