@@ -18,32 +18,14 @@ window.MppShared = (function () {
     };
   }
 
-  function billLink(voteOrId, billsMeta, getBillUrl, className = 'bill-link', style = 'inline') {
+  function billLink(voteOrId, billsMeta, getBillUrl, className = 'bill-link') {
     const meta = getBillMeta(voteOrId, billsMeta, getBillUrl);
     if (!meta.url) {
       return `<span class="bill-label">${meta.label}</span>`;
     }
 
-    const title = `Opens ${meta.label} on the Legislative Assembly of Ontario (ola.org)`;
-
-    if (style === 'header') {
-      return `<a href="${meta.url}" target="_blank" rel="noopener noreferrer" class="${className}" title="${title}">
-        <span class="bill-link-label">${meta.label}</span>
-        <span class="bill-link-dest">View on ola.org ${EXT_ICON}</span>
-      </a>`;
-    }
-
-    if (style === 'block') {
-      return `<a href="${meta.url}" target="_blank" rel="noopener noreferrer" class="${className} bill-link-block" title="${title}">
-        <span class="bill-link-label">${meta.label}</span>
-        <span class="bill-link-dest">View full bill on OLA.org ${EXT_ICON}</span>
-      </a>`;
-    }
-
-    return `<a href="${meta.url}" target="_blank" rel="noopener noreferrer" class="${className}" title="${title}">
-      <span class="bill-link-label">${meta.label}</span>
-      <span class="bill-link-dest"><span class="bill-link-dest-text">View on ola.org</span> ${EXT_ICON}</span>
-    </a>`;
+    const title = `Opens ${meta.label} on ola.org`;
+    return `<a href="${meta.url}" target="_blank" rel="noopener noreferrer" class="${className}" title="${title}">${meta.label}</a>`;
   }
 
   return { billLink, getBillMeta, BILL_LINK_NOTE, EXT_ICON };

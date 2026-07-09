@@ -469,104 +469,22 @@ body.embed-mode .site-footer {
 
 .bill-link,
 .bill-link-header,
-.bill-link-block {
+.bill-header-link {
   color: var(--accent-yellow);
-  text-decoration: none;
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.35rem 0.5rem;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 199, 69, 0.45);
+  font-weight: 600;
 }
 
 .bill-link:hover,
 .bill-link-header:hover,
-.bill-link-block:hover {
-  text-decoration: none;
-}
-
-.bill-link-label {
-  font-weight: 600;
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 199, 69, 0.45);
-}
-
-.bill-link:hover .bill-link-label,
-.bill-link-header:hover .bill-link-label,
-.bill-link-block:hover .bill-link-label {
+.bill-header-link:hover {
   text-decoration-color: var(--accent-yellow);
-}
-
-.bill-link-dest {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.2rem;
-  font-size: 0.72rem;
-  font-weight: 500;
-  color: var(--text-dim);
-  white-space: nowrap;
-}
-
-.bill-link:hover .bill-link-dest,
-.bill-link-header:hover .bill-link-dest,
-.bill-link-block:hover .bill-link-dest {
-  color: var(--accent-yellow);
-}
-
-.bill-link-header {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.15rem;
-}
-
-.bill-link-block {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.35rem;
-  padding: 0.85rem 1rem;
-  background: rgba(255, 199, 69, 0.08);
-  border: 1px solid rgba(255, 199, 69, 0.25);
-  border-radius: var(--radius-sm);
-  width: 100%;
-}
-
-.bill-link-block .bill-link-dest {
-  font-size: 0.82rem;
-  color: var(--accent-yellow);
-}
-
-.bill-ext-icon {
-  flex-shrink: 0;
-  opacity: 0.85;
-}
-
-.bill-link-note {
-  font-size: 0.78rem;
-  color: var(--text-dim);
-  margin: 0 0 0.65rem;
-  line-height: 1.45;
-}
-
-.bill-link-note strong {
-  color: var(--text-muted);
-  font-weight: 600;
 }
 
 .bill-label {
   color: var(--text-muted);
   font-weight: 500;
-}
-
-.vote-row .bill-link {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.1rem;
-}
-
-@media (min-width: 480px) {
-  .vote-row .bill-link {
-    flex-direction: row;
-    align-items: center;
-  }
 }
 
 .name-cell {
