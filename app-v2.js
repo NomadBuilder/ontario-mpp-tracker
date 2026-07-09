@@ -287,7 +287,14 @@ function selectMpp(key) {
   mobileShowDetail = true;
   document.querySelector('.master-detail')?.classList.add('show-detail');
   renderMasterList();
-  if (selectedMpp) renderDetail(selectedMpp);
+  if (selectedMpp) {
+    renderDetail(selectedMpp);
+    if (window.innerWidth <= 860) {
+      requestAnimationFrame(() => {
+        document.querySelector('.detail-pane')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
+  }
 }
 
 function refreshReps() {

@@ -45,6 +45,7 @@ body {
   color: var(--text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 /* Header */
@@ -718,10 +719,68 @@ body.embed-mode .site-footer {
 }
 
 /* Responsive */
+@media (max-width: 1024px) {
+  .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
+  .site-header {
+    padding: 1.75rem 1rem 1.5rem;
+  }
+
+  .site-header h1 {
+    font-size: clamp(1.5rem, 6vw, 2rem);
+  }
+
+  .header-lead {
+    font-size: 1rem;
+  }
+
+  .intro-section,
+  .cards-section,
+  .spreadsheet-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .intro-inner {
+    padding: 1.25rem;
+  }
+
+  .intro-stats {
+    flex-direction: column;
+  }
+
+  .stat-pill,
+  .stat-pill-wide {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .view-toggle {
+    flex-direction: column;
+  }
+
   .controls {
     flex-direction: column;
     align-items: stretch;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: auto;
+    border-radius: var(--radius);
+  }
+
+  .search-box {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .filter-group {
+    width: 100%;
+    justify-content: flex-start;
   }
 
   .result-count {
@@ -733,7 +792,74 @@ body.embed-mode .site-footer {
     grid-template-columns: 1fr;
   }
 
-  .card-stats {
-    grid-template-columns: 1fr;
+  .card-name-row {
+    flex-wrap: wrap;
+  }
+
+  .card-footer {
+    flex-direction: column;
+  }
+
+  .table-wrapper {
+    -webkit-overflow-scrolling: touch;
+    border-radius: var(--radius-sm);
+  }
+
+  .data-table {
+    font-size: 0.8rem;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 0.6rem 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header h1 {
+    font-size: 1.45rem;
+  }
+
+  .intro-inner {
+    padding: 1rem;
+  }
+
+  .howto-steps li {
+    font-size: 0.9rem;
+  }
+
+  .controls {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    top: 0;
+  }
+
+  .search-box input {
+    font-size: 16px; /* prevents iOS zoom on focus */
+  }
+
+  .filter-btn {
+    padding: 0.55rem 0.85rem;
+    min-height: 44px;
+  }
+
+  .view-btn {
+    min-height: 44px;
+  }
+
+  .voting-toggle {
+    min-height: 44px;
+  }
+
+  .card-link {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .site-footer {
+    padding: 1.5rem 1rem;
+    padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
   }
 }
