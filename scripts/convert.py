@@ -16,6 +16,19 @@ OLA_BILL_BASE = "https://www.ola.org/en/legislative-business/bills/parliament-44
 FEATURED = {"Bill 5", "Bill 17", "Bill 24", "Bill 48", "Bill 60", "Bill 68", "Bill 97"}
 
 
+def get_xlsx_path() -> Path:
+    import argparse
+    parser = argparse.ArgumentParser(description="Convert MPP spreadsheet to JSON")
+    parser.add_argument(
+        "--xlsx",
+        type=Path,
+        default=None,
+        help="Path to Excel file (default: project root spreadsheet)",
+    )
+    args, _ = parser.parse_known_args()
+    return args.xlsx if args.xlsx else XLSX
+
+
 def slug_from_name(name: str) -> str:
     name = re.sub(r"^(Hon\.|Dr\.)\s*", "", name or "")
     slug = name.lower().strip()
@@ -101,12 +114,13 @@ def find_bill_start_col(ws, header_row: int) -> int:
 
 
 def main() -> None:
-    if not XLSX.exists():
-        print(f"Error: {XLSX} not found", file=sys.stderr)
+    xlsx_path = get_xlsx_path()
+    if not xlsx_path.exists():
+        print(f"Error: {xlsx_path} not found", file=sys.stderr)
         sys.exit(1)
 
     by_slug, by_name = load_photos()
-    wb = openpyxl.load_workbook(XLSX, data_only=True)
+    wb = openpyxl.load_workbook(xlsx_path, data_only=True)
 
     # Optional contact/roles sheet
     mpp_info = {}
