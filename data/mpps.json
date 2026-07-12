@@ -1,4 +1,9 @@
 {
+  "display": {
+    "salary": false,
+    "benefits": false,
+    "votingAlignment": false
+  },
   "featuredBills": [
     "Bill 5",
     "Bill 17",

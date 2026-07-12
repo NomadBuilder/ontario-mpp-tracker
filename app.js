@@ -11,6 +11,11 @@ const IS_EMBED = new URLSearchParams(window.location.search).has('embed');
 
 let allMpps = [];
 let billsMeta = [];
+let display = {
+  salary: false,
+  benefits: false,
+  votingAlignment: false,
+};
 let activeFilter = 'all';
 /** @type {Record<string, 'yes'|'no'|'noshow'|'na'>} */
 let voteFilters = {};
@@ -45,6 +50,10 @@ const CAMPAIGN_PRESETS = [
     filters: { 'Bill 60': 'yes', 'Bill 68': 'yes' },
   },
 ];
+
+function showField(key) {
+  return display[key] !== false;
+}
 
 function voteKeyFromDisplay(vote) {
   if (vote?.yes === true || vote?.display === 'Yes') return 'yes';
@@ -124,6 +133,19 @@ function renderCard(mpp, index) {
   const emailLink = mpp.email ? `<a class="card-link" href="mailto:${mpp.email}">Email MPP</a>` : '';
   const phoneLink = mpp.phone ? `<a class="card-link" href="tel:${mpp.phone.replace(/\s/g, '')}">Call Office</a>` : '';
 
+  const stats = [
+    `<div class="stat"><span class="stat-label">Party</span><span class="stat-value">${mpp.party}</span></div>`,
+  ];
+  if (showField('salary')) {
+    stats.push(`<div class="stat"><span class="stat-label">Salary</span><span class="stat-value">${formatCurrency(mpp.salary)}</span></div>`);
+  }
+  if (showField('benefits')) {
+    stats.push(`<div class="stat"><span class="stat-label">Benefits</span><span class="stat-value">${formatCurrency(mpp.benefits)}</span></div>`);
+  }
+  if (showField('votingAlignment')) {
+    stats.push(`<div class="stat"><span class="stat-label">Voting Alignment</span><span class="stat-value highlight ${ac}">${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</span></div>`);
+  }
+
   return `
     <article class="mpp-card" style="animation-delay: ${Math.min(index * 30, 600)}ms">
       <div class="card-header">
@@ -137,12 +159,7 @@ function renderCard(mpp, index) {
         </div>
       </div>
       <div class="card-divider"></div>
-      <div class="card-stats">
-        <div class="stat"><span class="stat-label">Party</span><span class="stat-value">${mpp.party}</span></div>
-        <div class="stat"><span class="stat-label">Salary</span><span class="stat-value">${formatCurrency(mpp.salary)}</span></div>
-        <div class="stat"><span class="stat-label">Benefits</span><span class="stat-value">${formatCurrency(mpp.benefits)}</span></div>
-        <div class="stat"><span class="stat-label">Voting Alignment</span><span class="stat-value highlight ${ac}">${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</span></div>
-      </div>
+      <div class="card-stats">${stats.join('')}</div>
       <div class="voting-section">
         <button class="voting-toggle" aria-expanded="false"><span>Voting History</span><span class="chevron">▼</span></button>
         <div class="voting-list">${featuredVotes}</div>
@@ -153,18 +170,30 @@ function renderCard(mpp, index) {
 
 function renderTable(mpps) {
   const billHeaders = mpps[0]?.votes || [];
-  const headerCells = ['<th>Name</th>', '<th>Party</th>', '<th>Riding</th>', '<th>Salary</th>', '<th>Benefits</th>', '<th>Alignment</th>', ...billHeaders.map(v => `<th>${billLink(v, 'bill-link-header')}</th>`)].join('');
+  const cols = [
+    '<th>Name</th>',
+    '<th>Party</th>',
+    '<th>Riding</th>',
+  ];
+  if (showField('salary')) cols.push('<th>Salary</th>');
+  if (showField('benefits')) cols.push('<th>Benefits</th>');
+  if (showField('votingAlignment')) cols.push('<th>Alignment</th>');
+  cols.push(...billHeaders.map(v => `<th>${billLink(v, 'bill-link-header')}</th>`));
+
   const rows = mpps.map(mpp => {
     const voteCells = mpp.votes.map(v => {
       const cls = v.yes === true ? 'yes' : v.yes === false ? 'no' : 'na';
       return `<td class="vote-cell ${cls}">${v.display}</td>`;
     }).join('');
+    const mid = [];
+    if (showField('salary')) mid.push(`<td>${formatCurrency(mpp.salary)}</td>`);
+    if (showField('benefits')) mid.push(`<td>${formatCurrency(mpp.benefits)}</td>`);
+    if (showField('votingAlignment')) mid.push(`<td>${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</td>`);
     return `<tr>
       <td class="name-cell">${renderAvatar(mpp, 'table-avatar')}<span>${mpp.name}</span></td><td>${mpp.party}</td><td>${mpp.riding || '—'}</td>
-      <td>${formatCurrency(mpp.salary)}</td><td>${formatCurrency(mpp.benefits)}</td>
-      <td>${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</td>${voteCells}</tr>`;
+      ${mid.join('')}${voteCells}</tr>`;
   }).join('');
-  return `<div class="table-wrapper"><table class="data-table"><thead><tr>${headerCells}</tr></thead><tbody>${rows}</tbody></table></div>`;
+  return `<div class="table-wrapper"><table class="data-table"><thead><tr>${cols.join('')}</tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
 function filterMpps(query, party) {
@@ -324,6 +353,7 @@ async function init() {
     const payload = await (await fetch('data/mpps.json')).json();
     allMpps = payload.mpps;
     billsMeta = payload.bills || [];
+    if (payload.display) display = { ...display, ...payload.display };
     document.getElementById('loading').style.display = 'none';
     document.getElementById('main-content').style.display = 'block';
     renderIntroStats();

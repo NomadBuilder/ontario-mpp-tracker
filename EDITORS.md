@@ -12,7 +12,24 @@ Keep the sheet shared as **Anyone with the link can view** so the website can do
 
 1. **Current Ontarios MPPs** — name, roles, party, riding, email, phone  
 2. **How They Voted** — salary, benefits, party, and Aye / Nay / No Show / N/A for each bill  
-3. **How OAC Score Works** — notes only (not shown on the site)
+3. **How OAC Score Works** — notes only (not shown on the site)  
+4. **Display Settings** — turn site fields on/off without changing the data
+
+### Show or hide fields on the website
+
+Add a tab named **Display Settings** (exact name) with two columns:
+
+| Field | Show |
+| --- | --- |
+| salary | No |
+| benefits | No |
+| votingAlignment | No |
+
+Use **Yes** or **No** in the Show column. Right now salary, benefits, and voting alignment are hidden by default even if this tab is missing — change a row to **Yes** when you want that field back on the cards and tables.
+
+Accepted field names: `salary`, `benefits`, `votingAlignment` (also works: `alignment`, `Voting Alignment`).
+
+Data stays in the other tabs either way — this only controls what the public site shows.
 
 ### Add a new MPP
 

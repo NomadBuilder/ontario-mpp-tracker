@@ -15,6 +15,24 @@ PHOTOS = ROOT / "data" / "photos.json"
 OLA_BILL_BASE = "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1"
 FEATURED = {"Bill 5", "Bill 17", "Bill 24", "Bill 48", "Bill 60", "Bill 68", "Bill 97"}
 
+# Site display toggles — overridden by a "Display Settings" sheet tab when present.
+# Yes/No (or true/false/1/0/show/hide) in column B. Unknown fields are ignored.
+DEFAULT_DISPLAY = {
+    "salary": False,
+    "benefits": False,
+    "votingAlignment": False,
+}
+
+DISPLAY_ALIASES = {
+    "salary": "salary",
+    "benefits": "benefits",
+    "benefit": "benefits",
+    "votingalignment": "votingAlignment",
+    "voting alignment": "votingAlignment",
+    "alignment": "votingAlignment",
+    "party alignment": "votingAlignment",
+}
+
 
 def get_xlsx_path() -> Path:
     import argparse
@@ -92,6 +110,49 @@ def lookup_photo(name: str, by_slug: dict, by_name: dict) -> tuple[str | None, s
     return None, f"https://www.ola.org/en/members/all/{slug}"
 
 
+def parse_show_value(raw) -> bool | None:
+    if raw is None:
+        return None
+    if isinstance(raw, bool):
+        return raw
+    s = str(raw).strip().lower()
+    if s in {"yes", "y", "true", "1", "show", "on"}:
+        return True
+    if s in {"no", "n", "false", "0", "hide", "off"}:
+        return False
+    return None
+
+
+def load_display_settings(wb) -> dict:
+    """Read optional 'Display Settings' tab: Field | Show (Yes/No)."""
+    display = dict(DEFAULT_DISPLAY)
+    sheet_name = next(
+        (n for n in wb.sheetnames if n.strip().lower() in {"display settings", "display", "site settings"}),
+        None,
+    )
+    if not sheet_name:
+        print("No Display Settings tab — using defaults:", display)
+        return display
+
+    ws = wb[sheet_name]
+    for row in ws.iter_rows(min_row=1, max_col=2, values_only=True):
+        if not row or not row[0]:
+            continue
+        field_raw = str(row[0]).strip()
+        key_norm = re.sub(r"\s+", " ", field_raw).lower()
+        if key_norm in {"field", "setting", "name", "column"}:
+            continue
+        key = DISPLAY_ALIASES.get(key_norm) or DISPLAY_ALIASES.get(key_norm.replace(" ", ""))
+        if not key:
+            continue
+        show = parse_show_value(row[1] if len(row) > 1 else None)
+        if show is not None:
+            display[key] = show
+
+    print(f"Display Settings ({sheet_name}): {display}")
+    return display
+
+
 def find_header_row(ws) -> int:
     """Locate the row that starts with 'MPP Name' (handles inserted date rows)."""
     for r in range(1, 20):
@@ -121,6 +182,7 @@ def main() -> None:
 
     by_slug, by_name = load_photos()
     wb = openpyxl.load_workbook(xlsx_path, data_only=True)
+    display = load_display_settings(wb)
 
     # Optional contact/roles sheet
     mpp_info = {}
@@ -287,6 +349,7 @@ def main() -> None:
     OUTPUT.parent.mkdir(exist_ok=True)
     with open(OUTPUT, "w") as f:
         json.dump({
+            "display": display,
             "featuredBills": sorted(FEATURED, key=lambda x: int(x.split()[1]) if x.startswith("Bill ") else 999),
             "bills": bills_meta,
             "mpps": mpps,

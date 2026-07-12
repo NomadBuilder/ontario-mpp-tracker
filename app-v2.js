@@ -18,6 +18,15 @@ let activeTab = 'reps';       // reps | bills | table
 let activeFilter = 'all';
 let selectedBill = FEATURED_BILLS[0];
 let mobileShowDetail = false;
+let display = {
+  salary: false,
+  benefits: false,
+  votingAlignment: false,
+};
+
+function showField(key) {
+  return display[key] !== false;
+}
 
 function formatCurrency(n) {
   return n == null ? '—' : '$' + n.toLocaleString('en-CA');
@@ -189,7 +198,9 @@ function renderMasterList() {
   list.innerHTML = filteredMpps.map(m => {
     const p = getPartyInfo(m.party);
     const sel = selectedMpp && mppKey(selectedMpp) === mppKey(m);
-    const align = m.votingAlignment != null ? `${m.votingAlignment}%` : '—';
+    const align = showField('votingAlignment') && m.votingAlignment != null
+      ? `${m.votingAlignment}%`
+      : null;
     return `
       <li class="master-item party-${p.slug}${sel ? ' selected' : ''}"
           role="option" aria-selected="${sel}"
@@ -199,7 +210,7 @@ function renderMasterList() {
           <span class="master-name">${m.name}</span>
           <span class="master-meta">${m.riding || '—'} · ${p.label}</span>
         </span>
-        <span class="master-align ${alignmentClass(m.votingAlignment)}">${align}</span>
+        ${align != null ? `<span class="master-align ${alignmentClass(m.votingAlignment)}">${align}</span>` : ''}
       </li>`;
   }).join('');
 
@@ -221,6 +232,10 @@ function renderDetailEmpty() {
 function renderDetail(m) {
   const p = getPartyInfo(m.party);
   const alignCls = alignmentClass(m.votingAlignment);
+  const showAlign = showField('votingAlignment');
+  const showSalary = showField('salary');
+  const showBenefits = showField('benefits');
+  const showComp = showSalary || showBenefits;
 
   const voteRows = m.votes.map(v => `
     <tr class="vote-row-${voteClass(v)}">
@@ -243,22 +258,24 @@ function renderDetail(m) {
           <p>${m.riding || '—'}</p>
           <span class="detail-party">${m.party}</span>
         </div>
+        ${showAlign ? `
         <div class="detail-align-badge ${alignCls}">
           <span class="detail-align-num">${m.votingAlignment != null ? m.votingAlignment + '%' : '—'}</span>
           <span class="detail-align-label">Party alignment</span>
-        </div>
+        </div>` : ''}
       </header>
 
       <div class="detail-sections">
+        ${showComp ? `
         <section class="detail-section">
           <h3>Compensation</h3>
           <dl class="detail-dl">
-            <div><dt>Salary</dt><dd>${formatCurrency(m.salary)}</dd></div>
-            <div><dt>Benefits</dt><dd>${formatCurrency(m.benefits)}</dd></div>
-            ${m.asOf ? `<div><dt>As of</dt><dd>${m.asOf}</dd></div>` : ''}
+            ${showSalary ? `<div><dt>Salary</dt><dd>${formatCurrency(m.salary)}</dd></div>` : ''}
+            ${showBenefits ? `<div><dt>Benefits</dt><dd>${formatCurrency(m.benefits)}</dd></div>` : ''}
+            ${showSalary && m.asOf ? `<div><dt>As of</dt><dd>${m.asOf}</dd></div>` : ''}
             ${m.oacScore > 0 ? `<div><dt>OAC Score</dt><dd class="accent">${m.oacScore}</dd></div>` : ''}
           </dl>
-        </section>
+        </section>` : ''}
 
         <section class="detail-section detail-section-wide">
           <h3>Key votes</h3>
@@ -422,26 +439,36 @@ function renderBillsPanel() {
 function renderTablePanel() {
   const panel = document.getElementById('panel-table');
   const bills = allBills;
+  const midHeaders = [];
+  if (showField('salary')) midHeaders.push('<th>Salary</th>');
+  if (showField('benefits')) midHeaders.push('<th>Benefits</th>');
+  if (showField('votingAlignment')) midHeaders.push('<th>Align</th>');
+
   panel.innerHTML = `
     <p class="table-intro">Complete dataset for all ${allMpps.length} MPPs. Scroll horizontally for bill columns.</p>
     <div class="table-wrap">
       <table class="v2-table">
         <thead><tr>
-          <th>Name</th><th>Party</th><th>Riding</th><th>Salary</th><th>Align</th>
+          <th>Name</th><th>Party</th><th>Riding</th>${midHeaders.join('')}
           ${bills.map(b => {
             const v = allMpps[0]?.votes.find(x => x.bill === b);
             return `<th>${v ? billLink(v, 'bill-link-header') : b}</th>`;
           }).join('')}
         </tr></thead>
-        <tbody>${allMpps.map(m => `
+        <tbody>${allMpps.map(m => {
+          const mid = [];
+          if (showField('salary')) mid.push(`<td>${formatCurrency(m.salary)}</td>`);
+          if (showField('benefits')) mid.push(`<td>${formatCurrency(m.benefits)}</td>`);
+          if (showField('votingAlignment')) mid.push(`<td>${m.votingAlignment != null ? m.votingAlignment + '%' : '—'}</td>`);
+          return `
           <tr>
             <td class="name-col"><button class="table-name-link" data-key="${mppKey(m)}">${renderAvatar(m, 'table-avatar')}<span>${m.name}</span></button></td>
             <td>${getPartyInfo(m.party).label}</td>
             <td>${m.riding || '—'}</td>
-            <td>${formatCurrency(m.salary)}</td>
-            <td>${m.votingAlignment != null ? m.votingAlignment + '%' : '—'}</td>
+            ${mid.join('')}
             ${m.votes.map(v => `<td class="${voteClass(v)}">${v.display}</td>`).join('')}
-          </tr>`).join('')}
+          </tr>`;
+        }).join('')}
         </tbody>
       </table>
     </div>`;
@@ -460,6 +487,7 @@ async function init() {
     const data = await (await fetch('data/mpps.json')).json();
     allMpps = data.mpps;
     billsMeta = data.bills || [];
+    if (data.display) display = { ...display, ...data.display };
     allBills = billsMeta.length ? billsMeta.map(b => b.id) : (allMpps[0]?.votes.map(v => v.bill) || []);
     filteredMpps = [...allMpps];
     selectedMpp = allMpps[0];
