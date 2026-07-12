@@ -17,6 +17,8 @@ let display = {
   votingAlignment: false,
 };
 let activeFilter = 'all';
+/** @type {{ mpp: object, postal: string, city?: string, riding?: string, warning?: string } | null} */
+let activePostal = null;
 /** @type {Record<string, 'yes'|'no'|'noshow'|'na'>} */
 let voteFilters = {};
 
@@ -199,15 +201,15 @@ function renderYourMpp(mpp, meta = {}) {
   const where = [meta.postal, meta.city, meta.riding].filter(Boolean).join(' · ');
 
   return `
-    <div class="postal-result-head">
+    <div class="search-result-head">
       <div>
-        <p class="postal-result-eyebrow">Your MPP</p>
-        <p class="postal-result-meta">${where}</p>
-        ${meta.warning ? `<p class="postal-result-warning">${meta.warning}</p>` : ''}
+        <p class="search-result-eyebrow">Your MPP</p>
+        <p class="search-result-meta">${where}</p>
+        ${meta.warning ? `<p class="search-result-warning">${meta.warning}</p>` : ''}
       </div>
-      <button type="button" class="postal-clear" id="postal-clear">Clear</button>
+      <button type="button" class="search-clear" id="postal-clear">Clear</button>
     </div>
-    <article class="mpp-card postal-mpp-card">
+    <article class="mpp-card search-mpp-card">
       <div class="card-header">
         <div class="card-name-row">
           ${renderAvatar(mpp, 'card-avatar')}
@@ -239,46 +241,42 @@ function wireVotingToggles(root = document) {
   });
 }
 
-function setPostalStatus(message, type = '') {
-  const el = document.getElementById('postal-status');
+function looksLikePostalInput(raw) {
+  const n = window.MppShared.normalizePostal(raw);
+  return n.length > 0 && /^[ABCEGHJ-NPRSTVXY]/i.test(n);
+}
+
+function setSearchStatus(message, type = '') {
+  const el = document.getElementById('search-status');
   if (!message) {
     el.hidden = true;
     el.textContent = '';
-    el.className = 'postal-status';
+    el.className = 'search-status';
     return;
   }
   el.hidden = false;
   el.textContent = message;
-  el.className = `postal-status${type ? ` is-${type}` : ''}`;
+  el.className = `search-status${type ? ` is-${type}` : ''}`;
 }
 
-function clearPostalResult() {
-  const result = document.getElementById('postal-result');
+function clearPostalMatch() {
+  activePostal = null;
+  const result = document.getElementById('search-result');
   result.hidden = true;
   result.innerHTML = '';
-  setPostalStatus('');
+  setSearchStatus('');
 }
 
-async function handlePostalLookup(event) {
-  event.preventDefault();
-  const input = document.getElementById('postal-input');
-  const submit = document.getElementById('postal-submit');
-  const result = document.getElementById('postal-result');
-
-  input.value = window.MppShared.formatPostal(input.value);
-  clearPostalResult();
-  setPostalStatus('Looking up your MPP…', 'loading');
-  submit.disabled = true;
-
-  const lookup = await window.MppShared.lookupMppByPostal(input.value, allMpps);
-  submit.disabled = false;
-
-  if (!lookup.ok) {
-    setPostalStatus(lookup.error, 'error');
-    return;
-  }
-
-  setPostalStatus(lookup.warning || '', lookup.warning ? 'warning' : '');
+function showPostalMatch(lookup) {
+  activePostal = {
+    mpp: lookup.mpp,
+    postal: lookup.postal,
+    city: lookup.city,
+    riding: lookup.riding,
+    warning: lookup.warning,
+  };
+  setSearchStatus(lookup.warning || '', lookup.warning ? 'warning' : '');
+  const result = document.getElementById('search-result');
   result.hidden = false;
   result.innerHTML = renderYourMpp(lookup.mpp, {
     postal: lookup.postal,
@@ -288,29 +286,71 @@ async function handlePostalLookup(event) {
   });
   wireVotingToggles(result);
   document.getElementById('postal-clear').onclick = () => {
-    clearPostalResult();
-    input.focus();
+    clearPostalMatch();
+    document.getElementById('search').value = '';
+    document.getElementById('search').focus();
+    updateView();
   };
-  result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
-function setupPostalLookup() {
-  const form = document.getElementById('postal-form');
-  const input = document.getElementById('postal-input');
+async function runPostalLookup(raw) {
+  const input = document.getElementById('search');
+  input.value = window.MppShared.formatPostal(raw);
+  clearPostalMatch();
+  setSearchStatus('Looking up your MPP…', 'loading');
+
+  const lookup = await window.MppShared.lookupMppByPostal(input.value, allMpps);
+  if (!lookup.ok) {
+    setSearchStatus(lookup.error, 'error');
+    updateView();
+    return;
+  }
+
+  showPostalMatch(lookup);
+  updateView();
+  document.getElementById('search-result').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+function setupSearch() {
+  const form = document.getElementById('search-form');
+  const input = document.getElementById('search');
   if (!form || !input) return;
 
   input.addEventListener('input', () => {
-    const start = input.selectionStart;
     const before = input.value;
-    const formatted = window.MppShared.formatPostal(before);
-    if (formatted !== before) {
-      input.value = formatted;
-      const delta = formatted.length - before.length;
-      input.setSelectionRange(start + delta, start + delta);
+    if (looksLikePostalInput(before)) {
+      const formatted = window.MppShared.formatPostal(before);
+      if (formatted !== before) {
+        const start = input.selectionStart;
+        input.value = formatted;
+        const delta = formatted.length - before.length;
+        input.setSelectionRange(start + delta, start + delta);
+      }
+    }
+
+    if (activePostal && window.MppShared.normalizePostal(input.value) !== window.MppShared.normalizePostal(activePostal.postal)) {
+      clearPostalMatch();
+    } else if (!window.MppShared.isValidPostal(input.value)) {
+      setSearchStatus('');
+    }
+
+    updateView();
+  });
+
+  input.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    if (window.MppShared.isValidPostal(input.value)) {
+      e.preventDefault();
+      runPostalLookup(input.value);
     }
   });
 
-  form.addEventListener('submit', handlePostalLookup);
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (window.MppShared.isValidPostal(input.value)) {
+      runPostalLookup(input.value);
+    }
+  });
 }
 
 function renderTable(mpps) {
@@ -342,10 +382,12 @@ function renderTable(mpps) {
 }
 
 function filterMpps(query, party) {
-  return allMpps.filter(mpp => {
+  const pool = activePostal ? [activePostal.mpp] : allMpps;
+  return pool.filter(mpp => {
     const matchesParty = party === 'all' || mpp.party === party;
     const q = query.toLowerCase().trim();
-    const matchesQuery = !q
+    const matchesQuery = activePostal
+      || !q
       || mpp.name.toLowerCase().includes(q)
       || (mpp.riding && mpp.riding.toLowerCase().includes(q))
       || mpp.party.toLowerCase().includes(q);
@@ -497,10 +539,9 @@ async function init() {
     renderIntroStats();
     setupFilters();
     setupCampaignFilters();
-    setupPostalLookup();
+    setupSearch();
     document.querySelectorAll('.view-btn').forEach(btn => { btn.onclick = () => setView(btn.dataset.view); });
     updateView();
-    document.getElementById('search').addEventListener('input', updateView);
   } catch (err) {
     document.getElementById('loading').innerHTML = '<p>Failed to load MPP data.</p>';
     console.error(err);
