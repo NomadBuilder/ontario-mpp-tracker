@@ -41,9 +41,9 @@
             <h2>How to use this</h2>
             <ol class="howto-steps">
               <li><strong>Find your MPP</strong> — search by name or riding, or filter by party.</li>
-              <li><strong>Open a card</strong> — salary, benefits, and party alignment at a glance.</li>
-              <li><strong>Check voting history</strong> — expand any card to see how they voted on key bills.</li>
-              <li><strong>Need everything?</strong> — switch to the full data table when you're ready.</li>
+              <li><strong>Campaign filters</strong> — show only MPPs who voted a certain way on key bills (e.g. Yes on Bill 5 and Bill 97).</li>
+              <li><strong>Open a card</strong> — salary, benefits, and voting history at a glance.</li>
+              <li><strong>Take action</strong> — email or call from the card, or switch to the full data table.</li>
             </ol>
           </div>
           <div class="view-toggle" role="tablist">
@@ -62,6 +62,19 @@
         </div>
         <div class="filter-group" id="filter-buttons"></div>
         <span class="result-count" id="result-count"></span>
+      </div>
+
+      <div class="campaign-filters" id="campaign-filters" aria-label="Campaign vote filters">
+        <div class="campaign-filters-head">
+          <div>
+            <h2 class="campaign-filters-title">Campaign filters</h2>
+            <p class="campaign-filters-hint">Show MPPs who match <strong>all</strong> selected votes — useful for targeting.</p>
+          </div>
+          <button type="button" class="campaign-clear" id="campaign-clear" hidden>Clear filters</button>
+        </div>
+        <div class="campaign-presets" id="campaign-presets"></div>
+        <div class="campaign-bill-grid" id="campaign-bill-grid"></div>
+        <p class="campaign-summary" id="campaign-summary" hidden></p>
       </div>
 
       <section class="cards-section" id="cards-section">

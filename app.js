@@ -12,6 +12,63 @@ const IS_EMBED = new URLSearchParams(window.location.search).has('embed');
 let allMpps = [];
 let billsMeta = [];
 let activeFilter = 'all';
+/** @type {Record<string, 'yes'|'no'|'noshow'|'na'>} */
+let voteFilters = {};
+
+const VOTE_OPTIONS = [
+  { value: '', label: 'Any' },
+  { value: 'yes', label: 'Yes' },
+  { value: 'no', label: 'No' },
+  { value: 'noshow', label: 'No Show' },
+  { value: 'na', label: 'N/A' },
+];
+
+const CAMPAIGN_PRESETS = [
+  {
+    id: 'yes-5-97',
+    label: 'Yes on Bill 5 + Bill 97',
+    filters: { 'Bill 5': 'yes', 'Bill 97': 'yes' },
+  },
+  {
+    id: 'yes-5',
+    label: 'Yes on Bill 5',
+    filters: { 'Bill 5': 'yes' },
+  },
+  {
+    id: 'no-5',
+    label: 'No on Bill 5',
+    filters: { 'Bill 5': 'no' },
+  },
+  {
+    id: 'yes-60-68',
+    label: 'Yes on Bill 60 + Bill 68',
+    filters: { 'Bill 60': 'yes', 'Bill 68': 'yes' },
+  },
+];
+
+function voteKeyFromDisplay(vote) {
+  if (vote?.yes === true || vote?.display === 'Yes') return 'yes';
+  if (vote?.yes === false || vote?.display === 'No') return 'no';
+  if (vote?.display === 'No Show' || vote?.vote === 'No Show') return 'noshow';
+  return 'na';
+}
+
+function matchesVoteFilters(mpp) {
+  const entries = Object.entries(voteFilters);
+  if (!entries.length) return true;
+  return entries.every(([bill, required]) => {
+    const v = getVoteForBill(mpp, bill);
+    return voteKeyFromDisplay(v) === required;
+  });
+}
+
+function activeVoteFilterCount() {
+  return Object.keys(voteFilters).length;
+}
+
+function voteFilterLabel(key) {
+  return VOTE_OPTIONS.find(o => o.value === key)?.label || key;
+}
 
 function formatCurrency(amount) {
   if (amount == null) return '—';
@@ -114,7 +171,11 @@ function filterMpps(query, party) {
   return allMpps.filter(mpp => {
     const matchesParty = party === 'all' || mpp.party === party;
     const q = query.toLowerCase().trim();
-    return matchesParty && (!q || mpp.name.toLowerCase().includes(q) || (mpp.riding && mpp.riding.toLowerCase().includes(q)) || mpp.party.toLowerCase().includes(q));
+    const matchesQuery = !q
+      || mpp.name.toLowerCase().includes(q)
+      || (mpp.riding && mpp.riding.toLowerCase().includes(q))
+      || mpp.party.toLowerCase().includes(q);
+    return matchesParty && matchesQuery && matchesVoteFilters(mpp);
   });
 }
 
@@ -142,12 +203,89 @@ function setView(view) {
   });
 }
 
+function updateCampaignSummary(filteredCount) {
+  const summary = document.getElementById('campaign-summary');
+  const clearBtn = document.getElementById('campaign-clear');
+  const n = activeVoteFilterCount();
+  clearBtn.hidden = n === 0;
+  if (n === 0) {
+    summary.hidden = true;
+    summary.textContent = '';
+    return;
+  }
+  const parts = Object.entries(voteFilters).map(
+    ([bill, key]) => `${voteFilterLabel(key)} on ${bill}`
+  );
+  summary.hidden = false;
+  summary.textContent = `Matching ${parts.join(' + ')} · ${filteredCount} MPP${filteredCount === 1 ? '' : 's'}`;
+}
+
+function applyVoteFilters(next) {
+  voteFilters = { ...next };
+  Object.keys(voteFilters).forEach(k => {
+    if (!voteFilters[k]) delete voteFilters[k];
+  });
+
+  document.querySelectorAll('.campaign-bill-select').forEach(sel => {
+    sel.value = voteFilters[sel.dataset.bill] || '';
+  });
+
+  document.querySelectorAll('.campaign-preset').forEach(btn => {
+    const preset = CAMPAIGN_PRESETS.find(p => p.id === btn.dataset.preset);
+    const active = preset && JSON.stringify(preset.filters) === JSON.stringify(voteFilters);
+    btn.classList.toggle('active', Boolean(active));
+  });
+
+  updateView();
+}
+
+function setupCampaignFilters() {
+  const grid = document.getElementById('campaign-bill-grid');
+  const presets = document.getElementById('campaign-presets');
+
+  presets.innerHTML = CAMPAIGN_PRESETS.map(p =>
+    `<button type="button" class="campaign-preset" data-preset="${p.id}">${p.label}</button>`
+  ).join('');
+
+  presets.querySelectorAll('.campaign-preset').forEach(btn => {
+    btn.onclick = () => {
+      const preset = CAMPAIGN_PRESETS.find(p => p.id === btn.dataset.preset);
+      if (!preset) return;
+      const same = JSON.stringify(preset.filters) === JSON.stringify(voteFilters);
+      applyVoteFilters(same ? {} : { ...preset.filters });
+    };
+  });
+
+  grid.innerHTML = FEATURED_BILLS.map(bill => `
+    <label class="campaign-bill">
+      <span class="campaign-bill-name">${bill}</span>
+      <select class="campaign-bill-select" data-bill="${bill}" aria-label="Vote filter for ${bill}">
+        ${VOTE_OPTIONS.map(o => `<option value="${o.value}">${o.label}</option>`).join('')}
+      </select>
+    </label>
+  `).join('');
+
+  grid.querySelectorAll('.campaign-bill-select').forEach(sel => {
+    sel.onchange = () => {
+      const next = { ...voteFilters };
+      if (sel.value) next[sel.dataset.bill] = sel.value;
+      else delete next[sel.dataset.bill];
+      applyVoteFilters(next);
+    };
+  });
+
+  document.getElementById('campaign-clear').onclick = () => applyVoteFilters({});
+}
+
 function updateView() {
   const filtered = filterMpps(document.getElementById('search').value, activeFilter);
   const grid = document.getElementById('cards-grid');
-  grid.innerHTML = filtered.length ? filtered.map((m, i) => renderCard(m, i)).join('') : '<p class="no-results">No MPPs match your search.</p>';
+  grid.innerHTML = filtered.length
+    ? filtered.map((m, i) => renderCard(m, i)).join('')
+    : '<p class="no-results">No MPPs match your search and campaign filters.</p>';
   document.getElementById('result-count').textContent = `${filtered.length} of ${allMpps.length} MPPs`;
   document.getElementById('table-container').innerHTML = renderTable(filtered);
+  updateCampaignSummary(filtered.length);
   document.querySelectorAll('.voting-toggle').forEach(btn => {
     btn.onclick = () => {
       const list = btn.nextElementSibling;
@@ -190,6 +328,7 @@ async function init() {
     document.getElementById('main-content').style.display = 'block';
     renderIntroStats();
     setupFilters();
+    setupCampaignFilters();
     document.querySelectorAll('.view-btn').forEach(btn => { btn.onclick = () => setView(btn.dataset.view); });
     updateView();
     document.getElementById('search').addEventListener('input', updateView);

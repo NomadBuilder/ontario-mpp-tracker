@@ -356,6 +356,145 @@ body.embed-mode .site-footer {
   margin-left: auto;
 }
 
+/* Campaign filters */
+.campaign-filters {
+  max-width: var(--content-width);
+  margin: 0 auto 0.5rem;
+  padding: 0 1.5rem 1rem;
+}
+
+.campaign-filters-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+}
+
+.campaign-filters-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-yellow);
+  margin-bottom: 0.25rem;
+}
+
+.campaign-filters-hint {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+.campaign-filters-hint strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.campaign-clear {
+  flex-shrink: 0;
+  padding: 0.45rem 0.85rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  color: var(--text-muted);
+  font-family: var(--font);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.campaign-clear:hover {
+  border-color: var(--accent-yellow);
+  color: var(--accent-yellow);
+}
+
+.campaign-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 0.85rem;
+}
+
+.campaign-preset {
+  padding: 0.45rem 0.85rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  color: var(--text-muted);
+  font-family: var(--font);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.campaign-preset:hover {
+  border-color: var(--text-muted);
+  color: var(--text);
+}
+
+.campaign-preset.active {
+  background: rgba(255, 199, 69, 0.15);
+  border-color: var(--accent-yellow);
+  color: var(--accent-yellow);
+}
+
+.campaign-bill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.65rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+.campaign-bill {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.campaign-bill-name {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-dim);
+}
+
+.campaign-bill-select {
+  width: 100%;
+  padding: 0.5rem 0.65rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+
+.campaign-bill-select:focus {
+  outline: none;
+  border-color: var(--accent-yellow);
+}
+
+.campaign-summary {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--accent-yellow);
+  font-weight: 500;
+}
+
+body.embed-mode .campaign-filters {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 /* Cards Grid */
 .cards-section {
   max-width: var(--content-width);
@@ -879,6 +1018,19 @@ body.embed-mode .site-footer {
   .filter-group {
     width: 100%;
     justify-content: flex-start;
+  }
+
+  .campaign-filters {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .campaign-filters-head {
+    flex-direction: column;
+  }
+
+  .campaign-bill-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .result-count {
