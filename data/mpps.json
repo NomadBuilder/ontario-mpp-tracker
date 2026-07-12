@@ -17,12 +17,12 @@
     },
     {
       "id": "Bill 97",
-      "label": "Bill 97 (FOI + OSAP)",
+      "label": "Bill 97",
       "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
       "featured": true
     },
     {
-      "id": "Ban Surveillance Pricing ",
+      "id": "Ban Surveillance Pricing",
       "label": "Ban Surveillance Pricing",
       "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
       "featured": false
@@ -129,14 +129,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -147,8 +147,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -203,16 +203,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -269,14 +269,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -397,26 +397,26 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/teresa_armstrong.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/teresa-j-armstrong",
-      "votingAlignment": 92,
+      "votingAlignment": 100,
       "votes": [
         {
           "bill": "Bill 5",
           "billFull": "Bill 5",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-5",
-          "vote": "Aye",
-          "display": "Yes",
-          "yes": true
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -491,8 +491,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -549,14 +549,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -607,8 +607,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -689,14 +689,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -707,24 +707,24 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 17",
           "billFull": "Bill 17",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -747,16 +747,16 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -771,8 +771,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -787,8 +787,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -829,14 +829,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -954,7 +954,7 @@
       "riding": "Pickering\u2014Uxbridge",
       "roles": "Minister of Finance",
       "phone": "905-509-0336",
-      "oacScore": 1,
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/peter_bethlenfalvy.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/peter-bethlenfalvy",
       "votingAlignment": 100,
@@ -969,14 +969,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -987,8 +987,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1003,8 +1003,8 @@
           "bill": "Bill 17",
           "billFull": "Bill 17",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1035,8 +1035,8 @@
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1051,16 +1051,16 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1109,14 +1109,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -1135,8 +1135,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1183,16 +1183,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1234,7 +1234,7 @@
       "riding": "Brantford\u2014Brant",
       "roles": "Government Caucus Chair | Parliamentary Assistant to the Minister of Indigenous Affairs and First Nations Economic Reconciliation |  Parliamentary Assistant to the Minister of Intergovernmental Affairs | Minister of Northern Economic Development and Growth | Parliamentary Assistant to the Premier",
       "phone": "519-759-0361",
-      "oacScore": 1,
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/will_bouma.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/will-bouma",
       "votingAlignment": 100,
@@ -1249,14 +1249,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -1275,8 +1275,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1389,14 +1389,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -1471,8 +1471,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1529,14 +1529,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -1587,8 +1587,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1603,16 +1603,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1669,14 +1669,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -1687,8 +1687,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1751,8 +1751,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1809,14 +1809,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -1891,8 +1891,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -1949,14 +1949,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -1967,8 +1967,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2031,16 +2031,16 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2074,7 +2074,7 @@
       "riding": "Markham\u2014Stouffville",
       "roles": "Minister of Education",
       "phone": "905-642-2588",
-      "oacScore": 1,
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/paul_calandra_v2.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/paul-calandra",
       "votingAlignment": 100,
@@ -2089,14 +2089,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -2107,9 +2107,9 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "#VALUE!",
-          "display": "N/A",
-          "yes": null
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         },
         {
           "bill": "Bill 100",
@@ -2229,14 +2229,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -2247,16 +2247,16 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2303,16 +2303,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2369,14 +2369,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -2435,8 +2435,8 @@
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2459,16 +2459,16 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2509,14 +2509,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -2551,8 +2551,8 @@
           "bill": "Bill 60",
           "billFull": "Bill 60",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-60",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2567,8 +2567,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2649,14 +2649,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -2667,8 +2667,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2723,16 +2723,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2773,7 +2773,7 @@
       "raisePct": 0.29,
       "riding": "Kitchener Centre",
       "roles": "Member, Standing Committee on Social Policy",
-      "phone": "519-579-5460  ",
+      "phone": "519-579-5460",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Aislinn_Clancy.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/aislinn-clancy",
@@ -2789,14 +2789,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -2807,8 +2807,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2887,8 +2887,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -2929,14 +2929,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -3069,14 +3069,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -3159,8 +3159,8 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -3209,14 +3209,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -3235,8 +3235,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -3259,8 +3259,8 @@
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -3283,16 +3283,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -3349,14 +3349,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -3367,8 +3367,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -3423,16 +3423,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -3489,14 +3489,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -3614,7 +3614,7 @@
       "riding": "Mississauga\u2014Lakeshore",
       "roles": "Parliamentary Assistant to the Minister of Energy and Mines ",
       "phone": "905-274-8228",
-      "oacScore": 1,
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Rudy_Cuzzetto.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/rudy-cuzzetto",
       "votingAlignment": 100,
@@ -3629,14 +3629,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -3769,14 +3769,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -3787,8 +3787,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -3803,8 +3803,8 @@
           "bill": "Bill 17",
           "billFull": "Bill 17",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -3835,24 +3835,24 @@
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -3867,8 +3867,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -3909,14 +3909,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -3927,8 +3927,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -3983,16 +3983,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -4049,14 +4049,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -4075,8 +4075,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -4189,14 +4189,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -4329,14 +4329,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -4427,8 +4427,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -4469,14 +4469,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -4495,8 +4495,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -4527,8 +4527,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -4593,7 +4593,7 @@
       "raisePct": null,
       "riding": "Etobicoke\u2014Lakeshore",
       "roles": "Critic, Addictions and Homelessness | Critic, Hospitals | Critic, Mental Health | Second Vice-Chair, Standing Committee on Public Accounts",
-      "phone": "416-259-2249  ",
+      "phone": "416-259-2249",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Lee-Fairclough.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/lee-fairclough",
@@ -4609,14 +4609,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -4627,16 +4627,16 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -4683,16 +4683,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -4749,14 +4749,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -4767,16 +4767,16 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -4791,16 +4791,16 @@
           "bill": "Bill 60",
           "billFull": "Bill 60",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-60",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -4847,8 +4847,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -4889,14 +4889,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -5013,7 +5013,7 @@
       "raisePct": null,
       "riding": "York South\u2014Weston",
       "roles": "Parliamentary Assistant to the Minister of Labour, Immigration, Training and Skills Development | Parliamentary Assistant to the Minister of Tourism, Culture and Gaming | Member of the Standing Committee on Government Agencies | Member of the Standing Committee on Public Accounts",
-      "phone": " 416-243-7984",
+      "phone": "416-243-7984",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Mohamed-Firin_1.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/mohamed-firin",
@@ -5029,14 +5029,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -5047,8 +5047,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -5103,16 +5103,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -5169,14 +5169,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -5195,8 +5195,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -5294,7 +5294,7 @@
       "riding": "Etobicoke North",
       "roles": "Leader, Progressive Conservative Party of Ontario | Minister of Intergovernmental Affairs | Premier",
       "phone": "416-745-2859",
-      "oacScore": 1,
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/doug_ford.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/doug-ford",
       "votingAlignment": 100,
@@ -5309,14 +5309,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -5327,8 +5327,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -5367,8 +5367,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -5383,8 +5383,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -5399,16 +5399,16 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -5434,7 +5434,7 @@
       "riding": "Ottawa South",
       "roles": "Critic, Education | Critic Labour | Leader, Third Party",
       "phone": "613-736-9573",
-      "oacScore": 3,
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/john_fraser.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/john-fraser",
       "votingAlignment": 100,
@@ -5449,14 +5449,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -5539,8 +5539,8 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -5573,7 +5573,7 @@
       "raisePct": 0.259,
       "riding": "Oshawa",
       "roles": "Critic, Infrastructure | Critic Transportation | First Deputy Chair of the Committee of the Whole House",
-      "phone": " 905-723-2411",
+      "phone": "905-723-2411",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jennifer_French.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/jennifer-k-french",
@@ -5589,14 +5589,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -5639,16 +5639,16 @@
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -5713,7 +5713,7 @@
       "raisePct": 0.38,
       "riding": "Niagara Falls",
       "roles": "Critic, Long Term Care Homecare and Retirement Homes | Second Vice-Chair, Standing Committee on Government Agencies",
-      "phone": "905-871-8868 ",
+      "phone": "905-871-8868",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/wayne_gates_0.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/wayne-gates",
@@ -5729,14 +5729,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -5854,7 +5854,7 @@
       "riding": "Parkdale\u2014High Park",
       "roles": "Critic, Citizenship, Multiculturalism and Ontario Autism Program | Critic, Women\u2019s Social and Economic Opportunity | Member of the Standing Committee on Government Agencies",
       "phone": "416-763-5630",
-      "oacScore": 3,
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Alexa-Gilmour.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/alexa-gilmour",
       "votingAlignment": 100,
@@ -5869,14 +5869,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -5887,8 +5887,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -5943,16 +5943,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -5993,8 +5993,8 @@
       "raisePct": 0.29,
       "riding": "Spadina\u2014Fort York",
       "roles": "Critic, Sport, Technology, Innovation and Democratic Reform",
-      "phone": "416-603-9664 ",
-      "oacScore": 4,
+      "phone": "416-603-9664",
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Chris_Glover.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/chris-glover",
       "votingAlignment": 100,
@@ -6009,14 +6009,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -6149,14 +6149,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -6183,8 +6183,8 @@
           "bill": "Bill 17",
           "billFull": "Bill 17",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6215,8 +6215,8 @@
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6231,8 +6231,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6289,14 +6289,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -6323,16 +6323,16 @@
           "bill": "Bill 17",
           "billFull": "Bill 17",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 60",
           "billFull": "Bill 60",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-60",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6347,16 +6347,16 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6379,8 +6379,8 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6429,14 +6429,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -6447,8 +6447,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6503,16 +6503,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6527,8 +6527,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6569,14 +6569,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -6595,8 +6595,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6693,7 +6693,7 @@
       "raisePct": null,
       "riding": "Milton",
       "roles": "Associate Solicitor General for Auto Theft and Bail Reform",
-      "phone": "905-878-1729  ",
+      "phone": "905-878-1729",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Hamid-Zee.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/zee-hamid",
@@ -6709,14 +6709,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -6727,8 +6727,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6791,8 +6791,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6807,8 +6807,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -6849,14 +6849,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -6989,14 +6989,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -7015,32 +7015,32 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 17",
           "billFull": "Bill 17",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 60",
           "billFull": "Bill 60",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-60",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7055,16 +7055,16 @@
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7079,8 +7079,8 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7113,7 +7113,7 @@
       "raisePct": 0.413,
       "riding": "Scarborough\u2014Guildwood",
       "roles": "Critic, Small Business | Critic, Transportation | Critic, Women | Third Deputy Chair of the Committee of the Whole House | Second Vice-Chair, Standing Committee on Social Policy",
-      "phone": "416-281-2787  ",
+      "phone": "416-281-2787",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Andrea_Hazell_2.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/andrea-hazell",
@@ -7129,14 +7129,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -7203,8 +7203,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7219,8 +7219,8 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7254,7 +7254,7 @@
       "riding": "Thunder Bay\u2014Atikokan",
       "roles": "Associate Minister of Forestry and Forest Products",
       "phone": "807-623-6702",
-      "oacScore": 1,
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Kevin_Holland.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/kevin-holland",
       "votingAlignment": 100,
@@ -7269,14 +7269,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -7295,8 +7295,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7351,8 +7351,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7367,8 +7367,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7409,14 +7409,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -7467,8 +7467,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7483,8 +7483,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7533,7 +7533,7 @@
       "raisePct": 0.29,
       "riding": "Dufferin\u2014Caledon",
       "roles": "Deputy Premier | Minister of Health",
-      "phone": "519-941-7751 ",
+      "phone": "519-941-7751",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Sylvia_Jones.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/sylvia-jones",
@@ -7549,14 +7549,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -7567,8 +7567,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7607,8 +7607,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7689,14 +7689,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -7747,8 +7747,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7771,8 +7771,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -7829,14 +7829,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -7953,7 +7953,7 @@
       "raisePct": 0.289,
       "riding": "Markham\u2014Thornhill",
       "roles": "Assistant to the Minister of Red Tape Reduction | Finance and Economic Affairs",
-      "phone": "905-305-1935  ",
+      "phone": "905-305-1935",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Logan_Kanapathi.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/logan-kanapathi",
@@ -7969,14 +7969,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -8109,14 +8109,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -8249,14 +8249,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -8307,8 +8307,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -8389,14 +8389,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -8407,8 +8407,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -8439,8 +8439,8 @@
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -8463,8 +8463,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -8487,8 +8487,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -8529,14 +8529,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -8547,24 +8547,24 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 17",
           "billFull": "Bill 17",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -8595,24 +8595,24 @@
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -8669,14 +8669,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -8767,8 +8767,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -8793,7 +8793,7 @@
       "raisePct": 0.29,
       "riding": "King\u2014Vaughan",
       "roles": "Minister of Energy and Mines",
-      "phone": "647-560-9700 ",
+      "phone": "647-560-9700",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Stephen_Lecce.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/stephen-lecce",
@@ -8809,14 +8809,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -8835,8 +8835,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -8933,7 +8933,7 @@
       "raisePct": null,
       "riding": "Hamilton Centre",
       "roles": "Mental Health, Addictions and Primary Care | Social Policy",
-      "phone": "905-544-9644  ",
+      "phone": "905-544-9644",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Lennox_Robin.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/robin-lennox",
@@ -8949,14 +8949,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -8967,8 +8967,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -8999,8 +8999,8 @@
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9023,24 +9023,24 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9089,14 +9089,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -9115,8 +9115,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9131,8 +9131,8 @@
           "bill": "Bill 60",
           "billFull": "Bill 60",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-60",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9229,14 +9229,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -9255,8 +9255,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9271,16 +9271,16 @@
           "bill": "Bill 60",
           "billFull": "Bill 60",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-60",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9303,8 +9303,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9319,8 +9319,8 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9369,14 +9369,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -9395,8 +9395,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9493,7 +9493,7 @@
       "raisePct": 0.38,
       "riding": "Kanata\u2014Carleton",
       "roles": "Public Safety, Cybersecurity and Crime Prevention | Critic for the Solicitor General | Justice Policy",
-      "phone": "613-599-3000  ",
+      "phone": "613-599-3000",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Karen_McCrimmon2.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/karen-mccrimmon",
@@ -9509,14 +9509,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -9583,8 +9583,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9649,14 +9649,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -9675,8 +9675,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9691,16 +9691,16 @@
           "bill": "Bill 60",
           "billFull": "Bill 60",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-60",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9747,8 +9747,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9789,14 +9789,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -9807,8 +9807,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9863,16 +9863,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -9913,7 +9913,7 @@
       "raisePct": 0.448,
       "riding": "Beaches\u2014East York",
       "roles": "Standing Committee on Government Agencies | Critic for the Emergency Management | Critic for the Environment and Climate",
-      "phone": " 416-690-1032",
+      "phone": "416-690-1032",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Mary_Margaret_McMahon.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/mary-margaret-mcmahon",
@@ -9929,14 +9929,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -10003,8 +10003,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -10054,7 +10054,7 @@
       "riding": "York\u2014Simcoe",
       "roles": "Minister of Francophone Affairs | President of the Treasury Board",
       "phone": "905-895-1555",
-      "oacScore": 1,
+      "oacScore": 0,
       "photo": null,
       "profileUrl": "https://www.ola.org/en/members/all/caroline-mulroney",
       "votingAlignment": 100,
@@ -10069,14 +10069,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -10087,8 +10087,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -10151,8 +10151,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -10209,14 +10209,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -10349,14 +10349,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -10367,8 +10367,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -10489,14 +10489,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -10587,8 +10587,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -10629,14 +10629,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -10727,8 +10727,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -10769,14 +10769,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -10893,8 +10893,8 @@
       "raisePct": 0.29,
       "riding": "Northumberland\u2014Peterborough South",
       "roles": "Minister of Labour, Immigration, Training and Skills Development",
-      "phone": " 905-372-4000",
-      "oacScore": 1,
+      "phone": "905-372-4000",
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/david_piccini.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/david-piccini",
       "votingAlignment": 100,
@@ -10909,14 +10909,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -10927,8 +10927,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -10943,8 +10943,8 @@
           "bill": "Bill 17",
           "billFull": "Bill 17",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -10967,16 +10967,16 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -11007,8 +11007,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -11049,14 +11049,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -11189,14 +11189,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -11207,8 +11207,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -11223,8 +11223,8 @@
           "bill": "Bill 17",
           "billFull": "Bill 17",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -11255,8 +11255,8 @@
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -11271,8 +11271,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -11329,14 +11329,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -11347,16 +11347,16 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -11427,8 +11427,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -11469,14 +11469,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -11609,14 +11609,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -11627,8 +11627,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -11683,16 +11683,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -11749,14 +11749,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -11831,8 +11831,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -11889,14 +11889,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -12014,7 +12014,7 @@
       "riding": "Kenora\u2014Rainy River",
       "roles": "Minister of Indigenous Affairs and First Nations | Economic Reconciliation Minister Responsible for Ring of Fire Economic and Community Partnerships",
       "phone": "807-223-6456",
-      "oacScore": 1,
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Greg Rickford.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/greg-rickford",
       "votingAlignment": 100,
@@ -12029,14 +12029,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -12055,8 +12055,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -12103,32 +12103,32 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -12169,14 +12169,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -12187,8 +12187,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -12309,14 +12309,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -12327,8 +12327,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -12383,16 +12383,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -12449,14 +12449,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -12589,14 +12589,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -12647,8 +12647,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -12729,14 +12729,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -12869,14 +12869,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -12927,8 +12927,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -13009,14 +13009,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -13149,14 +13149,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -13223,8 +13223,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -13289,14 +13289,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -13429,14 +13429,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -13447,16 +13447,16 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -13471,24 +13471,24 @@
           "bill": "Bill 60",
           "billFull": "Bill 60",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-60",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -13503,32 +13503,32 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -13569,14 +13569,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -13595,8 +13595,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -13627,8 +13627,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -13709,14 +13709,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -13791,8 +13791,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -13849,14 +13849,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -13875,8 +13875,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -13923,8 +13923,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -13939,8 +13939,8 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -13989,14 +13989,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -14015,48 +14015,48 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 17",
           "billFull": "Bill 17",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 60",
           "billFull": "Bill 60",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-60",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -14079,16 +14079,16 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -14129,14 +14129,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -14203,8 +14203,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -14269,14 +14269,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -14409,14 +14409,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -14549,14 +14549,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -14623,8 +14623,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -14689,14 +14689,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -14707,8 +14707,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -14763,24 +14763,24 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -14829,14 +14829,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -14954,7 +14954,7 @@
       "riding": "Davenport",
       "roles": "Critic, Intergovernmental Affairs | Leader of the Official Opposition | Leader, New Democratic Party of Ontario",
       "phone": "416-535-3158",
-      "oacScore": 3,
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Marit Stiles.png",
       "profileUrl": "https://www.ola.org/en/members/all/marit-stiles",
       "votingAlignment": 100,
@@ -14969,14 +14969,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -15043,8 +15043,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -15109,14 +15109,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -15135,8 +15135,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -15151,24 +15151,24 @@
           "bill": "Bill 60",
           "billFull": "Bill 60",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-60",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -15199,16 +15199,16 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -15249,14 +15249,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -15267,8 +15267,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -15389,14 +15389,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -15471,8 +15471,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -15529,14 +15529,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -15547,8 +15547,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -15579,8 +15579,8 @@
           "bill": "Bill 68",
           "billFull": "Bill 68",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -15627,8 +15627,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -15669,14 +15669,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -15695,8 +15695,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -15809,14 +15809,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -15949,14 +15949,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -15975,8 +15975,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16073,7 +16073,7 @@
       "raisePct": null,
       "riding": "Don Valley North",
       "roles": "Critic, Citizenship and Immigration | Critic for the Community, Social Services, Children and Youth | Second Vice-Chair, Standing Committee on the Interior",
-      "phone": "416-494-8778  ",
+      "phone": "416-494-8778",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jonathan-Tsao.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/jonathan-tsao",
@@ -16089,14 +16089,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -16107,8 +16107,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16163,16 +16163,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16229,14 +16229,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -16303,8 +16303,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16327,8 +16327,8 @@
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16353,7 +16353,7 @@
       "raisePct": 0.29,
       "riding": "Thunder Bay\u2014Superior North",
       "roles": "Critic, Seniors, Accessibility, WSIB and Injured Workers",
-      "phone": "807-345-3647  ",
+      "phone": "807-345-3647",
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Lise_Vaugeois.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/lise-vaugeois",
@@ -16369,14 +16369,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -16395,8 +16395,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16443,8 +16443,8 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16509,14 +16509,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Nay",
@@ -16527,16 +16527,16 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16583,16 +16583,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16649,14 +16649,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -16675,8 +16675,8 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16707,8 +16707,8 @@
           "bill": "Bill 101",
           "billFull": "Bill 101",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-101",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16739,16 +16739,16 @@
           "bill": "Bill 40",
           "billFull": "Bill 40",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-40",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 110",
           "billFull": "Bill 110",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-110",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16774,7 +16774,7 @@
       "riding": "Nepean",
       "roles": "Critic, Long Term Care | Critic for the Training, Colleges and University | Second Vice-Chair, Standing Committee on Heritage, Infrastructure and Cultural Policy ",
       "phone": "613-518-9288",
-      "oacScore": 4,
+      "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Tyler-Watt_1.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/tyler-watt",
       "votingAlignment": 100,
@@ -16789,14 +16789,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -16807,16 +16807,16 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16863,16 +16863,16 @@
           "bill": "Bill 48",
           "billFull": "Bill 48",
           "url": null,
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16929,14 +16929,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "No Show",
           "display": "No Show",
           "yes": null
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -16955,16 +16955,16 @@
           "bill": "Bill 100",
           "billFull": "Bill 100",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-100",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
           "bill": "Bill 17",
           "billFull": "Bill 17",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -16995,8 +16995,8 @@
           "bill": "Bill 24",
           "billFull": "Bill 24",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-24",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -17069,14 +17069,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "No Show",
@@ -17209,14 +17209,14 @@
         },
         {
           "bill": "Bill 97",
-          "billFull": "Bill 97 (FOI + OSAP)",
+          "billFull": "Bill 97",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-97",
           "vote": "Nay",
           "display": "No",
           "yes": false
         },
         {
-          "bill": "Ban Surveillance Pricing ",
+          "bill": "Ban Surveillance Pricing",
           "billFull": "Ban Surveillance Pricing",
           "url": "https://www.ola.org/en/legislative-business/votes-search/parliament-44/session-1/opposition-days-3-vote-motion-moved-marit-stiles-0",
           "vote": "Aye",
@@ -17227,8 +17227,8 @@
           "bill": "Bill 148",
           "billFull": "Bill 148",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-2/bill-148",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {
@@ -17291,8 +17291,8 @@
           "bill": "Bill 163",
           "billFull": "Bill 163",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-41/session-1/bill-163",
-          "vote": "N/A",
-          "display": "N/A",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         },
         {

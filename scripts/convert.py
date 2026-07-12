@@ -13,6 +13,7 @@ XLSX = ROOT / "Current Ontario MPPs & How They Vote..xlsx"
 OUTPUT = ROOT / "data" / "mpps.json"
 PHOTOS = ROOT / "data" / "photos.json"
 OLA_BILL_BASE = "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1"
+FEATURED = {"Bill 5", "Bill 17", "Bill 24", "Bill 48", "Bill 60", "Bill 68", "Bill 97"}
 
 
 def slug_from_name(name: str) -> str:
@@ -41,7 +42,7 @@ def normalize_bill_url(raw, bill_header: str) -> str | None:
     return None
 
 
-def vote_display(vote: str) -> dict:
+def vote_display(vote) -> dict:
     if vote == "Aye":
         return {"label": "Yes", "yes": True}
     if vote == "Nay":
@@ -68,7 +69,6 @@ def lookup_photo(name: str, by_slug: dict, by_name: dict) -> tuple[str | None, s
     if key in by_name:
         return by_name[key], f"https://www.ola.org/en/members/all/{slug}"
 
-    # Try without middle names: "Teresa J. Armstrong" -> teresa-armstrong
     parts = key.split()
     if len(parts) > 2:
         short_slug = f"{parts[0]}-{parts[-1]}"
@@ -79,6 +79,27 @@ def lookup_photo(name: str, by_slug: dict, by_name: dict) -> tuple[str | None, s
     return None, f"https://www.ola.org/en/members/all/{slug}"
 
 
+def find_header_row(ws) -> int:
+    """Locate the row that starts with 'MPP Name' (handles inserted date rows)."""
+    for r in range(1, 20):
+        val = ws.cell(r, 1).value
+        if val and "MPP" in str(val) and "Name" in str(val):
+            return r
+    raise ValueError("Could not find header row in 'How They Voted' sheet")
+
+
+def find_bill_start_col(ws, header_row: int) -> int:
+    """First column after Party that looks like a bill/vote header."""
+    for c in range(1, ws.max_column + 1):
+        h = ws.cell(header_row, c).value
+        if not h:
+            continue
+        s = str(h).strip()
+        if s.startswith("Bill ") or "Surveillance" in s or "Pricing" in s:
+            return c
+    return 11
+
+
 def main() -> None:
     if not XLSX.exists():
         print(f"Error: {XLSX} not found", file=sys.stderr)
@@ -87,35 +108,69 @@ def main() -> None:
     by_slug, by_name = load_photos()
     wb = openpyxl.load_workbook(XLSX, data_only=True)
 
+    # Optional contact/roles sheet
     mpp_info = {}
-    for row in wb["Current Ontarios MPPs"].iter_rows(min_row=2, values_only=True):
-        if not row[0]:
-            continue
-        name = row[0].strip()
-        mpp_info[name.lower()] = {
-            "roles": row[1] or "",
-            "party": row[2] or "",
-            "riding": row[3] or "",
-            "email": row[4] or "",
-            "phone": row[5] or "",
-            "oacScore": row[6] if row[6] is not None else 0,
+    if "Current Ontarios MPPs" in wb.sheetnames:
+        contact = wb["Current Ontarios MPPs"]
+        headers = {
+            (contact.cell(1, c).value or "").strip().lower(): c
+            for c in range(1, contact.max_column + 1)
+            if contact.cell(1, c).value
         }
+        name_c = headers.get("mpp name", 1)
+        roles_c = headers.get("roles")
+        party_c = headers.get("party")
+        riding_c = headers.get("riding")
+        email_c = headers.get("email")
+        phone_c = headers.get("constituency office number")
+        score_c = headers.get("oac score")
+
+        for row in contact.iter_rows(min_row=2, values_only=False):
+            name_cell = row[name_c - 1].value
+            if not name_cell:
+                continue
+            name = str(name_cell).strip()
+
+            def cell(col):
+                return row[col - 1].value if col else None
+
+            mpp_info[name.lower()] = {
+                "roles": (cell(roles_c) or "") if roles_c else "",
+                "party": (cell(party_c) or "") if party_c else "",
+                "riding": (cell(riding_c) or "") if riding_c else "",
+                "email": (cell(email_c) or "") if email_c else "",
+                "phone": (cell(phone_c) or "") if phone_c else "",
+                "oacScore": cell(score_c) if score_c is not None and cell(score_c) is not None else 0,
+            }
 
     ws = wb["How They Voted"]
+    header_row = find_header_row(ws)
+    bill_start = find_bill_start_col(ws, header_row)
+    print(f"Header row: {header_row}, bill columns start at: {bill_start}")
+
     bill_headers = []
     bill_urls: dict[str, str | None] = {}
-    for i in range(11, ws.max_column + 1):
-        h = ws.cell(2, i).value
-        if h:
-            bill_headers.append((i, h))
-            simple = simplify_bill_name(h)
-            raw_url = ws.cell(1, i).value
-            url = normalize_bill_url(raw_url, h)
-            bill_urls[simple] = url
-            bill_urls[h.strip()] = url
+    for i in range(bill_start, ws.max_column + 1):
+        h = ws.cell(header_row, i).value
+        if not h or not str(h).strip():
+            continue
+        h = str(h).strip()
+        # Skip non-bill helper columns
+        if h.lower() in {"party", "url", "third reading vote", "first reading"}:
+            continue
+        bill_headers.append((i, h))
+        simple = simplify_bill_name(h)
+        raw_url = ws.cell(1, i).value
+        url = normalize_bill_url(raw_url, h)
+        bill_urls[simple] = url
+        bill_urls[h] = url
+
+    print(f"Bills found ({len(bill_headers)}): {[h for _, h in bill_headers]}")
+
+    data_start = header_row + 1
 
     party_votes: dict = {}
-    for row in ws.iter_rows(min_row=3, values_only=True):
+    for row in ws.iter_rows(min_row=data_start, values_only=True):
         if not row[4]:
             continue
         party = row[9]
@@ -137,16 +192,23 @@ def main() -> None:
             if key in name.lower() or name.lower() in key:
                 return info
         for info in mpp_info.values():
-            if info.get("email") and info["email"].lower() == email.lower():
+            if info.get("email") and email and info["email"].lower() == email.lower():
                 return info
         return None
 
     mpps = []
-    for row in ws.iter_rows(min_row=3, values_only=True):
+    skipped = 0
+    for row in ws.iter_rows(min_row=data_start, values_only=True):
         if not row[4]:
+            skipped += 1
             continue
 
-        name = row[4]
+        name = str(row[4]).strip()
+        # Skip accidental header/date leftovers
+        if name.lower() in {"name", "mpp name"} or not row[1]:
+            skipped += 1
+            continue
+
         party = row[9] or ""
         email = row[3] or ""
         extra = find_extra(name, email)
@@ -184,7 +246,7 @@ def main() -> None:
             "raisePct": row[8],
             "riding": extra["riding"] if extra else "",
             "roles": extra["roles"] if extra else "",
-            "phone": extra["phone"] if extra else "",
+            "phone": (str(extra["phone"]).strip() if extra and extra["phone"] else ""),
             "oacScore": extra["oacScore"] if extra else 0,
             "photo": photo,
             "profileUrl": profile_url,
@@ -192,9 +254,8 @@ def main() -> None:
             "votes": votes,
         })
 
-    mpps.sort(key=lambda m: m["lastName"].lower())
+    mpps.sort(key=lambda m: str(m["lastName"]).lower())
 
-    # Deduplicated bill list with URLs for UI
     bills_meta = []
     seen = set()
     for _, h in bill_headers:
@@ -206,20 +267,35 @@ def main() -> None:
             "id": simple,
             "label": h.strip(),
             "url": bill_urls.get(simple),
-            "featured": simple in {"Bill 5", "Bill 17", "Bill 24", "Bill 48", "Bill 60", "Bill 68", "Bill 97"},
+            "featured": simple in FEATURED,
         })
 
     OUTPUT.parent.mkdir(exist_ok=True)
     with open(OUTPUT, "w") as f:
         json.dump({
-            "featuredBills": ["Bill 5", "Bill 17", "Bill 24", "Bill 48", "Bill 60", "Bill 68", "Bill 97"],
+            "featuredBills": sorted(FEATURED, key=lambda x: int(x.split()[1]) if x.startswith("Bill ") else 999),
             "bills": bills_meta,
             "mpps": mpps,
         }, f, indent=2)
 
     with_photo = sum(1 for m in mpps if m.get("photo"))
+    with_riding = sum(1 for m in mpps if m.get("riding"))
     with_urls = sum(1 for b in bills_meta if b.get("url"))
-    print(f"Wrote {len(mpps)} MPPs ({with_photo} with photos), {with_urls}/{len(bills_meta)} bill URLs")
+    parties = {}
+    for m in mpps:
+        parties[m["party"] or "?"] = parties.get(m["party"] or "?", 0) + 1
+
+    print(f"Wrote {len(mpps)} MPPs ({with_photo} photos, {with_riding} with riding)")
+    print(f"Bill URLs: {with_urls}/{len(bills_meta)}")
+    print(f"Parties: {parties}")
+    print(f"Skipped empty/invalid rows: {skipped}")
+
+    # Sanity: Tyler Allsopp
+    tyler = next((m for m in mpps if "Allsopp" in m["name"]), None)
+    if tyler:
+        print(f"Sample Tyler Allsopp: salary={tyler['salary']} riding={tyler['riding']!r} "
+              f"photo={'yes' if tyler['photo'] else 'no'} votes={len(tyler['votes'])} "
+              f"align={tyler['votingAlignment']}%")
 
 
 if __name__ == "__main__":
