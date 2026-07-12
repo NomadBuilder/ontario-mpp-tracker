@@ -40,7 +40,7 @@
           <div class="intro-howto">
             <h2>How to use this</h2>
             <ol class="howto-steps">
-              <li><strong>Find your MPP</strong> — search by name or riding, or filter by party.</li>
+              <li><strong>Find your MPP</strong> — enter your postal code, or search by name or riding.</li>
               <li><strong>Campaign filters</strong> — show only MPPs who voted a certain way on key bills (e.g. Yes on Bill 5 and Bill 97).</li>
               <li><strong>Open a card</strong> — party and voting history at a glance.</li>
               <li><strong>Take action</strong> — email or call from the card, or switch to the full data table.</li>
@@ -50,6 +50,31 @@
             <button class="view-btn active" data-view="cards" role="tab">Card View</button>
             <button class="view-btn" data-view="table" role="tab">Full Data Table</button>
           </div>
+        </div>
+      </section>
+
+      <section class="postal-lookup" id="postal-lookup" aria-label="Find your MPP by postal code">
+        <div class="postal-lookup-inner">
+          <div class="postal-lookup-copy">
+            <h2 class="postal-lookup-title">Find your MPP</h2>
+            <p class="postal-lookup-lead">Enter your postal code to see your representative and how they voted.</p>
+          </div>
+          <form class="postal-lookup-form" id="postal-form">
+            <label class="visually-hidden" for="postal-input">Postal code</label>
+            <input
+              type="text"
+              id="postal-input"
+              class="postal-input"
+              placeholder="e.g. M5V 2T6"
+              maxlength="7"
+              autocomplete="postal-code"
+              inputmode="text"
+              spellcheck="false"
+            >
+            <button type="submit" class="postal-submit" id="postal-submit">Find MPP</button>
+          </form>
+          <p class="postal-status" id="postal-status" role="status" aria-live="polite" hidden></p>
+          <div class="postal-result" id="postal-result" hidden></div>
         </div>
       </section>
 

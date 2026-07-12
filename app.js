@@ -168,6 +168,151 @@ function renderCard(mpp, index) {
     </article>`;
 }
 
+function renderYourMpp(mpp, meta = {}) {
+  const party = getPartyInfo(mpp.party);
+  const ac = mpp.votingAlignment != null
+    ? (mpp.votingAlignment >= 90 ? 'alignment-high' : mpp.votingAlignment >= 70 ? 'alignment-mid' : 'alignment-low')
+    : '';
+
+  const allVotes = (mpp.votes || []).map(v => {
+    const cls = v.yes === true ? 'yes' : v.yes === false ? 'no' : 'na';
+    const icon = v.yes === true ? '✓' : v.yes === false ? '✗' : '—';
+    return `<div class="vote-row"><span class="vote-bill">${billLink(v)}</span><span class="vote-result ${cls}">${icon} ${v.display}</span></div>`;
+  }).join('');
+
+  const emailLink = mpp.email ? `<a class="card-link" href="mailto:${mpp.email}">Email MPP</a>` : '';
+  const phoneLink = mpp.phone ? `<a class="card-link" href="tel:${mpp.phone.replace(/\s/g, '')}">Call Office</a>` : '';
+
+  const stats = [
+    `<div class="stat"><span class="stat-label">Party</span><span class="stat-value">${mpp.party}</span></div>`,
+  ];
+  if (showField('salary')) {
+    stats.push(`<div class="stat"><span class="stat-label">Salary</span><span class="stat-value">${formatCurrency(mpp.salary)}</span></div>`);
+  }
+  if (showField('benefits')) {
+    stats.push(`<div class="stat"><span class="stat-label">Benefits</span><span class="stat-value">${formatCurrency(mpp.benefits)}</span></div>`);
+  }
+  if (showField('votingAlignment')) {
+    stats.push(`<div class="stat"><span class="stat-label">Voting Alignment</span><span class="stat-value highlight ${ac}">${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</span></div>`);
+  }
+
+  const where = [meta.postal, meta.city, meta.riding].filter(Boolean).join(' · ');
+
+  return `
+    <div class="postal-result-head">
+      <div>
+        <p class="postal-result-eyebrow">Your MPP</p>
+        <p class="postal-result-meta">${where}</p>
+        ${meta.warning ? `<p class="postal-result-warning">${meta.warning}</p>` : ''}
+      </div>
+      <button type="button" class="postal-clear" id="postal-clear">Clear</button>
+    </div>
+    <article class="mpp-card postal-mpp-card">
+      <div class="card-header">
+        <div class="card-name-row">
+          ${renderAvatar(mpp, 'card-avatar')}
+          <div class="card-name-block">
+            <h3 class="card-name">${mpp.profileUrl ? `<a href="${mpp.profileUrl}" target="_blank" rel="noopener" class="mpp-profile-link">${mpp.name}</a>` : mpp.name}</h3>
+            ${mpp.riding ? `<p class="card-riding">${mpp.riding}</p>` : ''}
+          </div>
+          <span class="party-badge ${party.slug}">${party.label}</span>
+        </div>
+      </div>
+      <div class="card-divider"></div>
+      <div class="card-stats">${stats.join('')}</div>
+      <div class="voting-section">
+        <button class="voting-toggle open" aria-expanded="true"><span>Full voting history</span><span class="chevron">▼</span></button>
+        <div class="voting-list open">${allVotes || '<p class="no-results">No votes on file.</p>'}</div>
+      </div>
+      ${(emailLink || phoneLink) ? `<div class="card-footer">${emailLink}${phoneLink}</div>` : ''}
+    </article>`;
+}
+
+function wireVotingToggles(root = document) {
+  root.querySelectorAll('.voting-toggle').forEach(btn => {
+    btn.onclick = () => {
+      const list = btn.nextElementSibling;
+      const open = btn.classList.toggle('open');
+      list.classList.toggle('open', open);
+      btn.setAttribute('aria-expanded', open);
+    };
+  });
+}
+
+function setPostalStatus(message, type = '') {
+  const el = document.getElementById('postal-status');
+  if (!message) {
+    el.hidden = true;
+    el.textContent = '';
+    el.className = 'postal-status';
+    return;
+  }
+  el.hidden = false;
+  el.textContent = message;
+  el.className = `postal-status${type ? ` is-${type}` : ''}`;
+}
+
+function clearPostalResult() {
+  const result = document.getElementById('postal-result');
+  result.hidden = true;
+  result.innerHTML = '';
+  setPostalStatus('');
+}
+
+async function handlePostalLookup(event) {
+  event.preventDefault();
+  const input = document.getElementById('postal-input');
+  const submit = document.getElementById('postal-submit');
+  const result = document.getElementById('postal-result');
+
+  input.value = window.MppShared.formatPostal(input.value);
+  clearPostalResult();
+  setPostalStatus('Looking up your MPP…', 'loading');
+  submit.disabled = true;
+
+  const lookup = await window.MppShared.lookupMppByPostal(input.value, allMpps);
+  submit.disabled = false;
+
+  if (!lookup.ok) {
+    setPostalStatus(lookup.error, 'error');
+    return;
+  }
+
+  setPostalStatus(lookup.warning || '', lookup.warning ? 'warning' : '');
+  result.hidden = false;
+  result.innerHTML = renderYourMpp(lookup.mpp, {
+    postal: lookup.postal,
+    city: lookup.city,
+    riding: lookup.riding,
+    warning: lookup.warning,
+  });
+  wireVotingToggles(result);
+  document.getElementById('postal-clear').onclick = () => {
+    clearPostalResult();
+    input.focus();
+  };
+  result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+function setupPostalLookup() {
+  const form = document.getElementById('postal-form');
+  const input = document.getElementById('postal-input');
+  if (!form || !input) return;
+
+  input.addEventListener('input', () => {
+    const start = input.selectionStart;
+    const before = input.value;
+    const formatted = window.MppShared.formatPostal(before);
+    if (formatted !== before) {
+      input.value = formatted;
+      const delta = formatted.length - before.length;
+      input.setSelectionRange(start + delta, start + delta);
+    }
+  });
+
+  form.addEventListener('submit', handlePostalLookup);
+}
+
 function renderTable(mpps) {
   const billHeaders = mpps[0]?.votes || [];
   const cols = [
@@ -315,14 +460,7 @@ function updateView() {
   document.getElementById('result-count').textContent = `${filtered.length} of ${allMpps.length} MPPs`;
   document.getElementById('table-container').innerHTML = renderTable(filtered);
   updateCampaignSummary(filtered.length);
-  document.querySelectorAll('.voting-toggle').forEach(btn => {
-    btn.onclick = () => {
-      const list = btn.nextElementSibling;
-      const open = btn.classList.toggle('open');
-      list.classList.toggle('open', open);
-      btn.setAttribute('aria-expanded', open);
-    };
-  });
+  wireVotingToggles();
 }
 
 function setupFilters() {
@@ -359,6 +497,7 @@ async function init() {
     renderIntroStats();
     setupFilters();
     setupCampaignFilters();
+    setupPostalLookup();
     document.querySelectorAll('.view-btn').forEach(btn => { btn.onclick = () => setView(btn.dataset.view); });
     updateView();
     document.getElementById('search').addEventListener('input', updateView);

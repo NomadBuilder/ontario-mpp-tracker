@@ -265,6 +265,181 @@ body.embed-mode .site-footer {
   display: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Postal lookup */
+.postal-lookup {
+  max-width: var(--content-width);
+  margin: 0 auto 1.25rem;
+  padding: 0 1.5rem;
+}
+
+.postal-lookup-inner {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.75rem;
+}
+
+.postal-lookup-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-yellow);
+  margin-bottom: 0.4rem;
+}
+
+.postal-lookup-lead {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-bottom: 1.1rem;
+}
+
+.postal-lookup-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: stretch;
+}
+
+.postal-input {
+  flex: 1;
+  min-width: 160px;
+  padding: 0.8rem 1rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.postal-input:focus {
+  outline: none;
+  border-color: var(--accent-yellow);
+  box-shadow: 0 0 0 3px rgba(255, 199, 69, 0.15);
+}
+
+.postal-submit {
+  padding: 0.8rem 1.35rem;
+  background: var(--accent-yellow);
+  border: 1px solid var(--accent-yellow);
+  border-radius: 50px;
+  color: var(--bg);
+  font-family: var(--font);
+  font-size: 0.92rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+
+.postal-submit:hover {
+  filter: brightness(1.05);
+}
+
+.postal-submit:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.postal-status {
+  margin-top: 0.85rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.postal-status.is-error {
+  color: #f07178;
+}
+
+.postal-status.is-warning {
+  color: var(--accent-yellow);
+}
+
+.postal-status.is-loading {
+  color: var(--text-dim);
+}
+
+.postal-result {
+  margin-top: 1.25rem;
+}
+
+.postal-result-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+}
+
+.postal-result-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-yellow);
+  margin-bottom: 0.2rem;
+}
+
+.postal-result-meta {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.postal-result-warning {
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--accent-yellow);
+}
+
+.postal-clear {
+  flex-shrink: 0;
+  padding: 0.45rem 0.85rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  color: var(--text-muted);
+  font-family: var(--font);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.postal-clear:hover {
+  border-color: var(--accent-yellow);
+  color: var(--accent-yellow);
+}
+
+.postal-mpp-card {
+  max-width: 420px;
+}
+
+.postal-mpp-card .voting-list.open {
+  max-height: none;
+  overflow: visible;
+}
+
+body.embed-mode .postal-lookup {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 /* Controls */
 .controls {
   max-width: var(--content-width);
@@ -1018,6 +1193,28 @@ body.embed-mode .campaign-filters {
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1.25rem;
+  }
+
+  .postal-lookup {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .postal-lookup-form {
+    flex-direction: column;
+  }
+
+  .postal-submit {
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .postal-result-head {
+    flex-direction: column;
+  }
+
+  .postal-mpp-card {
+    max-width: none;
   }
 
   .campaign-filters-head {
