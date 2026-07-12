@@ -90,15 +90,17 @@
       </div>
 
       <div class="campaign-filters" id="campaign-filters" aria-label="Campaign vote filters">
-        <div class="campaign-filters-head">
-          <div>
-            <h2 class="campaign-filters-title">Campaign filters</h2>
+        <div class="campaign-filters-inner">
+          <div class="campaign-filters-head">
+            <div>
+              <h2 class="campaign-filters-title">Campaign filters</h2>
+            </div>
+            <button type="button" class="campaign-clear" id="campaign-clear" hidden>Clear filters</button>
           </div>
-          <button type="button" class="campaign-clear" id="campaign-clear" hidden>Clear filters</button>
+          <div class="campaign-presets" id="campaign-presets"></div>
+          <div class="campaign-bill-grid" id="campaign-bill-grid"></div>
+          <p class="campaign-summary" id="campaign-summary" hidden></p>
         </div>
-        <div class="campaign-presets" id="campaign-presets"></div>
-        <div class="campaign-bill-grid" id="campaign-bill-grid"></div>
-        <p class="campaign-summary" id="campaign-summary" hidden></p>
       </div>
 
       <section class="cards-section" id="cards-section">

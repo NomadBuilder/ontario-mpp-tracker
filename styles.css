@@ -534,11 +534,15 @@ body.embed-mode .postal-lookup {
 /* Campaign filters */
 .campaign-filters {
   max-width: var(--content-width);
-  margin: 1.5rem auto 1.75rem;
-  padding: 1.5rem 1.75rem 1.5rem;
+  margin: 1.25rem auto 1.75rem;
+  padding: 0 1.5rem;
+}
+
+.campaign-filters-inner {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  padding: 1.5rem 1.75rem;
 }
 
 .campaign-filters-head {
@@ -586,7 +590,7 @@ body.embed-mode .postal-lookup {
 
 .campaign-preset {
   padding: 0.45rem 0.85rem;
-  background: var(--bg-card);
+  background: var(--bg-elevated);
   border: 1px solid var(--border);
   border-radius: 50px;
   color: var(--text-muted);
@@ -636,7 +640,7 @@ body.embed-mode .postal-lookup {
 .campaign-bill-select {
   width: 100%;
   padding: 0.5rem 0.65rem;
-  background: var(--bg-elevated);
+  background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   color: var(--text);
@@ -658,10 +662,9 @@ body.embed-mode .postal-lookup {
 }
 
 body.embed-mode .campaign-filters {
-  margin-top: 1.25rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding: 1.25rem 1.25rem 1.25rem;
+  margin-top: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* Cards Grid */
@@ -1190,8 +1193,11 @@ body.embed-mode .campaign-filters {
   }
 
   .campaign-filters {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .campaign-filters-inner {
     padding: 1.25rem;
   }
 
