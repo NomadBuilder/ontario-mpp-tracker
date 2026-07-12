@@ -95,7 +95,7 @@ function buildShell() {
             <p class="v2-eyebrow">Ontarians Against Corruption</p>
             <h1>Who represents you — and how do they vote?</h1>
           </div>
-          <a class="v2-classic-link" href="${IS_EMBED ? '?' : window.location.pathname}">Classic view</a>
+          <a class="v2-classic-link" href="${IS_EMBED ? '?' : window.location.pathname}">← Main layout</a>
         </div>
       </header>`}
 
