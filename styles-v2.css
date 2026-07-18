@@ -706,23 +706,25 @@ html.v2 #v1-app { display: none !important; }
   content: attr(data-tip);
   position: absolute;
   left: 0;
-  bottom: calc(100% + 8px);
+  right: auto;
+  top: calc(100% + 8px);
+  bottom: auto;
   width: max-content;
-  max-width: min(22rem, 70vw);
-  padding: 0.55rem 0.7rem;
+  max-width: min(20rem, calc(100vw - 2.5rem));
+  padding: 0.6rem 0.75rem;
   border-radius: 8px;
   background: #16161a;
   border: 1px solid rgba(255, 199, 69, 0.35);
   color: #f2f2f2;
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.45;
   white-space: normal;
   text-align: left;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.12s ease;
-  z-index: 40;
+  z-index: 80;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
 }
 

@@ -919,22 +919,31 @@ body.embed-mode .campaign-filters {
   flex-shrink: 0;
 }
 
+.campaign-filters-inner,
+.campaign-presets,
+.expense-toolbar,
+.intro-stats {
+  overflow: visible;
+}
+
 .has-tip[data-tip]::after {
   content: attr(data-tip);
   position: absolute;
-  left: 50%;
-  bottom: calc(100% + 8px);
-  transform: translateX(-50%) translateY(4px);
+  left: 0;
+  right: auto;
+  top: calc(100% + 8px);
+  bottom: auto;
+  transform: translateY(-4px);
   width: max-content;
-  max-width: min(22rem, 70vw);
-  padding: 0.55rem 0.7rem;
+  max-width: min(20rem, calc(100vw - 2.5rem));
+  padding: 0.6rem 0.75rem;
   border-radius: 8px;
   background: #1a1a1a;
   border: 1px solid rgba(255, 199, 69, 0.35);
   color: #f2f2f2;
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.45;
   text-transform: none;
   letter-spacing: 0;
   white-space: normal;
@@ -942,7 +951,7 @@ body.embed-mode .campaign-filters {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.12s ease, transform 0.12s ease;
-  z-index: 40;
+  z-index: 80;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
 }
 
@@ -950,21 +959,14 @@ body.embed-mode .campaign-filters {
 .has-tip[data-tip]:focus::after,
 .has-tip[data-tip]:focus-visible::after {
   opacity: 1;
-  transform: translateX(-50%) translateY(0);
-}
-
-/* Keep tooltips readable near edges of cards */
-.mpp-card .has-tip[data-tip]::after,
-.expense-panel .has-tip[data-tip]::after {
-  left: 0;
-  transform: translateY(4px);
-}
-
-.mpp-card .has-tip[data-tip]:hover::after,
-.mpp-card .has-tip[data-tip]:focus::after,
-.expense-panel .has-tip[data-tip]:hover::after,
-.expense-panel .has-tip[data-tip]:focus::after {
   transform: translateY(0);
+}
+
+/* Near the right edge of a card, keep tip inside the card */
+.mpp-card .expense-panel-foot .has-tip[data-tip]::after,
+.mpp-card .expense-ola.has-tip[data-tip]::after {
+  left: auto;
+  right: 0;
 }
 
 /* Expense accountability panel — legacy compact controls kept for any leftover markup */
