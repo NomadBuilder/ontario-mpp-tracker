@@ -6,7 +6,7 @@ const PARTIES = {
   'Independent': { slug: 'independent', label: 'Independent' },
 };
 
-const DEFAULT_FEATURED_BILLS = ['Bill 5', 'Bill 17', 'Bill 24', 'Bill 48', 'Bill 60', 'Bill 68', 'Bill 97'];
+const DEFAULT_FEATURED_BILLS = ['Bill 5', 'Bill 17', 'Bill 24', 'Bill 60', 'Bill 68', 'Bill 97', 'Bill 110'];
 let FEATURED_BILLS = [...DEFAULT_FEATURED_BILLS];
 const IS_EMBED = new URLSearchParams(window.location.search).has('embed');
 

@@ -17,7 +17,7 @@ Keep the sheet shared as **Anyone with the link can view** so the website can do
 
 ### Show or hide fields / bills on the website
 
-Add a tab named **Display Settings** (exact name) with columns **Field | Show | Notes**:
+Add a tab named **Display Settings**, **Site Display**, or any title containing “Display” + “Settings” (e.g. **OAC · Display Settings**). Columns: **Field | Show | Notes**:
 
 | Field | Show | Notes |
 | --- | --- | --- |

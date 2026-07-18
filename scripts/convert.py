@@ -19,7 +19,7 @@ OLA_BILL_BASE = "https://www.ola.org/en/legislative-business/bills/parliament-44
 
 # Featured bills shown in filters / campaign presets — overridden by Display Settings
 # rows like "Bill 5" | Yes/No when that tab is present.
-DEFAULT_FEATURED = {"Bill 5", "Bill 17", "Bill 24", "Bill 48", "Bill 60", "Bill 68", "Bill 97"}
+DEFAULT_FEATURED = {"Bill 5", "Bill 17", "Bill 24", "Bill 60", "Bill 68", "Bill 97", "Bill 110"}
 
 # Site display toggles — overridden by a "Display Settings" sheet tab when present.
 # Yes/No (or true/false/1/0/show/hide) in column B. Unknown fields are ignored.
@@ -199,6 +199,19 @@ def parse_show_value(raw) -> bool | None:
     return None
 
 
+def find_display_settings_sheet(wb) -> str | None:
+    """Match common Display Settings tab names (Site Display, OAC · Display Settings, …)."""
+    exact = {"display settings", "display", "site settings", "site display"}
+    for name in wb.sheetnames:
+        n = name.strip().lower()
+        if n in exact:
+            return name
+        # Title-ish tabs: "OAC · Display Settings", "Display settings (public)"
+        if "display" in n and ("setting" in n or n.startswith("site ")):
+            return name
+    return None
+
+
 def load_display_settings(wb) -> tuple[dict, set]:
     """Read optional 'Display Settings' tab: Field | Show (Yes/No).
 
@@ -211,10 +224,7 @@ def load_display_settings(wb) -> tuple[dict, set]:
     """
     display = dict(DEFAULT_DISPLAY)
     featured = set(DEFAULT_FEATURED)
-    sheet_name = next(
-        (n for n in wb.sheetnames if n.strip().lower() in {"display settings", "display", "site settings"}),
-        None,
-    )
+    sheet_name = find_display_settings_sheet(wb)
     if not sheet_name:
         print("No Display Settings tab — using defaults:", display, "bills:", sort_bill_ids(featured))
         return display, featured
@@ -226,7 +236,12 @@ def load_display_settings(wb) -> tuple[dict, set]:
             continue
         field_raw = str(row[0]).strip()
         key_norm = re.sub(r"\s+", " ", field_raw).lower()
+        # Skip title / blurb / header rows
         if key_norm in {"field", "setting", "name", "column"}:
+            continue
+        if "controls what the public" in key_norm or key_norm.startswith("oac"):
+            continue
+        if len(field_raw) > 80:
             continue
 
         show = parse_show_value(row[1] if len(row) > 1 else None)
