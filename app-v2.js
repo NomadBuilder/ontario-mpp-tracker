@@ -6,7 +6,8 @@ const PARTIES = {
   'Independent': { slug: 'independent', label: 'Independent' },
 };
 
-const FEATURED_BILLS = ['Bill 5', 'Bill 17', 'Bill 24', 'Bill 48', 'Bill 60', 'Bill 68', 'Bill 97'];
+const DEFAULT_FEATURED_BILLS = ['Bill 5', 'Bill 17', 'Bill 24', 'Bill 48', 'Bill 60', 'Bill 68', 'Bill 97'];
+let FEATURED_BILLS = [...DEFAULT_FEATURED_BILLS];
 const IS_EMBED = new URLSearchParams(window.location.search).has('embed');
 
 let allMpps = [];
@@ -23,6 +24,17 @@ let display = {
   benefits: false,
   votingAlignment: false,
 };
+
+function applyFeaturedBills(list) {
+  if (Array.isArray(list) && list.length) {
+    FEATURED_BILLS = list.slice();
+  } else {
+    FEATURED_BILLS = [...DEFAULT_FEATURED_BILLS];
+  }
+  if (!FEATURED_BILLS.includes(selectedBill)) {
+    selectedBill = FEATURED_BILLS[0] || (allBills[0] || '');
+  }
+}
 
 function showField(key) {
   return display[key] !== false;
@@ -235,7 +247,8 @@ function renderDetail(m) {
   const showAlign = showField('votingAlignment');
   const showSalary = showField('salary');
   const showBenefits = showField('benefits');
-  const showComp = showSalary || showBenefits;
+  const showExpenses = showField('expenses') && m.expenses;
+  const showComp = showSalary || showBenefits || showExpenses;
 
   const voteRows = m.votes.map(v => `
     <tr class="vote-row-${voteClass(v)}">
@@ -246,6 +259,7 @@ function renderDetail(m) {
   const featuredSet = new Set(FEATURED_BILLS);
   const featuredRows = m.votes.filter(v => [...featuredSet].some(fb => v.bill.startsWith(fb)));
   const otherRows = m.votes.filter(v => ![...featuredSet].some(fb => v.bill.startsWith(fb)));
+  const exp = m.expenses;
 
   document.getElementById('detail-pane').innerHTML = `
     <div class="detail-card party-${p.slug}">
@@ -268,13 +282,19 @@ function renderDetail(m) {
       <div class="detail-sections">
         ${showComp ? `
         <section class="detail-section">
-          <h3>Compensation</h3>
+          <h3>Compensation &amp; expenses</h3>
           <dl class="detail-dl">
             ${showSalary ? `<div><dt>Salary</dt><dd>${formatCurrency(m.salary)}</dd></div>` : ''}
             ${showBenefits ? `<div><dt>Benefits</dt><dd>${formatCurrency(m.benefits)}</dd></div>` : ''}
             ${showSalary && m.asOf ? `<div><dt>As of</dt><dd>${m.asOf}</dd></div>` : ''}
+            ${showExpenses ? `<div><dt>Expenses (2yr)</dt><dd>${formatCurrency(exp.total)}</dd></div>` : ''}
+            ${showExpenses ? `<div><dt>Travel</dt><dd>${formatCurrency(exp.travel)}</dd></div>` : ''}
+            ${showExpenses ? `<div><dt>Accommodation</dt><dd>${formatCurrency(exp.accommodation)}</dd></div>` : ''}
+            ${showExpenses ? `<div><dt>Meals</dt><dd>${formatCurrency(exp.meals)}</dd></div>` : ''}
+            ${showExpenses ? `<div><dt>Hospitality / events</dt><dd>${formatCurrency(exp.hospitality)}</dd></div>` : ''}
             ${m.oacScore > 0 ? `<div><dt>OAC Score</dt><dd class="accent">${m.oacScore}</dd></div>` : ''}
           </dl>
+          ${showExpenses && exp.sourceUrl ? `<p class="detail-expense-note"><a href="${exp.sourceUrl}" target="_blank" rel="noopener">OLA expense disclosure →</a>${exp.claimCount ? ` · ${exp.claimCount} claims` : ''}${exp.asOf ? ` · scraped ${exp.asOf}` : ''}</p>` : ''}
         </section>` : ''}
 
         <section class="detail-section detail-section-wide">
@@ -443,6 +463,7 @@ function renderTablePanel() {
   if (showField('salary')) midHeaders.push('<th>Salary</th>');
   if (showField('benefits')) midHeaders.push('<th>Benefits</th>');
   if (showField('votingAlignment')) midHeaders.push('<th>Align</th>');
+  if (showField('expenses')) midHeaders.push('<th>Expenses</th>');
 
   panel.innerHTML = `
     <p class="table-intro">Complete dataset for all ${allMpps.length} MPPs. Scroll horizontally for bill columns.</p>
@@ -460,6 +481,7 @@ function renderTablePanel() {
           if (showField('salary')) mid.push(`<td>${formatCurrency(m.salary)}</td>`);
           if (showField('benefits')) mid.push(`<td>${formatCurrency(m.benefits)}</td>`);
           if (showField('votingAlignment')) mid.push(`<td>${m.votingAlignment != null ? m.votingAlignment + '%' : '—'}</td>`);
+          if (showField('expenses')) mid.push(`<td>${m.expenses ? formatCurrency(m.expenses.total) : '—'}</td>`);
           return `
           <tr>
             <td class="name-col"><button class="table-name-link" data-key="${mppKey(m)}">${renderAvatar(m, 'table-avatar')}<span>${m.name}</span></button></td>
@@ -489,6 +511,7 @@ async function init() {
     billsMeta = data.bills || [];
     if (data.display) display = { ...display, ...data.display };
     allBills = billsMeta.length ? billsMeta.map(b => b.id) : (allMpps[0]?.votes.map(v => v.bill) || []);
+    applyFeaturedBills(data.featuredBills);
     filteredMpps = [...allMpps];
     selectedMpp = allMpps[0];
 

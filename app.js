@@ -6,7 +6,8 @@ const PARTIES = {
   'Independent': { slug: 'independent', label: 'Independent' },
 };
 
-const FEATURED_BILLS = ['Bill 5', 'Bill 17', 'Bill 24', 'Bill 48', 'Bill 60', 'Bill 68', 'Bill 97'];
+const DEFAULT_FEATURED_BILLS = ['Bill 5', 'Bill 17', 'Bill 24', 'Bill 48', 'Bill 60', 'Bill 68', 'Bill 97'];
+let FEATURED_BILLS = [...DEFAULT_FEATURED_BILLS];
 const IS_EMBED = new URLSearchParams(window.location.search).has('embed');
 
 let allMpps = [];
@@ -21,6 +22,18 @@ let activeFilter = 'all';
 let activePostal = null;
 /** @type {Record<string, 'yes'|'no'|'noshow'|'na'>} */
 let voteFilters = {};
+
+function applyFeaturedBills(list) {
+  if (Array.isArray(list) && list.length) {
+    FEATURED_BILLS = list.slice();
+  } else {
+    FEATURED_BILLS = [...DEFAULT_FEATURED_BILLS];
+  }
+  // Drop filters for bills that are no longer featured
+  Object.keys(voteFilters).forEach((bill) => {
+    if (!FEATURED_BILLS.includes(bill)) delete voteFilters[bill];
+  });
+}
 
 const VOTE_OPTIONS = [
   { value: '', label: 'Any' },
@@ -147,6 +160,9 @@ function renderCard(mpp, index) {
   if (showField('votingAlignment')) {
     stats.push(`<div class="stat"><span class="stat-label">Voting Alignment</span><span class="stat-value highlight ${ac}">${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</span></div>`);
   }
+  if (showField('expenses') && mpp.expenses) {
+    stats.push(`<div class="stat"><span class="stat-label">Expenses (2yr)</span><span class="stat-value">${formatCurrency(mpp.expenses.total)}</span></div>`);
+  }
 
   return `
     <article class="mpp-card" style="animation-delay: ${Math.min(index * 30, 600)}ms">
@@ -196,6 +212,9 @@ function renderYourMpp(mpp, meta = {}) {
   }
   if (showField('votingAlignment')) {
     stats.push(`<div class="stat"><span class="stat-label">Voting Alignment</span><span class="stat-value highlight ${ac}">${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</span></div>`);
+  }
+  if (showField('expenses') && mpp.expenses) {
+    stats.push(`<div class="stat"><span class="stat-label">Expenses (2yr)</span><span class="stat-value">${formatCurrency(mpp.expenses.total)}</span></div>`);
   }
 
   const where = [meta.postal, meta.city, meta.riding].filter(Boolean).join(' · ');
@@ -363,6 +382,7 @@ function renderTable(mpps) {
   if (showField('salary')) cols.push('<th>Salary</th>');
   if (showField('benefits')) cols.push('<th>Benefits</th>');
   if (showField('votingAlignment')) cols.push('<th>Alignment</th>');
+  if (showField('expenses')) cols.push('<th>Expenses (2yr)</th>');
   cols.push(...billHeaders.map(v => `<th>${billLink(v, 'bill-link-header')}</th>`));
 
   const rows = mpps.map(mpp => {
@@ -374,6 +394,7 @@ function renderTable(mpps) {
     if (showField('salary')) mid.push(`<td>${formatCurrency(mpp.salary)}</td>`);
     if (showField('benefits')) mid.push(`<td>${formatCurrency(mpp.benefits)}</td>`);
     if (showField('votingAlignment')) mid.push(`<td>${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</td>`);
+    if (showField('expenses')) mid.push(`<td>${mpp.expenses ? formatCurrency(mpp.expenses.total) : '—'}</td>`);
     return `<tr>
       <td class="name-cell">${renderAvatar(mpp, 'table-avatar')}<span>${mpp.name}</span></td><td>${mpp.party}</td><td>${mpp.riding || '—'}</td>
       ${mid.join('')}${voteCells}</tr>`;
@@ -534,6 +555,7 @@ async function init() {
     allMpps = payload.mpps;
     billsMeta = payload.bills || [];
     if (payload.display) display = { ...display, ...payload.display };
+    applyFeaturedBills(payload.featuredBills);
     document.getElementById('loading').style.display = 'none';
     document.getElementById('main-content').style.display = 'block';
     renderIntroStats();

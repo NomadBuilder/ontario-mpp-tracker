@@ -39,12 +39,18 @@ jobs:
       - name: Sync from Google Sheets
         run: python scripts/sync_from_sheets.py
 
+      - name: Refresh OLA expense disclosure
+        run: python scripts/fetch_expenses.py
+
+      - name: Rebuild JSON with expenses
+        run: python scripts/convert.py
+
       - name: Commit if data changed
         id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "Current Ontario MPPs & How They Vote..xlsx" data/mpps.json
+          git add "Current Ontario MPPs & How They Vote..xlsx" data/mpps.json data/expenses.json
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No spreadsheet changes."

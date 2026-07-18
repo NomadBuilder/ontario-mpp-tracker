@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Convert the MPP Excel spreadsheet to JSON for the web showcase."""
 
+from __future__ import annotations
+
 import json
 import re
 import sys
@@ -12,8 +14,12 @@ ROOT = Path(__file__).resolve().parent.parent
 XLSX = ROOT / "Current Ontario MPPs & How They Vote..xlsx"
 OUTPUT = ROOT / "data" / "mpps.json"
 PHOTOS = ROOT / "data" / "photos.json"
+EXPENSES = ROOT / "data" / "expenses.json"
 OLA_BILL_BASE = "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1"
-FEATURED = {"Bill 5", "Bill 17", "Bill 24", "Bill 48", "Bill 60", "Bill 68", "Bill 97"}
+
+# Featured bills shown in filters / campaign presets — overridden by Display Settings
+# rows like "Bill 5" | Yes/No when that tab is present.
+DEFAULT_FEATURED = {"Bill 5", "Bill 17", "Bill 24", "Bill 48", "Bill 60", "Bill 68", "Bill 97"}
 
 # Site display toggles — overridden by a "Display Settings" sheet tab when present.
 # Yes/No (or true/false/1/0/show/hide) in column B. Unknown fields are ignored.
@@ -21,6 +27,7 @@ DEFAULT_DISPLAY = {
     "salary": False,
     "benefits": False,
     "votingAlignment": False,
+    "expenses": True,
 }
 
 DISPLAY_ALIASES = {
@@ -31,7 +38,29 @@ DISPLAY_ALIASES = {
     "voting alignment": "votingAlignment",
     "alignment": "votingAlignment",
     "party alignment": "votingAlignment",
+    "expenses": "expenses",
+    "expense": "expenses",
+    "expense disclosure": "expenses",
+    "expensedisclosure": "expenses",
 }
+
+
+def sort_bill_ids(bills) -> list:
+    def key(x: str):
+        m = re.match(r"Bill\s+(\d+)$", x, re.I)
+        return (0, int(m.group(1))) if m else (1, x.lower())
+
+    return sorted(bills, key=key)
+
+
+def parse_bill_field(field_raw: str) -> str | None:
+    """Map sheet Field cells like 'Bill 5' / 'bill5' → 'Bill 5'."""
+    if not field_raw:
+        return None
+    m = re.match(r"^bill\s*(\d+)\s*$", field_raw.strip(), re.I)
+    if m:
+        return f"Bill {m.group(1)}"
+    return None
 
 
 def get_xlsx_path() -> Path:
@@ -90,6 +119,13 @@ def load_photos() -> tuple[dict, dict]:
     return data.get("bySlug", {}), data.get("byName", {})
 
 
+def load_expenses() -> tuple[dict, dict, str | None]:
+    if not EXPENSES.exists():
+        return {}, {}, None
+    data = json.loads(EXPENSES.read_text())
+    return data.get("bySlug", {}), data.get("byName", {}), data.get("fetchedAt")
+
+
 def lookup_photo(name: str, by_slug: dict, by_name: dict) -> tuple[str | None, str | None]:
     slug = slug_from_name(name)
     if slug in by_slug and by_slug[slug].get("photo"):
@@ -110,6 +146,46 @@ def lookup_photo(name: str, by_slug: dict, by_name: dict) -> tuple[str | None, s
     return None, f"https://www.ola.org/en/members/all/{slug}"
 
 
+def lookup_expenses(name: str, by_slug: dict, by_name: dict, fetched_at: str | None) -> dict | None:
+    """Attach OLA expense disclosure summary when available."""
+    if not by_slug:
+        return None
+
+    slug = slug_from_name(name)
+    info = by_slug.get(slug)
+
+    if not info:
+        key = re.sub(r"^(Hon\.|Dr\.)\s*", "", name or "").lower().strip()
+        mapped = by_name.get(key)
+        if mapped:
+            info = by_slug.get(mapped)
+
+    if not info:
+        parts = re.sub(r"^(Hon\.|Dr\.)\s*", "", name or "").lower().strip().split()
+        if len(parts) >= 2:
+            short_slug = f"{parts[0]}-{parts[-1]}"
+            info = by_slug.get(short_slug)
+            if not info:
+                mapped = by_name.get(f"{parts[0]} {parts[-1]}")
+                if mapped:
+                    info = by_slug.get(mapped)
+
+    if not info:
+        return None
+
+    return {
+        "total": info.get("total", 0),
+        "travel": info.get("travel", 0),
+        "accommodation": info.get("accommodation", 0),
+        "meals": info.get("meals", 0),
+        "hospitality": info.get("hospitality", 0),
+        "claimCount": info.get("claimCount", 0),
+        "periodCount": info.get("periodCount", 0),
+        "sourceUrl": info.get("sourceUrl"),
+        "asOf": fetched_at,
+    }
+
+
 def parse_show_value(raw) -> bool | None:
     if raw is None:
         return None
@@ -123,18 +199,28 @@ def parse_show_value(raw) -> bool | None:
     return None
 
 
-def load_display_settings(wb) -> dict:
-    """Read optional 'Display Settings' tab: Field | Show (Yes/No)."""
+def load_display_settings(wb) -> tuple[dict, set]:
+    """Read optional 'Display Settings' tab: Field | Show (Yes/No).
+
+    Field rows:
+      - salary / benefits / votingAlignment / expenses — card/table visibility
+      - Bill N — which bills appear in featured filters / campaign chips
+
+    Bill rows overlay defaults: No removes a default bill, Yes adds any bill
+    that exists in the vote data. If no Bill rows are present, defaults apply.
+    """
     display = dict(DEFAULT_DISPLAY)
+    featured = set(DEFAULT_FEATURED)
     sheet_name = next(
         (n for n in wb.sheetnames if n.strip().lower() in {"display settings", "display", "site settings"}),
         None,
     )
     if not sheet_name:
-        print("No Display Settings tab — using defaults:", display)
-        return display
+        print("No Display Settings tab — using defaults:", display, "bills:", sort_bill_ids(featured))
+        return display, featured
 
     ws = wb[sheet_name]
+    seen_bill_row = False
     for row in ws.iter_rows(min_row=1, max_col=2, values_only=True):
         if not row or not row[0]:
             continue
@@ -142,15 +228,30 @@ def load_display_settings(wb) -> dict:
         key_norm = re.sub(r"\s+", " ", field_raw).lower()
         if key_norm in {"field", "setting", "name", "column"}:
             continue
-        key = DISPLAY_ALIASES.get(key_norm) or DISPLAY_ALIASES.get(key_norm.replace(" ", ""))
-        if not key:
-            continue
+
         show = parse_show_value(row[1] if len(row) > 1 else None)
-        if show is not None:
+        if show is None:
+            continue
+
+        bill = parse_bill_field(field_raw)
+        if bill:
+            seen_bill_row = True
+            if show:
+                featured.add(bill)
+            else:
+                featured.discard(bill)
+            continue
+
+        key = DISPLAY_ALIASES.get(key_norm) or DISPLAY_ALIASES.get(key_norm.replace(" ", ""))
+        if key:
             display[key] = show
 
+    if not seen_bill_row:
+        featured = set(DEFAULT_FEATURED)
+
     print(f"Display Settings ({sheet_name}): {display}")
-    return display
+    print(f"Featured bills: {sort_bill_ids(featured)}")
+    return display, featured
 
 
 def find_header_row(ws) -> int:
@@ -181,8 +282,9 @@ def main() -> None:
         sys.exit(1)
 
     by_slug, by_name = load_photos()
+    exp_by_slug, exp_by_name, exp_fetched = load_expenses()
     wb = openpyxl.load_workbook(xlsx_path, data_only=True)
-    display = load_display_settings(wb)
+    display, featured = load_display_settings(wb)
 
     # Optional contact/roles sheet
     mpp_info = {}
@@ -289,6 +391,7 @@ def main() -> None:
         email = row[3] or ""
         extra = find_extra(name, email)
         photo, profile_url = lookup_photo(name, by_slug, by_name)
+        expenses = lookup_expenses(name, exp_by_slug, exp_by_name, exp_fetched)
 
         votes = []
         aligned = total = 0
@@ -326,6 +429,7 @@ def main() -> None:
             "oacScore": extra["oacScore"] if extra else 0,
             "photo": photo,
             "profileUrl": profile_url,
+            "expenses": expenses,
             "votingAlignment": round(aligned / total * 100) if total else None,
             "votes": votes,
         })
@@ -343,26 +447,31 @@ def main() -> None:
             "id": simple,
             "label": h.strip(),
             "url": bill_urls.get(simple),
-            "featured": simple in FEATURED,
+            "featured": simple in featured,
         })
+
+    # Only advertise featured bills that actually appear in the vote columns
+    available = {b["id"] for b in bills_meta}
+    featured_list = sort_bill_ids(b for b in featured if b in available)
 
     OUTPUT.parent.mkdir(exist_ok=True)
     with open(OUTPUT, "w") as f:
         json.dump({
             "display": display,
-            "featuredBills": sorted(FEATURED, key=lambda x: int(x.split()[1]) if x.startswith("Bill ") else 999),
+            "featuredBills": featured_list,
             "bills": bills_meta,
             "mpps": mpps,
         }, f, indent=2)
 
     with_photo = sum(1 for m in mpps if m.get("photo"))
     with_riding = sum(1 for m in mpps if m.get("riding"))
+    with_expenses = sum(1 for m in mpps if m.get("expenses"))
     with_urls = sum(1 for b in bills_meta if b.get("url"))
     parties = {}
     for m in mpps:
         parties[m["party"] or "?"] = parties.get(m["party"] or "?", 0) + 1
 
-    print(f"Wrote {len(mpps)} MPPs ({with_photo} photos, {with_riding} with riding)")
+    print(f"Wrote {len(mpps)} MPPs ({with_photo} photos, {with_riding} with riding, {with_expenses} with expenses)")
     print(f"Bill URLs: {with_urls}/{len(bills_meta)}")
     print(f"Parties: {parties}")
     print(f"Skipped empty/invalid rows: {skipped}")
@@ -370,9 +479,10 @@ def main() -> None:
     # Sanity: Tyler Allsopp
     tyler = next((m for m in mpps if "Allsopp" in m["name"]), None)
     if tyler:
+        exp = tyler.get("expenses") or {}
         print(f"Sample Tyler Allsopp: salary={tyler['salary']} riding={tyler['riding']!r} "
               f"photo={'yes' if tyler['photo'] else 'no'} votes={len(tyler['votes'])} "
-              f"align={tyler['votingAlignment']}%")
+              f"align={tyler['votingAlignment']}% expenses={exp.get('total')}")
 
 
 if __name__ == "__main__":

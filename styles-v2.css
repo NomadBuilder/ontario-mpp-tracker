@@ -636,6 +636,20 @@ html.v2 #v1-app { display: none !important; }
   line-height: 1.55;
 }
 
+.detail-expense-note {
+  margin-top: 0.85rem;
+  font-size: 0.78rem;
+  color: var(--dim);
+  line-height: 1.45;
+}
+
+.detail-expense-note a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.detail-expense-note a:hover { text-decoration: underline; }
+
 .detail-actions {
   display: flex;
   gap: 0.65rem;

@@ -13,23 +13,34 @@ Keep the sheet shared as **Anyone with the link can view** so the website can do
 1. **Current Ontarios MPPs** — name, roles, party, riding, email, phone  
 2. **How They Voted** — salary, benefits, party, and Aye / Nay / No Show / N/A for each bill  
 3. **How OAC Score Works** — notes only (not shown on the site)  
-4. **Display Settings** — turn site fields on/off without changing the data
+4. **Display Settings** — turn site fields **and featured bills** on/off without deleting data
 
-### Show or hide fields on the website
+### Show or hide fields / bills on the website
 
-Add a tab named **Display Settings** (exact name) with two columns:
+Add a tab named **Display Settings** (exact name) with columns **Field | Show | Notes**:
 
-| Field | Show |
-| --- | --- |
-| salary | No |
-| benefits | No |
-| votingAlignment | No |
+| Field | Show | Notes |
+| --- | --- | --- |
+| salary | No | MPP salary on cards and tables |
+| benefits | No | Benefits amount on cards and tables |
+| votingAlignment | No | Party voting alignment % |
+| expenses | Yes | OLA expense disclosure totals (travel, meals, hospitality) |
+| Bill 5 | Yes | Featured filter / campaign chip |
+| Bill 17 | Yes | Featured filter / campaign chip |
+| Bill 24 | Yes | Featured filter / campaign chip |
+| Bill 48 | Yes | Featured filter / campaign chip |
+| Bill 60 | Yes | Featured filter / campaign chip |
+| Bill 68 | Yes | Featured filter / campaign chip |
+| Bill 97 | Yes | Featured filter / campaign chip |
 
-Use **Yes** or **No** in the Show column. Right now salary, benefits, and voting alignment are hidden by default even if this tab is missing — change a row to **Yes** when you want that field back on the cards and tables.
+Use **Yes** or **No** in the Show column.
 
-Accepted field names: `salary`, `benefits`, `votingAlignment` (also works: `alignment`, `Voting Alignment`).
+- **salary / benefits / votingAlignment / expenses** — hide or show those numbers on cards and tables. Salary/benefits stay in **How They Voted**; expenses are scraped from ola.org.
+- **Bill N** — controls which bills appear in the campaign vote filters and as “featured” on the tracker. Set a bill to **No** to remove it from the public filters without deleting its vote column. Set **Yes** on a bill that already has a vote column to feature it.
 
-Data stays in the other tabs either way — this only controls what the public site shows.
+A starter workbook you can copy from: `Display-Settings-for-Google-Sheets.xlsx` in this repo.
+
+Accepted field names: `salary`, `benefits`, `votingAlignment`, `expenses` (also: `alignment`, `expense disclosure`), and `Bill 5`, `Bill 17`, … (spacing optional: `bill5` works).
 
 ### Add a new MPP
 
@@ -46,10 +57,15 @@ Edit the cell on **How They Voted** → save.
 1. On **How They Voted**, add a new column (e.g. `Bill 120`)  
 2. In **row 1** of that column, paste the ola.org bill URL  
 3. Fill Aye/Nay/N/A for each MPP  
+4. On **Display Settings**, add a row `Bill 120` | **Yes** if you want it in the public filters  
 
 ### Photos
 
 Pulled automatically from ola.org when we refresh photo cache. New MPPs usually get a photo once OLA publishes one. Until then, initials show.
+
+### Expense disclosure
+
+Pulled from [OLA Members’ expense disclosure](https://www.ola.org/en/members/expense-disclosure/list) (travel, accommodation, meals, hospitality over the past ~2 years). Totals appear on cards/tables; the detail view breaks down categories and links to the official OLA page. Refresh happens with the hourly sheet sync.
 
 ## WordPress page
 
