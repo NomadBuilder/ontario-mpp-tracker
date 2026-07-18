@@ -16,12 +16,19 @@ let display = {
   salary: false,
   benefits: false,
   votingAlignment: false,
+  expenses: true,
 };
 let activeFilter = 'all';
+/** @type {'name'|'expenses-desc'|'expenses-asc'} */
+let sortMode = 'name';
+/** @type {'all'|'top25'|'top10'|'hospitality'|'above-party'} */
+let expenseFocus = 'all';
 /** @type {{ mpp: object, postal: string, city?: string, riding?: string, warning?: string } | null} */
 let activePostal = null;
 /** @type {Record<string, 'yes'|'no'|'noshow'|'na'>} */
 let voteFilters = {};
+/** @type {ReturnType<typeof window.MppShared.buildExpenseIndex> | null} */
+let expenseIndex = null;
 
 function applyFeaturedBills(list) {
   if (Array.isArray(list) && list.length) {
@@ -96,7 +103,68 @@ function voteFilterLabel(key) {
 
 function formatCurrency(amount) {
   if (amount == null) return '—';
-  return '$' + amount.toLocaleString('en-CA');
+  return '$' + amount.toLocaleString('en-CA', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+}
+
+function expenseInsights(mpp) {
+  return expenseIndex?.insights(mpp) || null;
+}
+
+function renderExpensePanel(mpp) {
+  if (!showField('expenses')) return '';
+  const info = expenseInsights(mpp);
+  if (!info) {
+    return `<div class="expense-panel expense-panel-empty">
+      <span class="stat-label">Expenses (2yr)</span>
+      <p class="expense-empty">No OLA claims filed in the past two years.</p>
+    </div>`;
+  }
+
+  const short = window.MppShared.formatMoneyShort;
+  const partyLabel = getPartyInfo(mpp.party).label;
+  const compareBits = [];
+  if (info.rank) compareBits.push(`#${info.rank} of ${info.count}`);
+  if (info.vsParty != null) {
+    compareBits.push(`${info.vsParty.toFixed(1)}× ${partyLabel} median`);
+  } else if (info.partyMedian != null) {
+    compareBits.push(`${partyLabel} median ${short(info.partyMedian)}`);
+  }
+  if (info.legMedian != null) {
+    compareBits.push(`House median ${short(info.legMedian)}`);
+  }
+
+  const bars = info.cats
+    .filter(c => c.value > 0)
+    .map(c => `<span class="expense-bar-seg expense-bar-${c.key}" style="flex:${Math.max(c.share, 0.02)}" title="${c.label}: ${formatCurrency(c.value)}"></span>`)
+    .join('');
+
+  const legend = info.cats.map(c =>
+    `<span class="expense-legend-item"><i class="expense-dot expense-dot-${c.key}"></i>${c.label} ${short(c.value)}</span>`
+  ).join('');
+
+  const flags = info.flags.map(f =>
+    `<span class="expense-flag tone-${f.tone}">${f.label}</span>`
+  ).join('');
+
+  const ola = info.sourceUrl
+    ? `<a class="expense-ola" href="${info.sourceUrl}" target="_blank" rel="noopener">OLA disclosure →</a>`
+    : '';
+
+  return `
+    <div class="expense-panel${info.isTop10 ? ' is-top10' : info.isTop25 ? ' is-top25' : ''}">
+      <div class="expense-panel-head">
+        <span class="stat-label">Expenses (2yr · OLA)</span>
+        <span class="expense-total">${formatCurrency(info.total)}</span>
+      </div>
+      ${compareBits.length ? `<p class="expense-compare">${compareBits.join(' · ')}</p>` : ''}
+      ${flags ? `<div class="expense-flags">${flags}</div>` : ''}
+      ${bars ? `<div class="expense-bar" aria-hidden="true">${bars}</div>` : ''}
+      <div class="expense-legend">${legend}</div>
+      <div class="expense-panel-foot">
+        ${info.claimCount ? `<span>${info.claimCount} claims</span>` : '<span></span>'}
+        ${ola}
+      </div>
+    </div>`;
 }
 
 function getPartyInfo(party) {
@@ -160,12 +228,9 @@ function renderCard(mpp, index) {
   if (showField('votingAlignment')) {
     stats.push(`<div class="stat"><span class="stat-label">Voting Alignment</span><span class="stat-value highlight ${ac}">${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</span></div>`);
   }
-  if (showField('expenses') && mpp.expenses) {
-    stats.push(`<div class="stat"><span class="stat-label">Expenses (2yr)</span><span class="stat-value">${formatCurrency(mpp.expenses.total)}</span></div>`);
-  }
 
   return `
-    <article class="mpp-card" style="animation-delay: ${Math.min(index * 30, 600)}ms">
+    <article class="mpp-card${showField('expenses') && expenseInsights(mpp)?.isTop10 ? ' card-expense-alert' : ''}" style="animation-delay: ${Math.min(index * 30, 600)}ms">
       <div class="card-header">
         <div class="card-name-row">
           ${renderAvatar(mpp, 'card-avatar')}
@@ -178,6 +243,7 @@ function renderCard(mpp, index) {
       </div>
       <div class="card-divider"></div>
       <div class="card-stats">${stats.join('')}</div>
+      ${renderExpensePanel(mpp)}
       <div class="voting-section">
         <button class="voting-toggle" aria-expanded="false"><span>Voting History</span><span class="chevron">▼</span></button>
         <div class="voting-list">${featuredVotes}</div>
@@ -213,9 +279,6 @@ function renderYourMpp(mpp, meta = {}) {
   if (showField('votingAlignment')) {
     stats.push(`<div class="stat"><span class="stat-label">Voting Alignment</span><span class="stat-value highlight ${ac}">${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</span></div>`);
   }
-  if (showField('expenses') && mpp.expenses) {
-    stats.push(`<div class="stat"><span class="stat-label">Expenses (2yr)</span><span class="stat-value">${formatCurrency(mpp.expenses.total)}</span></div>`);
-  }
 
   const where = [meta.postal, meta.city, meta.riding].filter(Boolean).join(' · ');
 
@@ -241,6 +304,7 @@ function renderYourMpp(mpp, meta = {}) {
       </div>
       <div class="card-divider"></div>
       <div class="card-stats">${stats.join('')}</div>
+      ${renderExpensePanel(mpp)}
       <div class="voting-section">
         <button class="voting-toggle open" aria-expanded="true"><span>Full voting history</span><span class="chevron">▼</span></button>
         <div class="voting-list open">${allVotes || '<p class="no-results">No votes on file.</p>'}</div>
@@ -402,6 +466,17 @@ function renderTable(mpps) {
   return `<div class="table-wrapper"><table class="data-table"><thead><tr>${cols.join('')}</tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
+function matchesExpenseFocus(mpp) {
+  if (expenseFocus === 'all' || !showField('expenses')) return true;
+  const info = expenseInsights(mpp);
+  if (!info) return false;
+  if (expenseFocus === 'top10') return info.isTop10;
+  if (expenseFocus === 'top25') return info.isTop25;
+  if (expenseFocus === 'hospitality') return info.hospitalityHeavy;
+  if (expenseFocus === 'above-party') return info.aboveParty;
+  return true;
+}
+
 function filterMpps(query, party) {
   const pool = activePostal ? [activePostal.mpp] : allMpps;
   return pool.filter(mpp => {
@@ -412,8 +487,20 @@ function filterMpps(query, party) {
       || mpp.name.toLowerCase().includes(q)
       || (mpp.riding && mpp.riding.toLowerCase().includes(q))
       || mpp.party.toLowerCase().includes(q);
-    return matchesParty && matchesQuery && matchesVoteFilters(mpp);
+    return matchesParty && matchesQuery && matchesVoteFilters(mpp) && matchesExpenseFocus(mpp);
   });
+}
+
+function sortMpps(list) {
+  const sorted = [...list];
+  if (sortMode === 'expenses-desc') {
+    sorted.sort((a, b) => (b.expenses?.total ?? -1) - (a.expenses?.total ?? -1));
+  } else if (sortMode === 'expenses-asc') {
+    sorted.sort((a, b) => (a.expenses?.total ?? Infinity) - (b.expenses?.total ?? Infinity));
+  } else {
+    sorted.sort((a, b) => String(a.lastName || a.name).localeCompare(String(b.lastName || b.name)));
+  }
+  return sorted;
 }
 
 function renderIntroStats() {
@@ -424,9 +511,28 @@ function renderIntroStats() {
     const info = getPartyInfo(party);
     return `<span class="party-stat"><span class="party-dot ${info.slug}"></span>${info.label}: ${count}</span>`;
   }).join('');
+
+  const short = window.MppShared.formatMoneyShort;
+  const expBits = [];
+  if (showField('expenses') && expenseIndex?.count) {
+    expBits.push(`
+      <div class="stat-pill"><span class="stat-pill-number">${short(expenseIndex.sumAll)}</span><span class="stat-pill-label">Disclosed expenses (2yr)</span></div>
+      <div class="stat-pill"><span class="stat-pill-number">${short(expenseIndex.legMedian)}</span><span class="stat-pill-label">House median</span></div>
+    `);
+    if (expenseIndex.top) {
+      expBits.push(`
+        <div class="stat-pill stat-pill-wide">
+          <span class="stat-pill-label">Highest spender</span>
+          <span class="stat-pill-parties">${expenseIndex.top.mpp.name} · ${short(expenseIndex.top.total)}</span>
+        </div>
+      `);
+    }
+  }
+
   document.getElementById('intro-stats').innerHTML = `
     <div class="stat-pill"><span class="stat-pill-number">${allMpps.length}</span><span class="stat-pill-label">MPPs tracked</span></div>
     <div class="stat-pill"><span class="stat-pill-number">${bills}</span><span class="stat-pill-label">Bills & votes</span></div>
+    ${expBits.join('')}
     <div class="stat-pill stat-pill-wide"><span class="stat-pill-label">By party</span><span class="stat-pill-parties">${partyBreakdown}</span></div>`;
 }
 
@@ -515,15 +621,40 @@ function setupCampaignFilters() {
 }
 
 function updateView() {
-  const filtered = filterMpps(document.getElementById('search').value, activeFilter);
+  const filtered = sortMpps(filterMpps(document.getElementById('search').value, activeFilter));
   const grid = document.getElementById('cards-grid');
   grid.innerHTML = filtered.length
     ? filtered.map((m, i) => renderCard(m, i)).join('')
-    : '<p class="no-results">No MPPs match your search and campaign filters.</p>';
+    : '<p class="no-results">No MPPs match your search and filters.</p>';
   document.getElementById('result-count').textContent = `${filtered.length} of ${allMpps.length} MPPs`;
   document.getElementById('table-container').innerHTML = renderTable(filtered);
   updateCampaignSummary(filtered.length);
   wireVotingToggles();
+}
+
+function setupExpenseControls() {
+  const sortEl = document.getElementById('sort-mode');
+  const focusEl = document.getElementById('expense-focus');
+  if (!sortEl || !focusEl) return;
+
+  if (!showField('expenses')) {
+    focusEl.closest('.expense-controls')?.setAttribute('hidden', '');
+  }
+
+  sortEl.value = sortMode;
+  focusEl.value = expenseFocus;
+  sortEl.onchange = () => {
+    sortMode = sortEl.value;
+    updateView();
+  };
+  focusEl.onchange = () => {
+    expenseFocus = focusEl.value;
+    if (expenseFocus !== 'all' && sortMode === 'name') {
+      sortMode = 'expenses-desc';
+      sortEl.value = sortMode;
+    }
+    updateView();
+  };
 }
 
 function setupFilters() {
@@ -556,10 +687,12 @@ async function init() {
     billsMeta = payload.bills || [];
     if (payload.display) display = { ...display, ...payload.display };
     applyFeaturedBills(payload.featuredBills);
+    expenseIndex = window.MppShared.buildExpenseIndex(allMpps);
     document.getElementById('loading').style.display = 'none';
     document.getElementById('main-content').style.display = 'block';
     renderIntroStats();
     setupFilters();
+    setupExpenseControls();
     setupCampaignFilters();
     setupSearch();
     document.querySelectorAll('.view-btn').forEach(btn => { btn.onclick = () => setView(btn.dataset.view); });

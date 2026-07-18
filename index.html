@@ -42,8 +42,8 @@
             <ol class="howto-steps">
               <li><strong>Find your MPP</strong> — search by name or riding, or enter your postal code and press Enter.</li>
               <li><strong>Campaign filters</strong> — show only MPPs who voted a certain way on key bills (e.g. Yes on Bill 5 and Bill 97).</li>
-              <li><strong>Open a card</strong> — party and voting history at a glance.</li>
-              <li><strong>Take action</strong> — email or call from the card, or switch to the full data table.</li>
+              <li><strong>Expense spotlight</strong> — sort by spend and flag top spenders, hospitality-heavy claims, and MPPs above their party median.</li>
+              <li><strong>Take action</strong> — email or call from the card, or open the OLA expense disclosure link.</li>
             </ol>
           </div>
           <div class="view-toggle" role="tablist">
@@ -71,6 +71,26 @@
               >
             </form>
             <div class="filter-group" id="filter-buttons"></div>
+            <div class="expense-controls">
+              <label class="expense-control">
+                <span class="expense-control-label">Sort</span>
+                <select id="sort-mode" aria-label="Sort MPPs">
+                  <option value="name">Name</option>
+                  <option value="expenses-desc">Expenses · high → low</option>
+                  <option value="expenses-asc">Expenses · low → high</option>
+                </select>
+              </label>
+              <label class="expense-control">
+                <span class="expense-control-label">Expense spotlight</span>
+                <select id="expense-focus" aria-label="Expense spotlight filter">
+                  <option value="all">All MPPs</option>
+                  <option value="top10">Top 10% spenders</option>
+                  <option value="top25">Top 25% spenders</option>
+                  <option value="above-party">Above party median</option>
+                  <option value="hospitality">Hospitality-heavy</option>
+                </select>
+              </label>
+            </div>
             <span class="result-count" id="result-count"></span>
           </div>
           <p class="search-status" id="search-status" role="status" aria-live="polite" hidden></p>

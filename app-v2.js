@@ -23,7 +23,10 @@ let display = {
   salary: false,
   benefits: false,
   votingAlignment: false,
+  expenses: true,
 };
+/** @type {ReturnType<typeof window.MppShared.buildExpenseIndex> | null} */
+let expenseIndex = null;
 
 function applyFeaturedBills(list) {
   if (Array.isArray(list) && list.length) {
@@ -213,6 +216,10 @@ function renderMasterList() {
     const align = showField('votingAlignment') && m.votingAlignment != null
       ? `${m.votingAlignment}%`
       : null;
+    const info = showField('expenses') ? expenseIndex?.insights(m) : null;
+    const expBadge = info
+      ? `<span class="master-exp${info.isTop10 ? ' is-hot' : ''}">${window.MppShared.formatMoneyShort(info.total)}</span>`
+      : '';
     return `
       <li class="master-item party-${p.slug}${sel ? ' selected' : ''}"
           role="option" aria-selected="${sel}"
@@ -222,6 +229,7 @@ function renderMasterList() {
           <span class="master-name">${m.name}</span>
           <span class="master-meta">${m.riding || '—'} · ${p.label}</span>
         </span>
+        ${expBadge}
         ${align != null ? `<span class="master-align ${alignmentClass(m.votingAlignment)}">${align}</span>` : ''}
       </li>`;
   }).join('');
@@ -249,6 +257,8 @@ function renderDetail(m) {
   const showBenefits = showField('benefits');
   const showExpenses = showField('expenses') && m.expenses;
   const showComp = showSalary || showBenefits || showExpenses;
+  const info = showExpenses ? expenseIndex?.insights(m) : null;
+  const short = window.MppShared.formatMoneyShort;
 
   const voteRows = m.votes.map(v => `
     <tr class="vote-row-${voteClass(v)}">
@@ -260,6 +270,17 @@ function renderDetail(m) {
   const featuredRows = m.votes.filter(v => [...featuredSet].some(fb => v.bill.startsWith(fb)));
   const otherRows = m.votes.filter(v => ![...featuredSet].some(fb => v.bill.startsWith(fb)));
   const exp = m.expenses;
+  const partyLabel = p.label;
+  const flags = (info?.flags || []).map(f =>
+    `<span class="expense-flag tone-${f.tone}">${f.label}</span>`
+  ).join('');
+  const compare = info
+    ? [
+        info.rank ? `Rank #${info.rank} of ${info.count}` : null,
+        info.vsParty != null ? `${info.vsParty.toFixed(1)}× ${partyLabel} median (${short(info.partyMedian)})` : null,
+        info.legMedian != null ? `House median ${short(info.legMedian)}` : null,
+      ].filter(Boolean).join(' · ')
+    : '';
 
   document.getElementById('detail-pane').innerHTML = `
     <div class="detail-card party-${p.slug}">
@@ -294,6 +315,8 @@ function renderDetail(m) {
             ${showExpenses ? `<div><dt>Hospitality / events</dt><dd>${formatCurrency(exp.hospitality)}</dd></div>` : ''}
             ${m.oacScore > 0 ? `<div><dt>OAC Score</dt><dd class="accent">${m.oacScore}</dd></div>` : ''}
           </dl>
+          ${showExpenses && compare ? `<p class="detail-expense-note">${compare}</p>` : ''}
+          ${showExpenses && flags ? `<div class="expense-flags" style="margin-top:0.65rem">${flags}</div>` : ''}
           ${showExpenses && exp.sourceUrl ? `<p class="detail-expense-note"><a href="${exp.sourceUrl}" target="_blank" rel="noopener">OLA expense disclosure →</a>${exp.claimCount ? ` · ${exp.claimCount} claims` : ''}${exp.asOf ? ` · scraped ${exp.asOf}` : ''}</p>` : ''}
         </section>` : ''}
 
@@ -512,6 +535,7 @@ async function init() {
     if (data.display) display = { ...display, ...data.display };
     allBills = billsMeta.length ? billsMeta.map(b => b.id) : (allMpps[0]?.votes.map(v => v.bill) || []);
     applyFeaturedBills(data.featuredBills);
+    expenseIndex = window.MppShared.buildExpenseIndex(allMpps);
     filteredMpps = [...allMpps];
     selectedMpp = allMpps[0];
 

@@ -428,6 +428,16 @@ html.v2 #v1-app { display: none !important; }
   flex-shrink: 0;
 }
 
+.master-exp {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--muted);
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.master-exp.is-hot { color: var(--red); }
+
 .master-align.high { color: var(--green); }
 .master-align.mid { color: var(--gold); }
 .master-align.low { color: var(--red); }
@@ -649,6 +659,39 @@ html.v2 #v1-app { display: none !important; }
 }
 
 .detail-expense-note a:hover { text-decoration: underline; }
+
+.expense-flags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.expense-flag {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.2rem 0.45rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.expense-flag.tone-alert {
+  color: #ffb4b4;
+  background: rgba(193, 18, 31, 0.2);
+  border-color: rgba(193, 18, 31, 0.35);
+}
+
+.expense-flag.tone-warn {
+  color: #ffe08a;
+  background: rgba(255, 199, 69, 0.15);
+  border-color: rgba(255, 199, 69, 0.3);
+}
+
+.expense-flag.tone-info {
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.04);
+  border-color: var(--border);
+}
 
 .detail-actions {
   display: flex;

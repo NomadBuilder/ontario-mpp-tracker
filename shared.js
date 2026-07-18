@@ -168,6 +168,127 @@ window.MppShared = (function () {
     };
   }
 
+  function median(nums) {
+    if (!nums.length) return null;
+    const sorted = [...nums].sort((a, b) => a - b);
+    const mid = Math.floor(sorted.length / 2);
+    return sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+  }
+
+  function formatMoneyShort(n) {
+    if (n == null || Number.isNaN(n)) return '—';
+    const abs = Math.abs(n);
+    if (abs >= 1e6) return '$' + (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (abs >= 1000) return '$' + (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+    return '$' + Math.round(n).toLocaleString('en-CA');
+  }
+
+  /** Build peer comparison index once; call insights(mpp) per card. */
+  function buildExpenseIndex(mpps) {
+    const rows = (mpps || [])
+      .filter(m => m.expenses && typeof m.expenses.total === 'number')
+      .map(m => ({ mpp: m, total: m.expenses.total }));
+
+    rows.sort((a, b) => b.total - a.total);
+    const totalsAsc = rows.map(r => r.total).sort((a, b) => a - b);
+    const legMedian = median(totalsAsc);
+    const topDecileCut = totalsAsc.length
+      ? totalsAsc[Math.max(0, Math.ceil(totalsAsc.length * 0.9) - 1)]
+      : null;
+    const topQuartileCut = totalsAsc.length
+      ? totalsAsc[Math.max(0, Math.ceil(totalsAsc.length * 0.75) - 1)]
+      : null;
+
+    const partyMedians = {};
+    const byParty = {};
+    rows.forEach(({ mpp, total }) => {
+      const p = mpp.party || 'Unknown';
+      (byParty[p] || (byParty[p] = [])).push(total);
+    });
+    Object.keys(byParty).forEach(p => {
+      partyMedians[p] = median(byParty[p]);
+    });
+
+    const rankByName = new Map();
+    rows.forEach((r, i) => rankByName.set(r.mpp.name, i + 1));
+
+    const sumAll = rows.reduce((s, r) => s + r.total, 0);
+    const top = rows[0] || null;
+
+    function insights(mpp) {
+      const e = mpp?.expenses;
+      if (!e || typeof e.total !== 'number') return null;
+
+      const partyMed = partyMedians[mpp.party] ?? null;
+      const vsParty = partyMed > 0 ? e.total / partyMed : null;
+      const vsLeg = legMedian > 0 ? e.total / legMedian : null;
+      const rank = rankByName.get(mpp.name) || null;
+      const count = rows.length;
+
+      const cats = [
+        { key: 'travel', label: 'Travel', value: e.travel || 0 },
+        { key: 'accommodation', label: 'Accommodation', value: e.accommodation || 0 },
+        { key: 'meals', label: 'Meals', value: e.meals || 0 },
+        { key: 'hospitality', label: 'Hospitality', value: e.hospitality || 0 },
+      ];
+      const catSum = cats.reduce((s, c) => s + c.value, 0) || 1;
+      cats.forEach(c => { c.share = c.value / catSum; });
+      const dominant = [...cats].sort((a, b) => b.value - a.value)[0];
+
+      const flags = [];
+      if (topDecileCut != null && e.total >= topDecileCut) {
+        flags.push({ id: 'top10', label: 'Top 10% spender', tone: 'alert' });
+      } else if (topQuartileCut != null && e.total >= topQuartileCut) {
+        flags.push({ id: 'top25', label: 'Top 25% spender', tone: 'warn' });
+      }
+      if (vsParty != null && vsParty >= 2) {
+        flags.push({ id: 'party2x', label: `${vsParty.toFixed(1)}× party median`, tone: 'alert' });
+      } else if (vsParty != null && vsParty >= 1.35) {
+        flags.push({ id: 'partyHigh', label: `${vsParty.toFixed(1)}× party median`, tone: 'warn' });
+      }
+      if (dominant && dominant.share >= 0.6 && dominant.value > 0) {
+        flags.push({
+          id: 'catHeavy',
+          label: `${dominant.label}-heavy (${Math.round(dominant.share * 100)}%)`,
+          tone: dominant.key === 'hospitality' ? 'warn' : 'info',
+        });
+      }
+
+      return {
+        total: e.total,
+        travel: e.travel || 0,
+        accommodation: e.accommodation || 0,
+        meals: e.meals || 0,
+        hospitality: e.hospitality || 0,
+        claimCount: e.claimCount || 0,
+        sourceUrl: e.sourceUrl,
+        asOf: e.asOf,
+        rank,
+        count,
+        legMedian,
+        partyMedian: partyMed,
+        vsParty,
+        vsLeg,
+        cats,
+        dominant,
+        flags,
+        isTop25: topQuartileCut != null && e.total >= topQuartileCut,
+        isTop10: topDecileCut != null && e.total >= topDecileCut,
+        hospitalityHeavy: dominant?.key === 'hospitality' && dominant.share >= 0.6,
+        aboveParty: vsParty != null && vsParty >= 1.35,
+      };
+    }
+
+    return {
+      count: rows.length,
+      sumAll,
+      legMedian,
+      top,
+      partyMedians,
+      insights,
+    };
+  }
+
   return {
     billLink,
     getBillMeta,
@@ -178,5 +299,7 @@ window.MppShared = (function () {
     isValidPostal,
     normalizeRiding,
     lookupMppByPostal,
+    buildExpenseIndex,
+    formatMoneyShort,
   };
 })();
