@@ -31,17 +31,17 @@ let voteFilters = {};
 let expenseIndex = null;
 
 const EXPENSE_PRESETS = [
-  { id: 'top10', label: 'Top 10% spenders', sort: 'expenses-desc' },
-  { id: 'top25', label: 'Top 25% spenders', sort: 'expenses-desc' },
-  { id: 'over100k', label: '$100k+', sort: 'expenses-desc' },
-  { id: 'over50k', label: '$50k+', sort: 'expenses-desc' },
-  { id: 'above-party', label: 'Above party median', sort: 'expenses-desc' },
-  { id: 'above-house', label: 'Above House median', sort: 'expenses-desc' },
-  { id: 'hospitality', label: 'Hospitality-heavy', sort: 'hospitality-desc' },
-  { id: 'high-hospitality', label: 'Hospitality $20k+', sort: 'hospitality-desc' },
-  { id: 'travel', label: 'Travel-heavy', sort: 'travel-desc' },
-  { id: 'high-travel', label: 'Travel $30k+', sort: 'travel-desc' },
-  { id: 'below-party', label: 'Below party median', sort: 'expenses-asc' },
+  { id: 'top10', label: 'Top 10% spenders', tip: 'top10', sort: 'expenses-desc' },
+  { id: 'top25', label: 'Top 25% spenders', tip: 'top25', sort: 'expenses-desc' },
+  { id: 'over100k', label: '$100k+', tip: 'over100k', sort: 'expenses-desc' },
+  { id: 'over50k', label: '$50k+', tip: 'over50k', sort: 'expenses-desc' },
+  { id: 'above-party', label: 'Above party median', tip: 'aboveParty', sort: 'expenses-desc' },
+  { id: 'above-house', label: 'Above House median', tip: 'aboveHouse', sort: 'expenses-desc' },
+  { id: 'hospitality', label: 'Hospitality-heavy', tip: 'hospitalityHeavy', sort: 'hospitality-desc' },
+  { id: 'high-hospitality', label: 'Hospitality $20k+', tip: 'highHospitality', sort: 'hospitality-desc' },
+  { id: 'travel', label: 'Travel-heavy', tip: 'travelHeavy', sort: 'travel-desc' },
+  { id: 'high-travel', label: 'Travel $30k+', tip: 'highTravel', sort: 'travel-desc' },
+  { id: 'below-party', label: 'Below party median', tip: 'belowParty', sort: 'expenses-asc' },
 ];
 
 const EXPENSE_FOCUS_LABELS = Object.fromEntries([
@@ -132,9 +132,10 @@ function expenseInsights(mpp) {
 function renderExpensePanel(mpp) {
   if (!showField('expenses')) return '';
   const info = expenseInsights(mpp);
+  const tip = window.MppShared.tipSpan;
   if (!info) {
     return `<div class="expense-panel expense-panel-empty">
-      <span class="stat-label">Expenses (2yr)</span>
+      <span class="stat-label"${window.MppShared.tipAttrs('expensesPanel')}>Expenses (2yr)</span>
       <p class="expense-empty">No OLA claims filed in the past two years.</p>
     </div>`;
   }
@@ -142,45 +143,59 @@ function renderExpensePanel(mpp) {
   const short = window.MppShared.formatMoneyShort;
   const partyLabel = getPartyInfo(mpp.party).label;
   const compareBits = [];
-  if (info.rank) compareBits.push(`#${info.rank} of ${info.count}`);
+  if (info.rank) {
+    compareBits.push(tip(`#${info.rank} of ${info.count}`, 'rank'));
+  }
   if (info.vsParty != null) {
-    compareBits.push(`${info.vsParty.toFixed(1)}× ${partyLabel} median`);
+    compareBits.push(tip(`${info.vsParty.toFixed(1)}× ${partyLabel} median`, 'vsParty'));
   } else if (info.partyMedian != null) {
-    compareBits.push(`${partyLabel} median ${short(info.partyMedian)}`);
+    compareBits.push(tip(`${partyLabel} median ${short(info.partyMedian)}`, 'partyMedian'));
   }
   if (info.legMedian != null) {
-    compareBits.push(`House median ${short(info.legMedian)}`);
+    compareBits.push(tip(`House median ${short(info.legMedian)}`, 'houseMedian'));
   }
 
   const bars = info.cats
     .filter(c => c.value > 0)
-    .map(c => `<span class="expense-bar-seg expense-bar-${c.key}" style="flex:${Math.max(c.share, 0.02)}" title="${c.label}: ${formatCurrency(c.value)}"></span>`)
+    .map(c => `<span class="expense-bar-seg expense-bar-${c.key}" style="flex:${Math.max(c.share, 0.02)}" title="${window.MppShared.EXPENSE_TIPS[c.key] || c.label}: ${formatCurrency(c.value)}"></span>`)
     .join('');
 
   const legend = info.cats.map(c =>
-    `<span class="expense-legend-item"><i class="expense-dot expense-dot-${c.key}"></i>${c.label} ${short(c.value)}</span>`
+    tip(
+      `<span class="expense-legend-item"><i class="expense-dot expense-dot-${c.key}"></i>${c.label} ${short(c.value)}</span>`,
+      c.key
+    )
   ).join('');
 
+  const flagTipKey = {
+    top10: 'top10',
+    top25: 'top25',
+    party2x: 'vsParty',
+    partyHigh: 'vsParty',
+    catHeavy: info.hospitalityHeavy ? 'hospitalityHeavy' : info.travelHeavy ? 'travelHeavy' : 'expensesPanel',
+    over100k: 'over100k',
+    over50k: 'over50k',
+  };
   const flags = info.flags.map(f =>
-    `<span class="expense-flag tone-${f.tone}">${f.label}</span>`
+    `<span class="expense-flag tone-${f.tone}"${window.MppShared.tipAttrs(flagTipKey[f.id] || f.label)}>${f.label}</span>`
   ).join('');
 
   const ola = info.sourceUrl
-    ? `<a class="expense-ola" href="${info.sourceUrl}" target="_blank" rel="noopener">OLA disclosure →</a>`
+    ? `<a class="expense-ola has-tip" href="${info.sourceUrl}" target="_blank" rel="noopener" title="${window.MppShared.EXPENSE_TIPS.olaLink}">OLA disclosure →</a>`
     : '';
 
   return `
     <div class="expense-panel${info.isTop10 ? ' is-top10' : info.isTop25 ? ' is-top25' : ''}">
       <div class="expense-panel-head">
-        <span class="stat-label">Expenses (2yr · OLA)</span>
-        <span class="expense-total">${formatCurrency(info.total)}</span>
+        <span class="stat-label"${window.MppShared.tipAttrs('expensesPanel')}>Expenses (2yr · OLA)</span>
+        <span class="expense-total"${window.MppShared.tipAttrs('disclosedTotal')}>${formatCurrency(info.total)}</span>
       </div>
       ${compareBits.length ? `<p class="expense-compare">${compareBits.join(' · ')}</p>` : ''}
       ${flags ? `<div class="expense-flags">${flags}</div>` : ''}
       ${bars ? `<div class="expense-bar" aria-hidden="true">${bars}</div>` : ''}
       <div class="expense-legend">${legend}</div>
       <div class="expense-panel-foot">
-        ${info.claimCount ? `<span>${info.claimCount} claims</span>` : '<span></span>'}
+        ${info.claimCount ? tip(`<span>${info.claimCount} claims</span>`, 'claims') : '<span></span>'}
         ${ola}
       </div>
     </div>`;
@@ -548,13 +563,19 @@ function renderIntroStats() {
   const expBits = [];
   if (showField('expenses') && expenseIndex?.count) {
     expBits.push(`
-      <div class="stat-pill"><span class="stat-pill-number">${short(expenseIndex.sumAll)}</span><span class="stat-pill-label">Disclosed expenses (2yr)</span></div>
-      <div class="stat-pill"><span class="stat-pill-number">${short(expenseIndex.legMedian)}</span><span class="stat-pill-label">House median</span></div>
+      <div class="stat-pill"${window.MppShared.tipAttrs('disclosedTotal')}>
+        <span class="stat-pill-number">${short(expenseIndex.sumAll)}</span>
+        <span class="stat-pill-label">Disclosed expenses (2yr) <span class="tip-mark" aria-hidden="true">?</span></span>
+      </div>
+      <div class="stat-pill"${window.MppShared.tipAttrs('houseMedian')}>
+        <span class="stat-pill-number">${short(expenseIndex.legMedian)}</span>
+        <span class="stat-pill-label">House median <span class="tip-mark" aria-hidden="true">?</span></span>
+      </div>
     `);
     if (expenseIndex.top) {
       expBits.push(`
-        <div class="stat-pill stat-pill-wide">
-          <span class="stat-pill-label">Highest spender</span>
+        <div class="stat-pill stat-pill-wide"${window.MppShared.tipAttrs('highestSpender')}>
+          <span class="stat-pill-label">Highest spender <span class="tip-mark" aria-hidden="true">?</span></span>
           <span class="stat-pill-parties">${expenseIndex.top.mpp.name} · ${short(expenseIndex.top.total)}</span>
         </div>
       `);
@@ -696,9 +717,11 @@ function setupExpenseControls() {
   }
   section.hidden = false;
 
-  presets.innerHTML = EXPENSE_PRESETS.map(p =>
-    `<button type="button" class="campaign-preset" data-expense="${p.id}">${p.label}</button>`
-  ).join('');
+  presets.innerHTML = EXPENSE_PRESETS.map(p => {
+    const tip = window.MppShared.EXPENSE_TIPS[p.tip] || '';
+    const safe = tip.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+    return `<button type="button" class="campaign-preset has-tip" data-expense="${p.id}" data-tip="${safe}" title="${safe}">${p.label}</button>`;
+  }).join('');
 
   presets.querySelectorAll('.campaign-preset').forEach(btn => {
     btn.onclick = () => {

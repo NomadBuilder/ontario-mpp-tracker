@@ -183,6 +183,61 @@ window.MppShared = (function () {
     return '$' + Math.round(n).toLocaleString('en-CA');
   }
 
+  /** Plain-language glossary for expense UI tooltips. */
+  const EXPENSE_TIPS = {
+    houseMedian:
+      'House median: the midpoint of all MPPs’ disclosed expense totals over ~2 years. Half of MPPs spent more than this; half spent less. “House” means the Legislative Assembly.',
+    partyMedian:
+      'Party median: the midpoint expense total for MPPs in the same party only — a peer benchmark within that caucus.',
+    vsParty:
+      'Compared with this MPP’s party median. 1.0× means typical for the party; 2.0× means about twice the party midpoint.',
+    disclosedTotal:
+      'Total travel, accommodation, meals, and hospitality filed on ola.org over about two years. Does not include travel inside the MPP’s own riding.',
+    rank:
+      'Rank among all MPPs who filed expense claims in the OLA disclosure window (highest total = #1).',
+    top10: 'This MPP is among the highest 10% of disclosed expense totals in the House.',
+    top25: 'This MPP is among the highest 25% of disclosed expense totals in the House.',
+    hospitalityHeavy:
+      'More than 60% of this MPP’s disclosed expenses were hospitality / events (not travel or meals).',
+    travelHeavy:
+      'More than 60% of this MPP’s disclosed expenses were travel outside the riding.',
+    over50k: 'More than $50,000 in disclosed expenses over the ~2-year OLA window.',
+    over100k: 'More than $100,000 in disclosed expenses over the ~2-year OLA window.',
+    highestSpender: 'MPP with the largest disclosed expense total in the current OLA ~2-year window.',
+    claims: 'Number of individual expense claim lines published on the OLA disclosure page.',
+    olaLink: 'Opens this MPP’s official expense disclosure page on ola.org (Legislative Assembly of Ontario).',
+    travel: 'Travel outside the constituency (flights, mileage between regions, etc.). In-riding travel is not disclosed here.',
+    accommodation: 'Hotel / lodging while travelling for legislative or constituency business outside the riding.',
+    meals: 'Meal expenses tied to disclosed travel or events.',
+    hospitality: 'Hospitality and events — receptions, coffee meet-ups, dining-room hospitality, ceremonies, etc.',
+    expensesPanel: 'Public expense disclosure from the Legislative Assembly of Ontario (ola.org), covering roughly the past two years.',
+    aboveParty: 'Total is at least 35% above this MPP’s party median.',
+    aboveHouse: 'Total is at least 35% above the House (all-MPP) median.',
+    belowParty: 'Total is at least 25% below this MPP’s party median.',
+    highHospitality: 'At least $20,000 in hospitality / events claims in the ~2-year window.',
+    highTravel: 'At least $30,000 in travel claims in the ~2-year window.',
+  };
+
+  function tipAttrs(keyOrText) {
+    const text = EXPENSE_TIPS[keyOrText] || keyOrText || '';
+    if (!text) return '';
+    const safe = String(text)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;');
+    return ` class="has-tip" tabindex="0" data-tip="${safe}" title="${safe}"`;
+  }
+
+  function tipSpan(labelHtml, keyOrText) {
+    const text = EXPENSE_TIPS[keyOrText] || keyOrText || '';
+    if (!text) return labelHtml;
+    const safe = String(text)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;');
+    return `<span class="has-tip" tabindex="0" data-tip="${safe}" title="${safe}">${labelHtml}</span>`;
+  }
+
   /** Build peer comparison index once; call insights(mpp) per card. */
   function buildExpenseIndex(mpps) {
     const rows = (mpps || [])
@@ -313,5 +368,8 @@ window.MppShared = (function () {
     lookupMppByPostal,
     buildExpenseIndex,
     formatMoneyShort,
+    EXPENSE_TIPS,
+    tipAttrs,
+    tipSpan,
   };
 })();

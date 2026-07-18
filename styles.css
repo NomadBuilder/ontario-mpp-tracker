@@ -880,6 +880,86 @@ body.embed-mode .campaign-filters {
 .stat-value.alignment-mid { color: var(--accent-yellow); }
 .stat-value.alignment-low { color: var(--accent-red); }
 
+/* Tooltips for expense glossary terms */
+.has-tip {
+  position: relative;
+  cursor: help;
+}
+
+.stat-pill.has-tip,
+.expense-flag.has-tip,
+.campaign-preset.has-tip {
+  border-bottom: none;
+}
+
+.has-tip:not(.stat-pill):not(.expense-flag):not(.campaign-preset):not(.expense-ola) {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.35);
+}
+
+.tip-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.95em;
+  height: 0.95em;
+  margin-left: 0.2em;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--text-dim);
+  vertical-align: 0.05em;
+}
+
+.has-tip[data-tip]::after {
+  content: attr(data-tip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%) translateY(4px);
+  width: max-content;
+  max-width: min(22rem, 70vw);
+  padding: 0.55rem 0.7rem;
+  border-radius: 8px;
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 199, 69, 0.35);
+  color: #f2f2f2;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: none;
+  letter-spacing: 0;
+  white-space: normal;
+  text-align: left;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease, transform 0.12s ease;
+  z-index: 40;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+}
+
+.has-tip[data-tip]:hover::after,
+.has-tip[data-tip]:focus::after,
+.has-tip[data-tip]:focus-visible::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Keep tooltips readable near edges of cards */
+.mpp-card .has-tip[data-tip]::after,
+.expense-panel .has-tip[data-tip]::after {
+  left: 0;
+  transform: translateY(4px);
+}
+
+.mpp-card .has-tip[data-tip]:hover::after,
+.mpp-card .has-tip[data-tip]:focus::after,
+.expense-panel .has-tip[data-tip]:hover::after,
+.expense-panel .has-tip[data-tip]:focus::after {
+  transform: translateY(0);
+}
+
 /* Expense accountability panel — legacy compact controls kept for any leftover markup */
 .expense-controls {
   display: flex;

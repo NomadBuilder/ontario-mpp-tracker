@@ -271,14 +271,20 @@ function renderDetail(m) {
   const otherRows = m.votes.filter(v => ![...featuredSet].some(fb => v.bill.startsWith(fb)));
   const exp = m.expenses;
   const partyLabel = p.label;
-  const flags = (info?.flags || []).map(f =>
-    `<span class="expense-flag tone-${f.tone}">${f.label}</span>`
-  ).join('');
+  const flags = (info?.flags || []).map(f => {
+    const tipKey = ({
+      top10: 'top10', top25: 'top25', party2x: 'vsParty', partyHigh: 'vsParty',
+      over100k: 'over100k', over50k: 'over50k',
+      catHeavy: info.hospitalityHeavy ? 'hospitalityHeavy' : info.travelHeavy ? 'travelHeavy' : 'expensesPanel',
+    })[f.id] || f.label;
+    return `<span class="expense-flag tone-${f.tone}"${window.MppShared.tipAttrs(tipKey)}>${f.label}</span>`;
+  }).join('');
+  const tip = window.MppShared.tipSpan;
   const compare = info
     ? [
-        info.rank ? `Rank #${info.rank} of ${info.count}` : null,
-        info.vsParty != null ? `${info.vsParty.toFixed(1)}× ${partyLabel} median (${short(info.partyMedian)})` : null,
-        info.legMedian != null ? `House median ${short(info.legMedian)}` : null,
+        info.rank ? tip(`Rank #${info.rank} of ${info.count}`, 'rank') : null,
+        info.vsParty != null ? tip(`${info.vsParty.toFixed(1)}× ${partyLabel} median (${short(info.partyMedian)})`, 'vsParty') : null,
+        info.legMedian != null ? tip(`House median ${short(info.legMedian)}`, 'houseMedian') : null,
       ].filter(Boolean).join(' · ')
     : '';
 

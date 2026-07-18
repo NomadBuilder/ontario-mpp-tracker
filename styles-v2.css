@@ -693,6 +693,44 @@ html.v2 #v1-app { display: none !important; }
   border-color: var(--border);
 }
 
+.has-tip {
+  position: relative;
+  cursor: help;
+}
+
+.has-tip:not(.expense-flag) {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.35);
+}
+
+.has-tip[data-tip]::after {
+  content: attr(data-tip);
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 8px);
+  width: max-content;
+  max-width: min(22rem, 70vw);
+  padding: 0.55rem 0.7rem;
+  border-radius: 8px;
+  background: #16161a;
+  border: 1px solid rgba(255, 199, 69, 0.35);
+  color: #f2f2f2;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.4;
+  white-space: normal;
+  text-align: left;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+  z-index: 40;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+}
+
+.has-tip[data-tip]:hover::after,
+.has-tip[data-tip]:focus::after {
+  opacity: 1;
+}
+
 .detail-actions {
   display: flex;
   gap: 0.65rem;
