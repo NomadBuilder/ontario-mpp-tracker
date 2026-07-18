@@ -69,29 +69,6 @@ const VOTE_OPTIONS = [
   { value: 'na', label: 'N/A' },
 ];
 
-const CAMPAIGN_PRESETS = [
-  {
-    id: 'yes-5-97',
-    label: 'Yes on Bill 5 + Bill 97',
-    filters: { 'Bill 5': 'yes', 'Bill 97': 'yes' },
-  },
-  {
-    id: 'yes-5',
-    label: 'Yes on Bill 5',
-    filters: { 'Bill 5': 'yes' },
-  },
-  {
-    id: 'no-5',
-    label: 'No on Bill 5',
-    filters: { 'Bill 5': 'no' },
-  },
-  {
-    id: 'yes-60-68',
-    label: 'Yes on Bill 60 + Bill 68',
-    filters: { 'Bill 60': 'yes', 'Bill 68': 'yes' },
-  },
-];
-
 function showField(key) {
   return display[key] !== false;
 }
@@ -623,31 +600,12 @@ function applyVoteFilters(next) {
     sel.value = voteFilters[sel.dataset.bill] || '';
   });
 
-  document.querySelectorAll('.campaign-preset').forEach(btn => {
-    const preset = CAMPAIGN_PRESETS.find(p => p.id === btn.dataset.preset);
-    const active = preset && JSON.stringify(preset.filters) === JSON.stringify(voteFilters);
-    btn.classList.toggle('active', Boolean(active));
-  });
-
   updateView();
 }
 
 function setupCampaignFilters() {
   const grid = document.getElementById('campaign-bill-grid');
-  const presets = document.getElementById('campaign-presets');
-
-  presets.innerHTML = CAMPAIGN_PRESETS.map(p =>
-    `<button type="button" class="campaign-preset" data-preset="${p.id}">${p.label}</button>`
-  ).join('');
-
-  presets.querySelectorAll('.campaign-preset').forEach(btn => {
-    btn.onclick = () => {
-      const preset = CAMPAIGN_PRESETS.find(p => p.id === btn.dataset.preset);
-      if (!preset) return;
-      const same = JSON.stringify(preset.filters) === JSON.stringify(voteFilters);
-      applyVoteFilters(same ? {} : { ...preset.filters });
-    };
-  });
+  if (!grid) return;
 
   grid.innerHTML = FEATURED_BILLS.map(bill => `
     <label class="campaign-bill">
