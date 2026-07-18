@@ -225,7 +225,8 @@ window.MppShared = (function () {
       .replace(/&/g, '&amp;')
       .replace(/"/g, '&quot;')
       .replace(/</g, '&lt;');
-    return ` class="has-tip" tabindex="0" data-tip="${safe}" title="${safe}"`;
+    // Do not set class= here — callers already have a class attribute.
+    return ` tabindex="0" data-tip="${safe}" title="${safe}"`;
   }
 
   function tipSpan(labelHtml, keyOrText, withMark = false) {
@@ -235,7 +236,7 @@ window.MppShared = (function () {
       .replace(/&/g, '&amp;')
       .replace(/"/g, '&quot;')
       .replace(/</g, '&lt;');
-    const mark = withMark ? ' <span class="tip-mark" aria-hidden="true">?</span>' : '';
+    const mark = withMark ? '<span class="tip-mark" aria-hidden="true">?</span>' : '';
     return `<span class="has-tip" tabindex="0" data-tip="${safe}" title="${safe}">${labelHtml}${mark}</span>`;
   }
 

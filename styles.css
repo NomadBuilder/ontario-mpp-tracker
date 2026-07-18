@@ -903,19 +903,17 @@ body.embed-mode .campaign-filters {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.5rem;
-  height: 1.5rem;
-  margin-left: 0.35em;
+  width: 1.05rem;
+  height: 1.05rem;
   border-radius: 50%;
-  border: 2px solid rgba(255, 199, 69, 0.85);
-  background: rgba(255, 199, 69, 0.28);
-  font-size: 0.95rem;
+  border: 1.5px solid rgba(255, 199, 69, 0.7);
+  background: rgba(255, 199, 69, 0.18);
+  font-size: 0.72rem;
   font-weight: 800;
   line-height: 1;
   color: #ffc745;
   text-transform: none;
   letter-spacing: 0;
-  vertical-align: middle;
   flex-shrink: 0;
 }
 
