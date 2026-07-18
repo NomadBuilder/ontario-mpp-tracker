@@ -228,14 +228,15 @@ window.MppShared = (function () {
     return ` class="has-tip" tabindex="0" data-tip="${safe}" title="${safe}"`;
   }
 
-  function tipSpan(labelHtml, keyOrText) {
+  function tipSpan(labelHtml, keyOrText, withMark = false) {
     const text = EXPENSE_TIPS[keyOrText] || keyOrText || '';
     if (!text) return labelHtml;
     const safe = String(text)
       .replace(/&/g, '&amp;')
       .replace(/"/g, '&quot;')
       .replace(/</g, '&lt;');
-    return `<span class="has-tip" tabindex="0" data-tip="${safe}" title="${safe}">${labelHtml}</span>`;
+    const mark = withMark ? ' <span class="tip-mark" aria-hidden="true">?</span>' : '';
+    return `<span class="has-tip" tabindex="0" data-tip="${safe}" title="${safe}">${labelHtml}${mark}</span>`;
   }
 
   /** Build peer comparison index once; call insights(mpp) per card. */

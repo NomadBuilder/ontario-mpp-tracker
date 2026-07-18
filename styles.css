@@ -900,16 +900,18 @@ body.embed-mode .campaign-filters {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 0.95em;
-  height: 0.95em;
-  margin-left: 0.2em;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: 0.4em;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  font-size: 0.7em;
-  font-weight: 700;
+  border: 1.5px solid rgba(255, 199, 69, 0.75);
+  background: rgba(255, 199, 69, 0.22);
+  font-size: 0.85rem;
+  font-weight: 800;
   line-height: 1;
-  color: var(--text-dim);
-  vertical-align: 0.05em;
+  color: var(--accent-yellow);
+  vertical-align: middle;
+  flex-shrink: 0;
 }
 
 .has-tip[data-tip]::after {

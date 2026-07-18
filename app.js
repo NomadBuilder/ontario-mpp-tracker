@@ -144,15 +144,15 @@ function renderExpensePanel(mpp) {
   const partyLabel = getPartyInfo(mpp.party).label;
   const compareBits = [];
   if (info.rank) {
-    compareBits.push(tip(`#${info.rank} of ${info.count}`, 'rank'));
+    compareBits.push(tip(`#${info.rank} of ${info.count}`, 'rank', true));
   }
   if (info.vsParty != null) {
-    compareBits.push(tip(`${info.vsParty.toFixed(1)}× ${partyLabel} median`, 'vsParty'));
+    compareBits.push(tip(`${info.vsParty.toFixed(1)}× ${partyLabel} median`, 'vsParty', true));
   } else if (info.partyMedian != null) {
-    compareBits.push(tip(`${partyLabel} median ${short(info.partyMedian)}`, 'partyMedian'));
+    compareBits.push(tip(`${partyLabel} median ${short(info.partyMedian)}`, 'partyMedian', true));
   }
   if (info.legMedian != null) {
-    compareBits.push(tip(`House median ${short(info.legMedian)}`, 'houseMedian'));
+    compareBits.push(tip(`House median ${short(info.legMedian)}`, 'houseMedian', true));
   }
 
   const bars = info.cats
