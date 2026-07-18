@@ -65,7 +65,7 @@ Pulled automatically from ola.org when we refresh photo cache. New MPPs usually 
 
 ### Expense disclosure
 
-Pulled from [OLA Members’ expense disclosure](https://www.ola.org/en/members/expense-disclosure/list) (travel, accommodation, meals, hospitality over the past ~2 years). Cards show category breakdown, rank vs the House / party median, and spotlight filters (top spenders, hospitality-heavy, above party). Detail view links to the official OLA page. Refresh happens with the hourly sheet sync.
+Pulled from [OLA Members’ expense disclosure](https://www.ola.org/en/members/expense-disclosure/list) (travel, accommodation, meals, hospitality over the past ~2 years). Cards show category breakdown, rank vs the House / party median, and an **Expense spotlight** bar (top spenders, $50k/$100k+, hospitality-/travel-heavy, above/below party). Detail view links to the official OLA page. Refresh happens with the hourly sheet sync.
 
 ## WordPress page
 

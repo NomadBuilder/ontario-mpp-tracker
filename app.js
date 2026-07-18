@@ -19,9 +19,9 @@ let display = {
   expenses: true,
 };
 let activeFilter = 'all';
-/** @type {'name'|'expenses-desc'|'expenses-asc'} */
+/** @type {'name'|'expenses-desc'|'expenses-asc'|'hospitality-desc'|'travel-desc'} */
 let sortMode = 'name';
-/** @type {'all'|'top25'|'top10'|'hospitality'|'above-party'} */
+/** @type {string} */
 let expenseFocus = 'all';
 /** @type {{ mpp: object, postal: string, city?: string, riding?: string, warning?: string } | null} */
 let activePostal = null;
@@ -29,6 +29,25 @@ let activePostal = null;
 let voteFilters = {};
 /** @type {ReturnType<typeof window.MppShared.buildExpenseIndex> | null} */
 let expenseIndex = null;
+
+const EXPENSE_PRESETS = [
+  { id: 'top10', label: 'Top 10% spenders', sort: 'expenses-desc' },
+  { id: 'top25', label: 'Top 25% spenders', sort: 'expenses-desc' },
+  { id: 'over100k', label: '$100k+', sort: 'expenses-desc' },
+  { id: 'over50k', label: '$50k+', sort: 'expenses-desc' },
+  { id: 'above-party', label: 'Above party median', sort: 'expenses-desc' },
+  { id: 'above-house', label: 'Above House median', sort: 'expenses-desc' },
+  { id: 'hospitality', label: 'Hospitality-heavy', sort: 'hospitality-desc' },
+  { id: 'high-hospitality', label: 'Hospitality $20k+', sort: 'hospitality-desc' },
+  { id: 'travel', label: 'Travel-heavy', sort: 'travel-desc' },
+  { id: 'high-travel', label: 'Travel $30k+', sort: 'travel-desc' },
+  { id: 'below-party', label: 'Below party median', sort: 'expenses-asc' },
+];
+
+const EXPENSE_FOCUS_LABELS = Object.fromEntries([
+  ['all', 'All MPPs'],
+  ...EXPENSE_PRESETS.map(p => [p.id, p.label]),
+]);
 
 function applyFeaturedBills(list) {
   if (Array.isArray(list) && list.length) {
@@ -470,11 +489,20 @@ function matchesExpenseFocus(mpp) {
   if (expenseFocus === 'all' || !showField('expenses')) return true;
   const info = expenseInsights(mpp);
   if (!info) return false;
-  if (expenseFocus === 'top10') return info.isTop10;
-  if (expenseFocus === 'top25') return info.isTop25;
-  if (expenseFocus === 'hospitality') return info.hospitalityHeavy;
-  if (expenseFocus === 'above-party') return info.aboveParty;
-  return true;
+  switch (expenseFocus) {
+    case 'top10': return info.isTop10;
+    case 'top25': return info.isTop25;
+    case 'over100k': return info.over100k;
+    case 'over50k': return info.over50k;
+    case 'above-party': return info.aboveParty;
+    case 'above-house': return info.aboveHouse;
+    case 'below-party': return info.belowParty;
+    case 'hospitality': return info.hospitalityHeavy;
+    case 'high-hospitality': return info.highHospitality;
+    case 'travel': return info.travelHeavy;
+    case 'high-travel': return info.highTravel;
+    default: return true;
+  }
 }
 
 function filterMpps(query, party) {
@@ -497,6 +525,10 @@ function sortMpps(list) {
     sorted.sort((a, b) => (b.expenses?.total ?? -1) - (a.expenses?.total ?? -1));
   } else if (sortMode === 'expenses-asc') {
     sorted.sort((a, b) => (a.expenses?.total ?? Infinity) - (b.expenses?.total ?? Infinity));
+  } else if (sortMode === 'hospitality-desc') {
+    sorted.sort((a, b) => (b.expenses?.hospitality ?? -1) - (a.expenses?.hospitality ?? -1));
+  } else if (sortMode === 'travel-desc') {
+    sorted.sort((a, b) => (b.expenses?.travel ?? -1) - (a.expenses?.travel ?? -1));
   } else {
     sorted.sort((a, b) => String(a.lastName || a.name).localeCompare(String(b.lastName || b.name)));
   }
@@ -620,6 +652,72 @@ function setupCampaignFilters() {
   document.getElementById('campaign-clear').onclick = () => applyVoteFilters({});
 }
 
+function updateExpenseSummary(filteredCount) {
+  const summary = document.getElementById('expense-summary');
+  const clearBtn = document.getElementById('expense-clear');
+  if (!summary || !clearBtn) return;
+
+  const active = expenseFocus !== 'all';
+  clearBtn.hidden = !active;
+  document.querySelectorAll('#expense-presets .campaign-preset').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.expense === expenseFocus);
+  });
+
+  if (!active) {
+    summary.hidden = true;
+    summary.textContent = '';
+    return;
+  }
+
+  summary.hidden = false;
+  summary.textContent = `${EXPENSE_FOCUS_LABELS[expenseFocus] || expenseFocus} · ${filteredCount} MPP${filteredCount === 1 ? '' : 's'}`;
+}
+
+function applyExpenseFocus(next, preferredSort) {
+  expenseFocus = next || 'all';
+  if (expenseFocus !== 'all') {
+    if (preferredSort) sortMode = preferredSort;
+    else if (sortMode === 'name') sortMode = 'expenses-desc';
+  }
+  const sortEl = document.getElementById('sort-mode');
+  if (sortEl) sortEl.value = sortMode;
+  updateView();
+}
+
+function setupExpenseControls() {
+  const section = document.getElementById('expense-filters');
+  const presets = document.getElementById('expense-presets');
+  const sortEl = document.getElementById('sort-mode');
+  if (!section || !presets || !sortEl) return;
+
+  if (!showField('expenses')) {
+    section.hidden = true;
+    return;
+  }
+  section.hidden = false;
+
+  presets.innerHTML = EXPENSE_PRESETS.map(p =>
+    `<button type="button" class="campaign-preset" data-expense="${p.id}">${p.label}</button>`
+  ).join('');
+
+  presets.querySelectorAll('.campaign-preset').forEach(btn => {
+    btn.onclick = () => {
+      const preset = EXPENSE_PRESETS.find(p => p.id === btn.dataset.expense);
+      if (!preset) return;
+      const same = expenseFocus === preset.id;
+      applyExpenseFocus(same ? 'all' : preset.id, same ? null : preset.sort);
+    };
+  });
+
+  sortEl.value = sortMode;
+  sortEl.onchange = () => {
+    sortMode = sortEl.value;
+    updateView();
+  };
+
+  document.getElementById('expense-clear').onclick = () => applyExpenseFocus('all');
+}
+
 function updateView() {
   const filtered = sortMpps(filterMpps(document.getElementById('search').value, activeFilter));
   const grid = document.getElementById('cards-grid');
@@ -629,32 +727,8 @@ function updateView() {
   document.getElementById('result-count').textContent = `${filtered.length} of ${allMpps.length} MPPs`;
   document.getElementById('table-container').innerHTML = renderTable(filtered);
   updateCampaignSummary(filtered.length);
+  updateExpenseSummary(filtered.length);
   wireVotingToggles();
-}
-
-function setupExpenseControls() {
-  const sortEl = document.getElementById('sort-mode');
-  const focusEl = document.getElementById('expense-focus');
-  if (!sortEl || !focusEl) return;
-
-  if (!showField('expenses')) {
-    focusEl.closest('.expense-controls')?.setAttribute('hidden', '');
-  }
-
-  sortEl.value = sortMode;
-  focusEl.value = expenseFocus;
-  sortEl.onchange = () => {
-    sortMode = sortEl.value;
-    updateView();
-  };
-  focusEl.onchange = () => {
-    expenseFocus = focusEl.value;
-    if (expenseFocus !== 'all' && sortMode === 'name') {
-      sortMode = 'expenses-desc';
-      sortEl.value = sortMode;
-    }
-    updateView();
-  };
 }
 
 function setupFilters() {

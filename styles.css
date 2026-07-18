@@ -500,6 +500,44 @@ body.embed-mode .controls-wrap {
   margin: 0;
 }
 
+.campaign-filters-lead {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+  max-width: 42rem;
+}
+
+.expense-filters .campaign-filters-title {
+  color: #ffb454;
+}
+
+.expense-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem 1.25rem;
+  margin-top: 0.25rem;
+}
+
+.expense-toolbar .expense-control {
+  min-width: 14rem;
+}
+
+.expense-summary {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #ffb454;
+  font-weight: 500;
+  padding-bottom: 0.35rem;
+}
+
+body.embed-mode .expense-filters {
+  margin-top: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .campaign-clear {
   flex-shrink: 0;
   padding: 0.45rem 0.85rem;
@@ -842,7 +880,7 @@ body.embed-mode .campaign-filters {
 .stat-value.alignment-mid { color: var(--accent-yellow); }
 .stat-value.alignment-low { color: var(--accent-red); }
 
-/* Expense accountability panel */
+/* Expense accountability panel — legacy compact controls kept for any leftover markup */
 .expense-controls {
   display: flex;
   flex-wrap: wrap;

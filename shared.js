@@ -253,6 +253,11 @@ window.MppShared = (function () {
           tone: dominant.key === 'hospitality' ? 'warn' : 'info',
         });
       }
+      if (e.total >= 100000) {
+        flags.push({ id: 'over100k', label: '$100k+ disclosed', tone: 'alert' });
+      } else if (e.total >= 50000) {
+        flags.push({ id: 'over50k', label: '$50k+ disclosed', tone: 'warn' });
+      }
 
       return {
         total: e.total,
@@ -275,7 +280,14 @@ window.MppShared = (function () {
         isTop25: topQuartileCut != null && e.total >= topQuartileCut,
         isTop10: topDecileCut != null && e.total >= topDecileCut,
         hospitalityHeavy: dominant?.key === 'hospitality' && dominant.share >= 0.6,
+        travelHeavy: dominant?.key === 'travel' && dominant.share >= 0.6,
         aboveParty: vsParty != null && vsParty >= 1.35,
+        belowParty: vsParty != null && vsParty <= 0.75,
+        aboveHouse: vsLeg != null && vsLeg >= 1.35,
+        over50k: e.total >= 50000,
+        over100k: e.total >= 100000,
+        highHospitality: (e.hospitality || 0) >= 20000,
+        highTravel: (e.travel || 0) >= 30000,
       };
     }
 
