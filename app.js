@@ -344,8 +344,20 @@ function wireVotingToggles(root = document) {
 }
 
 function looksLikePostalInput(raw) {
+  // Only treat as postal while the typed characters follow the Canadian
+  // letter-digit-letter digit-letter-digit pattern. Plain names like "Sol"
+  // or "Smith" must not get a space / uppercasing forced in.
   const n = window.MppShared.normalizePostal(raw);
-  return n.length > 0 && /^[ABCEGHJ-NPRSTVXY]/i.test(n);
+  if (!n || n.length > 6) return false;
+  const partial = [
+    /^[ABCEGHJ-NPRSTVXY]$/i,
+    /^[ABCEGHJ-NPRSTVXY]\d$/i,
+    /^[ABCEGHJ-NPRSTVXY]\d[ABCEGHJ-NPRSTV-Z]$/i,
+    /^[ABCEGHJ-NPRSTVXY]\d[ABCEGHJ-NPRSTV-Z]\d$/i,
+    /^[ABCEGHJ-NPRSTVXY]\d[ABCEGHJ-NPRSTV-Z]\d[ABCEGHJ-NPRSTV-Z]$/i,
+    /^[ABCEGHJ-NPRSTVXY]\d[ABCEGHJ-NPRSTV-Z]\d[ABCEGHJ-NPRSTV-Z]\d$/i,
+  ];
+  return partial.some((re) => re.test(n));
 }
 
 function setSearchStatus(message, type = '') {
