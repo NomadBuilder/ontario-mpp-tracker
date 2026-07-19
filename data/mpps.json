@@ -104,6 +104,18 @@
       "label": "Bill 47",
       "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
       "featured": false
+    },
+    {
+      "id": "Bill 56",
+      "label": "Bill 56",
+      "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+      "featured": false
+    },
+    {
+      "id": "Bill 98",
+      "label": "Bill 98",
+      "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+      "featured": false
     }
   ],
   "mpps": [
@@ -255,6 +267,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -403,6 +431,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -557,6 +601,22 @@
           "vote": "Nay",
           "display": "No",
           "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -705,6 +765,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -859,6 +935,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -1007,6 +1099,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -1161,6 +1269,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -1311,6 +1435,22 @@
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
           "vote": "N/A",
           "display": "N/A",
+          "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         }
       ]
@@ -1463,6 +1603,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -1614,6 +1770,22 @@
           "vote": "Nay",
           "display": "No",
           "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -1644,7 +1816,7 @@
         "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/stephanie-bowman",
         "asOf": "2026-07-19"
       },
-      "votingAlignment": 91,
+      "votingAlignment": 92,
       "votes": [
         {
           "bill": "Bill 110",
@@ -1765,6 +1937,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -1795,7 +1983,7 @@
         "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/bobbi-ann-brady",
         "asOf": "2026-07-19"
       },
-      "votingAlignment": 73,
+      "votingAlignment": 77,
       "votes": [
         {
           "bill": "Bill 110",
@@ -1916,6 +2104,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -2067,6 +2271,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -2215,6 +2435,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -2369,6 +2605,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -2520,6 +2772,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -2671,6 +2939,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -2819,6 +3103,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -2973,6 +3273,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -3124,6 +3440,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -3272,6 +3604,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -3426,6 +3774,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -3577,6 +3941,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -3728,6 +4108,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -3876,6 +4272,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -4030,6 +4442,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -4181,6 +4609,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -4332,6 +4776,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -4483,6 +4943,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -4634,6 +5110,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -4785,6 +5277,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -4933,6 +5441,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -5087,6 +5611,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -5235,6 +5775,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -5389,6 +5945,22 @@
           "vote": "Nay",
           "display": "No",
           "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -5540,6 +6112,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -5691,6 +6279,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -5832,6 +6436,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -5980,6 +6600,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -6134,6 +6770,22 @@
           "vote": "Nay",
           "display": "No",
           "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -6282,6 +6934,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -6436,6 +7104,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -6584,6 +7268,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -6738,6 +7438,22 @@
           "vote": "Nay",
           "display": "No",
           "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -6889,6 +7605,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -7040,6 +7772,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -7191,6 +7939,22 @@
           "vote": "Nay",
           "display": "No",
           "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -7342,6 +8106,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -7490,6 +8270,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -7644,6 +8440,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -7795,6 +8607,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -7946,6 +8774,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -8096,6 +8940,22 @@
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
           "vote": "N/A",
           "display": "N/A",
+          "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         }
       ]
@@ -8248,6 +9108,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -8399,6 +9275,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -8550,6 +9442,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -8698,6 +9606,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -8852,6 +9776,22 @@
           "vote": "Nay",
           "display": "No",
           "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -9003,6 +9943,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -9151,6 +10107,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -9305,6 +10277,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -9456,6 +10444,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -9604,6 +10608,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -9758,6 +10778,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -9909,6 +10945,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -10057,6 +11109,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -10211,6 +11279,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -10361,6 +11445,22 @@
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
           "vote": "N/A",
           "display": "N/A",
+          "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         }
       ]
@@ -10513,6 +11613,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -10664,6 +11780,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -10694,7 +11826,7 @@
         "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/mary-margaret-mcmahon",
         "asOf": "2026-07-19"
       },
-      "votingAlignment": 92,
+      "votingAlignment": 93,
       "votes": [
         {
           "bill": "Bill 110",
@@ -10815,6 +11947,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -10965,6 +12113,22 @@
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
           "vote": "N/A",
           "display": "N/A",
+          "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         }
       ]
@@ -11117,6 +12281,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -11265,6 +12445,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -11419,6 +12615,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -11567,6 +12779,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -11721,6 +12949,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -11872,6 +13116,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -12023,6 +13283,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -12174,6 +13450,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -12325,6 +13617,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -12476,6 +13784,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -12627,6 +13951,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -12778,6 +14118,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -12926,6 +14282,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -13080,6 +14452,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -13231,6 +14619,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -13382,6 +14786,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -13530,6 +14950,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -13684,6 +15120,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -13835,6 +15287,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -13986,6 +15454,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -14134,6 +15618,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -14288,6 +15788,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -14436,6 +15952,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -14590,6 +16122,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -14741,6 +16289,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -14892,6 +16456,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -15043,6 +16623,22 @@
           "vote": "Nay",
           "display": "No",
           "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -15194,6 +16790,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -15342,6 +16954,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -15496,6 +17124,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -15647,6 +17291,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -15798,6 +17458,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -15828,7 +17504,7 @@
         "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/stephanie-smyth",
         "asOf": "2026-07-19"
       },
-      "votingAlignment": 90,
+      "votingAlignment": 91,
       "votes": [
         {
           "bill": "Bill 110",
@@ -15948,6 +17624,22 @@
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
           "vote": "N/A",
           "display": "N/A",
+          "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
           "yes": null
         }
       ]
@@ -16100,6 +17792,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -16248,6 +17956,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -16402,6 +18126,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -16550,6 +18290,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -16704,6 +18460,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -16852,6 +18624,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -17006,6 +18794,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -17154,6 +18958,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Aye",
           "display": "Yes",
           "yes": true
@@ -17308,6 +19128,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -17459,6 +19295,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -17607,6 +19459,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -17761,6 +19629,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -17912,6 +19796,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -18063,6 +19963,22 @@
           "vote": "Aye",
           "display": "Yes",
           "yes": true
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "No Show",
+          "display": "No Show",
+          "yes": null
         }
       ]
     },
@@ -18214,6 +20130,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     },
@@ -18362,6 +20294,22 @@
           "bill": "Bill 47",
           "billFull": "Bill 47",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-42/session-1/bill-47",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
           "vote": "Nay",
           "display": "No",
           "yes": false
@@ -18516,6 +20464,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         }
       ]
     },
@@ -18667,6 +20631,22 @@
           "vote": "N/A",
           "display": "N/A",
           "yes": null
+        },
+        {
+          "bill": "Bill 56",
+          "billFull": "Bill 56",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
+        },
+        {
+          "bill": "Bill 98",
+          "billFull": "Bill 98",
+          "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98",
+          "vote": "Nay",
+          "display": "No",
+          "yes": false
         }
       ]
     }
