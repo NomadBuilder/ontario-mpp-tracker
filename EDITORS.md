@@ -35,7 +35,7 @@ Add a tab named **Display Settings**, **Site Display**, or any title containing 
 
 Use **Yes** or **No** in the Show column.
 
-- **salary / benefits / votingAlignment / expenses** — hide or show those numbers on cards and tables. Salary/benefits stay in **How They Voted**; expenses are scraped from ola.org.
+- **salary / benefits / votingAlignment / expenses** — hide or show those numbers on cards and tables. Sheet salary/benefits are verified against the official [Ontario Public Sector Salary Disclosure](https://www.ontario.ca/page/public-sector-salary-disclosure) (Sunshine List); when a match exists, the live site uses the official figures. Expenses are scraped from ola.org.
 - **Bill N** — controls which bills appear in the campaign vote filters and as “featured” on the tracker. Set a bill to **No** to remove it from the public filters without deleting its vote column. Set **Yes** on a bill that already has a vote column to feature it.
 
 A starter workbook you can copy from: `Display-Settings-for-Google-Sheets.xlsx` in this repo.
@@ -50,7 +50,7 @@ Accepted field names: `salary`, `benefits`, `votingAlignment`, `expenses` (also:
 
 ### Change a vote or salary
 
-Edit the cell on **How They Voted** → save.
+Edit the cell on **How They Voted** → save. For salary/benefits, the hourly sync also pulls the official Sunshine List and will prefer those numbers if they differ (useful for catching typos). Raise % is recomputed from year-over-year disclosure when both years exist.
 
 ### Add a new bill
 
@@ -66,6 +66,10 @@ Pulled automatically from ola.org when we refresh photo cache. New MPPs usually 
 ### Expense disclosure
 
 Pulled from [OLA Members’ expense disclosure](https://www.ola.org/en/members/expense-disclosure/list) (travel, accommodation, meals, hospitality over the past ~2 years). Cards show category breakdown, rank vs the House / party median, and an **Expense spotlight** bar (top spenders, $50k/$100k+, hospitality-/travel-heavy, above/below party). Detail view links to the official OLA page. Refresh happens with the hourly sheet sync.
+
+### Sunshine List (salary)
+
+Pulled from the official [Public sector salary disclosure](https://www.ontario.ca/page/public-sector-salary-disclosure) Compendium CSV (Legislative Assembly employer). Matches MPPs by name (including known legal/preferred-name aliases), stores salary, taxable benefits, disclosed job title, and YoY raise %. Used to verify and fill gaps in the sheet’s Salary / Benefits / Raise % columns.
 
 ## WordPress page
 

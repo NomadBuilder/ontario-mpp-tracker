@@ -15,6 +15,7 @@ XLSX = ROOT / "Current Ontario MPPs & How They Vote..xlsx"
 OUTPUT = ROOT / "data" / "mpps.json"
 PHOTOS = ROOT / "data" / "photos.json"
 EXPENSES = ROOT / "data" / "expenses.json"
+SUNSHINE = ROOT / "data" / "sunshine.json"
 OLA_BILL_BASE = "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1"
 
 # Featured bills shown in filters / campaign presets — overridden by Display Settings
@@ -124,6 +125,97 @@ def load_expenses() -> tuple[dict, dict, str | None]:
         return {}, {}, None
     data = json.loads(EXPENSES.read_text())
     return data.get("bySlug", {}), data.get("byName", {}), data.get("fetchedAt")
+
+
+def load_sunshine() -> tuple[dict, dict, dict | None]:
+    if not SUNSHINE.exists():
+        return {}, {}, None
+    data = json.loads(SUNSHINE.read_text())
+    meta = {
+        "fetchedAt": data.get("fetchedAt"),
+        "year": data.get("year"),
+        "priorYear": data.get("priorYear"),
+        "source": data.get("source"),
+        "matched": data.get("matched"),
+        "unmatched": data.get("unmatched") or [],
+        "discrepancyCount": len(data.get("discrepancies") or []),
+    }
+    return data.get("bySlug", {}), data.get("byName", {}), meta
+
+
+def lookup_sunshine(name: str, by_slug: dict, by_name: dict) -> dict | None:
+    """Attach official PSSD salary row when available."""
+    if not by_slug:
+        return None
+
+    slug = slug_from_name(name)
+    info = by_slug.get(slug)
+
+    if not info:
+        key = re.sub(r"^(Hon\.|Dr\.)\s*", "", name or "").lower().strip()
+        mapped = by_name.get(key) or by_name.get(re.sub(r"\s+", " ", key))
+        if mapped:
+            info = by_slug.get(mapped)
+
+    if not info:
+        parts = re.sub(r"^(Hon\.|Dr\.)\s*", "", name or "").lower().strip().split()
+        if len(parts) >= 2:
+            short_slug = f"{parts[0]}-{parts[-1]}"
+            info = by_slug.get(short_slug)
+            if not info:
+                mapped = by_name.get(f"{parts[0]} {parts[-1]}")
+                if mapped:
+                    info = by_slug.get(mapped)
+
+    return info
+
+
+def apply_sunshine_pay(sheet_salary, sheet_benefits, sheet_as_of, sheet_raise, sunshine: dict | None):
+    """Prefer official PSSD figures when matched; keep sheet as fallback.
+
+    Returns (salary, benefits, asOf, raisePct, sunshinePayload, notes).
+    """
+    if not sunshine:
+        return sheet_salary, sheet_benefits, sheet_as_of, sheet_raise, None, []
+
+    notes = []
+    salary = sunshine.get("salary")
+    benefits = sunshine.get("benefits")
+    as_of = sunshine.get("year")
+    raise_pct = sunshine.get("raisePct")
+
+    if sheet_salary is not None and salary is not None and abs(float(sheet_salary) - float(salary)) > 1:
+        notes.append(f"salary sheet={sheet_salary} pssd={salary}")
+    if sheet_benefits is not None and benefits is not None and abs(float(sheet_benefits) - float(benefits)) > 1:
+        notes.append(f"benefits sheet={sheet_benefits} pssd={benefits}")
+    if sheet_salary is None and salary is not None:
+        notes.append(f"filled salary from pssd={salary}")
+    if (sheet_benefits is None or float(sheet_benefits or 0) == 0) and benefits and float(benefits) > 0:
+        if sheet_benefits is None:
+            notes.append(f"filled benefits from pssd={benefits}")
+        elif abs(float(sheet_benefits) - float(benefits)) > 1:
+            pass  # already noted as mismatch above
+
+    payload = {
+        "salary": salary,
+        "benefits": benefits,
+        "jobTitle": sunshine.get("jobTitle"),
+        "year": sunshine.get("year"),
+        "priorSalary": sunshine.get("priorSalary"),
+        "priorYear": sunshine.get("priorYear"),
+        "raisePct": raise_pct,
+        "listedAs": f"{sunshine.get('firstName')} {sunshine.get('lastName')}".strip(),
+        "source": sunshine.get("source"),
+    }
+    # Prefer PSSD (authoritative public disclosure); fall back to sheet if somehow empty
+    return (
+        salary if salary is not None else sheet_salary,
+        benefits if benefits is not None else sheet_benefits,
+        as_of if as_of is not None else sheet_as_of,
+        raise_pct if raise_pct is not None else sheet_raise,
+        payload,
+        notes,
+    )
 
 
 def lookup_photo(name: str, by_slug: dict, by_name: dict) -> tuple[str | None, str | None]:
@@ -298,6 +390,7 @@ def main() -> None:
 
     by_slug, by_name = load_photos()
     exp_by_slug, exp_by_name, exp_fetched = load_expenses()
+    sun_by_slug, sun_by_name, sun_meta = load_sunshine()
     wb = openpyxl.load_workbook(xlsx_path, data_only=True)
     display, featured = load_display_settings(wb)
 
@@ -391,6 +484,8 @@ def main() -> None:
 
     mpps = []
     skipped = 0
+    sunshine_notes: list[str] = []
+    with_sunshine = 0
     for row in ws.iter_rows(min_row=data_start, values_only=True):
         if not row[4]:
             skipped += 1
@@ -407,6 +502,14 @@ def main() -> None:
         extra = find_extra(name, email)
         photo, profile_url = lookup_photo(name, by_slug, by_name)
         expenses = lookup_expenses(name, exp_by_slug, exp_by_name, exp_fetched)
+        sunshine_row = lookup_sunshine(name, sun_by_slug, sun_by_name)
+        salary, benefits, as_of, raise_pct, sunshine_payload, notes = apply_sunshine_pay(
+            row[5], row[6], row[7], row[8], sunshine_row
+        )
+        if sunshine_payload:
+            with_sunshine += 1
+        for n in notes:
+            sunshine_notes.append(f"{name}: {n}")
 
         votes = []
         aligned = total = 0
@@ -434,10 +537,10 @@ def main() -> None:
             "firstName": row[2] or "",
             "email": email,
             "party": party,
-            "salary": row[5],
-            "benefits": row[6],
-            "asOf": row[7],
-            "raisePct": row[8],
+            "salary": salary,
+            "benefits": benefits,
+            "asOf": as_of,
+            "raisePct": raise_pct,
             "riding": extra["riding"] if extra else "",
             "roles": extra["roles"] if extra else "",
             "phone": (str(extra["phone"]).strip() if extra and extra["phone"] else ""),
@@ -445,6 +548,7 @@ def main() -> None:
             "photo": photo,
             "profileUrl": profile_url,
             "expenses": expenses,
+            "sunshine": sunshine_payload,
             "votingAlignment": round(aligned / total * 100) if total else None,
             "votes": votes,
         })
@@ -470,13 +574,22 @@ def main() -> None:
     featured_list = sort_bill_ids(b for b in featured if b in available)
 
     OUTPUT.parent.mkdir(exist_ok=True)
+    payload = {
+        "display": display,
+        "featuredBills": featured_list,
+        "bills": bills_meta,
+        "mpps": mpps,
+    }
+    if sun_meta:
+        payload["sunshine"] = {
+            "fetchedAt": sun_meta.get("fetchedAt"),
+            "year": sun_meta.get("year"),
+            "priorYear": sun_meta.get("priorYear"),
+            "source": sun_meta.get("source"),
+            "matched": with_sunshine,
+        }
     with open(OUTPUT, "w") as f:
-        json.dump({
-            "display": display,
-            "featuredBills": featured_list,
-            "bills": bills_meta,
-            "mpps": mpps,
-        }, f, indent=2)
+        json.dump(payload, f, indent=2)
 
     with_photo = sum(1 for m in mpps if m.get("photo"))
     with_riding = sum(1 for m in mpps if m.get("riding"))
@@ -486,10 +599,21 @@ def main() -> None:
     for m in mpps:
         parties[m["party"] or "?"] = parties.get(m["party"] or "?", 0) + 1
 
-    print(f"Wrote {len(mpps)} MPPs ({with_photo} photos, {with_riding} with riding, {with_expenses} with expenses)")
+    print(f"Wrote {len(mpps)} MPPs ({with_photo} photos, {with_riding} with riding, "
+          f"{with_expenses} with expenses, {with_sunshine} with sunshine pay)")
     print(f"Bill URLs: {with_urls}/{len(bills_meta)}")
     print(f"Parties: {parties}")
     print(f"Skipped empty/invalid rows: {skipped}")
+    if sun_meta:
+        unmatched = sun_meta.get("unmatched") or []
+        print(f"Sunshine List {sun_meta.get('year')}: {with_sunshine} matched"
+              + (f"; unmatched in fetch: {unmatched}" if unmatched else ""))
+        if sunshine_notes:
+            print(f"Sunshine vs sheet notes ({len(sunshine_notes)}):")
+            for n in sunshine_notes[:20]:
+                print(f"  • {n}")
+            if len(sunshine_notes) > 20:
+                print(f"  … +{len(sunshine_notes) - 20} more")
 
     # Sanity: Tyler Allsopp
     tyler = next((m for m in mpps if "Allsopp" in m["name"]), None)
