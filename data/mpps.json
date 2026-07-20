@@ -17747,7 +17747,17 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/donna_skelly.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/donna-skelly",
-      "expenses": null,
+      "expenses": {
+        "total": 14580.59,
+        "travel": 5520.99,
+        "accommodation": 619.2,
+        "meals": 11.87,
+        "hospitality": 8428.53,
+        "claimCount": 61,
+        "periodCount": 9,
+        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/donna-skelly",
+        "asOf": "2026-07-20"
+      },
       "sunshine": {
         "salary": 191017.1,
         "benefits": 1095.95,
