@@ -1523,19 +1523,6 @@
       "claimCount": 147,
       "periodCount": 9
     },
-    "donna-skelly": {
-      "slug": "donna-skelly",
-      "name": "Skelly, Donna",
-      "riding": "Flamborough\u2014Glanbrook",
-      "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/donna-skelly",
-      "total": 14580.59,
-      "travel": 5520.99,
-      "accommodation": 619.2,
-      "meals": 11.87,
-      "hospitality": 8428.53,
-      "claimCount": 61,
-      "periodCount": 9
-    },
     "dave-smith": {
       "slug": "dave-smith",
       "name": "Smith, Dave",
@@ -2236,9 +2223,6 @@
     "shaw, sandy": "sandy-shaw",
     "sandy shaw": "sandy-shaw",
     "hon. sandy shaw": "sandy-shaw",
-    "skelly, donna": "donna-skelly",
-    "donna skelly": "donna-skelly",
-    "hon. donna skelly": "donna-skelly",
     "smith, dave": "dave-smith",
     "dave smith": "dave-smith",
     "hon. dave smith": "dave-smith",
