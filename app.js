@@ -254,7 +254,8 @@ function renderYourMpp(mpp, meta = {}) {
     ? (mpp.votingAlignment >= 90 ? 'alignment-high' : mpp.votingAlignment >= 70 ? 'alignment-mid' : 'alignment-low')
     : '';
 
-  const allVotes = (mpp.votes || []).map(v => {
+  const featuredVotes = FEATURED_BILLS.map(bill => {
+    const v = getVoteForBill(mpp, bill);
     const cls = v.yes === true ? 'yes' : v.yes === false ? 'no' : 'na';
     const icon = v.yes === true ? '✓' : v.yes === false ? '✗' : '—';
     return `<div class="vote-row"><span class="vote-bill">${billLink(v)}</span><span class="vote-result ${cls}">${icon} ${v.display}</span></div>`;
@@ -302,8 +303,8 @@ function renderYourMpp(mpp, meta = {}) {
       <div class="card-stats">${stats.join('')}</div>
       ${renderExpensePanel(mpp)}
       <div class="voting-section">
-        <button class="voting-toggle open" aria-expanded="true"><span>Full voting history</span><span class="chevron">▼</span></button>
-        <div class="voting-list open">${allVotes || '<p class="no-results">No votes on file.</p>'}</div>
+        <button class="voting-toggle open" aria-expanded="true"><span>Voting History</span><span class="chevron">▼</span></button>
+        <div class="voting-list open">${featuredVotes || '<p class="no-results">No votes on file.</p>'}</div>
       </div>
       ${(emailLink || phoneLink) ? `<div class="card-footer">${emailLink}${phoneLink}</div>` : ''}
     </article>`;
