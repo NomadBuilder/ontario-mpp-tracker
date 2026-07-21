@@ -135,17 +135,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Tyler_Allsopp.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/tyler-allsopp",
-      "expenses": {
-        "total": 14119.16,
-        "travel": 5689.91,
-        "accommodation": 0.0,
-        "meals": 0.0,
-        "hospitality": 8429.25,
-        "claimCount": 36,
-        "periodCount": 6,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/tyler-allsopp",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -313,17 +303,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Deepak-Anand.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/deepak-anand",
-      "expenses": {
-        "total": 100801.24,
-        "travel": 8878.91,
-        "accommodation": 3100.75,
-        "meals": 79.65,
-        "hospitality": 88741.93,
-        "claimCount": 138,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/deepak-anand",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -491,17 +471,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/teresa_armstrong.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/teresa-j-armstrong",
-      "expenses": {
-        "total": 57482.11,
-        "travel": 10834.47,
-        "accommodation": 1088.46,
-        "meals": 78.19,
-        "hospitality": 45480.99,
-        "claimCount": 124,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/teresa-j-armstrong",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 170268.56,
         "benefits": 980.88,
@@ -669,17 +639,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/aris_babikian_.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/aris-babikian",
-      "expenses": {
-        "total": 98719.59,
-        "travel": 4429.32,
-        "accommodation": 1037.3,
-        "meals": 31.51,
-        "hospitality": 93221.46,
-        "claimCount": 125,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/aris-babikian",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 188912.4,
         "benefits": 979.61,
@@ -847,17 +807,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/bob_bailey.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/robert-bailey",
-      "expenses": {
-        "total": 36097.22,
-        "travel": 21757.78,
-        "accommodation": 1967.16,
-        "meals": 246.14,
-        "hospitality": 12126.14,
-        "claimCount": 86,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/robert-bailey",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 189027.72,
         "benefits": 989.4,
@@ -1025,17 +975,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/jessica_bell.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/jessica-bell",
-      "expenses": {
-        "total": 31927.34,
-        "travel": 1086.58,
-        "accommodation": 829.34,
-        "meals": 23.88,
-        "hospitality": 29987.54,
-        "claimCount": 98,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/jessica-bell",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 150344.2,
         "benefits": 814.82,
@@ -1203,17 +1143,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/peter_bethlenfalvy.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/peter-bethlenfalvy",
-      "expenses": {
-        "total": 4998.97,
-        "travel": 0.0,
-        "accommodation": 0.0,
-        "meals": 0.0,
-        "hospitality": 4998.97,
-        "claimCount": 13,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/peter-bethlenfalvy",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -1381,17 +1311,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Stephen_Blais.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/stephen-blais",
-      "expenses": {
-        "total": 93883.71,
-        "travel": 75758.85,
-        "accommodation": 401.04,
-        "meals": 1182.53,
-        "hospitality": 16541.29,
-        "claimCount": 128,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/stephen-blais",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 164050.12,
         "benefits": 945.06,
@@ -1559,17 +1479,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/will_bouma.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/will-bouma",
-      "expenses": {
-        "total": 35580.42,
-        "travel": 5016.58,
-        "accommodation": 1424.43,
-        "meals": 0.0,
-        "hospitality": 29139.41,
-        "claimCount": 75,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/will-bouma",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -1737,17 +1647,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Guy_Bourgouin.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/guy-bourgouin",
-      "expenses": {
-        "total": 135570.13,
-        "travel": 91981.64,
-        "accommodation": 6818.95,
-        "meals": 2908.62,
-        "hospitality": 33860.92,
-        "claimCount": 257,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/guy-bourgouin",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 162371.74,
         "benefits": 935.83,
@@ -1915,17 +1815,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Stephanie_Bowman_0.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/stephanie-bowman",
-      "expenses": {
-        "total": 77571.5,
-        "travel": 5214.33,
-        "accommodation": 3805.48,
-        "meals": 230.6,
-        "hospitality": 68321.09,
-        "claimCount": 258,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/stephanie-bowman",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 160290.07,
         "benefits": 923.84,
@@ -2093,17 +1983,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Bobbi_Ann_Brady.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/bobbi-ann-brady",
-      "expenses": {
-        "total": 45209.76,
-        "travel": 28813.96,
-        "accommodation": 510.2,
-        "meals": 144.57,
-        "hospitality": 15741.03,
-        "claimCount": 81,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/bobbi-ann-brady",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 150344.2,
         "benefits": 814.82,
@@ -2271,17 +2151,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Ric_Bresee.png",
       "profileUrl": "https://www.ola.org/en/members/all/ric-bresee",
-      "expenses": {
-        "total": 31916.6,
-        "travel": 14831.29,
-        "accommodation": 1332.42,
-        "meals": 0.0,
-        "hospitality": 15752.89,
-        "claimCount": 88,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/ric-bresee",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.41,
@@ -2449,17 +2319,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jeff_Burch.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/jeff-burch",
-      "expenses": {
-        "total": 26960.39,
-        "travel": 10961.66,
-        "accommodation": 5491.38,
-        "meals": 521.96,
-        "hospitality": 9985.39,
-        "claimCount": 75,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/jeff-burch",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 169137.46,
         "benefits": 974.11,
@@ -2627,17 +2487,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/paul_calandra_v2.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/paul-calandra",
-      "expenses": {
-        "total": 85981.12,
-        "travel": 209.43,
-        "accommodation": 4475.64,
-        "meals": 0.0,
-        "hospitality": 81296.05,
-        "claimCount": 73,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/paul-calandra",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.76,
         "benefits": 1227.49,
@@ -2805,17 +2655,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Rob-Cerjanec.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/rob-cerjanec",
-      "expenses": {
-        "total": 19841.34,
-        "travel": 2197.4,
-        "accommodation": 2167.78,
-        "meals": 0.0,
-        "hospitality": 15476.16,
-        "claimCount": 40,
-        "periodCount": 4,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/rob-cerjanec",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 142141.99,
         "benefits": 827.4,
@@ -2983,17 +2823,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/raymond_cho.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/raymond-sung-joon-cho",
-      "expenses": {
-        "total": 67625.67,
-        "travel": 444.71,
-        "accommodation": 1065.68,
-        "meals": 0.0,
-        "hospitality": 66115.28,
-        "claimCount": 111,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/raymond-sung-joon-cho",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 235333.73,
         "benefits": 1227.49,
@@ -3161,17 +2991,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/stan_cho.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/stan-cho",
-      "expenses": {
-        "total": 33323.34,
-        "travel": 0.0,
-        "accommodation": 15003.76,
-        "meals": 0.0,
-        "hospitality": 18319.58,
-        "claimCount": 46,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/stan-cho",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -3339,17 +3159,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Monica-Ciriellol.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/monica-ciriello",
-      "expenses": {
-        "total": 9876.37,
-        "travel": 3894.61,
-        "accommodation": 463.3,
-        "meals": 0.0,
-        "hospitality": 5518.46,
-        "claimCount": 70,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/monica-ciriello",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 148113.66,
         "benefits": 859.47,
@@ -3517,17 +3327,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Aislinn_Clancy.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/aislinn-clancy",
-      "expenses": {
-        "total": 35259.52,
-        "travel": 6685.88,
-        "accommodation": 761.09,
-        "meals": 77.3,
-        "hospitality": 27735.25,
-        "claimCount": 125,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/aislinn-clancy",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 150344.2,
         "benefits": 814.82,
@@ -3695,17 +3495,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/steve_clark.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/steve-clark",
-      "expenses": {
-        "total": 50891.21,
-        "travel": 30874.24,
-        "accommodation": 1420.37,
-        "meals": 0.0,
-        "hospitality": 18596.6,
-        "claimCount": 86,
-        "periodCount": 8,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/steve-clark",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 177886.73,
         "benefits": 1029.68,
@@ -3873,17 +3663,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/lorne_coe.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/lorne-coe",
-      "expenses": {
-        "total": 36149.91,
-        "travel": 16506.6,
-        "accommodation": 304.38,
-        "meals": 0.0,
-        "hospitality": 19338.93,
-        "claimCount": 89,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/lorne-coe",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 189027.72,
         "benefits": 989.4,
@@ -4051,17 +3831,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Lucille-Collard.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/lucille-collard",
-      "expenses": {
-        "total": 120735.76,
-        "travel": 100799.45,
-        "accommodation": 641.96,
-        "meals": 47.42,
-        "hospitality": 19246.93,
-        "claimCount": 145,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/lucille-collard",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171307.18,
         "benefits": 985.26,
@@ -4229,17 +3999,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Michelle-Cooperl.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/michelle-cooper",
-      "expenses": {
-        "total": 14291.21,
-        "travel": 1703.67,
-        "accommodation": 292.62,
-        "meals": 0.0,
-        "hospitality": 12294.92,
-        "claimCount": 57,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/michelle-cooper",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 148113.66,
         "benefits": 859.47,
@@ -4407,17 +4167,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/stephen_crawford.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/stephen-crawford",
-      "expenses": {
-        "total": 65892.59,
-        "travel": 3500.43,
-        "accommodation": 7865.77,
-        "meals": 0.0,
-        "hospitality": 54526.39,
-        "claimCount": 86,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/stephen-crawford",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 207700.79,
         "benefits": 1192.01,
@@ -4585,17 +4335,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Rudy_Cuzzetto.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/rudy-cuzzetto",
-      "expenses": {
-        "total": 107115.57,
-        "travel": 11043.73,
-        "accommodation": 3858.33,
-        "meals": 47.73,
-        "hospitality": 92165.78,
-        "claimCount": 245,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/rudy-cuzzetto",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -4763,17 +4503,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Darouze_George.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/george-darouze",
-      "expenses": {
-        "total": 47654.17,
-        "travel": 28128.87,
-        "accommodation": 304.38,
-        "meals": 339.56,
-        "hospitality": 18881.36,
-        "claimCount": 102,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/george-darouze",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 148113.66,
         "benefits": 859.47,
@@ -4941,17 +4671,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Billy-Denault.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/billy-denault",
-      "expenses": {
-        "total": 11075.5,
-        "travel": 7360.68,
-        "accommodation": 280.87,
-        "meals": 0.0,
-        "hospitality": 3433.95,
-        "claimCount": 25,
-        "periodCount": 4,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/billy-denault",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 148113.66,
         "benefits": 859.47,
@@ -5119,17 +4839,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jess_Dixon.png",
       "profileUrl": "https://www.ola.org/en/members/all/jess-dixon",
-      "expenses": {
-        "total": 68770.85,
-        "travel": 11614.08,
-        "accommodation": 3486.97,
-        "meals": 18.07,
-        "hospitality": 53651.73,
-        "claimCount": 97,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/jess-dixon",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -5297,17 +5007,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Andrew_Dowie.png",
       "profileUrl": "https://www.ola.org/en/members/all/andrew-dowie",
-      "expenses": {
-        "total": 73040.63,
-        "travel": 31172.7,
-        "accommodation": 1977.28,
-        "meals": 514.54,
-        "hospitality": 39376.11,
-        "claimCount": 132,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/andrew-dowie",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.41,
@@ -5475,17 +5175,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Doug_Downey.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/doug-downey",
-      "expenses": {
-        "total": 16787.81,
-        "travel": 7127.08,
-        "accommodation": 579.61,
-        "meals": 0.0,
-        "hospitality": 9081.12,
-        "claimCount": 74,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/doug-downey",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -5653,17 +5343,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jill Dunlop.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/jill-dunlop",
-      "expenses": {
-        "total": 26712.79,
-        "travel": 718.99,
-        "accommodation": 512.52,
-        "meals": 0.0,
-        "hospitality": 25481.28,
-        "claimCount": 93,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/jill-dunlop",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.76,
         "benefits": 1227.49,
@@ -5831,17 +5511,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Lee-Fairclough.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/lee-fairclough",
-      "expenses": {
-        "total": 7793.21,
-        "travel": 567.49,
-        "accommodation": 1612.22,
-        "meals": 0.0,
-        "hospitality": 5613.5,
-        "claimCount": 25,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/lee-fairclough",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 142141.99,
         "benefits": 827.4,
@@ -6009,17 +5679,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/victor_fedeli.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/victor-fedeli",
-      "expenses": {
-        "total": 33053.9,
-        "travel": 17012.38,
-        "accommodation": 850.85,
-        "meals": 0.0,
-        "hospitality": 15190.67,
-        "claimCount": 54,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/victor-fedeli",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -6187,17 +5847,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Catherine_Fife.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/catherine-fife",
-      "expenses": {
-        "total": 33958.87,
-        "travel": 12033.04,
-        "accommodation": 4035.9,
-        "meals": 534.67,
-        "hospitality": 17355.26,
-        "claimCount": 80,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/catherine-fife",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 162371.74,
         "benefits": 935.83,
@@ -6365,17 +6015,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Mohamed-Firin_1.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/mohamed-firin",
-      "expenses": {
-        "total": 19551.49,
-        "travel": 3252.16,
-        "accommodation": 3122.69,
-        "meals": 0.0,
-        "hospitality": 13176.64,
-        "claimCount": 59,
-        "periodCount": 4,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/mohamed-firin",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 148113.66,
         "benefits": 859.47,
@@ -6543,17 +6183,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Rob_Flack.png",
       "profileUrl": "https://www.ola.org/en/members/all/rob-flack",
-      "expenses": {
-        "total": 22479.62,
-        "travel": 2415.7,
-        "accommodation": 848.64,
-        "meals": 0.0,
-        "hospitality": 19215.28,
-        "claimCount": 75,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/rob-flack",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.76,
         "benefits": 1227.49,
@@ -6889,17 +6519,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/john_fraser.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/john-fraser",
-      "expenses": {
-        "total": 88419.19,
-        "travel": 66327.22,
-        "accommodation": 824.66,
-        "meals": 85.77,
-        "hospitality": 21181.54,
-        "claimCount": 133,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/john-fraser",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 193644.18,
         "benefits": 1111.76,
@@ -7067,17 +6687,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jennifer_French.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/jennifer-k-french",
-      "expenses": {
-        "total": 11556.55,
-        "travel": 4138.93,
-        "accommodation": 3019.07,
-        "meals": 125.66,
-        "hospitality": 4272.89,
-        "claimCount": 38,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/jennifer-k-french",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 167312.23,
         "benefits": 963.59,
@@ -7245,17 +6855,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/wayne_gates_0.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/wayne-gates",
-      "expenses": {
-        "total": 27110.02,
-        "travel": 11541.9,
-        "accommodation": 2564.39,
-        "meals": 87.74,
-        "hospitality": 12915.99,
-        "claimCount": 55,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/wayne-gates",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 176960.56,
         "benefits": 927.88,
@@ -7423,17 +7023,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Alexa-Gilmour.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/alexa-gilmour",
-      "expenses": {
-        "total": 10778.92,
-        "travel": 2779.01,
-        "accommodation": 1331.04,
-        "meals": 21.12,
-        "hospitality": 6647.75,
-        "claimCount": 39,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/alexa-gilmour",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 131612.95,
         "benefits": 714.34,
@@ -7601,17 +7191,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Chris_Glover.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/chris-glover",
-      "expenses": {
-        "total": 71045.97,
-        "travel": 2079.99,
-        "accommodation": 3900.57,
-        "meals": 0.0,
-        "hospitality": 65065.41,
-        "claimCount": 110,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/chris-glover",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 150344.2,
         "benefits": 814.82,
@@ -7779,17 +7359,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/lisa_gretzky.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/lisa-gretzky",
-      "expenses": {
-        "total": 49178.07,
-        "travel": 26314.47,
-        "accommodation": 1520.88,
-        "meals": 136.19,
-        "hospitality": 21206.53,
-        "claimCount": 66,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/lisa-gretzky",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 150344.2,
         "benefits": 814.82,
@@ -8135,17 +7705,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Silvia-Gualtieri.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/silvia-gualtieri",
-      "expenses": {
-        "total": 38767.74,
-        "travel": 6578.91,
-        "accommodation": 5100.88,
-        "meals": 182.27,
-        "hospitality": 26905.68,
-        "claimCount": 113,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/silvia-gualtieri",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 162925.04,
         "benefits": 859.47,
@@ -8313,17 +7873,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/France_Gelinas.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/france-glinas",
-      "expenses": {
-        "total": 49379.1,
-        "travel": 42443.97,
-        "accommodation": 1086.98,
-        "meals": 235.05,
-        "hospitality": 5613.1,
-        "claimCount": 102,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/france-gelinas",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 162371.74,
         "benefits": 935.83,
@@ -8491,17 +8041,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Hamid-Zee.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/zee-hamid",
-      "expenses": {
-        "total": 113133.18,
-        "travel": 12355.58,
-        "accommodation": 1664.82,
-        "meals": 33.23,
-        "hospitality": 99079.55,
-        "claimCount": 182,
-        "periodCount": 8,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/zee-hamid",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 177886.71,
         "benefits": 1023.56,
@@ -8669,17 +8209,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/ernie_hardeman.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/ernie-hardeman",
-      "expenses": {
-        "total": 44072.22,
-        "travel": 17301.98,
-        "accommodation": 2265.38,
-        "meals": 47.32,
-        "hospitality": 24457.54,
-        "claimCount": 97,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/ernie-hardeman",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 188531.71,
         "benefits": 986.84,
@@ -8847,17 +8377,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/mike-harris.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/mike-harris",
-      "expenses": {
-        "total": 18505.9,
-        "travel": 1671.14,
-        "accommodation": 574.0,
-        "meals": 0.0,
-        "hospitality": 16260.76,
-        "claimCount": 61,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/mike-harris",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.76,
         "benefits": 1227.49,
@@ -9025,17 +8545,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Andrea_Hazell_2.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/andrea-hazell",
-      "expenses": {
-        "total": 85425.57,
-        "travel": 8724.14,
-        "accommodation": 3112.19,
-        "meals": 292.01,
-        "hospitality": 73297.23,
-        "claimCount": 173,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/andrea-hazell",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 164689.86,
         "benefits": 949.68,
@@ -9203,17 +8713,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Kevin_Holland.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/kevin-holland",
-      "expenses": {
-        "total": 68159.88,
-        "travel": 55114.89,
-        "accommodation": 3044.86,
-        "meals": 284.75,
-        "hospitality": 9715.38,
-        "claimCount": 84,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/kevin-holland",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 179210.13,
         "benefits": 1031.08,
@@ -9381,17 +8881,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Ted-Hsu.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/ted-hsu",
-      "expenses": {
-        "total": 43197.05,
-        "travel": 24922.9,
-        "accommodation": 1876.7,
-        "meals": 62.34,
-        "hospitality": 16335.11,
-        "claimCount": 98,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/ted-hsu",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 160873.24,
         "benefits": 927.88,
@@ -9559,17 +9049,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Sylvia_Jones.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/sylvia-jones",
-      "expenses": {
-        "total": 6256.67,
-        "travel": 1090.54,
-        "accommodation": 799.52,
-        "meals": 0.0,
-        "hospitality": 4366.61,
-        "claimCount": 20,
-        "periodCount": 7,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/sylvia-jones",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -9737,17 +9217,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Trevor_Jones.png",
       "profileUrl": "https://www.ola.org/en/members/all/trevor-jones",
-      "expenses": {
-        "total": 24085.55,
-        "travel": 17271.07,
-        "accommodation": 1037.3,
-        "meals": 0.0,
-        "hospitality": 5777.18,
-        "claimCount": 104,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/trevor-jones",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 207700.79,
         "benefits": 1192.01,
@@ -9915,17 +9385,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/John_Jordan.png",
       "profileUrl": "https://www.ola.org/en/members/all/john-jordan",
-      "expenses": {
-        "total": 27447.28,
-        "travel": 19156.05,
-        "accommodation": 1082.5,
-        "meals": 0.0,
-        "hospitality": 7208.73,
-        "claimCount": 93,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/john-jordan",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -10093,17 +9553,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Logan_Kanapathi.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/logan-kanapathi",
-      "expenses": {
-        "total": 93252.36,
-        "travel": 8485.08,
-        "accommodation": 1400.3,
-        "meals": 89.74,
-        "hospitality": 83277.24,
-        "claimCount": 172,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/logan-kanapathi",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171655.87,
         "benefits": 988.16,
@@ -10271,17 +9721,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/terence_kernaghan.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/terence-kernaghan",
-      "expenses": {
-        "total": 84936.35,
-        "travel": 40108.98,
-        "accommodation": 1505.19,
-        "meals": 271.67,
-        "hospitality": 43050.51,
-        "claimCount": 177,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/terence-kernaghan",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 163875.64,
         "benefits": 944.38,
@@ -10449,17 +9889,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Michael_Kerzner.png",
       "profileUrl": "https://www.ola.org/en/members/all/michael-s-kerzner",
-      "expenses": {
-        "total": 28855.71,
-        "travel": 0.0,
-        "accommodation": 1591.3,
-        "meals": 0.0,
-        "hospitality": 27264.41,
-        "claimCount": 72,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/michael-s-kerzner",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -10627,17 +10057,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/andrea-khanjin.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/andrea-khanjin",
-      "expenses": {
-        "total": 15419.9,
-        "travel": 1782.9,
-        "accommodation": 0.0,
-        "meals": 0.0,
-        "hospitality": 13637.0,
-        "claimCount": 44,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/andrea-khanjin",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.76,
         "benefits": 1227.49,
@@ -10805,17 +10225,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Natalia_Kusendova-Bashta_0.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/natalia-kusendova-bashta",
-      "expenses": {
-        "total": 47380.69,
-        "travel": 3472.08,
-        "accommodation": 1366.08,
-        "meals": 0.0,
-        "hospitality": 42542.53,
-        "claimCount": 90,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/natalia-kusendova-bashta",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -10983,17 +10393,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Anthony_Leardi.png",
       "profileUrl": "https://www.ola.org/en/members/all/anthony-leardi",
-      "expenses": {
-        "total": 66954.61,
-        "travel": 43640.33,
-        "accommodation": 2126.02,
-        "meals": 772.23,
-        "hospitality": 20416.03,
-        "claimCount": 140,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/anthony-leardi",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.41,
@@ -11161,17 +10561,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Stephen_Lecce.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/stephen-lecce",
-      "expenses": {
-        "total": 49585.89,
-        "travel": 0.0,
-        "accommodation": 1074.77,
-        "meals": 0.0,
-        "hospitality": 48511.12,
-        "claimCount": 90,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/stephen-lecce",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.76,
         "benefits": 1227.49,
@@ -11339,17 +10729,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Lennox_Robin.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/robin-lennox",
-      "expenses": {
-        "total": 8363.84,
-        "travel": 981.68,
-        "accommodation": 479.14,
-        "meals": 0.0,
-        "hospitality": 6903.02,
-        "claimCount": 23,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/robin-lennox",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 131612.95,
         "benefits": 714.34,
@@ -11517,17 +10897,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Neil_Lumsden.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/neil-lumsden",
-      "expenses": {
-        "total": 47892.84,
-        "travel": 0.0,
-        "accommodation": 1082.5,
-        "meals": 0.0,
-        "hospitality": 46810.34,
-        "claimCount": 104,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/neil-lumsden",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 235333.73,
         "benefits": 1227.49,
@@ -11695,17 +11065,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Sol_Mamakwa_v1.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/sol-mamakwa",
-      "expenses": {
-        "total": 181749.97,
-        "travel": 158474.2,
-        "accommodation": 11782.62,
-        "meals": 1700.13,
-        "hospitality": 9793.02,
-        "claimCount": 269,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/sol-mamakwa",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 162371.74,
         "benefits": 935.83,
@@ -11873,17 +11233,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Todd_McCarthy.png",
       "profileUrl": "https://www.ola.org/en/members/all/todd-j-mccarthy",
-      "expenses": {
-        "total": 18445.64,
-        "travel": 0.0,
-        "accommodation": 574.0,
-        "meals": 0.0,
-        "hospitality": 17871.64,
-        "claimCount": 49,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/todd-j-mccarthy",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.76,
         "benefits": 1227.49,
@@ -12051,17 +11401,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Karen_McCrimmon2.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/karen-mccrimmon",
-      "expenses": {
-        "total": 49274.47,
-        "travel": 40558.81,
-        "accommodation": 401.04,
-        "meals": 0.0,
-        "hospitality": 8314.62,
-        "claimCount": 110,
-        "periodCount": 8,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/karen-mccrimmon",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 160873.24,
         "benefits": 927.88,
@@ -12229,17 +11569,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Graham McGregor_edited.png",
       "profileUrl": "https://www.ola.org/en/members/all/graham-mcgregor",
-      "expenses": {
-        "total": 40904.25,
-        "travel": 1217.87,
-        "accommodation": 1666.06,
-        "meals": 0.0,
-        "hospitality": 38020.32,
-        "claimCount": 105,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/graham-mcgregor",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 207700.79,
         "benefits": 1192.01,
@@ -12407,17 +11737,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Catherine-McKenney.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/catherine-mckenney",
-      "expenses": {
-        "total": 35079.61,
-        "travel": 25275.65,
-        "accommodation": 526.14,
-        "meals": 0.0,
-        "hospitality": 9277.82,
-        "claimCount": 55,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/catherine-mckenney",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 131612.95,
         "benefits": 714.34,
@@ -12585,17 +11905,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Mary_Margaret_McMahon.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/mary-margaret-mcmahon",
-      "expenses": {
-        "total": 27179.17,
-        "travel": 2112.0,
-        "accommodation": 4058.5,
-        "meals": 336.72,
-        "hospitality": 20671.95,
-        "claimCount": 93,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/mary-margaret-mcmahon",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 168770.06,
         "benefits": 972.93,
@@ -12763,17 +12073,7 @@
       "oacScore": 0,
       "photo": null,
       "profileUrl": "https://www.ola.org/en/members/all/caroline-mulroney",
-      "expenses": {
-        "total": 76815.02,
-        "travel": 0.0,
-        "accommodation": 231.65,
-        "meals": 0.0,
-        "hospitality": 76583.37,
-        "claimCount": 93,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/caroline-mulroney",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -12941,17 +12241,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Dawn_Gallagher_Murphy.png",
       "profileUrl": "https://www.ola.org/en/members/all/dawn-gallagher-murphy",
-      "expenses": {
-        "total": 55914.74,
-        "travel": 8042.9,
-        "accommodation": 1511.53,
-        "meals": 0.0,
-        "hospitality": 46360.31,
-        "claimCount": 156,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/dawn-gallagher-murphy",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.41,
@@ -13119,17 +12409,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Sam_Oosterhoff.png",
       "profileUrl": "https://www.ola.org/en/members/all/sam-oosterhoff",
-      "expenses": {
-        "total": 55035.25,
-        "travel": 26319.11,
-        "accommodation": 2209.09,
-        "meals": 332.67,
-        "hospitality": 26174.38,
-        "claimCount": 101,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/sam-oosterhoff",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 179210.13,
         "benefits": 1031.08,
@@ -13297,17 +12577,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Billy_Pang.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/billy-pang",
-      "expenses": {
-        "total": 65755.06,
-        "travel": 9026.0,
-        "accommodation": 1142.57,
-        "meals": 0.0,
-        "hospitality": 55586.49,
-        "claimCount": 151,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/billy-pang",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.41,
@@ -13475,17 +12745,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/michael-parsa.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/michael-parsa",
-      "expenses": {
-        "total": 33821.99,
-        "travel": 0.0,
-        "accommodation": 1613.6,
-        "meals": 0.0,
-        "hospitality": 32208.39,
-        "claimCount": 46,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/michael-parsa",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -13653,17 +12913,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Chandra_Pasma.png",
       "profileUrl": "https://www.ola.org/en/members/all/chandra-pasma",
-      "expenses": {
-        "total": 75539.06,
-        "travel": 46280.14,
-        "accommodation": 1657.55,
-        "meals": 277.9,
-        "hospitality": 27323.47,
-        "claimCount": 101,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/chandra-pasma",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 162385.55,
         "benefits": 934.84,
@@ -13831,17 +13081,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/david_piccini.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/david-piccini",
-      "expenses": {
-        "total": 33752.35,
-        "travel": 4236.51,
-        "accommodation": 646.43,
-        "meals": 0.0,
-        "hospitality": 28869.41,
-        "claimCount": 78,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/david-piccini",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -14009,17 +13249,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Natalie_Pierre.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/natalie-pierre",
-      "expenses": {
-        "total": 26334.04,
-        "travel": 4814.89,
-        "accommodation": 1777.86,
-        "meals": 0.0,
-        "hospitality": 19741.29,
-        "claimCount": 110,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/natalie-pierre",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.41,
@@ -14187,17 +13417,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Steve-Pinsonneault.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/steve-pinsonneault",
-      "expenses": {
-        "total": 25020.08,
-        "travel": 18108.95,
-        "accommodation": 2781.38,
-        "meals": 104.3,
-        "hospitality": 4025.45,
-        "claimCount": 69,
-        "periodCount": 8,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/steve-pinsonneault",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -14365,17 +13585,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/George_Pirie.png",
       "profileUrl": "https://www.ola.org/en/members/all/george-pirie",
-      "expenses": {
-        "total": 36171.28,
-        "travel": 32587.9,
-        "accommodation": 1365.0,
-        "meals": 0.0,
-        "hospitality": 2218.38,
-        "claimCount": 51,
-        "periodCount": 8,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/george-pirie",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 235333.74,
         "benefits": 1227.49,
@@ -14543,17 +13753,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Nolan_Quinn_original.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/nolan-quinn",
-      "expenses": {
-        "total": 51028.11,
-        "travel": 38268.69,
-        "accommodation": 2980.82,
-        "meals": 0.0,
-        "hospitality": 9778.6,
-        "claimCount": 75,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/nolan-quinn",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.76,
         "benefits": 1227.49,
@@ -14721,17 +13921,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Joseph_Racinsky_0.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/joseph-racinsky",
-      "expenses": {
-        "total": 10748.24,
-        "travel": 6039.28,
-        "accommodation": 1220.85,
-        "meals": 0.0,
-        "hospitality": 3488.11,
-        "claimCount": 31,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/joseph-racinsky",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 148113.66,
         "benefits": 859.47,
@@ -14899,17 +14089,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Matt_Rae.png",
       "profileUrl": "https://www.ola.org/en/members/all/matthew-rae",
-      "expenses": {
-        "total": 29098.52,
-        "travel": 22747.23,
-        "accommodation": 1363.37,
-        "meals": 1007.52,
-        "hospitality": 3980.4,
-        "claimCount": 99,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/matthew-rae",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 176458.98,
         "benefits": 1015.17,
@@ -15077,17 +14257,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Tom_Rakocevic.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/tom-rakocevic",
-      "expenses": {
-        "total": 39564.58,
-        "travel": 3126.76,
-        "accommodation": 829.35,
-        "meals": 0.0,
-        "hospitality": 35608.47,
-        "claimCount": 100,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/tom-rakocevic",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171392.43,
         "benefits": 986.84,
@@ -15255,17 +14425,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Greg Rickford.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/greg-rickford",
-      "expenses": {
-        "total": 168525.65,
-        "travel": 152960.04,
-        "accommodation": 5545.12,
-        "meals": 387.84,
-        "hospitality": 9632.65,
-        "claimCount": 277,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/greg-rickford",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.76,
         "benefits": 1227.49,
@@ -15433,17 +14593,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Brian_Riddell.png",
       "profileUrl": "https://www.ola.org/en/members/all/brian-riddell",
-      "expenses": {
-        "total": 30018.63,
-        "travel": 7283.3,
-        "accommodation": 3960.99,
-        "meals": 0.0,
-        "hospitality": 18774.34,
-        "claimCount": 116,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/brian-riddell",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 189027.72,
         "benefits": 989.41,
@@ -15611,17 +14761,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Bill-Rosenbergl.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/bill-rosenberg",
-      "expenses": {
-        "total": 28222.94,
-        "travel": 20458.89,
-        "accommodation": 2783.28,
-        "meals": 210.85,
-        "hospitality": 4769.92,
-        "claimCount": 51,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/bill-rosenberg",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 148113.66,
         "benefits": 859.47,
@@ -15789,17 +14929,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/sheref_sabawy.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/sheref-sabawy",
-      "expenses": {
-        "total": 112424.11,
-        "travel": 8514.31,
-        "accommodation": 1432.12,
-        "meals": 0.0,
-        "hospitality": 102477.68,
-        "claimCount": 101,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/sheref-sabawy",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -15967,17 +15097,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/amarjot_sandhu.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/amarjot-sandhu",
-      "expenses": {
-        "total": 57157.39,
-        "travel": 11951.15,
-        "accommodation": 5205.47,
-        "meals": 0.0,
-        "hospitality": 40000.77,
-        "claimCount": 125,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/amarjot-sandhu",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.41,
@@ -16145,17 +15265,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/prabmeet_sarkaria.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/prabmeet-singh-sarkaria",
-      "expenses": {
-        "total": 9793.25,
-        "travel": 0.0,
-        "accommodation": 0.0,
-        "meals": 0.0,
-        "hospitality": 9793.25,
-        "claimCount": 18,
-        "periodCount": 7,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/prabmeet-singh-sarkaria",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -16323,17 +15433,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Stephane_Sarrazin.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/stphane-sarrazin",
-      "expenses": {
-        "total": 66985.67,
-        "travel": 56531.0,
-        "accommodation": 1255.89,
-        "meals": 0.0,
-        "hospitality": 9198.78,
-        "claimCount": 128,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/stephane-sarrazin",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.41,
@@ -16501,17 +15601,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/peggy_sattler.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/peggy-sattler",
-      "expenses": {
-        "total": 60554.75,
-        "travel": 20507.65,
-        "accommodation": 1960.51,
-        "meals": 176.5,
-        "hospitality": 37910.09,
-        "claimCount": 108,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/peggy-sattler",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171392.43,
         "benefits": 986.83,
@@ -16679,17 +15769,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Brian_Saunderson.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/brian-saunderson",
-      "expenses": {
-        "total": 19622.65,
-        "travel": 12221.86,
-        "accommodation": 231.65,
-        "meals": 0.0,
-        "hospitality": 7169.14,
-        "claimCount": 74,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/brian-saunderson",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -16857,17 +15937,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/mike_schreiner_v1.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/mike-schreiner",
-      "expenses": {
-        "total": 26405.95,
-        "travel": 10720.42,
-        "accommodation": 2378.04,
-        "meals": 491.29,
-        "hospitality": 12816.2,
-        "claimCount": 121,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/mike-schreiner",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 150344.2,
         "benefits": 814.82,
@@ -17035,17 +16105,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Chris-Scott.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/chris-scott",
-      "expenses": {
-        "total": 44611.46,
-        "travel": 42407.24,
-        "accommodation": 0.0,
-        "meals": 0.0,
-        "hospitality": 2204.22,
-        "claimCount": 50,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/chris-scott",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 141988.4,
         "benefits": 827.0,
@@ -17213,17 +16273,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/laurie_scott.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/laurie-scott",
-      "expenses": {
-        "total": 43446.37,
-        "travel": 17419.7,
-        "accommodation": 1837.75,
-        "meals": 248.08,
-        "hospitality": 23940.84,
-        "claimCount": 94,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/laurie-scott",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171392.43,
         "benefits": 986.84,
@@ -17391,17 +16441,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Adil_Shamji.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/adil-shamji",
-      "expenses": {
-        "total": 31255.68,
-        "travel": 2108.31,
-        "accommodation": 2837.26,
-        "meals": 85.22,
-        "hospitality": 26224.89,
-        "claimCount": 65,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/adil-shamji",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 165626.47,
         "benefits": 953.91,
@@ -17569,17 +16609,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Sandy_Shaw.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/sandy-shaw",
-      "expenses": {
-        "total": 27075.56,
-        "travel": 6018.18,
-        "accommodation": 1167.57,
-        "meals": 0.0,
-        "hospitality": 19889.81,
-        "claimCount": 147,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/sandy-shaw",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 153332.79,
         "benefits": 830.68,
@@ -17747,17 +16777,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/donna_skelly.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/donna-skelly",
-      "expenses": {
-        "total": 14580.59,
-        "travel": 5520.99,
-        "accommodation": 619.2,
-        "meals": 11.87,
-        "hospitality": 8428.53,
-        "claimCount": 61,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/donna-skelly",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 191017.1,
         "benefits": 1095.95,
@@ -17925,17 +16945,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/dave_smith.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/dave-smith",
-      "expenses": {
-        "total": 32108.33,
-        "travel": 17856.49,
-        "accommodation": 2153.35,
-        "meals": 0.0,
-        "hospitality": 12098.49,
-        "claimCount": 88,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/dave-smith",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.41,
@@ -18103,17 +17113,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/David-Smith-V1.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/david-smith",
-      "expenses": {
-        "total": 73199.85,
-        "travel": 11036.69,
-        "accommodation": 10155.73,
-        "meals": 175.62,
-        "hospitality": 51831.81,
-        "claimCount": 209,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/david-smith",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -18281,17 +17281,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Graydon_Smith.png",
       "profileUrl": "https://www.ola.org/en/members/all/graydon-smith",
-      "expenses": {
-        "total": 49118.23,
-        "travel": 8068.01,
-        "accommodation": 1315.09,
-        "meals": 0.0,
-        "hospitality": 39735.13,
-        "claimCount": 118,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/graydon-smith",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 185449.1,
         "benefits": 1066.55,
@@ -18459,17 +17449,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Laura_Smith.png",
       "profileUrl": "https://www.ola.org/en/members/all/laura-smith",
-      "expenses": {
-        "total": 70683.08,
-        "travel": 7752.07,
-        "accommodation": 1674.87,
-        "meals": 0.0,
-        "hospitality": 61256.14,
-        "claimCount": 182,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/laura-smith",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -18637,17 +17617,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Stephanie-Smyth.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/stephanie-smyth",
-      "expenses": {
-        "total": 14317.81,
-        "travel": 1028.14,
-        "accommodation": 1643.31,
-        "meals": 34.66,
-        "hospitality": 11611.7,
-        "claimCount": 42,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/stephanie-smyth",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 141558.82,
         "benefits": 823.36,
@@ -18815,17 +17785,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jennie_Stevens.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/jennifer-jennie-stevens",
-      "expenses": {
-        "total": 37044.84,
-        "travel": 8736.64,
-        "accommodation": 647.3,
-        "meals": 0.0,
-        "hospitality": 27660.9,
-        "claimCount": 96,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/jennifer-jennie-stevens",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 150344.2,
         "benefits": 814.82,
@@ -18993,17 +17953,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Marit Stiles.png",
       "profileUrl": "https://www.ola.org/en/members/all/marit-stiles",
-      "expenses": {
-        "total": 12365.83,
-        "travel": 327.09,
-        "accommodation": 0.0,
-        "meals": 0.0,
-        "hospitality": 12038.74,
-        "claimCount": 31,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/marit-stiles",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 233334.05,
         "benefits": 1337.15,
@@ -19171,17 +18121,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/kinga_surma.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/kinga-surma",
-      "expenses": {
-        "total": 18879.71,
-        "travel": 724.66,
-        "accommodation": 967.03,
-        "meals": 0.0,
-        "hospitality": 17188.02,
-        "claimCount": 27,
-        "periodCount": 7,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/kinga-surma",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -19349,17 +18289,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Peter_Tabuns_v2.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/peter-tabuns",
-      "expenses": {
-        "total": 5346.19,
-        "travel": 1697.0,
-        "accommodation": 0.0,
-        "meals": 0.0,
-        "hospitality": 3649.19,
-        "claimCount": 45,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/peter-tabuns",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 165378.62,
         "benefits": 814.82,
@@ -19527,17 +18457,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/nina_tangri.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/nina-tangri",
-      "expenses": {
-        "total": 71035.71,
-        "travel": 850.13,
-        "accommodation": 15022.51,
-        "meals": 0.0,
-        "hospitality": 55163.07,
-        "claimCount": 107,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/nina-tangri",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 179210.13,
         "benefits": 1031.08,
@@ -19705,17 +18625,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/vijay_thanigasalam_v1.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/vijay-thanigasalam",
-      "expenses": {
-        "total": 60359.13,
-        "travel": 0.0,
-        "accommodation": 0.0,
-        "meals": 0.0,
-        "hospitality": 60359.13,
-        "claimCount": 133,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/vijay-thanigasalam",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 179210.13,
         "benefits": 1031.08,
@@ -19883,17 +18793,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/lisa_thompson.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/lisa-m-thompson",
-      "expenses": {
-        "total": 5428.18,
-        "travel": 0.0,
-        "accommodation": 0.0,
-        "meals": 0.0,
-        "hospitality": 5428.18,
-        "claimCount": 17,
-        "periodCount": 7,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/lisa-m-thompson",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -20061,17 +18961,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/michael_tibollo.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/michael-a-tibollo",
-      "expenses": {
-        "total": 55362.27,
-        "travel": 0.0,
-        "accommodation": 0.0,
-        "meals": 0.0,
-        "hospitality": 55362.27,
-        "claimCount": 68,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/michael-a-tibollo",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 179210.13,
         "benefits": 1031.08,
@@ -20239,17 +19129,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/effie_triantafilopoulos.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/effie-j-triantafilopoulos",
-      "expenses": {
-        "total": 51638.2,
-        "travel": 7757.99,
-        "accommodation": 1922.99,
-        "meals": 47.46,
-        "hospitality": 41909.76,
-        "claimCount": 142,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/effie-j-triantafilopoulos",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 189645.79,
         "benefits": 992.53,
@@ -20417,17 +19297,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jonathan-Tsao.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/jonathan-tsao",
-      "expenses": {
-        "total": 24004.28,
-        "travel": 1588.64,
-        "accommodation": 1359.73,
-        "meals": 72.01,
-        "hospitality": 20983.9,
-        "claimCount": 50,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/jonathan-tsao",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 142141.99,
         "benefits": 827.4,
@@ -20595,17 +19465,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/john_vanthof.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/john-vanthof",
-      "expenses": {
-        "total": 43495.52,
-        "travel": 32414.48,
-        "accommodation": 3846.58,
-        "meals": 234.42,
-        "hospitality": 7000.04,
-        "claimCount": 70,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/john-vanthof",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 177857.15,
         "benefits": 1023.42,
@@ -20773,17 +19633,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Lise_Vaugeois.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/lise-vaugeois",
-      "expenses": {
-        "total": 52429.64,
-        "travel": 41437.27,
-        "accommodation": 2867.13,
-        "meals": 259.21,
-        "hospitality": 7866.03,
-        "claimCount": 167,
-        "periodCount": 8,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/lise-vaugeois",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 150344.2,
         "benefits": 814.82,
@@ -20951,17 +19801,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Paul-Vickers.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/paul-vickers",
-      "expenses": {
-        "total": 10970.27,
-        "travel": 6327.27,
-        "accommodation": 1663.31,
-        "meals": 112.1,
-        "hospitality": 2867.59,
-        "claimCount": 32,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/paul-vickers",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 148113.66,
         "benefits": 859.47,
@@ -21129,17 +19969,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/daisy-wai.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/daisy-wai",
-      "expenses": {
-        "total": 72384.88,
-        "travel": 14769.29,
-        "accommodation": 3525.94,
-        "meals": 69.73,
-        "hospitality": 54019.92,
-        "claimCount": 178,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/daisy-wai",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 189027.72,
         "benefits": 989.41,
@@ -21307,17 +20137,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Tyler-Watt_1.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/tyler-watt",
-      "expenses": {
-        "total": 66624.47,
-        "travel": 58830.97,
-        "accommodation": 401.04,
-        "meals": 307.1,
-        "hospitality": 7085.36,
-        "claimCount": 52,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/tyler-watt",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 142141.99,
         "benefits": 827.4,
@@ -21485,17 +20305,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jamie-West.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/jamie-west",
-      "expenses": {
-        "total": 62340.15,
-        "travel": 51739.37,
-        "accommodation": 1858.19,
-        "meals": 325.92,
-        "hospitality": 8416.67,
-        "claimCount": 126,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/jamie-west",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 163875.64,
         "benefits": 944.37,
@@ -21663,17 +20473,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Charmaine_Williams.png",
       "profileUrl": "https://www.ola.org/en/members/all/charmaine-a-williams",
-      "expenses": {
-        "total": 42509.19,
-        "travel": 470.04,
-        "accommodation": 16904.87,
-        "meals": 41.77,
-        "hospitality": 25092.51,
-        "claimCount": 136,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/charmaine-a-williams",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 179210.13,
         "benefits": 1031.08,
@@ -21841,17 +20641,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Kristyn_Wong_Tam.png",
       "profileUrl": "https://www.ola.org/en/members/all/kristyn-wong-tam",
-      "expenses": {
-        "total": 26359.48,
-        "travel": 1664.74,
-        "accommodation": 2198.25,
-        "meals": 61.02,
-        "hospitality": 22435.47,
-        "claimCount": 61,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/kristyn-wong-tam",
-        "asOf": "2026-07-21"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 150344.2,
         "benefits": 814.82,
