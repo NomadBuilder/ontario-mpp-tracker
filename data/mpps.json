@@ -283,9 +283,9 @@
           "bill": "Bill 56",
           "billFull": "Bill 56",
           "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
-          "vote": "Bill 56",
-          "display": "N/A",
-          "yes": null
+          "vote": "Aye",
+          "display": "Yes",
+          "yes": true
         },
         {
           "bill": "Bill 98",
