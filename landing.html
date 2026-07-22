@@ -43,7 +43,7 @@
 
     .hero {
       position: relative;
-      min-height: 100svh;
+      min-height: clamp(22rem, 58svh, 30rem);
       display: grid;
       align-items: end;
       overflow: hidden;
@@ -55,23 +55,23 @@
       inset: 0;
       z-index: -2;
       background:
-        linear-gradient(180deg, rgba(10, 10, 10, 0.35) 0%, rgba(10, 10, 10, 0.82) 55%, var(--bg) 100%),
+        linear-gradient(180deg, rgba(10, 10, 10, 0.4) 0%, rgba(10, 10, 10, 0.78) 50%, var(--bg) 100%),
         radial-gradient(ellipse 80% 60% at 70% 30%, rgba(255, 199, 69, 0.12), transparent 55%),
         url("https://onac.ca/wp-content/uploads/2026/07/house.jpg") center/cover no-repeat;
-      transform: scale(1.04);
+      transform: scale(1.03);
       animation: heroDrift 18s ease-in-out infinite alternate;
     }
 
     @keyframes heroDrift {
-      from { transform: scale(1.04) translate3d(0, 0, 0); }
-      to { transform: scale(1.08) translate3d(-1.5%, -1%, 0); }
+      from { transform: scale(1.03) translate3d(0, 0, 0); }
+      to { transform: scale(1.06) translate3d(-1%, -0.6%, 0); }
     }
 
     .hero-grain {
       position: absolute;
       inset: 0;
       z-index: -1;
-      opacity: 0.08;
+      opacity: 0.07;
       pointer-events: none;
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
     }
@@ -79,26 +79,26 @@
     .hero-inner {
       width: min(100% - 2rem, var(--max));
       margin: 0 auto;
-      padding: 5.5rem 0 3.25rem;
+      padding: 3rem 0 2.25rem;
     }
 
     .brand-row {
       display: flex;
       align-items: center;
-      gap: 0.85rem;
-      margin-bottom: 1.75rem;
+      gap: 0.75rem;
+      margin-bottom: 1.1rem;
       animation: rise 0.8s ease both;
     }
 
     .brand-row img {
-      width: 3.25rem;
-      height: 3.25rem;
+      width: 2.75rem;
+      height: 2.75rem;
       border-radius: 50%;
       background: #000;
     }
 
     .brand-row span {
-      font-size: 0.78rem;
+      font-size: 0.72rem;
       font-weight: 700;
       letter-spacing: 0.14em;
       text-transform: uppercase;
@@ -110,13 +110,13 @@
       background: var(--yellow);
       color: var(--yellow-ink);
       font-family: var(--display);
-      font-size: clamp(2.4rem, 9vw, 5.5rem);
+      font-size: clamp(1.85rem, 6vw, 3.25rem);
       line-height: 0.92;
       letter-spacing: -0.02em;
-      padding: 0.28em 0.35em 0.22em;
-      margin-bottom: 1.15rem;
+      padding: 0.22em 0.3em 0.18em;
+      margin-bottom: 0.85rem;
       animation: rise 0.9s 0.08s ease both;
-      box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.45);
+      box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.4);
     }
 
     .hero-lead {
@@ -163,7 +163,7 @@
     }
     .btn-ghost:hover { border-color: var(--yellow); color: var(--yellow); }
 
-    section { padding: clamp(3.25rem, 7vw, 5rem) 0; }
+    section { padding: clamp(2.75rem, 6vw, 4.25rem) 0; }
     .wrap {
       width: min(100% - 2rem, var(--max));
       margin: 0 auto;
@@ -175,55 +175,103 @@
       letter-spacing: 0.14em;
       text-transform: uppercase;
       color: var(--yellow);
-      margin-bottom: 0.85rem;
+      margin-bottom: 0.65rem;
     }
 
     .section-title {
       font-family: var(--display);
-      font-size: clamp(1.85rem, 5vw, 3rem);
-      line-height: 1.05;
+      font-size: clamp(1.55rem, 4vw, 2.35rem);
+      line-height: 1.08;
       letter-spacing: -0.02em;
-      margin-bottom: 0.75rem;
-      max-width: 16ch;
+      margin-bottom: 0.65rem;
+      max-width: 18ch;
     }
 
     .section-copy {
-      max-width: 38rem;
+      max-width: 36rem;
       color: var(--muted);
-      font-size: 1.05rem;
-      margin-bottom: 1.5rem;
+      font-size: 1.02rem;
+      margin-bottom: 1.25rem;
     }
 
-    .section-copy + .section-copy { margin-top: -0.75rem; }
+    .section-copy + .section-copy { margin-top: -0.5rem; }
 
-    /* Why */
+    .section-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem;
+      margin-top: 1.25rem;
+    }
+
+    /* Why — two column with chamber visual */
     .why {
       border-top: 1px solid var(--line);
       background: var(--bg-2);
     }
 
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 2rem 2.5rem;
+      align-items: center;
+    }
+
+    @media (max-width: 860px) {
+      .why-grid { grid-template-columns: 1fr; }
+    }
+
+    .why-visual {
+      position: relative;
+      min-height: 18rem;
+      border: 1px solid var(--line);
+      overflow: hidden;
+      background:
+        linear-gradient(160deg, rgba(10, 10, 10, 0.15), rgba(10, 10, 10, 0.55)),
+        url("https://onac.ca/wp-content/uploads/2026/07/house.jpg") center/cover no-repeat;
+    }
+
+    .why-visual-caption {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 1rem 1.1rem;
+      background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .why-visual-caption strong {
+      display: block;
+      color: var(--yellow);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
+    }
+
     .why-points {
       display: grid;
-      gap: 1.25rem;
-      margin-top: 0.5rem;
-      max-width: 40rem;
+      gap: 1rem;
+      margin-top: 0.35rem;
+      max-width: 36rem;
     }
 
     .why-points li {
       list-style: none;
-      padding-left: 1.1rem;
+      padding-left: 1rem;
       border-left: 3px solid var(--yellow);
       color: var(--muted);
-      font-size: 1.02rem;
+      font-size: 0.98rem;
     }
 
     .why-points strong {
       display: block;
       color: var(--ink);
-      margin-bottom: 0.2rem;
+      margin-bottom: 0.15rem;
     }
 
-    /* Steps */
+    /* Steps as action cards */
     .path {
       background: var(--bg);
       border-top: 1px solid var(--line);
@@ -232,8 +280,8 @@
     .path-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 1.25rem;
-      margin-top: 0.5rem;
+      gap: 1rem;
+      margin-top: 0.35rem;
       counter-reset: step;
     }
 
@@ -242,8 +290,19 @@
     }
 
     .path-step {
-      border-top: 2px solid var(--yellow);
-      padding-top: 1rem;
+      display: block;
+      text-decoration: none;
+      border: 1px solid var(--line);
+      border-top: 3px solid var(--yellow);
+      padding: 1.15rem 1.1rem 1.2rem;
+      background: #121212;
+      transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+    }
+
+    .path-step:hover {
+      border-color: rgba(255, 199, 69, 0.45);
+      background: #181818;
+      transform: translateY(-2px);
     }
 
     .path-step::before {
@@ -251,20 +310,29 @@
       content: "0" counter(step);
       display: block;
       font-family: var(--display);
-      font-size: 1.35rem;
+      font-size: 1.2rem;
       color: var(--yellow);
-      margin-bottom: 0.55rem;
+      margin-bottom: 0.45rem;
     }
 
     .path-step h3 {
-      font-size: 1.15rem;
+      font-size: 1.08rem;
       font-weight: 700;
-      margin-bottom: 0.4rem;
+      margin-bottom: 0.35rem;
     }
 
     .path-step p {
       color: var(--muted);
-      font-size: 0.95rem;
+      font-size: 0.92rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .path-step .path-go {
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--yellow);
     }
 
     /* Find */
@@ -442,7 +510,7 @@
 
     .money-figure {
       font-family: var(--display);
-      font-size: clamp(3rem, 12vw, 6.5rem);
+      font-size: clamp(2.5rem, 9vw, 4.75rem);
       line-height: 0.95;
       color: var(--yellow);
       margin: 0.35rem 0 0.5rem;
@@ -535,62 +603,76 @@
     <div class="hero-grain" aria-hidden="true"></div>
     <div class="hero-inner">
       <div class="brand-row">
-        <img src="assets/onac.png" alt="Ontarians Against Corruption" width="52" height="52">
+        <img src="assets/onac.png" alt="Ontarians Against Corruption" width="44" height="44">
         <span>Ontarians Against Corruption</span>
       </div>
       <h1 class="hero-plate">MPP TRACKER</h1>
-      <p class="hero-lead">Your MPP works for you. Find them, see how they vote, and tell them what you expect.</p>
+      <p class="hero-lead">Find your MPP. Check their votes. Contact them today.</p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="#find">Find my MPP</a>
-        <a class="btn btn-ghost" href="#campaigns">See key votes</a>
+        <a class="btn btn-ghost" href="#campaigns">Take action on a bill</a>
       </div>
     </div>
   </header>
 
   <section class="why" id="why">
-    <div class="wrap">
-      <p class="section-kicker">Why this exists</p>
-      <h2 class="section-title">Accountability shouldn’t require a spreadsheet</h2>
-      <p class="section-copy">
-        Ontario’s Legislative Assembly publishes votes, expense filings, and contact details —
-        but they’re scattered across sites most people never open. OAC pulls that public record
-        into one place so you can act on it.
-      </p>
-      <ul class="why-points">
-        <li>
-          <strong>Votes on bills that reshape Ontario</strong>
-          Land use, transparency, airports, privatization — see Yes / No / No Show by name.
-        </li>
-        <li>
-          <strong>Expense disclosure, in plain language</strong>
-          Travel, meals, hospitality, and more from ola.org — not hidden in PDFs.
-        </li>
-        <li>
-          <strong>A direct line to your representative</strong>
-          Email or call from the page. Pressure works when it’s personal and public.
-        </li>
-      </ul>
+    <div class="wrap why-grid">
+      <div>
+        <p class="section-kicker">Why this exists</p>
+        <h2 class="section-title">Accountability shouldn’t require a spreadsheet</h2>
+        <p class="section-copy">
+          Votes, expenses, and contact details are public — but scattered across sites most people never open.
+          OAC puts the record in one place so you can act on it.
+        </p>
+        <ul class="why-points">
+          <li>
+            <strong>Votes that reshape Ontario</strong>
+            Land use, transparency, airports, privatization — Yes / No / No Show by name.
+          </li>
+          <li>
+            <strong>Expense disclosure, plainly</strong>
+            Travel, meals, hospitality from ola.org — not buried in PDFs.
+          </li>
+          <li>
+            <strong>A direct line to your MPP</strong>
+            Email or call with a clear ask. Pressure works when it’s personal.
+          </li>
+        </ul>
+        <div class="section-actions">
+          <a class="btn btn-primary" href="#find">Start with your riding</a>
+          <a class="btn btn-ghost" href="./?embed=1">Open full tracker</a>
+        </div>
+      </div>
+      <aside class="why-visual" role="img" aria-label="Inside the Ontario legislature">
+        <div class="why-visual-caption">
+          <strong>Queen’s Park</strong>
+          The chamber where these votes happen — now easier to follow from home.
+        </div>
+      </aside>
     </div>
   </section>
 
   <section class="path" id="how">
     <div class="wrap">
-      <p class="section-kicker">How to use it</p>
-      <h2 class="section-title">Three moves. Then take action.</h2>
-      <p class="section-copy">You don’t need to master every filter. Start with your riding, one bill you care about, and one message.</p>
+      <p class="section-kicker">Do this next</p>
+      <h2 class="section-title">Three moves. Then act.</h2>
+      <p class="section-copy">Skip the overwhelm. Pick your riding, one bill, one message.</p>
       <div class="path-grid">
-        <div class="path-step">
+        <a class="path-step" href="#find">
           <h3>Find your MPP</h3>
-          <p>Enter your postal code. Confirm the riding. Save their email and phone.</p>
-        </div>
-        <div class="path-step">
-          <h3>Check a vote that matters</h3>
-          <p>Pick a featured bill below. See whether your MPP backed it — or skipped the vote.</p>
-        </div>
-        <div class="path-step">
-          <h3>Contact them today</h3>
-          <p>Ask where they stand. Join an OAC campaign if you want a ready-made ask.</p>
-        </div>
+          <p>Postal code → riding → email and phone in one step.</p>
+          <span class="path-go">Look up now →</span>
+        </a>
+        <a class="path-step" href="#campaigns">
+          <h3>Pick a vote that matters</h3>
+          <p>See Yes / No counts on bills OAC is watching — then open the tracker.</p>
+          <span class="path-go">See key bills →</span>
+        </a>
+        <a class="path-step" href="#act">
+          <h3>Join the pressure</h3>
+          <p>Email your MPP or jump into a live OAC campaign with a ready-made ask.</p>
+          <span class="path-go">Take action →</span>
+        </a>
       </div>
     </div>
   </section>
@@ -600,8 +682,8 @@
       <p class="section-kicker">Start here</p>
       <h2 class="section-title">Who represents you?</h2>
       <p class="section-copy">
-        Enter your postal code. We’ll match your Ontario riding and give you a direct line to your MPP —
-        then you can open their full voting record in the tracker.
+        Enter your postal code. We’ll match your riding and hand you email + phone —
+        then you can open their votes in the tracker or send a message now.
       </p>
       <form class="find-form" id="postal-form">
         <label for="postal">Postal code</label>
@@ -645,22 +727,23 @@
         and missing context are worth asking about. The tracker’s expense spotlight flags those patterns.
       </p>
       <a class="btn btn-primary" href="./?embed=1">Open expense spotlight</a>
+      <a class="btn btn-ghost" href="#find" style="margin-left:0.65rem">Ask your MPP about spending</a>
     </div>
   </section>
 
   <section class="band" id="act">
     <div class="wrap band-grid">
       <div>
-        <h2>Looking it up is step one. Using it is the point.</h2>
+        <h2>Ready to apply pressure?</h2>
         <p>
-          Email your MPP, join a live OAC campaign, or get urgent calls to action in your inbox.
-          Democracy gets louder when people show up with receipts.
+          Find your MPP, name a bill, and ask for a clear answer — or jump into a live OAC campaign
+          with a ready-made ask.
         </p>
       </div>
       <div class="band-cta">
-        <a class="btn btn-primary" href="#find">Find my MPP first</a>
-        <a class="btn btn-ghost" href="https://onac.ca/">Join a campaign</a>
-        <a class="btn btn-ghost" href="https://onac.ca/">Get the newsletter</a>
+        <a class="btn btn-primary" href="#find">Find my MPP</a>
+        <a class="btn btn-ghost" href="https://onac.ca/" target="_blank" rel="noopener">Join a campaign</a>
+        <a class="btn btn-ghost" href="./?embed=1">Open tracker</a>
       </div>
     </div>
   </section>
