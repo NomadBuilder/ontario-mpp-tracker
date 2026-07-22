@@ -654,6 +654,30 @@ function setupCampaignFilters() {
   document.getElementById('campaign-clear').onclick = () => applyVoteFilters({});
 }
 
+/** Deep-link: ?bill=Bill%205&vote=yes (vote defaults to yes) */
+function applyFiltersFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const rawBill = (params.get('bill') || '').trim();
+  if (!rawBill) return false;
+
+  const normalized = rawBill.replace(/\+/g, ' ').replace(/\s+/g, ' ').trim();
+  const bill = FEATURED_BILLS.find((b) => {
+    const compact = (s) => s.toLowerCase().replace(/\s+/g, '');
+    return (
+      b === normalized ||
+      compact(b) === compact(normalized) ||
+      b === `Bill ${normalized}` ||
+      compact(b) === compact(`Bill ${normalized}`)
+    );
+  });
+  if (!bill) return false;
+
+  const voteRaw = (params.get('vote') || 'yes').toLowerCase().trim();
+  const vote = ['yes', 'no', 'noshow', 'na'].includes(voteRaw) ? voteRaw : 'yes';
+  applyVoteFilters({ [bill]: vote });
+  return true;
+}
+
 function updateExpenseSummary(filteredCount) {
   const summary = document.getElementById('expense-summary');
   const clearBtn = document.getElementById('expense-clear');
@@ -776,7 +800,7 @@ async function init() {
     setupCampaignFilters();
     setupSearch();
     document.querySelectorAll('.view-btn').forEach(btn => { btn.onclick = () => setView(btn.dataset.view); });
-    updateView();
+    if (!applyFiltersFromUrl()) updateView();
   } catch (err) {
     document.getElementById('loading').innerHTML = '<p>Failed to load MPP data.</p>';
     console.error(err);
