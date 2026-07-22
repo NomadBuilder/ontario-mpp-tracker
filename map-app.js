@@ -299,6 +299,43 @@
 
   let overlayMarkers = null;
 
+  function countOverlayHits() {
+    let rebels = 0;
+    let local = 0;
+    let cabinet = 0;
+    if (!ridingsGeo) return { rebels, local, cabinet };
+    for (const feature of ridingsGeo.features) {
+      const mpp = mppForFeature(feature);
+      const riding = feature.properties.name;
+      if (powerFlags(mpp).any) cabinet += 1;
+      if (isRebel(mpp, selectedBill)) rebels += 1;
+      if (localOppositionNote(riding, selectedBill)) local += 1;
+    }
+    return { rebels, local, cabinet };
+  }
+
+  function updateOverlayCounts() {
+    const { rebels, local } = countOverlayHits();
+    const rebelEl = document.getElementById("rebel-count");
+    const localEl = document.getElementById("local-count");
+    if (rebelEl) {
+      rebelEl.textContent = selectedBill ? `(${rebels})` : "";
+      rebelEl.classList.toggle("is-zero", rebels === 0);
+      rebelEl.title =
+        rebels === 0
+          ? `No caucus rebels on ${selectedBill} — every Yes/No matched their party’s majority`
+          : `${rebels} MPP${rebels === 1 ? "" : "s"} voted against their party majority on ${selectedBill}`;
+    }
+    if (localEl) {
+      localEl.textContent = selectedBill ? `(${local})` : "";
+      localEl.classList.toggle("is-zero", local === 0);
+      localEl.title =
+        local === 0
+          ? `No curated local-opposition notes for ${selectedBill}`
+          : `${local} riding${local === 1 ? "" : "s"} have local opposition notes for ${selectedBill}`;
+    }
+  }
+
   function anyOverlayOn() {
     return highlightCabinet || highlightRebels || highlightOpposition || neighbourNames.size > 0;
   }
@@ -486,8 +523,17 @@
       overlayBits.push(`<div class="legend-row"><span class="swatch swatch-ring" style="--ring:#4dc9ff;background:#4dc9ff"></span>Neighbours</div>`);
     }
     if (overlayBits.length) {
+      const { rebels, local } = countOverlayHits();
+      let emptyNote = "";
+      if (highlightRebels && rebels === 0) {
+        emptyNote += `<p class="legend-note warn">No rebels on ${selectedBill}: every Yes/No matched that MPP’s party majority.</p>`;
+      }
+      if (highlightOpposition && local === 0) {
+        emptyNote += `<p class="legend-note warn">No curated local-opposition notes for ${selectedBill}.</p>`;
+      }
       base += `<h2 class="legend-sub">Highlights</h2>
         <p class="legend-note">Matching ridings stay bright with a thick outline + marker. Everything else is dimmed.</p>
+        ${emptyNote}
         ${overlayBits.join("")}`;
     }
     el.innerHTML = base;
@@ -503,6 +549,7 @@
     refreshOverlayMarkers();
     renderLegend();
     updateBillControlVisibility();
+    updateOverlayCounts();
     updateDoNext();
     if (keep) {
       layer.eachLayer((lyr) => {
@@ -582,7 +629,24 @@
     }
 
     if (highlightCabinet || highlightRebels || highlightOpposition) {
-      textEl.textContent = "Highlights are on — click a bright riding, then email that MPP with one clear ask.";
+      const { rebels, local, cabinet } = countOverlayHits();
+      const bits = [];
+      if (highlightRebels) {
+        bits.push(
+          rebels
+            ? `${rebels} caucus rebel${rebels === 1 ? "" : "s"} on ${selectedBill}`
+            : `No caucus rebels on ${selectedBill} — full party discipline`
+        );
+      }
+      if (highlightOpposition) {
+        bits.push(
+          local
+            ? `${local} riding${local === 1 ? "" : "s"} with local opposition notes`
+            : `No local-opposition notes tagged for ${selectedBill}`
+        );
+      }
+      if (highlightCabinet) bits.push(`${cabinet} cabinet/power ridings`);
+      textEl.textContent = bits.join(". ") + ". Click a bright riding, then email one clear ask.";
       actionsEl.innerHTML = `<button type="button" class="btn btn-primary btn-sm" id="do-next-primary">Enter postal code</button>`;
       document.getElementById("do-next-primary").onclick = () => {
         document.getElementById("postal").focus();
