@@ -54,10 +54,10 @@
     "Bill 110": "Removes Toronto from the airport’s tripartite agreement and expands provincial control over Billy Bishop.",
     "Bill 97": "Centralizes authority while weakening freedom-of-information and oversight.",
     "Bill 5": "Creates special economic zone powers that can override local planning.",
-    "Bill 60": "Featured accountability vote in the OAC tracker.",
-    "Bill 17": "Featured floor vote in the OAC tracker.",
-    "Bill 24": "Featured floor vote in the OAC tracker.",
-    "Bill 68": "Featured floor vote in the OAC tracker."
+    "Bill 17": "“Building Faster and Smarter” law — speeds housing, transit, and infrastructure by rewriting municipal planning and development-charge rules.",
+    "Bill 60": "“Fighting Delays, Building Faster” omnibus — expands ministerial planning power, transit overrides, and other delay-cutting measures.",
+    "Bill 24": "Budget measures act — implements the government’s fiscal agenda by amending multiple statutes in one package.",
+    "Bill 68": "Second budget-measures package — more statute changes to lock in government budget and “Protect Ontario” priorities."
   },
   "insets": {
     "ontario": { "center": [49.5, -85.5], "zoom": 5 },
