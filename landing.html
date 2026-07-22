@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>MPP Tracker | Ontarians Against Corruption</title>
-  <meta name="description" content="Find your Ontario MPP, see how they vote on key bills, check their expenses, and take action. Built by Ontarians Against Corruption.">
+  <meta name="description" content="Find your Ontario MPP, see how they vote on key bills, explore the province on the power map, check expenses, and take action. Built by Ontarians Against Corruption.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -594,6 +594,74 @@
 
     .money-note + .money-note { margin-top: 0; }
 
+    /* Power map teaser */
+    .map-teaser {
+      position: relative;
+      background: var(--bg);
+      border-top: 1px solid var(--line);
+      overflow: hidden;
+    }
+    .map-teaser::before {
+      content: "";
+      position: absolute;
+      inset: -20% auto auto -10%;
+      width: 55%;
+      height: 80%;
+      background: radial-gradient(circle, rgba(91, 141, 239, 0.14), transparent 65%);
+      pointer-events: none;
+    }
+    .map-teaser-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 2rem;
+      align-items: center;
+      position: relative;
+    }
+    @media (max-width: 800px) {
+      .map-teaser-grid { grid-template-columns: 1fr; }
+    }
+    .map-teaser-points {
+      list-style: none;
+      margin: 1.1rem 0 1.4rem;
+      display: grid;
+      gap: 0.55rem;
+    }
+    .map-teaser-points li {
+      color: var(--muted);
+      font-size: 0.98rem;
+      padding-left: 1rem;
+      position: relative;
+    }
+    .map-teaser-points li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.55em;
+      width: 0.4rem;
+      height: 0.4rem;
+      background: var(--yellow);
+    }
+    .map-teaser-panel {
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(165deg, rgba(255, 199, 69, 0.08), transparent 45%),
+        #121212;
+      padding: 1.35rem 1.25rem 1.4rem;
+    }
+    .map-teaser-panel strong {
+      display: block;
+      font-family: var(--display);
+      font-size: clamp(1.35rem, 3vw, 1.75rem);
+      color: var(--yellow);
+      margin-bottom: 0.45rem;
+      letter-spacing: 0.02em;
+    }
+    .map-teaser-panel p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
     /* Band */
     .band {
       background: var(--yellow);
@@ -676,10 +744,10 @@
         <span>Ontarians Against Corruption</span>
       </div>
       <h1 class="hero-plate">MPP TRACKER</h1>
-      <p class="hero-lead">Find your MPP. Check their votes. Contact them today.</p>
+      <p class="hero-lead">Find your MPP. Check their votes. See the province on the map. Contact them today.</p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="#find">Find my MPP</a>
-        <a class="btn btn-ghost" href="#campaigns">Take action on a bill</a>
+        <a class="btn btn-ghost" href="map.html">Explore the power map</a>
       </div>
     </div>
   </header>
@@ -696,7 +764,7 @@
         <ul class="why-points">
           <li>
             <strong>Votes that reshape Ontario</strong>
-            Land use, transparency, airports, privatization — Yes / No / No Show by name.
+            Land use, transparency, airports, privatization — Yes / No / No Show by name, or coloured across the province on the power map.
           </li>
           <li>
             <strong>Expense disclosure, plainly</strong>
@@ -725,17 +793,17 @@
     <div class="wrap">
       <p class="section-kicker">Do this next</p>
       <h2 class="section-title">Three moves. Then act.</h2>
-      <p class="section-copy">Skip the overwhelm. Pick your riding, one bill, one message.</p>
+      <p class="section-copy">Skip the overwhelm. Pick your riding, see the pattern, send one message.</p>
       <div class="path-grid">
         <a class="path-step" href="#find">
           <h3>Find your MPP</h3>
           <p>Postal code → riding → email and phone in one step.</p>
           <span class="path-go">Look up now →</span>
         </a>
-        <a class="path-step" href="#campaigns">
-          <h3>Pick a vote that matters</h3>
-          <p>See Yes / No counts on bills OAC is watching — then open the tracker.</p>
-          <span class="path-go">See key bills →</span>
+        <a class="path-step" href="#map">
+          <h3>See the pattern</h3>
+          <p>Colour Ontario by bill vote, soft seats, cabinet power, or expenses — then click your riding.</p>
+          <span class="path-go">Open the map →</span>
         </a>
         <a class="path-step" href="#act">
           <h3>Join the pressure</h3>
@@ -784,9 +852,40 @@
         or hand public assets to private interests. Numbers update from the live vote file.
       </p>
       <div class="bill-list" id="bill-list"></div>
-      <p style="margin-top: 1.75rem;">
+      <p style="margin-top: 1.75rem; display: flex; flex-wrap: wrap; gap: 0.65rem;">
+        <a class="btn btn-primary" href="map.html">See these votes on the map</a>
         <a class="btn btn-ghost" href="./?embed=1">Open the full tracker</a>
       </p>
+    </div>
+  </section>
+
+  <section class="map-teaser" id="map">
+    <div class="wrap map-teaser-grid">
+      <div>
+        <p class="section-kicker">Across Ontario</p>
+        <h2 class="section-title">The power map</h2>
+        <p class="section-copy">
+          Lists are useful. A map shows the pattern — who voted Yes, which seats are soft,
+          where cabinet power sits, and which ridings spend the most.
+        </p>
+        <ul class="map-teaser-points">
+          <li>Colour every riding by bill vote, expenses, or 2025 election margin</li>
+          <li>Highlight ministers, caucus rebels, and local opposition notes</li>
+          <li>Look up your postal code, open a pressure brief, and email one clear ask</li>
+        </ul>
+        <div class="section-actions">
+          <a class="btn btn-primary" href="map.html">Explore the power map</a>
+          <a class="btn btn-ghost" href="#campaigns">Back to key bills</a>
+        </div>
+      </div>
+      <aside class="map-teaser-panel">
+        <strong>Province-wide pressure</strong>
+        <p>
+          Organizers can filter soft seats that voted Yes, export a target list,
+          and share a riding card — without digging through spreadsheets.
+        </p>
+        <a class="btn btn-ghost" href="map.html">Open map</a>
+      </aside>
     </div>
   </section>
 
@@ -804,6 +903,7 @@
         and missing context are worth asking about. The tracker’s expense spotlight flags those patterns.
       </p>
       <a class="btn btn-primary" href="./?embed=1">Open expense spotlight</a>
+      <a class="btn btn-ghost" href="map.html" style="margin-left:0.65rem">Map high spenders</a>
       <a class="btn btn-ghost" href="#find" style="margin-left:0.65rem">Ask your MPP about spending</a>
     </div>
   </section>
@@ -813,14 +913,14 @@
       <div>
         <h2>Ready to apply pressure?</h2>
         <p>
-          Find your MPP, name a bill, and ask for a clear answer — or jump into a live OAC campaign
-          with a ready-made ask.
+          Find your MPP, see the pattern on the map, name a bill, and ask for a clear answer —
+          or jump into a live OAC campaign with a ready-made ask.
         </p>
       </div>
       <div class="band-cta">
         <a class="btn btn-primary" href="#find">Find my MPP</a>
+        <a class="btn btn-ghost" href="map.html">Power map</a>
         <a class="btn btn-ghost" href="https://onac.ca/" target="_blank" rel="noopener">Join a campaign</a>
-        <a class="btn btn-ghost" href="./?embed=1">Open tracker</a>
       </div>
     </div>
   </section>
@@ -1017,11 +1117,12 @@
         result.innerHTML = `
           <h3>${m.name}</h3>
           <p>${m.party}${where ? " · " + where : ""}</p>
-          <p class="nudge">Next step: ask about a specific bill (Bill 5, 97, or 110), then check their record in the tracker.</p>
+          <p class="nudge">Next step: ask about a specific bill, check their record, or find their riding on the power map.</p>
           <div class="find-actions">
             ${email}
             ${phone}
-            <a class="btn btn-ghost" href="${TRACKER}">See their votes &amp; expenses</a>
+            <a class="btn btn-ghost" href="map.html">Find them on the map</a>
+            <a class="btn btn-ghost" href="${TRACKER}">See votes &amp; expenses</a>
           </div>`;
         result.hidden = false;
         result.classList.add("is-on");
