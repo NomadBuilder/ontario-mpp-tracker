@@ -1,0 +1,67 @@
+{
+  "stories": [
+    {
+      "id": "billy-bishop",
+      "label": "Who handed over Billy Bishop?",
+      "mode": "vote",
+      "bill": "Bill 110",
+      "highlightCabinet": true,
+      "highlightOpposition": true,
+      "caption": "Yes votes expanded provincial control over Billy Bishop. Ministers who voted Yes are outlined."
+    },
+    {
+      "id": "foi",
+      "label": "Who buried FOI?",
+      "mode": "vote",
+      "bill": "Bill 97",
+      "highlightCabinet": true,
+      "highlightRebels": true,
+      "caption": "Yes votes weakened transparency. Look for cabinet Yes votes and caucus rebels."
+    },
+    {
+      "id": "sez",
+      "label": "Who backed special economic zones?",
+      "mode": "vote",
+      "bill": "Bill 5",
+      "highlightCabinet": true,
+      "highlightOpposition": true,
+      "caption": "Yes votes concentrated land-use power. Soft seats that voted Yes are prime organizing targets."
+    },
+    {
+      "id": "soft-yes",
+      "label": "Soft seats that voted Yes",
+      "mode": "vote-money",
+      "bill": "Bill 97",
+      "filterMarginMax": 10,
+      "filterVote": "yes",
+      "caption": "Close 2025 races where the MPP still voted Yes — high-leverage pressure targets."
+    },
+    {
+      "id": "alignment",
+      "label": "Government-line scorecard",
+      "mode": "alignment",
+      "bill": "Bill 110",
+      "caption": "How often each MPP voted Yes on OAC’s watched bills — a simple accountability heat map."
+    },
+    {
+      "id": "money",
+      "label": "Follow the expense outliers",
+      "mode": "expense",
+      "caption": "Disclosed travel, meals, hospitality. Pair with a Yes vote to ask harder questions."
+    }
+  ],
+  "billBlurbs": {
+    "Bill 110": "Removes Toronto from the airport’s tripartite agreement and expands provincial control over Billy Bishop.",
+    "Bill 97": "Centralizes authority while weakening freedom-of-information and oversight.",
+    "Bill 5": "Creates special economic zone powers that can override local planning.",
+    "Bill 60": "Featured accountability vote in the OAC tracker.",
+    "Bill 17": "Featured floor vote in the OAC tracker.",
+    "Bill 24": "Featured floor vote in the OAC tracker.",
+    "Bill 68": "Featured floor vote in the OAC tracker."
+  },
+  "insets": {
+    "ontario": { "center": [49.5, -85.5], "zoom": 5 },
+    "gta": { "center": [43.7, -79.4], "zoom": 9 },
+    "ottawa": { "center": [45.35, -75.7], "zoom": 10 }
+  }
+}

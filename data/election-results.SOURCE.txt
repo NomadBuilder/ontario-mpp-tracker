@@ -1,0 +1,1 @@
+2025 Ontario general election riding results from Elections Ontario EFRS Data Explorer API (electionId 527). Built by scripts/fetch_election_results.py.

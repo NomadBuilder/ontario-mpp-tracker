@@ -1,0 +1,772 @@
+{
+  "Ajax": [
+    "Pickering—Uxbridge"
+  ],
+  "Algoma—Manitoulin": [
+    "Bruce—Grey—Owen Sound",
+    "Mushkegowuk—James Bay",
+    "Nickel Belt",
+    "Sault Ste. Marie",
+    "Thunder Bay—Superior North"
+  ],
+  "Aurora—Oak Ridges—Richmond Hill": [
+    "King—Vaughan",
+    "Markham—Stouffville",
+    "Newmarket—Aurora",
+    "Richmond Hill"
+  ],
+  "Barrie—Innisfil": [
+    "Barrie—Springwater—Oro-Medonte",
+    "Simcoe—Grey",
+    "York—Simcoe"
+  ],
+  "Barrie—Springwater—Oro-Medonte": [
+    "Barrie—Innisfil",
+    "Simcoe North",
+    "Simcoe—Grey"
+  ],
+  "Bay of Quinte": [
+    "Hastings—Lennox and Addington",
+    "Northumberland—Peterborough South"
+  ],
+  "Beaches—East York": [
+    "Don Valley East",
+    "Don Valley West",
+    "Scarborough Southwest",
+    "Toronto—Danforth"
+  ],
+  "Brampton Centre": [
+    "Brampton East",
+    "Brampton North",
+    "Brampton South",
+    "Mississauga—Malton"
+  ],
+  "Brampton East": [
+    "Brampton Centre",
+    "Brampton North",
+    "Dufferin—Caledon",
+    "Mississauga—Malton",
+    "Vaughan—Woodbridge"
+  ],
+  "Brampton North": [
+    "Brampton Centre",
+    "Brampton East",
+    "Brampton West",
+    "Dufferin—Caledon"
+  ],
+  "Brampton South": [
+    "Brampton Centre",
+    "Brampton West",
+    "Mississauga—Malton",
+    "Mississauga—Streetsville"
+  ],
+  "Brampton West": [
+    "Brampton North",
+    "Brampton South",
+    "Dufferin—Caledon"
+  ],
+  "Brantford—Brant": [
+    "Cambridge",
+    "Flamborough—Glanbrook",
+    "Haldimand—Norfolk",
+    "Oxford"
+  ],
+  "Bruce—Grey—Owen Sound": [
+    "Algoma—Manitoulin",
+    "Dufferin—Caledon",
+    "Huron—Bruce",
+    "Perth—Wellington",
+    "Simcoe—Grey"
+  ],
+  "Burlington": [
+    "Flamborough—Glanbrook",
+    "Hamilton Centre",
+    "Hamilton East—Stoney Creek",
+    "Hamilton West—Ancaster—Dundas",
+    "Milton",
+    "Oakville North—Burlington"
+  ],
+  "Cambridge": [
+    "Brantford—Brant",
+    "Flamborough—Glanbrook",
+    "Kitchener South—Hespeler"
+  ],
+  "Carleton": [
+    "Glengarry—Prescott—Russell",
+    "Kanata—Carleton",
+    "Lanark—Frontenac—Kingston",
+    "Leeds—Grenville—Thousand Islands and Rideau Lakes",
+    "Nepean",
+    "Orléans",
+    "Ottawa South",
+    "Stormont—Dundas—South Glengarry"
+  ],
+  "Chatham-Kent—Leamington": [
+    "Elgin—Middlesex—London",
+    "Essex",
+    "Lambton—Kent—Middlesex"
+  ],
+  "Davenport": [
+    "Eglinton—Lawrence",
+    "Parkdale—High Park",
+    "Spadina—Fort York",
+    "Toronto—St. Paul's",
+    "University—Rosedale",
+    "York South—Weston"
+  ],
+  "Don Valley East": [
+    "Beaches—East York",
+    "Don Valley North",
+    "Don Valley West",
+    "Scarborough Centre"
+  ],
+  "Don Valley North": [
+    "Don Valley East",
+    "Don Valley West",
+    "Scarborough—Agincourt",
+    "Willowdale"
+  ],
+  "Don Valley West": [
+    "Beaches—East York",
+    "Don Valley East",
+    "Don Valley North",
+    "Eglinton—Lawrence",
+    "Toronto—Danforth",
+    "Toronto—St. Paul's",
+    "University—Rosedale",
+    "Willowdale"
+  ],
+  "Dufferin—Caledon": [
+    "Brampton East",
+    "Brampton North",
+    "Brampton West",
+    "Bruce—Grey—Owen Sound",
+    "King—Vaughan",
+    "Perth—Wellington",
+    "Simcoe—Grey",
+    "Wellington—Halton Hills"
+  ],
+  "Durham": [
+    "Haliburton—Kawartha Lakes—Brock",
+    "Northumberland—Peterborough South",
+    "Pickering—Uxbridge",
+    "Whitby"
+  ],
+  "Eglinton—Lawrence": [
+    "Davenport",
+    "Don Valley West",
+    "Toronto—St. Paul's",
+    "Willowdale",
+    "York Centre",
+    "York South—Weston"
+  ],
+  "Elgin—Middlesex—London": [
+    "Chatham-Kent—Leamington",
+    "Haldimand—Norfolk",
+    "Lambton—Kent—Middlesex",
+    "London West",
+    "London—Fanshawe",
+    "Oxford"
+  ],
+  "Essex": [
+    "Chatham-Kent—Leamington",
+    "Lambton—Kent—Middlesex",
+    "Windsor West",
+    "Windsor—Tecumseh"
+  ],
+  "Etobicoke Centre": [
+    "Etobicoke North",
+    "Etobicoke—Lakeshore",
+    "Mississauga East—Cooksville",
+    "Parkdale—High Park",
+    "York South—Weston"
+  ],
+  "Etobicoke North": [
+    "Etobicoke Centre",
+    "Humber River—Black Creek",
+    "Vaughan—Woodbridge",
+    "York South—Weston"
+  ],
+  "Etobicoke—Lakeshore": [
+    "Etobicoke Centre",
+    "Mississauga East—Cooksville",
+    "Mississauga—Lakeshore",
+    "Parkdale—High Park"
+  ],
+  "Flamborough—Glanbrook": [
+    "Brantford—Brant",
+    "Burlington",
+    "Cambridge",
+    "Hamilton East—Stoney Creek",
+    "Hamilton Mountain",
+    "Hamilton West—Ancaster—Dundas",
+    "Niagara West",
+    "Wellington—Halton Hills"
+  ],
+  "Glengarry—Prescott—Russell": [
+    "Carleton",
+    "Orléans",
+    "Stormont—Dundas—South Glengarry"
+  ],
+  "Guelph": [
+    "Wellington—Halton Hills"
+  ],
+  "Haldimand—Norfolk": [
+    "Brantford—Brant",
+    "Elgin—Middlesex—London",
+    "Niagara West",
+    "Oxford"
+  ],
+  "Haliburton—Kawartha Lakes—Brock": [
+    "Durham",
+    "Hastings—Lennox and Addington",
+    "Nipissing",
+    "Northumberland—Peterborough South",
+    "Parry Sound—Muskoka",
+    "Peterborough—Kawartha",
+    "Renfrew—Nipissing—Pembroke",
+    "Simcoe North",
+    "York—Simcoe"
+  ],
+  "Hamilton Centre": [
+    "Burlington",
+    "Hamilton East—Stoney Creek",
+    "Hamilton Mountain",
+    "Hamilton West—Ancaster—Dundas"
+  ],
+  "Hamilton East—Stoney Creek": [
+    "Burlington",
+    "Flamborough—Glanbrook",
+    "Hamilton Centre",
+    "Hamilton Mountain"
+  ],
+  "Hamilton Mountain": [
+    "Flamborough—Glanbrook",
+    "Hamilton Centre",
+    "Hamilton East—Stoney Creek",
+    "Hamilton West—Ancaster—Dundas"
+  ],
+  "Hamilton West—Ancaster—Dundas": [
+    "Burlington",
+    "Flamborough—Glanbrook",
+    "Hamilton Centre",
+    "Hamilton Mountain"
+  ],
+  "Hastings—Lennox and Addington": [
+    "Bay of Quinte",
+    "Haliburton—Kawartha Lakes—Brock",
+    "Kingston and the Islands",
+    "Lanark—Frontenac—Kingston",
+    "Northumberland—Peterborough South",
+    "Peterborough—Kawartha",
+    "Renfrew—Nipissing—Pembroke"
+  ],
+  "Humber River—Black Creek": [
+    "Etobicoke North",
+    "York Centre",
+    "York South—Weston"
+  ],
+  "Huron—Bruce": [
+    "Bruce—Grey—Owen Sound",
+    "Lambton—Kent—Middlesex",
+    "Perth—Wellington"
+  ],
+  "Kanata—Carleton": [
+    "Carleton",
+    "Lanark—Frontenac—Kingston",
+    "Nepean",
+    "Ottawa West—Nepean",
+    "Renfrew—Nipissing—Pembroke"
+  ],
+  "Kenora—Rainy River": [
+    "Kiiwetinoong",
+    "Thunder Bay—Atikokan"
+  ],
+  "Kiiwetinoong": [
+    "Kenora—Rainy River",
+    "Mushkegowuk—James Bay",
+    "Thunder Bay—Atikokan",
+    "Thunder Bay—Superior North"
+  ],
+  "Kingston and the Islands": [
+    "Hastings—Lennox and Addington",
+    "Lanark—Frontenac—Kingston",
+    "Leeds—Grenville—Thousand Islands and Rideau Lakes"
+  ],
+  "King—Vaughan": [
+    "Aurora—Oak Ridges—Richmond Hill",
+    "Dufferin—Caledon",
+    "Newmarket—Aurora",
+    "Richmond Hill",
+    "Thornhill",
+    "Vaughan—Woodbridge",
+    "York—Simcoe"
+  ],
+  "Kitchener Centre": [
+    "Kitchener South—Hespeler",
+    "Kitchener—Conestoga",
+    "Waterloo"
+  ],
+  "Kitchener South—Hespeler": [
+    "Cambridge",
+    "Kitchener Centre",
+    "Kitchener—Conestoga",
+    "Wellington—Halton Hills"
+  ],
+  "Kitchener—Conestoga": [
+    "Kitchener Centre",
+    "Kitchener South—Hespeler",
+    "Oxford",
+    "Perth—Wellington",
+    "Waterloo",
+    "Wellington—Halton Hills"
+  ],
+  "Lambton—Kent—Middlesex": [
+    "Chatham-Kent—Leamington",
+    "Elgin—Middlesex—London",
+    "Essex",
+    "Huron—Bruce",
+    "London West",
+    "Sarnia—Lambton"
+  ],
+  "Lanark—Frontenac—Kingston": [
+    "Carleton",
+    "Hastings—Lennox and Addington",
+    "Kanata—Carleton",
+    "Kingston and the Islands",
+    "Leeds—Grenville—Thousand Islands and Rideau Lakes",
+    "Renfrew—Nipissing—Pembroke"
+  ],
+  "Leeds—Grenville—Thousand Islands and Rideau Lakes": [
+    "Carleton",
+    "Kingston and the Islands",
+    "Lanark—Frontenac—Kingston",
+    "Stormont—Dundas—South Glengarry"
+  ],
+  "London North Centre": [
+    "London West",
+    "London—Fanshawe"
+  ],
+  "London West": [
+    "Elgin—Middlesex—London",
+    "Lambton—Kent—Middlesex",
+    "London North Centre",
+    "London—Fanshawe"
+  ],
+  "London—Fanshawe": [
+    "Elgin—Middlesex—London",
+    "London North Centre",
+    "London West"
+  ],
+  "Markham—Stouffville": [
+    "Aurora—Oak Ridges—Richmond Hill",
+    "Markham—Thornhill",
+    "Markham—Unionville",
+    "Newmarket—Aurora",
+    "Pickering—Uxbridge",
+    "Scarborough—Rouge Park",
+    "York—Simcoe"
+  ],
+  "Markham—Thornhill": [
+    "Markham—Stouffville",
+    "Richmond Hill"
+  ],
+  "Markham—Unionville": [
+    "Markham—Stouffville",
+    "Richmond Hill"
+  ],
+  "Milton": [
+    "Burlington",
+    "Mississauga—Erin Mills",
+    "Mississauga—Streetsville",
+    "Oakville North—Burlington",
+    "Wellington—Halton Hills"
+  ],
+  "Mississauga Centre": [
+    "Mississauga East—Cooksville",
+    "Mississauga—Erin Mills",
+    "Mississauga—Lakeshore",
+    "Mississauga—Malton"
+  ],
+  "Mississauga East—Cooksville": [
+    "Etobicoke Centre",
+    "Etobicoke—Lakeshore",
+    "Mississauga Centre",
+    "Mississauga—Lakeshore",
+    "Mississauga—Malton"
+  ],
+  "Mississauga—Erin Mills": [
+    "Milton",
+    "Mississauga Centre",
+    "Mississauga—Streetsville",
+    "Oakville North—Burlington"
+  ],
+  "Mississauga—Lakeshore": [
+    "Etobicoke—Lakeshore",
+    "Mississauga Centre",
+    "Mississauga East—Cooksville",
+    "Oakville"
+  ],
+  "Mississauga—Malton": [
+    "Brampton Centre",
+    "Brampton East",
+    "Brampton South",
+    "Mississauga Centre",
+    "Mississauga East—Cooksville",
+    "Mississauga—Streetsville"
+  ],
+  "Mississauga—Streetsville": [
+    "Brampton South",
+    "Milton",
+    "Mississauga—Erin Mills",
+    "Mississauga—Malton",
+    "Wellington—Halton Hills"
+  ],
+  "Mushkegowuk—James Bay": [
+    "Algoma—Manitoulin",
+    "Kiiwetinoong",
+    "Nickel Belt",
+    "Thunder Bay—Superior North",
+    "Timiskaming—Cochrane",
+    "Timmins"
+  ],
+  "Nepean": [
+    "Carleton",
+    "Kanata—Carleton",
+    "Ottawa South",
+    "Ottawa West—Nepean"
+  ],
+  "Newmarket—Aurora": [
+    "Aurora—Oak Ridges—Richmond Hill",
+    "King—Vaughan",
+    "Markham—Stouffville",
+    "York—Simcoe"
+  ],
+  "Niagara Centre": [
+    "Niagara Falls",
+    "Niagara West",
+    "St. Catharines"
+  ],
+  "Niagara Falls": [
+    "Niagara Centre",
+    "St. Catharines"
+  ],
+  "Niagara West": [
+    "Flamborough—Glanbrook",
+    "Haldimand—Norfolk",
+    "Niagara Centre",
+    "St. Catharines"
+  ],
+  "Nickel Belt": [
+    "Algoma—Manitoulin",
+    "Mushkegowuk—James Bay",
+    "Parry Sound—Muskoka",
+    "Sudbury",
+    "Timiskaming—Cochrane",
+    "Timmins"
+  ],
+  "Nipissing": [
+    "Haliburton—Kawartha Lakes—Brock",
+    "Parry Sound—Muskoka",
+    "Renfrew—Nipissing—Pembroke",
+    "Timiskaming—Cochrane"
+  ],
+  "Northumberland—Peterborough South": [
+    "Bay of Quinte",
+    "Durham",
+    "Haliburton—Kawartha Lakes—Brock",
+    "Hastings—Lennox and Addington",
+    "Peterborough—Kawartha"
+  ],
+  "Oakville": [
+    "Mississauga—Lakeshore",
+    "Oakville North—Burlington"
+  ],
+  "Oakville North—Burlington": [
+    "Burlington",
+    "Milton",
+    "Mississauga—Erin Mills",
+    "Oakville"
+  ],
+  "Orléans": [
+    "Carleton",
+    "Glengarry—Prescott—Russell",
+    "Ottawa South",
+    "Ottawa—Vanier"
+  ],
+  "Oshawa": [
+    "Whitby"
+  ],
+  "Ottawa Centre": [
+    "Ottawa South",
+    "Ottawa West—Nepean",
+    "Ottawa—Vanier"
+  ],
+  "Ottawa South": [
+    "Carleton",
+    "Nepean",
+    "Orléans",
+    "Ottawa Centre",
+    "Ottawa West—Nepean",
+    "Ottawa—Vanier"
+  ],
+  "Ottawa West—Nepean": [
+    "Kanata—Carleton",
+    "Nepean",
+    "Ottawa Centre",
+    "Ottawa South"
+  ],
+  "Ottawa—Vanier": [
+    "Orléans",
+    "Ottawa Centre",
+    "Ottawa South"
+  ],
+  "Oxford": [
+    "Brantford—Brant",
+    "Elgin—Middlesex—London",
+    "Haldimand—Norfolk",
+    "Kitchener—Conestoga",
+    "Perth—Wellington"
+  ],
+  "Parkdale—High Park": [
+    "Davenport",
+    "Etobicoke Centre",
+    "Etobicoke—Lakeshore",
+    "Spadina—Fort York",
+    "York South—Weston"
+  ],
+  "Parry Sound—Muskoka": [
+    "Haliburton—Kawartha Lakes—Brock",
+    "Nickel Belt",
+    "Nipissing",
+    "Simcoe North",
+    "Timiskaming—Cochrane"
+  ],
+  "Perth—Wellington": [
+    "Bruce—Grey—Owen Sound",
+    "Dufferin—Caledon",
+    "Huron—Bruce",
+    "Kitchener—Conestoga",
+    "Oxford",
+    "Wellington—Halton Hills"
+  ],
+  "Peterborough—Kawartha": [
+    "Haliburton—Kawartha Lakes—Brock",
+    "Hastings—Lennox and Addington",
+    "Northumberland—Peterborough South"
+  ],
+  "Pickering—Uxbridge": [
+    "Ajax",
+    "Durham",
+    "Markham—Stouffville",
+    "Scarborough—Rouge Park",
+    "Whitby",
+    "York—Simcoe"
+  ],
+  "Renfrew—Nipissing—Pembroke": [
+    "Haliburton—Kawartha Lakes—Brock",
+    "Hastings—Lennox and Addington",
+    "Kanata—Carleton",
+    "Lanark—Frontenac—Kingston",
+    "Nipissing"
+  ],
+  "Richmond Hill": [
+    "Aurora—Oak Ridges—Richmond Hill",
+    "King—Vaughan",
+    "Markham—Thornhill",
+    "Markham—Unionville",
+    "Thornhill"
+  ],
+  "Sarnia—Lambton": [
+    "Lambton—Kent—Middlesex"
+  ],
+  "Sault Ste. Marie": [
+    "Algoma—Manitoulin"
+  ],
+  "Scarborough Centre": [
+    "Don Valley East",
+    "Scarborough North",
+    "Scarborough Southwest",
+    "Scarborough—Agincourt",
+    "Scarborough—Guildwood"
+  ],
+  "Scarborough North": [
+    "Scarborough Centre",
+    "Scarborough—Agincourt",
+    "Scarborough—Guildwood",
+    "Scarborough—Rouge Park"
+  ],
+  "Scarborough Southwest": [
+    "Beaches—East York",
+    "Scarborough Centre",
+    "Scarborough—Guildwood"
+  ],
+  "Scarborough—Agincourt": [
+    "Don Valley North",
+    "Scarborough Centre",
+    "Scarborough North"
+  ],
+  "Scarborough—Guildwood": [
+    "Scarborough Centre",
+    "Scarborough North",
+    "Scarborough Southwest",
+    "Scarborough—Rouge Park"
+  ],
+  "Scarborough—Rouge Park": [
+    "Markham—Stouffville",
+    "Pickering—Uxbridge",
+    "Scarborough North",
+    "Scarborough—Guildwood"
+  ],
+  "Simcoe North": [
+    "Barrie—Springwater—Oro-Medonte",
+    "Haliburton—Kawartha Lakes—Brock",
+    "Parry Sound—Muskoka",
+    "Simcoe—Grey"
+  ],
+  "Simcoe—Grey": [
+    "Barrie—Innisfil",
+    "Barrie—Springwater—Oro-Medonte",
+    "Bruce—Grey—Owen Sound",
+    "Dufferin—Caledon",
+    "Simcoe North",
+    "York—Simcoe"
+  ],
+  "Spadina—Fort York": [
+    "Davenport",
+    "Parkdale—High Park",
+    "Toronto Centre",
+    "Toronto—Danforth",
+    "University—Rosedale"
+  ],
+  "St. Catharines": [
+    "Niagara Centre",
+    "Niagara Falls",
+    "Niagara West"
+  ],
+  "Stormont—Dundas—South Glengarry": [
+    "Carleton",
+    "Glengarry—Prescott—Russell",
+    "Leeds—Grenville—Thousand Islands and Rideau Lakes"
+  ],
+  "Sudbury": [
+    "Nickel Belt"
+  ],
+  "Thornhill": [
+    "King—Vaughan",
+    "Richmond Hill",
+    "Vaughan—Woodbridge"
+  ],
+  "Thunder Bay—Atikokan": [
+    "Kenora—Rainy River",
+    "Kiiwetinoong",
+    "Thunder Bay—Superior North"
+  ],
+  "Thunder Bay—Superior North": [
+    "Algoma—Manitoulin",
+    "Kiiwetinoong",
+    "Mushkegowuk—James Bay",
+    "Thunder Bay—Atikokan"
+  ],
+  "Timiskaming—Cochrane": [
+    "Mushkegowuk—James Bay",
+    "Nickel Belt",
+    "Nipissing",
+    "Parry Sound—Muskoka",
+    "Timmins"
+  ],
+  "Timmins": [
+    "Mushkegowuk—James Bay",
+    "Nickel Belt",
+    "Timiskaming—Cochrane"
+  ],
+  "Toronto Centre": [
+    "Spadina—Fort York",
+    "Toronto—Danforth",
+    "University—Rosedale"
+  ],
+  "Toronto—Danforth": [
+    "Beaches—East York",
+    "Don Valley West",
+    "Spadina—Fort York",
+    "Toronto Centre",
+    "University—Rosedale"
+  ],
+  "Toronto—St. Paul's": [
+    "Davenport",
+    "Don Valley West",
+    "Eglinton—Lawrence",
+    "University—Rosedale"
+  ],
+  "University—Rosedale": [
+    "Davenport",
+    "Don Valley West",
+    "Spadina—Fort York",
+    "Toronto Centre",
+    "Toronto—Danforth",
+    "Toronto—St. Paul's"
+  ],
+  "Vaughan—Woodbridge": [
+    "Brampton East",
+    "Etobicoke North",
+    "King—Vaughan",
+    "Thornhill"
+  ],
+  "Waterloo": [
+    "Kitchener Centre",
+    "Kitchener—Conestoga"
+  ],
+  "Wellington—Halton Hills": [
+    "Dufferin—Caledon",
+    "Flamborough—Glanbrook",
+    "Guelph",
+    "Kitchener South—Hespeler",
+    "Kitchener—Conestoga",
+    "Milton",
+    "Mississauga—Streetsville",
+    "Perth—Wellington"
+  ],
+  "Whitby": [
+    "Durham",
+    "Oshawa",
+    "Pickering—Uxbridge"
+  ],
+  "Willowdale": [
+    "Don Valley North",
+    "Don Valley West",
+    "Eglinton—Lawrence",
+    "York Centre"
+  ],
+  "Windsor West": [
+    "Essex",
+    "Windsor—Tecumseh"
+  ],
+  "Windsor—Tecumseh": [
+    "Essex",
+    "Windsor West"
+  ],
+  "York Centre": [
+    "Eglinton—Lawrence",
+    "Humber River—Black Creek",
+    "Willowdale",
+    "York South—Weston"
+  ],
+  "York South—Weston": [
+    "Davenport",
+    "Eglinton—Lawrence",
+    "Etobicoke Centre",
+    "Etobicoke North",
+    "Humber River—Black Creek",
+    "Parkdale—High Park",
+    "York Centre"
+  ],
+  "York—Simcoe": [
+    "Barrie—Innisfil",
+    "Haliburton—Kawartha Lakes—Brock",
+    "King—Vaughan",
+    "Markham—Stouffville",
+    "Newmarket—Aurora",
+    "Pickering—Uxbridge",
+    "Simcoe—Grey"
+  ]
+}

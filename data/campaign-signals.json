@@ -1,0 +1,32 @@
+{
+  "asOf": "2026-07-22",
+  "note": "Curated local opposition signals for campaign storytelling. Not exhaustive.",
+  "byBill": {
+    "Bill 110": {
+      "label": "Local pushback on Billy Bishop expansion",
+      "ridings": {
+        "Spadina—Fort York": "Waterfront / downtown Toronto riding most directly affected by Billy Bishop expansion politics.",
+        "University—Rosedale": "Adjacent downtown riding with strong municipal and resident opposition history.",
+        "Toronto—St. Paul's": "Toronto riding where airport expansion clashes with city planning priorities.",
+        "Davenport": "West-end Toronto riding often aligned with municipal opposition to provincial overrides."
+      }
+    },
+    "Bill 5": {
+      "label": "Municipal / planning override concerns",
+      "ridings": {
+        "Toronto—St. Paul's": "Cities warned SEZ-style powers can sideline local planning.",
+        "Ottawa Centre": "Municipal accountability concern in the capital.",
+        "Hamilton Centre": "Local planning and industrial land-use flashpoint.",
+        "Kitchener Centre": "Mid-sized city riding watching provincial override powers."
+      }
+    },
+    "Bill 97": {
+      "label": "Transparency / FOI pressure",
+      "ridings": {
+        "University—Rosedale": "Strong civil-society and media FOI constituency.",
+        "Ottawa South": "Capital-region scrutiny of centralized information control.",
+        "Toronto Centre": "Downtown transparency and accountability organising."
+      }
+    }
+  }
+}
