@@ -1039,6 +1039,88 @@
     if (line) ctx.fillText(line, x, yy);
   }
 
+  function rebelCountForBill(bill) {
+    let n = 0;
+    for (const m of mpps) {
+      if (isRebel(m, bill)) n += 1;
+    }
+    return n;
+  }
+
+  function findBillWithRebels(prefer) {
+    const order = [];
+    if (prefer) order.push(prefer);
+    for (const b of featuredBills) if (!order.includes(b)) order.push(b);
+    for (const b of order) {
+      if (rebelCountForBill(b) > 0) return b;
+    }
+    return null;
+  }
+
+  function closeRebelModal() {
+    document.getElementById("rebel-modal").hidden = true;
+  }
+
+  function showNoRebelsModal(bill) {
+    const modal = document.getElementById("rebel-modal");
+    const body = document.getElementById("rebel-modal-body");
+    const actions = document.getElementById("rebel-modal-actions");
+    const alt = findBillWithRebels(null);
+    const altCount = alt ? rebelCountForBill(alt) : 0;
+
+    document.getElementById("rebel-modal-title").textContent = `No rebels on ${bill}`;
+    body.innerHTML = `
+      Every MPP who cast a Yes or No on <strong>${bill}</strong> voted with their party’s majority.
+      That isn’t a broken map — it’s <strong>full party discipline</strong>.
+      The highlight would dim the whole province and look empty, so it stays off for this bill.`;
+
+    let html = `<button type="button" class="btn btn-primary" id="rebel-got-it">Got it</button>`;
+    if (alt) {
+      html += `<button type="button" class="btn btn-ghost" id="rebel-try-bill">Try ${alt} (${altCount} rebel${altCount === 1 ? "" : "s"})</button>`;
+    }
+    html += `<button type="button" class="btn btn-ghost" id="rebel-force">Show empty highlight anyway</button>`;
+    actions.innerHTML = html;
+
+    document.getElementById("rebel-got-it").onclick = closeRebelModal;
+    document.getElementById("rebel-force").onclick = () => {
+      highlightRebels = true;
+      document.getElementById("tog-rebels").checked = true;
+      closeRebelModal();
+      redraw(false);
+    };
+    const tryBtn = document.getElementById("rebel-try-bill");
+    if (tryBtn && alt) {
+      tryBtn.onclick = () => {
+        selectedBill = alt;
+        const sel = document.getElementById("bill-select");
+        if (sel) sel.value = alt;
+        highlightRebels = true;
+        document.getElementById("tog-rebels").checked = true;
+        closeRebelModal();
+        if (selectedFeature) openPanel(selectedFeature, selectedLayer);
+        else redraw(false);
+      };
+    }
+
+    modal.hidden = false;
+  }
+
+  function enableRebelsOrExplain() {
+    const bill = selectedBill;
+    const n = rebelCountForBill(bill);
+    if (n > 0) {
+      highlightRebels = true;
+      document.getElementById("tog-rebels").checked = true;
+      redraw(false);
+      return;
+    }
+    // Keep map clear — don't dim everything for an empty overlay
+    highlightRebels = false;
+    document.getElementById("tog-rebels").checked = false;
+    redraw(false);
+    showNoRebelsModal(bill || "this bill");
+  }
+
   // events
   document.getElementById("mode-select").onchange = (e) => {
     mode = e.target.value;
@@ -1048,6 +1130,14 @@
   };
   document.getElementById("bill-select").onchange = (e) => {
     selectedBill = e.target.value;
+    if (highlightRebels && rebelCountForBill(selectedBill) === 0) {
+      highlightRebels = false;
+      document.getElementById("tog-rebels").checked = false;
+      if (selectedFeature) openPanel(selectedFeature, selectedLayer);
+      else redraw(false);
+      showNoRebelsModal(selectedBill);
+      return;
+    }
     if (selectedFeature) {
       openPanel(selectedFeature, selectedLayer);
     } else {
@@ -1060,13 +1150,21 @@
     redraw(false);
   };
   document.getElementById("tog-rebels").onchange = (e) => {
-    highlightRebels = e.target.checked;
+    if (e.target.checked) {
+      enableRebelsOrExplain();
+      return;
+    }
+    highlightRebels = false;
     redraw(false);
   };
   document.getElementById("tog-opposition").onchange = (e) => {
     highlightOpposition = e.target.checked;
     redraw(false);
   };
+  document.getElementById("rebel-modal-close").onclick = closeRebelModal;
+  document.getElementById("rebel-modal").addEventListener("click", (e) => {
+    if (e.target.id === "rebel-modal") closeRebelModal();
+  });
   document.getElementById("panel-close").onclick = closePanel;
   document.getElementById("f-apply").onclick = applyFilters;
   document.getElementById("f-clear").onclick = () => {
