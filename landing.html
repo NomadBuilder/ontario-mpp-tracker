@@ -536,8 +536,8 @@
     }
 
     .bill-actions {
-      display: grid;
-      grid-template-columns: 11.25rem minmax(0, 1fr);
+      display: flex;
+      flex-wrap: wrap;
       gap: 0.55rem;
       align-items: stretch;
     }
@@ -546,25 +546,18 @@
       min-height: 2.6rem;
       padding: 0.55rem 1rem;
       font-size: 0.88rem;
-      width: 100%;
-      justify-content: center;
-      text-align: center;
+      width: auto;
       box-sizing: border-box;
     }
 
     .bill-actions .btn-primary {
-      grid-column: 1;
-    }
-
-    .bill-actions .btn-ghost {
-      grid-column: 2;
+      min-width: 11.25rem;
+      justify-content: center;
+      text-align: center;
     }
 
     @media (max-width: 700px) {
       .bill-row { grid-template-columns: 1fr; gap: 0.35rem; }
-      .bill-actions { grid-template-columns: 1fr; }
-      .bill-actions .btn-primary,
-      .bill-actions .btn-ghost { grid-column: 1; }
     }
 
     /* Money */
