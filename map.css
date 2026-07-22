@@ -198,6 +198,13 @@ select {
   color: var(--dim);
   margin-bottom: 0.4rem;
 }
+.legend-sub { margin-top: 0.65rem; }
+.legend-note {
+  font-size: 0.72rem;
+  color: var(--dim);
+  margin: 0.15rem 0 0.35rem;
+  line-height: 1.35;
+}
 .legend-row {
   display: flex;
   align-items: center;
@@ -211,6 +218,21 @@ select {
   height: 0.85rem;
   flex: 0 0 auto;
   border: 1px solid rgba(255,255,255,0.15);
+}
+.swatch-ring {
+  box-shadow: 0 0 0 2px #000, 0 0 0 4px var(--ring, #fff);
+  border-radius: 50%;
+}
+
+@keyframes overlayPulse {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+.overlay-hit-halo {
+  animation: overlayPulse 1.4s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .overlay-hit-halo { animation: none; opacity: 0.85; }
 }
 .legend-scale {
   display: grid;

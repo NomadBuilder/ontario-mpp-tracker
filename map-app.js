@@ -297,91 +297,225 @@
     return VOTE_COLORS.none;
   }
 
+  let overlayMarkers = null;
+
+  function anyOverlayOn() {
+    return highlightCabinet || highlightRebels || highlightOpposition || neighbourNames.size > 0;
+  }
+
+  function overlayFlags(feature) {
+    const mpp = mppForFeature(feature);
+    const riding = feature.properties.name;
+    const cabinet = highlightCabinet && powerFlags(mpp).any;
+    const rebel = highlightRebels && isRebel(mpp, selectedBill);
+    const local = highlightOpposition && !!localOppositionNote(riding, selectedBill);
+    const neighbour = neighbourNames.has(riding);
+    return {
+      cabinet,
+      rebel,
+      local,
+      neighbour,
+      hit: cabinet || rebel || local || neighbour,
+    };
+  }
+
   function featureStyle(feature) {
     const mpp = mppForFeature(feature);
     const riding = feature.properties.name;
-    const power = powerFlags(mpp);
-    const rebel = highlightRebels && isRebel(mpp, selectedBill);
-    const local = highlightOpposition && localOppositionNote(riding, selectedBill);
-    const isNeighbour = neighbourNames.has(riding);
+    const flags = overlayFlags(feature);
     const isSelected = selectedFeature && selectedFeature.properties.name === riding;
+    const dimmedByFilter = filterMask && !filterMask.has(riding);
+    const overlaysOn = anyOverlayOn();
+    const dimmedByOverlay = overlaysOn && !flags.hit && !isSelected;
 
-    let weight = 0.7;
-    let color = "#111";
+    let weight = overlaysOn ? 0.5 : 0.7;
+    let color = overlaysOn ? "#222" : "#111";
     let dashArray = null;
+    let fillOpacity = dimmedByFilter ? 0.12 : 0.84;
 
-    if (highlightCabinet && power.any) {
-      weight = 2.4;
-      color = "#ffc745";
+    if (dimmedByOverlay) {
+      fillOpacity = 0.12;
+      weight = 0.4;
+      color = "#1a1a1a";
     }
-    if (rebel) {
-      weight = Math.max(weight, 2.2);
-      color = "#ff7a7a";
-      dashArray = "4 3";
-    }
-    if (local) {
-      weight = Math.max(weight, 2);
-      color = color === "#111" ? "#c9a12e" : color;
-    }
-    if (isNeighbour) {
-      weight = Math.max(weight, 2);
-      color = "#7ad0ff";
-    }
-    if (isSelected) {
-      weight = 2.8;
+
+    if (flags.hit) {
+      fillOpacity = 0.92;
+      weight = 4.5;
       color = "#ffffff";
+      if (flags.cabinet) color = "#ffc745";
+      if (flags.local) color = "#ff4fd8";
+      if (flags.rebel) {
+        color = "#ff3b3b";
+        dashArray = "8 5";
+        weight = 5;
+      }
+      if (flags.neighbour && !flags.cabinet && !flags.rebel && !flags.local) {
+        color = "#4dc9ff";
+      }
     }
 
-    const dimmed = filterMask && !filterMask.has(riding);
+    if (isSelected) {
+      weight = 6;
+      color = "#ffffff";
+      fillOpacity = 0.96;
+      dashArray = null;
+    }
+
     return {
       fillColor: featureFill(feature),
       weight,
       color,
       opacity: 1,
-      fillOpacity: dimmed ? 0.18 : isSelected ? 0.95 : 0.84,
+      fillOpacity,
       dashArray,
+      lineJoin: "round",
+      lineCap: "round",
     };
+  }
+
+  function centroidOf(feature) {
+    try {
+      const b = L.geoJSON(feature).getBounds();
+      return b.getCenter();
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function refreshOverlayMarkers() {
+    if (overlayMarkers) {
+      map.removeLayer(overlayMarkers);
+      overlayMarkers = null;
+    }
+    if (!anyOverlayOn() || !ridingsGeo) return;
+
+    const group = L.layerGroup();
+    for (const feature of ridingsGeo.features) {
+      const flags = overlayFlags(feature);
+      if (!flags.hit) continue;
+      const c = centroidOf(feature);
+      if (!c) continue;
+
+      let fill = "#ffffff";
+      if (flags.rebel) fill = "#ff3b3b";
+      else if (flags.cabinet) fill = "#ffc745";
+      else if (flags.local) fill = "#ff4fd8";
+      else if (flags.neighbour) fill = "#4dc9ff";
+
+      const marker = L.circleMarker(c, {
+        radius: 9,
+        color: "#000",
+        weight: 2,
+        fillColor: fill,
+        fillOpacity: 1,
+        className: "overlay-hit-marker",
+      });
+      marker.bindTooltip(
+        `${feature.properties.name}${flags.rebel ? " · rebel" : ""}${flags.cabinet ? " · cabinet" : ""}${flags.local ? " · local opposition" : ""}`,
+        { sticky: true, opacity: 0.95 }
+      );
+      marker.on("click", () => {
+        let target = null;
+        layer?.eachLayer((lyr) => {
+          if (lyr.feature?.properties?.name === feature.properties.name) target = lyr;
+        });
+        openPanel(feature, target);
+      });
+      group.addLayer(marker);
+
+      // Halo ring so markers read at GTA zoom
+      group.addLayer(
+        L.circleMarker(c, {
+          radius: 16,
+          color: fill,
+          weight: 3,
+          fillOpacity: 0,
+          opacity: 0.95,
+          interactive: false,
+          className: "overlay-hit-halo",
+        })
+      );
+    }
+    overlayMarkers = group.addTo(map);
   }
 
   function renderLegend() {
     const el = document.getElementById("legend");
+    let base = "";
     if (mode === "vote") {
-      el.innerHTML = `<h2>${selectedBill || "Vote"}</h2>${["yes", "no", "noshow", "na", "none"]
+      base = `<h2>${selectedBill || "Vote"}</h2>${["yes", "no", "noshow", "na", "none"]
         .map((k) => `<div class="legend-row"><span class="swatch" style="background:${VOTE_COLORS[k]}"></span>${voteLabel(k)}</div>`)
         .join("")}`;
-      return;
-    }
-    if (mode === "vote-money") {
-      el.innerHTML = `<h2>Vote × expenses</h2>
+    } else if (mode === "vote-money") {
+      base = `<h2>Vote × expenses</h2>
         <div class="legend-row"><span class="swatch" style="background:${BIVARIATE["yes-high"]}"></span>Yes · high spend</div>
         <div class="legend-row"><span class="swatch" style="background:${BIVARIATE["yes-low"]}"></span>Yes · lower spend</div>
         <div class="legend-row"><span class="swatch" style="background:${BIVARIATE["no-high"]}"></span>No · high spend</div>
         <div class="legend-row"><span class="swatch" style="background:${BIVARIATE["no-low"]}"></span>No · lower spend</div>
         <div class="legend-row"><span class="swatch" style="background:${BIVARIATE.other}"></span>Other / no data</div>`;
-      return;
-    }
-    if (mode === "expense") {
-      el.innerHTML = `<h2>Disclosed expenses</h2>
+    } else if (mode === "expense") {
+      base = `<h2>Disclosed expenses</h2>
         <div class="legend-scale">${EXPENSE_RAMP.map((c) => `<span style="background:${c}"></span>`).join("")}</div>
         <div class="legend-scale-labels"><span>${money(expenseExtent.min)}</span><span>${money(expenseExtent.max)}</span></div>`;
-      return;
-    }
-    if (mode === "alignment") {
-      el.innerHTML = `<h2>Yes rate on watched bills</h2>
+    } else if (mode === "alignment") {
+      base = `<h2>Yes rate on watched bills</h2>
         <div class="legend-scale">${ALIGN_RAMP.map((c) => `<span style="background:${c}"></span>`).join("")}</div>
         <div class="legend-scale-labels"><span>0%</span><span>100%</span></div>`;
-      return;
-    }
-    if (mode === "noshow") {
-      el.innerHTML = `<h2>No-show rate (watched bills)</h2>
+    } else if (mode === "noshow") {
+      base = `<h2>No-show rate (watched bills)</h2>
         <div class="legend-scale">${NOSHOW_RAMP.map((c) => `<span style="background:${c}"></span>`).join("")}</div>
         <div class="legend-scale-labels"><span>0%</span><span>High</span></div>`;
-      return;
-    }
-    if (mode === "margin") {
-      el.innerHTML = `<h2>2025 win margin</h2>
+    } else if (mode === "margin") {
+      base = `<h2>2025 win margin</h2>
         <div class="legend-scale">${MARGIN_RAMP.map((c) => `<span style="background:${c}"></span>`).join("")}</div>
         <div class="legend-scale-labels"><span>Soft</span><span>Safe (25%+)</span></div>`;
+    }
+
+    const overlayBits = [];
+    if (highlightCabinet) {
+      overlayBits.push(`<div class="legend-row"><span class="swatch swatch-ring" style="--ring:#ffc745;background:#ffc745"></span>Cabinet / power</div>`);
+    }
+    if (highlightRebels) {
+      overlayBits.push(`<div class="legend-row"><span class="swatch swatch-ring" style="--ring:#ff3b3b;background:#ff3b3b"></span>Caucus rebel</div>`);
+    }
+    if (highlightOpposition) {
+      overlayBits.push(`<div class="legend-row"><span class="swatch swatch-ring" style="--ring:#ff4fd8;background:#ff4fd8"></span>Local opposition</div>`);
+    }
+    if (neighbourNames.size) {
+      overlayBits.push(`<div class="legend-row"><span class="swatch swatch-ring" style="--ring:#4dc9ff;background:#4dc9ff"></span>Neighbours</div>`);
+    }
+    if (overlayBits.length) {
+      base += `<h2 class="legend-sub">Highlights</h2>
+        <p class="legend-note">Matching ridings stay bright with a thick outline + marker. Everything else is dimmed.</p>
+        ${overlayBits.join("")}`;
+    }
+    el.innerHTML = base;
+  }
+
+  function redraw(refit) {
+    const keep = selectedFeature?.properties?.name;
+    if (layer) {
+      map.removeLayer(layer);
+      layer = null;
+    }
+    layer = L.geoJSON(ridingsGeo, { style: featureStyle, onEachFeature }).addTo(map);
+    refreshOverlayMarkers();
+    renderLegend();
+    updateBillControlVisibility();
+    if (keep) {
+      layer.eachLayer((lyr) => {
+        if (lyr.feature?.properties?.name === keep) {
+          selectedLayer = lyr;
+          lyr.setStyle(featureStyle(lyr.feature));
+          lyr.bringToFront();
+        }
+      });
+    }
+    if (refit) {
+      try {
+        map.fitBounds(layer.getBounds(), { padding: [24, 24], maxZoom: 6 });
+      } catch (_) { /* ignore */       }
     }
   }
 
@@ -468,7 +602,13 @@
     lyr.on({
       mouseover(e) {
         const t = e.target;
-        t.setStyle({ ...featureStyle(feature), weight: 2.4, color: "#fff", fillOpacity: 0.95 });
+        const base = featureStyle(feature);
+        t.setStyle({
+          ...base,
+          weight: Math.max(base.weight || 1, 6),
+          color: "#ffffff",
+          fillOpacity: 0.98,
+        });
         if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) t.bringToFront();
       },
       mouseout(e) {
@@ -478,30 +618,6 @@
         openPanel(feature, e.target);
       },
     });
-  }
-
-  function redraw(refit) {
-    const keep = selectedFeature?.properties?.name;
-    if (layer) {
-      map.removeLayer(layer);
-      layer = null;
-    }
-    layer = L.geoJSON(ridingsGeo, { style: featureStyle, onEachFeature }).addTo(map);
-    renderLegend();
-    updateBillControlVisibility();
-    if (keep) {
-      layer.eachLayer((lyr) => {
-        if (lyr.feature?.properties?.name === keep) {
-          selectedLayer = lyr;
-          lyr.setStyle(featureStyle(lyr.feature));
-        }
-      });
-    }
-    if (refit) {
-      try {
-        map.fitBounds(layer.getBounds(), { padding: [24, 24], maxZoom: 6 });
-      } catch (_) { /* ignore */ }
-    }
   }
 
   function updateBillControlVisibility() {
