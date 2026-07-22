@@ -49,16 +49,6 @@ const EXPENSE_FOCUS_LABELS = Object.fromEntries([
   ...EXPENSE_PRESETS.map(p => [p.id, p.label]),
 ]);
 
-const BILL_BLURBS = {
-  'Bill 5': 'Special economic zones — sweeping land-use power.',
-  'Bill 97': 'Centralized authority that weakens transparency.',
-  'Bill 110': 'Billy Bishop takeover and expansion.',
-  'Bill 60': 'Key accountability vote on the floor.',
-  'Bill 68': 'Featured campaign filter in the tracker.',
-  'Bill 17': 'Featured campaign filter in the tracker.',
-  'Bill 24': 'Featured campaign filter in the tracker.',
-};
-
 function applyFeaturedBills(list) {
   if (Array.isArray(list) && list.length) {
     FEATURED_BILLS = list.slice();
@@ -598,52 +588,6 @@ function setupMobileLayout() {
   mq.addEventListener('change', apply);
 }
 
-function voteCountsForBill(billId) {
-  let yes = 0;
-  let no = 0;
-  for (const m of allMpps) {
-    const v = getVoteForBill(m, billId);
-    if (v.yes === true) yes += 1;
-    else if (v.yes === false) no += 1;
-  }
-  return { yes, no };
-}
-
-function renderSpotlightBills() {
-  const list = document.getElementById('spotlight-list');
-  if (!list) return;
-
-  const priority = ['Bill 110', 'Bill 97', 'Bill 5', 'Bill 60'];
-  const ordered = [
-    ...priority.filter(b => FEATURED_BILLS.includes(b)),
-    ...FEATURED_BILLS.filter(b => !priority.includes(b)),
-  ].slice(0, 5);
-
-  list.innerHTML = ordered.map(bill => {
-    const { yes, no } = voteCountsForBill(bill);
-    const blurb = BILL_BLURBS[bill] || 'Featured vote in the OAC tracker.';
-    return `
-      <button type="button" class="spotlight-row" data-bill="${bill}" data-vote="yes">
-        <div class="spotlight-id">${bill}</div>
-        <div class="spotlight-meta">
-          <strong>${blurb}</strong>
-          <span>Show MPPs who voted Yes</span>
-        </div>
-        <div class="spotlight-stat">${yes} Yes · ${no} No<em>of ${allMpps.length} MPPs</em></div>
-      </button>`;
-  }).join('');
-
-  list.querySelectorAll('.spotlight-row').forEach(btn => {
-    btn.onclick = () => {
-      const bill = btn.dataset.bill;
-      const vote = btn.dataset.vote || 'yes';
-      applyVoteFilters({ [bill]: vote });
-      openParentDrawer(document.getElementById('campaign-clear'));
-      document.getElementById('cards-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    };
-  });
-}
-
 function setView(view) {
   document.getElementById('cards-section').classList.toggle('hidden', view !== 'cards');
   document.getElementById('table-section').classList.toggle('hidden', view !== 'table');
@@ -812,6 +756,7 @@ function setupFilters() {
 async function init() {
   if (IS_EMBED) {
     document.body.classList.add('embed-mode');
+    document.querySelector('.site-header')?.remove();
     document.querySelector('.site-footer')?.remove();
   }
 
@@ -826,7 +771,6 @@ async function init() {
     document.getElementById('main-content').style.display = 'block';
     setupMobileLayout();
     renderIntroStats();
-    renderSpotlightBills();
     setupFilters();
     setupExpenseControls();
     setupCampaignFilters();
