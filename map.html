@@ -67,6 +67,16 @@
     </form>
   </div>
 
+  <div class="do-next" id="do-next" aria-live="polite">
+    <div class="do-next-copy">
+      <span class="do-next-kicker">Your move</span>
+      <p id="do-next-text">Find your riding, check the vote, then send one clear ask.</p>
+    </div>
+    <div class="do-next-actions" id="do-next-actions">
+      <button type="button" class="btn btn-primary btn-sm" id="do-next-primary">Enter postal code</button>
+    </div>
+  </div>
+
   <div class="organizer" id="organizer">
     <details>
       <summary>Organizer filters · export targets</summary>
@@ -111,7 +121,7 @@
     <aside class="panel" id="panel" aria-live="polite">
       <button type="button" class="panel-close" id="panel-close" aria-label="Close">&times;</button>
       <div id="panel-body">
-        <p class="empty-hint">Click a riding — or look up your postal code — to open the pressure brief.</p>
+        <p class="empty-hint">Start with your postal code, click your riding, then use <strong>Your move</strong> to email one clear ask.</p>
       </div>
     </aside>
   </div>

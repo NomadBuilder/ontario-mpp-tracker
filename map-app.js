@@ -503,6 +503,7 @@
     refreshOverlayMarkers();
     renderLegend();
     updateBillControlVisibility();
+    updateDoNext();
     if (keep) {
       layer.eachLayer((lyr) => {
         if (lyr.feature?.properties?.name === keep) {
@@ -515,8 +516,87 @@
     if (refit) {
       try {
         map.fitBounds(layer.getBounds(), { padding: [24, 24], maxZoom: 6 });
-      } catch (_) { /* ignore */       }
+      } catch (_) { /* ignore */ }
     }
+  }
+
+  let activeAction = null; // { mpp, riding, vKey }
+
+  function mailBody(mpp, vKey) {
+    const bill = selectedBill || "this bill";
+    const vote = voteLabel(vKey).toLowerCase();
+    return [
+      `Hello ${mpp.name},`,
+      "",
+      `I'm a constituent in ${mpp.riding}. I'm writing about ${bill}.`,
+      "",
+      meta?.billBlurbs?.[selectedBill] ? `${meta.billBlurbs[selectedBill]}` : "",
+      "",
+      `Our records show you voted ${vote}. Please reply with a clear explanation of that vote and whether you will support stronger accountability and transparency going forward.`,
+      "",
+      "Thank you,",
+      "[Your name]",
+      "[Your postal code]",
+    ]
+      .filter((line, i, arr) => !(line === "" && arr[i - 1] === ""))
+      .join("\n");
+  }
+
+  function mailHref(mpp, vKey) {
+    if (!mpp?.email) return null;
+    const subject = `${selectedBill || "Your record"} — constituent asking for a clear answer`;
+    return `mailto:${mpp.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(mailBody(mpp, vKey))}`;
+  }
+
+  function updateDoNext() {
+    const textEl = document.getElementById("do-next-text");
+    const actionsEl = document.getElementById("do-next-actions");
+    if (!textEl || !actionsEl) return;
+
+    if (activeAction?.mpp) {
+      const { mpp, vKey } = activeAction;
+      const href = mailHref(mpp, vKey);
+      textEl.textContent = `Ask ${mpp.name} to explain their ${voteLabel(vKey)} on ${selectedBill || "this vote"} — one email is enough to start.`;
+      actionsEl.innerHTML = href
+        ? `<a class="btn btn-primary btn-sm" id="do-next-primary" href="${href}">Email MPP</a>
+           <button type="button" class="btn btn-ghost btn-sm" id="do-next-secondary">Share card</button>`
+        : `<button type="button" class="btn btn-primary btn-sm" id="do-next-primary">Call ${mpp.phone ? "now" : "from tracker"}</button>`;
+      document.getElementById("do-next-secondary")?.addEventListener("click", () => {
+        if (selectedFeature) drawShareCard(selectedFeature);
+      });
+      document.getElementById("do-next-primary")?.addEventListener("click", (e) => {
+        if (href) return;
+        if (mpp.phone) window.location.href = `tel:${String(mpp.phone).replace(/[^\d+]/g, "")}`;
+        else e.preventDefault();
+      });
+      return;
+    }
+
+    if (filterMask && filterMask.size) {
+      textEl.textContent = `${filterMask.size} pressure targets match your filters. Download the list and assign emails this week.`;
+      actionsEl.innerHTML = `<button type="button" class="btn btn-primary btn-sm" id="do-next-primary">Download CSV</button>
+        <button type="button" class="btn btn-ghost btn-sm" id="do-next-secondary">Clear filters</button>`;
+      document.getElementById("do-next-primary").onclick = downloadCsv;
+      document.getElementById("do-next-secondary").onclick = () => document.getElementById("f-clear").click();
+      return;
+    }
+
+    if (highlightCabinet || highlightRebels || highlightOpposition) {
+      textEl.textContent = "Highlights are on — click a bright riding, then email that MPP with one clear ask.";
+      actionsEl.innerHTML = `<button type="button" class="btn btn-primary btn-sm" id="do-next-primary">Enter postal code</button>`;
+      document.getElementById("do-next-primary").onclick = () => {
+        document.getElementById("postal").focus();
+        document.getElementById("postal").scrollIntoView({ behavior: "smooth", block: "center" });
+      };
+      return;
+    }
+
+    textEl.textContent = "Find your riding, check the vote, then send one clear ask.";
+    actionsEl.innerHTML = `<button type="button" class="btn btn-primary btn-sm" id="do-next-primary">Enter postal code</button>`;
+    document.getElementById("do-next-primary").onclick = () => {
+      document.getElementById("postal").focus();
+      document.getElementById("postal").scrollIntoView({ behavior: "smooth", block: "center" });
+    };
   }
 
   function openPanel(feature, layerRef) {
@@ -529,6 +609,8 @@
     neighbourNames = new Set(neighbours[riding] || []);
 
     if (!mpp) {
+      activeAction = null;
+      updateDoNext();
       body.innerHTML = `
         <p class="panel-kicker">${riding}</p>
         <h2>Vacant / unmatched</h2>
@@ -552,6 +634,10 @@
     const blurb = meta?.billBlurbs?.[selectedBill] || "";
     const raise = mpp.raisePct ?? mpp.sunshine?.raisePct;
     const soft = el && typeof el.marginPct === "number" && el.marginPct <= 10;
+    const href = mailHref(mpp, vKey);
+
+    activeAction = { mpp, riding, vKey };
+    updateDoNext();
 
     const badges = [];
     if (power.label) badges.push(`<span class="badge power">${power.label}</span>`);
@@ -563,11 +649,26 @@
       ? `${TRACKER}&bill=${encodeURIComponent(selectedBill)}&vote=${vKey === "none" || vKey === "na" ? "yes" : vKey}`
       : TRACKER;
 
+    const ask =
+      vKey === "yes"
+        ? `Ask why they voted Yes on ${selectedBill || "this bill"} and what they’ll do next.`
+        : vKey === "no"
+          ? `Thank them for voting No on ${selectedBill || "this bill"} — and ask them to keep fighting.`
+          : `Ask where they stand on ${selectedBill || "this bill"} and demand a clear Yes/No answer.`;
+
     body.innerHTML = `
       <p class="panel-kicker">${riding}</p>
       <h2>${mpp.name}</h2>
       <p class="meta">${party} · ${mpp.riding}</p>
       ${badges.length ? `<div class="badge-row">${badges.join("")}</div>` : ""}
+      <div class="action-box">
+        <h3>Your move</h3>
+        <p>${ask}</p>
+        <div class="panel-actions" style="margin-top:0">
+          ${href ? `<a class="btn btn-primary" href="${href}">Email this ask</a>` : ""}
+          ${mpp.phone ? `<a class="btn btn-ghost" href="tel:${String(mpp.phone).replace(/[^\d+]/g, "")}">Call</a>` : ""}
+        </div>
+      </div>
       <div class="stat"><span>${selectedBill || "Vote"}</span><span class="${vKey}">${voteLabel(vKey)}</span></div>
       <div class="stat"><span>Gov-line Yes rate</span><span>${align == null ? "—" : Math.round(align * 100) + "%"}</span></div>
       <div class="stat"><span>No-show rate</span><span>${ns == null ? "—" : Math.round(ns * 100) + "%"}</span></div>
@@ -579,9 +680,7 @@
       ${local ? `<p class="blurb"><strong>${local.label}.</strong> ${local.note}</p>` : ""}
       ${blurb ? `<p class="blurb">${blurb}</p>` : ""}
       <div class="panel-actions">
-        <a class="btn btn-primary" href="${trackerBill}">See in tracker</a>
-        ${mpp.email ? `<a class="btn btn-ghost" href="mailto:${mpp.email}?subject=${encodeURIComponent((selectedBill || "Your record") + " — constituent question")}">Email</a>` : ""}
-        ${mpp.phone ? `<a class="btn btn-ghost" href="tel:${String(mpp.phone).replace(/[^\d+]/g, "")}">Call</a>` : ""}
+        <a class="btn btn-ghost" href="${trackerBill}">See in tracker</a>
         <button type="button" class="btn btn-ghost" id="btn-share">Share card</button>
       </div>`;
 
@@ -595,6 +694,8 @@
     selectedLayer = null;
     selectedFeature = null;
     neighbourNames = new Set();
+    activeAction = null;
+    updateDoNext();
     redraw(false);
   }
 
@@ -883,7 +984,11 @@
   };
   document.getElementById("bill-select").onchange = (e) => {
     selectedBill = e.target.value;
-    redraw(false);
+    if (selectedFeature) {
+      openPanel(selectedFeature, selectedLayer);
+    } else {
+      redraw(false);
+    }
   };
   document.getElementById("story-select").onchange = (e) => applyStory(e.target.value);
   document.getElementById("tog-cabinet").onchange = (e) => {

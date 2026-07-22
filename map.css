@@ -20,7 +20,7 @@ body {
   line-height: 1.45;
   -webkit-font-smoothing: antialiased;
   display: grid;
-  grid-template-rows: auto auto auto 1fr auto;
+  grid-template-rows: auto auto auto auto 1fr auto;
 }
 a { color: inherit; }
 .sr {
@@ -130,6 +130,45 @@ select {
 
 .postal-form { display: flex; gap: 0.4rem; flex-wrap: wrap; }
 .postal-form input { min-width: 11rem; }
+
+.do-next {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.55rem 1.1rem;
+  border-bottom: 1px solid rgba(255, 199, 69, 0.28);
+  background: linear-gradient(90deg, rgba(255, 199, 69, 0.12), rgba(255, 199, 69, 0.03) 55%, transparent);
+  z-index: 485;
+}
+.do-next-copy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  align-items: baseline;
+  min-width: min(100%, 18rem);
+  flex: 1;
+}
+.do-next-kicker {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--yellow);
+  flex: 0 0 auto;
+}
+.do-next-copy p {
+  font-size: 0.9rem;
+  color: var(--ink);
+  margin: 0;
+}
+.do-next-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+}
 
 .btn {
   display: inline-flex;
@@ -342,6 +381,25 @@ select {
 .stat .noshow { color: #cfcfcf; }
 .blurb { margin-top: 0.75rem; font-size: 0.86rem; color: var(--muted); }
 .panel-actions { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.9rem; }
+.action-box {
+  margin-top: 0.85rem;
+  padding: 0.75rem 0.8rem;
+  border: 1px solid rgba(255, 199, 69, 0.35);
+  background: rgba(255, 199, 69, 0.08);
+}
+.action-box h3 {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--yellow);
+  margin-bottom: 0.3rem;
+}
+.action-box p {
+  font-size: 0.88rem;
+  color: var(--ink);
+  margin-bottom: 0.65rem;
+  line-height: 1.4;
+}
 .empty-hint { color: var(--muted); font-size: 0.9rem; }
 
 .sources {
