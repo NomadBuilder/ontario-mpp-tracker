@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>MPP Tracker | Ontarians Against Corruption</title>
-  <meta name="description" content="See how your Ontario MPP votes on key bills, what they spend, and how to contact them. Built by Ontarians Against Corruption.">
+  <meta name="description" content="Find your Ontario MPP, see how they vote on key bills, check their expenses, and take action. Built by Ontarians Against Corruption.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,7 +17,6 @@
       --dim: #7a7a7a;
       --yellow: #ffc745;
       --yellow-ink: #111111;
-      --red: #c1121f;
       --line: rgba(255, 255, 255, 0.1);
       --font: "Fira Sans", system-ui, sans-serif;
       --display: "Archivo Black", "Fira Sans", sans-serif;
@@ -25,9 +24,7 @@
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     html { scroll-behavior: smooth; }
-
     body {
       font-family: var(--font);
       background: var(--bg);
@@ -35,24 +32,15 @@
       line-height: 1.55;
       -webkit-font-smoothing: antialiased;
     }
-
     a { color: inherit; }
 
-    .skip {
-      position: absolute;
-      left: -999px;
-      top: 0;
-    }
+    .skip { position: absolute; left: -999px; top: 0; }
     .skip:focus {
-      left: 1rem;
-      top: 1rem;
-      z-index: 100;
-      background: var(--yellow);
-      color: var(--yellow-ink);
+      left: 1rem; top: 1rem; z-index: 100;
+      background: var(--yellow); color: var(--yellow-ink);
       padding: 0.5rem 0.75rem;
     }
 
-    /* —— Hero: one composition —— */
     .hero {
       position: relative;
       min-height: 100svh;
@@ -132,7 +120,7 @@
     }
 
     .hero-lead {
-      max-width: 28rem;
+      max-width: 30rem;
       font-size: clamp(1.05rem, 2.4vw, 1.25rem);
       color: var(--muted);
       margin-bottom: 1.75rem;
@@ -165,32 +153,17 @@
       cursor: pointer;
       transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
     }
-
     .btn:hover { transform: translateY(-1px); }
-
-    .btn-primary {
-      background: var(--yellow);
-      color: var(--yellow-ink);
-    }
-
+    .btn-primary { background: var(--yellow); color: var(--yellow-ink); }
     .btn-primary:hover { background: #ffd56d; }
-
     .btn-ghost {
       background: transparent;
       color: var(--ink);
       border-color: rgba(255, 255, 255, 0.35);
     }
+    .btn-ghost:hover { border-color: var(--yellow); color: var(--yellow); }
 
-    .btn-ghost:hover {
-      border-color: var(--yellow);
-      color: var(--yellow);
-    }
-
-    /* —— Sections —— */
-    section {
-      padding: clamp(3.5rem, 8vw, 5.5rem) 0;
-    }
-
+    section { padding: clamp(3.25rem, 7vw, 5rem) 0; }
     .wrap {
       width: min(100% - 2rem, var(--max));
       margin: 0 auto;
@@ -211,20 +184,92 @@
       line-height: 1.05;
       letter-spacing: -0.02em;
       margin-bottom: 0.75rem;
-      max-width: 18ch;
+      max-width: 16ch;
     }
 
     .section-copy {
-      max-width: 36rem;
+      max-width: 38rem;
       color: var(--muted);
       font-size: 1.05rem;
-      margin-bottom: 1.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-copy + .section-copy { margin-top: -0.75rem; }
+
+    /* Why */
+    .why {
+      border-top: 1px solid var(--line);
+      background: var(--bg-2);
+    }
+
+    .why-points {
+      display: grid;
+      gap: 1.25rem;
+      margin-top: 0.5rem;
+      max-width: 40rem;
+    }
+
+    .why-points li {
+      list-style: none;
+      padding-left: 1.1rem;
+      border-left: 3px solid var(--yellow);
+      color: var(--muted);
+      font-size: 1.02rem;
+    }
+
+    .why-points strong {
+      display: block;
+      color: var(--ink);
+      margin-bottom: 0.2rem;
+    }
+
+    /* Steps */
+    .path {
+      background: var(--bg);
+      border-top: 1px solid var(--line);
+    }
+
+    .path-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin-top: 0.5rem;
+      counter-reset: step;
+    }
+
+    @media (max-width: 800px) {
+      .path-grid { grid-template-columns: 1fr; }
+    }
+
+    .path-step {
+      border-top: 2px solid var(--yellow);
+      padding-top: 1rem;
+    }
+
+    .path-step::before {
+      counter-increment: step;
+      content: "0" counter(step);
+      display: block;
+      font-family: var(--display);
+      font-size: 1.35rem;
+      color: var(--yellow);
+      margin-bottom: 0.55rem;
+    }
+
+    .path-step h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+
+    .path-step p {
+      color: var(--muted);
+      font-size: 0.95rem;
     }
 
     /* Find */
     .find {
-      background:
-        linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+      background: linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
       border-top: 1px solid var(--line);
     }
 
@@ -264,114 +309,118 @@
       outline-offset: 1px;
     }
 
+    .find-hint {
+      font-size: 0.88rem;
+      color: var(--dim);
+      max-width: 32rem;
+    }
+
     .find-status {
       min-height: 1.25rem;
       font-size: 0.9rem;
       color: var(--muted);
     }
-
     .find-status.is-error { color: #f07178; }
     .find-status.is-loading { color: var(--dim); }
 
     .find-result {
       margin-top: 1.25rem;
-      max-width: 32rem;
+      max-width: 34rem;
       border-left: 4px solid var(--yellow);
       padding: 1rem 0 1rem 1.1rem;
       display: none;
     }
-
     .find-result.is-on { display: block; animation: rise 0.45s ease both; }
-
     .find-result h3 {
       font-size: 1.35rem;
       font-weight: 700;
       margin-bottom: 0.2rem;
     }
-
     .find-result p {
       color: var(--muted);
-      margin-bottom: 0.85rem;
+      margin-bottom: 0.65rem;
     }
-
+    .find-result .nudge {
+      font-size: 0.92rem;
+      color: var(--ink);
+      margin-bottom: 0.95rem;
+    }
     .find-actions {
       display: flex;
       flex-wrap: wrap;
       gap: 0.55rem;
     }
 
-    /* Bills — narrative rows, not a filter dashboard */
-    .bills {
-      background: var(--bg);
-    }
+    /* Bills */
+    .bills { background: var(--bg); border-top: 1px solid var(--line); }
 
     .bill-list {
       display: grid;
-      gap: 0;
       border-top: 1px solid var(--line);
-      margin-top: 2rem;
+      margin-top: 1.75rem;
     }
 
     .bill-row {
       display: grid;
-      grid-template-columns: auto 1fr auto;
-      gap: 1rem 1.5rem;
-      align-items: center;
-      padding: 1.35rem 0;
+      grid-template-columns: auto 1fr;
+      gap: 0.85rem 1.5rem;
+      padding: 1.45rem 0;
       border-bottom: 1px solid var(--line);
-      text-decoration: none;
-      transition: background 0.2s ease, padding-left 0.2s ease;
-    }
-
-    .bill-row:hover {
-      background: rgba(255, 199, 69, 0.04);
-      padding-left: 0.5rem;
     }
 
     .bill-id {
       font-family: var(--display);
-      font-size: clamp(1.4rem, 3vw, 1.85rem);
+      font-size: clamp(1.35rem, 3vw, 1.85rem);
       color: var(--yellow);
       white-space: nowrap;
+      padding-top: 0.1rem;
     }
 
     .bill-meta strong {
       display: block;
-      font-size: 1.05rem;
+      font-size: 1.08rem;
       font-weight: 700;
-      margin-bottom: 0.2rem;
+      margin-bottom: 0.35rem;
     }
 
-    .bill-meta span {
+    .bill-meta p {
       color: var(--muted);
-      font-size: 0.92rem;
+      font-size: 0.95rem;
+      margin-bottom: 0.65rem;
+      max-width: 40rem;
     }
 
     .bill-stat {
       font-size: 0.85rem;
       font-weight: 700;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.03em;
       text-transform: uppercase;
       color: var(--ink);
-      text-align: right;
+      margin-bottom: 0.85rem;
     }
 
     .bill-stat em {
-      display: block;
       font-style: normal;
-      color: var(--dim);
       font-weight: 500;
-      margin-top: 0.15rem;
       text-transform: none;
       letter-spacing: 0;
+      color: var(--dim);
+    }
+
+    .bill-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+    }
+
+    .bill-actions .btn {
+      min-height: 2.6rem;
+      padding: 0.55rem 1rem;
+      font-size: 0.88rem;
     }
 
     @media (max-width: 700px) {
-      .bill-row {
-        grid-template-columns: 1fr;
-        gap: 0.35rem;
-      }
-      .bill-stat { text-align: left; }
+      .bill-row { grid-template-columns: 1fr; gap: 0.35rem; }
     }
 
     /* Money */
@@ -379,6 +428,7 @@
       position: relative;
       background: #101010;
       overflow: hidden;
+      border-top: 1px solid var(--line);
     }
 
     .money::before {
@@ -400,11 +450,14 @@
 
     .money-note {
       color: var(--muted);
-      max-width: 34rem;
-      margin-bottom: 1.5rem;
+      max-width: 38rem;
+      margin-bottom: 0.85rem;
+      font-size: 1.02rem;
     }
 
-    /* Yellow band — ONAC newsletter energy */
+    .money-note + .money-note { margin-top: 0; }
+
+    /* Band */
     .band {
       background: var(--yellow);
       color: var(--yellow-ink);
@@ -431,26 +484,18 @@
 
     .band p {
       font-size: 1.05rem;
-      max-width: 30rem;
-      opacity: 0.9;
+      max-width: 32rem;
+      opacity: 0.92;
+      margin-bottom: 0.35rem;
     }
 
-    .band .btn-primary {
-      background: #111;
-      color: #fff;
-    }
-
+    .band .btn-primary { background: #111; color: #fff; }
     .band .btn-primary:hover { background: #000; }
-
     .band .btn-ghost {
       border-color: rgba(0, 0, 0, 0.35);
       color: var(--yellow-ink);
     }
-
-    .band .btn-ghost:hover {
-      border-color: #111;
-      color: #111;
-    }
+    .band .btn-ghost:hover { border-color: #111; color: #111; }
 
     .band-cta {
       display: flex;
@@ -458,7 +503,6 @@
       gap: 0.65rem;
     }
 
-    /* Footer */
     .site-foot {
       padding: 2rem 0 2.5rem;
       border-top: 1px solid var(--line);
@@ -474,18 +518,12 @@
       align-items: center;
     }
 
-    .site-foot a {
-      color: var(--muted);
-      text-decoration: none;
-    }
-
+    .site-foot a { color: var(--muted); text-decoration: none; }
     .site-foot a:hover { color: var(--yellow); }
 
     @media (prefers-reduced-motion: reduce) {
       .hero-media { animation: none; }
-      .brand-row, .hero-plate, .hero-lead, .hero-cta, .find-result.is-on {
-        animation: none;
-      }
+      .brand-row, .hero-plate, .hero-lead, .hero-cta, .find-result.is-on { animation: none; }
     }
   </style>
 </head>
@@ -501,25 +539,77 @@
         <span>Ontarians Against Corruption</span>
       </div>
       <h1 class="hero-plate">MPP TRACKER</h1>
-      <p class="hero-lead">See how your representative votes — and spends — without opening a spreadsheet.</p>
+      <p class="hero-lead">Your MPP works for you. Find them, see how they vote, and tell them what you expect.</p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="#find">Find my MPP</a>
-        <a class="btn btn-ghost" href="./?embed=1">Open full tracker</a>
+        <a class="btn btn-ghost" href="#campaigns">See key votes</a>
       </div>
     </div>
   </header>
+
+  <section class="why" id="why">
+    <div class="wrap">
+      <p class="section-kicker">Why this exists</p>
+      <h2 class="section-title">Accountability shouldn’t require a spreadsheet</h2>
+      <p class="section-copy">
+        Ontario’s Legislative Assembly publishes votes, expense filings, and contact details —
+        but they’re scattered across sites most people never open. OAC pulls that public record
+        into one place so you can act on it.
+      </p>
+      <ul class="why-points">
+        <li>
+          <strong>Votes on bills that reshape Ontario</strong>
+          Land use, transparency, airports, privatization — see Yes / No / No Show by name.
+        </li>
+        <li>
+          <strong>Expense disclosure, in plain language</strong>
+          Travel, meals, hospitality, and more from ola.org — not hidden in PDFs.
+        </li>
+        <li>
+          <strong>A direct line to your representative</strong>
+          Email or call from the page. Pressure works when it’s personal and public.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="path" id="how">
+    <div class="wrap">
+      <p class="section-kicker">How to use it</p>
+      <h2 class="section-title">Three moves. Then take action.</h2>
+      <p class="section-copy">You don’t need to master every filter. Start with your riding, one bill you care about, and one message.</p>
+      <div class="path-grid">
+        <div class="path-step">
+          <h3>Find your MPP</h3>
+          <p>Enter your postal code. Confirm the riding. Save their email and phone.</p>
+        </div>
+        <div class="path-step">
+          <h3>Check a vote that matters</h3>
+          <p>Pick a featured bill below. See whether your MPP backed it — or skipped the vote.</p>
+        </div>
+        <div class="path-step">
+          <h3>Contact them today</h3>
+          <p>Ask where they stand. Join an OAC campaign if you want a ready-made ask.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="find" id="find">
     <div class="wrap">
       <p class="section-kicker">Start here</p>
       <h2 class="section-title">Who represents you?</h2>
-      <p class="section-copy">Enter your postal code. We’ll match your riding and give you a direct line to your MPP.</p>
+      <p class="section-copy">
+        Enter your postal code. We’ll match your Ontario riding and give you a direct line to your MPP —
+        then you can open their full voting record in the tracker.
+      </p>
       <form class="find-form" id="postal-form">
         <label for="postal">Postal code</label>
         <div class="find-row">
           <input id="postal" name="postal" type="text" inputmode="text" autocomplete="postal-code" placeholder="e.g. M5V 2T6" maxlength="7" required>
           <button class="btn btn-primary" type="submit">Look up</button>
         </div>
+        <p class="find-hint">Tip: after you find them, send a short note naming the bill you care about and asking for a clear Yes/No answer.</p>
         <p class="find-status" id="find-status" role="status" aria-live="polite"></p>
       </form>
       <div class="find-result" id="find-result" hidden></div>
@@ -529,13 +619,14 @@
   <section class="bills" id="campaigns">
     <div class="wrap">
       <p class="section-kicker">On the floor</p>
-      <h2 class="section-title">Votes that matter right now</h2>
-      <p class="section-copy">These are the featured bills in the tracker — the ones OAC is watching. Tap through to see who said yes.</p>
-      <div class="bill-list" id="bill-list">
-        <!-- filled from live data -->
-      </div>
-      <p style="margin-top: 1.5rem;">
-        <a class="btn btn-ghost" href="./?embed=1">Explore every vote</a>
+      <h2 class="section-title">Votes OAC is watching</h2>
+      <p class="section-copy">
+        These bills are featured in the tracker because they concentrate power, weaken oversight,
+        or hand public assets to private interests. Numbers update from the live vote file.
+      </p>
+      <div class="bill-list" id="bill-list"></div>
+      <p style="margin-top: 1.75rem;">
+        <a class="btn btn-ghost" href="./?embed=1">Open the full tracker</a>
       </p>
     </div>
   </section>
@@ -546,7 +637,12 @@
       <h2 class="section-title">What’s on the expense disclosure</h2>
       <p class="money-figure" id="expense-total">—</p>
       <p class="money-note" id="expense-note">
-        Disclosed travel, accommodation, meals, and hospitality across Ontario’s MPPs over roughly two years — pulled from the Legislative Assembly’s public filings.
+        Disclosed travel, accommodation, meals, and hospitality across Ontario’s MPPs over roughly two years —
+        from the Legislative Assembly’s public filings.
+      </p>
+      <p class="money-note">
+        Expense totals aren’t a corruption verdict on their own — but big gaps versus peers, hospitality-heavy claims,
+        and missing context are worth asking about. The tracker’s expense spotlight flags those patterns.
       </p>
       <a class="btn btn-primary" href="./?embed=1">Open expense spotlight</a>
     </div>
@@ -555,20 +651,24 @@
   <section class="band" id="act">
     <div class="wrap band-grid">
       <div>
-        <h2>Don’t just look it up — use it.</h2>
-        <p>Email your MPP, join an OAC campaign, or get the next call to action in your inbox.</p>
+        <h2>Looking it up is step one. Using it is the point.</h2>
+        <p>
+          Email your MPP, join a live OAC campaign, or get urgent calls to action in your inbox.
+          Democracy gets louder when people show up with receipts.
+        </p>
       </div>
       <div class="band-cta">
-        <a class="btn btn-primary" href="https://onac.ca/">Join a campaign</a>
-        <a class="btn btn-ghost" href="https://onac.ca/#newsletter">Get the newsletter</a>
+        <a class="btn btn-primary" href="#find">Find my MPP first</a>
+        <a class="btn btn-ghost" href="https://onac.ca/">Join a campaign</a>
+        <a class="btn btn-ghost" href="https://onac.ca/">Get the newsletter</a>
       </div>
     </div>
   </section>
 
   <footer class="site-foot">
     <div class="wrap">
-      <p>Data from the Legislative Assembly of Ontario · Built by <a href="https://onac.ca/">OAC</a></p>
-      <p><a href="./">Full tracker</a> · <a href="https://onac.ca/">onac.ca</a></p>
+      <p>Public data from the Legislative Assembly of Ontario · Built by <a href="https://onac.ca/">OAC</a></p>
+      <p><a href="./?embed=1">Full tracker</a> · <a href="https://onac.ca/">onac.ca</a></p>
     </div>
   </footer>
 
@@ -576,14 +676,31 @@
   <script>
     (function () {
       const TRACKER = "./?embed=1";
-      const BILL_BLURBS = {
-        "Bill 5": "Special economic zones — sweeping land-use power.",
-        "Bill 97": "Centralized authority that weakens transparency.",
-        "Bill 110": "Billy Bishop takeover and expansion.",
-        "Bill 60": "Key accountability vote on the floor.",
-        "Bill 68": "Featured campaign filter in the tracker.",
-        "Bill 17": "Featured campaign filter in the tracker.",
-        "Bill 24": "Featured campaign filter in the tracker.",
+      const BILLS = {
+        "Bill 110": {
+          title: "Billy Bishop takeover & expansion",
+          body: "Removes Toronto from the airport’s tripartite agreement and hands the province more control over Billy Bishop. OAC is organizing opposition.",
+          campaign: "https://onac.ca/issues/oppose-the-billy-bishop-takeover-and-expansion/",
+          campaignLabel: "Join the Bill 110 campaign",
+        },
+        "Bill 97": {
+          title: "Freedom of information under pressure",
+          body: "Centralizes authority while weakening transparency and environmental oversight. Ask your MPP whether they stood up for the public’s right to know.",
+          campaign: "https://onac.ca/issues/demand-freedom-of-information/",
+          campaignLabel: "Demand FOI — Bill 97",
+        },
+        "Bill 5": {
+          title: "Special economic zones",
+          body: "Sweeping land-use power that can override local planning. Track who voted to concentrate that authority — then ask yours to explain.",
+          campaign: "https://onac.ca/",
+          campaignLabel: "See OAC campaigns",
+        },
+        "Bill 60": {
+          title: "Featured accountability vote",
+          body: "One of the tracker’s featured floor votes. Use it to see party-line pressure — and who broke ranks.",
+          campaign: null,
+          campaignLabel: null,
+        },
       };
 
       const money = (n) => {
@@ -593,14 +710,15 @@
       };
 
       function voteCounts(mpps, billId) {
-        let yes = 0, no = 0;
+        let yes = 0, no = 0, other = 0;
         for (const m of mpps) {
           const v = (m.votes || []).find((x) => x.bill === billId || (x.bill || "").startsWith(billId));
           if (!v) continue;
           if (v.yes === true) yes += 1;
           else if (v.yes === false) no += 1;
+          else other += 1;
         }
-        return { yes, no };
+        return { yes, no, other };
       }
 
       function renderBills(payload) {
@@ -610,22 +728,32 @@
         const priority = ["Bill 110", "Bill 97", "Bill 5", "Bill 60"];
         const ordered = [
           ...priority.filter((b) => featured.includes(b)),
-          ...featured.filter((b) => !priority.includes(b)),
-        ].slice(0, 5);
+          ...featured.filter((b) => !priority.includes(b) && BILLS[b]),
+        ].slice(0, 4);
 
         list.innerHTML = ordered.map((bill) => {
-          const { yes, no } = voteCounts(mpps, bill);
-          const blurb = BILL_BLURBS[bill] || "Featured vote in the OAC tracker.";
-          const href = TRACKER; // full tracker; filters are interactive there
+          const meta = BILLS[bill] || {
+            title: "Featured vote in the tracker",
+            body: "Open the tracker to filter Yes / No / No Show by MPP.",
+            campaign: null,
+          };
+          const { yes, no, other } = voteCounts(mpps, bill);
+          const campaignBtn = meta.campaign
+            ? `<a class="btn btn-ghost" href="${meta.campaign}" target="_blank" rel="noopener">${meta.campaignLabel || "Learn more"}</a>`
+            : "";
           return `
-            <a class="bill-row" href="${href}">
+            <article class="bill-row">
               <div class="bill-id">${bill}</div>
               <div class="bill-meta">
-                <strong>${blurb}</strong>
-                <span>Open the tracker to filter Yes / No / No Show</span>
+                <strong>${meta.title}</strong>
+                <p>${meta.body}</p>
+                <div class="bill-stat">${yes} Yes · ${no} No · ${other} No show / N/A <em>of ${mpps.length} MPPs</em></div>
+                <div class="bill-actions">
+                  <a class="btn btn-primary" href="${TRACKER}">See who voted</a>
+                  ${campaignBtn}
+                </div>
               </div>
-              <div class="bill-stat">${yes} Yes · ${no} No<em>of ${mpps.length} MPPs</em></div>
-            </a>`;
+            </article>`;
         }).join("");
       }
 
@@ -641,7 +769,7 @@
         document.getElementById("expense-total").textContent = money(sum);
         if (top) {
           document.getElementById("expense-note").textContent =
-            `Disclosed across ${totals.length} MPPs over ~2 years. Highest filing on record: ${top.name} · ${money(top.expenses.total)}.`;
+            `About ${money(sum)} disclosed across ${totals.length} MPPs over ~2 years. Highest filing currently on record: ${top.name} · ${money(top.expenses.total)}.`;
         }
       }
 
@@ -653,7 +781,7 @@
           window.__mppPayload = payload;
         } catch (e) {
           document.getElementById("bill-list").innerHTML =
-            `<p class="section-copy">Tracker data is loading from the live site — <a href="${TRACKER}">open the full tracker</a>.</p>`;
+            `<p class="section-copy">Live vote data isn’t loading yet — <a href="${TRACKER}">open the full tracker</a>.</p>`;
         }
       }
 
@@ -664,7 +792,6 @@
 
       input.addEventListener("input", () => {
         const raw = input.value.trim();
-        // Only auto-format when it already looks like a Canadian postal fragment
         if (/^[A-Za-z]\d[A-Za-z]/.test(raw.replace(/\s/g, ""))) {
           input.value = window.MppShared.formatPostal(input.value);
         }
@@ -696,8 +823,13 @@
         status.textContent = lookup.warning || "";
         const m = lookup.mpp;
         const where = [lookup.riding, lookup.city].filter(Boolean).join(" · ");
+        const last = (m.name || "").replace(/^Hon\.\s*/i, "").split(/\s+/).slice(-1)[0] || "MPP";
+        const subject = encodeURIComponent("Question from a constituent — OAC MPP Tracker");
+        const body = encodeURIComponent(
+          `Hello ${m.name},\n\nI am a constituent in ${lookup.riding || "your riding"}. I am writing to ask how you voted on recent bills that affect our community, and where you stand going forward.\n\nPlease reply with a clear position.\n\nThank you.`
+        );
         const email = m.email
-          ? `<a class="btn btn-primary" href="mailto:${m.email}">Email ${m.name.split(" ").slice(-1)[0]}</a>`
+          ? `<a class="btn btn-primary" href="mailto:${m.email}?subject=${subject}&body=${body}">Email ${last}</a>`
           : "";
         const phone = m.phone
           ? `<a class="btn btn-ghost" href="tel:${String(m.phone).replace(/\s/g, "")}">Call office</a>`
@@ -706,10 +838,11 @@
         result.innerHTML = `
           <h3>${m.name}</h3>
           <p>${m.party}${where ? " · " + where : ""}</p>
+          <p class="nudge">Next step: ask about a specific bill (Bill 5, 97, or 110), then check their record in the tracker.</p>
           <div class="find-actions">
             ${email}
             ${phone}
-            <a class="btn btn-ghost" href="${TRACKER}">See their votes</a>
+            <a class="btn btn-ghost" href="${TRACKER}">See their votes &amp; expenses</a>
           </div>`;
         result.hidden = false;
         result.classList.add("is-on");
