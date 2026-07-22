@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Ontario riding map | OAC MPP Tracker</title>
+  <meta name="description" content="Heatmap of Ontario ridings by MPP vote or expense disclosure. Click a riding to see who represents it.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --bg-2: #141414;
+      --panel: #121212;
+      --ink: #ffffff;
+      --muted: #b5b5b5;
+      --dim: #7a7a7a;
+      --yellow: #ffc745;
+      --yellow-ink: #111111;
+      --line: rgba(255, 255, 255, 0.12);
+      --yes: #ffc745;
+      --no: #5b8def;
+      --noshow: #6a6a6a;
+      --nodata: #2a2a2a;
+      --font: "Fira Sans", system-ui, sans-serif;
+      --display: "Archivo Black", "Fira Sans", sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.45;
+      -webkit-font-smoothing: antialiased;
+      display: grid;
+      grid-template-rows: auto 1fr;
+    }
+    a { color: inherit; }
+
+    .top {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding: 0.85rem 1.1rem;
+      border-bottom: 1px solid var(--line);
+      background: rgba(10, 10, 10, 0.96);
+      z-index: 500;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      min-width: min(100%, 16rem);
+    }
+    .brand img {
+      width: 2.2rem;
+      height: 2.2rem;
+      border-radius: 50%;
+      background: #000;
+    }
+    .brand h1 {
+      font-family: var(--display);
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
+      line-height: 1.1;
+    }
+    .brand p {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem 0.75rem;
+      align-items: end;
+    }
+
+    .control {
+      display: grid;
+      gap: 0.25rem;
+    }
+    .control label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--dim);
+      font-weight: 600;
+    }
+    .seg {
+      display: inline-flex;
+      border: 1px solid var(--line);
+      background: var(--bg-2);
+    }
+    .seg button {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 0.5rem 0.85rem;
+      cursor: pointer;
+    }
+    .seg button.active {
+      background: var(--yellow);
+      color: var(--yellow-ink);
+    }
+    select {
+      appearance: none;
+      background: var(--bg-2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23b5b5b5' d='M1 1l5 5 5-5'/%3E%3C/svg%3E") right 0.7rem center/10px no-repeat;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      font: inherit;
+      font-size: 0.9rem;
+      padding: 0.5rem 2rem 0.5rem 0.75rem;
+      min-width: 11rem;
+      max-width: 100%;
+    }
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      align-items: center;
+    }
+    .nav-links a {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+      border: 1px solid var(--line);
+      padding: 0.45rem 0.7rem;
+    }
+    .nav-links a:hover { color: var(--yellow); border-color: var(--yellow); }
+    .nav-links a.primary {
+      background: var(--yellow);
+      color: var(--yellow-ink);
+      border-color: var(--yellow);
+      font-weight: 700;
+    }
+
+    .stage {
+      position: relative;
+      min-height: 0;
+    }
+    #map {
+      position: absolute;
+      inset: 0;
+      background: #0d0d0d;
+    }
+
+    .legend {
+      position: absolute;
+      left: 0.85rem;
+      bottom: 0.85rem;
+      z-index: 450;
+      background: rgba(12, 12, 12, 0.92);
+      border: 1px solid var(--line);
+      padding: 0.7rem 0.85rem;
+      max-width: min(18rem, calc(100% - 1.7rem));
+      pointer-events: none;
+    }
+    .legend h2 {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--dim);
+      margin-bottom: 0.45rem;
+    }
+    .legend-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.84rem;
+      color: var(--muted);
+      margin-top: 0.28rem;
+    }
+    .swatch {
+      width: 0.9rem;
+      height: 0.9rem;
+      flex: 0 0 auto;
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+    .legend-scale {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 2px;
+      margin-top: 0.35rem;
+      height: 0.7rem;
+    }
+    .legend-scale span { display: block; height: 100%; }
+    .legend-scale-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.72rem;
+      color: var(--dim);
+      margin-top: 0.25rem;
+    }
+
+    .panel {
+      position: absolute;
+      top: 0.85rem;
+      right: 0.85rem;
+      z-index: 450;
+      width: min(22rem, calc(100% - 1.7rem));
+      background: rgba(12, 12, 12, 0.95);
+      border: 1px solid var(--line);
+      padding: 1rem 1.05rem 1.1rem;
+      max-height: calc(100% - 1.7rem);
+      overflow: auto;
+      transform: translateX(120%);
+      opacity: 0;
+      pointer-events: none;
+      transition: transform 0.28s ease, opacity 0.28s ease;
+    }
+    .panel.is-open {
+      transform: translateX(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .panel-close {
+      position: absolute;
+      top: 0.55rem;
+      right: 0.55rem;
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font-size: 1.35rem;
+      line-height: 1;
+      cursor: pointer;
+      padding: 0.25rem 0.4rem;
+    }
+    .panel-close:hover { color: var(--ink); }
+    .panel-kicker {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--yellow);
+      font-weight: 700;
+      padding-right: 1.5rem;
+    }
+    .panel h2 {
+      font-family: var(--display);
+      font-size: 1.35rem;
+      line-height: 1.15;
+      margin: 0.35rem 0 0.15rem;
+    }
+    .panel .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 0.85rem;
+    }
+    .stat {
+      display: flex;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.45rem 0;
+      border-top: 1px solid var(--line);
+      font-size: 0.9rem;
+    }
+    .stat span:last-child { font-weight: 700; text-align: right; }
+    .stat .yes { color: var(--yes); }
+    .stat .no { color: #9db7ff; }
+    .stat .noshow { color: #cfcfcf; }
+    .panel-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.88rem;
+      min-height: 2.45rem;
+      padding: 0.45rem 0.85rem;
+      border: 1px solid transparent;
+    }
+    .btn-primary { background: var(--yellow); color: var(--yellow-ink); }
+    .btn-ghost { border-color: var(--line); color: var(--ink); }
+    .btn-ghost:hover { border-color: var(--yellow); color: var(--yellow); }
+    .empty-hint {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .leaflet-container { background: #0d0d0d; font: inherit; }
+    .leaflet-control-attribution {
+      background: rgba(0,0,0,0.65) !important;
+      color: #888 !important;
+      font-size: 10px !important;
+    }
+    .leaflet-control-attribution a { color: #aaa !important; }
+    .leaflet-bar a {
+      background: #151515 !important;
+      color: #eee !important;
+      border-bottom-color: #333 !important;
+    }
+    .leaflet-bar a:hover { background: #222 !important; color: var(--yellow) !important; }
+
+    @media (max-width: 720px) {
+      .top { align-items: start; }
+      .panel {
+        top: auto;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        max-height: 42%;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+        transform: translateY(110%);
+      }
+      .panel.is-open { transform: translateY(0); }
+      .legend { bottom: auto; top: 0.75rem; left: 0.75rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <img src="assets/onac.png" alt="" width="36" height="36">
+      <div>
+        <h1>Riding map</h1>
+        <p>Votes &amp; expenses across Ontario · OAC</p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="control">
+        <label id="mode-label">Colour by</label>
+        <div class="seg" role="group" aria-labelledby="mode-label">
+          <button type="button" id="mode-vote" class="active" data-mode="vote">Bill vote</button>
+          <button type="button" id="mode-expense" data-mode="expense">Expenses</button>
+        </div>
+      </div>
+      <div class="control" id="bill-control">
+        <label for="bill-select">Bill</label>
+        <select id="bill-select"></select>
+      </div>
+    </div>
+
+    <nav class="nav-links" aria-label="Related pages">
+      <a href="landing.html">Landing</a>
+      <a class="primary" href="./?embed=1">Open tracker</a>
+    </nav>
+  </header>
+
+  <div class="stage">
+    <div id="map" role="application" aria-label="Ontario electoral districts map"></div>
+
+    <aside class="legend" id="legend" aria-live="polite"></aside>
+
+    <aside class="panel" id="panel" aria-live="polite">
+      <button type="button" class="panel-close" id="panel-close" aria-label="Close">&times;</button>
+      <div id="panel-body">
+        <p class="empty-hint">Click a riding to see the MPP, their vote, and expenses.</p>
+      </div>
+    </aside>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="shared.js"></script>
+  <script>
+    (function () {
+      const TRACKER = "./?embed=1";
+      const BILL_TITLES = {
+        "Bill 110": "Billy Bishop takeover & expansion",
+        "Bill 97": "Freedom of information under pressure",
+        "Bill 5": "Special economic zones",
+        "Bill 60": "Featured accountability vote",
+        "Bill 17": "Featured vote",
+        "Bill 24": "Featured vote",
+        "Bill 68": "Featured vote",
+      };
+
+      const VOTE_COLORS = {
+        yes: "#ffc745",
+        no: "#5b8def",
+        noshow: "#6a6a6a",
+        na: "#4a4a4a",
+        none: "#2a2a2a",
+      };
+
+      const EXPENSE_RAMP = ["#2a2418", "#5c4a1f", "#8f7324", "#c9a12e", "#ffc745"];
+
+      let payload = null;
+      let ridingsGeo = null;
+      let layer = null;
+      let mode = "vote";
+      let selectedBill = null;
+      let selectedLayer = null;
+      let expenseExtent = { min: 0, max: 1 };
+
+      const map = L.map("map", {
+        zoomControl: true,
+        attributionControl: true,
+        minZoom: 5,
+        maxZoom: 12,
+      }).setView([50.5, -85.5], 5);
+
+      L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a> · Boundaries via <a href="https://represent.opennorth.ca/">Represent</a>',
+        subdomains: "abcd",
+        maxZoom: 12,
+      }).addTo(map);
+
+      const byRiding = new Map();
+
+      function money(n) {
+        if (typeof n !== "number" || Number.isNaN(n)) return "—";
+        if (n >= 1e6) return "$" + (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M";
+        if (n >= 1e3) return "$" + Math.round(n / 1e3) + "k";
+        return "$" + Math.round(n).toLocaleString("en-CA");
+      }
+
+      function voteKey(vote) {
+        if (!vote) return "none";
+        if (vote.yes === true || vote.display === "Yes") return "yes";
+        if (vote.yes === false || vote.display === "No") return "no";
+        if (vote.display === "No Show" || vote.vote === "No Show") return "noshow";
+        return "na";
+      }
+
+      function voteLabel(key) {
+        return ({ yes: "Yes", no: "No", noshow: "No show", na: "N/A", none: "No data" })[key] || key;
+      }
+
+      function getVote(mpp, bill) {
+        if (!mpp || !bill) return null;
+        return (mpp.votes || []).find((v) => v.bill === bill || String(v.bill || "").startsWith(bill)) || null;
+      }
+
+      function ridingKey(name) {
+        return window.MppShared.normalizeRiding(name);
+      }
+
+      function indexMpps(mpps) {
+        byRiding.clear();
+        for (const m of mpps) {
+          const key = ridingKey(m.riding);
+          if (key) byRiding.set(key, m);
+        }
+        // Sheet typo: "iiwetinoong" ↔ official "Kiiwetinoong"
+        const kii = byRiding.get("iiwetinoong") || byRiding.get("kiiwetinoong");
+        if (kii) {
+          byRiding.set("kiiwetinoong", kii);
+          byRiding.set("iiwetinoong", kii);
+        }
+      }
+
+      function mppForFeature(feature) {
+        const name = feature?.properties?.name || "";
+        return byRiding.get(ridingKey(name)) || null;
+      }
+
+      function expenseTotal(mpp) {
+        const n = mpp?.expenses?.total;
+        return typeof n === "number" ? n : null;
+      }
+
+      function computeExpenseExtent(mpps) {
+        const vals = mpps.map(expenseTotal).filter((n) => typeof n === "number");
+        if (!vals.length) return { min: 0, max: 1 };
+        return { min: Math.min(...vals), max: Math.max(...vals) };
+      }
+
+      function expenseColor(total) {
+        if (typeof total !== "number") return VOTE_COLORS.none;
+        const { min, max } = expenseExtent;
+        const t = max === min ? 1 : (total - min) / (max - min);
+        const i = Math.min(EXPENSE_RAMP.length - 1, Math.floor(t * (EXPENSE_RAMP.length - 1)));
+        return EXPENSE_RAMP[i];
+      }
+
+      function featureStyle(feature) {
+        const mpp = mppForFeature(feature);
+        if (mode === "expense") {
+          return {
+            fillColor: expenseColor(expenseTotal(mpp)),
+            weight: 0.8,
+            color: "#111",
+            opacity: 1,
+            fillOpacity: 0.82,
+          };
+        }
+        const key = voteKey(getVote(mpp, selectedBill));
+        return {
+          fillColor: VOTE_COLORS[key] || VOTE_COLORS.none,
+          weight: 0.8,
+          color: "#111",
+          opacity: 1,
+          fillOpacity: key === "none" ? 0.55 : 0.85,
+        };
+      }
+
+      function highlightStyle(base) {
+        return { ...base, weight: 2.2, color: "#fff", fillOpacity: 0.95 };
+      }
+
+      function renderLegend() {
+        const el = document.getElementById("legend");
+        if (mode === "expense") {
+          el.innerHTML = `
+            <h2>Disclosed expenses</h2>
+            <div class="legend-scale" aria-hidden="true">
+              ${EXPENSE_RAMP.map((c) => `<span style="background:${c}"></span>`).join("")}
+            </div>
+            <div class="legend-scale-labels">
+              <span>${money(expenseExtent.min)}</span>
+              <span>${money(expenseExtent.max)}</span>
+            </div>
+            <div class="legend-row"><span class="swatch" style="background:${VOTE_COLORS.none}"></span> No data</div>`;
+          return;
+        }
+        el.innerHTML = `
+          <h2>${selectedBill || "Vote"}</h2>
+          ${["yes", "no", "noshow", "na", "none"].map((k) => `
+            <div class="legend-row">
+              <span class="swatch" style="background:${VOTE_COLORS[k]}"></span>
+              ${voteLabel(k)}
+            </div>`).join("")}`;
+      }
+
+      function openPanel(feature, layerRef) {
+        const panel = document.getElementById("panel");
+        const body = document.getElementById("panel-body");
+        const riding = feature.properties.name;
+        const mpp = mppForFeature(feature);
+        selectedLayer = layerRef;
+
+        if (!mpp) {
+          body.innerHTML = `
+            <p class="panel-kicker">${riding}</p>
+            <h2>No MPP in our data</h2>
+            <p class="meta">This riding is in the boundary file but not matched in the current tracker list (vacancy or name mismatch).</p>
+            <div class="panel-actions">
+              <a class="btn btn-ghost" href="${TRACKER}">Open tracker</a>
+            </div>`;
+          panel.classList.add("is-open");
+          return;
+        }
+
+        const vote = getVote(mpp, selectedBill);
+        const vKey = voteKey(vote);
+        const total = expenseTotal(mpp);
+        const partyShort = {
+          "Progressive Conservative": "PC",
+          "New Democratic": "NDP",
+          Liberal: "Liberal",
+          Green: "Green",
+          Independent: "Independent",
+        };
+        const party = partyShort[mpp.party] || mpp.party || "—";
+        const billTitle = BILL_TITLES[selectedBill] || selectedBill;
+        const trackerBill = selectedBill
+          ? `${TRACKER}&bill=${encodeURIComponent(selectedBill)}&vote=${vKey === "none" ? "yes" : vKey}`
+          : TRACKER;
+
+        body.innerHTML = `
+          <p class="panel-kicker">${riding}</p>
+          <h2>${mpp.name}</h2>
+          <p class="meta">${party} · ${mpp.riding}</p>
+          <div class="stat"><span>${selectedBill || "Vote"}</span><span class="${vKey}">${voteLabel(vKey)}${vote?.display && vote.display !== voteLabel(vKey) ? "" : ""}</span></div>
+          <div class="stat"><span>Bill focus</span><span>${billTitle}</span></div>
+          <div class="stat"><span>Expenses (disclosed)</span><span>${money(total)}</span></div>
+          <div class="panel-actions">
+            <a class="btn btn-primary" href="${trackerBill}">See in tracker</a>
+            ${mpp.email ? `<a class="btn btn-ghost" href="mailto:${mpp.email}">Email MPP</a>` : ""}
+            ${mpp.phone ? `<a class="btn btn-ghost" href="tel:${String(mpp.phone).replace(/[^\d+]/g, "")}">Call</a>` : ""}
+          </div>`;
+        panel.classList.add("is-open");
+      }
+
+      function closePanel() {
+        document.getElementById("panel").classList.remove("is-open");
+        if (selectedLayer) {
+          layer.resetStyle(selectedLayer);
+          selectedLayer = null;
+        }
+      }
+
+      function onEachFeature(feature, lyr) {
+        lyr.on({
+          mouseover(e) {
+            const t = e.target;
+            t.setStyle(highlightStyle(featureStyle(feature)));
+            if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) t.bringToFront();
+          },
+          mouseout(e) {
+            if (selectedLayer === e.target) {
+              e.target.setStyle(highlightStyle(featureStyle(feature)));
+              return;
+            }
+            layer.resetStyle(e.target);
+          },
+          click(e) {
+            if (selectedLayer && selectedLayer !== e.target) layer.resetStyle(selectedLayer);
+            openPanel(feature, e.target);
+            e.target.setStyle(highlightStyle(featureStyle(feature)));
+          },
+        });
+      }
+
+      function redraw() {
+        if (layer) {
+          map.removeLayer(layer);
+          layer = null;
+          selectedLayer = null;
+        }
+        layer = L.geoJSON(ridingsGeo, {
+          style: featureStyle,
+          onEachFeature,
+        }).addTo(map);
+        renderLegend();
+      }
+
+      function setMode(next) {
+        mode = next;
+        document.getElementById("mode-vote").classList.toggle("active", mode === "vote");
+        document.getElementById("mode-expense").classList.toggle("active", mode === "expense");
+        document.getElementById("bill-control").hidden = mode !== "vote";
+        redraw();
+      }
+
+      function fillBillSelect(featured) {
+        const sel = document.getElementById("bill-select");
+        const bills = (featured && featured.length ? featured : Object.keys(BILL_TITLES)).slice();
+        const priority = ["Bill 110", "Bill 97", "Bill 5", "Bill 60"];
+        bills.sort((a, b) => {
+          const ia = priority.indexOf(a);
+          const ib = priority.indexOf(b);
+          if (ia === -1 && ib === -1) return a.localeCompare(b);
+          if (ia === -1) return 1;
+          if (ib === -1) return -1;
+          return ia - ib;
+        });
+        sel.innerHTML = bills.map((b) => {
+          const title = BILL_TITLES[b] ? ` — ${BILL_TITLES[b]}` : "";
+          return `<option value="${b}">${b}${title}</option>`;
+        }).join("");
+        selectedBill = bills[0] || null;
+        if (selectedBill) sel.value = selectedBill;
+      }
+
+      document.getElementById("mode-vote").onclick = () => setMode("vote");
+      document.getElementById("mode-expense").onclick = () => setMode("expense");
+      document.getElementById("bill-select").onchange = (e) => {
+        selectedBill = e.target.value;
+        redraw();
+      };
+      document.getElementById("panel-close").onclick = closePanel;
+
+      Promise.all([
+        fetch("data/mpps.json").then((r) => r.json()),
+        fetch("data/ontario-ridings.geojson").then((r) => r.json()),
+      ])
+        .then(([data, geo]) => {
+          payload = data;
+          ridingsGeo = geo;
+          indexMpps(data.mpps || []);
+          expenseExtent = computeExpenseExtent(data.mpps || []);
+          fillBillSelect(data.featuredBills);
+          redraw();
+          try {
+            map.fitBounds(layer.getBounds(), { padding: [24, 24], maxZoom: 6 });
+          } catch (_) { /* ignore */ }
+        })
+        .catch((err) => {
+          console.error(err);
+          document.getElementById("panel-body").innerHTML =
+            `<p class="empty-hint">Couldn’t load map data. Check your connection and try again.</p>`;
+          document.getElementById("panel").classList.add("is-open");
+        });
+    })();
+  </script>
+</body>
+</html>

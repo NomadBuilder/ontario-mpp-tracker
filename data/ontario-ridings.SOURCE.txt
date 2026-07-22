@@ -1,0 +1,1 @@
+Ontario provincial electoral district boundaries (Representation Act, 2015), simplified shapes from the Represent API (https://represent.opennorth.ca/), originally based on Elections Ontario open data. Converted to GeoJSON for the OAC riding map.
