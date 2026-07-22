@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>MPP Tracker | Ontarians Against Corruption</title>
+  <meta name="description" content="See how your Ontario MPP votes on key bills, what they spend, and how to contact them. Built by Ontarians Against Corruption.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --bg-2: #141414;
+      --ink: #ffffff;
+      --muted: #b5b5b5;
+      --dim: #7a7a7a;
+      --yellow: #ffc745;
+      --yellow-ink: #111111;
+      --red: #c1121f;
+      --line: rgba(255, 255, 255, 0.1);
+      --font: "Fira Sans", system-ui, sans-serif;
+      --display: "Archivo Black", "Fira Sans", sans-serif;
+      --max: 72rem;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+
+    .skip {
+      position: absolute;
+      left: -999px;
+      top: 0;
+    }
+    .skip:focus {
+      left: 1rem;
+      top: 1rem;
+      z-index: 100;
+      background: var(--yellow);
+      color: var(--yellow-ink);
+      padding: 0.5rem 0.75rem;
+    }
+
+    /* —— Hero: one composition —— */
+    .hero {
+      position: relative;
+      min-height: 100svh;
+      display: grid;
+      align-items: end;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .hero-media {
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background:
+        linear-gradient(180deg, rgba(10, 10, 10, 0.35) 0%, rgba(10, 10, 10, 0.82) 55%, var(--bg) 100%),
+        radial-gradient(ellipse 80% 60% at 70% 30%, rgba(255, 199, 69, 0.12), transparent 55%),
+        url("https://onac.ca/wp-content/uploads/2026/07/house.jpg") center/cover no-repeat;
+      transform: scale(1.04);
+      animation: heroDrift 18s ease-in-out infinite alternate;
+    }
+
+    @keyframes heroDrift {
+      from { transform: scale(1.04) translate3d(0, 0, 0); }
+      to { transform: scale(1.08) translate3d(-1.5%, -1%, 0); }
+    }
+
+    .hero-grain {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      opacity: 0.08;
+      pointer-events: none;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    .hero-inner {
+      width: min(100% - 2rem, var(--max));
+      margin: 0 auto;
+      padding: 5.5rem 0 3.25rem;
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      margin-bottom: 1.75rem;
+      animation: rise 0.8s ease both;
+    }
+
+    .brand-row img {
+      width: 3.25rem;
+      height: 3.25rem;
+      border-radius: 50%;
+      background: #000;
+    }
+
+    .brand-row span {
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--yellow);
+    }
+
+    .hero-plate {
+      display: inline-block;
+      background: var(--yellow);
+      color: var(--yellow-ink);
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 9vw, 5.5rem);
+      line-height: 0.92;
+      letter-spacing: -0.02em;
+      padding: 0.28em 0.35em 0.22em;
+      margin-bottom: 1.15rem;
+      animation: rise 0.9s 0.08s ease both;
+      box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.45);
+    }
+
+    .hero-lead {
+      max-width: 28rem;
+      font-size: clamp(1.05rem, 2.4vw, 1.25rem);
+      color: var(--muted);
+      margin-bottom: 1.75rem;
+      animation: rise 0.9s 0.16s ease both;
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      animation: rise 0.9s 0.24s ease both;
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: none; }
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 3rem;
+      padding: 0.7rem 1.25rem;
+      font-family: var(--font);
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-decoration: none;
+      border: 2px solid transparent;
+      cursor: pointer;
+      transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn-primary {
+      background: var(--yellow);
+      color: var(--yellow-ink);
+    }
+
+    .btn-primary:hover { background: #ffd56d; }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--ink);
+      border-color: rgba(255, 255, 255, 0.35);
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--yellow);
+      color: var(--yellow);
+    }
+
+    /* —— Sections —— */
+    section {
+      padding: clamp(3.5rem, 8vw, 5.5rem) 0;
+    }
+
+    .wrap {
+      width: min(100% - 2rem, var(--max));
+      margin: 0 auto;
+    }
+
+    .section-kicker {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--yellow);
+      margin-bottom: 0.85rem;
+    }
+
+    .section-title {
+      font-family: var(--display);
+      font-size: clamp(1.85rem, 5vw, 3rem);
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+      max-width: 18ch;
+    }
+
+    .section-copy {
+      max-width: 36rem;
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 1.75rem;
+    }
+
+    /* Find */
+    .find {
+      background:
+        linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+      border-top: 1px solid var(--line);
+    }
+
+    .find-form {
+      display: grid;
+      gap: 0.75rem;
+      max-width: 32rem;
+    }
+
+    .find-form label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--dim);
+    }
+
+    .find-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem;
+    }
+
+    .find-row input {
+      flex: 1 1 14rem;
+      min-height: 3rem;
+      padding: 0.7rem 1rem;
+      border: 1px solid var(--line);
+      background: #1a1a1a;
+      color: var(--ink);
+      font: inherit;
+      font-size: 16px;
+    }
+
+    .find-row input:focus {
+      outline: 2px solid var(--yellow);
+      outline-offset: 1px;
+    }
+
+    .find-status {
+      min-height: 1.25rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .find-status.is-error { color: #f07178; }
+    .find-status.is-loading { color: var(--dim); }
+
+    .find-result {
+      margin-top: 1.25rem;
+      max-width: 32rem;
+      border-left: 4px solid var(--yellow);
+      padding: 1rem 0 1rem 1.1rem;
+      display: none;
+    }
+
+    .find-result.is-on { display: block; animation: rise 0.45s ease both; }
+
+    .find-result h3 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+
+    .find-result p {
+      color: var(--muted);
+      margin-bottom: 0.85rem;
+    }
+
+    .find-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+    }
+
+    /* Bills — narrative rows, not a filter dashboard */
+    .bills {
+      background: var(--bg);
+    }
+
+    .bill-list {
+      display: grid;
+      gap: 0;
+      border-top: 1px solid var(--line);
+      margin-top: 2rem;
+    }
+
+    .bill-row {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 1rem 1.5rem;
+      align-items: center;
+      padding: 1.35rem 0;
+      border-bottom: 1px solid var(--line);
+      text-decoration: none;
+      transition: background 0.2s ease, padding-left 0.2s ease;
+    }
+
+    .bill-row:hover {
+      background: rgba(255, 199, 69, 0.04);
+      padding-left: 0.5rem;
+    }
+
+    .bill-id {
+      font-family: var(--display);
+      font-size: clamp(1.4rem, 3vw, 1.85rem);
+      color: var(--yellow);
+      white-space: nowrap;
+    }
+
+    .bill-meta strong {
+      display: block;
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+
+    .bill-meta span {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .bill-stat {
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-align: right;
+    }
+
+    .bill-stat em {
+      display: block;
+      font-style: normal;
+      color: var(--dim);
+      font-weight: 500;
+      margin-top: 0.15rem;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+
+    @media (max-width: 700px) {
+      .bill-row {
+        grid-template-columns: 1fr;
+        gap: 0.35rem;
+      }
+      .bill-stat { text-align: left; }
+    }
+
+    /* Money */
+    .money {
+      position: relative;
+      background: #101010;
+      overflow: hidden;
+    }
+
+    .money::before {
+      content: "";
+      position: absolute;
+      inset: auto -10% -40% 40%;
+      height: 70%;
+      background: radial-gradient(circle, rgba(255, 199, 69, 0.16), transparent 65%);
+      pointer-events: none;
+    }
+
+    .money-figure {
+      font-family: var(--display);
+      font-size: clamp(3rem, 12vw, 6.5rem);
+      line-height: 0.95;
+      color: var(--yellow);
+      margin: 0.35rem 0 0.5rem;
+    }
+
+    .money-note {
+      color: var(--muted);
+      max-width: 34rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Yellow band — ONAC newsletter energy */
+    .band {
+      background: var(--yellow);
+      color: var(--yellow-ink);
+      padding: clamp(2.75rem, 7vw, 4rem) 0;
+    }
+
+    .band-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    @media (max-width: 800px) {
+      .band-grid { grid-template-columns: 1fr; }
+    }
+
+    .band h2 {
+      font-family: var(--display);
+      font-size: clamp(1.8rem, 5vw, 2.75rem);
+      line-height: 1.05;
+      margin-bottom: 0.65rem;
+    }
+
+    .band p {
+      font-size: 1.05rem;
+      max-width: 30rem;
+      opacity: 0.9;
+    }
+
+    .band .btn-primary {
+      background: #111;
+      color: #fff;
+    }
+
+    .band .btn-primary:hover { background: #000; }
+
+    .band .btn-ghost {
+      border-color: rgba(0, 0, 0, 0.35);
+      color: var(--yellow-ink);
+    }
+
+    .band .btn-ghost:hover {
+      border-color: #111;
+      color: #111;
+    }
+
+    .band-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem;
+    }
+
+    /* Footer */
+    .site-foot {
+      padding: 2rem 0 2.5rem;
+      border-top: 1px solid var(--line);
+      color: var(--dim);
+      font-size: 0.88rem;
+    }
+
+    .site-foot .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.5rem;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .site-foot a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .site-foot a:hover { color: var(--yellow); }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hero-media { animation: none; }
+      .brand-row, .hero-plate, .hero-lead, .hero-cta, .find-result.is-on {
+        animation: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#find">Skip to find your MPP</a>
+
+  <header class="hero">
+    <div class="hero-media" role="img" aria-label="Ontario legislature chamber"></div>
+    <div class="hero-grain" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="brand-row">
+        <img src="reports/assets/onac.png" alt="" width="52" height="52">
+        <span>Ontarians Against Corruption</span>
+      </div>
+      <h1 class="hero-plate">MPP TRACKER</h1>
+      <p class="hero-lead">See how your representative votes — and spends — without opening a spreadsheet.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#find">Find my MPP</a>
+        <a class="btn btn-ghost" href="./?embed=1">Open full tracker</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="find" id="find">
+    <div class="wrap">
+      <p class="section-kicker">Start here</p>
+      <h2 class="section-title">Who represents you?</h2>
+      <p class="section-copy">Enter your postal code. We’ll match your riding and give you a direct line to your MPP.</p>
+      <form class="find-form" id="postal-form">
+        <label for="postal">Postal code</label>
+        <div class="find-row">
+          <input id="postal" name="postal" type="text" inputmode="text" autocomplete="postal-code" placeholder="e.g. M5V 2T6" maxlength="7" required>
+          <button class="btn btn-primary" type="submit">Look up</button>
+        </div>
+        <p class="find-status" id="find-status" role="status" aria-live="polite"></p>
+      </form>
+      <div class="find-result" id="find-result" hidden></div>
+    </div>
+  </section>
+
+  <section class="bills" id="campaigns">
+    <div class="wrap">
+      <p class="section-kicker">On the floor</p>
+      <h2 class="section-title">Votes that matter right now</h2>
+      <p class="section-copy">These are the featured bills in the tracker — the ones OAC is watching. Tap through to see who said yes.</p>
+      <div class="bill-list" id="bill-list">
+        <!-- filled from live data -->
+      </div>
+      <p style="margin-top: 1.5rem;">
+        <a class="btn btn-ghost" href="./?embed=1">Explore every vote</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="money" id="money">
+    <div class="wrap">
+      <p class="section-kicker">Follow the money</p>
+      <h2 class="section-title">What’s on the expense disclosure</h2>
+      <p class="money-figure" id="expense-total">—</p>
+      <p class="money-note" id="expense-note">
+        Disclosed travel, accommodation, meals, and hospitality across Ontario’s MPPs over roughly two years — pulled from the Legislative Assembly’s public filings.
+      </p>
+      <a class="btn btn-primary" href="./?embed=1">Open expense spotlight</a>
+    </div>
+  </section>
+
+  <section class="band" id="act">
+    <div class="wrap band-grid">
+      <div>
+        <h2>Don’t just look it up — use it.</h2>
+        <p>Email your MPP, join an OAC campaign, or get the next call to action in your inbox.</p>
+      </div>
+      <div class="band-cta">
+        <a class="btn btn-primary" href="https://onac.ca/">Join a campaign</a>
+        <a class="btn btn-ghost" href="https://onac.ca/#newsletter">Get the newsletter</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <p>Data from the Legislative Assembly of Ontario · Built by <a href="https://onac.ca/">OAC</a></p>
+      <p><a href="./">Full tracker</a> · <a href="https://onac.ca/">onac.ca</a></p>
+    </div>
+  </footer>
+
+  <script src="shared.js"></script>
+  <script>
+    (function () {
+      const TRACKER = "./?embed=1";
+      const BILL_BLURBS = {
+        "Bill 5": "Special economic zones — sweeping land-use power.",
+        "Bill 97": "Centralized authority that weakens transparency.",
+        "Bill 110": "Billy Bishop takeover and expansion.",
+        "Bill 60": "Key accountability vote on the floor.",
+        "Bill 68": "Featured campaign filter in the tracker.",
+        "Bill 17": "Featured campaign filter in the tracker.",
+        "Bill 24": "Featured campaign filter in the tracker.",
+      };
+
+      const money = (n) => {
+        if (n >= 1e6) return "$" + (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M";
+        if (n >= 1e3) return "$" + Math.round(n / 1e3) + "k";
+        return "$" + Math.round(n);
+      };
+
+      function voteCounts(mpps, billId) {
+        let yes = 0, no = 0;
+        for (const m of mpps) {
+          const v = (m.votes || []).find((x) => x.bill === billId || (x.bill || "").startsWith(billId));
+          if (!v) continue;
+          if (v.yes === true) yes += 1;
+          else if (v.yes === false) no += 1;
+        }
+        return { yes, no };
+      }
+
+      function renderBills(payload) {
+        const list = document.getElementById("bill-list");
+        const featured = payload.featuredBills || [];
+        const mpps = payload.mpps || [];
+        const priority = ["Bill 110", "Bill 97", "Bill 5", "Bill 60"];
+        const ordered = [
+          ...priority.filter((b) => featured.includes(b)),
+          ...featured.filter((b) => !priority.includes(b)),
+        ].slice(0, 5);
+
+        list.innerHTML = ordered.map((bill) => {
+          const { yes, no } = voteCounts(mpps, bill);
+          const blurb = BILL_BLURBS[bill] || "Featured vote in the OAC tracker.";
+          const href = TRACKER; // full tracker; filters are interactive there
+          return `
+            <a class="bill-row" href="${href}">
+              <div class="bill-id">${bill}</div>
+              <div class="bill-meta">
+                <strong>${blurb}</strong>
+                <span>Open the tracker to filter Yes / No / No Show</span>
+              </div>
+              <div class="bill-stat">${yes} Yes · ${no} No<em>of ${mpps.length} MPPs</em></div>
+            </a>`;
+        }).join("");
+      }
+
+      function renderMoney(mpps) {
+        const totals = mpps
+          .map((m) => m.expenses && m.expenses.total)
+          .filter((n) => typeof n === "number");
+        const sum = totals.reduce((a, b) => a + b, 0);
+        const top = mpps
+          .filter((m) => m.expenses && typeof m.expenses.total === "number")
+          .sort((a, b) => b.expenses.total - a.expenses.total)[0];
+
+        document.getElementById("expense-total").textContent = money(sum);
+        if (top) {
+          document.getElementById("expense-note").textContent =
+            `Disclosed across ${totals.length} MPPs over ~2 years. Highest filing on record: ${top.name} · ${money(top.expenses.total)}.`;
+        }
+      }
+
+      async function init() {
+        try {
+          const payload = await (await fetch("data/mpps.json")).json();
+          renderBills(payload);
+          renderMoney(payload.mpps || []);
+          window.__mppPayload = payload;
+        } catch (e) {
+          document.getElementById("bill-list").innerHTML =
+            `<p class="section-copy">Tracker data is loading from the live site — <a href="${TRACKER}">open the full tracker</a>.</p>`;
+        }
+      }
+
+      const form = document.getElementById("postal-form");
+      const status = document.getElementById("find-status");
+      const result = document.getElementById("find-result");
+      const input = document.getElementById("postal");
+
+      input.addEventListener("input", () => {
+        const raw = input.value.trim();
+        // Only auto-format when it already looks like a Canadian postal fragment
+        if (/^[A-Za-z]\d[A-Za-z]/.test(raw.replace(/\s/g, ""))) {
+          input.value = window.MppShared.formatPostal(input.value);
+        }
+      });
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        result.hidden = true;
+        result.classList.remove("is-on");
+        result.innerHTML = "";
+        status.className = "find-status is-loading";
+        status.textContent = "Looking up your riding…";
+
+        const mpps = (window.__mppPayload && window.__mppPayload.mpps) || [];
+        if (!window.MppShared || !mpps.length) {
+          status.className = "find-status is-error";
+          status.textContent = "Lookup isn’t ready yet — try the full tracker.";
+          return;
+        }
+
+        const lookup = await window.MppShared.lookupMppByPostal(input.value, mpps);
+        if (!lookup.ok) {
+          status.className = "find-status is-error";
+          status.textContent = lookup.error || "No match found.";
+          return;
+        }
+
+        status.className = "find-status";
+        status.textContent = lookup.warning || "";
+        const m = lookup.mpp;
+        const where = [lookup.riding, lookup.city].filter(Boolean).join(" · ");
+        const email = m.email
+          ? `<a class="btn btn-primary" href="mailto:${m.email}">Email ${m.name.split(" ").slice(-1)[0]}</a>`
+          : "";
+        const phone = m.phone
+          ? `<a class="btn btn-ghost" href="tel:${String(m.phone).replace(/\s/g, "")}">Call office</a>`
+          : "";
+
+        result.innerHTML = `
+          <h3>${m.name}</h3>
+          <p>${m.party}${where ? " · " + where : ""}</p>
+          <div class="find-actions">
+            ${email}
+            ${phone}
+            <a class="btn btn-ghost" href="${TRACKER}">See their votes</a>
+          </div>`;
+        result.hidden = false;
+        result.classList.add("is-on");
+      });
+
+      init();
+    })();
+  </script>
+</body>
+</html>
