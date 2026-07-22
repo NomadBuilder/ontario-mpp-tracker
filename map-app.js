@@ -68,6 +68,25 @@
     maxZoom: 12,
   }).setView([50.5, -85.5], 5);
 
+  function refreshMapSize() {
+    requestAnimationFrame(() => {
+      try {
+        map.invalidateSize({ animate: false });
+      } catch (_) { /* ignore */ }
+    });
+  }
+
+  window.addEventListener("resize", refreshMapSize);
+  window.addEventListener("orientationchange", () => {
+    setTimeout(refreshMapSize, 250);
+  });
+  document.getElementById("controls-drawer")?.addEventListener("toggle", () => {
+    setTimeout(refreshMapSize, 50);
+  });
+  document.getElementById("organizer")?.querySelector("details")?.addEventListener("toggle", () => {
+    setTimeout(refreshMapSize, 50);
+  });
+
   L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
     attribution:
       '&copy; OSM &copy; CARTO · Boundaries Represent/Elections Ontario · Results Elections Ontario',
@@ -565,6 +584,7 @@
         map.fitBounds(layer.getBounds(), { padding: [24, 24], maxZoom: 6 });
       } catch (_) { /* ignore */ }
     }
+    refreshMapSize();
   }
 
   let activeAction = null; // { mpp, riding, vKey }
