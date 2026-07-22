@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Ontario MPPs & How They Vote | Ontarians Against Corruption</title>
-  <meta name="description" content="Explore Ontario MPP voting records, salaries, and accountability data.">
+  <title>MPP Tracker | Ontarians Against Corruption</title>
+  <meta name="description" content="See how your Ontario MPP votes on key bills, what they spend, and how to contact them. Built by Ontarians Against Corruption.">
   <link rel="stylesheet" href="styles.css" id="main-styles">
   <script>
     (function () {
@@ -20,11 +20,20 @@
 <body>
   <!-- v1 layout -->
   <div id="v1-app">
-    <header class="site-header">
-      <div class="header-inner">
-        <p class="eyebrow">Accountability Tool</p>
-        <h1>Ontario MPPs <span>& How They Vote</span></h1>
-        <p class="header-lead">See how your representative votes on key legislation — without wading through a spreadsheet first.</p>
+    <header class="tracker-hero">
+      <div class="tracker-hero-media" role="img" aria-label="Ontario legislature chamber"></div>
+      <div class="tracker-hero-grain" aria-hidden="true"></div>
+      <div class="tracker-hero-inner">
+        <div class="tracker-brand">
+          <img src="assets/onac.png" alt="" width="44" height="44">
+          <span>Ontarians Against Corruption</span>
+        </div>
+        <h1 class="tracker-plate">MPP TRACKER</h1>
+        <p class="tracker-hero-lead">See how your representative votes — and spends — without opening a spreadsheet.</p>
+        <div class="tracker-hero-cta">
+          <a class="hero-btn hero-btn-primary" href="#search-anchor">Find my MPP</a>
+          <a class="hero-btn hero-btn-ghost" href="#spotlight-bills">Votes that matter</a>
+        </div>
       </div>
     </header>
 
@@ -53,7 +62,7 @@
         </div>
       </section>
 
-      <div class="controls-wrap">
+      <div class="controls-wrap" id="search-anchor">
         <div class="controls-inner">
           <h2 class="controls-title">Search &amp; filter</h2>
           <div class="controls">
@@ -78,6 +87,17 @@
           <div class="search-result" id="search-result" hidden></div>
         </div>
       </div>
+
+      <section class="spotlight-bills" id="spotlight-bills" aria-label="Featured bill votes">
+        <div class="spotlight-bills-inner">
+          <div class="spotlight-bills-head">
+            <p class="spotlight-kicker">On the floor</p>
+            <h2 class="spotlight-title">Votes that matter right now</h2>
+            <p class="spotlight-copy">Tap a bill to show only MPPs who voted Yes — then dig into the full filters below.</p>
+          </div>
+          <div class="spotlight-list" id="spotlight-list"></div>
+        </div>
+      </section>
 
       <div class="campaign-filters expense-filters" id="expense-filters" aria-label="Expense spotlight filters">
         <details class="filter-drawer" data-collapse-mobile open>
@@ -138,11 +158,24 @@
         <p class="table-note">All voting records in one place. Scroll horizontally to see every bill.</p>
         <div id="table-container"></div>
       </section>
+
+      <section class="action-band" id="take-action">
+        <div class="action-band-inner">
+          <div>
+            <h2>Don’t just look it up — use it.</h2>
+            <p>Email your MPP from a card, join an OAC campaign, or get the next call to action in your inbox.</p>
+          </div>
+          <div class="action-band-cta">
+            <a class="hero-btn hero-btn-primary" href="https://onac.ca/" target="_blank" rel="noopener">Join a campaign</a>
+            <a class="hero-btn hero-btn-ghost" href="https://onac.ca/" target="_blank" rel="noopener">onac.ca</a>
+          </div>
+        </div>
+      </section>
     </div>
 
     <footer class="site-footer">
       <p>Data sourced from the <a href="https://www.ola.org/" target="_blank" rel="noopener">Legislative Assembly of Ontario</a>.</p>
-      <p>© 2026 <a href="https://ontariocorruption.org/" target="_blank" rel="noopener">Ontarians Against Corruption</a>.</p>
+      <p>© 2026 <a href="https://onac.ca/" target="_blank" rel="noopener">Ontarians Against Corruption</a>.</p>
     </footer>
   </div>
 

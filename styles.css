@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 
 :root {
   --bg: #111111;
@@ -18,6 +18,7 @@
   --radius: 12px;
   --radius-sm: 8px;
   --font: 'Fira Sans', sans-serif;
+  --display: 'Archivo Black', 'Fira Sans', sans-serif;
   --transition: 0.2s ease;
   --content-width: 1200px;
 
@@ -48,7 +49,322 @@ body {
   overflow-x: hidden;
 }
 
-/* Header */
+/* Header / narrative hero */
+.tracker-hero {
+  position: relative;
+  min-height: clamp(22rem, 68svh, 34rem);
+  display: grid;
+  align-items: end;
+  overflow: hidden;
+  isolation: isolate;
+  border-bottom: 1px solid var(--border);
+}
+
+.tracker-hero-media {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background:
+    linear-gradient(180deg, rgba(17, 17, 17, 0.25) 0%, rgba(17, 17, 17, 0.78) 52%, var(--bg) 100%),
+    radial-gradient(ellipse 80% 55% at 70% 28%, rgba(255, 199, 69, 0.12), transparent 55%),
+    url("https://onac.ca/wp-content/uploads/2026/07/house.jpg") center/cover no-repeat;
+  transform: scale(1.03);
+  animation: heroDrift 18s ease-in-out infinite alternate;
+}
+
+.tracker-hero-grain {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.07;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@keyframes heroDrift {
+  from { transform: scale(1.03) translate3d(0, 0, 0); }
+  to { transform: scale(1.07) translate3d(-1.2%, -0.8%, 0); }
+}
+
+.tracker-hero-inner {
+  width: min(100% - 2rem, var(--content-width));
+  margin: 0 auto;
+  padding: 3.5rem 0 2.5rem;
+}
+
+.tracker-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  animation: heroRise 0.75s ease both;
+}
+
+.tracker-brand img {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  background: #000;
+}
+
+.tracker-brand span {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-yellow);
+}
+
+.tracker-plate {
+  display: inline-block;
+  background: var(--accent-yellow);
+  color: #111;
+  font-family: var(--display);
+  font-size: clamp(2.1rem, 7vw, 4.25rem);
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  padding: 0.22em 0.32em 0.18em;
+  margin-bottom: 0.95rem;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.4);
+  animation: heroRise 0.8s 0.06s ease both;
+}
+
+.tracker-hero-lead {
+  max-width: 28rem;
+  color: var(--text-muted);
+  font-size: clamp(1rem, 2.2vw, 1.15rem);
+  margin-bottom: 1.35rem;
+  animation: heroRise 0.8s 0.12s ease both;
+}
+
+.tracker-hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  animation: heroRise 0.8s 0.18s ease both;
+}
+
+@keyframes heroRise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.85rem;
+  padding: 0.65rem 1.15rem;
+  font-family: var(--font);
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform var(--transition), background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.hero-btn:hover { transform: translateY(-1px); }
+
+.hero-btn-primary {
+  background: var(--accent-yellow);
+  color: #111;
+}
+
+.hero-btn-primary:hover { background: #ffd56d; }
+
+.hero-btn-ghost {
+  background: transparent;
+  color: var(--text);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.hero-btn-ghost:hover {
+  border-color: var(--accent-yellow);
+  color: var(--accent-yellow);
+}
+
+/* Spotlight bills — narrative entry into filters */
+.spotlight-bills {
+  max-width: var(--content-width);
+  margin: 0 auto 1.25rem;
+  padding: 0 1.5rem;
+}
+
+.spotlight-bills-inner {
+  border-top: 1px solid var(--border);
+}
+
+.spotlight-bills-head {
+  padding: 1.5rem 0 0.85rem;
+}
+
+.spotlight-kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-yellow);
+  margin-bottom: 0.4rem;
+}
+
+.spotlight-title {
+  font-family: var(--display);
+  font-size: clamp(1.45rem, 3.5vw, 2rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.35rem;
+}
+
+.spotlight-copy {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  max-width: 36rem;
+}
+
+.spotlight-list {
+  display: grid;
+}
+
+.spotlight-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.85rem 1.25rem;
+  align-items: center;
+  width: 100%;
+  padding: 1.05rem 0.15rem;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--transition), padding-left var(--transition);
+}
+
+.spotlight-row:hover,
+.spotlight-row:focus-visible {
+  background: rgba(255, 199, 69, 0.05);
+  padding-left: 0.45rem;
+  outline: none;
+}
+
+.spotlight-id {
+  font-family: var(--display);
+  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+  color: var(--accent-yellow);
+  white-space: nowrap;
+}
+
+.spotlight-meta strong {
+  display: block;
+  font-size: 0.98rem;
+  font-weight: 700;
+  margin-bottom: 0.15rem;
+}
+
+.spotlight-meta span {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.spotlight-stat {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: right;
+  color: var(--text);
+}
+
+.spotlight-stat em {
+  display: block;
+  margin-top: 0.15rem;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--text-dim);
+}
+
+/* Yellow action band */
+.action-band {
+  background: var(--accent-yellow);
+  color: #111;
+  padding: 2.25rem 1.5rem;
+  margin-top: 2rem;
+}
+
+.action-band-inner {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.3fr auto;
+  gap: 1.25rem 2rem;
+  align-items: center;
+}
+
+.action-band h2 {
+  font-family: var(--display);
+  font-size: clamp(1.45rem, 3.5vw, 2.1rem);
+  line-height: 1.05;
+  margin-bottom: 0.4rem;
+}
+
+.action-band p {
+  font-size: 0.98rem;
+  opacity: 0.9;
+  max-width: 34rem;
+}
+
+.action-band-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.action-band .hero-btn-primary {
+  background: #111;
+  color: #fff;
+}
+
+.action-band .hero-btn-primary:hover { background: #000; }
+
+.action-band .hero-btn-ghost {
+  border-color: rgba(0, 0, 0, 0.35);
+  color: #111;
+}
+
+.action-band .hero-btn-ghost:hover {
+  border-color: #111;
+}
+
+body.embed-mode .tracker-hero {
+  min-height: clamp(18rem, 52svh, 28rem);
+}
+
+body.embed-mode .tracker-hero-inner {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+body.embed-mode .spotlight-bills,
+body.embed-mode .action-band {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+body.embed-mode .action-band {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tracker-hero-media { animation: none; }
+  .tracker-brand, .tracker-plate, .tracker-hero-lead, .tracker-hero-cta { animation: none; }
+}
+
+/* Legacy standalone header (unused when hero is present) */
 .site-header {
   background: linear-gradient(180deg, #1a1a1a 0%, var(--bg) 100%);
   border-bottom: 1px solid var(--border);
@@ -1489,9 +1805,35 @@ body.embed-mode .campaign-filters {
 
   .intro-section,
   .cards-section,
-  .spreadsheet-section {
+  .spreadsheet-section,
+  .spotlight-bills {
     padding-left: 0.85rem;
     padding-right: 0.85rem;
+  }
+
+  .tracker-hero-inner {
+    padding: 2.25rem 0 1.75rem;
+  }
+
+  .tracker-plate {
+    font-size: clamp(1.85rem, 10vw, 2.6rem);
+  }
+
+  .spotlight-row {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+
+  .spotlight-stat {
+    text-align: left;
+  }
+
+  .action-band-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .action-band {
+    padding: 1.75rem 0.85rem;
   }
 
   .intro-section {
