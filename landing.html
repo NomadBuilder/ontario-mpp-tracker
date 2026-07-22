@@ -341,6 +341,65 @@
       border-top: 1px solid var(--line);
     }
 
+    .find-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 2rem 2.5rem;
+      align-items: stretch;
+    }
+
+    @media (max-width: 860px) {
+      .find-grid { grid-template-columns: 1fr; }
+      .find-visual { min-height: 16rem; order: -1; }
+    }
+
+    .find-visual {
+      position: relative;
+      min-height: 22rem;
+      border: 1px solid var(--line);
+      overflow: hidden;
+      background:
+        url("assets/mpp-chamber.jpg") center 20% / cover no-repeat;
+    }
+
+    .find-visual::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(105deg, rgba(10, 10, 10, 0.55) 0%, rgba(10, 10, 10, 0.2) 45%, rgba(10, 10, 10, 0.35) 100%),
+        linear-gradient(180deg, rgba(10, 10, 10, 0.15) 0%, rgba(10, 10, 10, 0.75) 100%);
+      pointer-events: none;
+    }
+
+    .find-visual::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 50% at 70% 40%, rgba(255, 199, 69, 0.14), transparent 60%);
+      pointer-events: none;
+    }
+
+    .find-visual-caption {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      padding: 1.15rem 1.2rem;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    .find-visual-caption strong {
+      display: block;
+      color: var(--yellow);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.3rem;
+    }
+
     .find-form {
       display: grid;
       gap: 0.75rem;
@@ -678,23 +737,31 @@
   </section>
 
   <section class="find" id="find">
-    <div class="wrap">
-      <p class="section-kicker">Start here</p>
-      <h2 class="section-title">Who represents you?</h2>
-      <p class="section-copy">
-        Enter your postal code. We’ll match your riding and hand you email + phone —
-        then you can open their votes in the tracker or send a message now.
-      </p>
-      <form class="find-form" id="postal-form">
-        <label for="postal">Postal code</label>
-        <div class="find-row">
-          <input id="postal" name="postal" type="text" inputmode="text" autocomplete="postal-code" placeholder="e.g. M5V 2T6" maxlength="7" required>
-          <button class="btn btn-primary" type="submit">Look up</button>
+    <div class="wrap find-grid">
+      <div>
+        <p class="section-kicker">Start here</p>
+        <h2 class="section-title">Who represents you?</h2>
+        <p class="section-copy">
+          Enter your postal code. We’ll match your riding and hand you email + phone —
+          then you can open their votes in the tracker or send a message now.
+        </p>
+        <form class="find-form" id="postal-form">
+          <label for="postal">Postal code</label>
+          <div class="find-row">
+            <input id="postal" name="postal" type="text" inputmode="text" autocomplete="postal-code" placeholder="e.g. M5V 2T6" maxlength="7" required>
+            <button class="btn btn-primary" type="submit">Look up</button>
+          </div>
+          <p class="find-hint">Tip: after you find them, send a short note naming the bill you care about and asking for a clear Yes/No answer.</p>
+          <p class="find-status" id="find-status" role="status" aria-live="polite"></p>
+        </form>
+        <div class="find-result" id="find-result" hidden></div>
+      </div>
+      <aside class="find-visual" role="img" aria-label="Members of Provincial Parliament in the Ontario legislature chamber">
+        <div class="find-visual-caption">
+          <strong>123 MPPs · Queen’s Park</strong>
+          One of them represents your riding. Find out who — then hold them to it.
         </div>
-        <p class="find-hint">Tip: after you find them, send a short note naming the bill you care about and asking for a clear Yes/No answer.</p>
-        <p class="find-status" id="find-status" role="status" aria-live="polite"></p>
-      </form>
-      <div class="find-result" id="find-result" hidden></div>
+      </aside>
     </div>
   </section>
 
