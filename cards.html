@@ -8,42 +8,46 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="cards.css?v=2">
+  <link rel="stylesheet" href="cards.css?v=3">
 </head>
 <body>
   <header class="top">
-    <div class="brand">
-      <img src="assets/onac.png" alt="" width="36" height="36">
-      <div>
-        <h1>Player cards</h1>
-        <p>Face · votes · money · contact</p>
+    <div class="top-bar">
+      <div class="brand">
+        <img src="assets/onac.png" alt="" width="36" height="36">
+        <div>
+          <h1>Player cards</h1>
+          <p>Face · votes · money · contact</p>
+        </div>
       </div>
+      <nav class="nav-links" aria-label="Related pages">
+        <a href="landing.html">Landing</a>
+        <a href="map.html">Map</a>
+        <a class="primary" href="./?embed=1">Tracker</a>
+      </nav>
     </div>
     <div class="filters">
       <label class="sr" for="q">Search</label>
       <input id="q" type="search" placeholder="Name or riding…" autocomplete="off">
-      <label class="sr" for="party">Party</label>
-      <select id="party">
-        <option value="">All parties</option>
-        <option value="Progressive Conservative">PC</option>
-        <option value="New Democratic">NDP</option>
-        <option value="Liberal">Liberal</option>
-        <option value="Green">Green</option>
-        <option value="Independent">Independent</option>
-      </select>
-      <label class="sr" for="sort">Sort</label>
-      <select id="sort">
-        <option value="name">Name</option>
-        <option value="expenses">Expenses ↓</option>
-        <option value="salary">Salary ↓</option>
-        <option value="riding">Riding</option>
-      </select>
+      <div class="filter-row">
+        <label class="sr" for="party">Party</label>
+        <select id="party">
+          <option value="">All parties</option>
+          <option value="Progressive Conservative">PC</option>
+          <option value="New Democratic">NDP</option>
+          <option value="Liberal">Liberal</option>
+          <option value="Green">Green</option>
+          <option value="Independent">Independent</option>
+        </select>
+        <label class="sr" for="sort">Sort</label>
+        <select id="sort">
+          <option value="name">Name</option>
+          <option value="expenses">Expenses ↓</option>
+          <option value="salary">Salary ↓</option>
+          <option value="riding">Riding</option>
+        </select>
+      </div>
     </div>
-    <nav class="nav-links" aria-label="Related pages">
-      <a href="landing.html">Landing</a>
-      <a href="map.html">Map</a>
-      <a class="primary" href="./?embed=1">Tracker</a>
-    </nav>
   </header>
 
   <p class="count" id="count" aria-live="polite"></p>

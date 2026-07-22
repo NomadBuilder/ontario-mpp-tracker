@@ -41,14 +41,19 @@ a { color: inherit; }
   top: 0;
   z-index: 40;
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem 1.25rem;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 0.65rem;
   padding: 0.85rem 1.1rem;
   border-bottom: 1px solid var(--line);
   background: rgba(10, 10, 10, 0.94);
   backdrop-filter: blur(10px);
+}
+.top-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1rem;
+  align-items: center;
+  justify-content: space-between;
 }
 .brand { display: flex; align-items: center; gap: 0.65rem; }
 .brand img { width: 2.2rem; height: 2.2rem; border-radius: 50%; background: #000; }
@@ -65,8 +70,12 @@ a { color: inherit; }
   flex-wrap: wrap;
   gap: 0.45rem;
   align-items: center;
-  flex: 1;
-  justify-content: center;
+}
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
 }
 .filters input,
 .filters select {
@@ -79,7 +88,7 @@ a { color: inherit; }
   padding: 0.5rem 0.75rem;
   min-height: 2.4rem;
 }
-.filters input { min-width: min(16rem, 100%); }
+.filters input { min-width: min(16rem, 100%); flex: 1; }
 .filters select {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23b5b5b5' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
@@ -403,10 +412,129 @@ a { color: inherit; }
 }
 
 @media (max-width: 720px) {
-  .top { align-items: stretch; }
-  .filters { justify-content: stretch; }
-  .filters input, .filters select { width: 100%; min-width: 0; }
-  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
-  .player-name { font-size: 1.05rem; }
-  .player-body { padding: 0.1rem 0.65rem 0.75rem; }
+  .top {
+    padding: 0.55rem 0.75rem 0.65rem;
+    gap: 0.5rem;
+  }
+  .brand p { display: none; }
+  .brand h1 { font-size: 1.05rem; }
+  .nav-links a {
+    font-size: 0.78rem;
+    padding: 0.35rem 0.5rem;
+    min-height: 2.2rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  .filters {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.4rem;
+  }
+  .filter-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.4rem;
+  }
+  .filters input,
+  .filters select {
+    width: 100%;
+    min-width: 0;
+    font-size: 16px; /* avoid iOS zoom */
+  }
+  .count {
+    width: min(100% - 1.5rem, 72rem);
+    margin-top: 0.65rem;
+    font-size: 0.78rem;
+  }
+  .grid {
+    width: min(100% - 1.5rem, 72rem);
+    margin: 0.65rem auto 1.75rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+  }
+  .player:hover,
+  .player:focus-visible {
+    transform: none;
+    box-shadow: none;
+  }
+  .player:active {
+    border-color: rgba(255, 199, 69, 0.55);
+  }
+  .player-photo {
+    aspect-ratio: 3 / 4;
+  }
+  .player-body {
+    padding: 0 0.55rem 0.65rem;
+    margin-top: -1.25rem;
+    gap: 0.28rem;
+  }
+  .player-party { font-size: 0.6rem; }
+  .player-name {
+    font-size: 0.95rem;
+    line-height: 1.08;
+  }
+  .player-riding {
+    font-size: 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .player-role {
+    font-size: 0.7rem;
+    -webkit-line-clamp: 1;
+  }
+  .vote-chip:nth-child(n + 3) { display: none; }
+  .vote-chip {
+    font-size: 0.62rem;
+    padding: 0.14rem 0.3rem;
+  }
+  .stat-row {
+    gap: 0.3rem;
+    padding-top: 0.4rem;
+    margin-top: 0.1rem;
+  }
+  .stat-row span:first-child { font-size: 0.58rem; }
+  .stat-row span:last-child { font-size: 0.8rem; }
+  /* Tap the card for full details — keep the grid clean */
+  .player-actions { display: none; }
+
+  .lightbox {
+    place-items: end center;
+    padding: 0;
+    align-content: end;
+  }
+  .lightbox-card {
+    width: 100%;
+    max-height: min(92dvh, 100%);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 0;
+  }
+  .lb-photo {
+    height: 9.5rem;
+  }
+  .lb-body {
+    padding: 0.75rem 0.85rem calc(0.95rem + env(safe-area-inset-bottom));
+    gap: 0.4rem;
+  }
+  .lb-body h2 { font-size: 1.3rem; }
+  .lb-actions .btn {
+    min-height: 2.45rem;
+    flex: 1 1 calc(50% - 0.3rem);
+    font-size: 0.84rem;
+  }
+  .foot {
+    padding: 0.75rem 0.85rem calc(0.9rem + env(safe-area-inset-bottom));
+    font-size: 0.72rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .grid { grid-template-columns: 1fr; }
+  .player-name { font-size: 1.15rem; }
+  .player-photo { aspect-ratio: 4 / 5; max-height: 18rem; }
+  .vote-chip:nth-child(n + 3) { display: inline-flex; }
 }
