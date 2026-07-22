@@ -51,30 +51,42 @@
 
   <div class="toolbar">
     <div class="toggles" role="group" aria-label="Overlays">
-      <label class="check has-tip" tabindex="0">
-        <input type="checkbox" id="tog-cabinet">
-        <span>Cabinet / power</span>
-        <span class="tip-btn" aria-hidden="true">?</span>
-        <span class="tip-bubble" role="tooltip">
-          Highlights ministers, the Premier, associate ministers, parliamentary assistants, whips, and House leadership. Use this to see who had power when they voted.
+      <div class="tog-item">
+        <label class="check">
+          <input type="checkbox" id="tog-cabinet">
+          <span>Cabinet / power</span>
+        </label>
+        <span class="tip-wrap">
+          <button type="button" class="tip-btn" aria-label="About Cabinet / power" aria-expanded="false">?</button>
+          <span class="tip-bubble" role="tooltip">
+            Highlights ministers, the Premier, associate ministers, parliamentary assistants, whips, and House leadership. Use this to see who had power when they voted.
+          </span>
         </span>
-      </label>
-      <label class="check has-tip" tabindex="0">
-        <input type="checkbox" id="tog-rebels">
-        <span>Caucus rebels <em id="rebel-count" class="tog-count"></em></span>
-        <span class="tip-btn" aria-hidden="true">?</span>
-        <span class="tip-bubble" role="tooltip">
-          MPPs who voted Yes/No against their own party’s majority on the selected bill. Many government bills have zero rebels — that means total party discipline, not a broken filter.
+      </div>
+      <div class="tog-item">
+        <label class="check">
+          <input type="checkbox" id="tog-rebels">
+          <span>Caucus rebels <em id="rebel-count" class="tog-count"></em></span>
+        </label>
+        <span class="tip-wrap">
+          <button type="button" class="tip-btn" aria-label="About Caucus rebels" aria-expanded="false">?</button>
+          <span class="tip-bubble" role="tooltip">
+            MPPs who voted Yes/No against their own party’s majority on the selected bill. Many government bills have zero rebels — that means total party discipline, not a broken filter.
+          </span>
         </span>
-      </label>
-      <label class="check has-tip" tabindex="0">
-        <input type="checkbox" id="tog-opposition">
-        <span>Local opposition <em id="local-count" class="tog-count"></em></span>
-        <span class="tip-btn" aria-hidden="true">?</span>
-        <span class="tip-bubble" role="tooltip">
-          Ridings with curated campaign notes where cities, residents, or local organising have pushed back on this bill (not a full lobbyist database). Click a highlighted riding to read the note.
+      </div>
+      <div class="tog-item">
+        <label class="check">
+          <input type="checkbox" id="tog-opposition">
+          <span>Local opposition <em id="local-count" class="tog-count"></em></span>
+        </label>
+        <span class="tip-wrap">
+          <button type="button" class="tip-btn" aria-label="About Local opposition" aria-expanded="false">?</button>
+          <span class="tip-bubble" role="tooltip">
+            Ridings with curated campaign notes where cities, residents, or local organising have pushed back on this bill (not a full lobbyist database). Click a highlighted riding to read the note.
+          </span>
         </span>
-      </label>
+      </div>
     </div>
     <div class="zoom-chips" role="group" aria-label="Map zoom">
       <button type="button" data-inset="ontario" class="chip active">Ontario</button>

@@ -101,7 +101,13 @@ select {
   background: #0f0f0f;
   z-index: 490;
 }
-.toggles, .zoom-chips { display: flex; flex-wrap: wrap; gap: 0.45rem 0.75rem; align-items: center; }
+.toggles, .zoom-chips { display: flex; flex-wrap: wrap; gap: 0.45rem 0.85rem; align-items: center; }
+.tog-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  position: relative;
+}
 .check {
   display: inline-flex;
   align-items: center;
@@ -125,25 +131,42 @@ select {
 .check em.tog-count:empty { display: none; }
 .check em.tog-count.is-zero { color: #ff9b9b; }
 
-.has-tip { padding-right: 0.15rem; }
+.tip-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
 .tip-btn {
+  appearance: none;
   display: inline-grid;
   place-items: center;
-  width: 1rem;
-  height: 1rem;
+  width: 1.05rem;
+  height: 1.05rem;
   border-radius: 50%;
   border: 1px solid var(--line);
+  background: #1a1a1a;
   color: var(--dim);
+  font: inherit;
   font-size: 0.65rem;
   font-weight: 700;
   line-height: 1;
+  padding: 0;
+  cursor: help;
+}
+.tip-btn:hover,
+.tip-btn:focus-visible {
+  color: var(--yellow);
+  border-color: var(--yellow);
+  outline: none;
 }
 .tip-bubble {
+  display: none;
   position: absolute;
-  left: 0;
-  top: calc(100% + 0.45rem);
-  z-index: 600;
-  width: min(18.5rem, 70vw);
+  left: 50%;
+  top: calc(100% + 0.5rem);
+  transform: translateX(-50%);
+  z-index: 700;
+  width: min(18.5rem, 72vw);
   padding: 0.65rem 0.75rem;
   background: #161616;
   border: 1px solid var(--line);
@@ -152,16 +175,12 @@ select {
   font-weight: 500;
   line-height: 1.4;
   box-shadow: 0 10px 28px rgba(0,0,0,0.45);
-  opacity: 0;
   pointer-events: none;
-  transform: translateY(-4px);
-  transition: opacity 0.15s ease, transform 0.15s ease;
 }
-.has-tip:hover .tip-bubble,
-.has-tip:focus-within .tip-bubble {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translateY(0);
+.tip-wrap:hover .tip-bubble,
+.tip-wrap:focus-within .tip-bubble,
+.tip-wrap.is-open .tip-bubble {
+  display: block;
 }
 
 .chip {

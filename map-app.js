@@ -1184,6 +1184,31 @@
   document.getElementById("rebel-modal").addEventListener("click", (e) => {
     if (e.target.id === "rebel-modal") closeRebelModal();
   });
+
+  // Tip ? buttons: hover on desktop; tap toggles on touch
+  document.querySelectorAll(".tip-wrap").forEach((wrap) => {
+    const btn = wrap.querySelector(".tip-btn");
+    if (!btn) return;
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const open = !wrap.classList.contains("is-open");
+      document.querySelectorAll(".tip-wrap.is-open").forEach((w) => {
+        w.classList.remove("is-open");
+        w.querySelector(".tip-btn")?.setAttribute("aria-expanded", "false");
+      });
+      wrap.classList.toggle("is-open", open);
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  });
+  document.addEventListener("click", (e) => {
+    if (e.target.closest(".tip-wrap")) return;
+    document.querySelectorAll(".tip-wrap.is-open").forEach((w) => {
+      w.classList.remove("is-open");
+      w.querySelector(".tip-btn")?.setAttribute("aria-expanded", "false");
+    });
+  });
+
   document.getElementById("panel-close").onclick = closePanel;
   document.getElementById("f-apply").onclick = applyFilters;
   document.getElementById("f-clear").onclick = () => {
