@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Ontario MPPs & How They Vote | Ontarians Against Corruption</title>
   <meta name="description" content="Explore Ontario MPP voting records, salaries, and accountability data.">
   <link rel="stylesheet" href="styles.css" id="main-styles">
@@ -37,15 +37,15 @@
       <section class="intro-section">
         <div class="intro-inner">
           <div class="intro-stats" id="intro-stats"></div>
-          <div class="intro-howto">
-            <h2>How to use this</h2>
+          <details class="intro-howto" id="howto-details" open>
+            <summary class="howto-summary">How to use this</summary>
             <ol class="howto-steps">
               <li><strong>Find your MPP</strong> — search by name or riding, or enter your postal code and press Enter.</li>
               <li><strong>Campaign filters</strong> — narrow the list by Yes / No / No Show on individual featured bills.</li>
               <li><strong>Expense spotlight</strong> — chip filters for top spenders, $50k/$100k+, hospitality-heavy, travel-heavy, and above/below party median. Sort by total, hospitality, or travel.</li>
               <li><strong>Take action</strong> — email or call from the card, or open the OLA expense disclosure link.</li>
             </ol>
-          </div>
+          </details>
           <div class="view-toggle" role="tablist">
             <button class="view-btn active" data-view="cards" role="tab">Card View</button>
             <button class="view-btn" data-view="table" role="tab">Full Data Table</button>
@@ -65,12 +65,13 @@
               <input
                 type="search"
                 id="search"
-                placeholder="Name, riding, party, or postal code…"
+                placeholder="Name, riding, or postal code"
                 autocomplete="off"
                 spellcheck="false"
+                enterkeyhint="search"
               >
             </form>
-            <div class="filter-group" id="filter-buttons"></div>
+            <div class="filter-group chip-scroll" id="filter-buttons"></div>
             <span class="result-count" id="result-count"></span>
           </div>
           <p class="search-status" id="search-status" role="status" aria-live="polite" hidden></p>
@@ -79,42 +80,52 @@
       </div>
 
       <div class="campaign-filters expense-filters" id="expense-filters" aria-label="Expense spotlight filters">
-        <div class="campaign-filters-inner">
-          <div class="campaign-filters-head">
-            <div>
-              <h2 class="campaign-filters-title">Expense spotlight</h2>
-              <p class="campaign-filters-lead">Flag high spenders, hospitality-heavy claims, and MPPs who outspend their party peers. Hover any <span class="has-tip tip-inline" data-tip="House median: the midpoint of all MPPs’ disclosed expense totals. Half spent more, half spent less." title="House median: the midpoint of all MPPs’ disclosed expense totals. Half spent more, half spent less.">term with a ?</span> or underlined label for a plain-language definition.</p>
+        <details class="filter-drawer" data-collapse-mobile open>
+          <summary class="filter-drawer-summary">
+            <span class="campaign-filters-title">Expense spotlight</span>
+          </summary>
+          <div class="campaign-filters-inner">
+            <div class="campaign-filters-head">
+              <div>
+                <h2 class="campaign-filters-title drawer-title-desktop">Expense spotlight</h2>
+                <p class="campaign-filters-lead">Flag high spenders, hospitality-heavy claims, and MPPs who outspend their party peers. Tap any <span class="has-tip tip-inline" data-tip="House median: the midpoint of all MPPs’ disclosed expense totals. Half spent more, half spent less." title="House median: the midpoint of all MPPs’ disclosed expense totals. Half spent more, half spent less.">term with a ?</span> or underlined label for a plain-language definition.</p>
+              </div>
+              <button type="button" class="campaign-clear" id="expense-clear" hidden>Clear spotlight</button>
             </div>
-            <button type="button" class="campaign-clear" id="expense-clear" hidden>Clear spotlight</button>
+            <div class="campaign-presets chip-scroll" id="expense-presets"></div>
+            <div class="expense-toolbar">
+              <label class="expense-control">
+                <span class="expense-control-label">Sort</span>
+                <select id="sort-mode" aria-label="Sort MPPs">
+                  <option value="name">Name A–Z</option>
+                  <option value="expenses-desc">Total expenses · high → low</option>
+                  <option value="expenses-asc">Total expenses · low → high</option>
+                  <option value="hospitality-desc">Hospitality · high → low</option>
+                  <option value="travel-desc">Travel · high → low</option>
+                </select>
+              </label>
+              <p class="expense-summary" id="expense-summary" hidden></p>
+            </div>
           </div>
-          <div class="campaign-presets" id="expense-presets"></div>
-          <div class="expense-toolbar">
-            <label class="expense-control">
-              <span class="expense-control-label">Sort</span>
-              <select id="sort-mode" aria-label="Sort MPPs">
-                <option value="name">Name A–Z</option>
-                <option value="expenses-desc">Total expenses · high → low</option>
-                <option value="expenses-asc">Total expenses · low → high</option>
-                <option value="hospitality-desc">Hospitality · high → low</option>
-                <option value="travel-desc">Travel · high → low</option>
-              </select>
-            </label>
-            <p class="expense-summary" id="expense-summary" hidden></p>
-          </div>
-        </div>
+        </details>
       </div>
 
       <div class="campaign-filters" id="campaign-filters" aria-label="Campaign vote filters">
-        <div class="campaign-filters-inner">
-          <div class="campaign-filters-head">
-            <div>
-              <h2 class="campaign-filters-title">Campaign filters</h2>
+        <details class="filter-drawer" data-collapse-mobile open>
+          <summary class="filter-drawer-summary">
+            <span class="campaign-filters-title">Campaign filters</span>
+          </summary>
+          <div class="campaign-filters-inner">
+            <div class="campaign-filters-head">
+              <div>
+                <h2 class="campaign-filters-title drawer-title-desktop">Campaign filters</h2>
+              </div>
+              <button type="button" class="campaign-clear" id="campaign-clear" hidden>Clear filters</button>
             </div>
-            <button type="button" class="campaign-clear" id="campaign-clear" hidden>Clear filters</button>
+            <div class="campaign-bill-grid" id="campaign-bill-grid"></div>
+            <p class="campaign-summary" id="campaign-summary" hidden></p>
           </div>
-          <div class="campaign-bill-grid" id="campaign-bill-grid"></div>
-          <p class="campaign-summary" id="campaign-summary" hidden></p>
-        </div>
+        </details>
       </div>
 
       <section class="cards-section" id="cards-section">

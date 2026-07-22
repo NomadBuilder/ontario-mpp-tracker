@@ -172,13 +172,96 @@ body {
 .party-dot.green { background: var(--party-green); }
 .party-dot.independent { background: var(--party-independent); }
 
-.intro-howto h2 {
+.intro-howto {
+  margin-top: 0.25rem;
+}
+
+.howto-summary,
+.filter-drawer-summary {
+  list-style: none;
+  cursor: pointer;
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.15rem 0;
+}
+
+.howto-summary::-webkit-details-marker,
+.filter-drawer-summary::-webkit-details-marker {
+  display: none;
+}
+
+.howto-summary::after,
+.filter-drawer-summary::after {
+  content: '▼';
+  font-size: 0.65rem;
+  color: var(--accent-yellow);
+  transition: transform var(--transition);
+}
+
+.intro-howto:not([open]) > .howto-summary::after,
+.filter-drawer:not([open]) > .filter-drawer-summary::after {
+  transform: rotate(-90deg);
+}
+
+.howto-summary {
   margin-bottom: 0.85rem;
+}
+
+.intro-howto[open] > .howto-summary {
+  margin-bottom: 0.85rem;
+}
+
+.filter-drawer-summary {
+  color: var(--accent-yellow);
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  padding: 1rem 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.filter-drawer[open] > .filter-drawer-summary {
+  border-radius: var(--radius) var(--radius) 0 0;
+  border-bottom: none;
+}
+
+.filter-drawer[open] > .campaign-filters-inner {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+}
+
+.expense-filters .filter-drawer-summary .campaign-filters-title {
+  color: #ffb454;
+}
+
+.filter-drawer > .campaign-filters-inner {
+  margin: 0;
+}
+
+/* Desktop: drawers stay open; hide the disclosure chrome */
+@media (min-width: 769px) {
+  .filter-drawer-summary {
+    display: none;
+  }
+
+  .filter-drawer > .campaign-filters-inner {
+    border-radius: var(--radius);
+  }
+}
+
+.chip-scroll {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .howto-steps {
@@ -1387,60 +1470,124 @@ body.embed-mode .campaign-filters {
 /* Responsive */
 @media (max-width: 1024px) {
   .cards-grid {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   }
 }
 
 @media (max-width: 768px) {
   .site-header {
-    padding: 1.75rem 1rem 1.5rem;
+    padding: 1.25rem 1rem 1.15rem;
   }
 
   .site-header h1 {
-    font-size: clamp(1.5rem, 6vw, 2rem);
+    font-size: clamp(1.45rem, 6vw, 1.85rem);
   }
 
   .header-lead {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .intro-section,
   .cards-section,
   .spreadsheet-section {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
+
+  .intro-section {
+    padding-top: 0.85rem;
+  }
+
+  body.embed-mode .intro-section {
+    padding-top: 0.65rem;
   }
 
   .intro-inner {
-    padding: 1.25rem;
+    padding: 1rem;
   }
 
   .intro-stats {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.65rem;
+    margin-bottom: 1rem;
   }
 
   .stat-pill,
   .stat-pill-wide {
     min-width: 0;
-    width: 100%;
+    width: auto;
+    padding: 0.75rem 0.85rem;
+  }
+
+  .stat-pill-wide {
+    grid-column: 1 / -1;
+  }
+
+  .stat-pill-number {
+    font-size: 1.35rem;
+  }
+
+  .drawer-title-desktop {
+    display: none;
+  }
+
+  .campaign-filters-head:has(.drawer-title-desktop:only-child),
+  .campaign-filters-head:not(:has(.campaign-filters-lead)) {
+    margin-bottom: 0.75rem;
+  }
+
+  .campaign-filters-head:not(:has(.campaign-filters-lead)) {
+    min-height: 0;
+  }
+
+  .campaign-filters-head:not(:has(.campaign-filters-lead)):not(:has(.campaign-clear:not([hidden]))) {
+    display: none;
+  }
+
+  .howto-summary {
+    min-height: 44px;
+  }
+
+  .filter-drawer {
+    margin: 0;
+  }
+
+  .filter-drawer-summary {
+    min-height: 48px;
+    padding: 0.85rem 1rem;
   }
 
   .view-toggle {
-    flex-direction: column;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .view-btn {
+    flex: 1;
+    min-height: 44px;
+    justify-content: center;
   }
 
   .controls-wrap {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    position: static;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+    margin-bottom: 0.85rem;
   }
 
   .controls-inner {
-    padding: 1.25rem;
+    padding: 1rem;
+  }
+
+  .controls-title {
+    margin-bottom: 0.75rem;
   }
 
   .controls {
     flex-direction: column;
     align-items: stretch;
+    gap: 0.75rem;
   }
 
   .search-box {
@@ -1448,9 +1595,35 @@ body.embed-mode .campaign-filters {
     width: 100%;
   }
 
-  .filter-group {
-    width: 100%;
-    justify-content: flex-start;
+  .search-box input {
+    font-size: 16px; /* prevents iOS zoom on focus */
+    min-height: 48px;
+  }
+
+  .chip-scroll,
+  .filter-group.chip-scroll,
+  .campaign-presets.chip-scroll {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    padding-bottom: 0.15rem;
+    margin-inline: -0.15rem;
+    padding-inline: 0.15rem;
+  }
+
+  .chip-scroll::-webkit-scrollbar,
+  .filter-group.chip-scroll::-webkit-scrollbar,
+  .campaign-presets.chip-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-btn,
+  .campaign-preset {
+    flex: 0 0 auto;
+    min-height: 44px;
+    padding: 0.55rem 0.95rem;
   }
 
   .expense-controls {
@@ -1458,17 +1631,41 @@ body.embed-mode .campaign-filters {
   }
 
   .expense-control {
-    flex: 1 1 10rem;
+    flex: 1 1 100%;
     min-width: 0;
   }
 
+  .expense-toolbar .expense-control {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .expense-control select,
+  .campaign-bill-select,
+  #sort-mode {
+    font-size: 16px;
+    min-height: 48px;
+  }
+
   .campaign-filters {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+    margin-bottom: 0.85rem;
+  }
+
+  body.embed-mode .campaign-filters,
+  body.embed-mode .expense-filters,
+  body.embed-mode .controls-wrap {
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
   }
 
   .campaign-filters-inner {
-    padding: 1.25rem;
+    padding: 1rem;
+  }
+
+  .campaign-filters-lead {
+    font-size: 0.8rem;
   }
 
   .search-result-head {
@@ -1481,20 +1678,47 @@ body.embed-mode .campaign-filters {
 
   .campaign-filters-head {
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.75rem;
   }
 
   .campaign-bill-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .campaign-bill-select {
+    width: 100%;
   }
 
   .result-count {
     margin-left: 0;
-    text-align: center;
+    text-align: left;
+  }
+
+  .cards-section {
+    padding-top: 0.5rem;
   }
 
   .cards-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .card-header {
+    padding: 1rem 1rem 0;
+  }
+
+  .card-divider {
+    margin: 0.85rem 1rem;
+  }
+
+  .card-stats {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .voting-section {
+    padding: 0 1rem 1rem;
   }
 
   .card-name-row {
@@ -1503,6 +1727,22 @@ body.embed-mode .campaign-filters {
 
   .card-footer {
     flex-direction: column;
+    padding: 1rem;
+  }
+
+  .card-link {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .voting-toggle {
+    min-height: 44px;
+  }
+
+  .mpp-card:hover {
+    transform: none;
   }
 
   .table-wrapper {
@@ -1518,47 +1758,39 @@ body.embed-mode .campaign-filters {
   .data-table td {
     padding: 0.6rem 0.75rem;
   }
+
+  /* Tip popovers: keep on-screen on narrow widths */
+  .has-tip[data-tip]::after {
+    left: 0;
+    right: auto;
+    transform: none;
+    max-width: min(18rem, calc(100vw - 2rem));
+  }
 }
 
 @media (max-width: 480px) {
   .site-header h1 {
-    font-size: 1.45rem;
+    font-size: 1.35rem;
   }
 
   .intro-inner {
-    padding: 1rem;
+    padding: 0.85rem;
+  }
+
+  .intro-stats {
+    gap: 0.5rem;
+  }
+
+  .stat-pill {
+    padding: 0.65rem 0.7rem;
   }
 
   .howto-steps li {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
   }
 
-  .controls {
-    top: 0;
-  }
-
-  .search-box input {
-    font-size: 16px; /* prevents iOS zoom on focus */
-  }
-
-  .filter-btn {
-    padding: 0.55rem 0.85rem;
-    min-height: 44px;
-  }
-
-  .view-btn {
-    min-height: 44px;
-  }
-
-  .voting-toggle {
-    min-height: 44px;
-  }
-
-  .card-link {
-    min-height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .party-badge {
+    font-size: 0.65rem;
   }
 
   .site-footer {

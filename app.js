@@ -564,6 +564,30 @@ function renderIntroStats() {
     <div class="stat-pill stat-pill-wide"><span class="stat-pill-label">By party</span><span class="stat-pill-parties">${partyBreakdown}</span></div>`;
 }
 
+function openParentDrawer(el) {
+  const drawer = el?.closest?.('details.filter-drawer');
+  if (drawer) drawer.open = true;
+}
+
+function setupMobileLayout() {
+  const mq = window.matchMedia('(max-width: 768px)');
+  const apply = () => {
+    document.body.classList.toggle('is-mobile', mq.matches);
+    document.querySelectorAll('details[data-collapse-mobile]').forEach((el) => {
+      if (!mq.matches) {
+        el.open = true;
+        return;
+      }
+      const hasActive = el.querySelector('.campaign-preset.active, .campaign-clear:not([hidden])');
+      if (!hasActive) el.open = false;
+    });
+    const howto = document.getElementById('howto-details');
+    if (howto) howto.open = !mq.matches;
+  };
+  apply();
+  mq.addEventListener('change', apply);
+}
+
 function setView(view) {
   document.getElementById('cards-section').classList.toggle('hidden', view !== 'cards');
   document.getElementById('table-section').classList.toggle('hidden', view !== 'table');
@@ -584,6 +608,7 @@ function updateCampaignSummary(filteredCount) {
     summary.textContent = '';
     return;
   }
+  openParentDrawer(clearBtn);
   const parts = Object.entries(voteFilters).map(
     ([bill, key]) => `${voteFilterLabel(key)} on ${bill}`
   );
@@ -646,6 +671,7 @@ function updateExpenseSummary(filteredCount) {
     return;
   }
 
+  openParentDrawer(clearBtn);
   summary.hidden = false;
   summary.textContent = `${EXPENSE_FOCUS_LABELS[expenseFocus] || expenseFocus} · ${filteredCount} MPP${filteredCount === 1 ? '' : 's'}`;
 }
@@ -743,6 +769,7 @@ async function init() {
     expenseIndex = window.MppShared.buildExpenseIndex(allMpps);
     document.getElementById('loading').style.display = 'none';
     document.getElementById('main-content').style.display = 'block';
+    setupMobileLayout();
     renderIntroStats();
     setupFilters();
     setupExpenseControls();
