@@ -834,11 +834,30 @@
       document.getElementById("bill-select").value = story.bill;
     }
     highlightCabinet = !!story.highlightCabinet;
-    highlightRebels = !!story.highlightRebels;
     highlightOpposition = !!story.highlightOpposition;
     document.getElementById("tog-cabinet").checked = highlightCabinet;
-    document.getElementById("tog-rebels").checked = highlightRebels;
     document.getElementById("tog-opposition").checked = highlightOpposition;
+
+    const wantRebels = !!story.highlightRebels;
+    if (wantRebels && rebelCountForBill(selectedBill) === 0) {
+      highlightRebels = false;
+      document.getElementById("tog-rebels").checked = false;
+      caption.textContent = story.caption || "";
+      caption.hidden = !story.caption;
+      if (story.filterMarginMax != null || story.filterVote) {
+        document.getElementById("f-margin").value = story.filterMarginMax ?? "";
+        document.getElementById("f-vote").value = story.filterVote || "";
+        applyFilters();
+      } else {
+        filterMask = null;
+        document.getElementById("f-count").textContent = "";
+      }
+      redraw(false);
+      showNoRebelsModal(selectedBill || "this bill");
+      return;
+    }
+    highlightRebels = wantRebels;
+    document.getElementById("tog-rebels").checked = highlightRebels;
 
     if (story.filterMarginMax != null || story.filterVote) {
       document.getElementById("f-margin").value = story.filterMarginMax ?? "";
