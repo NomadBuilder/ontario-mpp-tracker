@@ -1744,6 +1744,19 @@
       "claimCount": 142,
       "periodCount": 9
     },
+    "jonathan-tsao": {
+      "slug": "jonathan-tsao",
+      "name": "Tsao, Jonathan",
+      "riding": "Don Valley North",
+      "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/jonathan-tsao",
+      "total": 24004.28,
+      "travel": 1588.64,
+      "accommodation": 1359.73,
+      "meals": 72.01,
+      "hospitality": 20983.9,
+      "claimCount": 50,
+      "periodCount": 5
+    },
     "john-vanthof": {
       "slug": "john-vanthof",
       "name": "Vanthof, John",
@@ -2278,6 +2291,9 @@
     "effie j. triantafilopoulos": "effie-j-triantafilopoulos",
     "hon. effie j. triantafilopoulos": "effie-j-triantafilopoulos",
     "effie j triantafilopoulos": "effie-j-triantafilopoulos",
+    "tsao, jonathan": "jonathan-tsao",
+    "jonathan tsao": "jonathan-tsao",
+    "hon. jonathan tsao": "jonathan-tsao",
     "vanthof, john": "john-vanthof",
     "john vanthof": "john-vanthof",
     "hon. john vanthof": "john-vanthof",
