@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>MPP player cards | OAC</title>
-  <meta name="description" content="Ontario MPP player cards — face, riding, key votes, expenses, and contact. Built by Ontarians Against Corruption.">
+  <title>Accountability watch | OAC</title>
+  <meta name="description" content="Sourced news and integrity items linked to Ontario MPPs — curated by Ontarians Against Corruption. Separate from the live MPP tracker embed.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="cards.css?v=3">
+  <link rel="stylesheet" href="watch.css?v=1">
 </head>
 <body>
   <header class="top">
@@ -16,21 +16,33 @@
       <div class="brand">
         <img src="assets/onac.png" alt="" width="36" height="36">
         <div>
-          <h1>Player cards</h1>
-          <p>Face · votes · money · contact</p>
+          <h1>Accountability watch</h1>
+          <p>Sourced news · integrity · expenses</p>
         </div>
       </div>
       <nav class="nav-links" aria-label="Related pages">
         <a href="landing.html">Landing</a>
         <a href="map.html">Map</a>
-        <a href="watch.html">Watch</a>
+        <a href="cards.html">Cards</a>
         <a class="primary" href="./?embed=1">Tracker</a>
       </nav>
     </div>
+    <p class="disclaimer">
+      Curated links to reporting and official complaints — not a verdict of guilt.
+      Separate page; does not change the live tracker embed.
+    </p>
     <div class="filters">
       <label class="sr" for="q">Search</label>
-      <input id="q" type="search" placeholder="Name or riding…" autocomplete="off">
+      <input id="q" type="search" placeholder="Name, riding, or keyword…" autocomplete="off">
       <div class="filter-row">
+        <label class="sr" for="type">Type</label>
+        <select id="type">
+          <option value="">All types</option>
+          <option value="news">News</option>
+          <option value="integrity">Integrity</option>
+          <option value="expenses">Expenses</option>
+          <option value="investigation">Investigation</option>
+        </select>
         <label class="sr" for="party">Party</label>
         <select id="party">
           <option value="">All parties</option>
@@ -42,27 +54,25 @@
         </select>
         <label class="sr" for="sort">Sort</label>
         <select id="sort">
-          <option value="name">Name</option>
-          <option value="expenses">Expenses ↓</option>
-          <option value="salary">Salary ↓</option>
-          <option value="riding">Riding</option>
+          <option value="date">Newest</option>
+          <option value="mpp">By MPP</option>
+          <option value="type">By type</option>
         </select>
       </div>
     </div>
   </header>
 
   <p class="count" id="count" aria-live="polite"></p>
-  <main class="grid" id="grid"></main>
+  <main class="feed" id="feed"></main>
 
   <footer class="foot">
-    <p>Photos &amp; roles from the Legislative Assembly of Ontario · Built by <a href="https://onac.ca/">OAC</a></p>
+    <p>
+      Editors curate <code>data/accountability.json</code> · optional news assist via
+      <code>scripts/fetch_accountability_news.py</code> · Built by <a href="https://onac.ca/">OAC</a>
+    </p>
   </footer>
 
-  <div class="lightbox" id="lightbox" hidden>
-    <div class="lightbox-card" id="lightbox-card" role="dialog" aria-modal="true" aria-labelledby="lb-name"></div>
-  </div>
-
   <script src="shared.js"></script>
-  <script src="cards-app.js"></script>
+  <script src="watch-app.js"></script>
 </body>
 </html>

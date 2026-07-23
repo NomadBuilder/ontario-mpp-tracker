@@ -71,9 +71,30 @@ Pulled from [OLA Members’ expense disclosure](https://www.ola.org/en/members/e
 
 Pulled from the official [Public sector salary disclosure](https://www.ontario.ca/page/public-sector-salary-disclosure) Compendium CSV (Legislative Assembly employer). Matches MPPs by name (including known legal/preferred-name aliases), stores salary, taxable benefits, disclosed job title, and YoY raise %. Used to verify and fill gaps in the sheet’s Salary / Benefits / Raise % columns.
 
+### Accountability watch (separate page)
+
+Public page: **`watch.html`** — not part of the WordPress iframe tracker.
+
+Curated file: **`data/accountability.json`**. Each item needs:
+
+| Field | Example |
+| --- | --- |
+| `mppNames` | `["Jill Dunlop"]` (match sheet / OLA names; aliases OK) |
+| `title` | Short headline |
+| `summary` | 1–2 sentences |
+| `url` | Link to the source story or complaint |
+| `source` | Outlet name |
+| `date` | `YYYY-MM-DD` |
+| `type` | `news` · `integrity` · `expenses` · `investigation` |
+| `status` | `reported` · `under_review` · `resolved` (optional) |
+
+Only add sourced items. Do **not** frame unproven allegations as facts.
+
+Optional assist: run `python3 scripts/fetch_accountability_news.py` to refresh **`data/accountability-candidates.json`** from Google News RSS. Review candidates, then copy good ones into `accountability.json` (they do not publish automatically).
+
 ## WordPress page
 
-Editors only change intro text on the WP page. The tracker itself is an embed — **do not** paste spreadsheet data into WordPress.
+Editors only change intro text on the WP page. The tracker itself is an embed — **do not** paste spreadsheet data into WordPress. The accountability watch lives on its own URL and is not embedded with the tracker.
 
 Embed URL (V1 cards):
 

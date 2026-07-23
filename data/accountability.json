@@ -1,0 +1,72 @@
+{
+  "asOf": "2026-07-23",
+  "note": "Curated accountability items with sourced links. Editors add rows here (or promote from accountability-candidates.json). Do not auto-label stories as proven wrongdoing.",
+  "items": [
+    {
+      "id": "dunlop-asithappens-2026-07",
+      "mppNames": ["Jill Dunlop"],
+      "title": "Emergency minister’s CBC interview cut short after wildfire response questions",
+      "summary": "Staff ended Jill Dunlop’s As It Happens interview after questions about First Nations criticism of Ontario’s wildfire evacuations and coordination.",
+      "url": "https://www.cbc.ca/radio/asithappens/jill-dunlop-as-it-happens-9.7279725",
+      "source": "CBC Radio · As It Happens",
+      "date": "2026-07-22",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "grewal-punjabi-post-2026-07",
+      "mppNames": ["Hardeep Singh Grewal", "Hardeep Grewal"],
+      "title": "Integrity complaint over ads in father’s newspaper",
+      "summary": "NDP Leader Marit Stiles asked the Integrity Commissioner to examine whether Brampton East MPP Hardeep Grewal used constituency funds for ads in The Punjabi Post, run by his father.",
+      "url": "https://globalnews.ca/news/11972529/hardeep-grewal-ndp-complaint/",
+      "source": "Global News",
+      "date": "2026-07-21",
+      "type": "integrity",
+      "status": "under_review"
+    },
+    {
+      "id": "cho-hotel-resign-2026-07",
+      "mppNames": ["Stan Cho"],
+      "title": "Tourism minister resigns after Toronto hotel expense scrutiny",
+      "summary": "Stan Cho stepped down as Minister of Tourism, Culture and Gaming after reporting on GTA MPPs billing taxpayers for Toronto hotel stays; Ford said amounts would be repaid.",
+      "url": "https://www.nationalobserver.com/2026/07/21/news/ontario-doug-ford-mpp-billing-scandal",
+      "source": "Canada’s National Observer",
+      "date": "2026-07-21",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "grewal-williams-hotels-2026-07",
+      "mppNames": ["Hardeep Singh Grewal", "Charmaine A. Williams"],
+      "title": "Brampton MPPs under fire for Toronto hotel expense claims",
+      "summary": "Reporting highlighted Brampton East and Brampton Centre MPPs among GTA Progressive Conservatives who expensed substantial Toronto hotel stays while living in the GTA.",
+      "url": "https://www.bramptonguardian.com/news/brampton-mpps-toronto-hotel-expenses/article_2a5a8e2f-f4f3-5d7a-b82e-17a5b456a287.html",
+      "source": "Brampton Guardian",
+      "date": "2026-07-21",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "tangri-hotel-expenses-2026-07",
+      "mppNames": ["Nina Tangri"],
+      "title": "Associate minister named in GTA hotel expense reporting",
+      "summary": "Coverage of the Toronto hotel billing controversy listed Associate Minister Nina Tangri among Progressive Conservative MPPs with large accommodation claims.",
+      "url": "https://www.nationalobserver.com/2026/07/21/news/ontario-doug-ford-mpp-billing-scandal",
+      "source": "Canada’s National Observer",
+      "date": "2026-07-21",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "fn-inquiry-wildfire-2026-07",
+      "mppNames": ["Jill Dunlop", "Mike Harris", "Doug Ford"],
+      "title": "First Nation chiefs call for public inquiry into wildfire response",
+      "summary": "Nishnawbe Aski Nation and other leaders called for an inquiry into delays and gaps in Ontario’s wildfire emergency response and evacuations.",
+      "url": "https://www.cbc.ca/radio/asithappens/jill-dunlop-as-it-happens-9.7279725",
+      "source": "CBC / related coverage",
+      "date": "2026-07-22",
+      "type": "investigation",
+      "status": "reported"
+    }
+  ]
+}
