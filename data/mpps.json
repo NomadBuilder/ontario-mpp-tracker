@@ -20417,17 +20417,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Jonathan-Tsao.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/jonathan-tsao",
-      "expenses": {
-        "total": 24004.28,
-        "travel": 1588.64,
-        "accommodation": 1359.73,
-        "meals": 72.01,
-        "hospitality": 20983.9,
-        "claimCount": 50,
-        "periodCount": 5,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/jonathan-tsao",
-        "asOf": "2026-07-23"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 142141.99,
         "benefits": 827.4,
