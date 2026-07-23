@@ -211,11 +211,11 @@
           const label = (m.name || "").replace(/^Hon\.\s*/, "");
           const party = short ? `<span class="party">${escapeHtml(short)}</span>` : "";
           const riding = m.riding ? ` · ${escapeHtml(m.riding)}` : "";
-          return `<strong>${escapeHtml(label)}</strong>${party}${riding}`;
+          return `<span class="who-person"><strong>${escapeHtml(label)}</strong>${party}${riding}</span>`;
         })
-        .join("<br>");
+        .join("");
     }
-    return names.map((n) => `<strong>${escapeHtml(n)}</strong>`).join(", ") || "—";
+    return names.map((n) => `<span class="who-person"><strong>${escapeHtml(n)}</strong></span>`).join("") || "—";
   }
 
   function itemHtml(item, index) {
@@ -241,7 +241,7 @@
     return `
       <article class="item" style="--type:${typeColor};animation-delay:${Math.min(index * 30, 400)}ms">
         <div class="faces">${facesHtml}${extra}</div>
-        <div>
+        <div class="item-body">
           <div class="meta-row">
             <span class="badge">${escapeHtml(TYPE_LABEL[type] || type)}</span>
             ${status}

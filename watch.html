@@ -8,33 +8,32 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="watch.css?v=2">
+  <link rel="stylesheet" href="watch.css?v=3">
 </head>
 <body>
   <header class="top">
-    <div class="top-bar">
-      <div class="brand">
-        <img src="assets/onac.png" alt="" width="36" height="36">
-        <div>
-          <h1>Accountability watch</h1>
-          <p>Sourced news · integrity · expenses</p>
+    <div class="shell top-inner">
+      <div class="top-bar">
+        <div class="brand">
+          <img src="assets/onac.png" alt="" width="36" height="36">
+          <div>
+            <h1>Accountability watch</h1>
+            <p>Sourced news · integrity · expenses</p>
+          </div>
         </div>
+        <nav class="nav-links" aria-label="Related pages">
+          <a href="landing.html">Landing</a>
+          <a href="map.html">Map</a>
+          <a href="cards.html">Cards</a>
+          <a class="primary" href="./?embed=1">Tracker</a>
+        </nav>
       </div>
-      <nav class="nav-links" aria-label="Related pages">
-        <a href="landing.html">Landing</a>
-        <a href="map.html">Map</a>
-        <a href="cards.html">Cards</a>
-        <a class="primary" href="./?embed=1">Tracker</a>
-      </nav>
-    </div>
-    <p class="disclaimer">
-      Curated links to reporting and official complaints — not a verdict of guilt.
-      Separate page; does not change the live tracker embed.
-    </p>
-    <div class="filters">
-      <label class="sr" for="q">Search</label>
-      <input id="q" type="search" placeholder="Name, riding, or keyword…" autocomplete="off">
-      <div class="filter-row">
+      <p class="disclaimer">
+        Sourced links to reporting and complaints — not a verdict of guilt.
+      </p>
+      <div class="filters">
+        <label class="sr" for="q">Search</label>
+        <input id="q" type="search" placeholder="Name, riding, or keyword…" autocomplete="off">
         <label class="sr" for="type">Type</label>
         <select id="type">
           <option value="">All types</option>
@@ -62,11 +61,15 @@
     </div>
   </header>
 
-  <p class="count" id="count" aria-live="polite"></p>
-  <main class="feed" id="feed"></main>
+  <div class="shell main-shell">
+    <p class="count" id="count" aria-live="polite"></p>
+    <main class="feed" id="feed"></main>
+  </div>
 
   <footer class="foot">
-    <p>Built by <a href="https://onac.ca/">OAC</a></p>
+    <div class="shell">
+      <p>Built by <a href="https://onac.ca/">OAC</a></p>
+    </div>
   </footer>
 
   <script src="shared.js"></script>
