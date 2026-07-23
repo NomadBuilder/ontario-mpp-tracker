@@ -196,10 +196,11 @@
     if (!mpp) {
       return `<div class="face"><div class="fallback">?</div></div>`;
     }
+    const ini = escapeHtml(initials(mpp));
     if (mpp.photo) {
-      return `<div class="face"><img src="${escapeHtml(mpp.photo)}" alt="" loading="lazy" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><div class="fallback" hidden>${escapeHtml(initials(mpp))}</div></div>`;
+      return `<div class="face"><img src="${escapeHtml(mpp.photo)}" alt="" loading="lazy" decoding="async" onerror="this.onerror=null;const f=this.nextElementSibling;this.remove();if(f)f.hidden=false"><div class="fallback" hidden>${ini}</div></div>`;
     }
-    return `<div class="face"><div class="fallback">${escapeHtml(initials(mpp))}</div></div>`;
+    return `<div class="face"><div class="fallback">${ini}</div></div>`;
   }
 
   function whoLine(matched, names) {

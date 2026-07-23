@@ -88,7 +88,7 @@
     const party = PARTY_SHORT[mpp.party] || mpp.party || "—";
     const total = mpp.expenses?.total;
     const photo = mpp.photo
-      ? `<img src="${mpp.photo}" alt="" loading="lazy" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+      ? `<img src="${mpp.photo}" alt="" loading="lazy" decoding="async" onerror="this.onerror=null;const f=this.nextElementSibling;this.remove();if(f)f.hidden=false">
          <div class="fallback" hidden>${initials(mpp)}</div>`
       : `<div class="fallback">${initials(mpp)}</div>`;
     const email = mpp.email

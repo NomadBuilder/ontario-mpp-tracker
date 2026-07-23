@@ -165,9 +165,10 @@ code {
   height: 3.6rem;
   border-radius: 2px;
   overflow: hidden;
-  background: #222;
+  background: #1a1a1a;
   border: 1px solid var(--line);
   flex-shrink: 0;
+  position: relative;
 }
 .faces .face:first-child {
   width: 4.5rem;
@@ -179,6 +180,9 @@ code {
   object-fit: cover;
   object-position: top center;
   display: block;
+}
+.face img[hidden] {
+  display: none !important;
 }
 .face .fallback {
   width: 100%;
