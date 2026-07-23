@@ -1,6 +1,6 @@
 {
   "asOf": "2026-07-23",
-  "note": "Deduped by article URL and similar headlines — one card per story, with all associated MPPs merged (preferring the fuller people list). Auto-refreshed hourly from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
+  "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
       "id": "auto-doug-ford-first-nations-had-a-wildfire-plan-ontario-ignore-2026-07-23",
@@ -97,6 +97,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-stan-cho-scott-stinson-ontario-mpp-in-new-spending-contro-2026-07-20",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Scott Stinson: Ontario MPP in new spending controversy after riding association spent almost $100K on his meals, hotels - National Post",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GREF5cHVZMlVHQVA2VGxxb0lVTEUxMXlMZklhMHJERkhMNGlOdk1jakk4cUVjSi1MNUZmUlc4bHIyWEw1LTk4TTFxTjYwY2Qzb2RWdkVLcldLenZGTk9KUGNQODNYbTZFZjFmTVRXTVg0Q3NTZWtjaFpBeW0zRXM?oc=5",
+      "source": "National Post",
+      "date": "2026-07-22",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "cho-hotel-resign-2026-07",
       "mppNames": [
         "Stan Cho",
@@ -167,19 +180,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNZmhMVHdNUGlWMnJtNmpIcjhSRkdyVE1BcjI4SXZ5Ym5sMWdkcUI1ek9lX3FTZDdfemtENmljUGlvY3A3b2RPN0k2ZG1YNVMtUGJqcFp1S2pNQWdOaGFhYkRzQ2xKaXZ6NWZDemp5QnZZcVotVmlzazN1X19xZEdNTXg1cnFQTjBudkZ1MnVUb0pVbG9LS1p1Vmc1WG5mT3VpOUxnQS1DOXhLclc1NWJfXzIxRlJRR0NHOEdEdGR2WTZxcWtSYm1rVVdSdVhzNV9waWFRZFl0WjNqalMyMXZOWUpDeXFOUDczV3ZEOWZkbTgxLTFRbDRjX243dkJGYnQ5eVI2RmJjSXZEdkJublUyVmszanJQay1henRoUmFGWjhfRkdEc255SmcxOVV1ZDM2bGFiMWN4U3FSbjBaNFh0eEM5ejI2VzdJZTg0UDdnOU00b0RMampCUW1R?oc=5",
       "source": "MSN",
-      "date": "2026-07-20",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-stan-cho-scott-stinson-ontario-mpp-in-new-spending-contro-2026-07-20",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "Scott Stinson: Ontario MPP in new spending controversy after riding association spent almost $100K on his meals, hotels - National Post",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GREF5cHVZMlVHQVA2VGxxb0lVTEUxMXlMZklhMHJERkhMNGlOdk1jakk4cUVjSi1MNUZmUlc4bHIyWEw1LTk4TTFxTjYwY2Qzb2RWdkVLcldLenZGTk9KUGNQODNYbTZFZjFmTVRXTVg0Q3NTZWtjaFpBeW0zRXM?oc=5",
-      "source": "National Post",
       "date": "2026-07-20",
       "type": "expenses",
       "status": "reported"
@@ -1398,6 +1398,124 @@
       "source": "The Trillium",
       "date": "2023-03-17",
       "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-george-darouze-ottawa-police-investigated-allegations-of-explos-2023-01-29",
+      "mppNames": [
+        "George Darouze"
+      ],
+      "title": "Ottawa Police Investigated Allegations of ‘Explosives’ at Local Hotel During ‘Freedom Convoy’ - PressProgress",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZcTdYdnJ6ZXUtWU4yWi1MQjJUV2VmSGtHM0dxdUc3Y1Vta3NUMGZBUG5lQVhFR3VMNjJacUtHUFFXVExqNnpQV041OUZ2OU5sQU1KOGR0RkdvV3NycGIzMEtwbHFLVVJ1eE9OdXE4SlRXNGUtdHo5X0kwNA?oc=5",
+      "source": "PressProgress",
+      "date": "2023-01-29",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-john-jordan-protesters-converge-on-mpp-s-office-over-controv-2022-11-27",
+      "mppNames": [
+        "John Jordan"
+      ],
+      "title": "Protesters converge on MPP's office over controversial housing bill - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcC1rVWhwZ0JMa2J0dUFPclUycnNWUGlycWhHcVBqVUJOamRhZzRpd3VKNy1LOUlCTHpVYVljVWlzaVBiRmgxSi1NV0UwMXJkWC1iTU5rR2Jxd3NaMWRqSkhESDBweTl1c3ZyMVlVOFFoS0Uxa1ROR1ZOeUE2QnZCeWpjZHE2MmdqMjl3SlpQWlNZTUVaVktfVElSc3MzTXBtRDhYTE5EZzFTdWpqUVVFZ1ZMcWdFQWpj?oc=5",
+      "source": "CBC",
+      "date": "2022-11-27",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-will-bouma-ford-defends-brantford-brant-candidate-after-all-2022-05-19",
+      "mppNames": [
+        "Will Bouma"
+      ],
+      "title": "Ford defends Brantford-Brant candidate after allegations of homophobia - CHCH",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMDJGWklYWHJPTDhVcWQ3M0d0cVRiNzFmelF2TkR0dElfWi1DTk8zaE5oUEozcVJ5YlQ4M1RZa1c5Yk0taF9uUUR6WkJ4M181bkhIWlk1LVFMVnBoUDJoM0JyRmpJV056RS01bXUzYUZpTTlIMFMxM1ZCcnprUFFuaC1WU0kwbWg5eTNBbDNSSnhhdXFSZVRmdkdic2tBcEhMUmZaRg?oc=5",
+      "source": "CHCH",
+      "date": "2022-05-19",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-vijay-thanigasalam-scarborough-mpp-s-vaccine-forum-had-partisan-asp-2022-01-24",
+      "mppNames": [
+        "Vijay Thanigasalam"
+      ],
+      "title": "Scarborough MPP’s vaccine forum had ‘partisan aspect,’ Ontario Integrity Commissioner finds - Toronto.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOaU1SMjFiSFRTQWpjc0U5cHZIelkyUVlNcUtfVzBXVmprblJZV0lhQ2pGc2U3c0Z5UUdHVHBxRUpIcmUtcm5yYzNHSXc4Y2xHMFpSUHpFQ2UxVXhYbWl2bnA2ckxXclN3QU5XTHZJamRwT1ItNEcyU0dqaUk0a19UOTVqZ0lZUTRteU5NMWhaRWVYR2lTTF9DM1A5cWRmQTJheUFmY3JpdEh0ZzdJNWFoOXNERF8zN1NNRGlJV0N4a3R6UlFJT1U1ZWF6ZC01eldOa292R2lPenZka0Z6Rjd4RnR1Wkl4MV9IUUw4aEc2S3dwVkxMTWZpd3h3?oc=5",
+      "source": "Toronto.com",
+      "date": "2022-01-24",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-sam-oosterhoff-is-sam-oosterhoff-a-controversy-too-far-ipolitic-2021-03-15",
+      "mppNames": [
+        "Sam Oosterhoff"
+      ],
+      "title": "Is Sam Oosterhoff a controversy too far? - iPolitics",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVDhpMGZTVFVHa0RCMmZEWW80YjVUUVQ2MW9aTFZwUnZVeEQxQ2x1dElYVG5fY3BvbFlGNEJuOWtrbzRlZHZYbF9hcWZCZmJnTUJOMHhlWm84bml0TDdUQlpXeHFRU3dReXFrYVEwZkJ4cl9PczNkVmpnUnozN2VnUkxn?oc=5",
+      "source": "iPolitics",
+      "date": "2021-03-15",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-donna-skelly-speaker-clears-horwath-of-tory-mpp-s-pushing-all-2018-10-19",
+      "mppNames": [
+        "Donna Skelly"
+      ],
+      "title": "Speaker clears Horwath of Tory MPP's pushing allegation - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVmlFaHl2V0hvTHVWc2taR2dMdGJYaldHcTIxQkg5dU5wYkhrWVNiMGNXY2xRWjBXQkVTMlc4V3pYVWVVUWVvd3AtSjc1ZlVpTnROTWpOZ0YzNFlRbjdsclZxU2wtWm9MNC1JNzBhSFVUN1RkNDZWQllmWXNKTkxuVWtRNl96TWR4?oc=5",
+      "source": "CBC",
+      "date": "2018-10-19",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-donna-skelly-pc-candidate-draws-fire-after-holding-hat-associ-2018-05-30",
+      "mppNames": [
+        "Donna Skelly"
+      ],
+      "title": "PC candidate draws fire after holding hat associated with controversial right-wing website - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44WnVZcWdpYk1PUko4Z0xOSUxGejVrdkpBNHg2QmFzdmNpbFVPVmhSN0hDVGNjNGlLMXU4bnBqd1JsY0ZYa2tMZWhUSDRKUEVod0xHaUd1RjZ2TUNZSGFCaU45ZHZUZDhZT2JMRw?oc=5",
+      "source": "CBC",
+      "date": "2018-05-30",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-kinga-surma-young-candidate-embroiled-in-controversy-with-do-2018-05-25",
+      "mppNames": [
+        "Kinga Surma",
+        "Doug Ford"
+      ],
+      "title": "Young candidate embroiled in controversy with Doug Ford has long history with PC leader and Tory politics - National Post",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGVGSDdkQS1SU2R0MlJzZWhGS1ozSGZrM09YUkVHWXBhZlh5UlMwZlQwQUdFYjNxdUZrVGRRRnJVWGlWNnBpM3h4SzNoMWpQOExPUy1tTDlTNXFLUndCTmFaT29rWHFYbk10czUzdkFDMUlBZ2FybkI4clJXUGwzYUxvSWplVmN0VUJTejlqcmdxQlc0cUFxb1ZqY1RJd0NVblRmZ1FCTVVXN3ZpSkJhYWlFOV84amxZX0hXQzVSZ1dDZzNtbjRnWGZzNVNoVXlM?oc=5",
+      "source": "National Post",
+      "date": "2018-05-25",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-victor-fedeli-ontario-tories-want-police-to-probe-liberal-gas--2013-06-06",
+      "mppNames": [
+        "Victor Fedeli"
+      ],
+      "title": "Ontario Tories want police to probe Liberal gas plant email deletion - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaEwyUEJRcV9xeVhFM2pyc2xGb1NDM21NZlJsRjJsT1g5UVpqMDhteVJ2S1pXdjQxbmZIN0pKQ29iTG5oZ29jZWViTndRWW1TeDJzLTJjUXJWMUpSOW9ncEhQZlNieWxXYlpJbEpmOXBSd1JBdXpUaFlOX1gyQjRhLUM5bjAwQ0RFaktVQWdvTHZRYnRkQkpnNWZRRmtwRUp5Z3JiQnNyRXdNNHJnMDJ4a1UybWdFaVZM?oc=5",
+      "source": "CBC",
+      "date": "2013-06-06",
+      "type": "investigation",
       "status": "reported"
     }
   ]
