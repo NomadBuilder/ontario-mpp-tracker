@@ -3,6 +3,22 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "fn-inquiry-wildfire-2026-07",
+      "mppNames": [
+        "Jill Dunlop",
+        "Mike Harris",
+        "Doug Ford"
+      ],
+      "title": "Emergency minister’s CBC interview cut short; First Nations call for wildfire inquiry",
+      "summary": "Staff ended Jill Dunlop’s As It Happens interview after questions about First Nations criticism of Ontario’s wildfire evacuations. Chiefs have called for a public inquiry into delays and gaps in the provincial response.",
+      "url": "https://www.cbc.ca/radio/asithappens/jill-dunlop-as-it-happens-9.7279725",
+      "source": "CBC Radio · As It Happens",
+      "date": "2026-07-23",
+      "type": "investigation",
+      "status": "reported",
+      "curated": true
+    },
+    {
       "id": "auto-doug-ford-first-nations-had-a-wildfire-plan-ontario-ignore-2026-07-23",
       "mppNames": [
         "Doug Ford"
@@ -27,22 +43,6 @@
       "date": "2026-07-23",
       "type": "news",
       "status": "reported"
-    },
-    {
-      "id": "fn-inquiry-wildfire-2026-07",
-      "mppNames": [
-        "Jill Dunlop",
-        "Mike Harris",
-        "Doug Ford"
-      ],
-      "title": "Emergency minister’s CBC interview cut short; First Nations call for wildfire inquiry",
-      "summary": "Staff ended Jill Dunlop’s As It Happens interview after questions about First Nations criticism of Ontario’s wildfire evacuations. Chiefs have called for a public inquiry into delays and gaps in the provincial response.",
-      "url": "https://www.cbc.ca/radio/asithappens/jill-dunlop-as-it-happens-9.7279725",
-      "source": "CBC Radio · As It Happens",
-      "date": "2026-07-22",
-      "type": "investigation",
-      "status": "reported",
-      "curated": true
     },
     {
       "id": "auto-doug-ford-ford-government-advised-its-mpps-they-could-use--2026-07-22",
@@ -757,6 +757,19 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMklPblVQY09BeFhxUTFGa25sa041bEQtZnZNT1FuSmRuT2loS0JnbkV4ZE9yLUt5MEcyQ0UtWlhzSWRrb1dqYlFiLXJGUHAwR29GakxhS2lhYUppSzE4b3lnVUZCUmNpY0xGM1NUYmVqZjhVUDdDN0J5TEZsMFFvSGx6RlBfbjBQeFpzb1g0TXluS0E?oc=5",
       "source": "CBC",
       "date": "2026-05-12",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-michael-parsa-ford-government-delays-release-of-child-welfare--2026-05-07",
+      "mppNames": [
+        "Michael Parsa"
+      ],
+      "title": "Ford government delays release of child welfare audits again - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUUpDYVVPS0xJcHRqbm9VMENyaU1TVmRLWXVBR2REcVNQVExCNklpUll5eWlIeER6Nzg2eXNhWjc0bzF4dC0wYm01YURWSFBiYk9LemdIZEU2cGoxSXV6aEVIcklkODBGdUZnSmRqc3kwOHFPUk5CQVlmdUdsWktmZ011T3g?oc=5",
+      "source": "Global News",
+      "date": "2026-05-07",
       "type": "investigation",
       "status": "reported"
     },
