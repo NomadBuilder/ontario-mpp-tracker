@@ -28,6 +28,56 @@
 
   let items = [];
   let mpps = [];
+  let featured = [];
+  let active = null;
+
+  function money(n) {
+    if (typeof n !== "number" || Number.isNaN(n)) return "—";
+    if (n >= 1e6) return "$" + (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M";
+    if (n >= 1e3) return "$" + Math.round(n / 1e3) + "k";
+    return "$" + Math.round(n).toLocaleString("en-CA");
+  }
+
+  function voteKey(vote) {
+    if (!vote) return "na";
+    if (vote.yes === true || vote.display === "Yes") return "yes";
+    if (vote.yes === false || vote.display === "No") return "no";
+    if (vote.display === "No Show" || vote.vote === "No Show") return "noshow";
+    return "na";
+  }
+
+  function voteLabel(key) {
+    return ({ yes: "Yes", no: "No", noshow: "NS", na: "N/A" })[key] || key;
+  }
+
+  function getVote(mpp, bill) {
+    return (mpp.votes || []).find((v) => v.bill === bill || String(v.bill || "").startsWith(bill)) || null;
+  }
+
+  function powerLabel(mpp) {
+    const blob = String(mpp.roles || "").toLowerCase();
+    if (/\bpremier\b/.test(blob)) return "Premier";
+    if (/associate minister/.test(blob)) return "Associate minister";
+    if (/\bminister\b/.test(blob) && !/parliamentary assistant/.test(blob)) return "Minister";
+    if (/house leader/.test(blob)) return "House leadership";
+    if (/\bwhip\b/.test(blob)) return "Whip";
+    if (/\bspeaker\b/.test(blob)) return "Speaker";
+    if (/parliamentary assistant|assistant to the minister|assistant to the premier/.test(blob)) {
+      return "Parliamentary assistant";
+    }
+    return null;
+  }
+
+  function roleSnippet(mpp) {
+    const power = powerLabel(mpp);
+    if (power) return power;
+    const raw = String(mpp.roles || "").split("|")[0].trim();
+    return raw || "Member of Provincial Parliament";
+  }
+
+  function mppIndex(mpp) {
+    return mpps.indexOf(mpp);
+  }
 
   function normalize(s) {
     return String(s || "")
@@ -211,7 +261,8 @@
           const label = (m.name || "").replace(/^Hon\.\s*/, "");
           const party = short ? `<span class="party">${escapeHtml(short)}</span>` : "";
           const riding = m.riding ? ` · ${escapeHtml(m.riding)}` : "";
-          return `<span class="who-person"><strong>${escapeHtml(label)}</strong>${party}${riding}</span>`;
+          const idx = mppIndex(m);
+          return `<button type="button" class="who-person" data-open-mpp="${idx}"><strong>${escapeHtml(label)}</strong>${party}${riding}</button>`;
         })
         .join("");
     }
@@ -226,7 +277,10 @@
     const primary = matched[0] || null;
     const extra = matched.length > 3 ? `<div class="face-more">+${matched.length - 3}</div>` : "";
     const facesHtml = faces.length
-      ? faces.map((m) => faceHtml(m)).join("")
+      ? faces.map((m) => {
+          const idx = mppIndex(m);
+          return `<button type="button" class="face-btn" data-open-mpp="${idx}" aria-label="Open card for ${escapeHtml((m.name || "").replace(/^Hon\.\s*/, ""))}">${faceHtml(m)}</button>`;
+        }).join("")
       : faceHtml(null);
     const status = item.status && item.status !== "reported"
       ? `<span class="status">${escapeHtml(STATUS_LABEL[item.status] || item.status)}</span>`
@@ -234,8 +288,8 @@
     const email = primary?.email
       ? `<a class="btn btn-ghost" href="mailto:${escapeHtml(primary.email)}">Email MPP</a>`
       : "";
-    const cardLink = primary
-      ? `<a class="btn btn-ghost" href="cards.html">Player cards</a>`
+    const cardBtn = primary
+      ? `<button type="button" class="btn btn-ghost" data-open-mpp="${mppIndex(primary)}">Open card</button>`
       : "";
 
     return `
@@ -253,10 +307,59 @@
           <div class="actions">
             <a class="btn btn-primary" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">Read source</a>
             ${email}
-            ${cardLink}
+            ${cardBtn}
           </div>
         </div>
       </article>`;
+  }
+
+  function openLightbox(mpp) {
+    if (!mpp) return;
+    active = mpp;
+    const box = document.getElementById("lightbox");
+    const card = document.getElementById("lightbox-card");
+    const party = PARTY_SHORT[mpp.party] || mpp.party || "—";
+    const power = powerLabel(mpp);
+    const ini = escapeHtml(initials(mpp));
+    const photo = mpp.photo
+      ? `<img src="${escapeHtml(mpp.photo)}" alt="" onerror="this.onerror=null;this.replaceWith(Object.assign(document.createElement('div'),{className:'fallback',textContent:'${ini}'}))">`
+      : `<div class="fallback">${ini}</div>`;
+    const votes = featured.map((bill) => {
+      const k = voteKey(getVote(mpp, bill));
+      return `<div class="lb-vote"><span>${escapeHtml(bill)}</span><span class="vote-chip ${k}">${voteLabel(k)}</span></div>`;
+    }).join("");
+    const raise = mpp.raisePct ?? mpp.sunshine?.raisePct;
+
+    card.innerHTML = `
+      <button type="button" class="lb-close" id="lb-close" aria-label="Close">&times;</button>
+      <div class="lb-photo">${photo}</div>
+      <div class="lb-body">
+        <p class="lb-party">${escapeHtml(party)}${power ? " · " + escapeHtml(power) : ""}</p>
+        <h2 id="lb-name">${escapeHtml((mpp.name || "").replace(/^Hon\.\s*/, ""))}</h2>
+        <p class="lb-meta">${escapeHtml(mpp.riding || "—")}</p>
+        <p class="lb-meta">${escapeHtml(roleSnippet(mpp))}</p>
+        <div class="stat-row">
+          <div><span>Expenses</span><span>${money(mpp.expenses?.total)}</span></div>
+          <div><span>Salary</span><span>${money(mpp.salary)}${raise != null ? ` · ${raise > 0 ? "+" : ""}${Number(raise).toFixed(1)}%` : ""}</span></div>
+        </div>
+        <div class="lb-votes">${votes}</div>
+        <div class="lb-actions">
+          ${mpp.email ? `<a class="btn btn-primary" href="mailto:${escapeHtml(mpp.email)}">Email MPP</a>` : ""}
+          ${mpp.phone ? `<a class="btn btn-ghost" href="tel:${String(mpp.phone).replace(/[^\d+]/g, "")}">Call</a>` : ""}
+          <a class="btn btn-ghost" href="./?embed=1">Tracker</a>
+          <a class="btn btn-ghost" href="map.html">Map</a>
+          ${mpp.profileUrl ? `<a class="btn btn-ghost" href="${escapeHtml(mpp.profileUrl)}" target="_blank" rel="noopener">OLA profile</a>` : ""}
+        </div>
+      </div>`;
+    box.hidden = false;
+    document.body.style.overflow = "hidden";
+    document.getElementById("lb-close").onclick = closeLightbox;
+  }
+
+  function closeLightbox() {
+    document.getElementById("lightbox").hidden = true;
+    document.body.style.overflow = "";
+    active = null;
   }
 
   function filtered() {
@@ -318,6 +421,21 @@
       document.getElementById(id).addEventListener("input", render);
       document.getElementById(id).addEventListener("change", render);
     });
+
+    document.getElementById("feed").addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-open-mpp]");
+      if (!btn) return;
+      e.preventDefault();
+      const mpp = mpps[Number(btn.getAttribute("data-open-mpp"))];
+      if (mpp) openLightbox(mpp);
+    });
+
+    document.getElementById("lightbox").addEventListener("click", (e) => {
+      if (e.target.id === "lightbox") closeLightbox();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && active) closeLightbox();
+    });
   }
 
   Promise.all([
@@ -326,6 +444,7 @@
   ])
     .then(([watch, payload]) => {
       mpps = payload.mpps || [];
+      featured = payload.featuredBills || [];
       items = dedupeItems((watch.items || []).filter((it) => it.show !== false));
       items._asOf = watch.asOf || "";
       bind();
