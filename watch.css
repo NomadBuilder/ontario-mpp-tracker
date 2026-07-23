@@ -157,17 +157,21 @@ code {
 .faces {
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
+  gap: 0.3rem;
   align-items: center;
 }
 .face {
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 3.6rem;
+  height: 3.6rem;
   border-radius: 2px;
   overflow: hidden;
   background: #222;
   border: 1px solid var(--line);
   flex-shrink: 0;
+}
+.faces .face:first-child {
+  width: 4.5rem;
+  height: 4.5rem;
 }
 .face img {
   width: 100%;

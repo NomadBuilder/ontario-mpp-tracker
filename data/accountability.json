@@ -1,71 +1,1403 @@
 {
   "asOf": "2026-07-23",
-  "note": "Curated accountability items with sourced links. Editors add rows here (or promote from accountability-candidates.json). Do not auto-label stories as proven wrongdoing.",
+  "note": "Deduped by article URL and similar headlines — one card per story, with all associated MPPs merged (preferring the fuller people list). Auto-refreshed hourly from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
-      "id": "dunlop-asithappens-2026-07",
-      "mppNames": ["Jill Dunlop"],
-      "title": "Emergency minister’s CBC interview cut short after wildfire response questions",
-      "summary": "Staff ended Jill Dunlop’s As It Happens interview after questions about First Nations criticism of Ontario’s wildfire evacuations and coordination.",
+      "id": "auto-doug-ford-first-nations-had-a-wildfire-plan-ontario-ignore-2026-07-23",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "First Nations had a wildfire plan. Ontario ignored it. Then came the flames - The Narwhal",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkSWlzNFdtc2FXN2xCVlRYMTFicEFzVDZ3N1ZxZW5vREJETUxzSm9JaTR2cE1lNXROVDd2dXhySFpMSVdfc044Rm9CR2FaamtNZTcyYmRaOUJLeTI3SEp6b0h4dmc3T3NkMWl4VExOMTN4VkZS?oc=5",
+      "source": "The Narwhal",
+      "date": "2026-07-23",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "fn-inquiry-wildfire-2026-07",
+      "mppNames": [
+        "Jill Dunlop",
+        "Mike Harris",
+        "Doug Ford"
+      ],
+      "title": "Emergency minister’s CBC interview cut short; First Nations call for wildfire inquiry",
+      "summary": "Staff ended Jill Dunlop’s As It Happens interview after questions about First Nations criticism of Ontario’s wildfire evacuations. Chiefs have called for a public inquiry into delays and gaps in the provincial response.",
       "url": "https://www.cbc.ca/radio/asithappens/jill-dunlop-as-it-happens-9.7279725",
       "source": "CBC Radio · As It Happens",
+      "date": "2026-07-22",
+      "type": "investigation",
+      "status": "reported",
+      "curated": true
+    },
+    {
+      "id": "auto-doug-ford-ford-government-advised-its-mpps-they-could-use--2026-07-22",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ford government advised its MPPs they could use hotel benefit for night sittings - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd1pvQkUyRXpoYm9ZQjA3SE5sNU4xdVRsWjlTOU1qbG8tbkc3dHJhVmlqVmN5N3VsWE9oeGtBSXloWllMdl9DaGFydHZZc2xxcTVSNVRwd1VFMUhGalMtSkRPVVJiVW80dlpIbkpwR1FUVy1sWXdxVTZpX1cxeEx0TzhoUDVQUEpHQXYxVg?oc=5",
+      "source": "Global News",
+      "date": "2026-07-22",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-david-piccini-opposition-slams-expenses-at-hotels-limo-company-2026-07-22",
+      "mppNames": [
+        "David Piccini"
+      ],
+      "title": "Opposition slams expenses at hotels, limo company paid for by Ontario labour minister’s constituency association - CP24",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS295cVVqenBuVEU4dkYxbXNMVTFwZXZuT1VNM00xMUdBaTl1NnFMVWlUUWNDS0NxYVRDRFdYai1ab29WUjRUdV9PcXRBbFBQMjdPSFdQeFc0QnJoT0VQVGRWbTJaU28zekg1VWtvcnlva2hkdWxBbDlJSElBYTVPVTNvUllFTDFkTWl3Um1KX0xtVFAxS1h2NVlzMjFJcUtyRHVOMFJsaDRpM3ZnUG5iTFMzT1Q2ZUtETVVwN2loMHpzODJlekQ5MVJFNWhobmZYMHc?oc=5",
+      "source": "CP24",
+      "date": "2026-07-22",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-premier-doug-ford-says-local-mpps-must-repay-tor-2026-07-22",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Premier Doug Ford says local MPPs must repay Toronto hotel expenses, Brampton East rep faces ethics complaint - Brampton Guardian",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMVRfbFk2SlFuVWJRXzJkc3RnRHRXV2tUc3ZZajNoZ2FsSDBxQVNTMEJhTllWZTk2RGtRVXk4VjVXc2l6SFA3NlJxay1hRlV4UEp2dHV5Qnl1Qk8zRV81Vl9zWWRheFRCbDhNa1Z6SGoxbURSUkUyTWRRZENTZVoyRmo1X29iNkVsQlFvSEFOS05qR05ZTnFYYjRVX3ByMnZKMTBiS1JsTW8zVEdFU0JFZTN5ZGNkcWhGOGpiU3JkYVFldw?oc=5",
+      "source": "Brampton Guardian",
+      "date": "2026-07-22",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-jill-dunlop-first-nations-leaders-demand-public-inquiry-into-2026-07-22",
+      "mppNames": [
+        "Jill Dunlop"
+      ],
+      "title": "First Nations leaders demand public inquiry into Ontario wildfire response - CTV News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc0ZSMXJLUWRMYlAxdV8zZjZveGlQOWhKZWNrYVRUOFREZ3RVLTdNQzk2VW5XdU00aWtNcXFUY1dKZVBIVXg3Y0NyRUNEejNsV2x0TFU3RHRWQ3hCS1IwX2xvVFFPbHJMZXdvVFFlWDNDWUxyT0swSlluWTdOeHI4TDlVTWdlUnNUb3JCYnJsUHJEZVF5cFlrQVZxMFpIUklNMFdrQ21PRG9IZ2l5QWJuQ0gxWnE1THVUNS15RHZmNVc?oc=5",
+      "source": "CTV News",
+      "date": "2026-07-22",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-jill-dunlop-ontario-s-minister-of-emergency-preparedness-and-2026-07-22",
+      "mppNames": [
+        "Jill Dunlop"
+      ],
+      "title": "Ontario's minister of emergency preparedness and response hung up during a CBC radio interview - Toronto Life",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM2dXT2xtcVk4V0FxM2k2UnlhT1pjSmdpYTEyWlNidERnQ1Jtd1E3cFdCTjBVMkRaLUtGcEdreEVCMFp6ODhSNFBaQ0JCUDFuVWwxd3VadGEzVXlMZ2VUT2JzdkFNY0ljLXh4Ym5wakpMY3hQbkNoMnM5cTBxU0JMMWY1YnF0SGlUaFpfdjFpRWh5aVdmMmozYVVqcHRuVmJ0QmRvZ3J3YVA5aGlSeENoMlBCb3Y5WXo3?oc=5",
+      "source": "Toronto Life",
       "date": "2026-07-22",
       "type": "news",
       "status": "reported"
     },
     {
+      "id": "cho-hotel-resign-2026-07",
+      "mppNames": [
+        "Stan Cho",
+        "Nina Tangri",
+        "Hardeep Singh Grewal",
+        "Charmaine A. Williams",
+        "Doug Ford"
+      ],
+      "title": "Tourism minister resigns amid GTA hotel expense scrutiny; Ford says MPPs will repay",
+      "summary": "Stan Cho stepped down as Minister of Tourism, Culture and Gaming after reporting on GTA Progressive Conservative MPPs billing taxpayers for Toronto hotel stays. Coverage also named Nina Tangri, Hardeep Grewal, and Charmaine Williams among high claimants; Ford said amounts would be repaid.",
+      "url": "https://www.nationalobserver.com/2026/07/21/news/ontario-doug-ford-mpp-billing-scandal",
+      "source": "Canada’s National Observer",
+      "date": "2026-07-21",
+      "type": "expenses",
+      "status": "reported",
+      "curated": true
+    },
+    {
       "id": "grewal-punjabi-post-2026-07",
-      "mppNames": ["Hardeep Singh Grewal", "Hardeep Grewal"],
+      "mppNames": [
+        "Hardeep Singh Grewal",
+        "Marit Stiles"
+      ],
       "title": "Integrity complaint over ads in father’s newspaper",
       "summary": "NDP Leader Marit Stiles asked the Integrity Commissioner to examine whether Brampton East MPP Hardeep Grewal used constituency funds for ads in The Punjabi Post, run by his father.",
       "url": "https://globalnews.ca/news/11972529/hardeep-grewal-ndp-complaint/",
       "source": "Global News",
       "date": "2026-07-21",
       "type": "integrity",
-      "status": "under_review"
-    },
-    {
-      "id": "cho-hotel-resign-2026-07",
-      "mppNames": ["Stan Cho"],
-      "title": "Tourism minister resigns after Toronto hotel expense scrutiny",
-      "summary": "Stan Cho stepped down as Minister of Tourism, Culture and Gaming after reporting on GTA MPPs billing taxpayers for Toronto hotel stays; Ford said amounts would be repaid.",
-      "url": "https://www.nationalobserver.com/2026/07/21/news/ontario-doug-ford-mpp-billing-scandal",
-      "source": "Canada’s National Observer",
-      "date": "2026-07-21",
-      "type": "expenses",
-      "status": "reported"
+      "status": "under_review",
+      "curated": true
     },
     {
       "id": "grewal-williams-hotels-2026-07",
-      "mppNames": ["Hardeep Singh Grewal", "Charmaine A. Williams"],
+      "mppNames": [
+        "Hardeep Singh Grewal",
+        "Charmaine A. Williams"
+      ],
       "title": "Brampton MPPs under fire for Toronto hotel expense claims",
       "summary": "Reporting highlighted Brampton East and Brampton Centre MPPs among GTA Progressive Conservatives who expensed substantial Toronto hotel stays while living in the GTA.",
       "url": "https://www.bramptonguardian.com/news/brampton-mpps-toronto-hotel-expenses/article_2a5a8e2f-f4f3-5d7a-b82e-17a5b456a287.html",
       "source": "Brampton Guardian",
       "date": "2026-07-21",
       "type": "expenses",
+      "status": "reported",
+      "curated": true
+    },
+    {
+      "id": "auto-hardeep-singh-grewal-pc-mpp-potentially-spent-taxpayer-money-on-ads-i-2026-07-21",
+      "mppNames": [
+        "Hardeep Singh Grewal"
+      ],
+      "title": "PC MPP potentially spent taxpayer money on ads in newspaper owned by his father, NDP leader says - Seek Your Sounds",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaTB1WDNoTlNGdFE3LWViRXh6Rl83NmRHVkh4c0JmWjBIV2FHZ2tiZU1NVkVMLTBjU0lvZG93MkNuX2VKckZvcENfZmJUR0dsbEctSUpkaWNUNGVHSlZpcDNiOUM5WWhUcUFKSkkzalhERHBWZS0xVnBaNjk4SW9pVTRRa0JqZHl5ZVpZZ2xLTV8?oc=5",
+      "source": "Seek Your Sounds",
+      "date": "2026-07-21",
+      "type": "news",
       "status": "reported"
     },
     {
-      "id": "tangri-hotel-expenses-2026-07",
-      "mppNames": ["Nina Tangri"],
-      "title": "Associate minister named in GTA hotel expense reporting",
-      "summary": "Coverage of the Toronto hotel billing controversy listed Associate Minister Nina Tangri among Progressive Conservative MPPs with large accommodation claims.",
-      "url": "https://www.nationalobserver.com/2026/07/21/news/ontario-doug-ford-mpp-billing-scandal",
-      "source": "Canada’s National Observer",
-      "date": "2026-07-21",
+      "id": "auto-willowdale-mpp-stan-cho-resigns-from-doug-ford-s-2026-07-20",
+      "mppNames": [
+        "Stan Cho",
+        "Doug Ford"
+      ],
+      "title": "Willowdale MPP Stan Cho resigns from Doug Ford's cabinet over hotel expenses - MSN",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNZmhMVHdNUGlWMnJtNmpIcjhSRkdyVE1BcjI4SXZ5Ym5sMWdkcUI1ek9lX3FTZDdfemtENmljUGlvY3A3b2RPN0k2ZG1YNVMtUGJqcFp1S2pNQWdOaGFhYkRzQ2xKaXZ6NWZDemp5QnZZcVotVmlzazN1X19xZEdNTXg1cnFQTjBudkZ1MnVUb0pVbG9LS1p1Vmc1WG5mT3VpOUxnQS1DOXhLclc1NWJfXzIxRlJRR0NHOEdEdGR2WTZxcWtSYm1rVVdSdVhzNV9waWFRZFl0WjNqalMyMXZOWUpDeXFOUDczV3ZEOWZkbTgxLTFRbDRjX243dkJGYnQ5eVI2RmJjSXZEdkJublUyVmszanJQay1henRoUmFGWjhfRkdEc255SmcxOVV1ZDM2bGFiMWN4U3FSbjBaNFh0eEM5ejI2VzdJZTg0UDdnOU00b0RMampCUW1R?oc=5",
+      "source": "MSN",
+      "date": "2026-07-20",
       "type": "expenses",
       "status": "reported"
     },
     {
-      "id": "fn-inquiry-wildfire-2026-07",
-      "mppNames": ["Jill Dunlop", "Mike Harris", "Doug Ford"],
-      "title": "First Nation chiefs call for public inquiry into wildfire response",
-      "summary": "Nishnawbe Aski Nation and other leaders called for an inquiry into delays and gaps in Ontario’s wildfire emergency response and evacuations.",
-      "url": "https://www.cbc.ca/radio/asithappens/jill-dunlop-as-it-happens-9.7279725",
-      "source": "CBC / related coverage",
-      "date": "2026-07-22",
+      "id": "auto-stan-cho-scott-stinson-ontario-mpp-in-new-spending-contro-2026-07-20",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Scott Stinson: Ontario MPP in new spending controversy after riding association spent almost $100K on his meals, hotels - National Post",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GREF5cHVZMlVHQVA2VGxxb0lVTEUxMXlMZklhMHJERkhMNGlOdk1jakk4cUVjSi1MNUZmUlc4bHIyWEw1LTk4TTFxTjYwY2Qzb2RWdkVLcldLenZGTk9KUGNQODNYbTZFZjFmTVRXTVg0Q3NTZWtjaFpBeW0zRXM?oc=5",
+      "source": "National Post",
+      "date": "2026-07-20",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-in-addition-to-16-000-in-hotel-expenses-stan-cho-2026-07-20",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "In addition to $16,000 in hotel expenses, Stan Cho allegedly spent thousands more on lobster and a limousine - Toronto Life",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQlY0Nkhxb3RxY1FIMHlicGdjOGhidXRSMmdELVhTczFqd0g2UGJ5LWpRa1JNTnRCLXhub1pJTHJtU3ZJTzVNSzc1ZldqY2dQajBGUGlkdlRJaDJPOFV3YUFsbnBXUXZrVEhLanhLcVM1RC0ya0h3Q1JPdFNRTHFWYzV2M3dUWXpGS3FEX0lQdXVHdzRlendVa1VscWZXdXNTM0hvUUZpcjRkNlQwTXJzWmczcGYtd0lxRlU4bUpRQ0R5UFFmU0NCSGVZU0J5aWxX?oc=5",
+      "source": "Toronto Life",
+      "date": "2026-07-20",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stan-cho-ontario-mpp-charged-riding-association-for-resta-2026-07-20",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Ontario MPP charged riding association for restaurants, hotels and limo rental - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CQlRvODV6LUxYdlJfdlozY1NBZkdBQWdWYmJKN2VyOHFfOFgwdjZqaHVFdjVxbjlScUtYUGhJbW1lLTdfOEwwcHNrY1pLOXRmaDlnUGJrYWdVdGtJMC1ZMnBoNS1NOEhwZDlOVTBB?oc=5",
+      "source": "Global News",
+      "date": "2026-07-20",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-hardeep-singh-grewal-brampton-mpp-accused-of-using-public-funds-for-a-2026-07-20",
+      "mppNames": [
+        "Hardeep Singh Grewal"
+      ],
+      "title": "Brampton MPP accused of using public funds for ads in family newspaper, integrity commissioner reviewing - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQ2x5OGl4UFFaa3pFV2R2OXNxd2hwMjQ3enU0ZHNkcGJWM25Zam1ZZDA0LUZ0Z2FTRE9XQmZWUXdSekhyRzduUUlwYkdJS1F0RmdGUTZ6MnhoYmRkUFVReVRDbGJNTGlYcTNrR3NSVENYN1J3LVRUbGhkZ2FBVHFBRU12UWJiVmMtOGFHb1hjWVp0WGp1NmVhQS1XTldvU1llQmpacGxJakk3TkdVcDk2VTBIWkU0UHplcGJVaw?oc=5",
+      "source": "CBC",
+      "date": "2026-07-20",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-hardeep-singh-grewal-brampton-mpp-faces-questions-over-taxpayer-funde-2026-07-20",
+      "mppNames": [
+        "Hardeep Singh Grewal"
+      ],
+      "title": "Brampton MPP faces questions over taxpayer-funded ads in father’s newspaper - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjekFQMnF4YnowOG51M2M1YVM2ckJMcS1mS1VQX1AzUlRfc2NLUmhycEVncWtTZ3lQY1N6VXBuQ1J2RUpVR2FCVnJneFJDTFFVYVhBQVp2R2k3T1AtU0UyRjhvYlV3aEgtWVFpcVZKTXNOSXM?oc=5",
+      "source": "Global News",
+      "date": "2026-07-20",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-s-minister-resigns-over-16k-hotel-expe-2026-07-20",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford's minister resigns over $16K hotel expense scandal - NOW Toronto",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSVAwVnhRQ0dITUZrOFZzcll4OUplcXdpaXNHRElyeWdJWDUyN2NaVEZXTmtJajliSk1KMGhnZElaOWF5ZlR5VC14VFdDbWtPNm1pdl9ocWN6Y3FTb2tHY3NCWkpFLUtvdE5YdzlHUXY0TzJUSURpWjhnNFlTUndmTEZnVjBJZ3lPdVUw?oc=5",
+      "source": "NOW Toronto",
+      "date": "2026-07-20",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-mike-harris-it-s-moving-quickly-ford-provides-update-on-nort-2026-07-20",
+      "mppNames": [
+        "Mike Harris"
+      ],
+      "title": "'It's moving quickly': Ford provides update on northern Ontario wildfires, evacuations - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90VTBIdzVRcEpGeDdpSVExVmNBcC1GVk5vLVU3VVBWUkVucFp2M2Y4SGFuZ3BYYWhNZzJ4a1RPX0dfSTdCY3JMSFRURWp0Q1Q1a2VJSWlOQXQzb3I4MU1SaUFuRDdGVWNxYzJ2QkFYZklObVpOc1BraC03OWVZQ2c?oc=5",
+      "source": "CBC",
+      "date": "2026-07-20",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-ontario-premier-doug-ford-s-update-on-wildfires--2026-07-20",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ontario Premier Doug Ford's Update on Wildfires – July 20, 2026 - CPAC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNenZWc1Q2d05jd2lZVkpWV1V3aGlPM0Z0OVAtNXpGXzE4dzQ0NDdDVjVZQUF3aVB0aVE3QkZjd09nTEpwS0NsU0Nxc3k1d0xldS1LMnA5aFMyNkNGQUl1RHYzRDJhNzc3LWNiNVBQVF92QU5zUGdVaG1Ebk9vYXV3WmQ2S0hqRklWN3FwazVhUXViMWRjVlJ4NDZsZ1hMT0VZcFpJajh4SGU0bmVLSlVnY09lTS1NMl93V3Fvc1hsUTRIOXNPU2tLc1hXcVg0S3hQOUZGd21yQjZQSndCUTFR?oc=5",
+      "source": "CPAC",
+      "date": "2026-07-20",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-mike-harris-ontario-expanding-emergency-message-system-as-ne-2026-07-19",
+      "mppNames": [
+        "Mike Harris"
+      ],
+      "title": "Ontario expanding emergency message system as nearly 200 wildfires rage - Castanet",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNel9SQ2FGU3owTnlpLVBzVlR2NnpQUnBSREhnTnQxY3ItX01mQnhHRXl0RTdzdEZjaDE5eTJIbWxIby1TYm4tb2VkcHZsb2UydXJHaFpmblNJbW9LY2NSb1RkUDV5SWFydTJvLW5kTTB0Q3RNVjg0N1BTY2xzMlVxd1VMaTQzYjJfekFqM25BdXh1emZFVzgySDhoU3dyMFdwVEhrdW4xWjVLTUNJZUgzWmdaRjBKQQ?oc=5",
+      "source": "Castanet",
+      "date": "2026-07-19",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-warns-ontario-wildfire-evacuees-not-to-2026-07-18",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford Warns Ontario Wildfire Evacuees Not to Return Home - Barrie 360",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVGhUOTVINWFpVjZHc1V0ZTgwdmN6MU1lYUUzbTF2Q1p6QXg1REVqb2x3cWRfbjVuOV9QeDJESzNzUXNYYmc0NXBLdG93VzlTRzQwNlJIVENKZXpPNlpzcU1JUTh5ZUVybXJmRXhyakNvRjgtQU84LUoyOEV1dXhUeVVqaHFGc2NnSjE0?oc=5",
+      "source": "Barrie 360",
+      "date": "2026-07-18",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-neil-lumsden-cabinet-shuffle-in-the-works-with-resignation-of-2026-07-17",
+      "mppNames": [
+        "Neil Lumsden",
+        "Stan Cho"
+      ],
+      "title": "Cabinet shuffle in the works with Resignation of Stan Cho and surprise retirement announcement by Neil Lumsden - bayobserver.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLUt3Xy1XckhwYkdxdVpvOEJENjFTdmpyUWxxZDktVUV3Z1FIMXlxb3hpSW9pUlRNNE5ObnJfQndzamJaV3NCbmEzOTNkSE53bnJKekdtVWhJakNlSVRJRktzZEgxdDhfWENRZXdwaFZqSU1yUnV4UG1mMkdiWUl2Nl8zeUNfRGhzOXRfUlZzYTJkNVlFQmJFVlNMbzZnNkVOSFdCc3pCMGl3N3p5bVVIV3FDTUxyU2dzTnNmZnhPYkdnVXRkc3drVGkzaVhQckE?oc=5",
+      "source": "bayobserver.ca",
+      "date": "2026-07-17",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nina-tangri-ontario-pc-mpps-who-spent-big-on-hotels-face-que-2026-07-17",
+      "mppNames": [
+        "Nina Tangri"
+      ],
+      "title": "Ontario PC MPPs who spent big on hotels face questions as minister resigns - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRGpVLXkxUzl0MFF3Ql9JWFpxY1pGbTV6ZjZZbWtZWHdOUVRPU1h4ZXU1R3pPU1BfSXZUSXdiSkxDMk5CdTdfZWJWT2pobTlyd05kc3JTbC1XMmpvMWhTUkRzMExpUEU0VnA4ZlExOHQ3WE9uVm1ZaUZmUWVqNGIxcVJjVXhCeWQzN0RrSg?oc=5",
+      "source": "Global News",
+      "date": "2026-07-17",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-ontario-tourism-minister-stan-cho-resigns-over-h-2026-07-17",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Ontario tourism minister Stan Cho resigns over hotel expenses scandal - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE14MkFhaWNrc3lYeWF3bndLNjJQczQyb2ZaNDdvejJXLVZhOF8tUlRKNXBuMWpMbVNNSGZvM1R0Ynh3WXhBV0JmcnlmZFpoMGNPYWNOcE1JbFpjdWRsNEtTWEpITQ?oc=5",
+      "source": "Global News",
+      "date": "2026-07-17",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stan-cho-has-resigned-over-spending-16-000-on-ho-2026-07-17",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Stan Cho has resigned over spending $16,000 on hotels 20 minutes from his house - Toronto Life",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdk9oY1J1cGFOTjJoMjRqcnRCTDE0d1NjWnhYNk9OZlFyZUVDamZRdkUxRFhaY29XcUZkd25xR1FJZUl6eGZ4bEc2dmVGT3JqUFQtMk9KQ2NtdUNORklLSkJhd2YyeW44emFxaGM5Um00ZU5BZlM3V05hTHpIaFR1d1pOZ3BteGdlOS1ieVk3VFp4TlNuUGEtd1p6dFFBUTBzMDNRRnctTlpKR3M?oc=5",
+      "source": "Toronto Life",
+      "date": "2026-07-17",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-not-in-our-dna-doug-ford-defends-party-s-reputat-2026-07-17",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "'Not in our DNA': Doug Ford defends party's reputation as minister resigns - London Free Press",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcWxwWHE3SGJOMGJKQkdJZ3FYejFWUnotVDBIdkdsZ0xXVUYySlpVU1Y4SVc2U2hUQ2xiU3RkTG9qbHNyN2dHZGZxMUgxdUNNSmZvcU5fdk1kS2gzOERNRVRWdE5GVWs5dU9uWmdEMDZ6TUtTVnRSZ013WFRLektTNmlNRDJ5Ylp3UnN3YjJ5WDVLbUd3c3VwRWJIaHRMckJLNTJla183OA?oc=5",
+      "source": "London Free Press",
+      "date": "2026-07-17",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-mpp-stan-cho-resigns-after-16k-toronto-hotel-exp-2026-07-17",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "MPP Stan Cho resigns after $16K Toronto hotel expense controversy - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LLUJVR1BVZmwtVmlMR2pxUk4tcDE4dHhDcmVuZnlfZlVpdXBpb2sxN0stY29qNTJRZGtTal9xNWgyNmd2NUpTVWV1RUcyQ1lQM0tPRmpwRWNtQQ?oc=5",
+      "source": "CBC",
+      "date": "2026-07-17",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-neil-lumsden-ministers-cho-lumsden-leaving-ford-s-cabinet-ami-2026-07-17",
+      "mppNames": [
+        "Neil Lumsden"
+      ],
+      "title": "Ministers Cho, Lumsden leaving Ford’s cabinet amid hotel controversy - CHCH",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVUlsb3RWSmo0d3BYeHdJZHpiYWhNcDRtMm96VkQxQnVrMUJObEdWakdqa3d2SU1pbGsxenNpNjhmS251eGxQeHRBS2ExazhmWG42a3RMNkpOVFF3ai1HMWMwc0gxdlYyLVhJMTJ2ZGdfWm9WLS0tT253VjZLTjVaN21RYUVXZHFWa2pReGxfbHY1NDg?oc=5",
+      "source": "CHCH",
+      "date": "2026-07-17",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-mike-harris-ontario-crews-battling-about-190-wildfires-half--2026-07-17",
+      "mppNames": [
+        "Mike Harris"
+      ],
+      "title": "Ontario crews battling about 190 wildfires, half out of control: officials - Castanet",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX1NFOEFpTUdpcWRzRjF4VURSWjVQeEVzNnBOWjZoNGkxSW5RQms4UFNNOHczQkhlczZLZ2VoZVNQR0ljREZURFA0aWpuZXNiR1pOZ0QzbWZjNWVMNFpvdGx2UG1KZWNJVlgwX1FmdTB3UkZrcS1UTjh0R1F4dHpTclh5WE02R0hBWno3YnFvSG1YLXZtc3pKcEp4cUNFWEI0QnY0QldvVmFOZXNZRTgyN3VBRVk1TjQ?oc=5",
+      "source": "Castanet",
+      "date": "2026-07-17",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-neil-lumsden-ontario-cabinet-minister-resigns-in-hotel-expens-2026-07-17",
+      "mppNames": [
+        "Neil Lumsden"
+      ],
+      "title": "Ontario cabinet minister resigns in hotel expense saga - INsauga",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcWZuWmI3TFdHVzJ5ejN1VkJ0NDRxcmlrdzBvOFdEOWtpYVNSWVFIU2haZjVlUnl3WDVXWThFUDFkZTZTTUxLckNKS0dEYUJteXlQT3JKNHdEUlNGTW0ydmpqaXp6NC11NkhFYjlGZTZoTHV4aVZ0dFlQWmxjR2dtZGdaU3VzUQ?oc=5",
+      "source": "INsauga",
+      "date": "2026-07-17",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-blasts-his-own-tory-ministers-and-mpps-2026-07-16",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford blasts his own Tory ministers and MPPs for ‘totally unacceptable’ expensing of Toronto hotel rooms - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOS3ZURXlJOTY1NEMtS2steVBleWcxUldxYWpSS0lmT2dsa05YMnh6WFVZSVJwOV9DYTJXMGx0UkNzNDZnX2RJYWFWQWlTYzhXZDFmOWNSQ25acTE4bHpUeXVtbjM1OTliT3I0a0c2OVpZRS1VN2x1Umhmdi1XSnVzckY5NTYzekQxeXFOUjFlUVk2OXlJRXJJeGp4cE1WYnVyYl9KQUs2dTQtSF9wd2cwZVFmekU2NVdSaU1nUlhXbHl0VUVmbEJmQlEzYWFLaU1oM1BaamwxMFJxbFljMkNYc19hRFFIUmF2elUxLUNHaExYUmZXYlNuSGktaHhleEh1dXE0bnBPRjNQbGpjSW51Wmo1a1FQNDY5ODBLYnhiSjg?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-07-16",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-vows-to-spare-no-expense-in-ontario-wi-2026-07-16",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford vows to spare no expense in Ontario wildfire fight - London Free Press",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU29WVGFycktCTE1ibUJTOHpSeHZoM1dWaklrOVNFUG9XR3dySXVnUWk3RGVMQlBIckQ0YkVubWQ0U21MWk9uTF9ZMVhUbWNLRFprOU9LZlFjQnhRbEdrX0E2dV9Gb2pTM2pkTG1xdkVCakFrVjJySVJxMDI1U1hGN0FTMEtlTFhxT2cyMWpGTUo2NkRIdkg1UFZB?oc=5",
+      "source": "London Free Press",
+      "date": "2026-07-16",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-greg-rickford-statement-on-northern-ontario-wildfires-minister-2026-07-16",
+      "mppNames": [
+        "Greg Rickford"
+      ],
+      "title": "Statement on Northern Ontario Wildfires: Minister Greg Rickford - NetNewsLedger",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSGN2T2hmejdvUDN4VHpReTl1SG5DTkdSTm9sTnczQ19xbTVDQVR4WWFoYmIwRTlvTUoxdk92eUpUVU91aExYMEtVUVBGaWRVVW9QQzdRblI0dDBjaC1lM3UwRUlaX1RPU3dqRmVDUjJkNDZwcVZielFjU2JSTTdWQTk4ZXFnc1NaSmx3MFN6UEdiV0JtbVRQR0VVaTh1UlNqYkFoOFVuVQ?oc=5",
+      "source": "NetNewsLedger",
+      "date": "2026-07-16",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nina-tangri-unacceptable-ford-says-about-some-toronto-area-m-2026-07-16",
+      "mppNames": [
+        "Nina Tangri"
+      ],
+      "title": "'Unacceptable': Ford says about some Toronto-area ministers billing for hotel stays in the city - CityNews Toronto",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcllmZlF2WjVvXzBrNS00MTRudkw3eGFnTHh4c0VmbUZXb2lPelVKZzdWT2I3ZVo3OGdJZ3NyMjN1M25tNjYzVWEwbGQwcjd2QlRoQlFiY0NBV1FBNng1elFQeThlSjh4bEN3eVd1aWZFMG1RZVBqUXF1TmU0YV9CVQ?oc=5",
+      "source": "CityNews Toronto",
+      "date": "2026-07-16",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-mohamed-firin-stan-cho-s-16k-hotel-tab-is-just-the-tip-of-the--2026-07-15",
+      "mppNames": [
+        "Mohamed Firin",
+        "Stan Cho"
+      ],
+      "title": "Stan Cho's $16k hotel tab is just the tip of the iceberg - Queen's Park Observer",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtVGkyZEgzdEs1OThHM0h1aXJ0SUt2TVFLTWlzMlBNNmlBMVNoeC1XczQ3dDBiV0hjc09kTl9zX3lnRExJWnZfYXdxSWJBeWZLMVU4YzU5djlEdXhxczRQc3hFZTRjQnZBY0NmRDFhcG0?oc=5",
+      "source": "Queen's Park Observer",
+      "date": "2026-07-15",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-mohamed-firin-scott-stinson-ontario-minister-who-lives-in-toro-2026-07-15",
+      "mppNames": [
+        "Mohamed Firin"
+      ],
+      "title": "Scott Stinson: Ontario minister who lives in Toronto billed $16,000 for Toronto hotels - National Post",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoNUpWQ2syWWRwQldDZmZRc1JCbU5EaUF0MzNmY01CRlZKb0lfMlR5TTFPYXdKT1BuMlNscDBVdnZCSkRjUG9OUGJFUGFFSWNrVkFzRkFtUm9BTWJraDV1bms0RVo1dWk4b1RKeXN4cEwzdw?oc=5",
+      "source": "National Post",
+      "date": "2026-07-15",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nina-tangri-ford-government-looks-to-axe-rule-that-allowed-t-2026-07-15",
+      "mppNames": [
+        "Nina Tangri"
+      ],
+      "title": "Ford government looks to axe rule that allowed Toronto MPPs expense hotel stays in city - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQODBmZTFDNUVmY3V1VF81ZG9qVE42eWg1UzhtN1o1blRNdHZtZ2tOWFNLTWszS3FjWFhlRGQwUDZOaE9waTJCR05PZm8wSnE1MVR3NkJCdk1tWExYa201aWp4bl80TjUydVlTR2JtcGN0djVtVXFBUE9WMHdDako0bUZn?oc=5",
+      "source": "CBC",
+      "date": "2026-07-15",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-minister-stan-cho-faces-backlash-over-16k-toront-2026-07-15",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Minister Stan Cho faces backlash over $16K Toronto hotel bill - CHCH",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQUthTmZWbDZ2bVp4bmNLVWtGRW9NTTVMaXFwb18wdTBfWl83RXdWVGljcFlRWEpfaXctUThYcmlnVm9KNWJkN0VZd2xTYTVVWjNhTlVtNm93THdqdEh2YnEwUnpJaXlJb3BpQWNqdTFGbmtTZDJiT3RzeG5hTTZUUURDS0h4Ml9lOE90WGs3VEo4X0o5MGk0?oc=5",
+      "source": "CHCH",
+      "date": "2026-07-15",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-mohamed-firin-toronto-area-pc-mpps-have-billed-taxpayers-over--2026-07-14",
+      "mppNames": [
+        "Mohamed Firin"
+      ],
+      "title": "Toronto-area PC MPPs have billed taxpayers over $100K for Toronto overnight stays - The Trillium",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZm5oVWNBTVI4ckNnUXJSWUxoY3pzQnlrZFN2VUJZeVRQYmdUYVdvSWNQN1o4MjN2Q1pYZmw0OFFrSXpZTmlHeEl1N1pSVm1oa0prUmdndFhEeGRtQVROQTBlc2pmUk1mU09JNVlGcDZZSGtxNXowLVBTM1BRRFJscFVDZkNTMnFKWVhObXU5bzJqMERaRExOVkd6emhvMDFhZzNDM3VaWnpGQ2twc3F2YlYySXFuSVZKWVFxenE5YnVoM3lwZlMtSUlOaWY5OTc5ZC1wR3BXTWlaWEM1bi03aFlrUlBUMjRaV29mRw?oc=5",
+      "source": "The Trillium",
+      "date": "2026-07-14",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stan-cho-tourism-minister-and-toronto-mpp-to-rep-2026-07-14",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Stan Cho, tourism minister and Toronto MPP, to repay $16K in city hotel expenses - CityNews Toronto",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdkthWmFiaXAtc1JkXzVpRzJLMTQ3cnVGdzNITXl6RXVYQWVMZGNpNFh0Y212NXlYcFU3WXQxV25wa09fSjVvSGY5SEJIYkdpWXdaUnJWdjZrbmNKcTlUTjBGNWR4MzcwSm5DTHBaT0VGdmdFZnNiT2VCQ292YWRsOWZBVXl3bnpXQm5OelF6Zm9zTk5vczNPZERhcnpqVWdlX2hrZUltT2xtcWNvcUJZVkMxMm5kaEdf?oc=5",
+      "source": "CityNews Toronto",
+      "date": "2026-07-14",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-lilley-six-kilometres-from-home-stan-cho-lives-t-2026-07-14",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "LILLEY: Six kilometres from home, Stan Cho lives the Suite Life in taxpayer-funded hotels - Toronto Sun",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeEFPNjg0M3Noa3gteWNUaWZZRHc4QzVjWjBWM0V2bVlRN3BxaURPTzdLV1JfcFl5eGpma0FWTDRYeDhZUzRSS0NrX1hCaEI5SEZQbFkzSVEyZVRyaS1hdnpycWNWNmJOVG5OdFJ6RVZzNFF4R1VCN1F3WVlUY0g3V1I2b01rMkNOckVvUjlVUW1hbXlmbldnR0YyUDNvRkkybTVKMlpSeV9PSXVFMzNicDJTNWcwU1diVzZ3a2dLUQ?oc=5",
+      "source": "Toronto Sun",
+      "date": "2026-07-14",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-ric-bresee-full-disclosure-area-mpps-list-their-travel-and--2026-06-11",
+      "mppNames": [
+        "Ric Bresee"
+      ],
+      "title": "Full disclosure: Area MPPs list their travel and living expenses for the past year - Kingstonist News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc192U1dxNmUzQVI0alJBeUd0QW5vUTFRb0kwdzVidmJPeExsQzc2d01tdHVuZDd0T1BfM2owakxpcHBMZ09ZOVd4UXVNYkIzRWlkbWo0elROamVsVW9YSURvMEdoTVgzanQyV1hJcUxCMlRyTTZmVVRUNjdYdWZnNlVRWkFmbmlBYm52dC1lM2dmU1Z3U2pfUEJzc1l6Ui0taTZRLVVLZG94b0hqYWtRUVZVUE1Ndw?oc=5",
+      "source": "Kingstonist News",
+      "date": "2026-06-11",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-brian-saunderson-letter-saunderson-should-resign-over-shut-your-m-2026-06-04",
+      "mppNames": [
+        "Brian Saunderson"
+      ],
+      "title": "LETTER: Saunderson should resign over 'shut your mouth' comment - CollingwoodToday.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdVRscmhuc1VvT2VxTWJsWHI2NkljUlkwcHY2ODUyZDEya3FBcVNRRkJjZTdhWkctVUV3amZyUDNRMGFaTEs4bUo1Q29RMTlLdEU4YjFfdl95SzRDLWdoQnpjRy1vdGVuWWJ3ZjBsZTlfdXFERVB6V19aT1FSV3RvSnBPOWNHNTZjblF5UWs1NHlFVjJyMlRaVkxBdHFVT2YyYXNsakF2TkdHSjRVQU10S3FYOXlIY0cwM3lucER1eEg?oc=5",
+      "source": "CollingwoodToday.ca",
+      "date": "2026-06-04",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-jamie-west-sudbury-briefs-mpp-tables-mining-act-audit-commi-2026-05-30",
+      "mppNames": [
+        "Jamie West"
+      ],
+      "title": "Sudbury briefs: MPP tables mining act; audit committee members sought - Sudbury Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPT1diRUlfaXJRNEhuS05VODBhbmd2SlExd0lJV3ZTd0wxWl9GOWUxZ05kdWxQaW9UMEhsUndCekw5VE5tNUJsZnNLQnNGVC1UREdMa1ExSV9tWGxONDVZMHZVejlhYWNxT1pGaWU5OXF2cHBuUEtNd3JfNE5KVXV5YlpUMUV6YzNjQVZJZzcxVk9Yal85T2VIZ2hsVjk1YTlBblFfVVZB?oc=5",
+      "source": "Sudbury Star",
+      "date": "2026-05-30",
       "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-peter-bethlenfalvy-finance-minister-peter-bethlenfalvy-receives-a-c-2026-05-28",
+      "mppNames": [
+        "Peter Bethlenfalvy"
+      ],
+      "title": "Finance Minister Peter Bethlenfalvy receives a C+ on Finance Minister Report Card - Canadian Taxpayers Federation",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdFVxMEF3S1JhSGxiRlJJSUtseFJBSGJpQ0dKRmZ5RnNXMENMX2s2Z2RYbXNtTElrZGlPOVoyRHc3MklmYzYzRDN2d0NRV2NxQTlRU0tfeHRGQXBPbGt1ck5HMVFqTzl1SnJqd0pzU2ozMmZjNUZtLVg3WGxVV2FXYjhaRExUWVk1cm5oTnUteHpZaGZjNUhFODMyT3dBbHVOZzJuVno5aVBQd2JsRTM1TzM5Ulk?oc=5",
+      "source": "Canadian Taxpayers Federation",
+      "date": "2026-05-28",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-vijay-thanigasalam-charity-leaves-online-safety-coalition-before-an-2026-05-28",
+      "mppNames": [
+        "Vijay Thanigasalam"
+      ],
+      "title": "Charity leaves online safety coalition before announcing Google deal - Investigative Journalism Foundation",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zWktTRy11UjM0ZFR0OEpXc2ZOVENnWjBpd2xIUF9XNDdmeHJIM0dlT0g1Rmg5TlJ2dDExNjZvR1NCbFUycGdLY0xiWFdBVmVseGNFN2JOc1RTTGg0VUVWa0F3VnlMVUYzT3VadG5ZVlowSlA2MkE?oc=5",
+      "source": "Investigative Journalism Foundation",
+      "date": "2026-05-28",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-rob-flack-ontario-municipal-councillors-to-face-stiffer-et-2026-05-26",
+      "mppNames": [
+        "Rob Flack"
+      ],
+      "title": "Ontario municipal councillors to face stiffer ethics penalties under new bill - The Globe and Mail",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckt6SXpUWXNFQnBITkVaMVBOR1ZPN0t5WTJvRUpHdkxJVVNFSHp0WkF3bDJKaHc0UTA0aDB2VWkxNG95bThkR2c0V0FHRExiOWNzdnB3LXFmdUp4UlFJdnRBWjJ0dDBrUkF3TkVkZG9WT1paTFJsOFd5N3lyMkY2dVl1NG1vRzZNcEZXQ0VQczhJbmlhWUFIYi1UZFlIZ2c?oc=5",
+      "source": "The Globe and Mail",
+      "date": "2026-05-26",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-rob-flack-ontario-passes-law-to-remove-councillors-for-ser-2026-05-26",
+      "mppNames": [
+        "Rob Flack"
+      ],
+      "title": "Ontario passes law to remove councillors for serious misconduct - London Free Press",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeWNIdzJrQXQzVGpmVG9KbDVkVDhJbmRhaFQta094elQ0RWdKdlM4YmZWOE5NT0NWbnpYR2NYQ3RJUzdSc3hObkhZdWFMOUJmUUpRcjNBLWxqV3cyMnFULWtrbldvcWFkM3NaQVlhV2drRVZrbEhvUWxMRzVEdFczVW1jVF91MmZKZ2JtVncxaG03QQ?oc=5",
+      "source": "London Free Press",
+      "date": "2026-05-26",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-caroline-mulroney-one-of-doug-ford-s-most-truste-2026-05-25",
+      "mppNames": [
+        "Doug Ford",
+        "Caroline Mulroney"
+      ],
+      "title": "Caroline Mulroney, one of Doug Ford's most trusted ministers, to resign: 'Now is the right time' - National Post",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUmVXRFBPMV9hdmVyZF81OU42dy05QlJBZ2xlN2Q0cmVHNXRpQ2h1ZVVRRl9yMmVGVXhZd3BGSGpyX2hnQnN6aDFTXzFxaTE2a0lrOEYtTnZXVlpib1ZqVlI1VDluWkdwSFZabXpDSG5tSjBfVTNob0FCS0JfcHR2WVlNMmZhY0QzUzJaNEttcXRyYlFncEJV?oc=5",
+      "source": "National Post",
+      "date": "2026-05-25",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-peter-bethlenfalvy-caroline-mulroney-resigning-from-ford-government-2026-05-25",
+      "mppNames": [
+        "Peter Bethlenfalvy",
+        "Caroline Mulroney"
+      ],
+      "title": "Caroline Mulroney resigning from Ford government's cabinet, Ontario legislature - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUGpfQzdFR0lETW9qYkVWVUowX1FwcFVLdUNZNG5LOGliWkZPaTZoUExsemlxVDdjeWs1RWxRT2tjZjJ4T0dzSGlzZElhaERrVk10STZNQ2xJTGVvOGNfNDNaVFkwcVZYb2RPX3lKYWUxeVdjYl84a2RZODBjU25WODI3TnNiMnM?oc=5",
+      "source": "CBC",
+      "date": "2026-05-25",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stephen-crawford-ford-government-freezes-foi-requests-amid-contro-2026-05-21",
+      "mppNames": [
+        "Stephen Crawford"
+      ],
+      "title": "Ford government freezes FOI requests amid controversy - BarrieToday.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOXlWSVhMUlJ5SUVLY21ydnh3RnN2MVBLOVFtaURXckNCWmtpaHo5RWY4cGlOOGVLVUYxOGpDbm5nY2tsLXFiWTR6X05NWjk5OXlzT3ZBY0RYbkVvc3hId0ZkSWExbTFzWjNHQXU2WkstNzFYZms4NmxodTVONXpQR3hLSC1peGlvMFdDcXdyeDRheURzVjlwRUdsRTRCVnA2bEtj?oc=5",
+      "source": "BarrieToday.com",
+      "date": "2026-05-21",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nolan-quinn-ontario-will-inspect-all-private-truck-schools-a-2026-05-13",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "Ontario will inspect all private truck schools after scathing audit found major gaps - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR1pDT0Z5TnR3WHNqUjd0TXZib2lJU29xTTB4d0dBLWdKZnBjWUlka2tSTkNTSmdQM2F5NzRJQTl4cUxFVkIzZS0wVWoxbTM1SE1ycnB3dFJ2QVlvcGFUN1BGdlIyM3NsaUtuX1hENVFyd25tdVdkcGw2d09OZXF0cmRWcw?oc=5",
+      "source": "Global News",
+      "date": "2026-05-14",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nolan-quinn-ontario-to-inspect-all-career-colleges-offering--2026-05-13",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "Ontario to inspect all career colleges offering truck driving within 6 weeks, following scathing audit - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeldYc3E2X09BaXFpeUZ2RGpqSFVUd19FNWZOZExwRUdfNzhWTHJnN1lFd2FGOURYdDEwRnl4ZERNTUM5ckRIMVFUeTlTSmhMbGdyZnFKTXczelM0T3BNTG40bHlQRUJ6eUtvM0dqNjRfeEJYVjBnTFp1amxMLThfVnN2TkZFcFA1YWhfZDMwaV9tQmt6elRmME9yT0tvbjZsRS12NEsyd29FSElGQ0c4MjdB?oc=5",
+      "source": "CBC",
+      "date": "2026-05-13",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-paul-calandra-special-education-funding-in-ontario-falling-sho-2026-05-12",
+      "mppNames": [
+        "Paul Calandra"
+      ],
+      "title": "Special education funding in Ontario falling short of growing need: auditor general - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMklPblVQY09BeFhxUTFGa25sa041bEQtZnZNT1FuSmRuT2loS0JnbkV4ZE9yLUt5MEcyQ0UtWlhzSWRrb1dqYlFiLXJGUHAwR29GakxhS2lhYUppSzE4b3lnVUZCUmNpY0xGM1NUYmVqZjhVUDdDN0J5TEZsMFFvSGx6RlBfbjBQeFpzb1g0TXluS0E?oc=5",
+      "source": "CBC",
+      "date": "2026-05-12",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-david-piccini-province-using-opp-probe-to-justify-shielding-ke-2026-05-04",
+      "mppNames": [
+        "David Piccini"
+      ],
+      "title": "Province using OPP probe to justify shielding key training fund records - OrilliaMatters.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWFIyYjlHYTFFS3NpRW5uV3lZSkhWWXVLcTFBV0NHdjVudUxtWkQwTGNkYWdKMlNOMUhnemd0RVJQYjhnX3BOQkJPVUZZUHVyV1FDV3NPWDhUUVhJbmp4T0JOZnhuNlpzVkdnYTFmNHhoWHlvaTM0bGNjSUFIb1FOcHZxQ0RtclZpVWUyNDdlR2VLLThtWXV6SWluOW8tUkhNM3k0ZElQVjN5UHVXQjRXYmhWV3ZvRm1nWVd1VFlHYw?oc=5",
+      "source": "OrilliaMatters.com",
+      "date": "2026-05-04",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-victor-fedeli-letter-from-gas-plant-scandal-to-foi-rollback-wh-2026-04-21",
+      "mppNames": [
+        "Victor Fedeli"
+      ],
+      "title": "LETTER: From gas plant scandal to FOI rollback: What changed, Minister Fedeli? - BayToday.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWHZDWFhCX3k3NTR4Umx3Nm1ud0wyWDVtYms5MkVTczlmUGVNV1NuazlIUHRNNmxSN0F0eTBMdkFNanpJVElNcVBzeWJJS0tIdExEc2NHQy03UnI2RUVCTkRGWlBxYXZhNE53dGhNT1JPalNxR2NiS0JmMUxVWGF0bjFta1ZWSl9kSFRmRGRWaHhCQ0tYaVc3cEszZ2J0WlpUeWMzcUdjdXNDY1gtT1M1THlUMEVmMm9xazRESDM5RmFaS25EMnN1RA?oc=5",
+      "source": "BayToday.ca",
+      "date": "2026-04-21",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-zee-hamid-ontario-s-solicitor-general-apologizes-for-being-2026-04-21",
+      "mppNames": [
+        "Zee Hamid"
+      ],
+      "title": "Ontario's solicitor general apologizes for being 'imprecise' about catching improperly released inmates - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd3IzMndaT1IyaVpNN1F4UGhpRHVKX09rQU9sTzJSXy1aX3QybXJ1c3ZqUWd0YjdUcXFSV0ZmQXFKOWVRb0k1X2VveGpGd2JvMzVwc1hwNmtxQkZxRkk3SUhsX2RiMDBwTi1EUjR1MzhGMTdWQTJiZFlaRnQxUTluZF9HUFU3V1JlWk0zaUZXcWRmU2gzLWFUSTczSHNDaWl2LWU1THFnblhwemozdWh1SDJibWw?oc=5",
+      "source": "CBC",
+      "date": "2026-04-21",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-steve-clark-dowie-defends-ford-government-s-controversial-fo-2026-04-17",
+      "mppNames": [
+        "Steve Clark",
+        "Andrew Dowie"
+      ],
+      "title": "Dowie defends Ford government’s controversial FOI changes - CTV News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN25kMmVwN0ZjeEVoa2VDZ2hfampubi1vLTk1aDJmdjE1anR1RFRXdnY5RzNQcmRacFNraDhQalI2MWdkbmNnUWU1Ymt5bG1kU2x1NUZJUXY3MlJoQXRFdUVEdldBZXlmMzFnNmNqTUdyMnBqNFM5YlJ0SHNrc1hWVDN3dlRubnFJcW5EcW1GZ3NiVTJEQl9GelYtTFE?oc=5",
+      "source": "CTV News",
+      "date": "2026-04-17",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-downey-ford-promises-no-more-improper-inmate-releases-a-2026-04-16",
+      "mppNames": [
+        "Doug Downey"
+      ],
+      "title": "Ford promises no more improper inmate releases after over 150 let out of Ontario jails - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaWdPa2VvOWJrb2h4OFhjS1VHODY2NW9DYXhOZTJDVHlfeVpUaDRENXlhX19nTmhQSHZhTTE3aXlYMmZLWG9qaERGTUVOQXJ4dks2YWowSGJETXdHbWJubHE0OUNXTEVGUGRPTFN4NHZ4SGdtU2Z2X3dOSm5fdVYwOXh3?oc=5",
+      "source": "CBC",
+      "date": "2026-04-16",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-david-piccini-controversial-ontario-fund-rejected-ttc-training-2026-04-14",
+      "mppNames": [
+        "David Piccini"
+      ],
+      "title": "Controversial Ontario fund rejected TTC training program with little explanation: documents - CTV News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMm5fTlFIdjM3NWFmbm5YNWR6dWxlVy1MMnRkSXZuNXJkdUF4YjJQM0hGNVUtTVVlaUg5ZWFsZ2pHdWd1azhfWnExWWkzZTV6NGlCWjN6clVoNFNlR3BncVZiVTJORm8xNkhUVzlRZVFrNXNUQm5ocUhWc1I2UWJvRElYQWwxdnBGQ21FR21OWDZMbHRVVDE0R0drQjJ0R2g2ZENyRThOeXphZWtIT2cyNFpCOWp2X0FfZmx2akdzTmtrZ1RycXNnNGR3?oc=5",
+      "source": "CTV News",
+      "date": "2026-04-14",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-downey-taxpayers-group-slams-ontario-mpps-for-loathsome-2026-04-06",
+      "mppNames": [
+        "Doug Downey",
+        "Andrea Khanjin"
+      ],
+      "title": "Taxpayers group slams Ontario MPPs for 'loathsome' pay raise - BarrieToday.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNWhKdkJMclJHbkQ2Q2FwbmxqYy03WTRCQVVoOEhkaFI1UVl2M1JvdzVQTXIxSmFwbi05dml0bWhvc0R5cWZxNUVXZ2FyUDBnVHQwN0h5ZFhEZmF3a3dPRW4xZGVzcDdLZnZmNFNIOXkyMExEWWs2NGtxTF92RWxUeWZ6d0d6T0Q4MThnMjBLVFJLa0VSYVF5UDBfOG9HeE56NFFJSTdCaUh3bFVRQnI0?oc=5",
+      "source": "BarrieToday.com",
+      "date": "2026-04-06",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-john-vanthof-taxpayers-group-slams-mpps-over-new-pay-raise-af-2026-04-06",
+      "mppNames": [
+        "John Vanthof"
+      ],
+      "title": "Taxpayers' group slams MPPs over new pay raise after last year’s big hike - TimminsToday.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUHA1NDd6Smhyc3ZROU9JQkVVLVNzUWNtN1hPNjE0TGN5WW0yY1dWbTZLZS0yelhVTDdzQUExV3BCUHczeUhWT3hjSW9rdXpISzlTcGNlMUlMSktqMkZ0eUo1Nkl3RmpMWjdwSkYtc3RDT3JjQVJOUGc4eldJUnpwa2pLTnhsdEVaUEFaZW83QnV6UlZ3YVN6VFY0dDV3ckxfV245T0lZVXJ5MVRPeHBSZU9iaEJkSnZkR19PTA?oc=5",
+      "source": "TimminsToday.com",
+      "date": "2026-04-06",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stephen-crawford-pcs-officially-table-controversial-foi-law-chang-2026-03-31",
+      "mppNames": [
+        "Stephen Crawford"
+      ],
+      "title": "PCs officially table controversial FOI law changes in 2026 budget bill - NWONewsWatch.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZzhNa3MzNWQzZ1F3djJaZU1OcXNyZmN6bWw4Q1hKZlJ2X0ZTMC1ObzBQZ1RFSVBsVS1VZkdqT1pSVGpyWFh3ZTFRQWpKTU55aUFHUVdSeEs4NUptMHpKclhMcjhnSk1kbUIyNkdHV3JSN2RUVFRfeUk2TjhWUmsxWkI3Sm0tMEpFM3ctU05POF9xeDdDaUo1c3pQcWsteW1xT29acVExTjM2SnNBVHdVa0ctalpsTWlQNTdR?oc=5",
+      "source": "NWONewsWatch.com",
+      "date": "2026-03-31",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-peggy-sattler-person-of-interest-identified-in-probe-of-vandal-2026-03-27",
+      "mppNames": [
+        "Peggy Sattler"
+      ],
+      "title": "'Person of interest' identified in probe of vandalism at MPP's office: Police - London Free Press",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeFp5cVJMMVV5bTlrN0JXeERWWnFJMVhLZGFZaVUwbTVDVGpkZFJ5QnU2ZkpTbXVKZWlVaXVVQmpTdHZnV0hQZHU5NFBua083a296dmoxSHpKbUIxT09KYTJtVGZZZzcxS1hDa1pDTDI2NkRXX1dfREpSODQ1dlZxSF8xQjg0OGo4cXdrbEdtR29BeU1jYVZHQ2hrTzJQRTA?oc=5",
+      "source": "London Free Press",
+      "date": "2026-03-27",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-downey-ford-s-plan-would-hide-top-lawmakers-meetings-wi-2026-03-25",
+      "mppNames": [
+        "Doug Downey"
+      ],
+      "title": "Ford’s plan would hide top lawmakers’ meetings with lobbyists - BarrieToday.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcTJLam5QaGZoaUd2Ti02a3BjR1l5N2hpd2VSdFI3QlhScmFkcUN5b3dNNFY5NXNfbTZQUUNaRzE0QVRiQS1TckM3X05oMDh0YWo2ajRoMXphLXhyU3BWTmx6bHh4Q3JURHhueXFZb3dnLTRJdGs0YVQtYXBKenBmckxyalVVU1pHTVo4TlZCOGprOVk0dlp6Tkw0dVNUVVVpekRUZF9rcHN3RWs?oc=5",
+      "source": "BarrieToday.com",
+      "date": "2026-03-25",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-brian-saunderson-local-mpp-says-controversial-foi-changes-about-r-2026-03-21",
+      "mppNames": [
+        "Brian Saunderson"
+      ],
+      "title": "Local MPP says controversial FOI changes about 'restoring the balance' - OrilliaMatters.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZXhRLW8yQWtNWmRicXFoTTFBLTZEeEoyQ2NlUjJQUDZsVEJiZlRzbks3dVc2YXo5SG9ROGw3YjBXbE5Md3pvMVhPWFR0TVIwRnEtS2RGbWhRcWhsc2xhaGNCbG1VLUFRcHNiZVJqVDVQV1ZHU3ByZUx6aWQ1emxaRzA0UTRLYURleGpYdFc3d0h1MlVHT3FWLWNlVnVtTnpyeWFtdXY1S0VwV0xGdUk3ZmpZM0VWMnJ6WGRR?oc=5",
+      "source": "OrilliaMatters.com",
+      "date": "2026-03-21",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-michael-parsa-police-launch-investigation-into-2nd-recipient-o-2026-01-28",
+      "mppNames": [
+        "Michael Parsa"
+      ],
+      "title": "Police launch investigation into 2nd recipient of Ford government skills development fund - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96Mjg4Z2d0MHQ5Y25nTzFVbHdVNThTQy1HU3oxWGxZSldxa2hGQVFPa0lxRzZabFQ4X19JMm9QeWtCZ09GTVJlVFRoNEJZa01TczY0amxpN2JnTXZaTThFU0xPZWFfRUt0bmtLYmZGdG1ZWEl5R25Odw?oc=5",
+      "source": "Global News",
+      "date": "2026-01-28",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-adil-shamji-ontario-liberals-call-for-public-inquiry-into-eg-2026-01-27",
+      "mppNames": [
+        "Adil Shamji"
+      ],
+      "title": "Ontario Liberals call for public inquiry into Eglinton Crosstown LRT delays - Ontario Construction News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaFNmdGp1OXM4UFNEUHUtak5CLVJUUDF5TnBkN1RzWUxlb2ZKeGVSc29XRm1UV2o0WnNmREhOM0ozVVJFQW5IMmVEUkYxbURzc2ItbS1STkJiaFBJanpBbTZaSWRFT1hTX2tkN3N6eTJJbkdSYUpxSl9OTUNaMmdfY2ctSEN5SVNSOXI0ZllBd21vbG5pbWtadk40amYwaTJzdE41NEYwaUYxQWNBdkxiUA?oc=5",
+      "source": "Ontario Construction News",
+      "date": "2026-01-27",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-adil-shamji-ontario-liberals-reiterate-eglinton-crosstown-lr-2026-01-22",
+      "mppNames": [
+        "Adil Shamji"
+      ],
+      "title": "Ontario Liberals reiterate Eglinton Crosstown LRT public inquiry push, call for 'rapid response' team after launch - CityNews Toronto",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWVBTS1pYMW1GM2Nhd0M2a0wwcVNma0dPYlduaDhna1RXNVJSZklsZjJjb2U4T1ktNFdFR1gzQ2hDb1hlelBITU4zZW5FNlY1em9qUks4WTU5NC1tbHVEN2JBVEkzMm9HMUFic1E2MVVwUkxUd0MtTlJNZTVMVzVfMTBmQTlmX2QxRmJuaHBUMHRFQjF4LXducUtoMlJBeVBhbmFJT19kbEs3TE1TRjA3NGprQnRNdkREMV83aUFxM2o?oc=5",
+      "source": "CityNews Toronto",
+      "date": "2026-01-22",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stephanie-smyth-integrity-commissioner-to-probe-ontario-labour-m-2025-12-18",
+      "mppNames": [
+        "Stephanie Smyth"
+      ],
+      "title": "Integrity commissioner to probe Ontario labour minister's handling of controversial training fund - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSjYyQVI2VmVneVJkSU40WG95VUZpZVJsOThLSW5Cdzdqcmh4Si1PRUViYXJuMlRCLXVVY0pOT2tzTHJzaURmMXJnTHdCNDZpZnhSMEJ1STVsX2NCMkVxU3QxaGtqOXBldnh4Y1dtWV9GdDFIVlhCT1Z0Tlp3MzJpOEJFMWhZODNUTlFJbXFzVS1JRXBIWWc0ZmhHLUc2TlNpX19Galk1a1Brb0dHRzFDeVFscnRHTFZwUlZXVFhmb2I?oc=5",
+      "source": "CBC",
+      "date": "2025-12-18",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-ontario-integrity-commissioner-to-investigate-da-2025-12-18",
+      "mppNames": [
+        "David Piccini"
+      ],
+      "title": "Ontario integrity commissioner to investigate David Piccini over skills fund - CP24",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQekJhTlZqYWhOZmY3U0RpY0Eyekp2UElYRFhnNHlzMzJYVUh1c1JGa3hSaE1ReFhaZE5paFZzV0tWVGw0ZXF1NXY2a2J2b0FDam90SVZ5SzYtS3JGaHUyc1Q3cUppMDVFRmJ4Ui1vSDZoenhabG10cUh5UjNqS3RaUU0yWTd6ZElLTHdWR0x0Tmp6QUJ4RkNRWDVKUXJZTldQSWRWem00VERCSDBHN1gwdUdUS1ZISGFZN0dLX1RGMl9wNDdKLThHLUN3MWVsMmdKeFJ2Ml9jR3M?oc=5",
+      "source": "CP24",
+      "date": "2025-12-18",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-multiple-parties-file-investigation-into-mpp-dav-2025-12-18",
+      "mppNames": [
+        "David Piccini"
+      ],
+      "title": "Multiple parties file investigation into MPP David Piccini over Skills Development Fund - CP24",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdlBmekludHV1YjdCUmE3N2lRTktxVzFrZkRwZkFqcEN5bHVoOGRrTVBOQ0VxTG1mbDJBdTVNQVVZbXJZM3lhdFc5Qy13LW5wWFl3U0hrRWY2RmZHYmFuOTFMeWZ0cEFFWjJ5di1feGEySC1BazB6NHlUaWJSSzlTdVlQQTJkSUd5bFhKTi0xZkRoY0x4M215UHRJS0ROUlMyeG1GOEswTXpjVmM4SzM5dWFxU0pOWU1vcWxrcVlkRWF2WHJi?oc=5",
+      "source": "CP24",
+      "date": "2025-12-18",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-sylvia-jones-ontario-does-not-have-ability-to-measure-success-2025-12-02",
+      "mppNames": [
+        "Sylvia Jones"
+      ],
+      "title": "Ontario does not have ability to measure success of its primary care plan: auditor general - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBZQlU1YzI5a09hdUtCVmZDLVZ3MnBwZkp6Rjh3NHY4WEZrZTkxWHVyNllCUi0yWGg2c04zaVBlcGxlSWJPbVZnWWpGa3pVUE1YYUZSaXJCbzR1eWNYRU9qRU9TNnpKdEgwQ2Vvb1NIZ3ZOVXpGdUJoM2RGRGVIZw?oc=5",
+      "source": "Global News",
+      "date": "2025-12-02",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-anthony-leardi-auditor-general-says-ontario-falling-short-on-oh-2025-12-02",
+      "mppNames": [
+        "Anthony Leardi"
+      ],
+      "title": "Auditor General says Ontario falling short on OHIP overbilling, finding family doctors - CTV News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOenduWng3R0F3YU1mSUt1Q2RkNS1NSU5OYS0xcGNOWWlXMUt0bjJZLV9hR2JKbTJZTU1Vbk5oVjBsdURFX2hLMEtYZEdkX2xhV3h3bFhWTXlyRlQ2cXBYS1hDNlR6U2NBcU9PQXhYdTVSSkNBUk83c0FoTktPNVBaalVydS1GZWFQbENWY2ZwZ2lhOWlVaUJRLVdWek9rd3RqYmc3S0hBRlJZcW0zNnFWbG1UakQ4UGh3U3ZuT1FlczJDOWpNUmJ4TmhQQ0tjRklNVE5FZFZiaTdTUFR1M09ZaV80LVJrN1lsNjVQZGVvakxMZG56MDFWLWtGMWU0M0hZNHFoMVBlQTQyMDBmRGhuRXpJQU82OWlQa3MxRWVsSG5DX00?oc=5",
+      "source": "CTV News",
+      "date": "2025-12-02",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-jamie-west-sudbury-mpp-slams-ford-government-over-controver-2025-11-27",
+      "mppNames": [
+        "Jamie West"
+      ],
+      "title": "Sudbury MPP slams Ford government over controversial Bill 60 - ElliotLakeToday.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaW84bGVmMHBFX1dTYV8zWExhY2w1YlFqS21JTFRFVVpkUDdMSjVVcHpia3RUdU5JMVZXUWU0MnNjNGd0cW9adGY5YmkxUW55NXpJUU1pS0E1aE1CVWhZSFdyTWpxbFU5TmQtSktPcWU4enFjSnZDdjJwVndlYU5laXhiNzRfeVFVbFZGT3hsN1lnc2plS1l2ZTVvbFlHTk84bXVHSVdmSEk5ekhBR1pRRjd3?oc=5",
+      "source": "ElliotLakeToday.com",
+      "date": "2025-11-27",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-what-we-d-once-consider-a-scandal-is-now-just-an-2025-11-20",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "What we’d once consider a scandal is now just another day in Doug Ford’s Ontario - Ricochet Media",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcnlTVTVNeGpWVXFqQlBFQXFWSnRpVWJucE1CckJ6VGY5eUFYMDRqWTJ2SHNhblpVSVRVRWdldm9hUFNpWTFTTlhyV0hMaEVFdDVzSVdjMmpudFFKemFhMlNUSE40Y3pzOWtQbXdyN3dUeTVOQ1lBWjJFTTVMa3czQWVQN3U1ekh5SFZJWkJRSy1yMHFxQkpYclRpYU5oNzRuWjJGYmhkdF9PSktweFQ4Yg?oc=5",
+      "source": "Ricochet Media",
+      "date": "2025-11-20",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-andrew-dowie-blue-bin-complaints-to-involuntary-treatment-wha-2025-11-14",
+      "mppNames": [
+        "Andrew Dowie"
+      ],
+      "title": "Blue bin complaints to involuntary treatment: what councillors grilled Windsor MPs, MPPs about - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNU05oVDJ4bHNuOFFpVTRmNkhDa0YxQkl1cmt3QzRid0o0Wm9ES1Zjem83eTZDTnRlYnpQcUxnV3pWeVZPdi1nWmQyRnd4dUZwdlRWbFBTaWd3LWotaENxbFc0VFNRQlFxdnR2ckt4TnR6VXJZcVdiWGlFSWVsRWxCWUxyVzJIYnQ0aUgxUEtfNWYzMC1CTWZpQXZVLUFlQ3o2Tk5PekF1aERyZFhndmpJMVNLeWkwM3lGQ05HeWZWMnZ4QWpnVlc4QnRDVFlNdldMWHdCWA?oc=5",
+      "source": "CBC",
+      "date": "2025-11-14",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stephen-crawford-ontario-government-considering-taking-control-of-2025-11-13",
+      "mppNames": [
+        "Stephen Crawford"
+      ],
+      "title": "Ontario government considering taking control of RECO over handling of iPro Realty scandal - CTV News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNb0RPN3REZUlhTEN0VmoyQlNJLWpDMDc4M0liRW9lRURhZVQwaTJsTzEwb3l3WkVPMkg5VUM1QS1XRUt1a3RpRi1aMVNLZmszVWJ4NTZmQWlTQlhOVnh4ME02ZjNHNzFfTkxIRm9UM3JtUy1MMC1Kemh3RVFadDFDMDFablRqMG5uRjFqNllEaEdEbTZoSUtoS2xOTG1McWVNSXJMLV81dG92cmFaV3VxTG1UX1VMNnVwLWlkazF2emNyeGRvRFlnc1BPdEJHNUJRclRFM0I4V3U?oc=5",
+      "source": "CTV News",
+      "date": "2025-11-13",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stephanie-smyth-ontario-s-minister-of-labour-faces-new-ethics-co-2025-11-03",
+      "mppNames": [
+        "Stephanie Smyth"
+      ],
+      "title": "Ontario’s Minister of Labour faces new ethics complaint, poll shows support for his removal - CTV News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdzZDMm5xcGc2RWw0T19VbDE5V3ZmTDdaN21Tc2xvYVBmY2kwYWh6bVMxc0xQVWJkTHBqdEgzdjBLSFE2TElqWkdhR2l3c2tUY0V2MU4zZmpSQnoyWFJaZUphU01VaDFNdmJVa0ttMEVBZDVXeGhORnN5dzIyTG1DaGpCMF9iM3htaTF4bS1DeUU5WTZwQlhhUkZYeDlDNDVjNlRDZ25XM3RERnVKaG9FdDNTNTlkdy01aUR6MWpaUldoUzhzU0hhVnpWLXkyT2FyTjE2ZktZOU5vOUx4X3drWUpLVEM?oc=5",
+      "source": "CTV News",
+      "date": "2025-11-03",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stephanie-smyth-liberals-ask-integrity-commission-to-investigate-2025-11-03",
+      "mppNames": [
+        "Stephanie Smyth"
+      ],
+      "title": "Liberals ask integrity commission to investigate minister over skills development fund - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPak5yZG11UUtISUh3MzRYSkVwOWxNTHVBLTVpQUlubElaVkJYUHNTUGpoVTVCQ0Zpd2ZtSXFWVTlibzdzU0ZmN2tjV1RTdENTeUxqNVdEUkh3alkwTjVkV0RnazVHSzlfUHUyWTg4eUZEWmlQQkNON3NITjhQV3N4U2F6cHQ3ZnUxMmg4dDNucEFGYzh2VDRqbEpjUDNtOEJuTjkySkYwcw?oc=5",
+      "source": "Global News",
+      "date": "2025-11-03",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-chandra-pasma-ex-robert-land-students-call-for-stricter-ontari-2025-10-10",
+      "mppNames": [
+        "Chandra Pasma"
+      ],
+      "title": "Ex-Robert Land students call for stricter Ontario regulation of private schools amid abuse allegations - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR0VPVWxIV3ZzYXl1Ni1rb0ptRHJwV21WQ2pqNW13QS1TOTBGYl9ZTVZzYkxfNTN5S212UkdfZF9xdkdwZWdRczlDLXVBb250ekRIamdReXEyMlJqbWttbGk4V1hLckF5Z28wZDUtYjhtSzFsb1o2d2ROS05fdUJPX1o5YklWQQ?oc=5",
+      "source": "CBC",
+      "date": "2025-10-10",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-ontario-mpp-chris-scott-takes-leave-despite-call-2025-10-02",
+      "mppNames": [
+        "Chris Scott"
+      ],
+      "title": "Ontario MPP Chris Scott takes leave despite calls for resignation - CityNews Ottawa",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UdW8yYXRfdm9JR2dXRXE5aDNUZmh1bWNvR0dqcVhFY0ZCZldOdzhsUFZuOXJOYVpNX2drZGVBN2VudTlkeEVIWkdBOFQzZElDZzR2b1M2LU9rbVpORmZKaEFPT1NHV2JCQlhYbFhZLVhIMGQzV04wckEwTmM?oc=5",
+      "source": "CityNews Ottawa",
+      "date": "2025-10-02",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-laura-smith-ontario-protecting-taxpayers-by-banning-municipa-2025-09-25",
+      "mppNames": [
+        "Laura Smith"
+      ],
+      "title": "Ontario Protecting Taxpayers by Banning Municipal Speed Cameras - Laura Smith, MPP | Thornhill",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYUhfX3d4bTVvXzNFWjBHWF9TN3pDWHZPWEtjVTRhU0hVZk5VUjJNNmZ6SGV1ZVF3dWE3ejBybmQwU0NRc3U1QVJTdGNGeGtCN1ZXeG0wU1ZjWWNpLUotbjBaYnc1UHZ1NV83WE1wNUZsLUhKSEpWYzdDTFByZ1hXbnJaeUltQXJzNjRRQndTNGpiUjQ?oc=5",
+      "source": "Laura Smith, MPP | Thornhill",
+      "date": "2025-09-25",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-greg-rickford-i-m-not-going-anywhere-provincial-indigenous-aff-2025-07-07",
+      "mppNames": [
+        "Greg Rickford"
+      ],
+      "title": "‘I’m not going anywhere’: provincial Indigenous affairs minister rejects calls to resign - The Sarnia Journal",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSHVLUVJDaEkzNnBnMER6Tkdval9veVhkOEdHNGI0aWUtdlhZZFJ6Y1hoaTYtUkdOSnEyMTQwWjlTRmRXbzBab3NQYmp2WGtRSjB2MTNvZjRieV9CcTFmWFV6R1EtWFFTbHZRLWYtQ091SnJINFNDTTdJVF8zMW5ZMF9JWFVNZHJncmthSFFZUlg1TVdwd0ZnZWlsOFZkamE0S3JLT1dQZ0QydEpna0lWcHJxcC1ueWpTV3pXN1RiXzl2aXNzbWlfMVp3?oc=5",
+      "source": "The Sarnia Journal",
+      "date": "2025-07-07",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-greg-rickford-bearskin-first-nation-joins-chorus-calling-for-r-2025-06-09",
+      "mppNames": [
+        "Greg Rickford"
+      ],
+      "title": "Bearskin First Nation joins chorus calling for Rickford's resignation - APTN News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWmNsZk01S19xbHZ5ODMxT2hkVGxNYlc0d3pGb2lBS0UtSWpiVEV4V1RaUmw2UlRqcDM0N3pVUng1N3NEa3RzRGR3aG1sa2FyTXlEU0pTRTc0N3N4UjU3M29XSUF1UGVUSkFrQjhiSkViMThkaC1qaFFpbXR4T05YWG1OTDFiVS05NnZiNHg5bjlQd2JhYmc4OHR0djNoRWdwRnIyZkFyQUgxaXZ0aXZwa3FrUUI2QmJGN2lB?oc=5",
+      "source": "APTN News",
+      "date": "2025-06-09",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-trevor-jones-dresden-area-mpp-absent-for-vote-on-controversia-2025-06-04",
+      "mppNames": [
+        "Trevor Jones",
+        "Steve Pinsonneault"
+      ],
+      "title": "Dresden area MPP absent for vote on controversial legislation in Toronto - CTV News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUkFWTXNXMnNuQmJNZkt4cFo1dU9yQlpCbGdDRlctcVRueXE1WjlFMDYtYVM4WFU3NWNBWWRyRHotUE5qZ2M4Wld5UVB3ejFQVUU0LThNLWZuVGhWb0tiY2lEUUgxMjZHWEtMS0NyMHdmY1hXNzZtdzNHUkpuUnRmaWxIM2tYNXdLSVB2TENxbUQ3QVRFWlcxOVlSUGtLU2NDSWhJZm5MSXVvUjU3S1E0VExB?oc=5",
+      "source": "CTV News",
+      "date": "2025-06-04",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-jamie-west-families-politicians-call-for-investigation-into-2025-04-24",
+      "mppNames": [
+        "Jamie West"
+      ],
+      "title": "Families, politicians, call for investigation into Extendicare Countryside in Sudbury, Ont. - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNXBkQnF4ak5NY18zR3cxRndrQzg4aUE3TzRHSDVrNERaMXJrTkllZWo0dVhTTThRdnoxM0xmT2gwa3FJUXhkUy1sSFpqcXBRRjBVblQ1N1ppWHNSWE1LeEdMQkJFT1MxY3IzTE1sdjB3WXlHaEp0RjFBWlNYUGxGLWVMSUR5SHFzOGEyeTh2Zw?oc=5",
+      "source": "CBC",
+      "date": "2025-04-24",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-george-darouze-george-darouze-submits-resignation-as-ottawa-cit-2025-03-14",
+      "mppNames": [
+        "George Darouze"
+      ],
+      "title": "George Darouze submits resignation as Ottawa city councillor - Ottawa Citizen",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZkdmM3NpYll6VkQ0bWZoT0g1U1lJTFhNLWZBaFpBa0MtUHVfUWNTdXRmdWh3Skw3YjRubERweU9oQWVicG41aEdKYnd3eE92Y2R1dy0yQ3BqU0Nrb3hJeVp6ZHlrQnFpZzktTGZQUzRhQUIzeVNuSXFlNE5hc1VVbw?oc=5",
+      "source": "Ottawa Citizen",
+      "date": "2025-03-14",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-sam-oosterhoff-amy-martin-takes-to-socials-with-controversial-m-2025-02-05",
+      "mppNames": [
+        "Sam Oosterhoff"
+      ],
+      "title": "Amy Martin takes to socials with controversial MPP Sam Oosterhoff - NorfolkToday.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRTJnNkpFYXB5UXE2eDZHNG1XbENiMWNMeDNvM1Z0WERRWjVGZFRYMUlDZTVjNFR5eDM0Y1Rwd1JGQ3E2UEtEVk9YMVNqNUxEZnNWRUxHMC1nbnBOUndDZlI2dUg3eE9xOGtRSWRIeXFiblY0M19BREhBdmRMbFdzMDREczlRdHdsY2N0MzFsRUp4NWhISWRMQTJ2Y0wybHBKeDV4eGh3YkQ?oc=5",
+      "source": "NorfolkToday.ca",
+      "date": "2025-02-05",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-brian-riddell-rob-deutschmann-named-liberal-candidate-in-cambr-2025-01-23",
+      "mppNames": [
+        "Brian Riddell"
+      ],
+      "title": "Rob Deutschmann named Liberal candidate in Cambridge, resigns from position on regional council - CityNews Kitchener",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWng0bFVPODdiZ3lVOHVKR3M5aWFpLUNSWWgzRVFsdWVLZmxmNUNxSTBYUVYtMFNmRWdQV2JxQ01kQTFEYkF5S2xtQUZJM1BMQWtQOWhaU0lQUmlqcHVjV1VnQURhck0tMkRmR01hNXhYcnR0ZzNvWlhRa1dQN040WmxZS0xrYm1feXlYTEtsMmE0VFJLVjFNRlE0ZktYYlJRTVVJTE42Q3Y4dXVtbjdWdmpFbWVLV01vMVE4TXVVdUdJVnVBWGp6ejg5MFlfdGtEZlE?oc=5",
+      "source": "CityNews Kitchener",
+      "date": "2025-01-23",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-george-pirie-taxpayer-rebate-cheques-now-being-sent-to-ontari-2025-01-22",
+      "mppNames": [
+        "George Pirie"
+      ],
+      "title": "Taxpayer Rebate Cheques Now Being Sent to Ontario Families - georgepiriempp.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGFISXBDeUhNdDNQdFNIRDVxV25YMnkzVTFTY3ZyVldYTHNHazRrTWNPeTdCMUR4TFd1ZHQ1a1JYMnFWaWRmdWxYdXNsa2c5TU5sc0J6bVktYnlzbXh6bkZKTXk3VzVxc1NWaV95V0R6TnNjdmxSS2hZQU8wVzYyU0hfRlZkLTJHYUtTeUx3?oc=5",
+      "source": "georgepiriempp.ca",
+      "date": "2025-01-22",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-jess-dixon-intimate-partner-violence-study-cut-short-as-ont-2024-12-05",
+      "mppNames": [
+        "Jess Dixon"
+      ],
+      "title": "Intimate partner violence study cut short as Ontario eyes early election - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYzYzN1VXSVZYekFhWWNKNHVhTktNNW9oSFdRZXp2Qm5Pc3dvVUlfSnFHdTdUcjYxTExUTVVvU2RpeUtad3FNOHRCTnhBekhOOFJUYmZDckZ3eEV3dXJNNXZ5Q3pldFVQOFJhRWpia0drVWozY2x2TWR0TFRqMVBURGRZOWRoMmdKRWt0RUhHN2pTUTBOc285MVpjd1pOZ28?oc=5",
+      "source": "CBC",
+      "date": "2024-12-05",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-chandra-pasma-ontario-to-audit-school-boards-after-expensive-t-2024-11-08",
+      "mppNames": [
+        "Chandra Pasma"
+      ],
+      "title": "Ontario to audit school boards after expensive trips to Hawaii, Italy - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQldKMUdvZHNYRGh2b2pXcHE0QVA4T1ZyM0tyb2h3U2d0d0xZbnRjTExZMWxtZnZndVpId01jTXRqbDNiY2F3T3JEU3dJUmcyME1zUFhoTWxrLXpYX2FIOVplMkJya0N5enltMUNselZFLUxaY0otRlZFY1pwRUdrN1RrTzFmbmEyMlh2dkVxMG1UWVBxWF9zM1Q4VC0tZm9tVngxTXJLNGkwQmdEakI1ejBpRS1qNVdrWUNwY3NtclBlcVVBbWg0VWZQSkxkcVBkVjBnV2NobjJocFlvNEJz?oc=5",
+      "source": "CBC",
+      "date": "2024-11-08",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-peggy-sattler-deeply-concerning-reaction-to-the-fraud-investig-2024-10-31",
+      "mppNames": [
+        "Peggy Sattler"
+      ],
+      "title": "'Deeply concerning': Reaction to the fraud investigation at LHSC - CTV News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQkpOTWF5bUFhemphZkVzLXVyNUFfaWhpNmZ1OUE1SmU1ZzNwZHpvZkIwSXNMTEx3NzJzLUh2eFd6MXo4R2VtNjM4UnZaRWZnZUNsWG5oQ1JmV2tmRWlOcC12TElTN2NuNUdoSzMwODMyZzJBMmRuQWczN3N2U1E4WVRIWjVSMzVwbkdSd3M2RGZ0dGIxZXp0NGxoYWFvVXNKeGc?oc=5",
+      "source": "CTV News",
+      "date": "2024-10-31",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-kinga-surma-ndp-leader-asks-ethics-watchdog-to-investigate-i-2024-10-17",
+      "mppNames": [
+        "Kinga Surma"
+      ],
+      "title": "NDP leader asks ethics watchdog to investigate if minister gave Therme 'preferential treatment' - The Trillium",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQLURvbVZwWGt5NUFBVkd5eXQzYXozREp5Vi1CQnhzUFl6NjhuMndxNVpXTkRkM1U2LU5faVpfTnpGNUowMElnY3RDb1NwZXowbDlxeEhnZWR0WFpYeW5QdmQ1eEdnNXAzXzZSM3JqbXEzWXM2eFloRmVVT0RVbXlTTnV3UHNvQ3M3ODVCUldtMXVkeko5bVJFQzk3VmE4cWxDdkRMejVmb2FfaVFnMy1IdmxPYjUxOXJwQ1Q5TmJaQ0NjdWp4aFBOLXBFQ0gtZXhjejFNaGp5YnZhdw?oc=5",
+      "source": "The Trillium",
+      "date": "2024-10-17",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-today-s-letters-yes-ontario-health-minister-sylv-2024-05-24",
+      "mppNames": [
+        "Sylvia Jones"
+      ],
+      "title": "Today's letters: Yes, Ontario Health Minister Sylvia Jones should resign - Ottawa Citizen",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUTAxZ2pkX2k4TXFiUkxKQkF3RDRiNm0tQ1ZNWkpVQzB1ZWlVS1gxdUw4cXJPdkI5NlFJY1pPQk5DT0piMHJGNG9FeHR4UGhETVUxR3NzdExOZzJjYm8ta1R1RG8wNEt2c3JraktkTUZCbXR1by1hMVM4Q1Z6OWJKYWJudl9CVkxzMmRtc0N5ODNqck5TbnB2Y2g1Y0JaZ3QwalQxZVRR?oc=5",
+      "source": "Ottawa Citizen",
+      "date": "2024-05-24",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-donna-skelly-pc-candidate-donna-skelly-responds-to-photo-cont-2024-04-04",
+      "mppNames": [
+        "Donna Skelly"
+      ],
+      "title": "PC candidate Donna Skelly responds to photo controversy - CHCH",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdHBIaWxrYU5hZzgxWGtGTTFqTEppbldoU2pRNGNqZXJrUkcwVDc0bkp2ZnFvLThBbGRvUk1XVzVlUVdvZjB4NXBicDR6RFM5cXM5OGJ4cUVpWGNWaVdSVjJFVmxtLVM2Qmk4a0x0Rjh0Tk55RTBKdXpubVpPMGZMUHhQcjlIa2FzRVR4Ng?oc=5",
+      "source": "CHCH",
+      "date": "2024-04-04",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-raymond-sung-joon-cho-annual-barbecue-again-tops-newmarket-aurora-mpp--2024-03-15",
+      "mppNames": [
+        "Raymond Sung Joon Cho"
+      ],
+      "title": "Annual barbecue again tops Newmarket-Aurora MPP's expenses - NewmarketToday.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWUlzeFdYdlF4NVNib0o2NXNUdk5FaV9yNHVpYzIzUUVzanJicmZOSHlLdlFGOWVCYy0wd2I5bFVWRXdQaElsS2ltWVhQXzFrdGlWWE9CZ0lPekx5VU5NdDMwLU5KckgydUptekphRzhnZGFKU3cwX2ZJdkhwV0FLTlNzSlE2amNYMUtSeEdscUVWaFVYZC1WeHZEaUhxbERnM1N3ZFF4eG1fQQ?oc=5",
+      "source": "NewmarketToday.ca",
+      "date": "2024-03-15",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-chandra-pasma-auditor-called-to-investigate-systemic-failures--2024-02-14",
+      "mppNames": [
+        "Chandra Pasma"
+      ],
+      "title": "Auditor called to investigate systemic failures amid disturbing allegations of abuse within Ontario schools for the deaf and blind - The Pointer",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVC1Lek4temRvSzc4eUx3ak1FUk44WVozX0ZhWlNFcm1EeDFNX0VQMnpnVEEyRGdBdDRYMWZ4MzVoWFVuY0NqRzFCcGZBcmwwZG1NMkJST09aYl9LaDB4UkVROFRUUkI4UXJXczliZHZpTFJ0d3RRWHhKQ29jcGFYVE5BUC1paTVPM2JQcVNVN2lIRmtQU1ZFVndTb1hTTlVTSllYZGZrUHJzNmp5Y1pJTUhwdG9IMjVNZmRObGRfM2dael8tbVRfVnRYc3lMejk3NG5GYy13M3QxOHJvQllfdDlvQWRtNlNRS1RnMWZIdXlLQXNVZHRnbDROUTlGUVFjQ3c?oc=5",
+      "source": "The Pointer",
+      "date": "2024-02-14",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-laura-smith-ontario-launching-new-long-term-care-home-invest-2024-01-15",
+      "mppNames": [
+        "Laura Smith"
+      ],
+      "title": "Ontario Launching New Long-Term Care Home Investigations Unit - Laura Smith, MPP | Thornhill",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQenNIVmw4aThPQW0zNEdQMF9PblZFeDJEeEpUNEV1Q09vNkNFUmgyQUtBNHotQ1B2dFhmaTg2NHlYSTRCbFBqNXdoYks2MDl2Vm80aE1TQV9SU2l2NG1pNUFXckQtV0hLSmtTYjY3THg1cUtldXNlVHhHcTl4eFBaWC1DeVVfOC1fR3ZDZ3dQWjE?oc=5",
+      "source": "Laura Smith, MPP | Thornhill",
+      "date": "2024-01-15",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-steve-clark-ontario-housing-minister-steve-clark-resigns-ami-2023-09-04",
+      "mppNames": [
+        "Steve Clark"
+      ],
+      "title": "Ontario Housing Minister Steve Clark resigns amid Greenbelt land swap controversy - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNHpzc0VnOWVZRXpycWFweDNJYlhSYlVyMFNjWHRBbUVaTWxhblRHS0NzVER2SjZVZ3c4RDBPVjE0bzlBTVNMaHR4QUZXZmVTWVlHX2FlQ3RPT294OERhYjluSlJvaHNFd1lfTnBjbHN0SGtHNVBZWlJDU2VKWTNaOVhzR3I?oc=5",
+      "source": "CBC",
+      "date": "2023-09-04",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-steve-clark-steve-clark-resigns-as-housing-minister-amid-gre-2023-09-04",
+      "mppNames": [
+        "Steve Clark"
+      ],
+      "title": "Steve Clark resigns as housing minister amid Greenbelt scandal - TVO.org",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX0tmeEpubXdTM2NESVVtNmhRZUZEOXhHSWs1bmtvMUI3c20xV3RVRHh0ZU1HcW5wTEstTzM2Ym1SdEtObkhVMWpCeTZvb0E0OWs2X0ZsdE9zQjhqR2p2cWhBd0VPaGpsd01Ea05ObjVyb1lMcDJfbFZHVm9zaGZlclhVcUNBY295Z1NYTmlXVG1BVFMw0gGUAUFVX3lxTE1iYUktTTFVT3ZyY3FHQ1JONU9Vcmo3RGxZWF9WWk1ZREktYnRMMVJmVWhMbGZTdG51bGY3RGFFdHJhUGFEc1Z0VldQTzVOazdkX1N5eUIxWjZsT1NESVhvZDVGT2FkRnZqeWJFQUVGQkwtbkN6RHVtbkFONGtOWmo1MUZNck91UDNIZmhaN2kwM2NncUc?oc=5",
+      "source": "TVO.org",
+      "date": "2023-09-04",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-john-jordan-merlyn-jordan-obituary-aug-20-2023-billingsley-f-2023-08-20",
+      "mppNames": [
+        "John Jordan"
+      ],
+      "title": "Merlyn Jordan Obituary Aug 20, 2023 - Billingsley Funeral Home",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pNXBpSmo4akR1dDFUaGR4VEtXTkh0cTBIbEZ3T1gtOXpybzJUQWhhMGNNc3ZUMUQ2SWlaQWVPMmdsR0xscms1Wk9KSjVFM0tLUS04RnNXVl81UFZMTFFMdE5CZmxvV3pBTWpRajZ3?oc=5",
+      "source": "Billingsley Funeral Home",
+      "date": "2023-08-20",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-graydon-smith-parry-sound-muskoka-mpp-smith-on-alberta-wildfir-2023-05-16",
+      "mppNames": [
+        "Graydon Smith"
+      ],
+      "title": "Parry Sound–Muskoka MPP Smith on Alberta wildfires; MNRF sends help - ParrySound.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTXlPbnVCTGJvc1hLdlhiTVJoR3VRVWM5WU51ZWxMNmNabkgzVGtDRWM1Tm1yeXhWN2ZVX2pJZnZvVTF5Vk8xajBObGhndEk2RmNqUFREcU9aMnVVMjJ4R0dKZlNma1h0aWhXYW9oV3hKc09RWkhvWmhxSnBuZHl2YUNOcnl4SlJReW00emF3dUE4ZHN5bXRSeEgtaHVWcDVXbW1heFhNT1YyTlU3R09XTm5Pc2dfUTlUZUFpdWJHd25ZSFFHNVd2bmltNzlTNjhLN3lrLTgwcG1RMG8zaU4zNll3?oc=5",
+      "source": "ParrySound.com",
+      "date": "2023-05-16",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-integrity-commissioner-explains-controversial-op-2023-03-17",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Integrity commissioner explains controversial opinion that ‘cleared’ Doug Ford - The Trillium",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaFNYd2Z4X2g0ZmJZYVNxRnM5cEVDR3hMbE15bmlVaFNka3RucDRKSGNoUEFUcTh2ZmFTc3EzNGhYRkdPNUNSN3NkQUhDbE5uanhkeDVieHRjSklfdEdjVmIyYzEyX2puR2pEZGF4UFZ6X1hJaVhhVEZHRUR2WmcwTXBnOTlGZ2pEOGxHcEg3ZjVfQ1lwOUJJNHN2aDJ0bVpXUkdXbDZrLUwzSmF0SC1MdVRKeUdtd2R5dDREakFSNmwxT2M?oc=5",
+      "source": "The Trillium",
+      "date": "2023-03-17",
+      "type": "integrity",
       "status": "reported"
     }
   ]

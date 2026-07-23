@@ -75,11 +75,13 @@ Pulled from the official [Public sector salary disclosure](https://www.ontario.c
 
 Public page: **`watch.html`** — not part of the WordPress iframe tracker.
 
-Curated file: **`data/accountability.json`**. Each item needs:
+**Auto-refresh:** the hourly Sheets sync also runs `scripts/fetch_accountability_news.py --publish`, which pulls Google News RSS (accountability keywords), merges into **`data/accountability.json`**, and **dedupes by article URL**. Same story → one card; all named MPPs are unioned, preferring the version that already listed more people.
+
+Hand-edit the same file anytime (add a `summary` and `"curated": true` so your copy is preserved on merge):
 
 | Field | Example |
 | --- | --- |
-| `mppNames` | `["Jill Dunlop"]` (match sheet / OLA names; aliases OK) |
+| `mppNames` | `["Jill Dunlop", "Mike Harris"]` |
 | `title` | Short headline |
 | `summary` | 1–2 sentences |
 | `url` | Link to the source story or complaint |
@@ -87,10 +89,11 @@ Curated file: **`data/accountability.json`**. Each item needs:
 | `date` | `YYYY-MM-DD` |
 | `type` | `news` · `integrity` · `expenses` · `investigation` |
 | `status` | `reported` · `under_review` · `resolved` (optional) |
+| `curated` | `true` to preserve your summary across auto-refresh |
 
 Only add sourced items. Do **not** frame unproven allegations as facts.
 
-Optional assist: run `python3 scripts/fetch_accountability_news.py` to refresh **`data/accountability-candidates.json`** from Google News RSS. Review candidates, then copy good ones into `accountability.json` (they do not publish automatically).
+Manual refresh: `python3 scripts/fetch_accountability_news.py --publish`
 
 ## WordPress page
 

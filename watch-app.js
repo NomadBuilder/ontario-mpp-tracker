@@ -81,6 +81,89 @@
     return { names, matched };
   }
 
+  function urlKey(url) {
+    try {
+      const u = new URL(url);
+      const host = u.hostname.replace(/^www\./, "");
+      if (host.includes("news.google.com")) return url.toLowerCase();
+      return (host + u.pathname.replace(/\/$/, "")).toLowerCase();
+    } catch {
+      return String(url || "").toLowerCase().replace(/\/$/, "");
+    }
+  }
+
+  /** One card per article URL / near-duplicate headline; merge MPP lists. */
+  function dedupeItems(raw) {
+    const buckets = new Map();
+
+    function titleKey(title) {
+      let t = String(title || "");
+      if (t.includes(" - ")) t = t.slice(0, t.lastIndexOf(" - "));
+      return t.toLowerCase().replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim().slice(0, 120);
+    }
+
+    function peopleCount(it) {
+      return (it.mppNames || []).length;
+    }
+
+    function merge(a, b) {
+      const names = [...new Set([...(a.mppNames || []), ...(b.mppNames || [])])];
+      const preferB =
+        peopleCount(b) > peopleCount(a) ||
+        (peopleCount(b) === peopleCount(a) && (b.summary || "").length > (a.summary || "").length);
+      const base = preferB ? b : a;
+      const other = preferB ? a : b;
+      const typeRank = { investigation: 4, integrity: 3, expenses: 2, news: 1 };
+      const type =
+        (typeRank[a.type] || 0) >= (typeRank[b.type] || 0) ? a.type || "news" : b.type || "news";
+      return {
+        ...base,
+        mppNames: names,
+        summary: (a.summary || "").length >= (b.summary || "").length ? a.summary : b.summary,
+        type,
+        date: (a.date || "") >= (b.date || "") ? a.date : b.date,
+        source: base.source || other.source,
+      };
+    }
+
+    for (const item of raw) {
+      const key = "url:" + urlKey(item.url);
+      if (!item.url) continue;
+      const prev = buckets.get(key);
+      buckets.set(key, prev ? merge(prev, item) : { ...item, mppNames: [...(item.mppNames || [])] });
+    }
+
+    let list = [...buckets.values()];
+    // Near-duplicate headlines sharing an MPP
+    list.sort((a, b) => peopleCount(b) - peopleCount(a));
+    const kept = [];
+    for (const item of list) {
+      const tk = titleKey(item.title);
+      let merged = false;
+      for (let i = 0; i < kept.length; i++) {
+        const prev = kept[i];
+        const aLast = new Set((prev.mppNames || []).map((n) => String(n).toLowerCase().split(/\s+/).pop()));
+        const bLast = new Set((item.mppNames || []).map((n) => String(n).toLowerCase().split(/\s+/).pop()));
+        const overlap = [...aLast].some((x) => bLast.has(x));
+        if (!overlap) continue;
+        const pk = titleKey(prev.title);
+        if (!tk || !pk || tk.length < 20) continue;
+        // cheap similarity: shared token ratio
+        const ta = new Set(tk.split(" "));
+        const tb = new Set(pk.split(" "));
+        const inter = [...ta].filter((t) => tb.has(t)).length;
+        const ratio = inter / Math.max(ta.size, tb.size);
+        if (ratio >= 0.55) {
+          kept[i] = merge(prev, item);
+          merged = true;
+          break;
+        }
+      }
+      if (!merged) kept.push(item);
+    }
+    return kept;
+  }
+
   function initials(mpp) {
     const a = (mpp.firstName || "").charAt(0);
     const b = (mpp.lastName || "").charAt(0);
@@ -138,8 +221,12 @@
     const { names, matched } = resolveMpps(item);
     const type = item.type || "news";
     const typeColor = TYPE_VAR[type] || "var(--yellow)";
+    const faces = matched.slice(0, 3);
     const primary = matched[0] || null;
-    const extra = matched.length > 1 ? `<div class="face-more">+${matched.length - 1}</div>` : "";
+    const extra = matched.length > 3 ? `<div class="face-more">+${matched.length - 3}</div>` : "";
+    const facesHtml = faces.length
+      ? faces.map((m) => faceHtml(m)).join("")
+      : faceHtml(null);
     const status = item.status && item.status !== "reported"
       ? `<span class="status">${escapeHtml(STATUS_LABEL[item.status] || item.status)}</span>`
       : "";
@@ -152,7 +239,7 @@
 
     return `
       <article class="item" style="--type:${typeColor};animation-delay:${Math.min(index * 30, 400)}ms">
-        <div class="faces">${faceHtml(primary)}${extra}</div>
+        <div class="faces">${facesHtml}${extra}</div>
         <div>
           <div class="meta-row">
             <span class="badge">${escapeHtml(TYPE_LABEL[type] || type)}</span>
@@ -237,9 +324,9 @@
     fetch("data/mpps.json").then((r) => r.json()),
   ])
     .then(([watch, payload]) => {
-      items = (watch.items || []).filter((it) => it.show !== false);
-      items._asOf = watch.asOf || "";
       mpps = payload.mpps || [];
+      items = dedupeItems((watch.items || []).filter((it) => it.show !== false));
+      items._asOf = watch.asOf || "";
       bind();
       render();
     })
