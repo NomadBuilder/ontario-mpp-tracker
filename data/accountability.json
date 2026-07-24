@@ -16,6 +16,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-doug-ford-doug-ford-slumps-to-24-approval-rating-amidst-sp-2026-07-24",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford slumps to 24% approval rating amidst spending scandal - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwb2lxcmM1QUJSRGRjNGhzY0NMX1lqdG5FN0hfVGdXSm51TVFjTVg4WmpSSDVtRlh3bTRDYjJPTEM1VS1UXzNJSGk4N09DaHBnU0Z6WS16WmR2SW1nZUNVbjVDdV9QRzZMTXBiRWktNA?oc=5",
+      "source": "Global News",
+      "date": "2026-07-24",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "fn-inquiry-wildfire-2026-07",
       "mppNames": [
         "Jill Dunlop",
@@ -1570,19 +1583,6 @@
       "source": "The Trillium",
       "date": "2023-03-08",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-george-darouze-ottawa-police-investigated-allegations-of-explos-2023-01-29",
-      "mppNames": [
-        "George Darouze"
-      ],
-      "title": "Ottawa Police Investigated Allegations of ‘Explosives’ at Local Hotel During ‘Freedom Convoy’ - PressProgress",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZcTdYdnJ6ZXUtWU4yWi1MQjJUV2VmSGtHM0dxdUc3Y1Vta3NUMGZBUG5lQVhFR3VMNjJacUtHUFFXVExqNnpQV041OUZ2OU5sQU1KOGR0RkdvV3NycGIzMEtwbHFLVVJ1eE9OdXE4SlRXNGUtdHo5X0kwNA?oc=5",
-      "source": "PressProgress",
-      "date": "2023-01-29",
-      "type": "expenses",
       "status": "reported"
     }
   ]
