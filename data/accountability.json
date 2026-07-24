@@ -447,19 +447,6 @@
       "status": "reported"
     },
     {
-      "id": "auto-mpp-stan-cho-resigns-after-16k-toronto-hotel-exp-2026-07-17",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "MPP Stan Cho resigns after $16K Toronto hotel expense controversy - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LLUJVR1BVZmwtVmlMR2pxUk4tcDE4dHhDcmVuZnlfZlVpdXBpb2sxN0stY29qNTJRZGtTal9xNWgyNmd2NUpTVWV1RUcyQ1lQM0tPRmpwRWNtQQ?oc=5",
-      "source": "CBC",
-      "date": "2026-07-17",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
       "id": "auto-neil-lumsden-ministers-cho-lumsden-leaving-ford-s-cabinet-ami-2026-07-17",
       "mppNames": [
         "Neil Lumsden"
@@ -494,6 +481,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcWZuWmI3TFdHVzJ5ejN1VkJ0NDRxcmlrdzBvOFdEOWtpYVNSWVFIU2haZjVlUnl3WDVXWThFUDFkZTZTTUxLckNKS0dEYUJteXlQT3JKNHdEUlNGTW0ydmpqaXp6NC11NkhFYjlGZTZoTHV4aVZ0dFlQWmxjR2dtZGdaU3VzUQ?oc=5",
       "source": "INsauga",
+      "date": "2026-07-17",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-ontario-mpp-stan-cho-resigns-after-toronto-hotel-2026-07-17",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Ontario MPP Stan Cho resigns after Toronto hotel stay scandal - CHCH",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSHhfMUhxa0w0WmhFQk1IbTlvTlh5eHI2WGNOWnk0YjZJUHprMC0zM2Z3Z3BERFN3U0hKbjRrT0FWR1U2UXpldldWT1pDdVhhTzFoMDZDY3JnTDk3RUo1UWFvRHN0b0xZbXRaNlQzSzBrT0dnbUt4bmQ0a2lFN1NESHVPUWFPdDlaa0JvMmN6R3FlWGZCS0o0Uw?oc=5",
+      "source": "CHCH",
       "date": "2026-07-17",
       "type": "expenses",
       "status": "reported"
@@ -586,19 +586,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQODBmZTFDNUVmY3V1VF81ZG9qVE42eWg1UzhtN1o1blRNdHZtZ2tOWFNLTWszS3FjWFhlRGQwUDZOaE9waTJCR05PZm8wSnE1MVR3NkJCdk1tWExYa201aWp4bl80TjUydVlTR2JtcGN0djVtVXFBUE9WMHdDako0bUZn?oc=5",
       "source": "CBC",
-      "date": "2026-07-15",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-minister-stan-cho-faces-backlash-over-16k-toront-2026-07-15",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "Minister Stan Cho faces backlash over $16K Toronto hotel bill - CHCH",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQUthTmZWbDZ2bVp4bmNLVWtGRW9NTTVMaXFwb18wdTBfWl83RXdWVGljcFlRWEpfaXctUThYcmlnVm9KNWJkN0VZd2xTYTVVWjNhTlVtNm93THdqdEh2YnEwUnpJaXlJb3BpQWNqdTFGbmtTZDJiT3RzeG5hTTZUUURDS0h4Ml9lOE90WGs3VEo4X0o5MGk0?oc=5",
-      "source": "CHCH",
       "date": "2026-07-15",
       "type": "expenses",
       "status": "reported"
@@ -1581,6 +1568,19 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVDhpMGZTVFVHa0RCMmZEWW80YjVUUVQ2MW9aTFZwUnZVeEQxQ2x1dElYVG5fY3BvbFlGNEJuOWtrbzRlZHZYbF9hcWZCZmJnTUJOMHhlWm84bml0TDdUQlpXeHFRU3dReXFrYVEwZkJ4cl9PczNkVmpnUnozN2VnUkxn?oc=5",
       "source": "iPolitics",
       "date": "2021-03-15",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-donna-skelly-speaker-clears-horwath-of-tory-mpp-s-pushing-all-2018-10-19",
+      "mppNames": [
+        "Donna Skelly"
+      ],
+      "title": "Speaker clears Horwath of Tory MPP's pushing allegation - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVmlFaHl2V0hvTHVWc2taR2dMdGJYaldHcTIxQkg5dU5wYkhrWVNiMGNXY2xRWjBXQkVTMlc4V3pYVWVVUWVvd3AtSjc1ZlVpTnROTWpOZ0YzNFlRbjdsclZxU2wtWm9MNC1JNzBhSFVUN1RkNDZWQllmWXNKTkxuVWtRNl96TWR4?oc=5",
+      "source": "CBC",
+      "date": "2018-10-19",
       "type": "news",
       "status": "reported"
     }
