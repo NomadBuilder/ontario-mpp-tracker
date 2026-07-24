@@ -3327,17 +3327,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Aislinn_Clancy.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/aislinn-clancy",
-      "expenses": {
-        "total": 35259.52,
-        "travel": 6685.88,
-        "accommodation": 761.09,
-        "meals": 77.3,
-        "hospitality": 27735.25,
-        "claimCount": 125,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/aislinn-clancy",
-        "asOf": "2026-07-24"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 150344.2,
         "benefits": 814.82,
@@ -20473,7 +20463,17 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Charmaine_Williams.png",
       "profileUrl": "https://www.ola.org/en/members/all/charmaine-a-williams",
-      "expenses": null,
+      "expenses": {
+        "total": 42509.19,
+        "travel": 470.04,
+        "accommodation": 16904.87,
+        "meals": 41.77,
+        "hospitality": 25092.51,
+        "claimCount": 136,
+        "periodCount": 9,
+        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/charmaine-a-williams",
+        "asOf": "2026-07-24"
+      },
       "sunshine": {
         "salary": 179210.13,
         "benefits": 1031.08,

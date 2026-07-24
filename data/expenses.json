@@ -2,23 +2,24 @@
   "fetchedAt": "2026-07-24",
   "source": "https://www.ola.org/en/members/expense-disclosure/list",
   "bySlug": {
-    "aislinn-clancy": {
-      "slug": "aislinn-clancy",
-      "name": "Clancy, Aislinn",
-      "riding": "Kitchener Centre",
-      "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/aislinn-clancy",
-      "total": 35259.52,
-      "travel": 6685.88,
-      "accommodation": 761.09,
-      "meals": 77.3,
-      "hospitality": 27735.25,
-      "claimCount": 125,
+    "charmaine-a-williams": {
+      "slug": "charmaine-a-williams",
+      "name": "Williams, Charmaine A.",
+      "riding": "Brampton Centre",
+      "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/charmaine-a-williams",
+      "total": 42509.19,
+      "travel": 470.04,
+      "accommodation": 16904.87,
+      "meals": 41.77,
+      "hospitality": 25092.51,
+      "claimCount": 136,
       "periodCount": 9
     }
   },
   "byName": {
-    "clancy, aislinn": "aislinn-clancy",
-    "aislinn clancy": "aislinn-clancy",
-    "hon. aislinn clancy": "aislinn-clancy"
+    "williams, charmaine a.": "charmaine-a-williams",
+    "charmaine a. williams": "charmaine-a-williams",
+    "hon. charmaine a. williams": "charmaine-a-williams",
+    "charmaine a williams": "charmaine-a-williams"
   }
 }
