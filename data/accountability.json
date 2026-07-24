@@ -236,6 +236,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-doug-ford-ford-defends-wildfire-response-amid-criticism-fr-2026-07-21",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ford defends wildfire response amid criticism from First Nations, firefighters - London Free Press",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVkdPSTFqVHhxSnF5dEFBTy0yOWJNUGZOT25HU0FPSkdYblQ3eWRnVVBOMDBpNmRGZVVvcTNRQ3RDQW9vRi13Y3NaZTFTcjItaERaMWxXN1hfZjNKU050ang3bjVGdjd0cFdGSTRHMW5ILTJTMmhzY3JlT21xbVZ1X09YRXAtLU1ldUxIWk1yMVVUQnlEa2kyMVNaV1FYSVJqZ1VEOQ?oc=5",
+      "source": "London Free Press",
+      "date": "2026-07-21",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-willowdale-mpp-stan-cho-resigns-from-doug-ford-s-2026-07-20",
       "mppNames": [
         "Stan Cho",
@@ -395,14 +408,14 @@
       "status": "reported"
     },
     {
-      "id": "auto-ontario-tourism-minister-stan-cho-resigns-over-h-2026-07-17",
+      "id": "auto-tourism-minister-stan-cho-quits-cabinet-over-tor-2026-07-17",
       "mppNames": [
         "Stan Cho"
       ],
-      "title": "Ontario tourism minister Stan Cho resigns over hotel expenses scandal - Global News",
+      "title": "Tourism Minister Stan Cho quits cabinet over Toronto hotel expense claims - Toronto Star",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE14MkFhaWNrc3lYeWF3bndLNjJQczQyb2ZaNDdvejJXLVZhOF8tUlRKNXBuMWpMbVNNSGZvM1R0Ynh3WXhBV0JmcnlmZFpoMGNPYWNOcE1JbFpjdWRsNEtTWEpITQ?oc=5",
-      "source": "Global News",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPYVdpRTN4eG5VTGRVVjA2YVdUWk5MaXBCdzlwSE9jeG9UVnFZUTRMRW0zazZsV2JKTkJCZHFRTjhCVVprckZJUUg0MWtZYW1OY3B6SG16RUk5STkxdDU1RUx0Ul9EQ0t4SzBaVU9ZdDRIcFMya05waXpnQ252azJoOXpyUGFhc194MXNBazVTdExwYm1pQ3FHZWJyUEE3UVJ1dXpyci10U2RSYXhlTmV2TnZodzM1YVBmTEVWNFRrYS14YUdhQ25paDFLUWlDWk5JRzhBRGF4TE1yRXJ5TTZtRmZNVEs2cXZNMWZnY2I1TFZDamYtLXU3NW9fMA?oc=5",
+      "source": "Toronto Star",
       "date": "2026-07-17",
       "type": "expenses",
       "status": "reported"
@@ -591,14 +604,15 @@
       "status": "reported"
     },
     {
-      "id": "auto-mohamed-firin-toronto-area-pc-mpps-have-billed-taxpayers-over--2026-07-14",
+      "id": "auto-stephen-crawford-toronto-area-pc-mpps-billed-taxpayers-over-100k--2026-07-14",
       "mppNames": [
+        "Stephen Crawford",
         "Mohamed Firin"
       ],
-      "title": "Toronto-area PC MPPs have billed taxpayers over $100K for Toronto overnight stays - The Trillium",
+      "title": "Toronto-area PC MPPs billed taxpayers over $100K for local overnight stays - TorontoToday.ca",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZm5oVWNBTVI4ckNnUXJSWUxoY3pzQnlrZFN2VUJZeVRQYmdUYVdvSWNQN1o4MjN2Q1pYZmw0OFFrSXpZTmlHeEl1N1pSVm1oa0prUmdndFhEeGRtQVROQTBlc2pmUk1mU09JNVlGcDZZSGtxNXowLVBTM1BRRFJscFVDZkNTMnFKWVhObXU5bzJqMERaRExOVkd6emhvMDFhZzNDM3VaWnpGQ2twc3F2YlYySXFuSVZKWVFxenE5YnVoM3lwZlMtSUlOaWY5OTc5ZC1wR3BXTWlaWEM1bi03aFlrUlBUMjRaV29mRw?oc=5",
-      "source": "The Trillium",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQckRibWZiRFFteTc1ZFp3LW5qNTdjbENETld1dkNSVGF4dEttOVdEbDdVR2Z5YksxZEgyY0dxclc4WFo4YzlZRzFCdHZtSFBKVVNhNlRnWmIwQ0lDamhqNTFUeEh2dlJyT0ZDWkRCSzBvUjlBRlQ0VTlzZXk5dlJaTkZ6dWMwUV9ZeGVKUUc4YnMySDBSdlp2b3IwUDlOczdTWW5ncTRTbEhrc0tuSWFIb3VvaUJaM1dwOXREandiNndad1JiT2dCWFY2QUM1a3pqUmc?oc=5",
+      "source": "TorontoToday.ca",
       "date": "2026-07-14",
       "type": "news",
       "status": "reported"
@@ -627,19 +641,6 @@
       "source": "Toronto Sun",
       "date": "2026-07-14",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-stephen-crawford-toronto-area-pc-mpps-billed-taxpayers-over-100k--2026-07-14",
-      "mppNames": [
-        "Stephen Crawford"
-      ],
-      "title": "Toronto-area PC MPPs billed taxpayers over $100K for local overnight stays - TorontoToday.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQckRibWZiRFFteTc1ZFp3LW5qNTdjbENETld1dkNSVGF4dEttOVdEbDdVR2Z5YksxZEgyY0dxclc4WFo4YzlZRzFCdHZtSFBKVVNhNlRnWmIwQ0lDamhqNTFUeEh2dlJyT0ZDWkRCSzBvUjlBRlQ0VTlzZXk5dlJaTkZ6dWMwUV9ZeGVKUUc4YnMySDBSdlp2b3IwUDlOczdTWW5ncTRTbEhrc0tuSWFIb3VvaUJaM1dwOXREandiNndad1JiT2dCWFY2QUM1a3pqUmc?oc=5",
-      "source": "TorontoToday.ca",
-      "date": "2026-07-14",
-      "type": "news",
       "status": "reported"
     },
     {
@@ -1037,14 +1038,14 @@
       "status": "reported"
     },
     {
-      "id": "auto-ontario-integrity-commissioner-to-investigate-da-2025-12-18",
+      "id": "auto-ontario-integrity-commissioner-investigating-lab-2025-12-18",
       "mppNames": [
         "David Piccini"
       ],
-      "title": "Ontario integrity commissioner to investigate David Piccini over skills fund - CTV News",
+      "title": "Ontario Integrity Commissioner investigating Labour Minister David Piccini - Seek Your Sounds",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRWZZVnFJRkRUb3JtcDRvVVFuQmhiMnMtSk9rTDdKOUNxMkRrLTBEWnhCTVdUZ3FhczFaZ0RQUmZ1NS1RZ2FQMXdkam9yOTlhZlRVWDM1bkJYc3pTSkczXzNxU1hsVUgzbXBWbUc2bEVFM00ySjBZY2FjeG9DVVVxaFQ0el9aXzk4M2cyalZqV2RCdko5VjhKX0hXc1ZuRGY5VDNjbmw0V0o1Mk9XWGQ0RWNrUEZHS0RpU25jUmNTdWwtc3R1NHhFR2xwOV9XVzQ?oc=5",
-      "source": "CTV News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNm40TGlhX05aY0UyMmV2TUs4ZGViWWJwOGF2cUlJQ25iUmxoWkVyNWxFRXdQeGx4aHZVQndpX2NPLWJjRFNFSHhNU3lIU0VqaXd0OXNkQm9JOS0tYTdWbjctVHRkMHlpNjZ6X2lLQVZwSkVEXzVsU21rN1Q1RnlfdzViX2k5bnd2Vjh2US1OSkxKc3pzWXZhUG54blA2VzFwRk9tc1o5SWNZQ2VqNGV3WnZHV3Z6ZTN3VFE?oc=5",
+      "source": "Seek Your Sounds",
       "date": "2025-12-18",
       "type": "integrity",
       "status": "reported"
