@@ -394,14 +394,14 @@
       "status": "reported"
     },
     {
-      "id": "auto-tourism-minister-stan-cho-quits-cabinet-over-tor-2026-07-17",
+      "id": "auto-ontario-tourism-minister-stan-cho-resigns-over-h-2026-07-17",
       "mppNames": [
         "Stan Cho"
       ],
-      "title": "Tourism Minister Stan Cho quits cabinet over Toronto hotel expense claims - Toronto Star",
+      "title": "Ontario tourism minister Stan Cho resigns over hotel expenses scandal | Page 903 - unpublished.ca",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPYVdpRTN4eG5VTGRVVjA2YVdUWk5MaXBCdzlwSE9jeG9UVnFZUTRMRW0zazZsV2JKTkJCZHFRTjhCVVprckZJUUg0MWtZYW1OY3B6SG16RUk5STkxdDU1RUx0Ul9EQ0t4SzBaVU9ZdDRIcFMya05waXpnQ252azJoOXpyUGFhc194MXNBazVTdExwYm1pQ3FHZWJyUEE3UVJ1dXpyci10U2RSYXhlTmV2TnZodzM1YVBmTEVWNFRrYS14YUdhQ25paDFLUWlDWk5JRzhBRGF4TE1yRXJ5TTZtRmZNVEs2cXZNMWZnY2I1TFZDamYtLXU3NW9fMA?oc=5",
-      "source": "Toronto Star",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWXpPYlpfdkhGY1BmWjFzQVNpS3ZqQk5TMEpLRjE1cEVhWF9ZeDV2RWlZYmEyUmhTOVJYNzVrUEhQWnhYcjFyMXNpb2dBNnNpamZmQVlBYmZqOXFWSGxLOGxBaFpRZlh2cGZTekNOQ29qSFJlaTRtWXlSS090a3FxOG55OWtWVEo5YlNkZFdPdVNDek1OejVnYUctUEpUVFJOV1dmVmRRcW54Uy1BYURyWG9zRkhSSjZWZWFGRGt4aVBYcnNPRlE?oc=5",
+      "source": "unpublished.ca",
       "date": "2026-07-18",
       "type": "expenses",
       "status": "reported"
@@ -599,6 +599,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQODBmZTFDNUVmY3V1VF81ZG9qVE42eWg1UzhtN1o1blRNdHZtZ2tOWFNLTWszS3FjWFhlRGQwUDZOaE9waTJCR05PZm8wSnE1MVR3NkJCdk1tWExYa201aWp4bl80TjUydVlTR2JtcGN0djVtVXFBUE9WMHdDako0bUZn?oc=5",
       "source": "CBC",
+      "date": "2026-07-15",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-minister-stan-cho-faces-backlash-over-16k-toront-2026-07-15",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Minister Stan Cho faces backlash over $16K Toronto hotel bill - CHCH",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQUthTmZWbDZ2bVp4bmNLVWtGRW9NTTVMaXFwb18wdTBfWl83RXdWVGljcFlRWEpfaXctUThYcmlnVm9KNWJkN0VZd2xTYTVVWjNhTlVtNm93THdqdEh2YnEwUnpJaXlJb3BpQWNqdTFGbmtTZDJiT3RzeG5hTTZUUURDS0h4Ml9lOE90WGs3VEo4X0o5MGk0?oc=5",
+      "source": "CHCH",
       "date": "2026-07-15",
       "type": "expenses",
       "status": "reported"
@@ -1569,19 +1582,6 @@
       "source": "CHCH",
       "date": "2022-05-19",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-vijay-thanigasalam-scarborough-mpp-s-vaccine-forum-had-partisan-asp-2022-01-24",
-      "mppNames": [
-        "Vijay Thanigasalam"
-      ],
-      "title": "Scarborough MPP’s vaccine forum had ‘partisan aspect,’ Ontario Integrity Commissioner finds - Toronto.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOaU1SMjFiSFRTQWpjc0U5cHZIelkyUVlNcUtfVzBXVmprblJZV0lhQ2pGc2U3c0Z5UUdHVHBxRUpIcmUtcm5yYzNHSXc4Y2xHMFpSUHpFQ2UxVXhYbWl2bnA2ckxXclN3QU5XTHZJamRwT1ItNEcyU0dqaUk0a19UOTVqZ0lZUTRteU5NMWhaRWVYR2lTTF9DM1A5cWRmQTJheUFmY3JpdEh0ZzdJNWFoOXNERF8zN1NNRGlJV0N4a3R6UlFJT1U1ZWF6ZC01eldOa292R2lPenZka0Z6Rjd4RnR1Wkl4MV9IUUw4aEc2S3dwVkxMTWZpd3h3?oc=5",
-      "source": "Toronto.com",
-      "date": "2022-01-24",
-      "type": "integrity",
       "status": "reported"
     }
   ]
