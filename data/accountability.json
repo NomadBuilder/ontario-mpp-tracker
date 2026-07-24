@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-23",
+  "asOf": "2026-07-24",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -75,10 +75,10 @@
       "mppNames": [
         "David Piccini"
       ],
-      "title": "Opposition slams expenses at hotels, limo company paid for by Ontario labour minister’s constituency association - CP24",
+      "title": "Opposition slams expenses at hotels, limo company paid for by Ontario labour minister’s constituency association - CTV News",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS295cVVqenBuVEU4dkYxbXNMVTFwZXZuT1VNM00xMUdBaTl1NnFMVWlUUWNDS0NxYVRDRFdYai1ab29WUjRUdV9PcXRBbFBQMjdPSFdQeFc0QnJoT0VQVGRWbTJaU28zekg1VWtvcnlva2hkdWxBbDlJSElBYTVPVTNvUllFTDFkTWl3Um1KX0xtVFAxS1h2NVlzMjFJcUtyRHVOMFJsaDRpM3ZnUG5iTFMzT1Q2ZUtETVVwN2loMHpzODJlekQ5MVJFNWhobmZYMHc?oc=5",
-      "source": "CP24",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONnpSYmljTmIyRUNJVE9WQW9ib1V4dFNtbXk0TnlETFF4cTk1X3VieDlTU0poN3hEUXRGY3V2bFVFN2owLTEwcy1UbHVEVkx1Q3pxWFI0NDB3eUVycHFfSm5iLUg1WFJFSmI3OFlSUlBPSUhkLUZRYXFxNEVLZVp3aG5SME1ONHhLazE2cTFtNXVKRlU2XzZZNHg2Zk5pak9KSl9WM2c1OVNabDlFX0UzN1J3NUtPVGRaSFRPWmVCUGFFYmF3MHA4Tg?oc=5",
+      "source": "CTV News",
       "date": "2026-07-22",
       "type": "expenses",
       "status": "reported"
@@ -232,6 +232,20 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNZmhMVHdNUGlWMnJtNmpIcjhSRkdyVE1BcjI4SXZ5Ym5sMWdkcUI1ek9lX3FTZDdfemtENmljUGlvY3A3b2RPN0k2ZG1YNVMtUGJqcFp1S2pNQWdOaGFhYkRzQ2xKaXZ6NWZDemp5QnZZcVotVmlzazN1X19xZEdNTXg1cnFQTjBudkZ1MnVUb0pVbG9LS1p1Vmc1WG5mT3VpOUxnQS1DOXhLclc1NWJfXzIxRlJRR0NHOEdEdGR2WTZxcWtSYm1rVVdSdVhzNV9waWFRZFl0WjNqalMyMXZOWUpDeXFOUDczV3ZEOWZkbTgxLTFRbDRjX243dkJGYnQ5eVI2RmJjSXZEdkJublUyVmszanJQay1henRoUmFGWjhfRkdEc255SmcxOVV1ZDM2bGFiMWN4U3FSbjBaNFh0eEM5ejI2VzdJZTg0UDdnOU00b0RMampCUW1R?oc=5",
       "source": "MSN",
+      "date": "2026-07-20",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-will-stan-cho-remain-in-pc-caucus-following-hote-2026-07-20",
+      "mppNames": [
+        "Stan Cho",
+        "Doug Ford"
+      ],
+      "title": "Will Stan Cho remain in PC caucus following hotel expense claim scandal? Doug Ford won’t say - CP24",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUkVYSWxaQWt0NUNOX21HT0VWeldHRFBIVTFnci0tUmVSNEdjaEppQUx4eU9ONU10czRGMkpVakxzSlk0c0hWRVlZMUU2MzRlVy1MUk5ybk1RcDFZdV9RWjQtOEZHQVRyMkpBbVBtWmljSHV4bksyR0xqWXJBUkY2NnNUd1hZZFhxMUVfSmpCQmlRODhpU0o3ckZxUlNDcldSVHJqM293S1BVNEVxLWQtRU1mYVZLSnNCM1E?oc=5",
+      "source": "CP24",
       "date": "2026-07-20",
       "type": "expenses",
       "status": "reported"
@@ -1566,20 +1580,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44WnVZcWdpYk1PUko4Z0xOSUxGejVrdkpBNHg2QmFzdmNpbFVPVmhSN0hDVGNjNGlLMXU4bnBqd1JsY0ZYa2tMZWhUSDRKUEVod0xHaUd1RjZ2TUNZSGFCaU45ZHZUZDhZT2JMRw?oc=5",
       "source": "CBC",
       "date": "2018-05-30",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-kinga-surma-young-candidate-embroiled-in-controversy-with-do-2018-05-25",
-      "mppNames": [
-        "Kinga Surma",
-        "Doug Ford"
-      ],
-      "title": "Young candidate embroiled in controversy with Doug Ford has long history with PC leader and Tory politics - National Post",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGVGSDdkQS1SU2R0MlJzZWhGS1ozSGZrM09YUkVHWXBhZlh5UlMwZlQwQUdFYjNxdUZrVGRRRnJVWGlWNnBpM3h4SzNoMWpQOExPUy1tTDlTNXFLUndCTmFaT29rWHFYbk10czUzdkFDMUlBZ2FybkI4clJXUGwzYUxvSWplVmN0VUJTejlqcmdxQlc0cUFxb1ZqY1RJd0NVblRmZ1FCTVVXN3ZpSkJhYWlFOV84amxZX0hXQzVSZ1dDZzNtbjRnWGZzNVNoVXlM?oc=5",
-      "source": "National Post",
-      "date": "2018-05-25",
       "type": "news",
       "status": "reported"
     }
