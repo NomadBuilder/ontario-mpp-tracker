@@ -84,6 +84,20 @@
       "status": "reported"
     },
     {
+      "id": "auto-willowdale-mpp-stan-cho-resigns-from-doug-ford-s-2026-07-20",
+      "mppNames": [
+        "Stan Cho",
+        "Doug Ford"
+      ],
+      "title": "Willowdale MPP Stan Cho resigns from Doug Ford's cabinet over hotel expenses - MSN",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNZmhMVHdNUGlWMnJtNmpIcjhSRkdyVE1BcjI4SXZ5Ym5sMWdkcUI1ek9lX3FTZDdfemtENmljUGlvY3A3b2RPN0k2ZG1YNVMtUGJqcFp1S2pNQWdOaGFhYkRzQ2xKaXZ6NWZDemp5QnZZcVotVmlzazN1X19xZEdNTXg1cnFQTjBudkZ1MnVUb0pVbG9LS1p1Vmc1WG5mT3VpOUxnQS1DOXhLclc1NWJfXzIxRlJRR0NHOEdEdGR2WTZxcWtSYm1rVVdSdVhzNV9waWFRZFl0WjNqalMyMXZOWUpDeXFOUDczV3ZEOWZkbTgxLTFRbDRjX243dkJGYnQ5eVI2RmJjSXZEdkJublUyVmszanJQay1henRoUmFGWjhfRkdEc255SmcxOVV1ZDM2bGFiMWN4U3FSbjBaNFh0eEM5ejI2VzdJZTg0UDdnOU00b0RMampCUW1R?oc=5",
+      "source": "MSN",
+      "date": "2026-07-22",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-ford-government-advised-its-mpps-they-could-use--2026-07-22",
       "mppNames": [
         "Doug Ford"
@@ -272,20 +286,6 @@
       "source": "London Free Press",
       "date": "2026-07-21",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-willowdale-mpp-stan-cho-resigns-from-doug-ford-s-2026-07-20",
-      "mppNames": [
-        "Stan Cho",
-        "Doug Ford"
-      ],
-      "title": "Willowdale MPP Stan Cho resigns from Doug Ford's cabinet over hotel expenses - MSN",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNZmhMVHdNUGlWMnJtNmpIcjhSRkdyVE1BcjI4SXZ5Ym5sMWdkcUI1ek9lX3FTZDdfemtENmljUGlvY3A3b2RPN0k2ZG1YNVMtUGJqcFp1S2pNQWdOaGFhYkRzQ2xKaXZ6NWZDemp5QnZZcVotVmlzazN1X19xZEdNTXg1cnFQTjBudkZ1MnVUb0pVbG9LS1p1Vmc1WG5mT3VpOUxnQS1DOXhLclc1NWJfXzIxRlJRR0NHOEdEdGR2WTZxcWtSYm1rVVdSdVhzNV9waWFRZFl0WjNqalMyMXZOWUpDeXFOUDczV3ZEOWZkbTgxLTFRbDRjX243dkJGYnQ5eVI2RmJjSXZEdkJublUyVmszanJQay1henRoUmFGWjhfRkdEc255SmcxOVV1ZDM2bGFiMWN4U3FSbjBaNFh0eEM5ejI2VzdJZTg0UDdnOU00b0RMampCUW1R?oc=5",
-      "source": "MSN",
-      "date": "2026-07-20",
-      "type": "expenses",
       "status": "reported"
     },
     {
