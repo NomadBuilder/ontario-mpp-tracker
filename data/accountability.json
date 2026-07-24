@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-fewer-than-1-in-4-ontarians-now-approve-of-ford--2026-07-24",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Fewer than 1 in 4 Ontarians now approve of Ford amid hotel expense scandal, new poll finds - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcHBEMkt2bllxV0dQLUwzVGF3cVJlTFhLN2xPWFBreXJwWk9VYzcwa2V5aG0xa3dkWkMzbGNlWXBuY1VjOEFVYnNmak5tM2hlcWw4QUJjYktzSlBOX2VwRld0THlEMXBFYWlOZDliSkpJemNEbFh2R0FoV0dmaURrNHUxMA?oc=5",
+      "source": "CBC",
+      "date": "2026-07-24",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "fn-inquiry-wildfire-2026-07",
       "mppNames": [
         "Jill Dunlop",
@@ -499,14 +512,14 @@
       "status": "reported"
     },
     {
-      "id": "auto-ontario-mpp-stan-cho-resigns-after-toronto-hotel-2026-07-17",
+      "id": "auto-mpp-stan-cho-resigns-after-16k-toronto-hotel-exp-2026-07-17",
       "mppNames": [
         "Stan Cho"
       ],
-      "title": "Ontario MPP Stan Cho resigns after Toronto hotel stay scandal - CHCH",
+      "title": "MPP Stan Cho resigns after $16K Toronto hotel expense controversy - CBC",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSHhfMUhxa0w0WmhFQk1IbTlvTlh5eHI2WGNOWnk0YjZJUHprMC0zM2Z3Z3BERFN3U0hKbjRrT0FWR1U2UXpldldWT1pDdVhhTzFoMDZDY3JnTDk3RUo1UWFvRHN0b0xZbXRaNlQzSzBrT0dnbUt4bmQ0a2lFN1NESHVPUWFPdDlaa0JvMmN6R3FlWGZCS0o0Uw?oc=5",
-      "source": "CHCH",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LLUJVR1BVZmwtVmlMR2pxUk4tcDE4dHhDcmVuZnlfZlVpdXBpb2sxN0stY29qNTJRZGtTal9xNWgyNmd2NUpTVWV1RUcyQ1lQM0tPRmpwRWNtQQ?oc=5",
+      "source": "CBC",
       "date": "2026-07-17",
       "type": "expenses",
       "status": "reported"
@@ -1568,19 +1581,6 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcC1rVWhwZ0JMa2J0dUFPclUycnNWUGlycWhHcVBqVUJOamRhZzRpd3VKNy1LOUlCTHpVYVljVWlzaVBiRmgxSi1NV0UwMXJkWC1iTU5rR2Jxd3NaMWRqSkhESDBweTl1c3ZyMVlVOFFoS0Uxa1ROR1ZOeUE2QnZCeWpjZHE2MmdqMjl3SlpQWlNZTUVaVktfVElSc3MzTXBtRDhYTE5EZzFTdWpqUVVFZ1ZMcWdFQWpj?oc=5",
       "source": "CBC",
       "date": "2022-11-27",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-will-bouma-ford-defends-brantford-brant-candidate-after-all-2022-05-19",
-      "mppNames": [
-        "Will Bouma"
-      ],
-      "title": "Ford defends Brantford-Brant candidate after allegations of homophobia - CHCH",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMDJGWklYWHJPTDhVcWQ3M0d0cVRiNzFmelF2TkR0dElfWi1DTk8zaE5oUEozcVJ5YlQ4M1RZa1c5Yk0taF9uUUR6WkJ4M181bkhIWlk1LVFMVnBoUDJoM0JyRmpJV056RS01bXUzYUZpTTlIMFMxM1ZCcnprUFFuaC1WU0kwbWg5eTNBbDNSSnhhdXFSZVRmdkdic2tBcEhMUmZaRg?oc=5",
-      "source": "CHCH",
-      "date": "2022-05-19",
       "type": "news",
       "status": "reported"
     }
