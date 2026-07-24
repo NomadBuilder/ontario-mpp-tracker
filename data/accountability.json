@@ -381,6 +381,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-doug-ford-not-one-single-offer-doug-ford-criticizes-donald-2026-07-20",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "‘Not one single offer:’ Doug Ford criticizes Donald Trump for not offering help amid wildfires - CP24",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeTVWYTNLQmtGRDhWWFN5RXpFRWdHcVR5RnBwZExtcFBrU3JIVGNWR1IzQVhTTTNLYzY4RTRvUHpXTElXSTJldVR4YnBzNmdEYnk5aHFlMUdrakRCc3FWdUlES0dVbll0OTVyc3M0VFFubGlGQmRUWEdpTlptQU1Fa1g2dURxdXlCY010dkxobTZBaUluOHAwSTFTYWRJR29hTmcyMFNTZ1JkUQ?oc=5",
+      "source": "CP24",
+      "date": "2026-07-20",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-mike-harris-ontario-expanding-emergency-message-system-as-ne-2026-07-19",
       "mppNames": [
         "Mike Harris"
@@ -672,7 +685,8 @@
     {
       "id": "auto-ric-bresee-full-disclosure-area-mpps-list-their-travel-and--2026-06-11",
       "mppNames": [
-        "Ric Bresee"
+        "Ric Bresee",
+        "Tyler Allsopp"
       ],
       "title": "Full disclosure: Area MPPs list their travel and living expenses for the past year - Kingstonist News",
       "summary": "",
@@ -1569,19 +1583,6 @@
       "source": "PressProgress",
       "date": "2023-01-29",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-john-jordan-protesters-converge-on-mpp-s-office-over-controv-2022-11-27",
-      "mppNames": [
-        "John Jordan"
-      ],
-      "title": "Protesters converge on MPP's office over controversial housing bill - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcC1rVWhwZ0JMa2J0dUFPclUycnNWUGlycWhHcVBqVUJOamRhZzRpd3VKNy1LOUlCTHpVYVljVWlzaVBiRmgxSi1NV0UwMXJkWC1iTU5rR2Jxd3NaMWRqSkhESDBweTl1c3ZyMVlVOFFoS0Uxa1ROR1ZOeUE2QnZCeWpjZHE2MmdqMjl3SlpQWlNZTUVaVktfVElSc3MzTXBtRDhYTE5EZzFTdWpqUVVFZ1ZMcWdFQWpj?oc=5",
-      "source": "CBC",
-      "date": "2022-11-27",
-      "type": "news",
       "status": "reported"
     }
   ]
