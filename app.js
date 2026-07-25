@@ -107,13 +107,15 @@ function expenseInsights(mpp) {
 }
 
 function renderExpensePanel(mpp) {
-  if (!showField('expenses')) return '';
+  if (!showField('expenses')) return { button: '', body: '' };
   const info = expenseInsights(mpp);
   if (!info) {
-    return `<div class="expense-panel expense-panel-empty">
-      <span class="stat-label">Expenses (2yr)</span>
-      <p class="expense-empty">No OLA claims filed in the past two years.</p>
-    </div>`;
+    return {
+      button: `<button type="button" class="section-toggle" aria-expanded="false"><span>Expenses (2yr)</span><span class="chevron">▼</span></button>`,
+      body: `<div class="section-panel expense-panel expense-panel-empty">
+        <p class="expense-empty">No OLA claims filed in the past two years.</p>
+      </div>`,
+    };
   }
 
   const short = window.MppShared.formatMoneyShort;
@@ -146,12 +148,9 @@ function renderExpensePanel(mpp) {
     ? `<a class="expense-ola" href="${info.sourceUrl}" target="_blank" rel="noopener">OLA disclosure →</a>`
     : '';
 
-  return `
-    <div class="expense-panel${info.isTop10 ? ' is-top10' : info.isTop25 ? ' is-top25' : ''}">
-      <div class="expense-panel-head">
-        <span class="stat-label">Expenses (2yr · OLA)</span>
-        <span class="expense-total">${formatCurrency(info.total)}</span>
-      </div>
+  return {
+    button: `<button type="button" class="section-toggle" aria-expanded="false"><span>Expenses · ${short(info.total)}</span><span class="chevron">▼</span></button>`,
+    body: `<div class="section-panel expense-panel${info.isTop10 ? ' is-top10' : info.isTop25 ? ' is-top25' : ''}">
       ${compareBits.length ? `<p class="expense-compare">${compareBits.join(' · ')}</p>` : ''}
       ${flags ? `<div class="expense-flags">${flags}</div>` : ''}
       ${bars ? `<div class="expense-bar" aria-hidden="true">${bars}</div>` : ''}
@@ -160,7 +159,37 @@ function renderExpensePanel(mpp) {
         ${info.claimCount ? `<span>${info.claimCount} claims</span>` : '<span></span>'}
         ${ola}
       </div>
-    </div>`;
+    </div>`,
+  };
+}
+
+function cardStatsHtml(mpp) {
+  const ac = mpp.votingAlignment != null
+    ? (mpp.votingAlignment >= 90 ? 'alignment-high' : mpp.votingAlignment >= 70 ? 'alignment-mid' : 'alignment-low')
+    : '';
+  const raise = mpp.raisePct ?? mpp.sunshine?.raisePct;
+  const salaryExtra = raise != null ? ` · ${raise > 0 ? '+' : ''}${Number(raise).toFixed(1)}%` : '';
+  const stats = [
+    `<div class="stat"><span class="stat-label">Party</span><span class="stat-value">${mpp.party}</span></div>`,
+    // Salary always shows on cards (quieter optional fields stay behind display settings)
+    `<div class="stat"><span class="stat-label">Salary</span><span class="stat-value">${formatCurrency(mpp.salary)}${salaryExtra}</span></div>`,
+  ];
+  if (showField('benefits')) {
+    stats.push(`<div class="stat"><span class="stat-label">Benefits</span><span class="stat-value">${formatCurrency(mpp.benefits)}</span></div>`);
+  }
+  if (showField('votingAlignment')) {
+    stats.push(`<div class="stat"><span class="stat-label">Voting Alignment</span><span class="stat-value highlight ${ac}">${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</span></div>`);
+  }
+  return stats.join('');
+}
+
+function featuredVotesHtml(mpp) {
+  return FEATURED_BILLS.map(bill => {
+    const v = getVoteForBill(mpp, bill);
+    const cls = v.yes === true ? 'yes' : v.yes === false ? 'no' : 'na';
+    const icon = v.yes === true ? '✓' : v.yes === false ? '✗' : '—';
+    return `<div class="vote-row"><span class="vote-bill">${billLink(v)}</span><span class="vote-result ${cls}">${icon} ${v.display}</span></div>`;
+  }).join('');
 }
 
 function getPartyInfo(party) {
@@ -198,32 +227,12 @@ function getVoteForBill(mpp, billName) {
 
 function renderCard(mpp, index) {
   const party = getPartyInfo(mpp.party);
-  const ac = mpp.votingAlignment != null
-    ? (mpp.votingAlignment >= 90 ? 'alignment-high' : mpp.votingAlignment >= 70 ? 'alignment-mid' : 'alignment-low')
-    : '';
-
-  const featuredVotes = FEATURED_BILLS.map(bill => {
-    const v = getVoteForBill(mpp, bill);
-    const cls = v.yes === true ? 'yes' : v.yes === false ? 'no' : 'na';
-    const icon = v.yes === true ? '✓' : v.yes === false ? '✗' : '—';
-    return `<div class="vote-row"><span class="vote-bill">${billLink(v)}</span><span class="vote-result ${cls}">${icon} ${v.display}</span></div>`;
-  }).join('');
-
   const emailLink = mpp.email ? `<a class="card-link" href="mailto:${mpp.email}">Email MPP</a>` : '';
   const phoneLink = mpp.phone ? `<a class="card-link" href="tel:${mpp.phone.replace(/\s/g, '')}">Call Office</a>` : '';
-
-  const stats = [
-    `<div class="stat"><span class="stat-label">Party</span><span class="stat-value">${mpp.party}</span></div>`,
-  ];
-  if (showField('salary')) {
-    stats.push(`<div class="stat"><span class="stat-label">Salary</span><span class="stat-value">${formatCurrency(mpp.salary)}</span></div>`);
-  }
-  if (showField('benefits')) {
-    stats.push(`<div class="stat"><span class="stat-label">Benefits</span><span class="stat-value">${formatCurrency(mpp.benefits)}</span></div>`);
-  }
-  if (showField('votingAlignment')) {
-    stats.push(`<div class="stat"><span class="stat-label">Voting Alignment</span><span class="stat-value highlight ${ac}">${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</span></div>`);
-  }
+  const expense = renderExpensePanel(mpp);
+  const expenseBlock = expense.button
+    ? `<div class="card-section">${expense.button}<div class="section-body">${expense.body}</div></div>`
+    : '';
 
   return `
     <article class="mpp-card${showField('expenses') && expenseInsights(mpp)?.isTop10 ? ' card-expense-alert' : ''}" style="animation-delay: ${Math.min(index * 30, 600)}ms">
@@ -238,11 +247,11 @@ function renderCard(mpp, index) {
         </div>
       </div>
       <div class="card-divider"></div>
-      <div class="card-stats">${stats.join('')}</div>
-      ${renderExpensePanel(mpp)}
-      <div class="voting-section">
-        <button class="voting-toggle" aria-expanded="false"><span>Voting History</span><span class="chevron">▼</span></button>
-        <div class="voting-list">${featuredVotes}</div>
+      <div class="card-stats">${cardStatsHtml(mpp)}</div>
+      ${expenseBlock}
+      <div class="card-section">
+        <button type="button" class="section-toggle" aria-expanded="false"><span>Voting History</span><span class="chevron">▼</span></button>
+        <div class="section-body"><div class="voting-list-inner">${featuredVotesHtml(mpp)}</div></div>
       </div>
       ${(emailLink || phoneLink) ? `<div class="card-footer">${emailLink}${phoneLink}</div>` : ''}
     </article>`;
@@ -250,34 +259,13 @@ function renderCard(mpp, index) {
 
 function renderYourMpp(mpp, meta = {}) {
   const party = getPartyInfo(mpp.party);
-  const ac = mpp.votingAlignment != null
-    ? (mpp.votingAlignment >= 90 ? 'alignment-high' : mpp.votingAlignment >= 70 ? 'alignment-mid' : 'alignment-low')
-    : '';
-
-  const featuredVotes = FEATURED_BILLS.map(bill => {
-    const v = getVoteForBill(mpp, bill);
-    const cls = v.yes === true ? 'yes' : v.yes === false ? 'no' : 'na';
-    const icon = v.yes === true ? '✓' : v.yes === false ? '✗' : '—';
-    return `<div class="vote-row"><span class="vote-bill">${billLink(v)}</span><span class="vote-result ${cls}">${icon} ${v.display}</span></div>`;
-  }).join('');
-
   const emailLink = mpp.email ? `<a class="card-link" href="mailto:${mpp.email}">Email MPP</a>` : '';
   const phoneLink = mpp.phone ? `<a class="card-link" href="tel:${mpp.phone.replace(/\s/g, '')}">Call Office</a>` : '';
-
-  const stats = [
-    `<div class="stat"><span class="stat-label">Party</span><span class="stat-value">${mpp.party}</span></div>`,
-  ];
-  if (showField('salary')) {
-    stats.push(`<div class="stat"><span class="stat-label">Salary</span><span class="stat-value">${formatCurrency(mpp.salary)}</span></div>`);
-  }
-  if (showField('benefits')) {
-    stats.push(`<div class="stat"><span class="stat-label">Benefits</span><span class="stat-value">${formatCurrency(mpp.benefits)}</span></div>`);
-  }
-  if (showField('votingAlignment')) {
-    stats.push(`<div class="stat"><span class="stat-label">Voting Alignment</span><span class="stat-value highlight ${ac}">${mpp.votingAlignment != null ? mpp.votingAlignment + '%' : '—'}</span></div>`);
-  }
-
   const where = [meta.postal, meta.city, meta.riding].filter(Boolean).join(' · ');
+  const expense = renderExpensePanel(mpp);
+  const expenseBlock = expense.button
+    ? `<div class="card-section">${expense.button}<div class="section-body">${expense.body}</div></div>`
+    : '';
 
   return `
     <div class="search-result-head">
@@ -300,22 +288,22 @@ function renderYourMpp(mpp, meta = {}) {
         </div>
       </div>
       <div class="card-divider"></div>
-      <div class="card-stats">${stats.join('')}</div>
-      ${renderExpensePanel(mpp)}
-      <div class="voting-section">
-        <button class="voting-toggle open" aria-expanded="true"><span>Voting History</span><span class="chevron">▼</span></button>
-        <div class="voting-list open">${featuredVotes || '<p class="no-results">No votes on file.</p>'}</div>
+      <div class="card-stats">${cardStatsHtml(mpp)}</div>
+      ${expenseBlock}
+      <div class="card-section">
+        <button type="button" class="section-toggle open" aria-expanded="true"><span>Voting History</span><span class="chevron">▼</span></button>
+        <div class="section-body open"><div class="voting-list-inner">${featuredVotesHtml(mpp) || '<p class="no-results">No votes on file.</p>'}</div></div>
       </div>
       ${(emailLink || phoneLink) ? `<div class="card-footer">${emailLink}${phoneLink}</div>` : ''}
     </article>`;
 }
 
 function wireVotingToggles(root = document) {
-  root.querySelectorAll('.voting-toggle').forEach(btn => {
+  root.querySelectorAll('.section-toggle').forEach(btn => {
     btn.onclick = () => {
-      const list = btn.nextElementSibling;
+      const body = btn.nextElementSibling;
       const open = btn.classList.toggle('open');
-      list.classList.toggle('open', open);
+      body?.classList.toggle('open', open);
       btn.setAttribute('aria-expanded', open);
     };
   });
