@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-kevin-holland-video-kevin-holland-is-responding-to-calls-from--2026-07-25",
+      "mppNames": [
+        "Kevin Holland"
+      ],
+      "title": "VIDEO: Kevin Holland is responding to calls from Ontario first nations about taking accountability for this years wildfires - TBNewsWatch.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQcDhFUjdxMk5URzhCbUVyaHZLNjdmMEJqN0ZmMTFmejlmU2JMVThKbUJwSjVTa0NkNlQzeU96X19CUW1GSmt2Y2ktaEVIR3kxcHBIQ05BYnZPU201dHQ3SFM2WnJIa1BIY2E3Qm45eFZCRTJwdFBwLWRrM2FoMjRSeVdVcHhuR2wtbWtQbWlteElpVUNpb0ppUklmTHhsWnR6dE9DeGRzMVNlSFdyWV80TExoX0oyUi1vQXQtbjZFMm5xem4wdkV1TW1LUFVPU3JUR1hCeHJSSmlFREMwd1FTRk4xVmg2N1RQUHg4RFhNbjRza2pCM1pweC1uUnFSRGVwVGdBZGgzdw?oc=5",
+      "source": "TBNewsWatch.com",
+      "date": "2026-07-25",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-fewer-than-1-in-4-ontarians-now-approve-of-ford--2026-07-24",
       "mppNames": [
         "Doug Ford"
@@ -1568,19 +1581,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNHpzc0VnOWVZRXpycWFweDNJYlhSYlVyMFNjWHRBbUVaTWxhblRHS0NzVER2SjZVZ3c4RDBPVjE0bzlBTVNMaHR4QUZXZmVTWVlHX2FlQ3RPT294OERhYjluSlJvaHNFd1lfTnBjbHN0SGtHNVBZWlJDU2VKWTNaOVhzR3I?oc=5",
       "source": "CBC",
-      "date": "2023-09-04",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-steve-clark-steve-clark-resigns-as-housing-minister-amid-gre-2023-09-04",
-      "mppNames": [
-        "Steve Clark"
-      ],
-      "title": "Steve Clark resigns as housing minister amid Greenbelt scandal - TVO.org",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX0tmeEpubXdTM2NESVVtNmhRZUZEOXhHSWs1bmtvMUI3c20xV3RVRHh0ZU1HcW5wTEstTzM2Ym1SdEtObkhVMWpCeTZvb0E0OWs2X0ZsdE9zQjhqR2p2cWhBd0VPaGpsd01Ea05ObjVyb1lMcDJfbFZHVm9zaGZlclhVcUNBY295Z1NYTmlXVG1BVFMw0gGUAUFVX3lxTE1iYUktTTFVT3ZyY3FHQ1JONU9Vcmo3RGxZWF9WWk1ZREktYnRMMVJmVWhMbGZTdG51bGY3RGFFdHJhUGFEc1Z0VldQTzVOazdkX1N5eUIxWjZsT1NESVhvZDVGT2FkRnZqeWJFQUVGQkwtbkN6RHVtbkFONGtOWmo1MUZNck91UDNIZmhaN2kwM2NncUc?oc=5",
-      "source": "TVO.org",
       "date": "2023-09-04",
       "type": "news",
       "status": "reported"
