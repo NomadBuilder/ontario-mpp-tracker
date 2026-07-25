@@ -1547,6 +1547,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-brian-riddell-waterloo-regional-police-investigation-to-put-an-2024-03-08",
+      "mppNames": [
+        "Brian Riddell"
+      ],
+      "title": "Waterloo Regional Police investigation to put an end to notice of security scam - CityNews Kitchener",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObWo1LWkxR1k3NVlVV3AyLWFMaFphRUJPYllEWksxcjY0M2ZRRU5MRmw1T3A0alY2T3d3cXQ2YUUxVlNTNFVkalZQRTB1ZmpoUC13Z2tTeXFrQzB4aGRDcXlCalE0R1ozUGtZLTdZMGtadXctcHN2T0p6dU1ScXVaa0tadzdKbmxxU0UtWDM3aS1Pc3VuanNBb01zNUNnQnREWTRUUF9ZUmVDM2psbzlqejdoaXpYaW01eDRoenN3?oc=5",
+      "source": "CityNews Kitchener",
+      "date": "2024-03-08",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-chandra-pasma-auditor-called-to-investigate-systemic-failures--2024-02-14",
       "mppNames": [
         "Chandra Pasma"
@@ -1570,19 +1583,6 @@
       "source": "Laura Smith, MPP | Thornhill",
       "date": "2024-01-15",
       "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-greg-rickford-caldwell-first-nation-calls-for-resignation-of-p-2023-09-22",
-      "mppNames": [
-        "Greg Rickford"
-      ],
-      "title": "Caldwell First Nation calls for resignation of provincial Indigenous minister - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaUhOeTIwN1djQVd4SEI3RW1yX2lZRVo3TFFoNWZid1BROUIyMnVyaklDaUhVLUtsWERLZVl4MGoxcXRMUENmOWpYSnhKTDRFT0UtYVZ5XzNDZTU2VVplMk1fUTU3SEhhb2l4LWFZdGNfWXY5RG5LX1BmTHoyem9nMFlQaWNpd1BORFA5VXRTM0w3UzE4MktGTg?oc=5",
-      "source": "CBC",
-      "date": "2023-09-22",
-      "type": "news",
       "status": "reported"
     }
   ]
