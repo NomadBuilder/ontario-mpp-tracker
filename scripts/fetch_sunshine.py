@@ -15,6 +15,7 @@ import json
 import re
 import ssl
 import sys
+import time
 import unicodedata
 import urllib.error
 import urllib.request
@@ -28,6 +29,10 @@ XLSX = ROOT / "Current Ontario MPPs & How They Vote..xlsx"
 MANIFEST_URL = "https://www.ontario.ca/public-sector-salary-disclosure_artifacts/pssdfiles.json"
 BASE = "https://www.ontario.ca"
 EMPLOYER = "Legislative Assembly"
+UA = (
+    "Mozilla/5.0 (compatible; OAC-MPP-Tracker/1.1; "
+    "+https://github.com/NomadBuilder/ontario-mpp-tracker)"
+)
 
 # Sheet / OLA display name → Sunshine List (Last, First)
 # Legal / preferred-name mismatches that simple nickname maps miss.
@@ -80,14 +85,40 @@ FIRST_ALIASES: dict[str, set[str]] = {
 }
 
 
-def fetch_bytes(url: str) -> bytes:
+def fetch_bytes(url: str, *, retries: int = 4) -> bytes:
     req = urllib.request.Request(
         url,
-        headers={"User-Agent": "OAC-MPP-Tracker/1.0 (github.com/NomadBuilder/ontario-mpp-tracker)"},
+        headers={
+            "User-Agent": UA,
+            "Accept": "application/json,text/csv,*/*",
+            "Accept-Language": "en-CA,en;q=0.9",
+            "Referer": f"{BASE}/page/public-sector-salary-disclosure",
+        },
     )
     ctx = ssl.create_default_context()
-    with urllib.request.urlopen(req, context=ctx, timeout=120) as resp:
-        return resp.read()
+    last_err: Exception | None = None
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, context=ctx, timeout=120) as resp:
+                return resp.read()
+        except urllib.error.HTTPError as e:
+            last_err = e
+            # ontario.ca occasionally 403s GitHub runners; back off and retry
+            if e.code in (403, 429, 500, 502, 503, 504) and attempt < retries - 1:
+                wait = 2 ** attempt
+                print(f"  HTTP {e.code} for {url} — retry in {wait}s…", flush=True)
+                time.sleep(wait)
+                continue
+            raise
+        except (TimeoutError, urllib.error.URLError) as e:
+            last_err = e
+            if attempt < retries - 1:
+                wait = 2 ** attempt
+                print(f"  Network error ({e}) — retry in {wait}s…", flush=True)
+                time.sleep(wait)
+                continue
+            raise
+    raise last_err or RuntimeError(f"Failed to fetch {url}")
 
 
 def fetch_text(url: str) -> str:
@@ -278,6 +309,21 @@ def sheet_raise_as_fraction(raw) -> float | None:
 
 
 def main() -> int:
+    try:
+        return _run()
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError, json.JSONDecodeError) as e:
+        if OUTPUT.exists():
+            print(
+                f"WARNING: Sunshine List refresh failed ({e}). "
+                f"Keeping existing {OUTPUT.name}.",
+                flush=True,
+            )
+            return 0
+        print(f"Sunshine List fetch failed and no cached file exists: {e}", file=sys.stderr)
+        return 1
+
+
+def _run() -> int:
     print("Loading PSSD file manifest…", flush=True)
     manifest = json.loads(fetch_text(MANIFEST_URL))
     years = sorted(y for y in manifest if y.isdigit())
