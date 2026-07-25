@@ -808,6 +808,49 @@
   function updateBillControlVisibility() {
     const needsBill = mode === "vote" || mode === "vote-money";
     document.getElementById("bill-control").hidden = !needsBill;
+    const chip = document.getElementById("bill-chip");
+    if (chip) chip.hidden = !needsBill;
+    syncBillChip();
+  }
+
+  function billOptions() {
+    const sel = document.getElementById("bill-select");
+    return [...sel.options].map((o) => o.value).filter(Boolean);
+  }
+
+  function syncBillChip() {
+    const label = document.getElementById("bill-chip-label");
+    if (!label) return;
+    label.textContent = selectedBill || "—";
+  }
+
+  function setSelectedBill(bill, { fromStory } = {}) {
+    if (!bill) return;
+    selectedBill = bill;
+    const sel = document.getElementById("bill-select");
+    if (sel && [...sel.options].some((o) => o.value === bill)) sel.value = bill;
+    syncBillChip();
+    if (!fromStory) document.getElementById("story-select").value = "";
+
+    if (highlightRebels && rebelCountForBill(selectedBill) === 0) {
+      highlightRebels = false;
+      document.getElementById("tog-rebels").checked = false;
+      if (selectedFeature) openPanel(selectedFeature, selectedLayer);
+      else redraw(false);
+      showNoRebelsModal(selectedBill);
+      return;
+    }
+    if (selectedFeature) openPanel(selectedFeature, selectedLayer);
+    else redraw(false);
+  }
+
+  function stepBill(delta) {
+    const bills = billOptions();
+    if (!bills.length) return;
+    let i = bills.indexOf(selectedBill);
+    if (i < 0) i = 0;
+    const next = bills[(i + delta + bills.length) % bills.length];
+    setSelectedBill(next);
   }
 
   function fillBills() {
@@ -830,6 +873,7 @@
       .join("");
     selectedBill = bills[0] || null;
     if (selectedBill) sel.value = selectedBill;
+    syncBillChip();
   }
 
   function fillStories() {
@@ -852,6 +896,7 @@
     if (story.bill) {
       selectedBill = story.bill;
       document.getElementById("bill-select").value = story.bill;
+      syncBillChip();
     }
     highlightCabinet = !!story.highlightCabinet;
     highlightOpposition = !!story.highlightOpposition;
@@ -1168,21 +1213,12 @@
     redraw(false);
   };
   document.getElementById("bill-select").onchange = (e) => {
-    selectedBill = e.target.value;
-    if (highlightRebels && rebelCountForBill(selectedBill) === 0) {
-      highlightRebels = false;
-      document.getElementById("tog-rebels").checked = false;
-      if (selectedFeature) openPanel(selectedFeature, selectedLayer);
-      else redraw(false);
-      showNoRebelsModal(selectedBill);
-      return;
-    }
-    if (selectedFeature) {
-      openPanel(selectedFeature, selectedLayer);
-    } else {
-      redraw(false);
-    }
+    setSelectedBill(e.target.value);
   };
+  document.getElementById("bill-prev").onclick = () => stepBill(-1);
+  document.getElementById("bill-next").onclick = () => stepBill(1);
+  document.getElementById("bill-prev-tb").onclick = () => stepBill(-1);
+  document.getElementById("bill-next-tb").onclick = () => stepBill(1);
   document.getElementById("story-select").onchange = (e) => applyStory(e.target.value);
   document.getElementById("tog-cabinet").onchange = (e) => {
     highlightCabinet = e.target.checked;

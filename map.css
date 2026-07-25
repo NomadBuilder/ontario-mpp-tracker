@@ -79,11 +79,73 @@ a { color: inherit; }
 .controls { display: flex; flex-wrap: wrap; gap: 0.55rem 0.75rem; align-items: end; }
 .control { display: grid; gap: 0.25rem; }
 .control label, .organizer label {
-  font-size: 0.68rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.bill-stepper {
+  display: flex;
+  align-items: stretch;
+  gap: 0.3rem;
+  min-width: min(100%, 22rem);
+}
+.bill-stepper select {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.bill-step {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: var(--panel, #141414);
+  color: var(--ink, #fff);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0 0.65rem;
+  min-height: 2.35rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.bill-step:hover {
+  border-color: rgba(255, 199, 69, 0.55);
+  color: var(--yellow, #ffc745);
+}
+.bill-chip {
+  display: flex;
+  align-items: stretch;
+  gap: 0.35rem;
+  border: 1px solid rgba(255, 199, 69, 0.35);
+  background: rgba(255, 199, 69, 0.06);
+  padding: 0.2rem;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+.bill-chip[hidden] { display: none !important; }
+.bill-chip-mid {
+  display: grid;
+  align-content: center;
+  gap: 0.05rem;
+  padding: 0 0.55rem;
+  min-width: 0;
+}
+.bill-chip-kicker {
+  font-size: 0.62rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--dim);
-  font-weight: 600;
+  color: var(--dim, #7a7a7a);
+}
+#bill-chip-label {
+  font-size: 0.88rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bill-chip .bill-step {
+  background: transparent;
+  border-color: transparent;
+  min-height: 2.2rem;
 }
 select, .postal-form input, .organizer input[type="number"] {
   appearance: none;

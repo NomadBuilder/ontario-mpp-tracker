@@ -76,7 +76,7 @@
   }
 
   function featuredVotes(mpp, limit) {
-    const bills = featured.slice(0, limit || 4);
+    const bills = featured.slice(0, limit || featured.length || 4);
     return bills.map((bill) => {
       const k = voteKey(getVote(mpp, bill));
       const short = bill.replace("Bill ", "B");
@@ -84,9 +84,22 @@
     }).join("");
   }
 
+  function expenseBreakdown(mpp) {
+    const e = mpp.expenses || {};
+    const rows = [
+      ["Travel", e.travel],
+      ["Accommodation", e.accommodation],
+      ["Meals", e.meals],
+      ["Hospitality", e.hospitality],
+      ["Total", e.total],
+    ];
+    return rows
+      .map(([label, val]) => `<div class="drop-row"><span>${label}</span><span>${money(val)}</span></div>`)
+      .join("");
+  }
+
   function cardHtml(mpp, index) {
     const party = PARTY_SHORT[mpp.party] || mpp.party || "—";
-    const total = mpp.expenses?.total;
     const photo = mpp.photo
       ? `<img src="${mpp.photo}" alt="" loading="lazy" decoding="async" onerror="this.onerror=null;const f=this.nextElementSibling;this.remove();if(f)f.hidden=false">
          <div class="fallback" hidden>${initials(mpp)}</div>`
@@ -97,23 +110,29 @@
     const phone = mpp.phone
       ? `<a class="btn btn-ghost" href="tel:${String(mpp.phone).replace(/[^\d+]/g, "")}" data-stop="1">Call</a>`
       : "";
+    const raise = mpp.raisePct ?? mpp.sunshine?.raisePct;
+    const salaryLine = `${money(mpp.salary)}${raise != null ? ` · ${raise > 0 ? "+" : ""}${Number(raise).toFixed(1)}%` : ""}`;
 
     return `
-      <button type="button" class="player" data-id="${index}" style="--party:${PARTY_VAR[mpp.party] || "var(--yellow)"};animation-delay:${Math.min(index * 20, 500)}ms">
+      <article class="player" data-id="${index}" tabindex="0" style="--party:${PARTY_VAR[mpp.party] || "var(--yellow)"};animation-delay:${Math.min(index * 20, 500)}ms">
         <div class="player-photo">${photo}</div>
         <div class="player-body">
           <div class="player-party">${party}</div>
           <div class="player-name">${mpp.name}</div>
           <div class="player-riding">${mpp.riding || "—"}</div>
           <div class="player-role">${roleSnippet(mpp)}</div>
-          <div class="vote-strip">${featuredVotes(mpp, 4)}</div>
-          <div class="stat-row">
-            <div><span>Expenses</span><span>${money(total)}</span></div>
-            <div><span>Salary</span><span>${money(mpp.salary)}</span></div>
-          </div>
-          <div class="player-actions">${email}${phone}<span class="btn btn-ghost" data-stop="1" data-open="1">Open card</span></div>
+          <div class="salary-row"><span>Salary</span><span>${salaryLine}</span></div>
+          <details class="card-drop">
+            <summary>Votes</summary>
+            <div class="vote-strip">${featuredVotes(mpp)}</div>
+          </details>
+          <details class="card-drop">
+            <summary>Expenses · ${money(mpp.expenses?.total)}</summary>
+            <div class="drop-body">${expenseBreakdown(mpp)}</div>
+          </details>
+          <div class="player-actions">${email}${phone}<button type="button" class="btn btn-ghost" data-open="1">Open card</button></div>
         </div>
-      </button>`;
+      </article>`;
   }
 
   function filtered() {
@@ -171,17 +190,27 @@
         <h2 id="lb-name">${mpp.name}</h2>
         <p class="lb-meta">${mpp.riding || "—"}</p>
         <p class="lb-meta">${roleSnippet(mpp)}</p>
-        <div class="stat-row">
-          <div><span>Expenses</span><span>${money(mpp.expenses?.total)}</span></div>
-          <div><span>Salary</span><span>${money(mpp.salary)}${raise != null ? ` · ${raise > 0 ? "+" : ""}${Number(raise).toFixed(1)}%` : ""}</span></div>
-        </div>
-        <div class="lb-votes">${votes}</div>
+        <div class="salary-row lb-salary"><span>Salary</span><span>${money(mpp.salary)}${raise != null ? ` · ${raise > 0 ? "+" : ""}${Number(raise).toFixed(1)}%` : ""}</span></div>
+        <details class="card-drop">
+          <summary>Expenses · ${money(mpp.expenses?.total)}</summary>
+          <div class="drop-body">${expenseBreakdown(mpp)}</div>
+        </details>
+        <details class="card-drop">
+          <summary>Key votes</summary>
+          <div class="lb-votes">${votes}</div>
+        </details>
+        <details class="card-drop">
+          <summary>More links</summary>
+          <div class="lb-actions lb-actions-inline">
+            <a class="btn btn-ghost" href="${tracker}">Tracker</a>
+            <a class="btn btn-ghost" href="${map}">Map</a>
+            ${mpp.profileUrl ? `<a class="btn btn-ghost" href="${mpp.profileUrl}" target="_blank" rel="noopener">OLA profile</a>` : ""}
+            ${mpp.expenses?.sourceUrl ? `<a class="btn btn-ghost" href="${mpp.expenses.sourceUrl}" target="_blank" rel="noopener">Expense disclosure</a>` : ""}
+          </div>
+        </details>
         <div class="lb-actions">
           ${mpp.email ? `<a class="btn btn-primary" href="mailto:${mpp.email}">Email MPP</a>` : ""}
           ${mpp.phone ? `<a class="btn btn-ghost" href="tel:${String(mpp.phone).replace(/[^\d+]/g, "")}">Call</a>` : ""}
-          <a class="btn btn-ghost" href="${tracker}">Tracker</a>
-          <a class="btn btn-ghost" href="${map}">Map</a>
-          ${mpp.profileUrl ? `<a class="btn btn-ghost" href="${mpp.profileUrl}" target="_blank" rel="noopener">OLA profile</a>` : ""}
         </div>
       </div>`;
     box.hidden = false;
@@ -194,10 +223,17 @@
   }
 
   document.getElementById("grid").addEventListener("click", (e) => {
-    const stop = e.target.closest("[data-stop]");
     const player = e.target.closest(".player");
     if (!player) return;
-    if (stop && stop.tagName === "A") return;
+    if (e.target.closest("a, details, summary, .card-drop")) return;
+    const mpp = mpps[Number(player.dataset.id)];
+    if (mpp) openLightbox(mpp);
+  });
+  document.getElementById("grid").addEventListener("keydown", (e) => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const player = e.target.closest(".player");
+    if (!player || e.target !== player) return;
+    e.preventDefault();
     const mpp = mpps[Number(player.dataset.id)];
     if (mpp) openLightbox(mpp);
   });

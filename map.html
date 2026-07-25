@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-  <link rel="stylesheet" href="map.css?v=3">
+  <link rel="stylesheet" href="map.css?v=4">
 </head>
 <body>
   <header class="top">
@@ -48,14 +48,26 @@
           </select>
         </div>
         <div class="control" id="bill-control">
-          <label for="bill-select">Bill</label>
-          <select id="bill-select"></select>
+          <label for="bill-select">Bill we’re following</label>
+          <div class="bill-stepper">
+            <button type="button" class="bill-step" id="bill-prev" aria-label="Previous bill">‹</button>
+            <select id="bill-select"></select>
+            <button type="button" class="bill-step" id="bill-next" aria-label="Next bill">› Next</button>
+          </div>
         </div>
       </div>
     </details>
   </header>
 
   <div class="toolbar">
+    <div class="bill-chip" id="bill-chip" hidden>
+      <button type="button" class="bill-step" id="bill-prev-tb" aria-label="Previous bill">‹</button>
+      <div class="bill-chip-mid">
+        <span class="bill-chip-kicker">Following</span>
+        <span id="bill-chip-label">—</span>
+      </div>
+      <button type="button" class="bill-step" id="bill-next-tb" aria-label="Next bill">Next ›</button>
+    </div>
     <div class="toggles" role="group" aria-label="Overlays">
       <div class="tog-item">
         <label class="check">

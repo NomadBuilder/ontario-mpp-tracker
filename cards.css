@@ -225,6 +225,82 @@ a { color: inherit; }
   overflow: hidden;
 }
 
+.salary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.45rem 0 0.15rem;
+  border-top: 1px solid var(--line);
+  margin-top: 0.1rem;
+}
+.salary-row span:first-child {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--dim);
+}
+.salary-row span:last-child {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.lb-salary {
+  border-top: 0;
+  padding-top: 0.15rem;
+}
+
+.card-drop {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.02);
+  text-align: left;
+}
+.card-drop summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.45rem 0.55rem;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.card-drop summary::-webkit-details-marker { display: none; }
+.card-drop summary::after {
+  content: "▾";
+  font-size: 0.7rem;
+  color: var(--dim);
+}
+.card-drop[open] summary {
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+.card-drop[open] summary::after { content: "▴"; }
+.card-drop .vote-strip,
+.card-drop .drop-body,
+.card-drop .lb-votes,
+.card-drop .lb-actions-inline {
+  padding: 0.5rem 0.55rem 0.6rem;
+}
+.drop-body { display: grid; gap: 0.25rem; }
+.drop-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.drop-row span:last-child { color: var(--ink); font-weight: 600; }
+.lb-actions-inline {
+  position: static;
+  border: 0;
+  padding: 0.5rem 0.55rem 0.6rem;
+  margin: 0;
+  background: transparent;
+}
+
 .vote-strip {
   display: flex;
   flex-wrap: wrap;
