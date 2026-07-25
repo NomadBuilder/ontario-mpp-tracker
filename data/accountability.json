@@ -420,6 +420,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-stan-cho-ontario-premier-won-t-say-if-ex-minister-will-re-2026-07-20",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Ontario premier won't say if ex-minister will remain in PC caucus after hotel expense controversy - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcE04em9yXzEzNWs0RXIybXM4eTgzVVFNdTBzSVFiZk1OY0d0ZFp2XzhiN29ZcDRhdFJ2d28wMlNHMXVHQmxhUWJxNktnY0xKUEoybUZYQUdxZHJldVQ3QVRXYzVrSHYxaGRBcTY3YmRWU0xxVy1mWW0tdUJPaGNDUUQ2aHoyY0ZoT0E?oc=5",
+      "source": "CBC",
+      "date": "2026-07-20",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-mike-harris-ontario-expanding-emergency-message-system-as-ne-2026-07-19",
       "mppNames": [
         "Mike Harris"
@@ -1570,19 +1583,6 @@
       "source": "TVO.org",
       "date": "2023-09-04",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-john-jordan-merlyn-jordan-obituary-aug-20-2023-billingsley-f-2023-08-20",
-      "mppNames": [
-        "John Jordan"
-      ],
-      "title": "Merlyn Jordan Obituary Aug 20, 2023 - Billingsley Funeral Home",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pNXBpSmo4akR1dDFUaGR4VEtXTkh0cTBIbEZ3T1gtOXpybzJUQWhhMGNNc3ZUMUQ2SWlaQWVPMmdsR0xscms1Wk9KSjVFM0tLUS04RnNXVl81UFZMTFFMdE5CZmxvV3pBTWpRajZ3?oc=5",
-      "source": "Billingsley Funeral Home",
-      "date": "2023-08-20",
-      "type": "expenses",
       "status": "reported"
     }
   ]
