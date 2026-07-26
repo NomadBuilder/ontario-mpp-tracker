@@ -1391,6 +1391,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-sylvia-jones-ontario-investigating-alleged-data-breach-of-200-2025-06-27",
+      "mppNames": [
+        "Sylvia Jones"
+      ],
+      "title": "Ontario investigating alleged data breach of 200,000 home care patients' info - Oakville News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb0RBU0cxOFJzTi16STE2NG5KYThBRU1hUDJyYUNfRHNVQjBReGFGN1o4Z2xpbnVrT3JJTmxFQmNnZUVmaUJnamFONW4tMVB5WjdsbjExVUJPZDlvb3pzZXpCYVlUVEk1Y2U4SW9fU3NuTUZudElPeEtRV3dRUVFObnFMU2YwZmR5eGpNdFhWRFRwV1Ryd2U2LS1XWjE5eUcyY09WdV9UZWxlNzc4anBVUjlqZFVQUjJIVGdoN2lEaVp1RmFX?oc=5",
+      "source": "Oakville News",
+      "date": "2025-06-27",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-greg-rickford-bearskin-first-nation-joins-chorus-calling-for-r-2025-06-09",
       "mppNames": [
         "Greg Rickford"
@@ -1571,19 +1584,6 @@
       "source": "CHCH",
       "date": "2024-04-04",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-raymond-sung-joon-cho-annual-barbecue-again-tops-newmarket-aurora-mpp--2024-03-15",
-      "mppNames": [
-        "Raymond Sung Joon Cho"
-      ],
-      "title": "Annual barbecue again tops Newmarket-Aurora MPP's expenses - NewmarketToday.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWUlzeFdYdlF4NVNib0o2NXNUdk5FaV9yNHVpYzIzUUVzanJicmZOSHlLdlFGOWVCYy0wd2I5bFVWRXdQaElsS2ltWVhQXzFrdGlWWE9CZ0lPekx5VU5NdDMwLU5KckgydUptekphRzhnZGFKU3cwX2ZJdkhwV0FLTlNzSlE2amNYMUtSeEdscUVWaFVYZC1WeHZEaUhxbERnM1N3ZFF4eG1fQQ?oc=5",
-      "source": "NewmarketToday.ca",
-      "date": "2024-03-15",
-      "type": "expenses",
       "status": "reported"
     }
   ]
