@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-kevin-holland-wildfire-response-fuels-protest-outside-mpp-holl-2026-07-26",
+      "mppNames": [
+        "Kevin Holland"
+      ],
+      "title": "Wildfire response fuels protest outside MPP Holland's office - TBNewsWatch.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaW5FTF85Q004WmRrWXZxOHNVNlViZVNGaTdnVmNJOGhUMHFpMGMxbTc1R3ZndFJ5a055MWZ1UmF3RXk3czRJNHJBZU0tbXNBR0Y2REY1MnVVeW1XNTVqUXR2T0xsSW1PQUZLdHRsdGhnSmVGV19vTW1OMVJuR3lKMGdNTFlLM2FycnZuNTc2ZGZMeDI1OFF1VEVtOU1iZE82XzlJQURvVWxZYmM?oc=5",
+      "source": "TBNewsWatch.com",
+      "date": "2026-07-26",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-kevin-holland-video-kevin-holland-is-responding-to-calls-from--2026-07-25",
       "mppNames": [
         "Kevin Holland"
@@ -1571,19 +1584,6 @@
       "source": "The Trillium",
       "date": "2024-10-17",
       "type": "integrity",
-      "status": "reported"
-    },
-    {
-      "id": "auto-today-s-letters-yes-ontario-health-minister-sylv-2024-05-24",
-      "mppNames": [
-        "Sylvia Jones"
-      ],
-      "title": "Today's letters: Yes, Ontario Health Minister Sylvia Jones should resign - Ottawa Citizen",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUTAxZ2pkX2k4TXFiUkxKQkF3RDRiNm0tQ1ZNWkpVQzB1ZWlVS1gxdUw4cXJPdkI5NlFJY1pPQk5DT0piMHJGNG9FeHR4UGhETVUxR3NzdExOZzJjYm8ta1R1RG8wNEt2c3JraktkTUZCbXR1by1hMVM4Q1Z6OWJKYWJudl9CVkxzMmRtc0N5ODNqck5TbnB2Y2g1Y0JaZ3QwalQxZVRR?oc=5",
-      "source": "Ottawa Citizen",
-      "date": "2024-05-24",
-      "type": "news",
       "status": "reported"
     }
   ]
