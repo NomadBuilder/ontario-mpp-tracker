@@ -68,6 +68,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-ontario-news-this-week-brampton-mpps-in-hot-wate-2026-07-24",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ontario News This Week: Brampton MPPs in hot water over hotel stays, plus Doug Ford’s reaction to Trump tariff threats - The Record",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQUtUU21ESHp6MWoxUE94X2lydUNlTHphQ0VIOFVtb3VaRmV5OHplQ3hiVnB0QnZ5dVhFWUViZWw1Zm9PaWJEanNMcU04YXpHVVM2NHd3R0tMcGpQelVHUXQ4dHVrbDJ5Wm5CTzJkeDlISFVvQjNweE05SnFvSGNDcEdMSTVFM01ncG56X2prdUthbWp0emg2VlNMVkZHRDdNM0pfM0VCZDNLNERoRzJveEJpUmFhLVNKeGxZTW9wU28?oc=5",
+      "source": "The Record",
+      "date": "2026-07-24",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "fn-inquiry-wildfire-2026-07",
       "mppNames": [
         "Jill Dunlop",
@@ -1570,19 +1583,6 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUTAxZ2pkX2k4TXFiUkxKQkF3RDRiNm0tQ1ZNWkpVQzB1ZWlVS1gxdUw4cXJPdkI5NlFJY1pPQk5DT0piMHJGNG9FeHR4UGhETVUxR3NzdExOZzJjYm8ta1R1RG8wNEt2c3JraktkTUZCbXR1by1hMVM4Q1Z6OWJKYWJudl9CVkxzMmRtc0N5ODNqck5TbnB2Y2g1Y0JaZ3QwalQxZVRR?oc=5",
       "source": "Ottawa Citizen",
       "date": "2024-05-24",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-donna-skelly-pc-candidate-donna-skelly-responds-to-photo-cont-2024-04-04",
-      "mppNames": [
-        "Donna Skelly"
-      ],
-      "title": "PC candidate Donna Skelly responds to photo controversy - CHCH",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdHBIaWxrYU5hZzgxWGtGTTFqTEppbldoU2pRNGNqZXJrUkcwVDc0bkp2ZnFvLThBbGRvUk1XVzVlUVdvZjB4NXBicDR6RFM5cXM5OGJ4cUVpWGNWaVdSVjJFVmxtLVM2Qmk4a0x0Rjh0Tk55RTBKdXpubVpPMGZMUHhQcjlIa2FzRVR4Ng?oc=5",
-      "source": "CHCH",
-      "date": "2024-04-04",
       "type": "news",
       "status": "reported"
     }
