@@ -699,10 +699,10 @@
       "mppNames": [
         "Mohamed Firin"
       ],
-      "title": "Scott Stinson: Ontario minister who lives in Toronto billed $16,000 for Toronto hotels - National Post",
+      "title": "Scott Stinson: Ontario minister who lives in Toronto billed $16,000 for Toronto hotels - Yahoo News Canada",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoNUpWQ2syWWRwQldDZmZRc1JCbU5EaUF0MzNmY01CRlZKb0lfMlR5TTFPYXdKT1BuMlNscDBVdnZCSkRjUG9OUGJFUGFFSWNrVkFzRkFtUm9BTWJraDV1bms0RVo1dWk4b1RKeXN4cEwzdw?oc=5",
-      "source": "National Post",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOODVvRlBDMGJlX0dTbUpwdFppSjgxQ3k4TWhaTEx4d2xVanlveFZtbjVUNkFqWFZnenZNeFJWV0s2RHBzZkZtaElOVFlCMG9HVk9vSV9hSGtkcEdfN0pxQ3BWOUxtVU0ta2wtWHB2c0ZhY0xocHBDMGJlWjRvbkJTdG5DRQ?oc=5",
+      "source": "Yahoo News Canada",
       "date": "2026-07-15",
       "type": "expenses",
       "status": "reported"
@@ -879,6 +879,21 @@
       "status": "reported"
     },
     {
+      "id": "auto-peter-bethlenfalvy-caroline-mulroney-resigning-from-ford-government-2026-05-25",
+      "mppNames": [
+        "Peter Bethlenfalvy",
+        "Caroline Mulroney",
+        "Natalia Kusendova-Bashta"
+      ],
+      "title": "Caroline Mulroney resigning from Ford government's cabinet, Ontario legislature - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUGpfQzdFR0lETW9qYkVWVUowX1FwcFVLdUNZNG5LOGliWkZPaTZoUExsemlxVDdjeWs1RWxRT2tjZjJ4T0dzSGlzZElhaERrVk10STZNQ2xJTGVvOGNfNDNaVFkwcVZYb2RPX3lKYWUxeVdjYl84a2RZODBjU25WODI3TnNiMnM?oc=5",
+      "source": "CBC",
+      "date": "2026-05-25",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-caroline-mulroney-one-of-doug-ford-s-most-truste-2026-05-25",
       "mppNames": [
         "Doug Ford",
@@ -888,20 +903,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUmVXRFBPMV9hdmVyZF81OU42dy05QlJBZ2xlN2Q0cmVHNXRpQ2h1ZVVRRl9yMmVGVXhZd3BGSGpyX2hnQnN6aDFTXzFxaTE2a0lrOEYtTnZXVlpib1ZqVlI1VDluWkdwSFZabXpDSG5tSjBfVTNob0FCS0JfcHR2WVlNMmZhY0QzUzJaNEttcXRyYlFncEJV?oc=5",
       "source": "National Post",
-      "date": "2026-05-25",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-peter-bethlenfalvy-caroline-mulroney-resigning-from-ford-government-2026-05-25",
-      "mppNames": [
-        "Peter Bethlenfalvy",
-        "Caroline Mulroney"
-      ],
-      "title": "Caroline Mulroney resigning from Ford government's cabinet, Ontario legislature - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUGpfQzdFR0lETW9qYkVWVUowX1FwcFVLdUNZNG5LOGliWkZPaTZoUExsemlxVDdjeWs1RWxRT2tjZjJ4T0dzSGlzZElhaERrVk10STZNQ2xJTGVvOGNfNDNaVFkwcVZYb2RPX3lKYWUxeVdjYl84a2RZODBjU25WODI3TnNiMnM?oc=5",
-      "source": "CBC",
       "date": "2026-05-25",
       "type": "news",
       "status": "reported"
@@ -1364,6 +1365,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-natalie-pierre-natalie-pierre-corrects-the-record-she-is-not-pl-2025-09-18",
+      "mppNames": [
+        "Natalie Pierre"
+      ],
+      "title": "Natalie Pierre corrects the record: she is not planning on resigning - burlingtongazette.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWVVIdElVUWZYOTBfT3dxTWo5TFdva1kxS0Jsd2trRGpZMzJ2akctcGlLdHNZZW5pU195UmhEMEFiMVdfNkU5a3JmeGNHNzlYamNzWGh6VGQ4RUNCSkhiQnRYR3Y1SzR2VWJ6VnZTTnpqZmVCckxEa3gwVmNkMkdxN2l6WUw4YWQyMndNN183Q3NTbmtKenR0U1RMYUgtUQ?oc=5",
+      "source": "burlingtongazette.ca",
+      "date": "2025-09-18",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-greg-rickford-i-m-not-going-anywhere-provincial-indigenous-aff-2025-07-07",
       "mppNames": [
         "Greg Rickford"
@@ -1570,19 +1584,6 @@
       "source": "NewmarketToday.ca",
       "date": "2024-03-15",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-brian-riddell-waterloo-regional-police-investigation-to-put-an-2024-03-08",
-      "mppNames": [
-        "Brian Riddell"
-      ],
-      "title": "Waterloo Regional Police investigation to put an end to notice of security scam - CityNews Kitchener",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObWo1LWkxR1k3NVlVV3AyLWFMaFphRUJPYllEWksxcjY0M2ZRRU5MRmw1T3A0alY2T3d3cXQ2YUUxVlNTNFVkalZQRTB1ZmpoUC13Z2tTeXFrQzB4aGRDcXlCalE0R1ozUGtZLTdZMGtadXctcHN2T0p6dU1ScXVaa0tadzdKbmxxU0UtWDM3aS1Pc3VuanNBb01zNUNnQnREWTRUUF9ZUmVDM2psbzlqejdoaXpYaW01eDRoenN3?oc=5",
-      "source": "CityNews Kitchener",
-      "date": "2024-03-08",
-      "type": "investigation",
       "status": "reported"
     }
   ]
