@@ -1185,6 +1185,19 @@
       "claimCount": 151,
       "periodCount": 9
     },
+    "michael-parsa": {
+      "slug": "michael-parsa",
+      "name": "Parsa, Michael",
+      "riding": "Aurora\u2014Oak Ridges\u2014Richmond Hill",
+      "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/michael-parsa",
+      "total": 33821.99,
+      "travel": 0.0,
+      "accommodation": 1613.6,
+      "meals": 0.0,
+      "hospitality": 32208.39,
+      "claimCount": 46,
+      "periodCount": 9
+    },
     "chandra-pasma": {
       "slug": "chandra-pasma",
       "name": "Pasma, Chandra",
@@ -2144,6 +2157,9 @@
     "pang, billy": "billy-pang",
     "billy pang": "billy-pang",
     "hon. billy pang": "billy-pang",
+    "parsa, michael": "michael-parsa",
+    "michael parsa": "michael-parsa",
+    "hon. michael parsa": "michael-parsa",
     "pasma, chandra": "chandra-pasma",
     "chandra pasma": "chandra-pasma",
     "hon. chandra pasma": "chandra-pasma",
