@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-25",
+  "asOf": "2026-07-26",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -598,6 +598,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LLUJVR1BVZmwtVmlMR2pxUk4tcDE4dHhDcmVuZnlfZlVpdXBpb2sxN0stY29qNTJRZGtTal9xNWgyNmd2NUpTVWV1RUcyQ1lQM0tPRmpwRWNtQQ?oc=5",
       "source": "CBC",
+      "date": "2026-07-17",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-neil-lumsden-will-brampton-politicians-resign-over-40k-hotel--2026-07-17",
+      "mppNames": [
+        "Neil Lumsden"
+      ],
+      "title": "Will Brampton politicians resign over $40K hotel expenses? - INsauga",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMC1fTXEzcERwX2RNSkxkZFFjbFotblZEek1qUVRHYThRMHBGUTU0amFuTnpEM0oxTEtFb0oxS29iOERNbWtsYml6T2t5Rm14SWVKcy1pVVpTeUo3cWlTVmxwUlh0S1hIRy1oUmtFWjEtOEtsUlpUSTB4azVaUk81RmhGeGdpUFJn?oc=5",
+      "source": "INsauga",
       "date": "2026-07-17",
       "type": "expenses",
       "status": "reported"
@@ -1569,19 +1582,6 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObWo1LWkxR1k3NVlVV3AyLWFMaFphRUJPYllEWksxcjY0M2ZRRU5MRmw1T3A0alY2T3d3cXQ2YUUxVlNTNFVkalZQRTB1ZmpoUC13Z2tTeXFrQzB4aGRDcXlCalE0R1ozUGtZLTdZMGtadXctcHN2T0p6dU1ScXVaa0tadzdKbmxxU0UtWDM3aS1Pc3VuanNBb01zNUNnQnREWTRUUF9ZUmVDM2psbzlqejdoaXpYaW01eDRoenN3?oc=5",
       "source": "CityNews Kitchener",
       "date": "2024-03-08",
-      "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-chandra-pasma-auditor-called-to-investigate-systemic-failures--2024-02-14",
-      "mppNames": [
-        "Chandra Pasma"
-      ],
-      "title": "Auditor called to investigate systemic failures amid disturbing allegations of abuse within Ontario schools for the deaf and blind - The Pointer",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVC1Lek4temRvSzc4eUx3ak1FUk44WVozX0ZhWlNFcm1EeDFNX0VQMnpnVEEyRGdBdDRYMWZ4MzVoWFVuY0NqRzFCcGZBcmwwZG1NMkJST09aYl9LaDB4UkVROFRUUkI4UXJXczliZHZpTFJ0d3RRWHhKQ29jcGFYVE5BUC1paTVPM2JQcVNVN2lIRmtQU1ZFVndTb1hTTlVTSllYZGZrUHJzNmp5Y1pJTUhwdG9IMjVNZmRObGRfM2dael8tbVRfVnRYc3lMejk3NG5GYy13M3QxOHJvQllfdDlvQWRtNlNRS1RnMWZIdXlLQXNVZHRnbDROUTlGUVFjQ3c?oc=5",
-      "source": "The Pointer",
-      "date": "2024-02-14",
       "type": "investigation",
       "status": "reported"
     }
