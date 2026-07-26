@@ -13475,17 +13475,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/michael-parsa.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/michael-parsa",
-      "expenses": {
-        "total": 33821.99,
-        "travel": 0.0,
-        "accommodation": 1613.6,
-        "meals": 0.0,
-        "hospitality": 32208.39,
-        "claimCount": 46,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/michael-parsa",
-        "asOf": "2026-07-26"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
