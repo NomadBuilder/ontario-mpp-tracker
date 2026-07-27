@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-prabmeet-singh-sarkaria-gordie-howe-bridge-to-open-to-cars-today-after-m-2026-07-27",
+      "mppNames": [
+        "Prabmeet Singh Sarkaria"
+      ],
+      "title": "Gordie Howe bridge to open to cars today after months of cross-border controversy - BNN Bloomberg",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZFlKVkdUbDdYVFRwSnhpSFRkMV9mVXNsc09oSmxIUmprQ09DRWs1NnNrMVhKTlhyeFY5OGJyWTF6dk5TdDFEdllHdXFlUkxwRzRHVDhCa2tteUZHT0RNSnpJZzZtSDJORVlZWHVyTU1hcmtUS0pSeHFKWUJoa2ZoT1M5b1dva0cxc24zSGNZNTRjSkRhR3dseE1OR2k3Rlc5ZTVDcW81dVN1TUt4NXJ5cVNsbExUQUNCR0pTTTJkRmxUQkhVRUpXYlZB?oc=5",
+      "source": "BNN Bloomberg",
+      "date": "2026-07-27",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-kevin-holland-wildfire-response-fuels-protest-outside-mpp-holl-2026-07-26",
       "mppNames": [
         "Kevin Holland"
@@ -1445,6 +1458,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-stephanie-bowman-ontario-liberal-caucus-says-it-didn-t-press-bonn-2025-09-15",
+      "mppNames": [
+        "Stephanie Bowman"
+      ],
+      "title": "Ontario Liberal caucus says it didn’t press Bonnie Crombie to resign - The Globe and Mail",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNlUxZUZmU0FBWFhKd0hDRHNsVVBPc3JGSmFCZEZLbEhqeEljWkVKWGVzeFFMSGVXVnNWWVJacXczSmtrbzJBQzZpdUo0d3hYQ0tOVURyWU1xTFBWOXhrSWN6Q0JWRGhJWTBZb2NOMDNoVGZXVzRUd0MxeHpyT3A4LXZUcjEyWFFNN2dNMkJWc0tvbEVlZzdURFF4WUlSY1JTRGozMHRHbUk3N2xyeEduQk9WSC05QQ?oc=5",
+      "source": "The Globe and Mail",
+      "date": "2025-09-15",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-greg-rickford-i-m-not-going-anywhere-provincial-indigenous-aff-2025-07-07",
       "mppNames": [
         "Greg Rickford"
@@ -1559,32 +1585,6 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGFISXBDeUhNdDNQdFNIRDVxV25YMnkzVTFTY3ZyVldYTHNHazRrTWNPeTdCMUR4TFd1ZHQ1a1JYMnFWaWRmdWxYdXNsa2c5TU5sc0J6bVktYnlzbXh6bkZKTXk3VzVxc1NWaV95V0R6TnNjdmxSS2hZQU8wVzYyU0hfRlZkLTJHYUtTeUx3?oc=5",
       "source": "georgepiriempp.ca",
       "date": "2025-01-22",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-graydon-smith-auditor-general-s-2024-report-reveals-gaps-in-en-2025-01-09",
-      "mppNames": [
-        "Graydon Smith"
-      ],
-      "title": "Auditor general’s 2024 report reveals gaps in Environmental Bill of Rights compliance across several Ontario ministries - Muskoka Region",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQZkx4VkpkMVJmX0Y3TGVOS2FHUUhhQndlY0h4VGZPVEhkNlAwZjJEUFhwSzIxbHk4eWZrMGo2NlMwUHdjbHhHb2NwYmxtOERhZU1ldGd0dEVGRWRnZkVSUUMzVkx0d3M1WDE4WFdtRTRrOG1EZ3NYYWwxZDBxbFphQXBZZXNKYUJxa1dDNmJURGpQdVM4ZjJycXU5NjdXR1FGY3pFQlQzRHRzTWJJYkZYbDhTNk5xSXlNZl9NU251UVFob3YxZ3RSQWY1Ui1WWWN4SHJRZVkyM0tOaTR4eE1yWXNqbDI0alhMWVc1RGhBNll3MzZnTVRaeXlEdDdJMHFUZ1NRZHR1SGhvZGFSZHlJX25IWC13cmN0TW9WOA?oc=5",
-      "source": "Muskoka Region",
-      "date": "2025-01-09",
-      "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-jess-dixon-intimate-partner-violence-study-cut-short-as-ont-2024-12-05",
-      "mppNames": [
-        "Jess Dixon"
-      ],
-      "title": "Intimate partner violence study cut short as Ontario eyes early election - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYzYzN1VXSVZYekFhWWNKNHVhTktNNW9oSFdRZXp2Qm5Pc3dvVUlfSnFHdTdUcjYxTExUTVVvU2RpeUtad3FNOHRCTnhBekhOOFJUYmZDckZ3eEV3dXJNNXZ5Q3pldFVQOFJhRWpia0drVWozY2x2TWR0TFRqMVBURGRZOWRoMmdKRWt0RUhHN2pTUTBOc285MVpjd1pOZ28?oc=5",
-      "source": "CBC",
-      "date": "2024-12-05",
       "type": "news",
       "status": "reported"
     }
