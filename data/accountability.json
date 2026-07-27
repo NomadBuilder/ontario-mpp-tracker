@@ -1222,6 +1222,20 @@
       "status": "reported"
     },
     {
+      "id": "auto-doug-ford-stands-by-david-piccini-despite-ethics-2026-01-05",
+      "mppNames": [
+        "Doug Ford",
+        "David Piccini"
+      ],
+      "title": "Doug Ford stands by David Piccini despite ethics probe - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRUdqY1o3eVF1X3JhWVk0R2t3QVhBdVIxZnV4YlFKekdhWHg3ZkprZDhwLWtlaGlES2pUYjd3TFVfbF91UEROTkFNbXdaN1l1bFQtUXNqNmpDc1pnUDd6dlZvM0ZnamI1c2Y2dnVjMmpzbzJ4Q3E1a2VydlBqSUIzTC15UWoxN0l6OWRNRDBGbUdnbkllU0RtajVBYmhqelRBbjNTVjVKb1c4cUJXOEVtWnZWT3hWQ05KWGNwMFFjalpDLW5WWlhPRS11Q2VjekExQUZoeXd1c2VKczRpVU5oRkhn?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-01-05",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
       "id": "auto-stephanie-smyth-integrity-commissioner-to-probe-ontario-labour-m-2025-12-18",
       "mppNames": [
         "Stephanie Smyth"
@@ -1570,19 +1584,6 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYzYzN1VXSVZYekFhWWNKNHVhTktNNW9oSFdRZXp2Qm5Pc3dvVUlfSnFHdTdUcjYxTExUTVVvU2RpeUtad3FNOHRCTnhBekhOOFJUYmZDckZ3eEV3dXJNNXZ5Q3pldFVQOFJhRWpia0drVWozY2x2TWR0TFRqMVBURGRZOWRoMmdKRWt0RUhHN2pTUTBOc285MVpjd1pOZ28?oc=5",
       "source": "CBC",
       "date": "2024-12-05",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-kinga-surma-opposition-pushes-for-surma-s-resignation-over-o-2024-12-04",
-      "mppNames": [
-        "Kinga Surma"
-      ],
-      "title": "Opposition pushes for Surma’s resignation over Ontario Place - CHCH",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQemRPSTFYT0QwaWhybVB0OENacnAxODNtSDFua3dxZXZMZkkwYzJOWU1aVE5GelJNVE9fdEZQdEdrZ1V3ZWRZREFMenZkc3FVUnF5ZjlTc3Q5dWtxSXRkWWh5a1hBQWlWenBWdVo4TW81bjA4S1lUZ2NPQW5QZm4yZHQ2TDF1SzRTSGRBY21VREJCQWV6Ymc?oc=5",
-      "source": "CHCH",
-      "date": "2024-12-04",
       "type": "news",
       "status": "reported"
     }
