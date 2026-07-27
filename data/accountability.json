@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-26",
+  "asOf": "2026-07-27",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -1548,6 +1548,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-graydon-smith-auditor-general-s-2024-report-reveals-gaps-in-en-2025-01-09",
+      "mppNames": [
+        "Graydon Smith"
+      ],
+      "title": "Auditor general’s 2024 report reveals gaps in Environmental Bill of Rights compliance across several Ontario ministries - Muskoka Region",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQZkx4VkpkMVJmX0Y3TGVOS2FHUUhhQndlY0h4VGZPVEhkNlAwZjJEUFhwSzIxbHk4eWZrMGo2NlMwUHdjbHhHb2NwYmxtOERhZU1ldGd0dEVGRWRnZkVSUUMzVkx0d3M1WDE4WFdtRTRrOG1EZ3NYYWwxZDBxbFphQXBZZXNKYUJxa1dDNmJURGpQdVM4ZjJycXU5NjdXR1FGY3pFQlQzRHRzTWJJYkZYbDhTNk5xSXlNZl9NU251UVFob3YxZ3RSQWY1Ui1WWWN4SHJRZVkyM0tOaTR4eE1yWXNqbDI0alhMWVc1RGhBNll3MzZnTVRaeXlEdDdJMHFUZ1NRZHR1SGhvZGFSZHlJX25IWC13cmN0TW9WOA?oc=5",
+      "source": "Muskoka Region",
+      "date": "2025-01-09",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-jess-dixon-intimate-partner-violence-study-cut-short-as-ont-2024-12-05",
       "mppNames": [
         "Jess Dixon"
@@ -1571,19 +1584,6 @@
       "source": "CHCH",
       "date": "2024-12-04",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-chandra-pasma-ontario-to-audit-school-boards-after-expensive-t-2024-11-08",
-      "mppNames": [
-        "Chandra Pasma"
-      ],
-      "title": "Ontario to audit school boards after expensive trips to Hawaii, Italy - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQldKMUdvZHNYRGh2b2pXcHE0QVA4T1ZyM0tyb2h3U2d0d0xZbnRjTExZMWxtZnZndVpId01jTXRqbDNiY2F3T3JEU3dJUmcyME1zUFhoTWxrLXpYX2FIOVplMkJya0N5enltMUNselZFLUxaY0otRlZFY1pwRUdrN1RrTzFmbmEyMlh2dkVxMG1UWVBxWF9zM1Q4VC0tZm9tVngxTXJLNGkwQmdEakI1ejBpRS1qNVdrWUNwY3NtclBlcVVBbWg0VWZQSkxkcVBkVjBnV2NobjJocFlvNEJz?oc=5",
-      "source": "CBC",
-      "date": "2024-11-08",
-      "type": "investigation",
       "status": "reported"
     }
   ]
