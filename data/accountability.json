@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-premier-doug-ford-has-billed-ontario-taxpayers-4-2026-07-28",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Premier Doug Ford has billed Ontario taxpayers $44K despite claims of ‘zero expenses’ - CityNews Toronto",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOazZnOEM4U2VEMW55OWJfX1l0ZWdQa01oMVNmOGhnb3ZOcnFKYnhDZ3hPMkc4U3l1MnRGSUtocENwaDJzNHl4c1d5QzZ3Q2hHYVc5U25aXzlSWmtiTFVqZEhRMG5WV2tXVy0wS3gzdHFqYXVOaGZUcHgxUDA4Uk81UzFzb185anJFcUc0UE1MdEdUTXlPVFVTQWVHWWVnclRMNVZQX0lZOUlSNlNjc1hSWEw4TF9ualZ3YVB6enY1OA?oc=5",
+      "source": "CityNews Toronto",
+      "date": "2026-07-28",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-prabmeet-singh-sarkaria-gordie-howe-bridge-to-open-to-cars-today-after-m-2026-07-27",
       "mppNames": [
         "Prabmeet Singh Sarkaria"
@@ -1572,19 +1585,6 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNlUxZUZmU0FBWFhKd0hDRHNsVVBPc3JGSmFCZEZLbEhqeEljWkVKWGVzeFFMSGVXVnNWWVJacXczSmtrbzJBQzZpdUo0d3hYQ0tOVURyWU1xTFBWOXhrSWN6Q0JWRGhJWTBZb2NOMDNoVGZXVzRUd0MxeHpyT3A4LXZUcjEyWFFNN2dNMkJWc0tvbEVlZzdURFF4WUlSY1JTRGozMHRHbUk3N2xyeEduQk9WSC05QQ?oc=5",
       "source": "The Globe and Mail",
       "date": "2025-09-15",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-greg-rickford-i-m-not-going-anywhere-provincial-indigenous-aff-2025-07-07",
-      "mppNames": [
-        "Greg Rickford"
-      ],
-      "title": "‘I’m not going anywhere’: provincial Indigenous affairs minister rejects calls to resign - The Sarnia Journal",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSHVLUVJDaEkzNnBnMER6Tkdval9veVhkOEdHNGI0aWUtdlhZZFJ6Y1hoaTYtUkdOSnEyMTQwWjlTRmRXbzBab3NQYmp2WGtRSjB2MTNvZjRieV9CcTFmWFV6R1EtWFFTbHZRLWYtQ091SnJINFNDTTdJVF8zMW5ZMF9JWFVNZHJncmthSFFZUlg1TVdwd0ZnZWlsOFZkamE0S3JLT1dQZ0QydEpna0lWcHJxcC1ueWpTV3pXN1RiXzl2aXNzbWlfMVp3?oc=5",
-      "source": "The Sarnia Journal",
-      "date": "2025-07-07",
       "type": "news",
       "status": "reported"
     }
