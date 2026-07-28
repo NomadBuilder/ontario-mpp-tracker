@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -11,6 +11,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZFlKVkdUbDdYVFRwSnhpSFRkMV9mVXNsc09oSmxIUmprQ09DRWs1NnNrMVhKTlhyeFY5OGJyWTF6dk5TdDFEdllHdXFlUkxwRzRHVDhCa2tteUZHT0RNSnpJZzZtSDJORVlZWHVyTU1hcmtUS0pSeHFKWUJoa2ZoT1M5b1dva0cxc24zSGNZNTRjSkRhR3dseE1OR2k3Rlc5ZTVDcW81dVN1TUt4NXJ5cVNsbExUQUNCR0pTTTJkRmxUQkhVRUpXYlZB?oc=5",
       "source": "BNN Bloomberg",
+      "date": "2026-07-27",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-kevin-holland-video-a-protest-targeting-the-provincials-govern-2026-07-27",
+      "mppNames": [
+        "Kevin Holland"
+      ],
+      "title": "VIDEO: A protest targeting the provincials governments response to wildfires was held outside MPP Kevin Hollands office. - tbnewswatch.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPajNwVFJUUUdUOGduSEJqaG9tUGZRVHpVUTk5clNxOWlTQ3FVbWk2UDRmSVFZRlo2aGs5Z0RfM3NKUjJMQ3IzSkZtV1lMN1cyNERfZndaRG4xdlZzTWx6cEJVb0V3S3loUU9EODhibkg3WnhNd25oUXhtNzE3NXNSbEhSTW5IQ09SaEphV3FhOEJIYnh1d3VCYWJiZjFuYThKMExMcmx2aHJKRi1kT1dtMGI5VFAzUS1uUVhRVW1tY3czb2JrdXkzUFNQVktLOV9pdkQ5Y1ZzSHJnRXJlY3BTNk1RYkIyT0QwT3l5QnU3VV95end4SHJ5ZUk0SDZDdWRLY3c?oc=5",
+      "source": "tbnewswatch.com",
       "date": "2026-07-27",
       "type": "news",
       "status": "reported"
@@ -1572,19 +1585,6 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZkdmM3NpYll6VkQ0bWZoT0g1U1lJTFhNLWZBaFpBa0MtUHVfUWNTdXRmdWh3Skw3YjRubERweU9oQWVicG41aEdKYnd3eE92Y2R1dy0yQ3BqU0Nrb3hJeVp6ZHlrQnFpZzktTGZQUzRhQUIzeVNuSXFlNE5hc1VVbw?oc=5",
       "source": "Ottawa Citizen",
       "date": "2025-03-14",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-sam-oosterhoff-amy-martin-takes-to-socials-with-controversial-m-2025-02-05",
-      "mppNames": [
-        "Sam Oosterhoff"
-      ],
-      "title": "Amy Martin takes to socials with controversial MPP Sam Oosterhoff - NorfolkToday.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRTJnNkpFYXB5UXE2eDZHNG1XbENiMWNMeDNvM1Z0WERRWjVGZFRYMUlDZTVjNFR5eDM0Y1Rwd1JGQ3E2UEtEVk9YMVNqNUxEZnNWRUxHMC1nbnBOUndDZlI2dUg3eE9xOGtRSWRIeXFiblY0M19BREhBdmRMbFdzMDREczlRdHdsY2N0MzFsRUp4NWhISWRMQTJ2Y0wybHBKeDV4eGh3YkQ?oc=5",
-      "source": "NorfolkToday.ca",
-      "date": "2025-02-05",
       "type": "news",
       "status": "reported"
     }
