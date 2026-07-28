@@ -563,6 +563,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-doug-ford-visits-thunder-bay-as-northern-ontario-2026-07-18",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford visits Thunder Bay as northern Ontario fires force evacuations - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTWMtMElNMkxTMC0zSWI4UnE3RXhpQjRvZFVjelAwYUxGM21yTEFyc3FFZWxja08ycmFMYWVIUkZuaWd1Q3pxTmYtNlBVUWFoa08wU3c0TUd4blFHUTJKVTZRQlY0emYydm1fWGZtWVlqMkphZ2pyUktVWkRHSzFPQjhScw?oc=5",
+      "source": "Global News",
+      "date": "2026-07-18",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-neil-lumsden-cabinet-shuffle-in-the-works-with-resignation-of-2026-07-17",
       "mppNames": [
         "Neil Lumsden",
@@ -1573,19 +1586,6 @@
       "source": "CTV News",
       "date": "2025-06-04",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-jamie-west-families-politicians-call-for-investigation-into-2025-04-24",
-      "mppNames": [
-        "Jamie West"
-      ],
-      "title": "Families, politicians, call for investigation into Extendicare Countryside in Sudbury, Ont. - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNXBkQnF4ak5NY18zR3cxRndrQzg4aUE3TzRHSDVrNERaMXJrTkllZWo0dVhTTThRdnoxM0xmT2gwa3FJUXhkUy1sSFpqcXBRRjBVblQ1N1ppWHNSWE1LeEdMQkJFT1MxY3IzTE1sdjB3WXlHaEp0RjFBWlNYUGxGLWVMSUR5SHFzOGEyeTh2Zw?oc=5",
-      "source": "CBC",
-      "date": "2025-04-24",
-      "type": "investigation",
       "status": "reported"
     }
   ]
