@@ -812,6 +812,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-nina-tangri-progressive-conservative-mpps-living-in-peel-reg-2026-07-15",
+      "mppNames": [
+        "Nina Tangri"
+      ],
+      "title": "Progressive Conservative MPPs living in Peel Region bill thousands for hotels in Toronto - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVWFRa3dDQ2dYMUQ4WHlKMzQ4OEh0cjhXMWhNdnFNZE9CTHpDNUFpVUJaTTVfQlE5S3RwdXNTOE1IZzR3eng1Q1ZGeVFVczlZZWxRREhrTXJpeGVwdVdWY2pNM3hKZDVRM3hpbmJKbFFvQXA4bHR4REFReG8zWXVWMw?oc=5",
+      "source": "Global News",
+      "date": "2026-07-15",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-stephen-crawford-toronto-area-pc-mpps-billed-taxpayers-over-100k--2026-07-14",
       "mppNames": [
         "Stephen Crawford",
@@ -1573,19 +1586,6 @@
       "source": "CBC",
       "date": "2025-04-24",
       "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-george-darouze-george-darouze-submits-resignation-as-ottawa-cit-2025-03-14",
-      "mppNames": [
-        "George Darouze"
-      ],
-      "title": "George Darouze submits resignation as Ottawa city councillor - Ottawa Citizen",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZkdmM3NpYll6VkQ0bWZoT0g1U1lJTFhNLWZBaFpBa0MtUHVfUWNTdXRmdWh3Skw3YjRubERweU9oQWVicG41aEdKYnd3eE92Y2R1dy0yQ3BqU0Nrb3hJeVp6ZHlrQnFpZzktTGZQUzRhQUIzeVNuSXFlNE5hc1VVbw?oc=5",
-      "source": "Ottawa Citizen",
-      "date": "2025-03-14",
-      "type": "news",
       "status": "reported"
     }
   ]
