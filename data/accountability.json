@@ -55,6 +55,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-amarjot-sandhu-brampton-west-pc-mpp-amarjot-sandhu-billed-taxpa-2026-07-29",
+      "mppNames": [
+        "Amarjot Sandhu"
+      ],
+      "title": "Brampton West PC MPP Amarjot Sandhu billed taxpayers for Toronto hotel stays - rebelnews.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPejNFTFJiQkpsNW9Zdnk3NlRuZWQtdDlmUnVIVFQ0YThjaGRkaHgxUmNmdWotcWNlOUFaWmE2QmRVM3k3bW1VOVZ5R3lBRmFWdDNIQS1Cc3NTX0JQS3RtR0ItT25CdWZVODNwaVE4eExNeEhDSm5ra0tUNk82RnRYZV9pUU5rTy1EeTcwYVloOFcxdUhPTlNjOHpmYU9GQ3dYM1k3cw?oc=5",
+      "source": "rebelnews.com",
+      "date": "2026-07-29",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-premier-doug-ford-has-billed-ontario-taxpayers-4-2026-07-28",
       "mppNames": [
         "Doug Ford"
@@ -1475,10 +1488,10 @@
       "mppNames": [
         "David Piccini"
       ],
-      "title": "Ontario Integrity Commissioner investigating Labour Minister David Piccini - seekyoursounds.com",
+      "title": "Ontario Integrity Commissioner investigating Labour Minister David Piccini - kitchener.citynews.ca",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNm40TGlhX05aY0UyMmV2TUs4ZGViWWJwOGF2cUlJQ25iUmxoWkVyNWxFRXdQeGx4aHZVQndpX2NPLWJjRFNFSHhNU3lIU0VqaXd0OXNkQm9JOS0tYTdWbjctVHRkMHlpNjZ6X2lLQVZwSkVEXzVsU21rN1Q1RnlfdzViX2k5bnd2Vjh2US1OSkxKc3pzWXZhUG54blA2VzFwRk9tc1o5SWNZQ2VqNGV3WnZHV3Z6ZTN3VFE?oc=5",
-      "source": "seekyoursounds.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVTgtRk8yZENOWVFLNmhmOFB0cklMWUhQYVJDOW1ycHNlQjdCajRPZWpkTEhaczFhYlBYOXByX21oY2Uta3kzMXQwXzR5c1hldERSQ2RaY3BOWmx3X01JYVlJWUdGckh4RzkwUFVoOUdzeEdyYTFqOGZUcTZaSTA2Xy1xdUhNLUE0RkpQNWkzTW5hYTUtRDJSZEFnY3R2dHQ3cS1GSDkyelljdmpWSFZETnFoeW5LY3c?oc=5",
+      "source": "kitchener.citynews.ca",
       "date": "2025-12-18",
       "type": "integrity",
       "status": "reported"
@@ -1572,19 +1585,6 @@
       "source": "CTV News",
       "date": "2025-11-13",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-stephanie-smyth-ontario-s-minister-of-labour-faces-new-ethics-co-2025-11-03",
-      "mppNames": [
-        "Stephanie Smyth"
-      ],
-      "title": "Ontario’s Minister of Labour faces new ethics complaint, poll shows support for his removal - ctvnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdzZDMm5xcGc2RWw0T19VbDE5V3ZmTDdaN21Tc2xvYVBmY2kwYWh6bVMxc0xQVWJkTHBqdEgzdjBLSFE2TElqWkdhR2l3c2tUY0V2MU4zZmpSQnoyWFJaZUphU01VaDFNdmJVa0ttMEVBZDVXeGhORnN5dzIyTG1DaGpCMF9iM3htaTF4bS1DeUU5WTZwQlhhUkZYeDlDNDVjNlRDZ25XM3RERnVKaG9FdDNTNTlkdy01aUR6MWpaUldoUzhzU0hhVnpWLXkyT2FyTjE2ZktZOU5vOUx4X3drWUpLVEM?oc=5",
-      "source": "ctvnews.ca",
-      "date": "2025-11-03",
-      "type": "integrity",
       "status": "reported"
     }
   ]
