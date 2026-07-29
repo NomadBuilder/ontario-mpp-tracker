@@ -120,6 +120,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-markham-stouffville-pc-mpp-paul-calandra-billed--2026-07-29",
+      "mppNames": [
+        "Paul Calandra"
+      ],
+      "title": "Markham–Stouffville PC MPP Paul Calandra billed taxpayers for 11 Toronto hotel stays - rebelnews.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ0ZHS2s2Tl9UTEgtLXE1TkdTMGtMVlc2MGliWlFaM0NfbGJuVUlmNXRxRjhtOFBXeEc3M1NjUWVRNkkzdjFxc1hBbHh6cFpjeVpBQ2tiYWtidEtqQzk4MGVTWmdLMzZkN2JXaGYxLU9NRk5rMU83QWRPRnA5UjJKR29xcGFlaEdFZkpYVnl6QjBWalhQYW5vOU0yclViUUN5SVU3SVFPVTN3MFo3X1dR?oc=5",
+      "source": "rebelnews.com",
+      "date": "2026-07-29",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-premier-doug-ford-has-billed-ontario-taxpayers-4-2026-07-28",
       "mppNames": [
         "Doug Ford"
@@ -1572,19 +1585,6 @@
       "source": "globalnews.ca",
       "date": "2025-12-02",
       "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-anthony-leardi-auditor-general-says-ontario-falling-short-on-oh-2025-12-02",
-      "mppNames": [
-        "Anthony Leardi"
-      ],
-      "title": "Auditor General says Ontario falling short on OHIP overbilling, finding family doctors - CTV News",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOenduWng3R0F3YU1mSUt1Q2RkNS1NSU5OYS0xcGNOWWlXMUt0bjJZLV9hR2JKbTJZTU1Vbk5oVjBsdURFX2hLMEtYZEdkX2xhV3h3bFhWTXlyRlQ2cXBYS1hDNlR6U2NBcU9PQXhYdTVSSkNBUk83c0FoTktPNVBaalVydS1GZWFQbENWY2ZwZ2lhOWlVaUJRLVdWek9rd3RqYmc3S0hBRlJZcW0zNnFWbG1UakQ4UGh3U3ZuT1FlczJDOWpNUmJ4TmhQQ0tjRklNVE5FZFZiaTdTUFR1M09ZaV80LVJrN1lsNjVQZGVvakxMZG56MDFWLWtGMWU0M0hZNHFoMVBlQTQyMDBmRGhuRXpJQU82OWlQa3MxRWVsSG5DX00?oc=5",
-      "source": "CTV News",
-      "date": "2025-12-02",
-      "type": "expenses",
       "status": "reported"
     }
   ]
