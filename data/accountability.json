@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-the-ontario-wildfires-and-doug-ford-s-record-on--2026-07-28",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "The Ontario wildfires and Doug Ford’s record on climate change - Canadian Dimension",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUU1jN241ckZBX2hQNzN5eHpRU1dVNXFUUE5fZVJMN1N6X1YwNi13bjFic21UNUZJMUVyRjcxQnNZSzFRTlFZM0FubnR6dndkeFRVak9QaS1yckR1TjNxZWEyZVhZN2JYQ0dVbUhyQlc0eXFuUHU0LU5STWZfYzBFV21UTEVsa1JfNWVWSW1BNU4zWndDcmJBZ19CVFVoaXltR0RudEhFN3Q?oc=5",
+      "source": "Canadian Dimension",
+      "date": "2026-07-29",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-premier-doug-ford-has-billed-ontario-taxpayers-4-2026-07-28",
       "mppNames": [
         "Doug Ford"
@@ -37,19 +50,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rVndfdFhkMzEtVmxoa1FCVk9HbHdQR2k4YmRxc24xTm5ITTZpeFFkQjc0ME1CRHdUYmlRMENnd28tekxWWjRvWDl5T3FNVmo4Q0FDRnZsZG15eVhHNXE5UUxOaHpvUmpsM0c0?oc=5",
       "source": "Global News",
-      "date": "2026-07-28",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-the-ontario-wildfires-and-doug-ford-s-record-on--2026-07-28",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "The Ontario wildfires and Doug Ford’s record on climate change - Canadian Dimension",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUU1jN241ckZBX2hQNzN5eHpRU1dVNXFUUE5fZVJMN1N6X1YwNi13bjFic21UNUZJMUVyRjcxQnNZSzFRTlFZM0FubnR6dndkeFRVak9QaS1yckR1TjNxZWEyZVhZN2JYQ0dVbUhyQlc0eXFuUHU0LU5STWZfYzBFV21UTEVsa1JfNWVWSW1BNU4zWndDcmJBZ19CVFVoaXltR0RudEhFN3Q?oc=5",
-      "source": "Canadian Dimension",
       "date": "2026-07-28",
       "type": "news",
       "status": "reported"
