@@ -1045,6 +1045,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-jill-dunlop-simcoe-north-s-mpp-jill-dunlop-requests-federal--2026-07-16",
+      "mppNames": [
+        "Jill Dunlop"
+      ],
+      "title": "Simcoe North's MPP Jill Dunlop requests federal support in addressing the wildfires - CTV News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTklqV0V5TC1yMDRMY0VoTFd3NkE3M2NHb2htTnpacDV3RnpXb3BWZDNCaHZLUWVwZGpRa2lxcURraUFYeEM0VmhxYlBqcWtySTQ5NzhTZlFndXBaT3o0RC04dmdYZWUybjdkWTRwRUVnOFRGVWhQbTZXRFUzbUxIX3hWN3VIU0stQlphUUt1ak5aV3VsN3ZUSEE4NEw5Y2o1bl9TUW8wQV9hVDZqYXZ2VDduck5lQjljdUUzWDBHZ2ppN0JNUjNPRzVB?oc=5",
+      "source": "CTV News",
+      "date": "2026-07-16",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-mohamed-firin-stan-cho-s-16k-hotel-tab-is-just-the-tip-of-the--2026-07-15",
       "mppNames": [
         "Mohamed Firin",
@@ -1157,10 +1170,10 @@
       "mppNames": [
         "Nina Tangri"
       ],
-      "title": "Toronto-area PC MPPs have billed taxpayers over $100K for Toronto overnight stays - The Trillium",
+      "title": "Toronto-area PC MPPs have billed taxpayers over $100K for Toronto overnight stays - thetrillium.ca",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZm5oVWNBTVI4ckNnUXJSWUxoY3pzQnlrZFN2VUJZeVRQYmdUYVdvSWNQN1o4MjN2Q1pYZmw0OFFrSXpZTmlHeEl1N1pSVm1oa0prUmdndFhEeGRtQVROQTBlc2pmUk1mU09JNVlGcDZZSGtxNXowLVBTM1BRRFJscFVDZkNTMnFKWVhObXU5bzJqMERaRExOVkd6emhvMDFhZzNDM3VaWnpGQ2twc3F2YlYySXFuSVZKWVFxenE5YnVoM3lwZlMtSUlOaWY5OTc5ZC1wR3BXTWlaWEM1bi03aFlrUlBUMjRaV29mRw?oc=5",
-      "source": "The Trillium",
+      "source": "thetrillium.ca",
       "date": "2026-07-14",
       "type": "news",
       "status": "reported"
@@ -1571,19 +1584,6 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaFNmdGp1OXM4UFNEUHUtak5CLVJUUDF5TnBkN1RzWUxlb2ZKeGVSc29XRm1UV2o0WnNmREhOM0ozVVJFQW5IMmVEUkYxbURzc2ItbS1STkJiaFBJanpBbTZaSWRFT1hTX2tkN3N6eTJJbkdSYUpxSl9OTUNaMmdfY2ctSEN5SVNSOXI0ZllBd21vbG5pbWtadk40amYwaTJzdE41NEYwaUYxQWNBdkxiUA?oc=5",
       "source": "ontarioconstructionnews.com",
       "date": "2026-01-27",
-      "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-adil-shamji-ontario-liberals-reiterate-eglinton-crosstown-lr-2026-01-22",
-      "mppNames": [
-        "Adil Shamji"
-      ],
-      "title": "Ontario Liberals reiterate Eglinton Crosstown LRT public inquiry push, call for 'rapid response' team after launch - toronto.citynews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWVBTS1pYMW1GM2Nhd0M2a0wwcVNma0dPYlduaDhna1RXNVJSZklsZjJjb2U4T1ktNFdFR1gzQ2hDb1hlelBITU4zZW5FNlY1em9qUks4WTU5NC1tbHVEN2JBVEkzMm9HMUFic1E2MVVwUkxUd0MtTlJNZTVMVzVfMTBmQTlmX2QxRmJuaHBUMHRFQjF4LXducUtoMlJBeVBhbmFJT19kbEs3TE1TRjA3NGprQnRNdkREMV83aUFxM2o?oc=5",
-      "source": "toronto.citynews.ca",
-      "date": "2026-01-22",
       "type": "investigation",
       "status": "reported"
     }
