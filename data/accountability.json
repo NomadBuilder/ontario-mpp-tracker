@@ -176,10 +176,10 @@
       "mppNames": [
         "Doug Ford"
       ],
-      "title": "Premier Ford charged taxpayers for Florida trip to attend union conference at Disney - Global News",
+      "title": "Premier Ford charged taxpayers for Florida trip to attend union conference at Disney - globalnews.ca",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rVndfdFhkMzEtVmxoa1FCVk9HbHdQR2k4YmRxc24xTm5ITTZpeFFkQjc0ME1CRHdUYmlRMENnd28tekxWWjRvWDl5T3FNVmo4Q0FDRnZsZG15eVhHNXE5UUxOaHpvUmpsM0c0?oc=5",
-      "source": "Global News",
+      "source": "globalnews.ca",
       "date": "2026-07-28",
       "type": "news",
       "status": "reported"
@@ -338,6 +338,19 @@
       "source": "ElliotLakeToday.com",
       "date": "2026-07-24",
       "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-jill-dunlop-call-with-ont-minister-cut-short-after-questions-2026-07-24",
+      "mppNames": [
+        "Jill Dunlop"
+      ],
+      "title": "Call with Ont. minister cut short after questions about wildfire response - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50ZHhlb1ZNc1hlZHFEaWUtcGIzLTRRZERjTWFWWUFHU3BGUXlFaEpDLW5ZR040VlMyVUdKMmRSaHZWU3hYVVdNS29mS0hOcTBjM0NvRHIybFVFZw?oc=5",
+      "source": "CBC",
+      "date": "2026-07-24",
+      "type": "news",
       "status": "reported"
     },
     {
@@ -1091,10 +1104,10 @@
       "mppNames": [
         "Stan Cho"
       ],
-      "title": "LILLEY: Six kilometres from home, Stan Cho lives the Suite Life in taxpayer-funded hotels - Toronto Sun",
+      "title": "LILLEY: Six kilometres from home, Stan Cho lives the Suite Life in taxpayer-funded hotels - torontosun.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeEFPNjg0M3Noa3gteWNUaWZZRHc4QzVjWjBWM0V2bVlRN3BxaURPTzdLV1JfcFl5eGpma0FWTDRYeDhZUzRSS0NrX1hCaEI5SEZQbFkzSVEyZVRyaS1hdnpycWNWNmJOVG5OdFJ6RVZzNFF4R1VCN1F3WVlUY0g3V1I2b01rMkNOckVvUjlVUW1hbXlmbldnR0YyUDNvRkkybTVKMlpSeV9PSXVFMzNicDJTNWcwU1diVzZ3a2dLUQ?oc=5",
-      "source": "Toronto Sun",
+      "source": "torontosun.com",
       "date": "2026-07-14",
       "type": "expenses",
       "status": "reported"
@@ -1573,19 +1586,6 @@
       "source": "CBC",
       "date": "2025-12-18",
       "type": "integrity",
-      "status": "reported"
-    },
-    {
-      "id": "auto-multiple-parties-file-investigation-into-mpp-dav-2025-12-18",
-      "mppNames": [
-        "David Piccini"
-      ],
-      "title": "Multiple parties file investigation into MPP David Piccini over Skills Development Fund - cp24.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdlBmekludHV1YjdCUmE3N2lRTktxVzFrZkRwZkFqcEN5bHVoOGRrTVBOQ0VxTG1mbDJBdTVNQVVZbXJZM3lhdFc5Qy13LW5wWFl3U0hrRWY2RmZHYmFuOTFMeWZ0cEFFWjJ5di1feGEySC1BazB6NHlUaWJSSzlTdVlQQTJkSUd5bFhKTi0xZkRoY0x4M215UHRJS0ROUlMyeG1GOEswTXpjVmM4SzM5dWFxU0pOWU1vcWxrcVlkRWF2WHJi?oc=5",
-      "source": "cp24.com",
-      "date": "2025-12-18",
-      "type": "investigation",
       "status": "reported"
     }
   ]
