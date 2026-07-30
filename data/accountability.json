@@ -68,14 +68,27 @@
       "status": "reported"
     },
     {
+      "id": "auto-stephen-crawford-oakville-mpp-among-those-named-in-hotel-expenses-2026-07-30",
+      "mppNames": [
+        "Stephen Crawford"
+      ],
+      "title": "Oakville MPP among those named in hotel expenses controversy - Inside Halton",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbWVKamExUnRXMF9EcktJVVlQR1dmRWhWUjJ0RjlxVVhGU2hzLUc0djVtN3NtQ3l1aGhkQ3VaOHRwYk00SXZWQ1RSOE52VXd1R2JzT3g5Q0Q1NlM1SFM0bzlXU3lzWUVYNEJCSV9PUkpuOXBTcXR4cng5ZXdIMjh6NWVsWmMweWlTTXpFT2V6OGNjc3oxX3dEWEdHZ0hISnFQUWtPU0lkVWNTcHpzMVYtUnVxVzZPTkk?oc=5",
+      "source": "Inside Halton",
+      "date": "2026-07-30",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-joseph-racinsky-wellington-halton-hills-mpp-joseph-racinsky-expe-2026-07-29",
       "mppNames": [
         "Joseph Racinsky"
       ],
-      "title": "Wellington-Halton Hills MPP Joseph Racinsky expensed $10,748 — Here’s what he spent it on - The IFP",
+      "title": "Wellington-Halton Hills MPP Joseph Racinsky expensed $10,748 — Here’s what he spent it on - theifp.ca",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOFMwLVNnemNtNTlyd0F2MzFIdE9BeFA4QlNyN2V6eVlDRWt5R05OQkJ4dTI0Nmo3elF5RU9SWGdfZ2V4RGxRRTVRMEE1b1pIM04zTFUwTC1zZnN1MHcwT0tJTzhkbktwQ3JSczcycWlnNXV0enJWc18zOTFzTXZEcEM2QW53ekF3SXduQnFOYnNxcnF3aWhTTGRXckl2NFBteGdmOQ?oc=5",
-      "source": "The IFP",
+      "source": "theifp.ca",
       "date": "2026-07-29",
       "type": "expenses",
       "status": "reported"
@@ -1572,19 +1585,6 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96Mjg4Z2d0MHQ5Y25nTzFVbHdVNThTQy1HU3oxWGxZSldxa2hGQVFPa0lxRzZabFQ4X19JMm9QeWtCZ09GTVJlVFRoNEJZa01TczY0amxpN2JnTXZaTThFU0xPZWFfRUt0bmtLYmZGdG1ZWEl5R25Odw?oc=5",
       "source": "globalnews.ca",
       "date": "2026-01-28",
-      "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-adil-shamji-ontario-liberals-call-for-public-inquiry-into-eg-2026-01-27",
-      "mppNames": [
-        "Adil Shamji"
-      ],
-      "title": "Ontario Liberals call for public inquiry into Eglinton Crosstown LRT delays - ontarioconstructionnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaFNmdGp1OXM4UFNEUHUtak5CLVJUUDF5TnBkN1RzWUxlb2ZKeGVSc29XRm1UV2o0WnNmREhOM0ozVVJFQW5IMmVEUkYxbURzc2ItbS1STkJiaFBJanpBbTZaSWRFT1hTX2tkN3N6eTJJbkdSYUpxSl9OTUNaMmdfY2ctSEN5SVNSOXI0ZllBd21vbG5pbWtadk40amYwaTJzdE41NEYwaUYxQWNBdkxiUA?oc=5",
-      "source": "ontarioconstructionnews.com",
-      "date": "2026-01-27",
       "type": "investigation",
       "status": "reported"
     }
