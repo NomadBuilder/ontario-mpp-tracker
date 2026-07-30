@@ -29,6 +29,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-sylvia-jones-inside-the-numbers-how-dufferin-caledon-mpp-sylv-2026-07-30",
+      "mppNames": [
+        "Sylvia Jones"
+      ],
+      "title": "Inside the numbers: How Dufferin-Caledon MPP Sylvia Jones spent $4,248 in annual expenses - Caledon Enterprise",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN1J1TVVLOXJ3bkY0NjkzUWlOcmpaUTU1WFRzMl9ya3lTbjU3YlJzaGJtc2t6cTk0c0Y1X3hzRGJnOEFacnA3NFBqMmdkYl94TDBJVE8zSlhHMlFuV3d5c0FXalpaQ3RyRmpvZFdaWGYwZmZvM3ZLczh1cTY1SFdIdHFsYnRpRVpyUTdUendQSklvZEJpeC1XQXJxYTc5aUw2VENxTG80b21vN29FcW1hc05pRU80M1A0dGdQd2MybHZ2UQ?oc=5",
+      "source": "Caledon Enterprise",
+      "date": "2026-07-30",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-joseph-racinsky-wellington-halton-hills-mpp-joseph-racinsky-expe-2026-07-29",
       "mppNames": [
         "Joseph Racinsky"
@@ -984,10 +997,10 @@
       "mppNames": [
         "Greg Rickford"
       ],
-      "title": "Statement on Northern Ontario Wildfires: Minister Greg Rickford - NetNewsLedger",
+      "title": "Statement on Northern Ontario Wildfires: Minister Greg Rickford - netnewsledger.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSGN2T2hmejdvUDN4VHpReTl1SG5DTkdSTm9sTnczQ19xbTVDQVR4WWFoYmIwRTlvTUoxdk92eUpUVU91aExYMEtVUVBGaWRVVW9QQzdRblI0dDBjaC1lM3UwRUlaX1RPU3dqRmVDUjJkNDZwcVZielFjU2JSTTdWQTk4ZXFnc1NaSmx3MFN6UEdiV0JtbVRQR0VVaTh1UlNqYkFoOFVuVQ?oc=5",
-      "source": "NetNewsLedger",
+      "source": "netnewsledger.com",
       "date": "2026-07-16",
       "type": "news",
       "status": "reported"
@@ -1571,20 +1584,6 @@
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRUdqY1o3eVF1X3JhWVk0R2t3QVhBdVIxZnV4YlFKekdhWHg3ZkprZDhwLWtlaGlES2pUYjd3TFVfbF91UEROTkFNbXdaN1l1bFQtUXNqNmpDc1pnUDd6dlZvM0ZnamI1c2Y2dnVjMmpzbzJ4Q3E1a2VydlBqSUIzTC15UWoxN0l6OWRNRDBGbUdnbkllU0RtajVBYmhqelRBbjNTVjVKb1c4cUJXOEVtWnZWT3hWQ05KWGNwMFFjalpDLW5WWlhPRS11Q2VjekExQUZoeXd1c2VKczRpVU5oRkhn?oc=5",
       "source": "Toronto Star",
       "date": "2026-01-05",
-      "type": "integrity",
-      "status": "reported"
-    },
-    {
-      "id": "auto-ontario-integrity-commissioner-investigating-lab-2025-12-18",
-      "mppNames": [
-        "David Piccini",
-        "Stephanie Smyth"
-      ],
-      "title": "Ontario Integrity Commissioner investigating Labour Minister David Piccini - kitchener.citynews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVTgtRk8yZENOWVFLNmhmOFB0cklMWUhQYVJDOW1ycHNlQjdCajRPZWpkTEhaczFhYlBYOXByX21oY2Uta3kzMXQwXzR5c1hldERSQ2RaY3BOWmx3X01JYVlJWUdGckh4RzkwUFVoOUdzeEdyYTFqOGZUcTZaSTA2Xy1xdUhNLUE0RkpQNWkzTW5hYTUtRDJSZEFnY3R2dHQ3cS1GSDkyelljdmpWSFZETnFoeW5LY3c?oc=5",
-      "source": "kitchener.citynews.ca",
-      "date": "2025-12-18",
       "type": "integrity",
       "status": "reported"
     }
