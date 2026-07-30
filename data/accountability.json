@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -127,6 +127,19 @@
       "title": "Markham–Stouffville PC MPP Paul Calandra billed taxpayers for 11 Toronto hotel stays - rebelnews.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ0ZHS2s2Tl9UTEgtLXE1TkdTMGtMVlc2MGliWlFaM0NfbGJuVUlmNXRxRjhtOFBXeEc3M1NjUWVRNkkzdjFxc1hBbHh6cFpjeVpBQ2tiYWtidEtqQzk4MGVTWmdLMzZkN2JXaGYxLU9NRk5rMU83QWRPRnA5UjJKR29xcGFlaEdFZkpYVnl6QjBWalhQYW5vOU0yclViUUN5SVU3SVFPVTN3MFo3X1dR?oc=5",
+      "source": "rebelnews.com",
+      "date": "2026-07-29",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-graham-mcgregor-brampton-north-pc-mpp-graham-mcgregor-billed-tax-2026-07-29",
+      "mppNames": [
+        "Graham McGregor"
+      ],
+      "title": "Brampton North PC MPP Graham McGregor billed taxpayers $1,391 for two Toronto hotel stays - rebelnews.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaWozU0JmclRZM0hRbWZab3pNaDdOcGdIbE5XZmdXdlVDMmRqS1lXa011WE5McFBOMXZBMmFoMjljVXpmcmtwOG5VaHZqN21RY3o1M2MzdVZFY1RZbGxjanpadTFnRzZqUjhyU3BGeFlhSWx1T1dvRFNTeGFoVUtsU2xYQm5tYXRXcktBV1c5dUlRSHVjTnlKRGhjTXYzaUhtM0JuNUNaWlljYVJFemZ6UmNqMA?oc=5",
       "source": "rebelnews.com",
       "date": "2026-07-29",
       "type": "expenses",
@@ -1572,19 +1585,6 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdlBmekludHV1YjdCUmE3N2lRTktxVzFrZkRwZkFqcEN5bHVoOGRrTVBOQ0VxTG1mbDJBdTVNQVVZbXJZM3lhdFc5Qy13LW5wWFl3U0hrRWY2RmZHYmFuOTFMeWZ0cEFFWjJ5di1feGEySC1BazB6NHlUaWJSSzlTdVlQQTJkSUd5bFhKTi0xZkRoY0x4M215UHRJS0ROUlMyeG1GOEswTXpjVmM4SzM5dWFxU0pOWU1vcWxrcVlkRWF2WHJi?oc=5",
       "source": "CP24",
       "date": "2025-12-18",
-      "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-sylvia-jones-ontario-does-not-have-ability-to-measure-success-2025-12-02",
-      "mppNames": [
-        "Sylvia Jones"
-      ],
-      "title": "Ontario does not have ability to measure success of its primary care plan: auditor general - globalnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBZQlU1YzI5a09hdUtCVmZDLVZ3MnBwZkp6Rjh3NHY4WEZrZTkxWHVyNllCUi0yWGg2c04zaVBlcGxlSWJPbVZnWWpGa3pVUE1YYUZSaXJCbzR1eWNYRU9qRU9TNnpKdEgwQ2Vvb1NIZ3ZOVXpGdUJoM2RGRGVIZw?oc=5",
-      "source": "globalnews.ca",
-      "date": "2025-12-02",
       "type": "investigation",
       "status": "reported"
     }
