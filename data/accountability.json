@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -1340,6 +1340,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-michael-s-kerzner-project-filcher-more-than-500-charges-laid-in-ma-2026-05-21",
+      "mppNames": [
+        "Michael S. Kerzner"
+      ],
+      "title": "Project Filcher: More Than 500 Charges Laid in Major Retail Theft Investigation - Peel Regional Police",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRExhRXF3c2Q5RmVsQ0wwZ01wTjlYLUJjMGItLUthY1QtTGwzLWs4UktZMlFRbjlwa0pHVmZsVVY4c1VUaW1KRVBaVWdoX01fQkNwR1hKZzVSZzQxVF9abXJ3bXVBSnpYUGV1VC1RYXlHVHV2U2JaSFJSNjZBbWt6Zm5Lbkh1UkJzdHJoRnBQTkJDNHF2eWV6dG8wbzhHSW9sU0dWanVIM1Q5SVJuOFYtYXlIVk5GcEJqQXR5MGh6VlpxQThVaDFYeTYyLUh2UQ?oc=5",
+      "source": "Peel Regional Police",
+      "date": "2026-05-21",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-nolan-quinn-ontario-will-inspect-all-private-truck-schools-a-2026-05-13",
       "mppNames": [
         "Nolan Quinn"
@@ -1471,6 +1484,20 @@
       "status": "reported"
     },
     {
+      "id": "auto-jess-dixon-taxpayers-group-slams-ontario-mpps-over-new-pay--2026-04-06",
+      "mppNames": [
+        "Jess Dixon",
+        "Stephen Crawford"
+      ],
+      "title": "Taxpayers group slams Ontario MPPs over new pay raise after last year’s big hike - CambridgeToday.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS2JPV25TLWRzdnplWi1jTF9jUUxNcTNZMnBBTHcwOGpWMzRuUTlzUmRLX2Q2emJSbVhyMTBRdzYteURpRkoxZEwzYlBCbTFqaWtoY1pDSHlZU2Q5ckhYRGVlVUg2RnRLNHctWjZkVFpPNFVXeUdlaWNKR25ySjdEei11VkV0bGhncWVwazhIaFFYWnNQZFJCbmVxWjZnZTNfVmRUVG5zcTdKemMydFR3cEhldHAwbktIQVljS3RCSnBhbmMtR1l4bA?oc=5",
+      "source": "CambridgeToday.ca",
+      "date": "2026-04-07",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-brian-saunderson-taxpayers-group-slams-ontario-mpps-loathsome-new-2026-04-07",
       "mppNames": [
         "Brian Saunderson"
@@ -1506,19 +1533,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUHA1NDd6Smhyc3ZROU9JQkVVLVNzUWNtN1hPNjE0TGN5WW0yY1dWbTZLZS0yelhVTDdzQUExV3BCUHczeUhWT3hjSW9rdXpISzlTcGNlMUlMSktqMkZ0eUo1Nkl3RmpMWjdwSkYtc3RDT3JjQVJOUGc4eldJUnpwa2pLTnhsdEVaUEFaZW83QnV6UlZ3YVN6VFY0dDV3ckxfV245T0lZVXJ5MVRPeHBSZU9iaEJkSnZkR19PTA?oc=5",
       "source": "TimminsToday.com",
-      "date": "2026-04-06",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-jess-dixon-taxpayers-group-slams-ontario-mpps-over-new-pay--2026-04-06",
-      "mppNames": [
-        "Jess Dixon"
-      ],
-      "title": "Taxpayers group slams Ontario MPPs over new pay raise after last year’s big hike - CambridgeToday.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS2JPV25TLWRzdnplWi1jTF9jUUxNcTNZMnBBTHcwOGpWMzRuUTlzUmRLX2Q2emJSbVhyMTBRdzYteURpRkoxZEwzYlBCbTFqaWtoY1pDSHlZU2Q5ckhYRGVlVUg2RnRLNHctWjZkVFpPNFVXeUdlaWNKR25ySjdEei11VkV0bGhncWVwazhIaFFYWnNQZFJCbmVxWjZnZTNfVmRUVG5zcTdKemMydFR3cEhldHAwbktIQVljS3RCSnBhbmMtR1l4bA?oc=5",
-      "source": "CambridgeToday.ca",
       "date": "2026-04-06",
       "type": "news",
       "status": "reported"
@@ -1573,19 +1587,6 @@
       "source": "OrilliaMatters.com",
       "date": "2026-03-21",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-michael-parsa-police-launch-investigation-into-2nd-recipient-o-2026-01-28",
-      "mppNames": [
-        "Michael Parsa"
-      ],
-      "title": "Police launch investigation into 2nd recipient of Ford government skills development fund - globalnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96Mjg4Z2d0MHQ5Y25nTzFVbHdVNThTQy1HU3oxWGxZSldxa2hGQVFPa0lxRzZabFQ4X19JMm9QeWtCZ09GTVJlVFRoNEJZa01TczY0amxpN2JnTXZaTThFU0xPZWFfRUt0bmtLYmZGdG1ZWEl5R25Odw?oc=5",
-      "source": "globalnews.ca",
-      "date": "2026-01-28",
-      "type": "investigation",
       "status": "reported"
     }
   ]
