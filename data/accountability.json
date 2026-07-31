@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-zee-hamid-milton-mpp-defends-toronto-accommodation-expense-2026-07-31",
+      "mppNames": [
+        "Zee Hamid"
+      ],
+      "title": "Milton MPP defends Toronto accommodation expenses amidst mixed reactions on Facebook - MiltonToday.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS3ktaVdmNl9jQUJpOUdDRnRaQzAyV1N0SjBteDVscFA1RmFMTjM4YUwzWnlvcUY5clh0VmpjWjNwRGN5Ni1obkx6cE41eGI1TzFrZ21mSGVQaGhQSHZxSDBqVlRVYXJMaVFaeFE3WUJJZEdQaWpHYnhEbzczN0xhT1ZqOFNRZXVkcndNTWJDdk5aQUtoemItdEtkcWJFWkxrOUFVNDRWUjFkZkxwcEpkMi1yTVpRRG5aQlZmeFhneEVZMG83ZzU0Vno4NA?oc=5",
+      "source": "MiltonToday.ca",
+      "date": "2026-07-31",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-the-ontario-wildfires-and-doug-ford-s-record-on--2026-07-29",
       "mppNames": [
         "Doug Ford"
@@ -644,10 +657,10 @@
       "mppNames": [
         "Jill Dunlop"
       ],
-      "title": "Wildfires still raging in northern Ontario despite rain - CTV News",
+      "title": "Wildfires still raging in northern Ontario despite rain - ctvnews.ca",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYklLdW1MNmprM3h6UTRvZzZiQUtpRTRwelhWa2VMRjZLQ0VQM1E0dGljY0ZsaHlhTnhTaEN3Wkg5T1VjR0NrdEtwWklKcGJXSkNhRnF5ZVh3ZUREQkJUSTdVdnpzNTNrTERWTzRZTDVVTjVMNHVaRlo0SkFRczh0bmJ2TW05R3dldTdKRFd3WVgzeXNYS3pqdTJzWml4NHFHa1Y3bVpXNGo?oc=5",
-      "source": "CTV News",
+      "source": "ctvnews.ca",
       "date": "2026-07-21",
       "type": "news",
       "status": "reported"
@@ -1574,19 +1587,6 @@
       "source": "London Free Press",
       "date": "2026-03-27",
       "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-downey-ford-s-plan-would-hide-top-lawmakers-meetings-wi-2026-03-25",
-      "mppNames": [
-        "Doug Downey"
-      ],
-      "title": "Ford’s plan would hide top lawmakers’ meetings with lobbyists - BarrieToday.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcTJLam5QaGZoaUd2Ti02a3BjR1l5N2hpd2VSdFI3QlhScmFkcUN5b3dNNFY5NXNfbTZQUUNaRzE0QVRiQS1TckM3X05oMDh0YWo2ajRoMXphLXhyU3BWTmx6bHh4Q3JURHhueXFZb3dnLTRJdGs0YVQtYXBKenBmckxyalVVU1pHTVo4TlZCOGprOVk0dlp6Tkw0dVNUVVVpekRUZF9rcHN3RWs?oc=5",
-      "source": "BarrieToday.com",
-      "date": "2026-03-25",
-      "type": "news",
       "status": "reported"
     }
   ]
