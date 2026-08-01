@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-ford-thanks-mexico-as-trump-threatens-tariffs-ov-2026-08-01",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ford thanks Mexico as Trump threatens tariffs over wildfire smoke - nowtoronto.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQV25zc2NaUHQxcTQ0VEJmeEFiWVVWU0tJMkgyNnUyTjJNdS1VcEtOXzZDQURISTg2LWlDR1FLbXVDajczSDZJTExLMExIR2FTV1BKZXZtRHdKeHZoaEJ0aVA0MlQ3UVJLcnRSR0ZwWnpYZzhGMl9sa3p0YkNrZkVITXF3ZThlUTZad2c5UTRDWTBPWUpG?oc=5",
+      "source": "nowtoronto.com",
+      "date": "2026-08-01",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-zee-hamid-milton-mpp-defends-toronto-accommodation-expense-2026-07-31",
       "mppNames": [
         "Zee Hamid"
@@ -1573,19 +1586,6 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUHA1NDd6Smhyc3ZROU9JQkVVLVNzUWNtN1hPNjE0TGN5WW0yY1dWbTZLZS0yelhVTDdzQUExV3BCUHczeUhWT3hjSW9rdXpISzlTcGNlMUlMSktqMkZ0eUo1Nkl3RmpMWjdwSkYtc3RDT3JjQVJOUGc4eldJUnpwa2pLTnhsdEVaUEFaZW83QnV6UlZ3YVN6VFY0dDV3ckxfV245T0lZVXJ5MVRPeHBSZU9iaEJkSnZkR19PTA?oc=5",
       "source": "TimminsToday.com",
       "date": "2026-04-06",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-stephen-crawford-pcs-officially-table-controversial-foi-law-chang-2026-03-31",
-      "mppNames": [
-        "Stephen Crawford"
-      ],
-      "title": "PCs officially table controversial FOI law changes in 2026 budget bill - NWONewsWatch.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZzhNa3MzNWQzZ1F3djJaZU1OcXNyZmN6bWw4Q1hKZlJ2X0ZTMC1ObzBQZ1RFSVBsVS1VZkdqT1pSVGpyWFh3ZTFRQWpKTU55aUFHUVdSeEs4NUptMHpKclhMcjhnSk1kbUIyNkdHV3JSN2RUVFRfeUk2TjhWUmsxWkI3Sm0tMEpFM3ctU05POF9xeDdDaUo1c3pQcWsteW1xT29acVExTjM2SnNBVHdVa0ctalpsTWlQNTdR?oc=5",
-      "source": "NWONewsWatch.com",
-      "date": "2026-03-31",
       "type": "news",
       "status": "reported"
     }
