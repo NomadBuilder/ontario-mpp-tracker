@@ -1195,7 +1195,8 @@
       "mppNames": [
         "Stephen Crawford",
         "Mohamed Firin",
-        "David Smith"
+        "David Smith",
+        "Nina Tangri"
       ],
       "title": "Toronto-area PC MPPs billed taxpayers over $100K for local overnight stays - TorontoToday.ca",
       "summary": "",
@@ -1229,19 +1230,6 @@
       "source": "torontosun.com",
       "date": "2026-07-14",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-nina-tangri-toronto-area-pc-mpps-have-billed-taxpayers-over--2026-07-14",
-      "mppNames": [
-        "Nina Tangri"
-      ],
-      "title": "Toronto-area PC MPPs have billed taxpayers over $100K for Toronto overnight stays - thetrillium.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZm5oVWNBTVI4ckNnUXJSWUxoY3pzQnlrZFN2VUJZeVRQYmdUYVdvSWNQN1o4MjN2Q1pYZmw0OFFrSXpZTmlHeEl1N1pSVm1oa0prUmdndFhEeGRtQVROQTBlc2pmUk1mU09JNVlGcDZZSGtxNXowLVBTM1BRRFJscFVDZkNTMnFKWVhObXU5bzJqMERaRExOVkd6emhvMDFhZzNDM3VaWnpGQ2twc3F2YlYySXFuSVZKWVFxenE5YnVoM3lwZlMtSUlOaWY5OTc5ZC1wR3BXTWlaWEM1bi03aFlrUlBUMjRaV29mRw?oc=5",
-      "source": "thetrillium.ca",
-      "date": "2026-07-14",
-      "type": "news",
       "status": "reported"
     },
     {
@@ -1588,6 +1576,19 @@
       "source": "TimminsToday.com",
       "date": "2026-04-06",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-peggy-sattler-person-of-interest-identified-in-probe-of-vandal-2026-03-27",
+      "mppNames": [
+        "Peggy Sattler"
+      ],
+      "title": "'Person of interest' identified in probe of vandalism at MPP's office: Police - London Free Press",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeFp5cVJMMVV5bTlrN0JXeERWWnFJMVhLZGFZaVUwbTVDVGpkZFJ5QnU2ZkpTbXVKZWlVaXVVQmpTdHZnV0hQZHU5NFBua083a296dmoxSHpKbUIxT09KYTJtVGZZZzcxS1hDa1pDTDI2NkRXX1dfREpSODQ1dlZxSF8xQjg0OGo4cXdrbEdtR29BeU1jYVZHQ2hrTzJQRTA?oc=5",
+      "source": "London Free Press",
+      "date": "2026-03-27",
+      "type": "investigation",
       "status": "reported"
     }
   ]
