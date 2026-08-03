@@ -1,6 +1,6 @@
 # Editor guide: updating MPP data
 
-The live tracker reads from **Google Sheets**. Edit the sheet — the website updates automatically (within about an hour, or sooner if someone runs sync manually).
+The live tracker reads from **Google Sheets**. Edit the sheet — the website updates automatically (within about half a day on the twice-daily sync, or sooner if someone runs sync manually).
 
 ## Spreadsheet
 
@@ -50,7 +50,7 @@ Accepted field names: `salary`, `benefits`, `votingAlignment`, `expenses` (also:
 
 ### Change a vote or salary
 
-Edit the cell on **How They Voted** → save. For salary/benefits, the hourly sync also pulls the official Sunshine List and will prefer those numbers if they differ (useful for catching typos). Raise % is recomputed from year-over-year disclosure when both years exist.
+Edit the cell on **How They Voted** → save. For salary/benefits, the twice-daily sync also pulls the official Sunshine List and will prefer those numbers if they differ (useful for catching typos). Raise % is recomputed from year-over-year disclosure when both years exist.
 
 ### Add a new bill
 
@@ -65,7 +65,7 @@ Pulled automatically from ola.org when we refresh photo cache. New MPPs usually 
 
 ### Expense disclosure
 
-Pulled from [OLA Members’ expense disclosure](https://www.ola.org/en/members/expense-disclosure/list) (travel, accommodation, meals, hospitality over the past ~2 years). Cards show category breakdown, rank vs the House / party median, and an **Expense spotlight** bar (top spenders, $50k/$100k+, hospitality-/travel-heavy, above/below party). Detail view links to the official OLA page. Refresh happens with the hourly sheet sync.
+Pulled from [OLA Members’ expense disclosure](https://www.ola.org/en/members/expense-disclosure/list) (travel, accommodation, meals, hospitality over the past ~2 years). Cards show category breakdown, rank vs the House / party median, and an **Expense spotlight** bar (top spenders, $50k/$100k+, hospitality-/travel-heavy, above/below party). Detail view links to the official OLA page. Refresh happens with the twice-daily sheet sync.
 
 ### Sunshine List (salary)
 
@@ -75,7 +75,7 @@ Pulled from the official [Public sector salary disclosure](https://www.ontario.c
 
 Public page: **`watch.html`** — not part of the WordPress iframe tracker.
 
-**Auto-refresh:** the hourly Sheets sync also runs `scripts/fetch_accountability_news.py --publish`, which pulls Google News RSS (accountability keywords), merges into **`data/accountability.json`**, and **dedupes by article URL**. Same story → one card; all named MPPs are unioned, preferring the version that already listed more people.
+**Auto-refresh:** the twice-daily Sheets sync also runs `scripts/fetch_accountability_news.py --publish`, which pulls Google News RSS (accountability keywords), merges into **`data/accountability.json`**, and **dedupes by article URL**. Same story → one card; all named MPPs are unioned, preferring the version that already listed more people.
 
 Hand-edit the same file anytime (add a `summary` and `"curated": true` so your copy is preserved on merge):
 
@@ -114,7 +114,7 @@ Embed URL (V1 cards):
 
 ## How auto-update works
 
-- GitHub checks the Google Sheet about **every hour**  
+- GitHub checks the Google Sheet about **twice a day** (≈ 9:15am and 9:15pm Eastern)  
 - If anything changed, it rebuilds the site and publishes  
 - To force an update now: GitHub → Actions → **Sync from Google Sheets** → **Run workflow**
 

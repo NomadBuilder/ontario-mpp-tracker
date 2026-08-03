@@ -8,7 +8,8 @@ name: Sync from Google Sheets
 
 on:
   schedule:
-    - cron: "15 * * * *"
+    # Twice daily (≈ 9:15am and 9:15pm Eastern)
+    - cron: "15 13,1 * * *"
   workflow_dispatch:
 
 permissions:
