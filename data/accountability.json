@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-s-minister-resigns-over-16k-hotel-expe-2026-07-17",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford's minister resigns over $16K hotel expense scandal - nowtoronto.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSVAwVnhRQ0dITUZrOFZzcll4OUplcXdpaXNHRElyeWdJWDUyN2NaVEZXTmtJajliSk1KMGhnZElaOWF5ZlR5VC14VFdDbWtPNm1pdl9ocWN6Y3FTb2tHY3NCWkpFLUtvdE5YdzlHUXY0TzJUSURpWjhnNFlTUndmTEZnVjBJZ3lPdVUw?oc=5",
+      "source": "nowtoronto.com",
+      "date": "2026-08-03",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-ford-thanks-mexico-as-trump-threatens-tariffs-ov-2026-08-01",
       "mppNames": [
         "Doug Ford"
@@ -364,19 +377,6 @@
       "source": "TBNewsWatch.com",
       "date": "2026-07-25",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-s-minister-resigns-over-16k-hotel-expe-2026-07-17",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Doug Ford's minister resigns over $16K hotel expense scandal - nowtoronto.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSVAwVnhRQ0dITUZrOFZzcll4OUplcXdpaXNHRElyeWdJWDUyN2NaVEZXTmtJajliSk1KMGhnZElaOWF5ZlR5VC14VFdDbWtPNm1pdl9ocWN6Y3FTb2tHY3NCWkpFLUtvdE5YdzlHUXY0TzJUSURpWjhnNFlTUndmTEZnVjBJZ3lPdVUw?oc=5",
-      "source": "nowtoronto.com",
-      "date": "2026-07-25",
-      "type": "expenses",
       "status": "reported"
     },
     {
