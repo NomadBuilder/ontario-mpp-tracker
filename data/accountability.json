@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-02",
+  "asOf": "2026-08-03",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -602,6 +602,19 @@
       "source": "NOW Toronto",
       "date": "2026-07-22",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-adil-shamji-watch-first-nations-chiefs-demand-public-inquiry-2026-07-22",
+      "mppNames": [
+        "Adil Shamji"
+      ],
+      "title": "WATCH: First Nations chiefs demand public inquiry into Ontario’s wildfire response - Western Standard",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdUx6TGc5dGxrM1NVWmw4TVNPd0k3bS1JVzJtSzI1NzZjOUlfOEY4WW9VdGVnQ1NYYVBIeUZHUXhiek5RMDlZc1JTVHlHeUNhWjkxMGR1UDV3Uzc4aklYc1JybWZldzlEMXJXMHIzMzFrQy1BMFZybFYyMGI4Wmwxd1o1SVVkdDhnOHpDWDZQY1RqV1M2b3h0QjFOTHBuRHRIcUFTMHFpSzNqRGtBTXBBeEhVeEJnRTE0VXlhNk4zOTZZQdIBzwFBVV95cUxPUmoyRDAyaTYxTjNET3RHYVlUM2x1NDdZWGc2Z2xONTduQURmRlFiT1RvVTRMVE56S3NyTVZGRXdQdWhLQTU1dkxmNGJRdEtEcll4NV9IREJWb1plR2RYNWZTTVNhbUY2MzIwMVQtRjJHZVRRZ2hUb1pFWFVSNlBYVlNJNndTaWRFQ0pyT011eUtmVHRlLTJFQkVWVlBEVnBqVnk1TTcxa2dFRW1wNjlHWGdPSGpTZmtUVkQ4SzVZTk9rNHk2Nndma3M5TXpfeDg?oc=5",
+      "source": "Western Standard",
+      "date": "2026-07-22",
+      "type": "investigation",
       "status": "reported"
     },
     {
@@ -1575,19 +1588,6 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUHA1NDd6Smhyc3ZROU9JQkVVLVNzUWNtN1hPNjE0TGN5WW0yY1dWbTZLZS0yelhVTDdzQUExV3BCUHczeUhWT3hjSW9rdXpISzlTcGNlMUlMSktqMkZ0eUo1Nkl3RmpMWjdwSkYtc3RDT3JjQVJOUGc4eldJUnpwa2pLTnhsdEVaUEFaZW83QnV6UlZ3YVN6VFY0dDV3ckxfV245T0lZVXJ5MVRPeHBSZU9iaEJkSnZkR19PTA?oc=5",
       "source": "TimminsToday.com",
       "date": "2026-04-06",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-stephen-crawford-pcs-officially-table-controversial-foi-law-chang-2026-03-31",
-      "mppNames": [
-        "Stephen Crawford"
-      ],
-      "title": "PCs officially table controversial FOI law changes in 2026 budget bill - nwonewswatch.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZzhNa3MzNWQzZ1F3djJaZU1OcXNyZmN6bWw4Q1hKZlJ2X0ZTMC1ObzBQZ1RFSVBsVS1VZkdqT1pSVGpyWFh3ZTFRQWpKTU55aUFHUVdSeEs4NUptMHpKclhMcjhnSk1kbUIyNkdHV3JSN2RUVFRfeUk2TjhWUmsxWkI3Sm0tMEpFM3ctU05POF9xeDdDaUo1c3pQcWsteW1xT29acVExTjM2SnNBVHdVa0ctalpsTWlQNTdR?oc=5",
-      "source": "nwonewswatch.com",
-      "date": "2026-03-31",
       "type": "news",
       "status": "reported"
     }
