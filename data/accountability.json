@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-not-an-inquiry-but-an-audit-ontario-to-review-it-2026-08-04",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Not an inquiry, but an audit: Ontario to review its wildfire response - Canada's National Observer",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc2pwNmw1NHllUVl1UldqVmhrdVN1UzVNblRHcnp4M2huVUxYdlFqRXBsQ01FV2RhNkdndkZHdkpabmQ2SnpmOWdfTTJ3WVZMTExDdDZIaFFlSWFVX21XaUxlZW5GbEJWNno3a0U3dzNhUXdOZWFXYzRmdC1xNWpIWWJsWkpxd1I0VGdPUTd3dUdMZlRabWJkMGVzX2s?oc=5",
+      "source": "Canada's National Observer",
+      "date": "2026-08-04",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-s-minister-resigns-over-16k-hotel-expe-2026-07-17",
       "mppNames": [
         "Doug Ford"
@@ -410,10 +423,10 @@
       "mppNames": [
         "Kevin Holland"
       ],
-      "title": "'There has been improved communication': Holland addresses wildfires - NWONewsWatch.com",
+      "title": "'There has been improved communication': Holland addresses wildfires - Thunder Bay News - TBNewsWatch.com",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX1Zwa1lqcWRMOHhmZjRHb1dYM2owMmlIajVyN2JyTGRBcFY4R2tqZ21HM1dWcy1idm5MNjc4R1FOS1FuUVU4WWljbTBWUWlMemFsUDVWZXd1dkQxNG5Ec0pZRnRZbTlQbC1xRlR5WHluV2hiUG5mT2hOc0Vqbng2bE04UWFEZ0V3TmhMQ1piSFdwYm1RRDdDeVZlWS05a19XTHlKYm9JdTNwbHlqN3ZoY1FxOVc?oc=5",
-      "source": "NWONewsWatch.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc1B3dklXemh4eU0zZmgxbEhBcm4tM1pZTldjZmc1Q0JLaGFOenB5eUt6Zlh1cTY2VjFpeGV4RFlpQ2txNHUwQzZkX3dKcHBjeWY3cURUWEVyNGNoclFoN2dTdUhPeXlxd0c5bjFXcFFlcGFxV1ZQX2FlVWpua05PNFhfWkllcXo0c1hwcEhaRU9IQzByM2c3OVN1ZG8xc0VZNkdCbWpjaFJKUU5sYkViUm1Qbw?oc=5",
+      "source": "Thunder Bay News - TBNewsWatch.com",
       "date": "2026-07-24",
       "type": "news",
       "status": "reported"
@@ -497,19 +510,6 @@
       "source": "The Peterborough Examiner",
       "date": "2026-07-23",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-why-first-nations-want-an-inquiry-into-ontario-s-2026-07-23",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Why First Nations want an inquiry into Ontario’s wildfire response - London Free Press",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQmJjTDdpT2EwZllKMnVMZjJ1SG8zaHR4emx0LUt1RWxHQzA2RGZuY2NPXzRNSlhQamczSWo1Z1pfa25RbXNuQWJFbVN3N21MWFIxVG1FRHBPb2RULVB2X0plbk5YYkdPcS1UY3c0dVBPOGo2bzBHU211S2pjV1F3ZDhPOU95ZjBNVzZ0aWMyOGNWRGVuOTJDb3U3NkU5MXFC?oc=5",
-      "source": "London Free Press",
-      "date": "2026-07-23",
-      "type": "investigation",
       "status": "reported"
     },
     {
