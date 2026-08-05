@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-doug-ford-s-popularity-dips-in-wake-of-expenses--2026-08-04",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford’s popularity dips in wake of expenses scandal, poll suggests - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOS0dYMW5mdEQtdURhWTJLRERYT2JvYWdLYlFMT2U1c1FkUjhJSmJaT09BVi1hTUNIelVJWTVJQUhwNjlOcVZZQlZzZkVpaS1kbWs3ZkdnUDhtWGFWUWZjaXJOTmtFM3Awa1o1Xzl2MEJ5dGRMTUg4ajJOT3hnM3JKOHZCaUd3N3c1QWZqSHB5eTVJSlBsWjRHM0htYTl0MXJ5aGttWVNOWXpCamR5UzVLWHZCLUpYRjVJWDRhNmdNRkZrWURQaDJkZ1V2ZTNQOXNJTy1wUDN0TnpERG9hYTZNcE1WTUdYeFdsZVJNVWJqUGhab0tP?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-08-05",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-not-an-inquiry-but-an-audit-ontario-to-review-it-2026-08-04",
       "mppNames": [
         "Doug Ford"
@@ -513,6 +526,21 @@
       "status": "reported"
     },
     {
+      "id": "auto-graham-mcgregor-brampton-politicians-dodge-resignation-questions-2026-07-22",
+      "mppNames": [
+        "Graham McGregor",
+        "Amarjot Sandhu",
+        "Prabmeet Singh Sarkaria"
+      ],
+      "title": "Brampton politicians dodge resignation questions amid $49K hotel spending scandal - INsauga",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORzdzZW5UdkpHMFh0YTBrOUlzb1JnQzByZXNwUWh4T2pVSHhYcVhHYmxkdkFId3BjZkRKYXoxS3JnUTVjOUVmc21nbDBTSGxWY082QXJaWi1QaTE5RmRZZVZRN2c0UFJSbnZTWjVkM1dEZWVhdUFxb3llcndFeTZUaG83dFpPN3IyWUp2QVR4c1BfVHNLZVFQeFlUVV9vWlBiQWR6QTF0ekw?oc=5",
+      "source": "INsauga",
+      "date": "2026-07-22",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-willowdale-mpp-stan-cho-resigns-from-doug-ford-s-2026-07-20",
       "mppNames": [
         "Stan Cho",
@@ -596,10 +624,10 @@
       "mppNames": [
         "Jill Dunlop"
       ],
-      "title": "Ontario minister pulled from CBC wildfire interview as critics decry ‘PC government culture’ - NOW Toronto",
+      "title": "Ontario minister pulled from CBC wildfire interview as critics decry ‘PC government culture’ - nowtoronto.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY3YycUZuVWtNdlhEUENnQ25oVnEyMUpKNHBweDVacHhlLXd3M1hXeVozM3ZiNDlxUHhiWkJPaUx2SlpkTVo0Z2tiR0FZZ3ZJQV9pNkRBVGdPVXd6UVVrSEhVSTV1TVlaaWRXWE95a25BQkN0dGJyR1ZfWHpHODgwWmx5YjN2N2g5?oc=5",
-      "source": "NOW Toronto",
+      "source": "nowtoronto.com",
       "date": "2026-07-22",
       "type": "news",
       "status": "reported"
@@ -1560,34 +1588,6 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYnNucGJGT3dOTFFHeExTaWJJRmNwc1BodHE3dXRSWEVPR0FHTS1OTEN2a3dtSW41NVMwVUlYaF9XZVpobExjS3BYTzNCOFBoNWhXQ2Z2S2h5R09KV3c1XzA1b0I1YUdkanJybXR2UmZNRjQ2a3FUMnZDc21Nb3d4Qmw5OUVzeGlncl9xa3VKLWtzT3BVOGZTV2ZvbDNUeldIbUhIZ0RrT3drQ1RwQkI4?oc=5",
       "source": "CollingwoodToday.ca",
       "date": "2026-04-07",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-downey-taxpayers-group-slams-ontario-mpps-for-loathsome-2026-04-06",
-      "mppNames": [
-        "Doug Downey",
-        "Andrea Khanjin"
-      ],
-      "title": "Taxpayers group slams Ontario MPPs for 'loathsome' pay raise - BarrieToday.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNWhKdkJMclJHbkQ2Q2FwbmxqYy03WTRCQVVoOEhkaFI1UVl2M1JvdzVQTXIxSmFwbi05dml0bWhvc0R5cWZxNUVXZ2FyUDBnVHQwN0h5ZFhEZmF3a3dPRW4xZGVzcDdLZnZmNFNIOXkyMExEWWs2NGtxTF92RWxUeWZ6d0d6T0Q4MThnMjBLVFJLa0VSYVF5UDBfOG9HeE56NFFJSTdCaUh3bFVRQnI0?oc=5",
-      "source": "BarrieToday.com",
-      "date": "2026-04-06",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-john-vanthof-taxpayers-group-slams-mpps-over-new-pay-raise-af-2026-04-06",
-      "mppNames": [
-        "John Vanthof",
-        "George Pirie"
-      ],
-      "title": "Taxpayers' group slams MPPs over new pay raise after last year’s big hike - TimminsToday.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUHA1NDd6Smhyc3ZROU9JQkVVLVNzUWNtN1hPNjE0TGN5WW0yY1dWbTZLZS0yelhVTDdzQUExV3BCUHczeUhWT3hjSW9rdXpISzlTcGNlMUlMSktqMkZ0eUo1Nkl3RmpMWjdwSkYtc3RDT3JjQVJOUGc4eldJUnpwa2pLTnhsdEVaUEFaZW83QnV6UlZ3YVN6VFY0dDV3ckxfV245T0lZVXJ5MVRPeHBSZU9iaEJkSnZkR19PTA?oc=5",
-      "source": "TimminsToday.com",
-      "date": "2026-04-06",
       "type": "news",
       "status": "reported"
     }
