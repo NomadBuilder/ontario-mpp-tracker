@@ -3,6 +3,58 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-amarjot-sandhu-brampton-west-pc-mpp-amarjot-sandhu-billed-taxpa-2026-07-29",
+      "mppNames": [
+        "Amarjot Sandhu"
+      ],
+      "title": "Brampton West PC MPP Amarjot Sandhu billed taxpayers for Toronto hotel stays - rebelnews.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPejNFTFJiQkpsNW9Zdnk3NlRuZWQtdDlmUnVIVFQ0YThjaGRkaHgxUmNmdWotcWNlOUFaWmE2QmRVM3k3bW1VOVZ5R3lBRmFWdDNIQS1Cc3NTX0JQS3RtR0ItT25CdWZVODNwaVE4eExNeEhDSm5ra0tUNk82RnRYZV9pUU5rTy1EeTcwYVloOFcxdUhPTlNjOHpmYU9GQ3dYM1k3cw?oc=5",
+      "source": "rebelnews.com",
+      "date": "2026-08-07",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-mississauga-pc-mpp-silvia-gualtieri-billed-taxpa-2026-07-29",
+      "mppNames": [
+        "Silvia Gualtieri"
+      ],
+      "title": "Mississauga PC MPP Silvia Gualtieri Billed taxpayers for Toronto hotel stays - rebelnews.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQejFXdUpqZXk1ODlNUmNQRFhfbUtscW9LYTBib0VHTGhzTzZRZ2V3WDZzaWllSWlFZ1dibk9qMGQ4VGpwT29KNU1OdmtGZEtrQUNPdVJ3aHJZcF9kbDU1N0JDTUgwc0UtU2twTlN4QWpxMjZDNHFCYzRpOTUyMVJtTU9kdXppdlZicGhraTFUcE1HeTN2VzV6OFJxaWQxb1FtT2FaMQ?oc=5",
+      "source": "rebelnews.com",
+      "date": "2026-08-07",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-david-smith-scarborough-centre-pc-mpp-david-smith-billed-tax-2026-07-29",
+      "mppNames": [
+        "David Smith"
+      ],
+      "title": "Scarborough Centre PC MPP David Smith billed taxpayers more than $6,500 for Toronto hotel stays - rebelnews.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVl9SanRVMFJrOWllSVlUd0tkeHpPQzVhbE1ncTNzamNoTlRWckVJTlFlWFVHMFZMaTRPRW9BMjVEU2pqSnFHWDI3SEMtQkhJTU1WZEVqZWlXajFQaDREaVBEdjRGTVNEOHdGdWpnb0ZKa2ktaFd3cHlKMUJyeWlfWUJnYkJvWlRRcERzMURvQkN5Yi1HcjRSVmFoeFJBOTNSdFpxaU1nZGgwYXZzWVAzSEF2dWw4ZnN6Y3FsZQ?oc=5",
+      "source": "rebelnews.com",
+      "date": "2026-08-07",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-graham-mcgregor-brampton-north-pc-mpp-graham-mcgregor-billed-tax-2026-07-29",
+      "mppNames": [
+        "Graham McGregor"
+      ],
+      "title": "Brampton North PC MPP Graham McGregor billed taxpayers $1,391 for two Toronto hotel stays - rebelnews.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaWozU0JmclRZM0hRbWZab3pNaDdOcGdIbE5XZmdXdlVDMmRqS1lXa011WE5McFBOMXZBMmFoMjljVXpmcmtwOG5VaHZqN21RY3o1M2MzdVZFY1RZbGxjanpadTFnRzZqUjhyU3BGeFlhSWx1T1dvRFNTeGFoVUtsU2xYQm5tYXRXcktBV1c5dUlRSHVjTnlKRGhjTXYzaUhtM0JuNUNaWlljYVJFemZ6UmNqMA?oc=5",
+      "source": "rebelnews.com",
+      "date": "2026-08-07",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-peter-bethlenfalvy-ontario-pcs-launch-review-of-public-agencies-ami-2026-08-05",
       "mppNames": [
         "Peter Bethlenfalvy",
@@ -238,19 +290,6 @@
       "status": "reported"
     },
     {
-      "id": "auto-amarjot-sandhu-brampton-west-pc-mpp-amarjot-sandhu-billed-taxpa-2026-07-29",
-      "mppNames": [
-        "Amarjot Sandhu"
-      ],
-      "title": "Brampton West PC MPP Amarjot Sandhu billed taxpayers for Toronto hotel stays - rebelnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPejNFTFJiQkpsNW9Zdnk3NlRuZWQtdDlmUnVIVFQ0YThjaGRkaHgxUmNmdWotcWNlOUFaWmE2QmRVM3k3bW1VOVZ5R3lBRmFWdDNIQS1Cc3NTX0JQS3RtR0ItT25CdWZVODNwaVE4eExNeEhDSm5ra0tUNk82RnRYZV9pUU5rTy1EeTcwYVloOFcxdUhPTlNjOHpmYU9GQ3dYM1k3cw?oc=5",
-      "source": "rebelnews.com",
-      "date": "2026-07-29",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
       "id": "auto-york-south-weston-pc-mpp-mohamed-firin-billed-ta-2026-07-29",
       "mppNames": [
         "Mohamed Firin"
@@ -258,32 +297,6 @@
       "title": "York South–Weston PC MPP Mohamed Firin billed taxpayers for Toronto hotel stays - rebelnews.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOckhpc09TSWtBYXFROEY4WkZDTnNrM1NHQUxLUEpUSUE4TTg0SUhSNXNTVDZCcUdMMUQ3aVROTzI4RHJ5aDhRSmpHR1RybktGRXBVd2UwMUJPaW1KejkxNHdraVQxT3htSTZBZnMzU2hjeXI1WS1kYVJhS2JmNVV5Y3dOWTUzSkRXcDFjYVp2NlRiWUhDbEg5dVZMZDVxRF9zc0FyNmxoSEg?oc=5",
-      "source": "rebelnews.com",
-      "date": "2026-07-29",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-mississauga-pc-mpp-silvia-gualtieri-billed-taxpa-2026-07-29",
-      "mppNames": [
-        "Silvia Gualtieri"
-      ],
-      "title": "Mississauga PC MPP Silvia Gualtieri Billed taxpayers for Toronto hotel stays - rebelnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQejFXdUpqZXk1ODlNUmNQRFhfbUtscW9LYTBib0VHTGhzTzZRZ2V3WDZzaWllSWlFZ1dibk9qMGQ4VGpwT29KNU1OdmtGZEtrQUNPdVJ3aHJZcF9kbDU1N0JDTUgwc0UtU2twTlN4QWpxMjZDNHFCYzRpOTUyMVJtTU9kdXppdlZicGhraTFUcE1HeTN2VzV6OFJxaWQxb1FtT2FaMQ?oc=5",
-      "source": "rebelnews.com",
-      "date": "2026-07-29",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-david-smith-scarborough-centre-pc-mpp-david-smith-billed-tax-2026-07-29",
-      "mppNames": [
-        "David Smith"
-      ],
-      "title": "Scarborough Centre PC MPP David Smith billed taxpayers more than $6,500 for Toronto hotel stays - rebelnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVl9SanRVMFJrOWllSVlUd0tkeHpPQzVhbE1ncTNzamNoTlRWckVJTlFlWFVHMFZMaTRPRW9BMjVEU2pqSnFHWDI3SEMtQkhJTU1WZEVqZWlXajFQaDREaVBEdjRGTVNEOHdGdWpnb0ZKa2ktaFd3cHlKMUJyeWlfWUJnYkJvWlRRcERzMURvQkN5Yi1HcjRSVmFoeFJBOTNSdFpxaU1nZGgwYXZzWVAzSEF2dWw4ZnN6Y3FsZQ?oc=5",
       "source": "rebelnews.com",
       "date": "2026-07-29",
       "type": "expenses",
@@ -310,19 +323,6 @@
       "title": "Markham–Stouffville PC MPP Paul Calandra billed taxpayers for 11 Toronto hotel stays - rebelnews.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ0ZHS2s2Tl9UTEgtLXE1TkdTMGtMVlc2MGliWlFaM0NfbGJuVUlmNXRxRjhtOFBXeEc3M1NjUWVRNkkzdjFxc1hBbHh6cFpjeVpBQ2tiYWtidEtqQzk4MGVTWmdLMzZkN2JXaGYxLU9NRk5rMU83QWRPRnA5UjJKR29xcGFlaEdFZkpYVnl6QjBWalhQYW5vOU0yclViUUN5SVU3SVFPVTN3MFo3X1dR?oc=5",
-      "source": "rebelnews.com",
-      "date": "2026-07-29",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-graham-mcgregor-brampton-north-pc-mpp-graham-mcgregor-billed-tax-2026-07-29",
-      "mppNames": [
-        "Graham McGregor"
-      ],
-      "title": "Brampton North PC MPP Graham McGregor billed taxpayers $1,391 for two Toronto hotel stays - rebelnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaWozU0JmclRZM0hRbWZab3pNaDdOcGdIbE5XZmdXdlVDMmRqS1lXa011WE5McFBOMXZBMmFoMjljVXpmcmtwOG5VaHZqN21RY3o1M2MzdVZFY1RZbGxjanpadTFnRzZqUjhyU3BGeFlhSWx1T1dvRFNTeGFoVUtsU2xYQm5tYXRXcktBV1c5dUlRSHVjTnlKRGhjTXYzaUhtM0JuNUNaWlljYVJFemZ6UmNqMA?oc=5",
       "source": "rebelnews.com",
       "date": "2026-07-29",
       "type": "expenses",
