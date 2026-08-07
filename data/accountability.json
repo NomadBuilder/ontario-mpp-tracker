@@ -1,7 +1,21 @@
 {
-  "asOf": "2026-08-06",
+  "asOf": "2026-08-07",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-peter-bethlenfalvy-ontario-pcs-launch-review-of-public-agencies-ami-2026-08-05",
+      "mppNames": [
+        "Peter Bethlenfalvy",
+        "Doug Ford"
+      ],
+      "title": "Ontario PCs launch review of public agencies amid spending controversy - cbc.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMlVOSnJTZFByME9RQVZwRGFjUS1OT3Y1YnZFV3NRaGNZVkdMMzduOFJLMndLWkw0eWUwQ081czVnLXBmUnJLd0ZfYVVMaTlPLUt4VU9Dd3ZHQ3piSWlnVEVpRWsyazRQblQ4NkZqbUt3cGRGbnpPcGF3bVUwMmRfLWNqaHMzYUo2YmpGZkF0NnZDTjRa?oc=5",
+      "source": "cbc.ca",
+      "date": "2026-08-05",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-doug-ford-s-popularity-dips-in-wake-of-expenses--2026-08-04",
       "mppNames": [
@@ -20,10 +34,10 @@
       "mppNames": [
         "Doug Ford"
       ],
-      "title": "Ford government to review Metrolinx, LCBO and other agencies amid hotel expenses scandal - Global News",
+      "title": "Ford government to review Metrolinx, LCBO and other agencies amid hotel expenses scandal - globalnews.ca",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRVg3blg5X1l4Y19JLWU5U0FsOFpkRDUza1l2Zk14TmNEVTRTbkxwbk0zNHNQMWdmb01BZzA2Vm5RRldSYWRoQkVMRlJvdTk2cko2VnU3VGxzaDhZTlFXS251dC1fTkxSRGpPaElWSW5BUFRLSHdBX21pdVBycjB4SzVnWUFfbV9DaGlfc2F0akJmMk1rV3J3UWY2SWlCdnQzb0ZwQUpWNzFFOHNQZEVZdDlKazA5cWo0bmRRMlktVktZQQ?oc=5",
-      "source": "Global News",
+      "source": "globalnews.ca",
       "date": "2026-08-05",
       "type": "expenses",
       "status": "reported"
@@ -37,19 +51,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcjNLb1BRZ1lTdkF0RHlGc1Y1bnhyLUNXR01KbVE0WFNoM1NEanhwWlVXQTZ0NUFPTWZ4bENJX0hhZkVfSy1BeHY0Z1NISkkzdC0yMGp0dmJxLVBXaU5Ram5TZ2gyUUp2MTk0blJnRFBxVmgxZXE3YkptUjBuQ3lIV2dsc3BRdXN4bGtYNDRlVUNKaW9kalh5ZGxENjRTbjBZampobEdFbGR5bFZvTnJwZnNOUTVFSURBYlZ0NXNkbDRMMUgzYTl1bGRjeG4tWFJFbnNRN0poYWc?oc=5",
       "source": "Ontario Newsroom",
-      "date": "2026-08-05",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-peter-bethlenfalvy-ontario-pcs-launch-review-of-public-agencies-ami-2026-08-05",
-      "mppNames": [
-        "Peter Bethlenfalvy"
-      ],
-      "title": "Ontario PCs launch review of public agencies amid spending controversy - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMlVOSnJTZFByME9RQVZwRGFjUS1OT3Y1YnZFV3NRaGNZVkdMMzduOFJLMndLWkw0eWUwQ081czVnLXBmUnJLd0ZfYVVMaTlPLUt4VU9Dd3ZHQ3piSWlnVEVpRWsyazRQblQ4NkZqbUt3cGRGbnpPcGF3bVUwMmRfLWNqaHMzYUo2YmpGZkF0NnZDTjRa?oc=5",
-      "source": "CBC",
       "date": "2026-08-05",
       "type": "news",
       "status": "reported"
