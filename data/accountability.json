@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-11",
+  "asOf": "2026-08-12",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -686,6 +686,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-nina-tangri-taxpayers-call-for-greater-transparency-with-mpp-2026-07-22",
+      "mppNames": [
+        "Nina Tangri"
+      ],
+      "title": "Taxpayers call for greater transparency with MPP expenses - Canadian Taxpayers Federation",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdGI2ZEs0UG1vQTRoVkY2aWlFUGVDbmFKRExYTU5oMDFpZUxwYUxsYU1nZXRUa2VmWDlRRUV4QjQwOHI0OUpJNGk1VVdxSGlMLW5yZEhQU1Nfd1NqcFlvODJHSkgzTWh5eW8xMk5nbkdTTHphdU45NXU5TjQtSDJXWVk4VkY0UHhUQXdyR0FRMHpEcmV6YVE?oc=5",
+      "source": "Canadian Taxpayers Federation",
+      "date": "2026-07-22",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "cho-hotel-resign-2026-07",
       "mppNames": [
         "Stan Cho",
@@ -1142,6 +1155,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-david-smith-public-records-undermine-former-minister-s-late--2026-07-17",
+      "mppNames": [
+        "David Smith"
+      ],
+      "title": "Public records undermine former minister’s ‘late nights’ justification for hotel expenses - The Trillium",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdFpOZXhUZi0zbmFZeXFLTG9uMTM1bm5XSWpmQXhGSjlLVFN3b21QWXc2VXdyS25kRDNaNXNlZlpvR2ludEVHNTBfM1BXaWhiSzNFcmxHYXVlZDFhM0RtMEd0T3dNaXBhMkxZa1dhVFd0bENGQzZvLTJ6RU1WeVZqZmJkTVlwV2l6ajczNUlUaDROOW4tY2MwbjF3aE1zR0xmQ0tmN2hXSzBQZnhvQ0VfYlo2LVV6dlUzUkVkU2JUa3pWM0k3VlRnczlwaVZuVDNkMVE?oc=5",
+      "source": "The Trillium",
+      "date": "2026-07-17",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-blasts-his-own-tory-ministers-and-mpps-2026-07-16",
       "mppNames": [
         "Doug Ford"
@@ -1562,33 +1588,6 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd3IzMndaT1IyaVpNN1F4UGhpRHVKX09rQU9sTzJSXy1aX3QybXJ1c3ZqUWd0YjdUcXFSV0ZmQXFKOWVRb0k1X2VveGpGd2JvMzVwc1hwNmtxQkZxRkk3SUhsX2RiMDBwTi1EUjR1MzhGMTdWQTJiZFlaRnQxUTluZF9HUFU3V1JlWk0zaUZXcWRmU2gzLWFUSTczSHNDaWl2LWU1THFnblhwemozdWh1SDJibWw?oc=5",
       "source": "cbc.ca",
       "date": "2026-04-21",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-steve-clark-dowie-defends-ford-government-s-controversial-fo-2026-04-17",
-      "mppNames": [
-        "Steve Clark",
-        "Andrew Dowie"
-      ],
-      "title": "Dowie defends Ford government’s controversial FOI changes - CTV News",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN25kMmVwN0ZjeEVoa2VDZ2hfampubi1vLTk1aDJmdjE1anR1RFRXdnY5RzNQcmRacFNraDhQalI2MWdkbmNnUWU1Ymt5bG1kU2x1NUZJUXY3MlJoQXRFdUVEdldBZXlmMzFnNmNqTUdyMnBqNFM5YlJ0SHNrc1hWVDN3dlRubnFJcW5EcW1GZ3NiVTJEQl9GelYtTFE?oc=5",
-      "source": "CTV News",
-      "date": "2026-04-18",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-downey-ford-promises-no-more-improper-inmate-releases-a-2026-04-16",
-      "mppNames": [
-        "Doug Downey"
-      ],
-      "title": "Ford promises no more improper inmate releases after over 150 let out of Ontario jails - cbc.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaWdPa2VvOWJrb2h4OFhjS1VHODY2NW9DYXhOZTJDVHlfeVpUaDRENXlhX19nTmhQSHZhTTE3aXlYMmZLWG9qaERGTUVOQXJ4dks2YWowSGJETXdHbWJubHE0OUNXTEVGUGRPTFN4NHZ4SGdtU2Z2X3dOSm5fdVYwOXh3?oc=5",
-      "source": "cbc.ca",
-      "date": "2026-04-16",
       "type": "news",
       "status": "reported"
     }
