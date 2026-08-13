@@ -132,7 +132,7 @@
   }
 
   function renderGaps() {
-    const gaps = (payload.coverage || []).filter((c) => c.type === "gap" || (c.type === "escribe" && !c.ok));
+    const gaps = (payload.coverage || []).filter((c) => c.type === "gap" || !c.ok);
     const box = document.getElementById("gaps");
     const ul = document.getElementById("gap-list");
     if (!gaps.length) return;

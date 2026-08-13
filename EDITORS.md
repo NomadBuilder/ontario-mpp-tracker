@@ -103,7 +103,7 @@ Public page: **`meetings.html`** — not part of the WordPress iframe. Complemen
 - Hand-entered votes / spills / proposals: **`data/meetings-curated.json`**
 - Auto output: **`data/meetings.json`** from `python3 scripts/fetch_meetings.py`
 
-The twice-daily sync polls high-priority eScribe calendars, keyword-flags data-centre language, and still lists upcoming council/planning meetings so organizers can scan agendas. Toronto, York/Peel/Durham/Halton regions, and CivicWeb-only towns are listed as gaps until a scraper exists — add those dates by hand.
+The twice-daily sync polls high-priority eScribe calendars (including Peel and York Region), Durham’s CivicPlus calendar, Halton’s council calendar + OnBase, Toronto’s TMMIS open-data schedule, and Ajax’s published yearly schedule. Keyword hits are flagged; other upcoming council/planning meetings are listed so organizers can scan agendas. CivicWeb-only towns stay as gaps until a scraper exists — add those dates by hand.
 
 ## WordPress page
 

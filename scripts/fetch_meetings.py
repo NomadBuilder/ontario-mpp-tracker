@@ -2,9 +2,9 @@
 """
 Poll Ontario municipal meeting portals and flag datacentre-related items.
 
-Today: eScribe public sites listed in data/municipalities.json.
-Gaps (Toronto TMMIS, CivicWeb-only, branded calendar subdomains) stay in the
-registry so editors know what still needs a scraper.
+eScribe (pub-* and *publishing.escribemeetings.com), CivicPlus calendars
+(calendar.*.ca / events.*.ca), Halton OnBase + website calendar, Toronto
+TMMIS open-data schedule, and Ajax's published yearly schedule.
 
 Merges data/meetings-curated.json (hand-entered votes, spills, proposals).
 
@@ -16,7 +16,9 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import csv
 import html as htmlmod
+import io
 import json
 import re
 import ssl
@@ -63,14 +65,15 @@ KEYWORD_RE = re.compile("|".join(KEYWORDS), re.I)
 DECISION_BODY = re.compile(
     r"council|planning|committee of the whole|committee of adjustment|"
     r"public meeting|public hearing|special council|general committee|"
-    r"development|economic|infrastructure|works committee|zoning|site plan",
+    r"general government|development|economic|infrastructure|works committee|"
+    r"zoning|site plan|finance and administration|community affairs",
     re.I,
 )
 # Open these first — CoA is listed for scanning but rarely names a data centre in the title.
 INSPECT_BODY = re.compile(
-    r"council|planning|general committee|committee of the whole|"
-    r"public meeting|public hearing|economic development|"
-    r"infrastructure|works committee|development committee",
+    r"council|planning|general committee|general government|committee of the whole|"
+    r"public meeting|public hearing|economic|infrastructure|works committee|"
+    r"development committee|community affairs|finance and administration",
     re.I,
 )
 
@@ -88,14 +91,53 @@ MONTHS = {
 }
 
 
-def fetch(url: str, timeout: int = 35) -> str | None:
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/xhtml+xml"})
+def fetch(url: str, timeout: int = 35, accept: str = "text/html,application/xhtml+xml") -> str | None:
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": accept})
     try:
         with urllib.request.urlopen(req, context=CTX, timeout=timeout) as resp:
             return resp.read().decode("utf-8", errors="replace")
     except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError) as e:
         print(f"  fail {url} ({e})", flush=True)
         return None
+
+
+def fetch_json(url: str, payload: dict, referer: str, timeout: int = 25):
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=data,
+        headers={
+            "User-Agent": UA,
+            "Accept": "application/json, text/javascript, */*; q=0.01",
+            "Content-Type": "application/json; charset=utf-8",
+            "X-Requested-With": "XMLHttpRequest",
+            "Referer": referer,
+            "Origin": referer.rstrip("/"),
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, context=CTX, timeout=timeout) as resp:
+            return json.loads(resp.read().decode("utf-8", errors="replace"))
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError, json.JSONDecodeError) as e:
+        print(f"  fail {url} ({e})", flush=True)
+        return None
+
+
+def clock_from_dt(dt: datetime) -> str:
+    hour = dt.hour
+    ampm = "AM" if hour < 12 else "PM"
+    h = hour % 12 or 12
+    return f"{h}:{dt.minute:02d} {ampm}"
+
+
+def clock_from_hhmm(hhmm: str) -> str:
+    if not re.fullmatch(r"\d{3,4}", hhmm or ""):
+        return ""
+    raw = int(hhmm)
+    hour, minute = divmod(raw, 100)
+    if hour > 23 or minute > 59:
+        return ""
+    return clock_from_dt(datetime(2000, 1, 1, hour, minute))
 
 
 def strip_tags(blob: str) -> str:
@@ -299,14 +341,297 @@ def merge_items(existing: list[dict], incoming: list[dict]) -> list[dict]:
     return [buckets[k] for k in order]
 
 
+def list_escribe_calendar(base: str, start: date, end: date) -> list[dict]:
+    url = base.rstrip("/") + "/MeetingsCalendarView.aspx/GetCalendarMeetings"
+    payload = {
+        "calendarStartDate": start.isoformat(),
+        "calendarEndDate": end.isoformat(),
+    }
+    data = fetch_json(url, payload, referer=base.rstrip("/") + "/")
+    rows = (data or {}).get("d") if isinstance(data, dict) else None
+    if not isinstance(rows, list):
+        return []
+    out: list[dict] = []
+    seen: set[str] = set()
+    for row in rows:
+        mid = str(row.get("ID") or "").lower()
+        title = (row.get("MeetingName") or "").strip()
+        if not title:
+            continue
+        if not mid:
+            mid = re.sub(r"[^a-z0-9]+", "-", title.lower())[:48]
+        if mid in seen:
+            continue
+        seen.add(mid)
+        day, tim = "", ""
+        start_raw = row.get("StartDate") or row.get("FormattedStart") or ""
+        try:
+            dt = datetime.strptime(str(start_raw)[:19], "%Y/%m/%d %H:%M:%S")
+            day, tim = dt.date().isoformat(), clock_from_dt(dt)
+        except ValueError:
+            day, tim = parse_when(str(row.get("FormattedStart") or start_raw))
+        loc = strip_tags(row.get("Location") or row.get("Description") or "")
+        cancelled = bool(re.search(r"\bcancelled\b", title, re.I))
+        href = (row.get("Url") or "").strip()
+        if href and re.search(r"Meeting\.aspx", href, re.I):
+            meeting_url = urljoin(base.rstrip("/") + "/", href)
+        else:
+            meeting_url = f"{base.rstrip('/')}/Meeting.aspx?Id={mid}"
+        out.append(
+            {
+                "id": mid,
+                "body": title,
+                "label": row.get("FormattedStart") or "",
+                "date": day,
+                "time": tim,
+                "location": loc,
+                "url": meeting_url,
+                "cancelled": cancelled,
+            }
+        )
+    return out
+
+
 def scrape_escribe(portal: dict, horizon: date, inspect_all: bool) -> list[dict]:
     base = portal["base"].rstrip("/")
+    start = date.today() - timedelta(days=7)
+    raw_meetings = list_escribe_calendar(base, start, horizon)
     html = fetch(base + "/")
+    if html:
+        for mtg in parse_escribe_home(html, base):
+            if not any(m["id"] == mtg["id"] for m in raw_meetings):
+                raw_meetings.append(mtg)
+    print(f"  {portal['id']}: {len(raw_meetings)} listed", flush=True)
+    return items_from_raw(portal, raw_meetings, horizon, inspect_all, source="escribe")
+
+
+def scrape_civicplus(portal: dict, horizon: date, inspect_all: bool) -> list[dict]:
+    cal = (portal.get("calendarUrl") or "").rstrip("/")
+    html = fetch(cal, timeout=45)
     if not html:
         return []
-    raw_meetings = parse_escribe_home(html, base)
-    print(f"  {portal['id']}: {len(raw_meetings)} listed", flush=True)
-    raw_meetings.sort(key=lambda m: m.get("date") or "9999")
+    raw: list[dict] = []
+    seen: set[str] = set()
+    for href, day, hhmm, slug, title in re.findall(
+        r'href="(/meetings/Detail/(\d{4}-\d{2}-\d{2})-(\d{4})-([^"]+))"[^>]*>([^<]+)',
+        html,
+        re.I,
+    ):
+        title = htmlmod.unescape(title).strip() or slug.replace("-", " ").strip()
+        mid = f"{day}-{hhmm}-{slug[:40]}"
+        if mid in seen:
+            continue
+        seen.add(mid)
+        raw.append(
+            {
+                "id": mid,
+                "body": title,
+                "label": f"{title} {day}",
+                "date": day,
+                "time": clock_from_hhmm(hhmm),
+                "location": "",
+                "url": urljoin(cal + "/", href),
+                "cancelled": bool(re.search(r"cancelled", title, re.I)),
+            }
+        )
+    if not raw:
+        for day, hhmm, slug in re.findall(
+            r"/meetings/Detail/(\d{4}-\d{2}-\d{2})-(\d{4})-([^\"/<>]+)",
+            html,
+            re.I,
+        ):
+            mid = f"{day}-{hhmm}-{slug[:40]}"
+            if mid in seen:
+                continue
+            seen.add(mid)
+            title = re.sub(r"[-_]+", " ", slug).strip(" 2")
+            raw.append(
+                {
+                    "id": mid,
+                    "body": title,
+                    "label": title,
+                    "date": day,
+                    "time": clock_from_hhmm(hhmm),
+                    "location": "",
+                    "url": f"{cal}/Detail/{day}-{hhmm}-{slug}",
+                    "cancelled": bool(re.search(r"cancelled", title, re.I)),
+                }
+            )
+    print(f"  {portal['id']}: {len(raw)} listed", flush=True)
+    return items_from_raw(portal, raw, horizon, inspect_all, source="civicplus")
+
+
+def scrape_halton(portal: dict, horizon: date, inspect_all: bool) -> list[dict]:
+    raw: list[dict] = []
+    seen: set[str] = set()
+
+    site = fetch(portal.get("calendarUrl") or "", timeout=40) or ""
+    event_urls = re.findall(
+        r'href="(https://www\.halton\.ca/the-region/events/20\d{2}/[^"]+)"',
+        site,
+        re.I,
+    )
+    for title in re.findall(r'class="event-title">([^<]+)</div>', site):
+        title = htmlmod.unescape(title).strip()
+        day, _ = parse_when(title)
+        if not day:
+            continue
+        slug = re.sub(r"[^a-z0-9]+", "-", title.lower())[:48]
+        href = next((u for u in event_urls if day in u or slug[:20] in u.lower()), event_urls[0] if event_urls else portal.get("calendarUrl"))
+        if slug in seen:
+            continue
+        seen.add(slug)
+        raw.append(
+            {
+                "id": slug,
+                "body": title,
+                "label": title,
+                "date": day,
+                "time": "9:30 AM" if re.search(r"council", title, re.I) else "",
+                "location": "Halton Regional Centre, 1151 Bronte Road, Oakville",
+                "url": href,
+                "cancelled": False,
+            }
+        )
+
+    onbase = portal.get("onbaseUrl") or "https://edmweb.halton.ca/OnBaseAgendaOnline"
+    start = date.today().replace(month=1, day=1)
+    q = (
+        f"{onbase.rstrip('/')}/Meetings/Search"
+        f"?dropsv={start.strftime('%m/%d/%Y')}+00:00:00"
+        f"&dropev={horizon.strftime('%m/%d/%Y')}+23:59:59"
+        f"&dropid=11"
+    )
+    html = fetch(q, timeout=40) or ""
+    for chunk in html.split('class="meeting-row"')[1:]:
+        mid = re.search(r'data-meeting-id="(\d+)"', chunk)
+        name = re.search(r'data-sortable-type="mtgName">([^<]+)', chunk)
+        when = re.search(r'data-sortable-label="(\d{4}-\d{2}-\d{2})"', chunk)
+        clock = re.search(r"(\d{1,2}:\d{2}\s*[AP]M)", chunk, re.I)
+        if not name:
+            continue
+        title = htmlmod.unescape(name.group(1)).strip()
+        day = when.group(1) if when else parse_when(chunk[:400])[0]
+        key = mid.group(1) if mid else f"{day}-{title[:30]}"
+        if key in seen:
+            continue
+        seen.add(key)
+        view = f"{onbase.rstrip('/')}/Meetings/ViewMeeting?id={mid.group(1)}&doctype=1" if mid else onbase
+        pdf = re.search(r'href="(/OnBaseAgendaOnline/Documents/Downloadfile/[^"]+Agenda[^"]+)"', chunk, re.I)
+        raw.append(
+            {
+                "id": str(key),
+                "body": title,
+                "label": title,
+                "date": day,
+                "time": (clock.group(1).upper().replace("  ", " ") if clock else ""),
+                "location": "Halton Regional Centre, 1151 Bronte Road, Oakville",
+                "url": urljoin(onbase, pdf.group(1)) if pdf else view,
+                "cancelled": bool(re.search(r"cancelled", title, re.I)),
+            }
+        )
+    print(f"  {portal['id']}: {len(raw)} listed", flush=True)
+    return items_from_raw(portal, raw, horizon, inspect_all, source="halton")
+
+
+def scrape_toronto(portal: dict, horizon: date, inspect_all: bool) -> list[dict]:
+    csv_url = portal.get("scheduleUrl") or (
+        "https://ckan0.cf.opendata.inter.prod-toronto.ca/datastore/dump/08c8aedb-afba-41f5-830e-bbfb305ebbc7"
+    )
+    blob = fetch(csv_url, timeout=45, accept="text/csv,text/plain,*/*")
+    if not blob:
+        return []
+    raw: list[dict] = []
+    today = date.today()
+    for row in csv.DictReader(io.StringIO(blob)):
+        title = (row.get("Committee") or "").strip()
+        day = (row.get("Date") or "").strip()
+        if not title or not day:
+            continue
+        try:
+            d = date.fromisoformat(day[:10])
+        except ValueError:
+            continue
+        if d < today - timedelta(days=3) or d > horizon:
+            continue
+        if SKIP_BODY.search(title):
+            continue
+        if not DECISION_BODY.search(title):
+            continue
+        mid = f"{day}-{re.sub(r'[^a-z0-9]+', '-', title.lower())[:40]}"
+        raw.append(
+            {
+                "id": mid,
+                "body": title,
+                "label": f"{title} {day} {row.get('Start Time') or ''}",
+                "date": day[:10],
+                "time": (row.get("Start Time") or "").replace("  ", " ").strip(),
+                "location": (row.get("Location") or "").strip(),
+                "url": "https://www.toronto.ca/city-government/council/council-committee-meetings/",
+                "cancelled": False,
+            }
+        )
+    print(f"  {portal['id']}: {len(raw)} listed", flush=True)
+    # TMMIS agenda HTML is behind a 403; list scan cards from the open-data schedule.
+    return items_from_raw(portal, raw, horizon, inspect_all=False, source="tmmis")
+
+
+# Official 2026 schedule (events.ajax.ca calendar currently errors). Refresh from
+# https://ajax.ca/wp-content/uploads/2026/05/2026-Meeting-Schedule.pdf
+AJAX_SCHEDULE = [
+    ("2026-09-08", "1:00 PM", "Community Affairs and Planning Committee"),
+    ("2026-09-14", "1:00 PM", "General Government Committee"),
+    ("2026-09-21", "1:00 PM", "Council"),
+    ("2026-12-07", "1:00 PM", "Community Affairs and Planning Committee"),
+    ("2026-12-14", "1:00 PM", "General Government Committee"),
+    ("2026-12-14", "Following GGC", "Council"),
+]
+
+
+def scrape_ajax(portal: dict, horizon: date, inspect_all: bool) -> list[dict]:
+    cal = portal.get("calendarUrl") or "https://events.ajax.ca/meetings"
+    html = fetch(cal, timeout=20) or ""
+    if html and "complication" not in html.lower() and "/meetings/Detail/" in html:
+        return scrape_civicplus({**portal, "calendarUrl": cal}, horizon, inspect_all)
+    raw = []
+    for day, tim, title in AJAX_SCHEDULE:
+        try:
+            d = date.fromisoformat(day)
+        except ValueError:
+            continue
+        if d > horizon:
+            continue
+        raw.append(
+            {
+                "id": f"{day}-{re.sub(r'[^a-z0-9]+', '-', title.lower())[:32]}",
+                "body": title,
+                "label": f"{title} {day} {tim}",
+                "date": day,
+                "time": tim,
+                "location": "Town Hall, 65 Harwood Avenue South, Ajax",
+                "url": "https://ajax.ca/meetings",
+                "cancelled": False,
+            }
+        )
+    print(f"  {portal['id']}: {len(raw)} listed (published 2026 schedule)", flush=True)
+    items = items_from_raw(portal, raw, horizon, inspect_all=False, source="ajax-schedule")
+    for it in items:
+        it["issue"] = (
+            "Published on the Town's 2026 meeting schedule. "
+            "Open ajax.ca/meetings for the agenda when the clerk posts it — scan for zoning, site plan, or industrial items."
+        )
+        it["links"]["agenda"] = "https://ajax.ca/wp-content/uploads/2026/05/2026-Meeting-Schedule.pdf"
+    return items
+
+
+def items_from_raw(
+    portal: dict,
+    raw_meetings: list[dict],
+    horizon: date,
+    inspect_all: bool,
+    source: str,
+) -> list[dict]:
+    raw_meetings = sorted(raw_meetings, key=lambda m: m.get("date") or "9999")
     items: list[dict] = []
     inspected = 0
     for mtg in raw_meetings:
@@ -325,10 +650,14 @@ def scrape_escribe(portal: dict, horizon: date, inspect_all: bool) -> list[dict]
         snippets: list[str] = []
         page_text = ""
         inspect_body = bool(INSPECT_BODY.search(mtg["body"] or ""))
+        within = True
+        if day:
+            try:
+                within = date.fromisoformat(day) <= horizon
+            except ValueError:
+                within = True
         should_open = hit_title or (
-            (inspect_body or inspect_all)
-            and decision
-            and (inspect_all or not day or date.fromisoformat(day) <= horizon)
+            (inspect_body or inspect_all) and decision and (inspect_all or not day or within)
         )
         if should_open and mtg.get("url") and inspected < 18:
             page = fetch(mtg["url"])
@@ -389,7 +718,7 @@ def scrape_escribe(portal: dict, horizon: date, inspect_all: bool) -> list[dict]
             ).strip()
         items.append(
             {
-                "id": f"es-{portal['id']}-{mtg['id'][:12]}",
+                "id": f"{portal['id']}-{mtg['id'][:16]}",
                 "municipality": portal["name"],
                 "municipalityId": portal["id"],
                 "body": mtg["body"],
@@ -408,7 +737,7 @@ def scrape_escribe(portal: dict, horizon: date, inspect_all: bool) -> list[dict]
                 },
                 "keywordsMatched": keywords,
                 "relevant": relevant,
-                "source": "escribe",
+                "source": source,
                 "curated": False,
             }
         )
@@ -418,7 +747,7 @@ def scrape_escribe(portal: dict, horizon: date, inspect_all: bool) -> list[dict]
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--priority", default="all", help="all | high | medium (includes high)")
-    ap.add_argument("--days", type=int, default=75, help="Look this many days ahead")
+    ap.add_argument("--days", type=int, default=120, help="Look this many days ahead")
     ap.add_argument("--inspect-all", action="store_true", help="Open more meeting pages (slower)")
     args = ap.parse_args()
 
@@ -445,11 +774,19 @@ def main() -> int:
             "calendarUrl": portal.get("calendarUrl") or portal.get("base"),
             "note": portal.get("note") or "",
         }
-        if kind != "escribe":
+        scrapers = {
+            "escribe": scrape_escribe,
+            "civicplus": scrape_civicplus,
+            "halton": scrape_halton,
+            "tmmis": scrape_toronto,
+            "ajax": scrape_ajax,
+        }
+        fn = scrapers.get(kind)
+        if not fn:
             coverage.append(row)
             continue
         try:
-            found = scrape_escribe(portal, horizon, args.inspect_all)
+            found = fn(portal, horizon, args.inspect_all)
             scraped.extend(found)
             row["ok"] = True
             row["meetings"] = len(found)
@@ -477,7 +814,7 @@ def main() -> int:
     payload = {
         "asOf": datetime.now(timezone.utc).date().isoformat(),
         "note": (
-            "Auto-polled eScribe calendars plus curated items. "
+            "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. "
             "Keyword hits are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. "
             "Not every Ontario municipality is covered yet — see coverage[]."
         ),
