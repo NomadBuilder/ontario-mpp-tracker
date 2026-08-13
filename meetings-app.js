@@ -59,13 +59,8 @@
       !kind && item.status !== "past" && item.status !== "watch" ? `<span class="badge">Scan agenda</span>` : "",
     ].filter(Boolean).join("");
     const mark = statusMark(item);
-    const origin = item.curated
-      ? (item.origin || "We wrote this from the official agenda and news coverage. The yellow button is the city’s page.")
-      : "Copied from this municipality’s public meeting calendar. Open the official agenda to verify.";
     const links = item.links || {};
-    const officialLabel = item.curated
-      ? (item.status === "watch" ? "Open city’s meeting calendar" : "Open official calendar")
-      : "Open official agenda";
+    const officialLabel = item.status === "watch" ? "Open meeting calendar" : "Open official agenda";
     const actions = [
       links.meeting ? `<a class="btn btn-primary" href="${escapeHtml(links.meeting)}" target="_blank" rel="noopener">${officialLabel}</a>` : "",
       links.agenda && links.agenda !== links.meeting
@@ -90,7 +85,6 @@
         ${showBody ? `<p class="where">${escapeHtml(item.body)}</p>` : ""}
         ${item.location ? `<p class="where">${escapeHtml(item.location)}</p>` : ""}
         ${item.result ? `<div class="block result"><h3>Result</h3><p>${escapeHtml(item.result)}</p></div>` : ""}
-        <div class="block"><h3>Where this came from</h3><p>${escapeHtml(origin)}</p></div>
         ${item.issue ? `<div class="block"><h3>What’s on the table</h3><p>${escapeHtml(item.issue)}</p></div>` : ""}
         ${item.why ? `<div class="block"><h3>Why this matters</h3><p>${escapeHtml(item.why)}</p></div>` : ""}
         ${item.status === "past" ? "" : `<div class="block">
