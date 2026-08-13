@@ -477,6 +477,25 @@
       flex-wrap: wrap;
       gap: 0.55rem;
     }
+    .find-council {
+      margin-top: 1.15rem;
+      padding-top: 1.05rem;
+      border-top: 1px solid var(--line);
+    }
+    .find-council .kicker {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--dim);
+      margin-bottom: 0.3rem;
+    }
+    .find-council h4 {
+      font-size: 1.08rem;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+    .find-council .line { color: var(--ink); margin-bottom: 0.75rem; }
 
     /* Bills */
     .bills { background: var(--bg); border-top: 1px solid var(--line); }
@@ -558,6 +577,48 @@
 
     @media (max-width: 700px) {
       .bill-row { grid-template-columns: 1fr; gap: 0.35rem; }
+    }
+
+    .icbl-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.7rem;
+      margin-top: 1.35rem;
+    }
+    .icbl-card {
+      background: var(--bg-2);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--yellow);
+      padding: 0.85rem 1rem;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .icbl-card:hover { border-color: rgba(255, 199, 69, 0.45); }
+    .icbl-card .stamp {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.4rem;
+      margin-bottom: 0.4rem;
+    }
+    .icbl-card .stamp.upcoming { background: var(--yellow); color: var(--yellow-ink); }
+    .icbl-card .stamp.past { background: #3a3a3a; color: #f0f0f0; }
+    .icbl-card .stamp.watch {
+      border: 1px solid var(--yellow);
+      color: var(--yellow);
+    }
+    .icbl-card strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 1.05rem;
+      margin-bottom: 0.25rem;
+    }
+    .icbl-card p { color: var(--muted); font-size: 0.88rem; margin: 0; }
+    @media (max-width: 700px) {
+      .icbl-grid { grid-template-columns: 1fr; }
     }
 
     /* Money */
@@ -820,8 +881,8 @@
         <p class="section-kicker">Start here</p>
         <h2 class="section-title">Who represents you?</h2>
         <p class="section-copy">
-          Enter your postal code. We’ll match your riding and hand you email + phone —
-          then you can open their votes in the tracker or send a message now.
+          Enter your postal code. We’ll match your MPP <em>and</em> your city council —
+          Queen’s Park votes and the next local sitting, in one lookup.
         </p>
         <form class="find-form" id="postal-form">
           <label for="postal">Postal code</label>
@@ -837,7 +898,7 @@
       <aside class="find-visual" role="img" aria-label="Members of Provincial Parliament in the Ontario legislature chamber">
         <div class="find-visual-caption">
           <strong>123 MPPs · Queen’s Park</strong>
-          One of them represents your riding. Find out who — then hold them to it.
+          One MPP, plus a city or regional council. Find both — then hold them to it.
         </div>
       </aside>
     </div>
@@ -849,12 +910,15 @@
       <h2 class="section-title">Votes OAC is watching</h2>
       <p class="section-copy">
         These bills are featured in the tracker because they concentrate power, weaken oversight,
-        or hand public assets to private interests. Numbers update from the live vote file.
+        or hand public assets to private interests. Data centres are also being decided at city hall —
+        Bill 40 at Queen’s Park, interim control votes in Hamilton, Mississauga, Oakville, and the Sault.
       </p>
       <div class="bill-list" id="bill-list"></div>
+      <div id="icbl-strip" style="margin-top: 2rem;"></div>
       <p style="margin-top: 1.75rem; display: flex; flex-wrap: wrap; gap: 0.65rem;">
         <a class="btn btn-primary" href="map.html">See these votes on the map</a>
         <a class="btn btn-ghost" href="./?embed=1">Open the full tracker</a>
+        <a class="btn btn-ghost" href="meetings.html?when=exact">Municipal data-centre votes</a>
       </p>
     </div>
   </section>
@@ -938,7 +1002,7 @@
     </div>
   </footer>
 
-  <script src="shared.js"></script>
+  <script src="shared.js?v=2"></script>
   <script>
     (function () {
       const TRACKER = "./?embed=1";
@@ -954,6 +1018,12 @@
           body: "Centralizes authority while weakening transparency and environmental oversight. Ask your MPP whether they stood up for the public’s right to know.",
           campaign: "https://onac.ca/issues/demand-freedom-of-information/",
           campaignLabel: "Demand FOI — Bill 97",
+        },
+        "Bill 40": {
+          title: "Large-load / data-centre grid connections",
+          body: "Provincial rules for huge new electricity customers — including AI data centres. Cities are voting on interim control by-laws because those rules are still undefined.",
+          campaign: "meetings.html?when=exact",
+          campaignLabel: "City hall ICBL votes",
         },
         "Bill 5": {
           title: "Special economic zones",
@@ -1009,7 +1079,7 @@
         const list = document.getElementById("bill-list");
         const featured = payload.featuredBills || [];
         const mpps = payload.mpps || [];
-        const priority = ["Bill 110", "Bill 97", "Bill 5", "Bill 60"];
+        const priority = ["Bill 40", "Bill 110", "Bill 97", "Bill 5"];
         const ordered = [
           ...priority.filter((b) => featured.includes(b)),
           ...featured.filter((b) => !priority.includes(b) && BILLS[b]),
@@ -1023,7 +1093,7 @@
           };
           const { yes, no, other } = voteCounts(mpps, bill);
           const campaignBtn = meta.campaign
-            ? `<a class="btn btn-ghost" href="${meta.campaign}" target="_blank" rel="noopener">${meta.campaignLabel || "Learn more"}</a>`
+            ? `<a class="btn btn-ghost" href="${meta.campaign}"${/^https?:/i.test(meta.campaign) ? ' target="_blank" rel="noopener"' : ""}>${meta.campaignLabel || "Learn more"}</a>`
             : "";
           const trackerHref = `${TRACKER}&bill=${encodeURIComponent(bill)}&vote=yes`;
           return `
@@ -1040,6 +1110,43 @@
               </div>
             </article>`;
         }).join("");
+      }
+
+      function renderIcblStrip(meetings) {
+        const host = document.getElementById("icbl-strip");
+        if (!host || !window.MppShared) return;
+        const items = meetings.items || [];
+        const flagged = items.filter(window.MppShared.isDataCentreItem);
+        const byPlace = new Map();
+        for (const it of flagged) {
+          const id = it.municipalityId;
+          if (!id || byPlace.has(id)) continue;
+          const hit = window.MppShared.councilHighlight(flagged, id);
+          if (!hit) continue;
+          byPlace.set(id, { name: it.municipality, hit });
+        }
+        const rows = [...byPlace.entries()];
+        if (!rows.length) {
+          host.innerHTML = "";
+          return;
+        }
+        const cards = rows.map(([id, row]) => {
+          const stamp = (row.hit.stamp || "Past").toLowerCase();
+          const href = `meetings.html?place=${encodeURIComponent(id)}&when=${encodeURIComponent(row.hit.when || "exact")}`;
+          return `<a class="icbl-card" href="${href}">
+            <span class="stamp ${stamp}">${row.hit.stamp}</span>
+            <strong>${row.name}</strong>
+            <p>${row.hit.line}</p>
+          </a>`;
+        }).join("");
+        host.innerHTML = `
+          <p class="section-kicker">Same fight · city hall</p>
+          <h2 class="section-title" style="font-size:clamp(1.35rem,3vw,1.85rem);max-width:none">Data-centre pauses at council</h2>
+          <p class="section-copy">
+            Bill 40 is the provincial file. These are the recorded municipal votes and the next sittings —
+            Hamilton reversed, Oakville passed, Mississauga votes September 16.
+          </p>
+          <div class="icbl-grid">${cards}</div>`;
       }
 
       function renderMoney(mpps) {
@@ -1060,10 +1167,17 @@
 
       async function init() {
         try {
-          const payload = await (await fetch("data/mpps.json")).json();
+          const [payload, meetings, registry] = await Promise.all([
+            fetch("data/mpps.json").then((r) => r.json()),
+            fetch("data/meetings.json").then((r) => (r.ok ? r.json() : { items: [] })).catch(() => ({ items: [] })),
+            fetch("data/municipalities.json").then((r) => (r.ok ? r.json() : { portals: [] })).catch(() => ({ portals: [] })),
+          ]);
           renderBills(payload);
           renderMoney(payload.mpps || []);
+          renderIcblStrip(meetings);
           window.__mppPayload = payload;
+          window.__meetingsPayload = meetings;
+          window.__portals = registry.portals || [];
         } catch (e) {
           document.getElementById("bill-list").innerHTML =
             `<p class="section-copy">Live vote data isn’t loading yet — <a href="${TRACKER}">open the full tracker</a>.</p>`;
@@ -1097,7 +1211,7 @@
           return;
         }
 
-        const lookup = await window.MppShared.lookupMppByPostal(input.value, mpps);
+        const lookup = await window.MppShared.lookupMppByPostal(input.value, mpps, window.__portals || []);
         if (!lookup.ok) {
           status.className = "find-status is-error";
           status.textContent = lookup.error || "No match found.";
@@ -1120,16 +1234,55 @@
           ? `<a class="btn btn-ghost" href="tel:${String(m.phone).replace(/\s/g, "")}">Call office</a>`
           : "";
 
+        const meetings = (window.__meetingsPayload && window.__meetingsPayload.items) || [];
+        const places = lookup.places || [];
+        const primary = places[0];
+        const hit = primary ? window.MppShared.councilHighlight(meetings, primary.id) : null;
+        let council = "";
+        if (primary && hit) {
+          const href = `meetings.html?place=${encodeURIComponent(primary.id)}&when=${encodeURIComponent(hit.when || "exact")}`;
+          council = `
+            <div class="find-council">
+              <p class="kicker">Your council</p>
+              <h4>${primary.name}</h4>
+              <p class="line">${hit.line}</p>
+              <div class="find-actions">
+                <a class="btn btn-primary" href="${href}">Open council meetings</a>
+              </div>
+            </div>`;
+        } else if (primary) {
+          council = `
+            <div class="find-council">
+              <p class="kicker">Your council</p>
+              <h4>${primary.name}</h4>
+              <p class="line">See upcoming council and planning meetings — and whether a data-centre item is on.</p>
+              <div class="find-actions">
+                <a class="btn btn-primary" href="meetings.html?place=${encodeURIComponent(primary.id)}">Open municipal meetings</a>
+              </div>
+            </div>`;
+        } else {
+          council = `
+            <div class="find-council">
+              <p class="kicker">City hall</p>
+              <h4>Municipal meetings</h4>
+              <p class="line">We couldn’t match a scanned calendar to this postal code yet. Browse the list by city.</p>
+              <div class="find-actions">
+                <a class="btn btn-ghost" href="meetings.html">Browse meetings</a>
+              </div>
+            </div>`;
+        }
+
         result.innerHTML = `
           <h3>${m.name}</h3>
           <p>${m.party}${where ? " · " + where : ""}</p>
-          <p class="nudge">Next step: ask about a specific bill, check their record, or find their riding on the power map.</p>
+          <p class="nudge">Queen’s Park: ask about a bill and check their record. City hall: the next sitting is below.</p>
           <div class="find-actions">
             ${email}
             ${phone}
             <a class="btn btn-ghost" href="map.html">Find them on the map</a>
             <a class="btn btn-ghost" href="${TRACKER}">See votes &amp; expenses</a>
-          </div>`;
+          </div>
+          ${council}`;
         result.hidden = false;
         result.classList.add("is-on");
       });

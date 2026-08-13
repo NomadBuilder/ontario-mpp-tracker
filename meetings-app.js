@@ -267,6 +267,13 @@
       payload = data;
       portals = registry.portals || [];
       fillPlaces();
+      const q = new URLSearchParams(location.search);
+      const when = q.get("when");
+      const place = q.get("place");
+      const whenSel = document.getElementById("when");
+      const placeSel = document.getElementById("place");
+      if (when && [...whenSel.options].some((o) => o.value === when)) whenSel.value = when;
+      if (place && [...placeSel.options].some((o) => o.value === place)) placeSel.value = place;
       render();
       setView(location.hash === "#sources" ? "sources" : "meetings");
     })

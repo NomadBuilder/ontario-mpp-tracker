@@ -85,7 +85,7 @@ window.MppShared = (function () {
    * Look up Ontario MPP for a Canadian postal code via OpenNorth Represent,
    * then match to our local MPP dataset (votes, contact, etc.).
    */
-  async function lookupMppByPostal(postalCode, mpps) {
+  async function lookupMppByPostal(postalCode, mpps, portals) {
     const code = normalizePostal(postalCode);
     if (code.length !== 6 || !isValidPostal(code)) {
       return { ok: false, error: 'Enter a valid Canadian postal code (e.g. M5V 2T6).' };
@@ -117,6 +117,8 @@ window.MppShared = (function () {
         && (r.representative_set_name || '').includes('Ontario')
     );
 
+    const places = matchMunicipalities(data, portals);
+
     for (const rep of ontarioMpps) {
       const mpp = findMppForDistrict(mpps, rep.district_name, rep.name);
       if (mpp) {
@@ -126,6 +128,7 @@ window.MppShared = (function () {
           riding: mpp.riding || rep.district_name,
           postal: formatPostal(code),
           city: data.city || null,
+          places,
         };
       }
     }
@@ -147,6 +150,7 @@ window.MppShared = (function () {
           riding: mpp.riding || district,
           postal: formatPostal(code),
           city: data.city || null,
+          places,
           warning: districts.length > 1
             ? 'This postal code may touch more than one riding — we matched the best available result.'
             : null,
@@ -166,6 +170,167 @@ window.MppShared = (function () {
       ok: false,
       error: 'No Ontario MPP found for that postal code.',
     };
+  }
+
+  function foldPlace(s) {
+    return String(s || "")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/^(the\s+)?(city|town|township|municipality|region|regional municipality)\s+of\s+/i, "")
+      .replace(/\s+(city|town|township|region)$/i, "")
+      .replace(/[^a-z0-9]+/g, "");
+  }
+
+  /**
+   * Map OpenNorth Represent boundaries (city, census subdivision, census division)
+   * onto our municipalities.json portals. Lower-tier cities first, then regions.
+   */
+  function matchMunicipalities(data, portals) {
+    const list = portals || [];
+    const byFold = new Map();
+    for (const p of list) {
+      byFold.set(foldPlace(p.id), p);
+      byFold.set(foldPlace(p.name), p);
+    }
+    const aliases = {
+      peel: "peel-region",
+      york: "york-region",
+      durham: "durham-region",
+      halton: "halton-region",
+      saultstemarie: "saultstemarie",
+      saultstmarie: "saultstemarie",
+      niagara: "niagararegion",
+      waterlooregion: "regionofwaterloo",
+    };
+    const resolve = (raw) => {
+      const key = foldPlace(raw);
+      if (!key) return null;
+      if (byFold.has(key)) return byFold.get(key);
+      if (aliases[key] && byFold.has(foldPlace(aliases[key]))) {
+        return byFold.get(foldPlace(aliases[key]));
+      }
+      for (const p of list) {
+        const nid = foldPlace(p.id);
+        const nname = foldPlace(p.name);
+        if (key.includes(nname) || nname.includes(key) || key.includes(nid)) return p;
+      }
+      return null;
+    };
+
+    const lower = [];
+    const upper = [];
+    const seen = new Set();
+    const push = (raw, bucket) => {
+      const p = resolve(raw);
+      if (!p || seen.has(p.id)) return;
+      seen.add(p.id);
+      bucket.push({ id: p.id, name: p.name });
+    };
+
+    for (const b of data.boundaries_centroid || []) {
+      const set = b.boundary_set_name || "";
+      if (/census subdivision/i.test(set)) push(b.name, lower);
+    }
+    if (data.city) push(data.city, lower);
+    for (const r of data.representatives_centroid || []) {
+      const set = r.representative_set_name || "";
+      if (/city council|town council/i.test(set)) {
+        push(set.replace(/\s*(city|town)\s+council/i, ""), lower);
+      }
+    }
+    for (const b of data.boundaries_centroid || []) {
+      if (/census division/i.test(b.boundary_set_name || "")) push(b.name, upper);
+    }
+    for (const r of data.representatives_centroid || []) {
+      const set = r.representative_set_name || "";
+      if (/regional council/i.test(set)) {
+        push(set.replace(/\s*regional council/i, ""), upper);
+      }
+    }
+    return [...lower, ...upper];
+  }
+
+  function isDataCentreItem(it) {
+    if (it.matchKind === "exact" || it.matchKind === "broad") return true;
+    const blob = [it.title, it.body, it.issue, it.result, ...(it.keywordsMatched || [])].join(" ").toLowerCase();
+    return /data[\s-]?cent(?:re|er)|datacent(?:re|er)|interim control/.test(blob);
+  }
+
+  function formatMeetingDay(iso) {
+    if (!iso) return "";
+    const d = new Date(iso + "T12:00:00");
+    if (Number.isNaN(d.getTime())) return iso;
+    return d.toLocaleDateString("en-CA", { month: "short", day: "numeric" });
+  }
+
+  function shortResult(it) {
+    const raw = String(it.result || "").replace(/\s+/g, " ").trim();
+    if (!raw) return "";
+    const first = raw.split(/(?<=\.)\s/)[0] || raw;
+    return first.length > 90 ? first.slice(0, 87) + "…" : first;
+  }
+
+  function icblWeight(it) {
+    if (it.result) return 3;
+    if (it.curated) return 2;
+    if (/interim control|\bicbl\b|moratorium|motion to/i.test(it.title || "")) return 2;
+    return 1;
+  }
+
+  /** One line for the postal-lookup council block / landing strip. */
+  function councilHighlight(items, placeId) {
+    const mine = (items || []).filter((it) => it.municipalityId === placeId);
+    const flagged = mine.filter(isDataCentreItem);
+    const upcoming = flagged
+      .filter((it) => it.status === "upcoming" || it.status === "watch")
+      .sort((a, b) => icblWeight(b) - icblWeight(a) || (a.date || "9999").localeCompare(b.date || "9999"));
+    const past = flagged
+      .filter((it) => it.status === "past")
+      .sort((a, b) => icblWeight(b) - icblWeight(a) || (b.date || "").localeCompare(a.date || ""));
+    if (upcoming[0] && (icblWeight(upcoming[0]) >= 2 || !past.some((it) => it.result))) {
+      const it = upcoming[0];
+      const day = formatMeetingDay(it.date);
+      const label = it.status === "watch"
+        ? (it.title || "Ongoing watch")
+        : (it.title || it.body || "Upcoming sitting");
+      return {
+        item: it,
+        when: "exact",
+        line: day ? `${label} · ${day}` : label,
+        stamp: it.status === "watch" ? "Watch" : "Upcoming",
+      };
+    }
+    if (past.length >= 2 && past.every((it) => it.result)) {
+      const bits = [...past].reverse().map((it) => shortResult(it) || it.title);
+      return {
+        item: past[0],
+        when: "past",
+        line: bits.join(" Then "),
+        stamp: "Past",
+      };
+    }
+    if (past[0]) {
+      const it = past[0];
+      return {
+        item: it,
+        when: "past",
+        line: shortResult(it) || `${it.title || "Vote"} · ${formatMeetingDay(it.date)}`,
+        stamp: "Past",
+      };
+    }
+    const next = mine
+      .filter((it) => it.status === "upcoming")
+      .sort((a, b) => (a.date || "9999").localeCompare(b.date || "9999"))[0];
+    if (next) {
+      return {
+        item: next,
+        when: "upcoming",
+        line: `Upcoming meetings · next ${formatMeetingDay(next.date)}`,
+        stamp: "Upcoming",
+      };
+    }
+    return null;
   }
 
   function median(nums) {
@@ -368,6 +533,10 @@ window.MppShared = (function () {
     isValidPostal,
     normalizeRiding,
     lookupMppByPostal,
+    matchMunicipalities,
+    councilHighlight,
+    isDataCentreItem,
+    formatMeetingDay,
     buildExpenseIndex,
     formatMoneyShort,
     EXPENSE_TIPS,
