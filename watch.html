@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Accountability watch | OAC</title>
+  <title>Integrity news | OAC</title>
   <meta name="description" content="Sourced news and integrity items linked to Ontario MPPs — curated by Ontarians Against Corruption. Separate from the live MPP tracker embed.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="watch.css?v=5">
+  <link rel="stylesheet" href="nav.css?v=1">
 </head>
 <body>
   <header class="top">
@@ -17,17 +18,23 @@
         <div class="brand">
           <img src="assets/onac.png" alt="" width="36" height="36">
           <div>
-            <h1>Accountability watch</h1>
+            <a class="site-wordmark" href="landing.html">Accountability</a>
+            <h1>Integrity news</h1>
             <p>Sourced news · integrity · expenses</p>
           </div>
         </div>
-        <nav class="nav-links" aria-label="Related pages">
-          <a href="landing.html">Home</a>
-          <a href="map.html">Power map</a>
-          <a href="cards.html">Player cards</a>
-          <a class="current" href="watch.html" aria-current="page">Accountability</a>
-          <a href="meetings.html">Municipal meetings</a>
-          <a href="./?embed=1">MPP votes</a>
+        <nav class="site-nav" aria-label="Accountability tools">
+          <details class="site-nav-menu">
+            <summary>Explore</summary>
+            <div class="site-nav-panel">
+              <a href="landing.html">Home<span class="hint">Accountability hub</span></a>
+              <a href="./?embed=1">MPP tracker<span class="hint">Queen’s Park votes</span></a>
+              <a href="meetings.html">City council watch<span class="hint">Data-centre sittings</span></a>
+              <a href="map.html">Power map</a>
+              <a href="cards.html">Player cards</a>
+              <a class="current" href="watch.html" aria-current="page">Integrity news</a>
+            </div>
+          </details>
         </nav>
       </div>
       <p class="disclaimer">
@@ -78,6 +85,7 @@
     <div class="lightbox-card" id="lightbox-card" role="dialog" aria-modal="true" aria-labelledby="lb-name"></div>
   </div>
 
+  <script src="nav.js"></script>
   <script src="shared.js"></script>
   <script src="watch-app.js"></script>
 </body>

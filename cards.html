@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="cards.css?v=5">
+  <link rel="stylesheet" href="nav.css?v=1">
 </head>
 <body>
   <header class="top">
@@ -16,17 +17,23 @@
       <div class="brand">
         <img src="assets/onac.png" alt="" width="36" height="36">
         <div>
+          <a class="site-wordmark" href="landing.html">Accountability</a>
           <h1>Player cards</h1>
           <p>Face · votes · money · contact</p>
         </div>
       </div>
-      <nav class="nav-links" aria-label="Related pages">
-        <a href="landing.html">Home</a>
-        <a href="map.html">Power map</a>
-        <a class="current" href="cards.html" aria-current="page">Player cards</a>
-        <a href="watch.html">Accountability</a>
-        <a href="meetings.html">Municipal meetings</a>
-        <a href="./?embed=1">MPP votes</a>
+      <nav class="site-nav" aria-label="Accountability tools">
+        <details class="site-nav-menu">
+          <summary>Explore</summary>
+          <div class="site-nav-panel">
+            <a href="landing.html">Home<span class="hint">Accountability hub</span></a>
+            <a href="./?embed=1">MPP tracker<span class="hint">Queen’s Park votes</span></a>
+            <a href="meetings.html">City council watch<span class="hint">Data-centre sittings</span></a>
+            <a href="map.html">Power map</a>
+            <a class="current" href="cards.html" aria-current="page">Player cards</a>
+            <a href="watch.html">Integrity news</a>
+          </div>
+        </details>
       </nav>
     </div>
     <div class="filters">
@@ -64,6 +71,7 @@
     <div class="lightbox-card" id="lightbox-card" role="dialog" aria-modal="true" aria-labelledby="lb-name"></div>
   </div>
 
+  <script src="nav.js"></script>
   <script src="shared.js"></script>
   <script src="cards-app.js"></script>
 </body>

@@ -200,6 +200,8 @@ window.MppShared = (function () {
       halton: "halton-region",
       saultstemarie: "saultstemarie",
       saultstmarie: "saultstemarie",
+      stthomas: "stthomas",
+      saintthomas: "stthomas",
       niagara: "niagararegion",
       waterlooregion: "regionofwaterloo",
     };

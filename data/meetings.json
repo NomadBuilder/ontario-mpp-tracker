@@ -190,6 +190,42 @@
       "meetings": 0,
       "calendarUrl": "https://saultstemarie.ca/government/city-council/council-agendas-minutes-and-schedule/",
       "note": "Not auto-scanned yet — ICBL votes are hand-entered"
+    },
+    {
+      "id": "london",
+      "name": "City of London",
+      "type": "escribe",
+      "ok": true,
+      "meetings": 1,
+      "calendarUrl": "https://pub-london.escribemeetings.com",
+      "note": ""
+    },
+    {
+      "id": "brantford",
+      "name": "City of Brantford",
+      "type": "escribe",
+      "ok": true,
+      "meetings": 9,
+      "calendarUrl": "https://pub-brantford.escribemeetings.com",
+      "note": ""
+    },
+    {
+      "id": "stthomas",
+      "name": "City of St. Thomas",
+      "type": "escribe",
+      "ok": true,
+      "meetings": 0,
+      "calendarUrl": "https://pub-stthomas.escribemeetings.com",
+      "note": "Calendar is live; no upcoming council/planning sitting posted in the next 120 days"
+    },
+    {
+      "id": "stratford",
+      "name": "City of Stratford",
+      "type": "escribe",
+      "ok": true,
+      "meetings": 6,
+      "calendarUrl": "https://pub-stratford.escribemeetings.com",
+      "note": ""
     }
   ],
   "items": [
@@ -360,6 +396,35 @@
       "links": {
         "meeting": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=2a3c4255-df55-4144-9c2a-7152d376ae72",
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=2a3c4255-df55-4144-9c2a-7152d376ae72"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "london-f6c14147-00ae-40",
+      "municipality": "City of London",
+      "municipalityId": "london",
+      "body": "Community Advisory Committee on Planning",
+      "title": "Community Advisory Committee on Planning",
+      "date": "2026-08-20",
+      "time": "12:00 PM",
+      "location": "Committee Room #5",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=f6c14147-00ae-40c5-a859-7842795a65e7",
+        "agenda": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=f6c14147-00ae-40c5-a859-7842795a65e7"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -1239,6 +1304,35 @@
       "curated": false
     },
     {
+      "id": "brantford-dca4ed1e-00a2-4b",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-09-09",
+      "time": "5:30 PM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=dca4ed1e-00a2-4b21-b635-1befd9e14689",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=dca4ed1e-00a2-4b21-b635-1befd9e14689"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "hamilton-76de68bd-980f-46",
       "municipality": "City of Hamilton",
       "municipalityId": "hamilton",
@@ -1550,6 +1644,35 @@
       "links": {
         "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=3263f1c1-cc53-419f-9d62-ca8fe9d31276",
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=3263f1c1-cc53-419f-9d62-ca8fe9d31276"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "stratford-be47e44a-0c44-43",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Regular Council",
+      "title": "Regular Council",
+      "date": "2026-09-14",
+      "time": "7:00 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=be47e44a-0c44-430f-bebd-4edc105b9f63",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=be47e44a-0c44-430f-bebd-4edc105b9f63"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -2141,6 +2264,35 @@
       "curated": false
     },
     {
+      "id": "brantford-22df18f0-b455-46",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "Planning Committee",
+      "title": "Planning Committee",
+      "date": "2026-09-17",
+      "time": "9:30 AM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=22df18f0-b455-465c-87d3-81740ca6f222",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=22df18f0-b455-465c-87d3-81740ca6f222"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-1ed6b202-e361-4e",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -2402,6 +2554,35 @@
       "curated": false
     },
     {
+      "id": "brantford-c2e8ce3d-cab4-48",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "Economic Development, Tourism and Cultural Initiatives Advisory Committee",
+      "title": "Economic Development, Tourism and Cultural Initiatives Advisory Committee",
+      "date": "2026-09-23",
+      "time": "5:00 PM",
+      "location": "Charlie Ward Room, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=c2e8ce3d-cab4-4865-afa7-54cbb896416d",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=c2e8ce3d-cab4-4865-afa7-54cbb896416d"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-ee52c3af-e5d7-4e",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -2547,6 +2728,35 @@
       "curated": false
     },
     {
+      "id": "stratford-ea5358b0-5b96-4b",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Regular Council",
+      "title": "Regular Council",
+      "date": "2026-09-28",
+      "time": "7:00 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=ea5358b0-5b96-4b15-be7b-0db8fb733f7c",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=ea5358b0-5b96-4b15-be7b-0db8fb733f7c"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "oakville-2d07a1ef-25bb-41",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -2568,6 +2778,35 @@
       "links": {
         "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=2d07a1ef-25bb-415e-8efc-e4b18959ebef",
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=2d07a1ef-25bb-415e-8efc-e4b18959ebef"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "brantford-f251d110-9eb3-41",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "City Council",
+      "title": "City Council",
+      "date": "2026-09-29",
+      "time": "6:00 PM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=f251d110-9eb3-41a3-8321-b8b90554b37e",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=f251d110-9eb3-41a3-8321-b8b90554b37e"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -2713,6 +2952,35 @@
       "links": {
         "meeting": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=005433a0-8126-4dce-822f-e0815cf96fe8",
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=005433a0-8126-4dce-822f-e0815cf96fe8"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "brantford-e1cbe0a8-46e0-4a",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-10-01",
+      "time": "5:30 PM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=e1cbe0a8-46e0-4a70-b701-3d9b3ff5803c",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=e1cbe0a8-46e0-4a70-b701-3d9b3ff5803c"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -3090,6 +3358,35 @@
       "links": {
         "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=91f09014-5a96-4353-b74c-e89b6e05af37",
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=91f09014-5a96-4353-b74c-e89b6e05af37"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "stratford-454cbc0e-4725-40",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Regular Council",
+      "title": "Regular Council",
+      "date": "2026-10-13",
+      "time": "7:00 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=454cbc0e-4725-400b-92b0-9489065c1dd6",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=454cbc0e-4725-400b-92b0-9489065c1dd6"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -3525,6 +3822,35 @@
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=7c33334e-ba45-4871-b13b-42a388b834a2",
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=7c33334e-ba45-4871-b13b-42a388b834a2"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "stratford-be97e830-cb44-46",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Regular Council",
+      "title": "Regular Council",
+      "date": "2026-11-09",
+      "time": "7:00 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=be97e830-cb44-4650-b742-55e255e5b853",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=be97e830-cb44-4650-b742-55e255e5b853"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -4055,6 +4381,35 @@
       "curated": false
     },
     {
+      "id": "stratford-19a55fe7-185a-4f",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Regular Council",
+      "title": "Regular Council",
+      "date": "2026-11-23",
+      "time": "7:00 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=19a55fe7-185a-4fa5-b99e-cf636e6b03d4",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=19a55fe7-185a-4fa5-b99e-cf636e6b03d4"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "oakville-5258d4df-fc3b-40",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -4548,6 +4903,35 @@
       "curated": false
     },
     {
+      "id": "brantford-dbba4b78-5229-44",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "Committee of the Whole - Operations",
+      "title": "Committee of the Whole - Operations",
+      "date": "2026-12-01",
+      "time": "6:00 PM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=dbba4b78-5229-44b4-978e-48db384d480e",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=dbba4b78-5229-44b4-978e-48db384d480e"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "hamilton-fbdb0190-75cc-48",
       "municipality": "City of Hamilton",
       "municipalityId": "hamilton",
@@ -4714,6 +5098,35 @@
       "links": {
         "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=cfc933a2-869c-40f1-a3f1-136df0ce7028",
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=cfc933a2-869c-40f1-a3f1-136df0ce7028"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "brantford-854f9b56-9318-4d",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-12-02",
+      "time": "5:30 PM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=854f9b56-9318-4dbe-8adc-e6d27222ebe6",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=854f9b56-9318-4dbe-8adc-e6d27222ebe6"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -5128,6 +5541,35 @@
       "curated": false
     },
     {
+      "id": "brantford-9464b4d4-d315-4b",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "Committee of the Whole - Planning and Administration",
+      "title": "Committee of the Whole - Planning and Administration",
+      "date": "2026-12-08",
+      "time": "6:00 PM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=9464b4d4-d315-4bf0-bccf-3ff7bc2cee17",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=9464b4d4-d315-4bf0-bccf-3ff7bc2cee17"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "markham-5d834874-515d-44",
       "municipality": "City of Markham",
       "municipalityId": "markham",
@@ -5534,6 +5976,35 @@
       "curated": false
     },
     {
+      "id": "brantford-d652a7f2-e535-41",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "Planning Committee",
+      "title": "Planning Committee",
+      "date": "2026-12-10",
+      "time": "9:30 AM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=d652a7f2-e535-416e-a41a-1731e81ad008",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=d652a7f2-e535-416e-a41a-1731e81ad008"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-6e9770ba-b6e8-43",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -5876,6 +6347,37 @@
       "relevant": true,
       "source": "curated",
       "matchKind": "exact"
+    },
+    {
+      "id": "stratford-25c9416e-c38e-45",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Regular Council",
+      "title": "Regular Council",
+      "date": "2026-08-10",
+      "time": "6:00 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "past",
+      "cancelled": false,
+      "issue": "Ontario municipalities requesting their endorsement and support. 10.2 Notice of Motion - Data Centres - Councillor Burbach 1. Councillor Burbach - Data Centres.pdf At the September 14, 2026, Regular meeting, Councillor Burbach intends to put",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=25c9416e-c38e-45a6-a4e3-d4a4763b1ddc",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=25c9416e-c38e-45a6-a4e3-d4a4763b1ddc"
+      },
+      "keywordsMatched": [
+        "data centres"
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "source": "escribe",
+      "curated": false
     },
     {
       "id": "oakville-49b5ed3c-64bd-46",
