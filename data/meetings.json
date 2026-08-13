@@ -5828,12 +5828,13 @@
       "participate": {
         "attend": true,
         "deputations": true,
-        "notes": "Watch Planning and Development Committee and Council agendas. Register for a deputation through the Clerk before the agenda deadline."
+        "notes": "Not one sitting — watch Planning and Development Committee and Council. Register a deputation with the Clerk before the agenda deadline."
       },
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/",
         "source": "https://www.nationalobserver.com/2026/07/10/news/mississauga-data-centre-proposal-pushback"
       },
+      "origin": "Hand-entered from news coverage. It will not appear as its own row on Mississauga’s calendar until staff put Prologis or an interim control on an agenda.",
       "keywordsMatched": [
         "data centre",
         "Prologis"
@@ -5859,12 +5860,14 @@
       "participate": {
         "attend": true,
         "deputations": true,
-        "notes": "York Region is not on the auto-scrape list yet — check york.ca calendars and add upcoming dates here."
+        "notes": "Meeting has occurred. Confirm the vote in Regional Council minutes, then watch the September agenda for the follow-up."
       },
       "links": {
-        "meeting": "https://www.york.ca/york-region/regional-council",
-        "source": "https://www.yorkregion.com/news/council/motion-says-york-region-must-study-impact-of-data-centres/article_9e5c0589-9ae7-5ba3-b012-b67ff8fda493.html"
+        "meeting": "https://yorkpublishing.escribemeetings.com/",
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
+        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
       },
+      "origin": "Hand-entered from Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "keywordsMatched": [
         "data centre"
       ],
@@ -5891,6 +5894,7 @@
         "deputations": true,
         "notes": "Meeting has occurred — use minutes / video to brief the next round."
       },
+      "origin": "Hand-entered from July 15, 2026 City Council coverage. Confirm the recorded vote in Hamilton’s official minutes.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/",
         "source": "https://www.nationalobserver.com/2026/07/10/news/mississauga-data-centre-proposal-pushback"

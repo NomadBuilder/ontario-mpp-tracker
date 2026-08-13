@@ -13,6 +13,7 @@
   }
 
   function formatWhen(item) {
+    if (item.status === "watch") return "Ongoing watch — not a single sitting";
     if (!item.date) return "Date TBA";
     const d = new Date(item.date + "T12:00:00");
     if (Number.isNaN(d.getTime())) return item.date;
@@ -52,15 +53,21 @@
       : item.status === "past"
         ? `<span class="badge past">Past</span>`
         : `<span class="badge">Scan agenda</span>`;
+    const origin = item.curated
+      ? (item.origin || "Hand-entered from news or minutes — not copied as a fake calendar row. Use the official city link.")
+      : "Pulled from this municipality’s public meeting calendar. Open the official agenda to verify.";
     const links = item.links || {};
+    const officialLabel = item.curated
+      ? (item.status === "watch" ? "Open city’s meeting calendar" : "Open official calendar")
+      : "Open official agenda";
     const actions = [
-      links.meeting ? `<a class="btn btn-primary" href="${escapeHtml(links.meeting)}" target="_blank" rel="noopener">Agenda / meeting</a>` : "",
+      links.meeting ? `<a class="btn btn-primary" href="${escapeHtml(links.meeting)}" target="_blank" rel="noopener">${officialLabel}</a>` : "",
       links.agenda && links.agenda !== links.meeting
-        ? `<a class="btn btn-ghost" href="${escapeHtml(links.agenda)}" target="_blank" rel="noopener">Agenda</a>`
+        ? `<a class="btn btn-ghost" href="${escapeHtml(links.agenda)}" target="_blank" rel="noopener">Agendas & minutes</a>`
         : "",
       links.report ? `<a class="btn btn-ghost" href="${escapeHtml(links.report)}" target="_blank" rel="noopener">Staff report</a>` : "",
       links.application ? `<a class="btn btn-ghost" href="${escapeHtml(links.application)}" target="_blank" rel="noopener">Application</a>` : "",
-      links.source ? `<a class="btn btn-ghost" href="${escapeHtml(links.source)}" target="_blank" rel="noopener">Source</a>` : "",
+      links.source ? `<a class="btn btn-ghost" href="${escapeHtml(links.source)}" target="_blank" rel="noopener">News coverage</a>` : "",
     ].filter(Boolean);
 
     return `
@@ -68,17 +75,18 @@
         <div class="item-kicker">
           ${badge}
           <span>${escapeHtml(item.municipality || "")}</span>
-          ${item.curated ? `<span>Curated</span>` : ""}
+          ${item.curated ? `<span class="badge">Hand-entered</span>` : `<span>From official calendar</span>`}
         </div>
         <h2>${escapeHtml(item.title || item.body || "Meeting")}</h2>
         <p class="when">${escapeHtml(formatWhen(item))}</p>
         ${item.body && item.body !== item.title ? `<p class="where">${escapeHtml(item.body)}</p>` : ""}
         ${item.location ? `<p class="where">${escapeHtml(item.location)}</p>` : ""}
+        <div class="block"><h3>Where this came from</h3><p>${escapeHtml(origin)}</p></div>
         ${item.issue ? `<div class="block"><h3>What’s on the table</h3><p>${escapeHtml(item.issue)}</p></div>` : ""}
         ${item.why ? `<div class="block"><h3>Why this matters</h3><p>${escapeHtml(item.why)}</p></div>` : ""}
         ${item.result ? `<div class="block"><h3>Result</h3><p>${escapeHtml(item.result)}</p></div>` : ""}
         <div class="block">
-          <h3>How to participate</h3>
+          <h3>What to do next</h3>
           ${participateHtml(item.participate)}
         </div>
         <div class="actions">${actions.join("")}</div>
