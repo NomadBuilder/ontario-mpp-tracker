@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Municipal meeting watch | OAC</title>
+  <meta name="description" content="Upcoming Ontario municipal meetings flagged for data-centre, zoning, and infrastructure decisions — so residents can show up, depute, and track the vote.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="meetings.css?v=2">
+</head>
+<body>
+  <header class="top">
+    <div class="shell top-inner">
+      <div class="top-bar">
+        <div class="brand">
+          <img src="assets/onac.png" alt="" width="36" height="36">
+          <div>
+            <h1>Meeting watch</h1>
+            <p>Municipal calendars · data centres · show up</p>
+          </div>
+        </div>
+        <nav class="nav-links" aria-label="Related pages">
+          <a href="landing.html">Landing</a>
+          <a href="map.html">Map</a>
+          <a href="cards.html">Cards</a>
+          <a href="watch.html">Watch</a>
+          <a class="primary" href="./?embed=1">Tracker</a>
+        </nav>
+      </div>
+      <p class="disclaimer">
+        Official agendas, scanned for data-centre and related land-use items — not a complete list of every Ontario municipality yet.
+        Complementary to location trackers: this is <strong>when to show up</strong>.
+      </p>
+      <div class="filters">
+        <label class="sr" for="q">Search</label>
+        <input id="q" type="search" placeholder="City, committee, or keyword…" autocomplete="off">
+        <label class="sr" for="when">When</label>
+        <select id="when">
+          <option value="flagged">Flagged (datacentre)</option>
+          <option value="upcoming">All upcoming council / planning</option>
+          <option value="past">Past / results</option>
+          <option value="all">All</option>
+        </select>
+        <label class="sr" for="place">Municipality</label>
+        <select id="place">
+          <option value="">All places</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <div class="shell main-shell">
+    <p class="count" id="count" aria-live="polite"></p>
+    <main class="feed" id="feed"></main>
+    <section class="gaps" id="gaps" hidden>
+      <h2>Not auto-scanned yet</h2>
+      <p>These places matter and still need a calendar hook or a curated row. Check their official site, then add a date in <code>data/meetings-curated.json</code>.</p>
+      <ul id="gap-list"></ul>
+    </section>
+  </div>
+
+  <footer class="foot">
+    <div class="shell">
+      <p>Built by <a href="https://onac.ca/">OAC</a> · public municipal agendas</p>
+    </div>
+  </footer>
+
+  <script src="meetings-app.js?v=2"></script>
+</body>
+</html>

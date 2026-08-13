@@ -1,0 +1,79 @@
+{
+  "note": "Hand-entered meetings, votes, and incidents. Merged with the auto scrape. Set curated:true so copy is preserved.",
+  "items": [
+    {
+      "id": "hamilton-icb-2026-07",
+      "municipality": "City of Hamilton",
+      "municipalityId": "hamilton",
+      "body": "City Council",
+      "title": "Interim control by-law on data centres — final vote",
+      "date": "2026-07-15",
+      "time": "",
+      "location": "Council Chambers, Hamilton City Hall",
+      "status": "past",
+      "issue": "Council considered a final vote on an interim control by-law pausing new data-centre approvals while staff study land-use, energy, and water impacts.",
+      "why": "A pause at the municipal level is one of the few tools communities have while provincial grid-connection rules (Bill 40) are still undefined.",
+      "result": "Reported as approved 15–1 in coverage of the July 15, 2026 meeting. Confirm against official minutes.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "notes": "Meeting has occurred — use minutes / video to brief the next round."
+      },
+      "links": {
+        "meeting": "https://pub-hamilton.escribemeetings.com/",
+        "source": "https://www.nationalobserver.com/2026/07/10/news/mississauga-data-centre-proposal-pushback"
+      },
+      "keywordsMatched": ["data centre", "interim control"],
+      "curated": true
+    },
+    {
+      "id": "mississauga-prologis-2026",
+      "municipality": "City of Mississauga",
+      "municipalityId": "mississauga",
+      "body": "Planning and Development / Council",
+      "title": "Prologis Meadowvale data-centre-ready campus — ongoing",
+      "date": "2026-08-01",
+      "time": "",
+      "location": "Mississauga Civic Centre",
+      "status": "watch",
+      "issue": "Prologis Meadowvale Hustler Park is marketed as a data-centre-ready industrial campus (available 2027). Residents and the local councillor have pushed for more disclosure on water, power, and operator identity; an interim control motion has been discussed.",
+      "why": "Site-plan / zoning language written for generic employment land can green-light hyperscale loads without a public hearing framed as a data centre.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "notes": "Watch Planning and Development Committee and Council agendas. Register for a deputation through the Clerk before the agenda deadline."
+      },
+      "links": {
+        "meeting": "https://pub-mississauga.escribemeetings.com/",
+        "source": "https://www.nationalobserver.com/2026/07/10/news/mississauga-data-centre-proposal-pushback"
+      },
+      "keywordsMatched": ["data centre", "Prologis"],
+      "curated": true
+    },
+    {
+      "id": "york-region-study-2026-07",
+      "municipality": "York Region",
+      "municipalityId": "york-region",
+      "body": "Regional Council",
+      "title": "Motion to study regional data-centre infrastructure impacts",
+      "date": "2026-07-08",
+      "time": "",
+      "location": "York Region Administrative Centre, Newmarket",
+      "status": "past",
+      "issue": "A motion asked York Region to study whether combined data-centre electricity and water demand — plus housing and other industry — exceeds planned supply, because lower-tier cities approve facilities independently.",
+      "why": "Vaughan, Markham, and Richmond Hill can each approve projects the others never see. A regional study is how you catch stacked grid and water load.",
+      "result": "See Regional Council minutes / coverage for the recorded vote.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "notes": "York Region is not on the auto-scrape list yet — check york.ca calendars and add upcoming dates here."
+      },
+      "links": {
+        "meeting": "https://www.york.ca/york-region/regional-council",
+        "source": "https://www.yorkregion.com/news/council/motion-says-york-region-must-study-impact-of-data-centres/article_9e5c0589-9ae7-5ba3-b012-b67ff8fda493.html"
+      },
+      "keywordsMatched": ["data centre"],
+      "curated": true
+    }
+  ]
+}

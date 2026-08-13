@@ -53,12 +53,16 @@ jobs:
         run: python scripts/fetch_accountability_news.py --publish
         continue-on-error: true
 
+      - name: Refresh municipal meeting watch
+        run: python scripts/fetch_meetings.py --priority high
+        continue-on-error: true
+
       - name: Commit if data changed
         id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "Current Ontario MPPs & How They Vote..xlsx" data/mpps.json data/expenses.json data/sunshine.json data/accountability.json
+          git add "Current Ontario MPPs & How They Vote..xlsx" data/mpps.json data/expenses.json data/sunshine.json data/accountability.json data/meetings.json
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No spreadsheet changes."

@@ -95,6 +95,16 @@ Only add sourced items. Do **not** frame unproven allegations as facts.
 
 Manual refresh: `python3 scripts/fetch_accountability_news.py --publish`
 
+### Municipal meeting watch (separate page)
+
+Public page: **`meetings.html`** — not part of the WordPress iframe. Complements location trackers (e.g. ontariodatacentres.ca) with **when to show up**.
+
+- Registry of portals: **`data/municipalities.json`** (add eScribe `pub-*` bases anytime)
+- Hand-entered votes / spills / proposals: **`data/meetings-curated.json`**
+- Auto output: **`data/meetings.json`** from `python3 scripts/fetch_meetings.py`
+
+The twice-daily sync polls high-priority eScribe calendars, keyword-flags data-centre language, and still lists upcoming council/planning meetings so organizers can scan agendas. Toronto, York/Peel/Durham/Halton regions, and CivicWeb-only towns are listed as gaps until a scraper exists — add those dates by hand.
+
 ## WordPress page
 
 Editors only change intro text on the WP page. The tracker itself is an embed — **do not** paste spreadsheet data into WordPress. The accountability watch lives on its own URL and is not embedded with the tracker.
