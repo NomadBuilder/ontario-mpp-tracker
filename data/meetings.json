@@ -25,7 +25,7 @@
       "name": "City of Brampton",
       "type": "escribe",
       "ok": true,
-      "meetings": 15,
+      "meetings": 14,
       "calendarUrl": "https://pub-brampton.escribemeetings.com",
       "note": ""
     },
@@ -52,7 +52,7 @@
       "name": "City of Markham",
       "type": "escribe",
       "ok": true,
-      "meetings": 20,
+      "meetings": 19,
       "calendarUrl": "https://pub-markham.escribemeetings.com",
       "note": ""
     },
@@ -79,7 +79,7 @@
       "name": "Town of Caledon",
       "type": "escribe",
       "ok": true,
-      "meetings": 13,
+      "meetings": 12,
       "calendarUrl": "https://pub-caledon.escribemeetings.com",
       "note": ""
     },
@@ -106,7 +106,7 @@
       "name": "City of Pickering",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 1,
       "calendarUrl": "https://pub-pickering.escribemeetings.com",
       "note": ""
     },
@@ -153,14 +153,14 @@
       "ok": true,
       "meetings": 0,
       "calendarUrl": "https://yorkpublishing.escribemeetings.com/",
-      "note": "eScribe publishing portal — fall 2026 dates may appear late"
+      "note": "Official agendas also at york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
     },
     {
       "id": "peel-region",
       "name": "Region of Peel",
       "type": "escribe",
       "ok": true,
-      "meetings": 5,
+      "meetings": 6,
       "calendarUrl": "https://pub-peelregion.escribemeetings.com/",
       "note": ""
     },
@@ -171,7 +171,7 @@
       "ok": true,
       "meetings": 6,
       "calendarUrl": "https://calendar.durham.ca/meetings",
-      "note": ""
+      "note": "CivicPlus calendar. Official listing also at durham.ca/regional-government/council/agendas-and-minutes"
     },
     {
       "id": "halton-region",
@@ -181,157 +181,18 @@
       "meetings": 2,
       "calendarUrl": "https://www.halton.ca/the-region/regional-council-and-committees/calendars-and-schedules",
       "note": ""
+    },
+    {
+      "id": "saultstemarie",
+      "name": "City of Sault Ste. Marie",
+      "type": "gap",
+      "ok": false,
+      "meetings": 0,
+      "calendarUrl": "https://saultstemarie.ca/government/city-council/council-agendas-minutes-and-schedule/",
+      "note": "Not auto-scanned yet — ICBL votes are hand-entered"
     }
   ],
   "items": [
-    {
-      "id": "brampton-9af26dbd-4a93-41",
-      "municipality": "City of Brampton",
-      "municipalityId": "brampton",
-      "body": "City Council",
-      "title": "City Council",
-      "date": "2026-08-12",
-      "time": "9:30 AM",
-      "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=9af26dbd-4a93-41e0-bd78-afa0e9a3a72b",
-        "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=9af26dbd-4a93-41e0-bd78-afa0e9a3a72b"
-      },
-      "keywordsMatched": [],
-      "relevant": false,
-      "source": "escribe",
-      "curated": false,
-      "matchKind": ""
-    },
-    {
-      "id": "markham-00aebcd5-f363-46",
-      "municipality": "City of Markham",
-      "municipalityId": "markham",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-08-12",
-      "time": "7:00 PM",
-      "location": "Electronic Meeting",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=00aebcd5-f363-46e2-8c0e-5414c71d6b55",
-        "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=00aebcd5-f363-46e2-8c0e-5414c71d6b55"
-      },
-      "keywordsMatched": [],
-      "relevant": false,
-      "source": "escribe",
-      "curated": false,
-      "matchKind": ""
-    },
-    {
-      "id": "pickering-8b816d40-1df0-48",
-      "municipality": "City of Pickering",
-      "municipalityId": "pickering",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-08-12",
-      "time": "7:00 PM",
-      "location": "Electronic Meeting",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=8b816d40-1df0-4844-a972-f055fbba7427",
-        "agenda": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=8b816d40-1df0-4844-a972-f055fbba7427"
-      },
-      "keywordsMatched": [],
-      "relevant": false,
-      "source": "escribe",
-      "curated": false,
-      "matchKind": ""
-    },
-    {
-      "id": "caledon-206a1798-18aa-40",
-      "municipality": "Town of Caledon",
-      "municipalityId": "caledon",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-08-12",
-      "time": "1:00 PM",
-      "location": "Hybrid / Council Chamber",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=206a1798-18aa-40ac-aa04-329b439dc1c8",
-        "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=206a1798-18aa-40ac-aa04-329b439dc1c8"
-      },
-      "keywordsMatched": [],
-      "relevant": false,
-      "source": "escribe",
-      "curated": false,
-      "matchKind": ""
-    },
-    {
-      "id": "oakville-e0529aa0-e508-47",
-      "municipality": "Town of Oakville",
-      "municipalityId": "oakville",
-      "body": "Council Information Packages",
-      "title": "Council Information Packages",
-      "date": "2026-08-12",
-      "time": "9:00 AM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "AMO Watchfile - August 6, 2026.pdf 4. Correspondence 4.1 Sunita Saggar - Concerns for AI Data Centre - August 9, 2026 1. Sunita Saggar - Concerns for AI Data Centre - August 9, 2026.pdf 4.2 BUZZ HPC - Data Centres - August 10, 2026 1. BUZZ",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": false,
-        "deputations": false,
-        "registerBy": null,
-        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
-      },
-      "links": {
-        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=e0529aa0-e508-477c-817c-2b6b28f3220c",
-        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=e0529aa0-e508-477c-817c-2b6b28f3220c"
-      },
-      "keywordsMatched": [
-        "data centre",
-        "data centres"
-      ],
-      "relevant": true,
-      "source": "escribe",
-      "curated": false,
-      "matchKind": "exact"
-    },
     {
       "id": "mississauga-17ff25c2-50a3-47",
       "municipality": "City of Mississauga",
@@ -357,9 +218,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ottawa-90ac1b7f-c5e0-41",
@@ -386,9 +247,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ottawa-07ee6e9e-7818-43",
@@ -415,9 +276,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ottawa-b17c3fb0-22f5-44",
@@ -444,9 +305,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-0a9568a3-d476-4d",
@@ -473,9 +334,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "king-2a3c4255-df55-41",
@@ -502,9 +363,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-2d5dff8a-9635-40",
@@ -531,9 +392,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-a1620508-fc82-41",
@@ -560,9 +421,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-f263491e-830e-49",
@@ -589,9 +450,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-1735b94b-991a-4c",
@@ -618,9 +479,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-7e06ee2f-b3d2-47",
@@ -647,9 +508,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-8e4ba56f-b032-47",
@@ -676,9 +537,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ottawa-47d13d57-fb07-4b",
@@ -705,9 +566,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "newmarket-75c1cea0-1231-4b",
@@ -734,9 +595,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-1f8756ba-41a7-4b",
@@ -763,9 +624,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-5efcf992-9698-41",
@@ -792,9 +653,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ottawa-d91120dc-74fc-4d",
@@ -821,9 +682,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-f1df1828-549b-48",
@@ -850,9 +711,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-b997784e-e59a-48",
@@ -879,9 +740,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "sault-icbl-2026-08-31",
@@ -938,9 +799,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-cad418ed-4591-4e",
@@ -967,9 +828,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ottawa-7f9c6472-aacb-43",
@@ -996,9 +857,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "haltonhills-202ed4ef-f316-40",
@@ -1025,9 +886,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-dfa89b6e-2b1b-4b",
@@ -1054,9 +915,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-8ce77237-e789-44",
@@ -1083,9 +944,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-cd244149-f4db-45",
@@ -1112,9 +973,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "peel-region-57840026-3711-4c",
@@ -1141,9 +1002,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-b9e20744-bb32-44",
@@ -1170,9 +1031,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-c9c20d28-7997-40",
@@ -1199,9 +1060,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-a83eb76a-66e5-4f",
@@ -1228,9 +1089,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-5d1ccb29-b4b6-43",
@@ -1257,9 +1118,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-010b808c-651f-40",
@@ -1286,9 +1147,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ajax-2026-09-08-commu",
@@ -1315,9 +1176,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "ajax-schedule",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-1b6527f5-95b7-45",
@@ -1344,9 +1205,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-6a896d48-b832-40",
@@ -1373,9 +1234,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-76de68bd-980f-46",
@@ -1402,9 +1263,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-ccc5188c-7b92-49",
@@ -1431,9 +1292,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ottawa-5d321664-af3c-43",
@@ -1460,9 +1321,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "pickering-c07f1270-b320-41",
@@ -1489,9 +1350,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-4e5fdad4-a163-41",
@@ -1518,9 +1379,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-3fbf2dad-6bee-42",
@@ -1547,9 +1408,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "king-ad3c4f10-532c-41",
@@ -1576,9 +1437,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-05cfafc2-da36-40",
@@ -1605,9 +1466,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-95286970-88f7-45",
@@ -1634,9 +1495,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "peel-region-9cde5fed-d635-47",
@@ -1663,9 +1524,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-3263f1c1-cc53-41",
@@ -1692,9 +1553,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ajax-2026-09-14-gener",
@@ -1721,9 +1582,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "ajax-schedule",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "milton-6bf2ac6b-5834-45",
@@ -1750,9 +1611,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "king-6d58b33e-267d-4e",
@@ -1779,9 +1640,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-9186fcc5-a7c2-4e",
@@ -1808,9 +1669,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-f786e6a3-12e0-4d",
@@ -1837,9 +1698,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-7b1e16c7-b15e-42",
@@ -1866,9 +1727,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-90770bc4-4366-4b",
@@ -1895,9 +1756,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-9f9e5680-a4d9-4c",
@@ -1924,9 +1785,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-3abc0f82-40ec-4c",
@@ -1953,9 +1814,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-acaccf29-697a-45",
@@ -1982,9 +1843,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-2260fefe-803b-47",
@@ -2011,9 +1872,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-fd46ba23-4de8-46",
@@ -2040,9 +1901,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-f3e10e24-5dc3-42",
@@ -2101,9 +1962,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-c33c3473-5bc5-4f",
@@ -2130,9 +1991,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "toronto-2026-09-16-city-",
@@ -2159,9 +2020,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "tmmis",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-dcf5d6cc-a5b6-4c",
@@ -2188,9 +2049,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-a5a2a0fe-0568-48",
@@ -2217,9 +2078,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-ec6b8e37-9dfe-4a",
@@ -2246,9 +2107,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "king-5a7ea7ae-839b-43",
@@ -2275,9 +2136,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-1ed6b202-e361-4e",
@@ -2304,9 +2165,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-5d49362d-1bb3-4d",
@@ -2333,9 +2194,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-7b54c2d8-299b-4c",
@@ -2362,9 +2223,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ajax-2026-09-21-counc",
@@ -2391,9 +2252,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "ajax-schedule",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-5927df4d-248c-4b",
@@ -2420,9 +2281,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-d780074d-ed76-43",
@@ -2449,9 +2310,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-dd76c7e6-2796-4a",
@@ -2478,9 +2339,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-4852b208-d7cf-46",
@@ -2507,9 +2368,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-e7426af4-47fb-4b",
@@ -2536,9 +2397,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-ee52c3af-e5d7-4e",
@@ -2565,9 +2426,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ottawa-3250668b-98cd-46",
@@ -2594,9 +2455,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-05213a90-4f89-4e",
@@ -2623,9 +2484,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ottawa-0480f8e6-a0a9-40",
@@ -2652,9 +2513,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "peel-region-ce5cb63f-093a-45",
@@ -2681,9 +2542,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-2d07a1ef-25bb-41",
@@ -2710,9 +2571,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-50ece9fa-2662-4b",
@@ -2739,9 +2600,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-864956c8-5fe9-48",
@@ -2768,9 +2629,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-98c0b015-30f6-40",
@@ -2797,9 +2658,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-c810380a-de99-40",
@@ -2826,9 +2687,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-005433a0-8126-4d",
@@ -2855,9 +2716,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-5f716091-ed96-43",
@@ -2884,9 +2745,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-00df97c0-dba1-47",
@@ -2913,9 +2774,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-833e1899-b351-4a",
@@ -2942,9 +2803,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-cc728ee4-8014-40",
@@ -2971,9 +2832,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "king-f72ff365-cd38-46",
@@ -3000,9 +2861,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-185693f5-0e68-43",
@@ -3029,9 +2890,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-c36a6ea1-73ec-4f",
@@ -3058,9 +2919,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-752aa32f-0539-42",
@@ -3087,9 +2948,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "haltonhills-c5662738-5c40-41",
@@ -3116,9 +2977,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-a01556d5-ef84-41",
@@ -3145,9 +3006,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ottawa-74228ec5-ebec-45",
@@ -3174,9 +3035,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-99df6cf2-1653-45",
@@ -3203,9 +3064,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-91f09014-5a96-43",
@@ -3232,9 +3093,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-8e48d86a-978a-4e",
@@ -3261,9 +3122,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-4ab468eb-db9a-44",
@@ -3290,9 +3151,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-7545ab0b-1bee-4b",
@@ -3319,9 +3180,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "king-c857b142-897f-4c",
@@ -3348,9 +3209,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-8a899e88-ff27-42",
@@ -3377,9 +3238,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-5613b27d-211b-44",
@@ -3406,9 +3267,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-5d59f544-a2b7-43",
@@ -3435,9 +3296,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-cf9560c4-e3b1-47",
@@ -3464,9 +3325,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-b94c7b99-9ff3-4b",
@@ -3493,9 +3354,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-8d901821-3268-4b",
@@ -3522,9 +3383,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-e66dec2e-e341-4f",
@@ -3551,9 +3412,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-c0f59552-4b13-4f",
@@ -3580,9 +3441,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "halton-region-halton-regional-",
@@ -3609,9 +3470,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "halton",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "haltonhills-609d5f2d-7bd2-47",
@@ -3638,9 +3499,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-7c33334e-ba45-48",
@@ -3667,9 +3528,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "haltonhills-53567908-a2a3-42",
@@ -3696,9 +3557,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-a1c9d196-93f3-4e",
@@ -3725,9 +3586,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-4162e72f-daa8-42",
@@ -3754,9 +3615,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-96fe3d6e-7d92-4b",
@@ -3783,9 +3644,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ottawa-1f95bde2-9158-44",
@@ -3812,9 +3673,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-264c7487-c0b3-46",
@@ -3841,9 +3702,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-1ba70a47-53eb-45",
@@ -3870,9 +3731,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-1673392e-f1c8-46",
@@ -3899,9 +3760,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-fce4de3c-81c0-4d",
@@ -3928,9 +3789,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-5dfeae91-35f3-43",
@@ -3957,9 +3818,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-1db77deb-af8a-4b",
@@ -3986,9 +3847,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-003de366-49d8-46",
@@ -4015,9 +3876,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "king-057c3f2d-0465-45",
@@ -4044,9 +3905,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-a597c976-abcb-4b",
@@ -4073,9 +3934,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-d07101af-3901-4d",
@@ -4102,9 +3963,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-58f4afa3-dda1-42",
@@ -4131,9 +3992,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "peel-region-5277c23a-a0f2-44",
@@ -4160,9 +4021,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-3823b957-7fa7-4f",
@@ -4189,9 +4050,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-5258d4df-fc3b-40",
@@ -4218,9 +4079,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "king-4d0f7457-d488-44",
@@ -4247,9 +4108,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-fd9e632a-1422-46",
@@ -4276,9 +4137,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-72b48183-a711-4f",
@@ -4305,9 +4166,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-bcbb3740-cd06-4f",
@@ -4334,9 +4195,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-88f0c02e-e1a6-47",
@@ -4363,9 +4224,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-b8d22c9c-7009-47",
@@ -4392,9 +4253,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-24806e4c-1993-4f",
@@ -4421,9 +4282,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-d4d912d3-5c8a-43",
@@ -4450,9 +4311,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "durham-region-2026-11-25-1000-",
@@ -4479,9 +4340,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "civicplus",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-b177254d-563b-4d",
@@ -4508,9 +4369,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-9e6ee035-106b-4e",
@@ -4537,9 +4398,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-62862197-c451-43",
@@ -4566,9 +4427,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "peel-region-2c57bc05-a5b2-4f",
@@ -4595,9 +4456,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-216bc724-64e8-43",
@@ -4624,9 +4485,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-babf56dc-a0cb-47",
@@ -4653,9 +4514,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "king-946af505-5d84-43",
@@ -4682,9 +4543,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-fbdb0190-75cc-48",
@@ -4711,9 +4572,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-660f93b1-b086-47",
@@ -4740,9 +4601,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-a36cccae-f468-48",
@@ -4769,9 +4630,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-841a38ea-37d1-41",
@@ -4798,9 +4659,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "durham-region-2026-12-01-0930-",
@@ -4827,9 +4688,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "civicplus",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-cfc933a2-869c-40",
@@ -4856,9 +4717,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-e7cccb75-78c6-47",
@@ -4885,9 +4746,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-99eb38b3-9636-43",
@@ -4914,9 +4775,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-d5e4cc2f-30b9-4a",
@@ -4943,9 +4804,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "durham-region-2026-12-02-0930-",
@@ -4972,9 +4833,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "civicplus",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-8fb96837-752d-4d",
@@ -5001,9 +4862,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-afe7916d-ae42-42",
@@ -5030,9 +4891,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-10da054e-46d9-45",
@@ -5059,9 +4920,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-2a930338-4ff3-4f",
@@ -5088,9 +4949,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-55aea75d-e2ef-44",
@@ -5117,9 +4978,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-36043955-d0aa-48",
@@ -5146,9 +5007,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "ajax-2026-12-07-commu",
@@ -5175,9 +5036,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "ajax-schedule",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "milton-fb0913fe-a2f9-45",
@@ -5204,9 +5065,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-7318ddb6-a5dc-49",
@@ -5233,9 +5094,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "king-54c1c3ca-8c44-4d",
@@ -5262,9 +5123,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-5d834874-515d-44",
@@ -5291,9 +5152,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-9fc3471a-06be-4e",
@@ -5320,9 +5181,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "markham-ee31036c-972c-4c",
@@ -5349,9 +5210,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-669ae32b-b17f-4a",
@@ -5378,9 +5239,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "durham-region-2026-12-08-0930-",
@@ -5407,9 +5268,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "civicplus",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "brampton-83379f06-75c3-49",
@@ -5436,9 +5297,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "hamilton-bd80a57e-0de9-49",
@@ -5465,9 +5326,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-4e6368eb-29a3-43",
@@ -5494,9 +5355,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-e97620f9-30a1-40",
@@ -5523,9 +5384,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "halton-region-halton-regional-",
@@ -5552,9 +5413,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "halton",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "durham-region-2026-12-09-0930-",
@@ -5581,9 +5442,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "civicplus",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "caledon-7a4596ef-b1f5-47",
@@ -5610,9 +5471,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "oakville-4009081c-828f-43",
@@ -5639,9 +5500,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "king-234aace3-6c8d-42",
@@ -5668,9 +5529,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-6e9770ba-b6e8-43",
@@ -5680,7 +5541,7 @@
       "title": "Committee of Adjustment",
       "date": "2026-12-10",
       "time": "1:00 PM",
-      "location": "300 City Centre Drive, Mississauga, Ontario, L5B 3C1",
+      "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
@@ -5697,9 +5558,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "richmondhill-364d5542-727f-4c",
@@ -5709,7 +5570,7 @@
       "title": "Committee of Adjustment",
       "date": "2026-12-10",
       "time": "7:00 PM",
-      "location": "225 East Beaver Creek Road",
+      "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
@@ -5726,9 +5587,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "vaughan-fcedb38a-8275-40",
@@ -5738,7 +5599,7 @@
       "title": "Committee of Adjustment",
       "date": "2026-12-10",
       "time": "6:00 PM",
-      "location": "2nd Floor, Vaughan City Hall",
+      "location": "Committee Rooms 242/243",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
@@ -5755,9 +5616,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "durham-region-2026-12-10-0930-",
@@ -5784,9 +5645,38 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "civicplus",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
+    },
+    {
+      "id": "peel-region-edf605e5-2a8c-4e",
+      "municipality": "Region of Peel",
+      "municipalityId": "peel-region",
+      "body": "Regional Council",
+      "title": "Regional Council",
+      "date": "2026-12-10",
+      "time": "9:30 AM",
+      "location": "Council Chamber, 5th Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=edf605e5-2a8c-4e32-a04f-64a7892c6a32",
+        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=edf605e5-2a8c-4e32-a04f-64a7892c6a32"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
     },
     {
       "id": "richmondhill-b6e394a4-e8b1-47",
@@ -5813,9 +5703,9 @@
       },
       "keywordsMatched": [],
       "relevant": false,
+      "matchKind": "",
       "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "curated": false
     },
     {
       "id": "mississauga-prologis-2026",
@@ -6042,6 +5932,38 @@
       "relevant": true,
       "source": "curated",
       "matchKind": "exact"
+    },
+    {
+      "id": "oakville-e0529aa0-e508-47",
+      "municipality": "Town of Oakville",
+      "municipalityId": "oakville",
+      "body": "Council Information Packages",
+      "title": "Council Information Packages",
+      "date": "2026-08-12",
+      "time": "9:00 AM",
+      "location": "",
+      "status": "past",
+      "cancelled": false,
+      "issue": "AMO Watchfile - August 6, 2026.pdf 4. Correspondence 4.1 Sunita Saggar - Concerns for AI Data Centre - August 9, 2026 1. Sunita Saggar - Concerns for AI Data Centre - August 9, 2026.pdf 4.2 BUZZ HPC - Data Centres - August 10, 2026 1. BUZZ",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": false,
+        "deputations": false,
+        "registerBy": null,
+        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
+      },
+      "links": {
+        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=e0529aa0-e508-477c-817c-2b6b28f3220c",
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=e0529aa0-e508-477c-817c-2b6b28f3220c"
+      },
+      "keywordsMatched": [
+        "data centre",
+        "data centres"
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "source": "escribe",
+      "curated": false
     }
   ]
 }
