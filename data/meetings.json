@@ -368,13 +368,13 @@
       "curated": false
     },
     {
-      "id": "mississauga-2d5dff8a-9635-40",
+      "id": "mississauga-a4234e67-6396-41",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
       "body": "Committee of Adjustment",
       "title": "Committee of Adjustment",
       "date": "2026-08-20",
-      "time": "1:00 PM",
+      "time": "3:30 PM",
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
@@ -387,8 +387,8 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=2d5dff8a-9635-4092-8c66-54f18ccc0cae",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=2d5dff8a-9635-4092-8c66-54f18ccc0cae"
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=a4234e67-6396-4193-bd34-f744586762bd",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=a4234e67-6396-4193-bd34-f744586762bd"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -404,7 +404,7 @@
       "title": "Committee of Adjustment",
       "date": "2026-08-20",
       "time": "6:00 PM",
-      "location": "Committee Rooms 242/243",
+      "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
