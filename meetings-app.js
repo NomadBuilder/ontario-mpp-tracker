@@ -91,6 +91,28 @@
     return "";
   }
 
+  function countLine(list, when) {
+    const all = payload.items || [];
+    const exactAll = all.filter((it) => matchKind(it) === "exact");
+    const exactAhead = exactAll.filter((it) => ["upcoming", "watch"].includes(it.status)).length;
+    const exactPast = exactAll.filter((it) => it.status === "past").length;
+    const relatedAhead = all.filter((it) => matchKind(it) === "broad" && ["upcoming", "watch"].includes(it.status)).length;
+    const asOf = payload.asOf || "—";
+    if (when === "upcoming") {
+      return `${list.length} upcoming · ${exactAhead} data-centre still ahead · ${exactPast} already happened · updated ${asOf}`;
+    }
+    if (when === "exact") {
+      return `${list.length} with “data centre” in the agenda · ${exactAhead} upcoming · ${exactPast} past · updated ${asOf}`;
+    }
+    if (when === "broad") {
+      return `${list.length} exact + related · ${exactAhead + relatedAhead} upcoming · updated ${asOf}`;
+    }
+    if (when === "past") {
+      return `${list.length} past meetings · ${exactPast} data-centre · updated ${asOf}`;
+    }
+    return `${list.length} meetings · ${exactAll.length} data-centre · updated ${asOf}`;
+  }
+
   const HINTS = {
     upcoming: "Every upcoming council and planning meeting we found. Green cards matched data-centre language.",
     exact: "Only items whose agenda or title literally says data centre, data center, or datacentre.",
@@ -139,13 +161,7 @@
     const opt = whenSel.options[whenSel.selectedIndex];
     if (hint) hint.textContent = HINTS[whenSel.value] || "";
     if (opt && opt.title) whenSel.title = opt.title;
-    const exactN = list.filter((it) => matchKind(it) === "exact").length;
-    const broadN = list.filter((it) => matchKind(it) === "broad").length;
-    const bits = [`${n} meeting${n === 1 ? "" : "s"}`];
-    if (exactN) bits.push(`${exactN} exact`);
-    if (broadN) bits.push(`${broadN} related`);
-    bits.push(`updated ${payload.asOf || "—"}`);
-    count.textContent = n ? bits.join(" · ") : "Nothing matches these filters.";
+    count.textContent = n ? countLine(list, whenSel.value) : "Nothing matches these filters.";
     feed.innerHTML = n
       ? list.map((it, i) => itemHtml(it, i)).join("")
       : `<p class="empty">No meetings in this view. Try “Upcoming” or clear the search — or add a row to data/meetings-curated.json.</p>`;
