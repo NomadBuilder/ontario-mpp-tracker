@@ -175,6 +175,7 @@ select {
   padding: 0.4rem 0.65rem;
 }
 .nav-links a:hover { color: var(--yellow); border-color: var(--yellow); }
+.nav-links a.current,
 .nav-links a.primary {
   background: var(--yellow);
   color: var(--yellow-ink);

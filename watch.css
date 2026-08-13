@@ -97,6 +97,7 @@ a { color: inherit; }
   background: transparent;
 }
 .nav-links a:hover { color: var(--ink); border-color: rgba(255,255,255,0.28); }
+.nav-links a.current,
 .nav-links a.primary {
   background: var(--yellow);
   color: var(--yellow-ink);
