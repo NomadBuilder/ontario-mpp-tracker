@@ -37,9 +37,13 @@
 
   function itemHtml(item, i) {
     const flagged = !!item.relevant;
-    const cls = item.status === "past" ? "past" : flagged ? "flagged" : item.status === "watch" ? "watch" : "";
+    const cls = [
+      flagged ? "flagged" : "",
+      item.status === "past" ? "past" : "",
+      item.status === "watch" ? "watch" : "",
+    ].filter(Boolean).join(" ");
     const badge = flagged
-      ? `<span class="badge flag">Datacentre-related</span>`
+      ? `<span class="badge flag">Data centre</span>`
       : item.status === "past"
         ? `<span class="badge past">Past</span>`
         : `<span class="badge">Scan agenda</span>`;
@@ -99,6 +103,8 @@
     }).sort((a, b) => {
       const r = rank(a) - rank(b);
       if (r) return r;
+      const flag = Number(!!b.relevant) - Number(!!a.relevant);
+      if (flag) return flag;
       return (a.date || "9999").localeCompare(b.date || "9999") || (a.municipality || "").localeCompare(b.municipality || "");
     });
   }
@@ -108,8 +114,9 @@
     const feed = document.getElementById("feed");
     const count = document.getElementById("count");
     const n = list.length;
+    const flaggedN = list.filter((it) => it.relevant).length;
     count.textContent = n
-      ? `${n} meeting${n === 1 ? "" : "s"} · updated ${payload.asOf || "—"}`
+      ? `${n} meeting${n === 1 ? "" : "s"} · ${flaggedN} data-centre · updated ${payload.asOf || "—"}`
       : "Nothing matches these filters.";
     feed.innerHTML = n
       ? list.map((it, i) => itemHtml(it, i)).join("")

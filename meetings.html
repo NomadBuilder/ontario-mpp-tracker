@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="meetings.css?v=4">
+  <link rel="stylesheet" href="meetings.css?v=5">
 </head>
 <body>
   <header class="top">
@@ -31,18 +31,18 @@
         </nav>
       </div>
       <p class="disclaimer">
-        Official agendas, scanned for data-centre and related land-use items — not a complete list of every Ontario municipality yet.
-        Complementary to location trackers: this is <strong>when to show up</strong>.
+        Green cards matched data-centre language in the agenda — not just the words “data centre”, but hyperscale, colocation, AI campus, large-load / IESO connection, named operators, and the like.
+        Other cards are upcoming council and planning meetings to scan by hand. Not every Ontario municipality yet.
       </p>
       <div class="filters">
         <label class="sr" for="q">Search</label>
         <input id="q" type="search" placeholder="City, committee, or keyword…" autocomplete="off">
         <label class="sr" for="when">When</label>
         <select id="when">
-          <option value="upcoming">Upcoming</option>
-          <option value="flagged">Flagged (datacentre)</option>
-          <option value="past">Past / results</option>
-          <option value="all">All</option>
+          <option value="upcoming">All upcoming</option>
+          <option value="flagged">Data centres</option>
+          <option value="past">Past votes</option>
+          <option value="all">Everything</option>
         </select>
         <label class="sr" for="place">Municipality</label>
         <select id="place">
@@ -68,6 +68,6 @@
     </div>
   </footer>
 
-  <script src="meetings-app.js?v=3"></script>
+  <script src="meetings-app.js?v=5"></script>
 </body>
 </html>
