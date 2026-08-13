@@ -191,7 +191,7 @@ code { font-size: 0.85em; color: var(--yellow); }
   flex-wrap: wrap;
   gap: 0.35rem 0.65rem;
   align-items: center;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.45rem;
   font-size: 0.72rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -205,18 +205,49 @@ code { font-size: 0.85em; color: var(--yellow); }
   letter-spacing: 0.06em;
 }
 .badge.flag { border-color: rgba(125, 206, 160, 0.5); color: var(--ok); }
-.badge.past { color: var(--muted); }
 
-.item h2 {
+.place {
   font-family: var(--display);
-  font-size: clamp(1.02rem, 2.2vw, 1.28rem);
-  line-height: 1.2;
-  margin-bottom: 0.25rem;
+  font-size: clamp(1.15rem, 2.8vw, 1.5rem);
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.2rem;
+}
+.item h2 {
+  font-family: var(--font);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--muted);
+  margin-bottom: 0.65rem;
+}
+.when-block { margin-bottom: 0.7rem; }
+.status-mark {
+  display: inline-block;
+  font-family: var(--display);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.55rem;
+  line-height: 1;
+}
+.status-mark.upcoming {
+  background: var(--yellow);
+  color: var(--yellow-ink);
+}
+.status-mark.past {
+  background: #3a3a3a;
+  color: #f0f0f0;
+}
+.status-mark.watch {
+  background: transparent;
+  color: var(--yellow);
+  border: 1px solid var(--yellow);
 }
 .when {
   font-size: 0.95rem;
   font-weight: 600;
-  margin-bottom: 0.55rem;
+  margin-top: 0.35rem;
 }
 .where { font-size: 0.82rem; color: var(--muted); margin-bottom: 0.65rem; }
 

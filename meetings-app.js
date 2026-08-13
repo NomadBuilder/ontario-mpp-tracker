@@ -13,7 +13,7 @@
   }
 
   function formatWhen(item) {
-    if (item.status === "watch") return "Ongoing watch — not a single sitting";
+    if (item.status === "watch") return "Not a single sitting — watch the calendar";
     if (!item.date) return "Date TBA";
     const d = new Date(item.date + "T12:00:00");
     if (Number.isNaN(d.getTime())) return item.date;
@@ -24,6 +24,13 @@
       day: "numeric",
     });
     return item.time ? `${day} · ${item.time}` : day;
+  }
+
+  function statusMark(item) {
+    if (item.status === "past") return { cls: "past", label: "Past" };
+    if (item.status === "watch") return { cls: "watch", label: "Watch" };
+    if (item.status === "cancelled") return { cls: "past", label: "Cancelled" };
+    return { cls: "upcoming", label: "Upcoming" };
   }
 
   function participateHtml(p) {
@@ -46,13 +53,13 @@
       item.status === "watch" ? "watch" : "",
     ].filter(Boolean).join(" ");
     const kind = matchKind(item);
-    const badge = kind === "exact"
-      ? `<span class="badge flag">Data centre</span>`
-      : kind === "broad"
-        ? `<span class="badge flag">Related</span>`
-      : item.status === "past"
-        ? `<span class="badge past">Past</span>`
-        : `<span class="badge">Scan agenda</span>`;
+    const extra = [
+      kind === "exact" ? `<span class="badge flag">Data centre</span>` : "",
+      kind === "broad" ? `<span class="badge flag">Related</span>` : "",
+      !kind && item.status !== "past" && item.status !== "watch" ? `<span class="badge">Scan agenda</span>` : "",
+      item.curated ? `<span class="badge">Hand-entered</span>` : "",
+    ].filter(Boolean).join("");
+    const mark = statusMark(item);
     const origin = item.curated
       ? (item.origin || "Hand-entered from news or minutes — not copied as a fake calendar row. Use the official city link.")
       : "Pulled from this municipality’s public meeting calendar. Open the official agenda to verify.";
@@ -69,17 +76,19 @@
       links.application ? `<a class="btn btn-ghost" href="${escapeHtml(links.application)}" target="_blank" rel="noopener">Application</a>` : "",
       links.source ? `<a class="btn btn-ghost" href="${escapeHtml(links.source)}" target="_blank" rel="noopener">News coverage</a>` : "",
     ].filter(Boolean);
+    const meetingName = item.title || item.body || "Meeting";
+    const showBody = item.body && item.body !== item.title && item.body !== item.municipality;
 
     return `
       <article class="item ${cls}" style="animation-delay:${Math.min(i * 25, 350)}ms">
-        <div class="item-kicker">
-          ${badge}
-          <span>${escapeHtml(item.municipality || "")}</span>
-          ${item.curated ? `<span class="badge">Hand-entered</span>` : `<span>From official calendar</span>`}
+        ${extra ? `<div class="item-kicker">${extra}</div>` : ""}
+        <p class="place">${escapeHtml(item.municipality || "Municipality")}</p>
+        <h2>${escapeHtml(meetingName)}</h2>
+        <div class="when-block">
+          <span class="status-mark ${mark.cls}">${mark.label}</span>
+          <p class="when">${escapeHtml(formatWhen(item))}</p>
         </div>
-        <h2>${escapeHtml(item.title || item.body || "Meeting")}</h2>
-        <p class="when">${escapeHtml(formatWhen(item))}</p>
-        ${item.body && item.body !== item.title ? `<p class="where">${escapeHtml(item.body)}</p>` : ""}
+        ${showBody ? `<p class="where">${escapeHtml(item.body)}</p>` : ""}
         ${item.location ? `<p class="where">${escapeHtml(item.location)}</p>` : ""}
         <div class="block"><h3>Where this came from</h3><p>${escapeHtml(origin)}</p></div>
         ${item.issue ? `<div class="block"><h3>What’s on the table</h3><p>${escapeHtml(item.issue)}</p></div>` : ""}
