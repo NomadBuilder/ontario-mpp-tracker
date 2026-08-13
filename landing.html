@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="nav.css?v=1">
+  <link rel="stylesheet" href="nav.css?v=2">
   <style>
     :root {
       --bg: #0a0a0a;
@@ -47,7 +47,7 @@
       min-height: clamp(22rem, 58svh, 30rem);
       display: grid;
       align-items: end;
-      overflow: hidden;
+      overflow: visible;
       isolation: isolate;
     }
 
@@ -55,6 +55,7 @@
       position: absolute;
       inset: 0;
       z-index: -2;
+      overflow: hidden;
       background:
         linear-gradient(180deg, rgba(10, 10, 10, 0.4) 0%, rgba(10, 10, 10, 0.78) 50%, var(--bg) 100%),
         radial-gradient(ellipse 80% 60% at 70% 30%, rgba(255, 199, 69, 0.12), transparent 55%),
@@ -74,6 +75,7 @@
       z-index: -1;
       opacity: 0.07;
       pointer-events: none;
+      overflow: hidden;
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
     }
 
@@ -89,12 +91,19 @@
       justify-content: space-between;
       gap: 0.75rem;
       margin-bottom: 1.1rem;
-      animation: rise 0.8s ease both;
+      position: relative;
+      z-index: 40;
+      animation: brandFade 0.8s ease both;
+    }
+    @keyframes brandFade {
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
     .brand-row .brand-id {
       display: flex;
       align-items: center;
       gap: 0.75rem;
+      min-width: 0;
     }
 
     .brand-row img {
@@ -114,16 +123,28 @@
 
     .hero-plate {
       display: inline-block;
+      max-width: 100%;
       background: var(--yellow);
       color: var(--yellow-ink);
       font-family: var(--display);
-      font-size: clamp(1.45rem, 5.4vw, 2.85rem);
+      font-size: clamp(1.35rem, 7.2vw, 2.85rem);
       line-height: 0.92;
       letter-spacing: -0.02em;
       padding: 0.22em 0.3em 0.18em;
       margin-bottom: 0.85rem;
       animation: rise 0.9s 0.08s ease both;
       box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.4);
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      position: relative;
+      z-index: 1;
+      animation: rise 0.9s 0.24s ease both;
     }
 
     .hero-lead {
@@ -131,14 +152,9 @@
       font-size: clamp(1.05rem, 2.4vw, 1.25rem);
       color: var(--muted);
       margin-bottom: 1.75rem;
+      position: relative;
+      z-index: 1;
       animation: rise 0.9s 0.16s ease both;
-    }
-
-    .hero-cta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      animation: rise 0.9s 0.24s ease both;
     }
 
     @keyframes rise {
