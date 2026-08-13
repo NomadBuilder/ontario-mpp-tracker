@@ -1,6 +1,8 @@
 /* OAC municipal meeting watch — separate from the live MPP iframe */
 (function () {
   let payload = { items: [], coverage: [], asOf: "" };
+  let portals = [];
+  let view = "meetings";
 
   function escapeHtml(s) {
     return String(s || "")
@@ -167,6 +169,59 @@
       : `<p class="empty">No meetings in this view. Try “Upcoming” or clear the search — or add a row to data/meetings-curated.json.</p>`;
   }
 
+  function sourceMeta(portal, cov) {
+    if (portal.type === "gap") return "Calendar link saved — not read automatically yet.";
+    if (portal.priority !== "high") return "On our list, not in the twice-daily check yet.";
+    if (cov && cov.ok && cov.meetings > 0) {
+      return `Checked twice a day · ${cov.meetings} meeting${cov.meetings === 1 ? "" : "s"} in the current list`;
+    }
+    if (cov && cov.ok) return "Checked twice a day · nothing upcoming in the current window";
+    if (cov && !cov.ok) return "Last automatic check didn’t load — use the official calendar";
+    return "Checked twice a day";
+  }
+
+  function renderSources() {
+    const ul = document.getElementById("source-list");
+    const covById = new Map((payload.coverage || []).map((c) => [c.id, c]));
+    const rows = (portals.length ? portals : payload.coverage || []).slice().sort((a, b) => {
+      const pa = a.priority === "high" ? 0 : a.priority === "medium" ? 1 : 2;
+      const pb = b.priority === "high" ? 0 : b.priority === "medium" ? 1 : 2;
+      if (pa !== pb) return pa - pb;
+      return (a.name || "").localeCompare(b.name || "");
+    });
+    ul.innerHTML = rows
+      .map((p) => {
+        const cov = covById.get(p.id) || {};
+        const href = p.calendarUrl || p.base || cov.calendarUrl || "";
+        const name = href
+          ? `<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(p.name)}</a>`
+          : escapeHtml(p.name);
+        return `<li>${name}<span class="meta">${escapeHtml(sourceMeta(p, cov))}</span></li>`;
+      })
+      .join("");
+  }
+
+  function setView(next) {
+    view = next === "sources" ? "sources" : "meetings";
+    const onSources = view === "sources";
+    document.getElementById("tab-meetings").classList.toggle("current", !onSources);
+    document.getElementById("tab-sources").classList.toggle("current", onSources);
+    document.getElementById("tab-meetings").setAttribute("aria-selected", String(!onSources));
+    document.getElementById("tab-sources").setAttribute("aria-selected", String(onSources));
+    document.getElementById("meetings-blurb").hidden = onSources;
+    document.getElementById("meetings-filters").hidden = onSources;
+    document.getElementById("filter-hint").hidden = onSources;
+    document.getElementById("meetings-panel").hidden = onSources;
+    document.getElementById("sources-panel").hidden = !onSources;
+    if (onSources) {
+      if (location.hash !== "#sources") history.replaceState(null, "", "#sources");
+      renderSources();
+    } else if (location.hash === "#sources") {
+      history.replaceState(null, "", location.pathname + location.search);
+      render();
+    }
+  }
+
   function fillPlaces() {
     const sel = document.getElementById("place");
     const names = new Map();
@@ -182,38 +237,28 @@
       opts.map(([id, name]) => `<option value="${escapeHtml(id)}">${escapeHtml(name)}</option>`).join("");
   }
 
-  function renderGaps() {
-    const gaps = (payload.coverage || []).filter((c) => c.type === "gap" || !c.ok);
-    const box = document.getElementById("gaps");
-    const ul = document.getElementById("gap-list");
-    if (!gaps.length) return;
-    box.hidden = false;
-    ul.innerHTML = gaps
-      .map((g) => {
-        const href = g.calendarUrl
-          ? `<a href="${escapeHtml(g.calendarUrl)}" target="_blank" rel="noopener">${escapeHtml(g.name)}</a>`
-          : escapeHtml(g.name);
-        const note = g.note ? ` — ${escapeHtml(g.note)}` : "";
-        return `<li>${href}${note}</li>`;
-      })
-      .join("");
-  }
-
   ["q", "when", "place"].forEach((id) => {
     document.getElementById(id).addEventListener("input", render);
     document.getElementById(id).addEventListener("change", render);
   });
+  document.getElementById("tab-meetings").addEventListener("click", () => setView("meetings"));
+  document.getElementById("tab-sources").addEventListener("click", () => setView("sources"));
 
-  fetch("data/meetings.json")
-    .then((r) => {
-      if (!r.ok) throw new Error("Missing data/meetings.json — run scripts/fetch_meetings.py");
+  Promise.all([
+    fetch("data/meetings.json").then((r) => {
+      if (!r.ok) throw new Error("Could not load the meeting list.");
       return r.json();
-    })
-    .then((data) => {
+    }),
+    fetch("data/municipalities.json")
+      .then((r) => (r.ok ? r.json() : { portals: [] }))
+      .catch(() => ({ portals: [] })),
+  ])
+    .then(([data, registry]) => {
       payload = data;
+      portals = registry.portals || [];
       fillPlaces();
-      renderGaps();
       render();
+      setView(location.hash === "#sources" ? "sources" : "meetings");
     })
     .catch((err) => {
       document.getElementById("count").textContent = "Could not load meetings.";

@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="meetings.css?v=6">
+  <link rel="stylesheet" href="meetings.css?v=8">
 </head>
 <body>
   <header class="top">
@@ -30,11 +30,15 @@
           <a href="./?embed=1">MPP votes</a>
         </nav>
       </div>
-      <p class="disclaimer">
+      <div class="page-tabs" role="tablist" aria-label="Meeting watch">
+        <button type="button" class="page-tab current" id="tab-meetings" role="tab" aria-selected="true">Meetings</button>
+        <button type="button" class="page-tab" id="tab-sources" role="tab" aria-selected="false">Sources</button>
+      </div>
+      <p class="disclaimer" id="meetings-blurb">
         Green cards matched data-centre language in the agenda — not just the words “data centre”, but hyperscale, colocation, AI campus, large-load / IESO connection, named operators, and the like.
         Other cards are upcoming council and planning meetings to scan by hand. Not every Ontario municipality yet.
       </p>
-      <div class="filters">
+      <div class="filters" id="meetings-filters">
         <label class="sr" for="q">Search</label>
         <input id="q" type="search" placeholder="City, committee, or keyword…" autocomplete="off" title="Search city, committee, or a word in the agenda snippet.">
         <label class="sr" for="when">When</label>
@@ -55,12 +59,29 @@
   </header>
 
   <div class="shell main-shell">
-    <p class="count" id="count" aria-live="polite"></p>
-    <main class="feed" id="feed"></main>
-    <section class="gaps" id="gaps" hidden>
-      <h2>Not auto-scanned yet</h2>
-      <p>These places matter and still need a calendar hook or a curated row. Check their official site, then add a date in <code>data/meetings-curated.json</code>.</p>
-      <ul id="gap-list"></ul>
+    <div id="meetings-panel">
+      <p class="count" id="count" aria-live="polite"></p>
+      <main class="feed" id="feed"></main>
+    </div>
+    <section class="sources" id="sources-panel" hidden>
+      <h2>How this works</h2>
+      <ol class="how">
+        <li>Twice a day we open each place’s <strong>public meeting calendar</strong> — the same one the clerk posts for residents.</li>
+        <li>We list upcoming council, planning, and committee meetings so people can show up or request a deputation.</li>
+        <li>When an agenda is posted, we read it for data-centre language and related terms, then mark those cards green.</li>
+        <li>Every card links back to the official agenda. This is a heads-up, not a replacement for the municipality’s site.</li>
+      </ol>
+      <h2>What “exact” and “broad” mean</h2>
+      <ul class="plain">
+        <li><strong>Exact</strong> — the agenda or title actually says data centre / data center / datacentre.</li>
+        <li><strong>Broad</strong> — that, plus things cities often use instead: hyperscale, colocation, AI campus, named operators (Equinix, Prologis, and others), large-load or IESO connection studies, crypto mining.</li>
+      </ul>
+      <p class="note">We match words on the page. A rezoning that never uses any of that language will stay a plain “scan agenda” card until someone reads it.</p>
+      <h2>How often</h2>
+      <p>About <strong>9:15am and 9:15pm Eastern</strong>, every day. Places marked “checked twice a day” are in that round. Others are on our list but not in the automatic pass yet.</p>
+      <h2>Calendars we look at</h2>
+      <p class="note">Official sources only. Click through to the city’s own calendar.</p>
+      <ul class="source-list" id="source-list"></ul>
     </section>
   </div>
 
@@ -70,6 +91,6 @@
     </div>
   </footer>
 
-  <script src="meetings-app.js?v=7"></script>
+  <script src="meetings-app.js?v=8"></script>
 </body>
 </html>
