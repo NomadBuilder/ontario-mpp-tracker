@@ -40,9 +40,11 @@ UA = (
 )
 CTX = ssl.create_default_context()
 
-KEYWORDS = [
+EXACT_KEYWORDS = [
     r"data[\s-]?cent(?:re|er)s?",
     r"datacent(?:re|er)s?",
+]
+BROAD_KEYWORDS = [
     r"data[\s-]?halls?",
     r"data[\s-]?campus",
     r"data storage facility",
@@ -86,7 +88,8 @@ KEYWORDS = [
     r"amazon web services",
     r"\bmicrosoft azure\b",
 ]
-KEYWORD_RE = re.compile("|".join(KEYWORDS), re.I)
+KEYWORD_RE = re.compile("|".join(EXACT_KEYWORDS + BROAD_KEYWORDS), re.I)
+EXACT_RE = re.compile("|".join(EXACT_KEYWORDS), re.I)
 
 DECISION_BODY = re.compile(
     r"council|planning|committee of the whole|committee of adjustment|"
@@ -714,6 +717,9 @@ def items_from_raw(
             if k not in keywords:
                 keywords.append(k)
         relevant = bool(keywords or snippets or hit_title)
+        match_kind = ""
+        if relevant:
+            match_kind = "exact" if EXACT_RE.search(blob) or any(EXACT_RE.search(k) for k in keywords) else "broad"
         if not relevant and not decision:
             continue
         status = "upcoming"
@@ -763,6 +769,7 @@ def items_from_raw(
                 },
                 "keywordsMatched": keywords,
                 "relevant": relevant,
+                "matchKind": match_kind,
                 "source": source,
                 "curated": False,
             }
@@ -828,6 +835,9 @@ def main() -> int:
         it.setdefault("relevant", True)
         it.setdefault("source", "curated")
         it.setdefault("title", it.get("body") or it.get("title"))
+        blob = " ".join([it.get("title") or "", it.get("issue") or "", " ".join(it.get("keywordsMatched") or [])])
+        if not it.get("matchKind"):
+            it["matchKind"] = "exact" if EXACT_RE.search(blob) else "broad"
 
     merged = merge_items(curated, scraped)
 

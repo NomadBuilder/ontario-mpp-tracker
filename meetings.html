@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="meetings.css?v=5">
+  <link rel="stylesheet" href="meetings.css?v=6">
 </head>
 <body>
   <header class="top">
@@ -36,19 +36,21 @@
       </p>
       <div class="filters">
         <label class="sr" for="q">Search</label>
-        <input id="q" type="search" placeholder="City, committee, or keyword…" autocomplete="off">
+        <input id="q" type="search" placeholder="City, committee, or keyword…" autocomplete="off" title="Search city, committee, or a word in the agenda snippet.">
         <label class="sr" for="when">When</label>
-        <select id="when">
-          <option value="upcoming">All upcoming</option>
-          <option value="flagged">Data centres</option>
-          <option value="past">Past votes</option>
-          <option value="all">Everything</option>
+        <select id="when" aria-describedby="filter-hint">
+          <option value="upcoming" title="Every upcoming council and planning meeting we found. Green cards matched data-centre language.">All upcoming</option>
+          <option value="exact" title="Agenda or title literally says data centre / data center / datacentre.">Data centres — exact</option>
+          <option value="broad" title="Exact matches plus related terms: hyperscale, colocation, AI campus, named operators, large-load / IESO connection, crypto mining.">Data centres — broad</option>
+          <option value="past" title="Meetings that already happened, including recorded votes when we have them.">Past votes</option>
+          <option value="all" title="Upcoming, watch list, and past together.">Everything</option>
         </select>
         <label class="sr" for="place">Municipality</label>
-        <select id="place">
+        <select id="place" title="Show meetings for one city, town, or region.">
           <option value="">All places</option>
         </select>
       </div>
+      <p class="filter-hint" id="filter-hint"></p>
     </div>
   </header>
 
@@ -68,6 +70,6 @@
     </div>
   </footer>
 
-  <script src="meetings-app.js?v=5"></script>
+  <script src="meetings-app.js?v=6"></script>
 </body>
 </html>

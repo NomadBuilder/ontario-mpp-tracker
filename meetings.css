@@ -132,6 +132,12 @@ code { font-size: 0.85em; color: var(--yellow); }
   outline: 1px solid var(--yellow);
   border-color: rgba(255, 199, 69, 0.55);
 }
+.filter-hint {
+  font-size: 0.78rem;
+  color: var(--dim);
+  max-width: 46rem;
+  min-height: 1.2em;
+}
 
 .main-shell { flex: 1; padding: 1rem 0 2.5rem; }
 .count { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.75rem; }

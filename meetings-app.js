@@ -36,14 +36,17 @@
   }
 
   function itemHtml(item, i) {
-    const flagged = !!item.relevant;
+    const flagged = !!item.relevant || !!matchKind(item);
     const cls = [
       flagged ? "flagged" : "",
       item.status === "past" ? "past" : "",
       item.status === "watch" ? "watch" : "",
     ].filter(Boolean).join(" ");
-    const badge = flagged
+    const kind = matchKind(item);
+    const badge = kind === "exact"
       ? `<span class="badge flag">Data centre</span>`
+      : kind === "broad"
+        ? `<span class="badge flag">Related</span>`
       : item.status === "past"
         ? `<span class="badge past">Past</span>`
         : `<span class="badge">Scan agenda</span>`;
@@ -80,6 +83,22 @@
       </article>`;
   }
 
+  function matchKind(item) {
+    if (item.matchKind === "exact" || item.matchKind === "broad") return item.matchKind;
+    const blob = [item.title, item.body, item.issue, ...(item.keywordsMatched || [])].join(" ").toLowerCase();
+    if (/data[\s-]?cent(?:re|er)|datacent(?:re|er)/.test(blob)) return "exact";
+    if (item.relevant) return "broad";
+    return "";
+  }
+
+  const HINTS = {
+    upcoming: "Every upcoming council and planning meeting we found. Green cards matched data-centre language.",
+    exact: "Only items whose agenda or title literally says data centre, data center, or datacentre.",
+    broad: "Exact matches plus related terms — hyperscale, colocation, AI campus, named operators, large-load / IESO connection, crypto mining.",
+    past: "Meetings that already happened, including recorded votes when we have them.",
+    all: "Upcoming, watch list, and past together.",
+  };
+
   function filtered() {
     const q = document.getElementById("q").value.trim().toLowerCase();
     const when = document.getElementById("when").value;
@@ -93,7 +112,8 @@
     return (payload.items || []).filter((it) => {
       if (place && it.municipalityId !== place && it.municipality !== place) return false;
       if (when === "upcoming" && !["upcoming", "watch"].includes(it.status)) return false;
-      if (when === "flagged" && !it.relevant) return false;
+      if (when === "exact" && matchKind(it) !== "exact") return false;
+      if (when === "broad" && !["exact", "broad"].includes(matchKind(it))) return false;
       if (when === "past" && it.status !== "past") return false;
       if (!q) return true;
       const blob = [it.municipality, it.body, it.title, it.issue, it.why, it.result, ...(it.keywordsMatched || [])]
@@ -114,10 +134,18 @@
     const feed = document.getElementById("feed");
     const count = document.getElementById("count");
     const n = list.length;
-    const flaggedN = list.filter((it) => it.relevant).length;
-    count.textContent = n
-      ? `${n} meeting${n === 1 ? "" : "s"} · ${flaggedN} data-centre · updated ${payload.asOf || "—"}`
-      : "Nothing matches these filters.";
+    const hint = document.getElementById("filter-hint");
+    const whenSel = document.getElementById("when");
+    const opt = whenSel.options[whenSel.selectedIndex];
+    if (hint) hint.textContent = HINTS[whenSel.value] || "";
+    if (opt && opt.title) whenSel.title = opt.title;
+    const exactN = list.filter((it) => matchKind(it) === "exact").length;
+    const broadN = list.filter((it) => matchKind(it) === "broad").length;
+    const bits = [`${n} meeting${n === 1 ? "" : "s"}`];
+    if (exactN) bits.push(`${exactN} exact`);
+    if (broadN) bits.push(`${broadN} related`);
+    bits.push(`updated ${payload.asOf || "—"}`);
+    count.textContent = n ? bits.join(" · ") : "Nothing matches these filters.";
     feed.innerHTML = n
       ? list.map((it, i) => itemHtml(it, i)).join("")
       : `<p class="empty">No meetings in this view. Try “Upcoming” or clear the search — or add a row to data/meetings-curated.json.</p>`;
