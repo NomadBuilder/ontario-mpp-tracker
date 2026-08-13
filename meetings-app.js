@@ -90,14 +90,14 @@
         </div>
         ${showBody ? `<p class="where">${escapeHtml(item.body)}</p>` : ""}
         ${item.location ? `<p class="where">${escapeHtml(item.location)}</p>` : ""}
+        ${item.result ? `<div class="block result"><h3>Result</h3><p>${escapeHtml(item.result)}</p></div>` : ""}
         <div class="block"><h3>Where this came from</h3><p>${escapeHtml(origin)}</p></div>
         ${item.issue ? `<div class="block"><h3>What’s on the table</h3><p>${escapeHtml(item.issue)}</p></div>` : ""}
         ${item.why ? `<div class="block"><h3>Why this matters</h3><p>${escapeHtml(item.why)}</p></div>` : ""}
-        ${item.result ? `<div class="block"><h3>Result</h3><p>${escapeHtml(item.result)}</p></div>` : ""}
-        <div class="block">
+        ${item.status === "past" ? "" : `<div class="block">
           <h3>What to do next</h3>
           ${participateHtml(item.participate)}
-        </div>
+        </div>`}
         <div class="actions">${actions.join("")}</div>
       </article>`;
   }

@@ -337,12 +337,12 @@ def load_json(path: Path, default):
 
 
 def item_key(it: dict) -> str:
+    # Overlay curated copy onto the scraped sitting: same city, date, and body.
     return "|".join(
         [
             (it.get("municipalityId") or "").lower(),
             (it.get("date") or ""),
             re.sub(r"\s+", " ", (it.get("body") or it.get("title") or "").lower())[:80],
-            (it.get("id") or "")[:36],
         ]
     )
 

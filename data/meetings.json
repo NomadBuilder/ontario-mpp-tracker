@@ -536,35 +536,6 @@
       "matchKind": ""
     },
     {
-      "id": "mississauga-a4234e67-6396-41",
-      "municipality": "City of Mississauga",
-      "municipalityId": "mississauga",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-08-20",
-      "time": "3:30 PM",
-      "location": "Council Chambers, Civic Centre, 2nd Floor",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=a4234e67-6396-4193-bd34-f744586762bd",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=a4234e67-6396-4193-bd34-f744586762bd"
-      },
-      "keywordsMatched": [],
-      "relevant": false,
-      "source": "escribe",
-      "curated": false,
-      "matchKind": ""
-    },
-    {
       "id": "vaughan-a1620508-fc82-41",
       "municipality": "City of Vaughan",
       "municipalityId": "vaughan",
@@ -911,6 +882,36 @@
       "source": "escribe",
       "curated": false,
       "matchKind": ""
+    },
+    {
+      "id": "sault-icbl-2026-08-31",
+      "municipality": "City of Sault Ste. Marie",
+      "municipalityId": "saultstemarie",
+      "body": "Council",
+      "title": "Follow-up motion — data-centre planning framework",
+      "date": "2026-08-31",
+      "time": "5:00 PM",
+      "location": "Council Chambers, Sault Ste. Marie City Hall",
+      "status": "upcoming",
+      "issue": "After withdrawing the ICBL on August 10, sponsors said they would bring a simplified motion directing staff to develop a municipal data-centre framework, with public consultation. This is the sitting to watch if the pause comes back or if Council only studies process.",
+      "why": "A framework without a freeze can still let a live proposal move. Residents are pushing for an education session and a revisit of the ICBL.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "notes": "Confirm the agenda when the Clerk posts it. Register to speak if the data-centre item is on."
+      },
+      "origin": "Hand-entered from August 10 coverage that flagged August 31 as the next Council date for a rewritten motion.",
+      "links": {
+        "meeting": "https://saultstemarie.ca/government/city-council/council-agendas-minutes-and-schedule/",
+        "source": "https://ca.news.yahoo.com/motion-halt-ai-data-centre-184255386.html"
+      },
+      "keywordsMatched": [
+        "data centre"
+      ],
+      "curated": true,
+      "relevant": true,
+      "source": "curated",
+      "matchKind": "exact"
     },
     {
       "id": "hamilton-bf8099f1-a7d7-4c",
@@ -2048,29 +2049,32 @@
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
       "body": "Council",
-      "title": "Council",
+      "title": "Final vote on the data-centre interim control by-law",
       "date": "2026-09-16",
       "time": "9:30 AM",
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "issue": "Staff bring back the ICBL that Council directed on July 29. If it passes, new data-centre / major digital-infrastructure approvals pause for up to one year while the city studies land use, power, and water. Prologis Meadowvale is the live application. Watch Mayor Parrish — she did not vote in July and has signalled concern about an appeal.",
+      "why": "This is the sitting that either enacts the pause or repeats Hamilton: a strong first vote, then a loss on the actual by-law.",
       "participate": {
         "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
+        "deputations": true,
+        "notes": "Register a deputation with the Clerk before the agenda deadline. July 29 already had hours of delegations — September 16 is the vote that counts."
       },
+      "origin": "Hand-entered over the official September 16 Council calendar row. City news release set this date for ICBL approval.",
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=f3e10e24-5dc3-42e2-bc9c-a11b657a356f",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=f3e10e24-5dc3-42e2-bc9c-a11b657a356f"
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=f3e10e24-5dc3-42e2-bc9c-a11b657a356f",
+        "source": "https://www.mississauga.ca/city-of-mississauga-news/news/mississauga-moves-to-pause-data-centre-development/"
       },
-      "keywordsMatched": [],
-      "relevant": false,
-      "source": "escribe",
-      "curated": false,
-      "matchKind": ""
+      "keywordsMatched": [
+        "data centre",
+        "interim control"
+      ],
+      "curated": true,
+      "relevant": true,
+      "source": "curated",
+      "matchKind": "exact"
     },
     {
       "id": "ottawa-4f10d146-6d32-42",
@@ -5823,21 +5827,49 @@
       "time": "",
       "location": "Mississauga Civic Centre",
       "status": "watch",
-      "issue": "Prologis Meadowvale Hustler Park is marketed as a data-centre-ready industrial campus (available 2027). Residents and the local councillor have pushed for more disclosure on water, power, and operator identity; an interim control motion has been discussed.",
+      "issue": "Prologis Meadowvale (Tenth Line West / Argentia, Ward 9) is a proposed ~229,000 sq ft data-centre-ready campus. Residents have pushed for disclosure on water, power, and the unnamed operator. The July 29 ICBL motion was aimed at this file; the pause is not in force until the September 16 vote.",
       "why": "Site-plan / zoning language written for generic employment land can green-light hyperscale loads without a public hearing framed as a data centre.",
       "participate": {
         "attend": true,
         "deputations": true,
-        "notes": "Not one sitting — watch Planning and Development Committee and Council. Register a deputation with the Clerk before the agenda deadline."
+        "notes": "Not one sitting — the live vote is September 16 Council. Register a deputation with the Clerk before the agenda deadline."
       },
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/",
         "source": "https://www.cbc.ca/news/canada/toronto/mississauga-councillors-want-to-pause-data-centre-builds-for-a-year-here-s-why-9.7293344"
       },
-      "origin": "Hand-entered from news coverage. It will not appear as its own row on Mississauga’s calendar until staff put Prologis or an interim control on an agenda.",
+      "origin": "Hand-entered from news coverage. It will not appear as its own row on Mississauga’s calendar until staff put Prologis or the ICBL on an agenda.",
       "keywordsMatched": [
         "data centre",
         "Prologis"
+      ],
+      "curated": true,
+      "relevant": true,
+      "source": "curated",
+      "matchKind": "exact"
+    },
+    {
+      "id": "hamilton-icb-2026-06",
+      "municipality": "City of Hamilton",
+      "municipalityId": "hamilton",
+      "body": "Council",
+      "title": "Motion to table an interim control by-law on data centres",
+      "date": "2026-06-24",
+      "time": "9:30 AM",
+      "location": "Council Chambers, Hamilton City Hall",
+      "status": "past",
+      "issue": "Council directed staff to draft an interim control by-law pausing new AI data-centre approvals while the city studies land-use, energy, and water impacts. Sponsor: Coun. Nrinder Nann. The actual by-law was scheduled to come back July 15.",
+      "why": "This was the first-reading style vote — it told staff to write the pause, it did not enact it. Hamilton later reversed course at the July 15 sitting.",
+      "result": "Carried 15–1 to draft the ICBL. Coun. Brad Clark was the only councillor reported as voting against. Final by-law vote set for July 15.",
+      "origin": "Hand-entered from June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
+      "links": {
+        "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
+        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
+      },
+      "keywordsMatched": [
+        "data centre",
+        "interim control"
       ],
       "curated": true,
       "relevant": true,
@@ -5857,17 +5889,12 @@
       "issue": "A motion asked York Region to study whether combined data-centre electricity and water demand — plus housing and other industry — exceeds planned supply, because lower-tier cities approve facilities independently.",
       "why": "Vaughan, Markham, and Richmond Hill can each approve projects the others never see. A regional study is how you catch stacked grid and water load.",
       "result": "See Regional Council minutes / coverage for the recorded vote.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "notes": "Meeting has occurred. Confirm the vote in Regional Council minutes, then watch the September agenda for the follow-up."
-      },
+      "origin": "Hand-entered from Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
         "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
         "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
       },
-      "origin": "Hand-entered from Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "keywordsMatched": [
         "data centre"
       ],
@@ -5880,21 +5907,16 @@
       "id": "hamilton-icb-2026-07",
       "municipality": "City of Hamilton",
       "municipalityId": "hamilton",
-      "body": "City Council",
+      "body": "Council",
       "title": "Interim control by-law on data centres — final vote",
       "date": "2026-07-15",
       "time": "9:30 AM",
       "location": "Council Chambers, Hamilton City Hall",
       "status": "past",
-      "issue": "Council voted on bill 26-127, an interim control by-law pausing new AI data-centre approvals in industrial zones while staff study land-use, energy, and water impacts.",
-      "why": "A pause at the municipal level is one of the few tools communities have while provincial grid-connection rules (Bill 40) are still undefined.",
-      "result": "Defeated 10–6 on July 15, 2026. The June 24 15–1 vote only directed staff to draft the by-law — it was not the final decision. Confirm against official minutes.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "notes": "Meeting has occurred — use minutes / video to brief the next round."
-      },
-      "origin": "Hand-entered from the July 15, 2026 City Council agenda (CS26006 / bill 26-127) and news coverage of the recorded vote.",
+      "issue": "Council voted on bill 26-127 / CS26006, the by-law that would have paused new AI data-centre approvals in industrial zones. Between June 24 and this sitting, council took a closed legal session; residents described a last-minute briefing that appeared to centre developer and legal risk arguments.",
+      "why": "A pause at the municipal level is one of the few tools communities have while provincial grid-connection rules (Bill 40) are still undefined. Hamilton had a chance to be first in Canada and reversed.",
+      "result": "Defeated 10–6. In favour: Kroetsch, Nann, Francis, Jackson, Pauls, A. Wilson. Opposed: Mayor Horwath, M. Wilson, Hwang, Cooper, Clark, Beattie, Tadeson, Cassar, Spadafora, McMeekin. This reversed the June 24 15–1 direction to draft the by-law.",
+      "origin": "Hand-entered from the July 15, 2026 City Council agenda and recorded-vote coverage.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=f08c1a2f-b7ad-4f67-96ed-458d2c5964fb",
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=f08c1a2f-b7ad-4f67-96ed-458d2c5964fb",
@@ -5910,35 +5932,87 @@
       "matchKind": "exact"
     },
     {
+      "id": "mississauga-icbl-2026-07-29",
+      "municipality": "City of Mississauga",
+      "municipalityId": "mississauga",
+      "body": "Council",
+      "title": "Motion to table an interim control by-law on data centres",
+      "date": "2026-07-29",
+      "time": "9:30 AM",
+      "location": "Council Chambers, Mississauga Civic Centre",
+      "status": "past",
+      "issue": "Coun. Martin Reid (Ward 9), seconded by Coun. Sue McFadden, moved that staff prepare an ICBL pausing major digital infrastructure / AI data-centre approvals for up to one year and study Official Plan and zoning rules. Prologis’s Meadowvale proposal was the live file in Ward 9.",
+      "why": "This is the table-the-by-law vote, not the by-law itself. The pause only takes effect if Council adopts the ICBL on September 16.",
+      "result": "Carried unanimously among voting members. Mayor Carolyn Parrish did not cast a vote (Mississauga’s mayor votes only to break a tie) and warned an ICBL would likely be appealed. Final vote: September 16, 2026.",
+      "origin": "Hand-entered from the July 29, 2026 Council agenda and the City’s own news release.",
+      "links": {
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=c66a84cf-e882-4374-af81-8829a544d62a",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=c66a84cf-e882-4374-af81-8829a544d62a",
+        "source": "https://www.mississauga.ca/city-of-mississauga-news/news/mississauga-moves-to-pause-data-centre-development/"
+      },
+      "keywordsMatched": [
+        "data centre",
+        "interim control"
+      ],
+      "curated": true,
+      "relevant": true,
+      "source": "curated",
+      "matchKind": "exact"
+    },
+    {
+      "id": "sault-icbl-2026-08-10",
+      "municipality": "City of Sault Ste. Marie",
+      "municipalityId": "saultstemarie",
+      "body": "Council",
+      "title": "Motion for a data-centre interim control by-law — withdrawn",
+      "date": "2026-08-10",
+      "time": "5:00 PM",
+      "location": "Council Chambers, Sault Ste. Marie City Hall",
+      "status": "past",
+      "issue": "Ward 3 Coun. Angela Caputo and Ward 2 Coun. Lisa Vezeau-Allen brought an ICBL / moratorium on new data-centre proposals until the city had a policy. After more than an hour of debate the motion was withdrawn. Staff and the mayor argued rezoning already lets Council turn down a bad fit; later in the sitting it was acknowledged the city has had a proposal / inquiries, including hyperscale interest, and the Protexxa project on Yates Avenue is already approved.",
+      "why": "Withdrawing the pause while saying hyperscale ‘wouldn’t fit anyway’ — then confirming a proposal exists — leaves the next sitting as the chance to put a framework or a real freeze on the record.",
+      "result": "Motion withdrawn before a recorded vote. A simplified motion directing staff to write a data-centre framework is expected August 31. No ICBL in force.",
+      "origin": "Hand-entered from the August 10, 2026 Council meeting and news coverage. Official packages are on saultstemarie.ca.",
+      "links": {
+        "meeting": "https://saultstemarie.ca/government/city-council/council-agendas-minutes-and-schedule/",
+        "agenda": "https://saultstemarie.ca/wp-content/uploads/2026/08/Agenda-Package-Regular-Council-Meeting_Aug10_2026.pdf",
+        "source": "https://ca.news.yahoo.com/motion-halt-ai-data-centre-184255386.html"
+      },
+      "keywordsMatched": [
+        "data centre",
+        "interim control"
+      ],
+      "curated": true,
+      "relevant": true,
+      "source": "curated",
+      "matchKind": "exact"
+    },
+    {
       "id": "oakville-49b5ed3c-64bd-46",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
       "body": "Council",
-      "title": "Council",
+      "title": "Mayoral direction and motion to table a data-centre ICBL",
       "date": "2026-08-10",
       "time": "4:00 PM",
       "location": "Council Chamber",
       "status": "past",
-      "cancelled": false,
-      "issue": "- 2026 Annual School Crossing Guard Program - July 28, 2026.pdf 13.4 Mayoral Direction – Data Centres 1. Mayor Direction - data centre memo Aug 2026 (1).pdf 2. Item 13.4 - Correspondence - Mandip Birk and Aman Saggar.pdf 3. Item 13.4 - Corre",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
+      "issue": "Council received a staff memo on data-centre infrastructure, environment, and planning issues, following a July 21 mayoral direction. Councillors treated it as urgent and directed a special sitting the next day to pass the by-law.",
+      "why": "Oakville had no formal application on file, but industry interest (including a large AI facility discussion) was enough for Council to move in 24 hours.",
+      "result": "Carried unanimously to table / proceed with an ICBL as an urgent matter. Special Council set for August 11 to pass the by-law.",
+      "origin": "Hand-entered over the official August 10 Council agenda (item 13.4 Mayoral Direction – Data Centres).",
       "links": {
         "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=49b5ed3c-64bd-4642-b3b6-96fe2fd0790d",
-        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=49b5ed3c-64bd-4642-b3b6-96fe2fd0790d"
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=49b5ed3c-64bd-4642-b3b6-96fe2fd0790d",
+        "source": "https://www.oakville.ca/town-hall/news-notices/2026-news-releases-archive/oakville-council-approves-interim-control-by-law-to-support-further-study-related-to-data-centres/"
       },
       "keywordsMatched": [
-        "data centres",
-        "data centre"
+        "data centre",
+        "interim control"
       ],
+      "curated": true,
       "relevant": true,
-      "source": "escribe",
-      "curated": false,
+      "source": "curated",
       "matchKind": "exact"
     },
     {
@@ -5946,30 +6020,27 @@
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
       "body": "Special Council",
-      "title": "Special Council",
+      "title": "Interim control by-law on data centres — passed",
       "date": "2026-08-11",
       "time": "1:30 PM",
       "location": "Council Chamber",
       "status": "past",
-      "cancelled": false,
-      "issue": "ontrol By-law to prohibit the use of land, buildings or structures for the purpose of new data centres and similar facilities, of The Corporation of the Town of Oakville under Section 38 of the Planning Act, R.S.O. 1990, c. P. 13, as amended",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
+      "issue": "Special Council passed an ICBL under s. 38 of the Planning Act prohibiting new data centres, enterprise computing facilities, and similar high-intensity digital processing for one year (extendable to two) while staff study Official Plan and zoning rules.",
+      "why": "This is the first Ontario municipality to actually pass a data-centre ICBL — Mississauga has only directed staff to write one, and Hamilton defeated theirs.",
+      "result": "Carried unanimously. Oakville is the first town in Ontario to enact a data-centre ICBL. In effect immediately for one year.",
+      "origin": "Hand-entered over the official August 11 Special Council agenda and the Town’s August 11 news release.",
       "links": {
         "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=cec61113-728a-4887-b6ce-9811eaf5f151",
-        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=cec61113-728a-4887-b6ce-9811eaf5f151"
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=cec61113-728a-4887-b6ce-9811eaf5f151",
+        "source": "https://www.oakville.ca/town-hall/news-notices/2026-news-releases-archive/oakville-council-approves-interim-control-by-law-to-support-further-study-related-to-data-centres/"
       },
       "keywordsMatched": [
-        "data centres"
+        "data centre",
+        "interim control"
       ],
+      "curated": true,
       "relevant": true,
-      "source": "escribe",
-      "curated": false,
+      "source": "curated",
       "matchKind": "exact"
     }
   ]

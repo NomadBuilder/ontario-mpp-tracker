@@ -260,6 +260,11 @@ code { font-size: 0.85em; color: var(--yellow); }
   margin-bottom: 0.2rem;
 }
 .block p { font-size: 0.9rem; color: var(--muted); }
+.block.result p {
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
 
 .checks {
   display: flex;

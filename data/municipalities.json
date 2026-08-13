@@ -41,6 +41,7 @@
     {"id": "halton-region", "name": "Halton Region", "type": "halton", "calendarUrl": "https://www.halton.ca/the-region/regional-council-and-committees/calendars-and-schedules", "onbaseUrl": "https://edmweb.halton.ca/OnBaseAgendaOnline", "priority": "high"},
     {"id": "burlington", "name": "City of Burlington", "type": "gap", "calendarUrl": "https://events.burlington.ca/meetings", "priority": "medium", "note": "eScribe branded calendar subdomain"},
     {"id": "waterloo", "name": "City of Waterloo", "type": "gap", "calendarUrl": "https://www.waterloo.ca/council-and-committees/council-and-committee-meetings/", "priority": "medium", "note": "calendar.waterloo.ca is dead; official page plus events.waterloo.ca"},
-    {"id": "windsor", "name": "City of Windsor", "type": "gap", "calendarUrl": "https://www.citywindsor.ca/city-hall/city-council-meetings", "priority": "medium"}
+    {"id": "windsor", "name": "City of Windsor", "type": "gap", "calendarUrl": "https://www.citywindsor.ca/city-hall/city-council-meetings", "priority": "medium"},
+    {"id": "saultstemarie", "name": "City of Sault Ste. Marie", "type": "gap", "calendarUrl": "https://saultstemarie.ca/government/city-council/council-agendas-minutes-and-schedule/", "priority": "high", "note": "Not auto-scanned yet — ICBL votes are hand-entered"}
   ]
 }
