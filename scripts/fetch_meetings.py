@@ -500,13 +500,32 @@ def scrape_halton(portal: dict, horizon: date, inspect_all: bool) -> list[dict]:
         site,
         re.I,
     )
-    for title in re.findall(r'class="event-title">([^<]+)</div>', site):
-        title = htmlmod.unescape(title).strip()
+    titles = [
+        htmlmod.unescape(t).strip()
+        for t in re.findall(r'class="event-title">([^<]+)</div>', site)
+    ]
+    # Pair by page order when counts match. Never fall back to the first
+    # unrelated event URL — that shipped a Nov 4 link on the Dec 9 card.
+    if len(titles) == len(event_urls):
+        pairs = list(zip(titles, event_urls))
+    else:
+        pairs = []
+        for title in titles:
+            day, _ = parse_when(title)
+            href = ""
+            if day:
+                try:
+                    d = date.fromisoformat(day)
+                    slug = f"{d.strftime('%B').lower()}-{d.day},-{d.year}"
+                    href = next((u for u in event_urls if slug in u.lower()), "")
+                except ValueError:
+                    href = ""
+            pairs.append((title, href or (portal.get("calendarUrl") or "")))
+    for title, href in pairs:
         day, _ = parse_when(title)
         if not day:
             continue
         slug = re.sub(r"[^a-z0-9]+", "-", title.lower())[:48]
-        href = next((u for u in event_urls if day in u or slug[:20] in u.lower()), event_urls[0] if event_urls else portal.get("calendarUrl"))
         if slug in seen:
             continue
         seen.add(slug)
@@ -605,8 +624,9 @@ def scrape_toronto(portal: dict, horizon: date, inspect_all: bool) -> list[dict]
     return items_from_raw(portal, raw, horizon, inspect_all=False, source="tmmis")
 
 
-# Official 2026 schedule (events.ajax.ca calendar currently errors). Refresh from
-# https://ajax.ca/wp-content/uploads/2026/05/2026-Meeting-Schedule.pdf
+# Official 2026 schedule (events.ajax.ca/meetings currently returns an Error page).
+# Refresh from https://ajax.ca/wp-content/uploads/2026/05/2026-Meeting-Schedule.pdf
+# ajax.ca/meetings redirects to the live Power Apps public-meetings portal.
 AJAX_SCHEDULE = [
     ("2026-09-08", "1:00 PM", "Community Affairs and Planning Committee"),
     ("2026-09-14", "1:00 PM", "General Government Committee"),
@@ -618,7 +638,7 @@ AJAX_SCHEDULE = [
 
 
 def scrape_ajax(portal: dict, horizon: date, inspect_all: bool) -> list[dict]:
-    cal = portal.get("calendarUrl") or "https://events.ajax.ca/meetings"
+    cal = portal.get("calendarUrl") or "https://ajax.ca/meetings"
     html = fetch(cal, timeout=20) or ""
     if html and "complication" not in html.lower() and "/meetings/Detail/" in html:
         return scrape_civicplus({**portal, "calendarUrl": cal}, horizon, inspect_all)
@@ -777,6 +797,69 @@ def items_from_raw(
     return items
 
 
+def probe_url(url: str, timeout: int = 14) -> tuple[int, str]:
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": UA, "Accept": "text/html,*/*", "Accept-Language": "en-CA,en;q=0.9"},
+    )
+    try:
+        with urllib.request.urlopen(req, context=CTX, timeout=timeout) as resp:
+            return resp.status, resp.geturl()
+    except urllib.error.HTTPError as e:
+        return e.code, str(e.reason or "")
+    except Exception as e:  # noqa: BLE001
+        return 0, type(e).__name__
+
+
+def needs_live_check(url: str) -> bool:
+    # eScribe Meeting.aspx?Id=<uuid> is built from the city's own calendar API.
+    # The York-class 404s were city website / news / mismatched event URLs.
+    if re.search(r"escribemeetings\.com/Meeting\.aspx\?Id=", url, re.I):
+        return False
+    return bool(url) and url.startswith("http")
+
+
+def verify_outbound_links(items: list[dict], portals: list[dict]) -> None:
+    fallback = {p["id"]: (p.get("calendarUrl") or p.get("base") or "") for p in portals}
+    urls: dict[str, list[tuple[dict | None, str]]] = {}
+
+    def add(url: str, item: dict | None, key: str) -> None:
+        if needs_live_check(url):
+            urls.setdefault(url, []).append((item, key))
+
+    for it in items:
+        for key, val in (it.get("links") or {}).items():
+            if isinstance(val, str):
+                add(val, it, key)
+    for p in portals:
+        for key in ("base", "calendarUrl", "onbaseUrl", "scheduleUrl"):
+            add(p.get(key) or "", None, f"portal:{p.get('id')}:{key}")
+
+    print(f"Checking {len(urls)} non-eScribe outbound links…", flush=True)
+    broken = 0
+    for url, refs in urls.items():
+        code, detail = probe_url(url)
+        if code in (200, 301, 302, 403):
+            continue
+        if code == 0:
+            print(f"  warn {detail} {url}", flush=True)
+            continue
+        broken += 1
+        print(f"  broken {code} {url}", flush=True)
+        for it, key in refs:
+            if it is None:
+                continue
+            fb = fallback.get(it.get("municipalityId") or "")
+            if key == "meeting" and fb and fb != url:
+                it["links"][key] = fb
+                print(f"    replaced meeting on {it.get('id')} → {fb}", flush=True)
+            elif key != "meeting":
+                it["links"].pop(key, None)
+                print(f"    dropped {key} on {it.get('id')}", flush=True)
+    if not broken:
+        print("  all checked links returned live", flush=True)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--priority", default="all", help="all | high | medium (includes high)")
@@ -846,6 +929,7 @@ def main() -> int:
         return (upcoming, it.get("date") or "9999", it.get("municipality") or "")
 
     merged.sort(key=sort_key)
+    verify_outbound_links(merged, portals)
 
     payload = {
         "asOf": datetime.now(timezone.utc).date().isoformat(),

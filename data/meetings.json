@@ -116,8 +116,8 @@
       "type": "ajax",
       "ok": true,
       "meetings": 4,
-      "calendarUrl": "https://events.ajax.ca/meetings",
-      "note": "CivicPlus calendar currently errors; fall back to published 2026 schedule PDF"
+      "calendarUrl": "https://ajax.ca/meetings",
+      "note": "events.ajax.ca/meetings currently shows an error page; cards use ajax.ca/meetings (Power Apps portal) and the 2026 schedule PDF"
     },
     {
       "id": "newmarket",
@@ -5543,8 +5543,8 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://www.halton.ca/the-region/events/2026/halton-regional-council-november-4,-2026",
-        "agenda": "https://www.halton.ca/the-region/events/2026/halton-regional-council-november-4,-2026"
+        "meeting": "https://www.halton.ca/the-region/events/2026/inaugural-meeting-of-2026-2030-council-december-9,-2026",
+        "agenda": "https://www.halton.ca/the-region/events/2026/inaugural-meeting-of-2026-2030-council-december-9,-2026"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -5832,7 +5832,7 @@
       },
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/",
-        "source": "https://www.nationalobserver.com/2026/07/10/news/mississauga-data-centre-proposal-pushback"
+        "source": "https://www.cbc.ca/news/canada/toronto/mississauga-councillors-want-to-pause-data-centre-builds-for-a-year-here-s-why-9.7293344"
       },
       "origin": "Hand-entered from news coverage. It will not appear as its own row on Mississauga’s calendar until staff put Prologis or an interim control on an agenda.",
       "keywordsMatched": [
@@ -5883,21 +5883,22 @@
       "body": "City Council",
       "title": "Interim control by-law on data centres — final vote",
       "date": "2026-07-15",
-      "time": "",
+      "time": "9:30 AM",
       "location": "Council Chambers, Hamilton City Hall",
       "status": "past",
-      "issue": "Council considered a final vote on an interim control by-law pausing new data-centre approvals while staff study land-use, energy, and water impacts.",
+      "issue": "Council voted on bill 26-127, an interim control by-law pausing new AI data-centre approvals in industrial zones while staff study land-use, energy, and water impacts.",
       "why": "A pause at the municipal level is one of the few tools communities have while provincial grid-connection rules (Bill 40) are still undefined.",
-      "result": "Reported as approved 15–1 in coverage of the July 15, 2026 meeting. Confirm against official minutes.",
+      "result": "Defeated 10–6 on July 15, 2026. The June 24 15–1 vote only directed staff to draft the by-law — it was not the final decision. Confirm against official minutes.",
       "participate": {
         "attend": true,
         "deputations": true,
         "notes": "Meeting has occurred — use minutes / video to brief the next round."
       },
-      "origin": "Hand-entered from July 15, 2026 City Council coverage. Confirm the recorded vote in Hamilton’s official minutes.",
+      "origin": "Hand-entered from the July 15, 2026 City Council agenda (CS26006 / bill 26-127) and news coverage of the recorded vote.",
       "links": {
-        "meeting": "https://pub-hamilton.escribemeetings.com/",
-        "source": "https://www.nationalobserver.com/2026/07/10/news/mississauga-data-centre-proposal-pushback"
+        "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=f08c1a2f-b7ad-4f67-96ed-458d2c5964fb",
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=f08c1a2f-b7ad-4f67-96ed-458d2c5964fb",
+        "source": "https://www.cp24.com/local/hamilton/2026/07/15/hamilton-city-council-rejects-one-year-pause-on-ai-data-centres/"
       },
       "keywordsMatched": [
         "data centre",
