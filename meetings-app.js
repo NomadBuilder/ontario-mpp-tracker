@@ -57,12 +57,11 @@
       kind === "exact" ? `<span class="badge flag">Data centre</span>` : "",
       kind === "broad" ? `<span class="badge flag">Related</span>` : "",
       !kind && item.status !== "past" && item.status !== "watch" ? `<span class="badge">Scan agenda</span>` : "",
-      item.curated ? `<span class="badge">Hand-entered</span>` : "",
     ].filter(Boolean).join("");
     const mark = statusMark(item);
     const origin = item.curated
-      ? (item.origin || "Hand-entered from news or minutes — not copied as a fake calendar row. Use the official city link.")
-      : "Pulled from this municipality’s public meeting calendar. Open the official agenda to verify.";
+      ? (item.origin || "We wrote this from the official agenda and news coverage. The yellow button is the city’s page.")
+      : "Copied from this municipality’s public meeting calendar. Open the official agenda to verify.";
     const links = item.links || {};
     const officialLabel = item.curated
       ? (item.status === "watch" ? "Open city’s meeting calendar" : "Open official calendar")
