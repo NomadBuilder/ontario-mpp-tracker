@@ -205,6 +205,9 @@ code { font-size: 0.85em; color: var(--yellow); }
   letter-spacing: 0.06em;
 }
 .badge.flag { border-color: rgba(125, 206, 160, 0.5); color: var(--ok); }
+.badge.water { border-color: rgba(110, 180, 220, 0.55); color: #8ec8e8; }
+.item.flagged:has(.badge.water) { --accent: #6eb4dc; }
+
 
 .place {
   font-family: var(--display);

@@ -88,8 +88,43 @@ BROAD_KEYWORDS = [
     r"amazon web services",
     r"\bmicrosoft azure\b",
 ]
-KEYWORD_RE = re.compile("|".join(EXACT_KEYWORDS + BROAD_KEYWORDS), re.I)
-EXACT_RE = re.compile("|".join(EXACT_KEYWORDS), re.I)
+WATER_EXACT_KEYWORDS = [
+    r"water[\s-]?privatiz",
+    r"privatiz\w{0,12}\s+(?:of\s+)?(?:the\s+)?water",
+    r"private[\s-]?sector\s+water",
+    r"sell(?:ing)?\s+(?:the\s+)?(?:city'?s\s+|municipal\s+)?water\s+(?:utility|system|works|service)",
+    r"sale\s+of\s+(?:the\s+)?(?:city'?s\s+|municipal\s+)?water\s+(?:utility|system|works|service)",
+    r"private\s+water\s+(?:utility|company|operator|provider)",
+]
+WATER_BROAD_KEYWORDS = [
+    r"water\s+utility\s+(?:sale|sell|privat|concession|franchise|transfer)",
+    r"(?:P3|PPP|public[\s-]private)\s+.{0,20}water",
+    r"water\s+.{0,20}(?:P3|PPP|public[\s-]private)",
+    r"outsourc\w*\s+water\s+servic",
+    r"water\s+servic\w*\s+outsourc",
+    r"private\s+operator.{0,40}water",
+    r"water.{0,40}private\s+operator",
+    r"\bveolia\b",
+    r"\bsuez\b.{0,30}water",
+    r"american\s+water\s+(?:works|company)",
+    r"\bepcor\b",
+    r"waterworks\s+(?:sale|privat|concession|transfer)",
+    r"corporatiz\w*\s+water",
+    r"water\s+corporatiz",
+    r"concession\s+agreement.{0,40}water",
+    r"water.{0,40}concession\s+agreement",
+    r"bulk\s+water\s+(?:sale|export|agreement)",
+    r"water\s+franchise",
+]
+DC_RE = re.compile("|".join(EXACT_KEYWORDS + BROAD_KEYWORDS), re.I)
+DC_EXACT_RE = re.compile("|".join(EXACT_KEYWORDS), re.I)
+WATER_RE = re.compile("|".join(WATER_EXACT_KEYWORDS + WATER_BROAD_KEYWORDS), re.I)
+WATER_EXACT_RE = re.compile("|".join(WATER_EXACT_KEYWORDS), re.I)
+KEYWORD_RE = re.compile(
+    "|".join(EXACT_KEYWORDS + BROAD_KEYWORDS + WATER_EXACT_KEYWORDS + WATER_BROAD_KEYWORDS),
+    re.I,
+)
+EXACT_RE = DC_EXACT_RE  # backward-compatible alias used in curated merge
 
 DECISION_BODY = re.compile(
     r"council|planning|committee of the whole|committee of adjustment|"
@@ -319,11 +354,41 @@ def participation_from_text(text: str) -> dict:
     }
 
 
-def why_for(keywords: list[str]) -> str:
+def classify_topics(blob: str, keywords: list[str] | None = None) -> dict[str, str]:
+    """Return {topic: 'exact'|'broad'} for datacentre and water privatization hits."""
+    text = blob or ""
+    keys = " ".join(keywords or [])
+    combined = f"{text} {keys}"
+    topics: dict[str, str] = {}
+    if DC_RE.search(combined):
+        topics["datacentre"] = (
+            "exact" if DC_EXACT_RE.search(combined) or any(DC_EXACT_RE.search(k) for k in (keywords or [])) else "broad"
+        )
+    if WATER_RE.search(combined):
+        topics["water"] = (
+            "exact"
+            if WATER_EXACT_RE.search(combined) or any(WATER_EXACT_RE.search(k) for k in (keywords or []))
+            else "broad"
+        )
+    return topics
+
+
+def why_for(keywords: list[str], topics: dict[str, str] | None = None) -> str:
+    topics = topics or {}
     if any("interim control" in k.lower() for k in keywords):
         return "An interim control by-law can pause approvals while staff study power, water, and land-use impacts."
     if any("prologis" in k.lower() for k in keywords):
         return "Data-centre-ready industrial campuses can lock in huge electricity and water demand before an operator is named."
+    if topics.get("water") and not topics.get("datacentre"):
+        return (
+            "Privatizing or outsourcing municipal water can lock residents into private operators and weaker public control — "
+            "show up before the vote if you want deputations on the record."
+        )
+    if topics.get("water") and topics.get("datacentre"):
+        return (
+            "Data-centre and water decisions often travel together — huge new loads on the public system, "
+            "or pressure to contract out utilities. Show up before the vote."
+        )
     return (
         "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — "
         "show up before the vote if you want deputations on the record."
@@ -830,10 +895,15 @@ def items_from_raw(
             k = m.group(0).lower()
             if k not in keywords:
                 keywords.append(k)
-        relevant = bool(keywords or snippets or hit_title)
-        match_kind = ""
-        if relevant:
-            match_kind = "exact" if EXACT_RE.search(blob) or any(EXACT_RE.search(k) for k in keywords) else "broad"
+        topics = classify_topics(blob, keywords)
+        if snippets and not topics:
+            # Snippet extractor only runs on keyword hits, so topics should usually be set;
+            # keep a datacentre broad fallback if somehow only snippets fired.
+            topics = classify_topics(" ".join(snippets), keywords)
+        relevant = bool(topics or snippets or hit_title)
+        if relevant and not topics and hit_title:
+            topics = classify_topics(mtg["body"] + " " + (mtg.get("label") or ""), keywords)
+        match_kind = topics.get("datacentre") or ""
         if not relevant and not decision:
             continue
         status = "upcoming"
@@ -848,7 +918,10 @@ def items_from_raw(
         if snippets:
             issue = snippets[0]
         elif relevant:
-            issue = f"Agenda or title flagged for: {', '.join(keywords) or 'data centre terms'}."
+            label = ", ".join(keywords) or (
+                "water privatization terms" if topics.get("water") and not topics.get("datacentre") else "watch terms"
+            )
+            issue = f"Agenda or title flagged for: {label}."
         elif decision:
             # Keep a thin 'scan' card only for upcoming decision bodies with no keyword hit
             if status != "upcoming":
@@ -881,7 +954,7 @@ def items_from_raw(
                 "status": status,
                 "cancelled": mtg["cancelled"],
                 "issue": issue,
-                "why": why_for(keywords) if relevant else "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+                "why": why_for(keywords, topics) if relevant else "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
                 "participate": part,
                 "links": {
                     "meeting": mtg["url"],
@@ -890,12 +963,12 @@ def items_from_raw(
                 "keywordsMatched": keywords,
                 "relevant": relevant,
                 "matchKind": match_kind,
+                "topics": topics,
                 "source": source,
                 "curated": False,
             }
         )
     return items
-
 
 def probe_url(url: str, timeout: int = 14) -> tuple[int, str]:
     req = urllib.request.Request(
@@ -1019,9 +1092,24 @@ def main() -> int:
         it.setdefault("relevant", True)
         it.setdefault("source", "curated")
         it.setdefault("title", it.get("body") or it.get("title"))
-        blob = " ".join([it.get("title") or "", it.get("issue") or "", " ".join(it.get("keywordsMatched") or [])])
+        blob = " ".join(
+            [
+                it.get("title") or "",
+                it.get("issue") or "",
+                it.get("why") or "",
+                it.get("result") or "",
+                " ".join(it.get("keywordsMatched") or []),
+            ]
+        )
+        topics = it.get("topics") if isinstance(it.get("topics"), dict) else None
+        if not topics:
+            topics = classify_topics(blob, list(it.get("keywordsMatched") or []))
+            # Curated ICBL / data-centre votes without literal keywords still count as datacentre.
+            if not topics and it.get("relevant"):
+                topics = {"datacentre": "exact" if DC_EXACT_RE.search(blob) else "broad"}
+            it["topics"] = topics
         if not it.get("matchKind"):
-            it["matchKind"] = "exact" if EXACT_RE.search(blob) else "broad"
+            it["matchKind"] = topics.get("datacentre") or ("exact" if DC_EXACT_RE.search(blob) else "broad")
 
     merged = merge_items(curated, scraped)
 
@@ -1036,7 +1124,7 @@ def main() -> int:
         "asOf": datetime.now(timezone.utc).date().isoformat(),
         "note": (
             "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. "
-            "Keyword hits are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. "
+            "Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. "
             "Not every Ontario municipality is covered yet — see coverage[]."
         ),
         "coverage": coverage,

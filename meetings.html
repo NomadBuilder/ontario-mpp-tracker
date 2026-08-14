@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="meetings.css?v=13">
+  <link rel="stylesheet" href="meetings.css?v=14">
   <link rel="stylesheet" href="nav.css?v=2">
 </head>
 <body>
@@ -49,9 +49,11 @@
         <input id="q" type="search" placeholder="City, committee, or keyword…" autocomplete="off" title="Search city, committee, or a word in the agenda snippet.">
         <label class="sr" for="when">When</label>
         <select id="when" aria-describedby="filter-hint">
-          <option value="upcoming" title="Every upcoming council and planning meeting we found. Green cards matched data-centre language.">All upcoming</option>
+          <option value="upcoming" title="Every upcoming council and planning meeting we found. Green cards matched data-centre or water-privatization language.">All upcoming</option>
           <option value="exact" title="Agenda or title literally says data centre / data center / datacentre.">Data centres — exact</option>
           <option value="broad" title="Exact matches plus related terms: hyperscale, colocation, AI campus, named operators, large-load / IESO connection, crypto mining.">Data centres — broad</option>
+          <option value="water" title="Agenda or title flags water privatization / selling or outsourcing the municipal water system.">Water privatization</option>
+          <option value="water-broad" title="Water privatization plus related terms: P3/PPP water, private operator, Veolia, EPCOR, bulk water sale, water franchise.">Water — broad</option>
           <option value="past" title="Meetings that already happened, including recorded votes when we have them.">Past votes</option>
           <option value="all" title="Upcoming, watch list, and past together.">Everything</option>
         </select>
@@ -74,15 +76,17 @@
       <ol class="how">
         <li>Twice a day we open each place’s <strong>public meeting calendar</strong> — the same one the clerk posts for residents.</li>
         <li>We list upcoming council, planning, and committee meetings so people can show up or request a deputation.</li>
-        <li>When an agenda is posted, we read it for data-centre language and related terms, then mark those cards green.</li>
+        <li>When an agenda is posted, we read it for data-centre and water-privatization language (and related terms), then mark those cards.</li>
         <li>Every card links back to the official agenda. This is a heads-up, not a replacement for the municipality’s site.</li>
       </ol>
-      <h2>What “exact” and “broad” mean</h2>
+      <h2>What the filters mean</h2>
       <ul class="plain">
-        <li><strong>Exact</strong> — the agenda or title actually says data centre / data center / datacentre.</li>
-        <li><strong>Broad</strong> — that, plus things cities often use instead: hyperscale, colocation, AI campus, named operators (Equinix, Prologis, and others), large-load or IESO connection studies, crypto mining.</li>
+        <li><strong>Data centres — exact</strong> — the agenda or title actually says data centre / data center / datacentre.</li>
+        <li><strong>Data centres — broad</strong> — that, plus hyperscale, colocation, AI campus, named operators, large-load / IESO connection, crypto mining.</li>
+        <li><strong>Water privatization</strong> — selling, privatizing, or handing the municipal water system to a private operator.</li>
+        <li><strong>Water — broad</strong> — that, plus P3/PPP water deals, outsourcing water services, Veolia / EPCOR / similar, bulk water sales, water franchises.</li>
       </ul>
-      <p class="note">We match words on the page. A rezoning that never uses any of that language will stay a plain “scan agenda” card until someone reads it.</p>
+      <p class="note">We match words on the page. A rezoning or utility file that never uses any of that language will stay a plain “scan agenda” card until someone reads it.</p>
       <h2>How often</h2>
       <p>About <strong>9:15am and 9:15pm Eastern</strong>, every day. Places marked “checked twice a day” are in that round. Others are on our list but not in the automatic pass yet.</p>
       <h2>Calendars we look at</h2>
@@ -98,6 +102,6 @@
   </footer>
 
   <script src="nav.js"></script>
-  <script src="meetings-app.js?v=14"></script>
+  <script src="meetings-app.js?v=15"></script>
 </body>
 </html>

@@ -45,18 +45,52 @@
     return `<div class="checks">${bits.join("")}</div>${p.notes ? `<p class="block"><span style="color:var(--dim)">${escapeHtml(p.notes)}</span></p>` : ""}`;
   }
 
+  function topicMap(item) {
+    if (item.topics && typeof item.topics === "object") return item.topics;
+    const blob = [item.title, item.body, item.issue, item.why, item.result, ...(item.keywordsMatched || [])]
+      .join(" ")
+      .toLowerCase();
+    const topics = {};
+    if (/data[\s-]?cent(?:re|er)|datacent(?:re|er)/.test(blob)) topics.datacentre = "exact";
+    else if (item.matchKind === "exact" || item.matchKind === "broad") topics.datacentre = item.matchKind;
+    else if (
+      item.relevant &&
+      !/water[\s-]?privat|privatiz\w*.*\bwater|private\s+water|veolia|\bepcor\b|bulk\s+water/.test(blob)
+    ) {
+      topics.datacentre = "broad";
+    }
+    if (
+      /water[\s-]?privat|privatiz\w*.{0,20}\bwater|private[\s-]?sector\s+water|private\s+water\s+(?:utility|company|operator)|sell(?:ing)?\s+.{0,20}water\s+(?:utility|system)|sale\s+of\s+.{0,20}water\s+(?:utility|system)/.test(
+        blob
+      )
+    ) {
+      topics.water = "exact";
+    } else if (
+      /(?:P3|PPP|public[\s-]private).{0,20}water|water.{0,20}(?:P3|PPP)|outsourc\w*\s+water|veolia|\bepcor\b|bulk\s+water\s+(?:sale|export)|water\s+franchise|waterworks\s+(?:sale|privat)|american\s+water/.test(
+        blob
+      )
+    ) {
+      topics.water = "broad";
+    }
+    return topics;
+  }
+
   function itemHtml(item, i) {
-    const flagged = !!item.relevant || !!matchKind(item);
+    const topics = topicMap(item);
+    const flagged = !!item.relevant || !!topics.datacentre || !!topics.water;
     const cls = [
       flagged ? "flagged" : "",
       item.status === "past" ? "past" : "",
       item.status === "watch" ? "watch" : "",
     ].filter(Boolean).join(" ");
-    const kind = matchKind(item);
     const extra = [
-      kind === "exact" ? `<span class="badge flag">Data centre</span>` : "",
-      kind === "broad" ? `<span class="badge flag">Related</span>` : "",
-      !kind && item.status !== "past" && item.status !== "watch" ? `<span class="badge">Scan agenda</span>` : "",
+      topics.datacentre === "exact" ? `<span class="badge flag">Data centre</span>` : "",
+      topics.datacentre === "broad" ? `<span class="badge flag">DC related</span>` : "",
+      topics.water === "exact" ? `<span class="badge water">Water privatization</span>` : "",
+      topics.water === "broad" ? `<span class="badge water">Water related</span>` : "",
+      !topics.datacentre && !topics.water && item.status !== "past" && item.status !== "watch"
+        ? `<span class="badge">Scan agenda</span>`
+        : "",
     ].filter(Boolean).join("");
     const mark = statusMark(item);
     const links = item.links || {};
@@ -96,39 +130,44 @@
   }
 
   function matchKind(item) {
-    if (item.matchKind === "exact" || item.matchKind === "broad") return item.matchKind;
-    const blob = [item.title, item.body, item.issue, ...(item.keywordsMatched || [])].join(" ").toLowerCase();
-    if (/data[\s-]?cent(?:re|er)|datacent(?:re|er)/.test(blob)) return "exact";
-    if (item.relevant) return "broad";
-    return "";
+    return topicMap(item).datacentre || "";
   }
 
   function countLine(list, when) {
     const all = payload.items || [];
-    const exactAll = all.filter((it) => matchKind(it) === "exact");
-    const exactAhead = exactAll.filter((it) => ["upcoming", "watch"].includes(it.status)).length;
-    const exactPast = exactAll.filter((it) => it.status === "past").length;
-    const relatedAhead = all.filter((it) => matchKind(it) === "broad" && ["upcoming", "watch"].includes(it.status)).length;
+    const dcAll = all.filter((it) => topicMap(it).datacentre);
+    const dcAhead = dcAll.filter((it) => ["upcoming", "watch"].includes(it.status)).length;
+    const dcPast = dcAll.filter((it) => it.status === "past").length;
+    const waterAll = all.filter((it) => topicMap(it).water);
+    const waterAhead = waterAll.filter((it) => ["upcoming", "watch"].includes(it.status)).length;
     const asOf = payload.asOf || "—";
     if (when === "upcoming") {
-      return `${list.length} upcoming · ${exactAhead} data-centre still ahead · ${exactPast} already happened · updated ${asOf}`;
+      return `${list.length} upcoming · ${dcAhead} data-centre · ${waterAhead} water · updated ${asOf}`;
     }
     if (when === "exact") {
-      return `${list.length} with “data centre” in the agenda · ${exactAhead} upcoming · ${exactPast} past · updated ${asOf}`;
+      return `${list.length} with “data centre” in the agenda · updated ${asOf}`;
     }
     if (when === "broad") {
-      return `${list.length} exact + related · ${exactAhead + relatedAhead} upcoming · updated ${asOf}`;
+      return `${list.length} data-centre exact + related · updated ${asOf}`;
+    }
+    if (when === "water") {
+      return `${list.length} water privatization · ${waterAhead} upcoming · updated ${asOf}`;
+    }
+    if (when === "water-broad") {
+      return `${list.length} water exact + related · updated ${asOf}`;
     }
     if (when === "past") {
-      return `${list.length} past meetings · ${exactPast} data-centre · updated ${asOf}`;
+      return `${list.length} past meetings · ${dcPast} data-centre · updated ${asOf}`;
     }
-    return `${list.length} meetings · ${exactAll.length} data-centre · updated ${asOf}`;
+    return `${list.length} meetings · ${dcAll.length} data-centre · ${waterAll.length} water · updated ${asOf}`;
   }
 
   const HINTS = {
-    upcoming: "Every upcoming council and planning meeting we found. Green cards matched data-centre language.",
+    upcoming: "Every upcoming council and planning meeting we found. Flagged cards matched data-centre or water-privatization language.",
     exact: "Only items whose agenda or title literally says data centre, data center, or datacentre.",
     broad: "Exact matches plus related terms — hyperscale, colocation, AI campus, named operators, large-load / IESO connection, crypto mining.",
+    water: "Items that flag privatizing, selling, or handing municipal water to a private operator.",
+    "water-broad": "Water privatization plus P3/PPP water, outsourcing, Veolia/EPCOR-style operators, bulk water sales, franchises.",
     past: "Meetings that already happened, including recorded votes when we have them.",
     all: "Upcoming, watch list, and past together.",
   };
@@ -146,8 +185,11 @@
     return (payload.items || []).filter((it) => {
       if (place && it.municipalityId !== place && it.municipality !== place) return false;
       if (when === "upcoming" && !["upcoming", "watch"].includes(it.status)) return false;
-      if (when === "exact" && matchKind(it) !== "exact") return false;
-      if (when === "broad" && !["exact", "broad"].includes(matchKind(it))) return false;
+      const topics = topicMap(it);
+      if (when === "exact" && topics.datacentre !== "exact") return false;
+      if (when === "broad" && !["exact", "broad"].includes(topics.datacentre)) return false;
+      if (when === "water" && topics.water !== "exact") return false;
+      if (when === "water-broad" && !["exact", "broad"].includes(topics.water)) return false;
       if (when === "past" && it.status !== "past") return false;
       if (!q) return true;
       const blob = [it.municipality, it.body, it.title, it.issue, it.why, it.result, ...(it.keywordsMatched || [])]
@@ -157,7 +199,9 @@
     }).sort((a, b) => {
       const r = rank(a) - rank(b);
       if (r) return r;
-      const flag = Number(!!b.relevant) - Number(!!a.relevant);
+      const ta = topicMap(a);
+      const tb = topicMap(b);
+      const flag = Number(!!(tb.datacentre || tb.water || b.relevant)) - Number(!!(ta.datacentre || ta.water || a.relevant));
       if (flag) return flag;
       return (a.date || "9999").localeCompare(b.date || "9999") || (a.municipality || "").localeCompare(b.municipality || "");
     });
