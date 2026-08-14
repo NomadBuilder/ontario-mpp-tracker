@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-13",
+  "asOf": "2026-08-14",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 29,
+      "meetings": 28,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -138,13 +138,49 @@
       "note": ""
     },
     {
+      "id": "london",
+      "name": "City of London",
+      "type": "escribe",
+      "ok": true,
+      "meetings": 1,
+      "calendarUrl": "https://pub-london.escribemeetings.com",
+      "note": ""
+    },
+    {
+      "id": "brantford",
+      "name": "City of Brantford",
+      "type": "escribe",
+      "ok": true,
+      "meetings": 9,
+      "calendarUrl": "https://pub-brantford.escribemeetings.com",
+      "note": ""
+    },
+    {
+      "id": "stthomas",
+      "name": "City of St. Thomas",
+      "type": "escribe",
+      "ok": true,
+      "meetings": 0,
+      "calendarUrl": "https://pub-stthomas.escribemeetings.com",
+      "note": ""
+    },
+    {
+      "id": "stratford",
+      "name": "City of Stratford",
+      "type": "escribe",
+      "ok": true,
+      "meetings": 6,
+      "calendarUrl": "https://pub-stratford.escribemeetings.com",
+      "note": ""
+    },
+    {
       "id": "toronto",
       "name": "City of Toronto",
       "type": "tmmis",
       "ok": true,
       "meetings": 0,
       "calendarUrl": "https://www.toronto.ca/city-government/council/council-committee-meetings/",
-      "note": "TMMIS open data — keyword hits only; title-only City Council scans skipped (live calendar titles diverge)"
+      "note": "TMMIS open-data schedule only — agendas are behind login/403, so we skip title-only scan cards (open data often says “City Council” while the live calendar shows a special session). Add curated watches for known Toronto data-centre items."
     },
     {
       "id": "york-region",
@@ -190,74 +226,9 @@
       "meetings": 0,
       "calendarUrl": "https://saultstemarie.ca/government/city-council/council-agendas-minutes-and-schedule/",
       "note": "Not auto-scanned yet — ICBL votes are hand-entered"
-    },
-    {
-      "id": "london",
-      "name": "City of London",
-      "type": "escribe",
-      "ok": true,
-      "meetings": 1,
-      "calendarUrl": "https://pub-london.escribemeetings.com",
-      "note": ""
-    },
-    {
-      "id": "brantford",
-      "name": "City of Brantford",
-      "type": "escribe",
-      "ok": true,
-      "meetings": 9,
-      "calendarUrl": "https://pub-brantford.escribemeetings.com",
-      "note": ""
-    },
-    {
-      "id": "stthomas",
-      "name": "City of St. Thomas",
-      "type": "escribe",
-      "ok": true,
-      "meetings": 0,
-      "calendarUrl": "https://pub-stthomas.escribemeetings.com",
-      "note": "Calendar is live; no upcoming council/planning sitting posted in the next 120 days"
-    },
-    {
-      "id": "stratford",
-      "name": "City of Stratford",
-      "type": "escribe",
-      "ok": true,
-      "meetings": 6,
-      "calendarUrl": "https://pub-stratford.escribemeetings.com",
-      "note": ""
     }
   ],
   "items": [
-    {
-      "id": "mississauga-17ff25c2-50a3-47",
-      "municipality": "City of Mississauga",
-      "municipalityId": "mississauga",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-08-13",
-      "time": "1:00 PM",
-      "location": "Council Chambers, Civic Centre, 2nd Floor",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=17ff25c2-50a3-472d-b6f6-5e0ac46db019",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=17ff25c2-50a3-472d-b6f6-5e0ac46db019"
-      },
-      "keywordsMatched": [],
-      "relevant": false,
-      "matchKind": "",
-      "source": "escribe",
-      "curated": false
-    },
     {
       "id": "ottawa-90ac1b7f-c5e0-41",
       "municipality": "City of Ottawa",
@@ -433,13 +404,13 @@
       "curated": false
     },
     {
-      "id": "mississauga-a4234e67-6396-41",
+      "id": "mississauga-2d5dff8a-9635-40",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
       "body": "Committee of Adjustment",
       "title": "Committee of Adjustment",
       "date": "2026-08-20",
-      "time": "3:30 PM",
+      "time": "1:00 PM",
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
@@ -452,8 +423,8 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=a4234e67-6396-4193-bd34-f744586762bd",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=a4234e67-6396-4193-bd34-f744586762bd"
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=2d5dff8a-9635-4092-8c66-54f18ccc0cae",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=2d5dff8a-9635-4092-8c66-54f18ccc0cae"
       },
       "keywordsMatched": [],
       "relevant": false,

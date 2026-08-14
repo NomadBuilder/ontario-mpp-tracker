@@ -1,7 +1,33 @@
 {
-  "asOf": "2026-08-13",
+  "asOf": "2026-08-14",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-mike-harris-early-assessment-of-wildfire-property-damage-und-2026-08-13",
+      "mppNames": [
+        "Mike Harris"
+      ],
+      "title": "Early assessment of wildfire property damage underway in northwestern Ontario - Your Sunset Country",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQkN2ZWZsSGJLZ3ZiTkY5Wm80SmRjcjFxeGJEY21vNmtkNWt6em1yY0NISWFuQTlxZlA5MDBJX1l4R3VfMG12RE5lSGc5UEF4UEtBeXpwVUl6UnRCMUlWWVplS2xJQlNPS2R1VXNtUjBnWUJwMkxOd2RnLXp1NXMwWFl6Tno5TXFIcl9hZUFHVUVHY0E1c0ozenVrTUxmRG9oTlhJRmpPZkswYUU?oc=5",
+      "source": "Your Sunset Country",
+      "date": "2026-08-13",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-it-s-politics-premier-ford-responds-to-allegatio-2026-08-13",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "‘It’s politics’: Premier Ford responds to allegations of spying on Bonnie Crombie - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON3dtQzVSbV9EdVR0VGRWdnZRVXVfcVY0ZXJNY1pGT3BHbkMtZmNNRnZrejI0T2dESjRaR3dYUjNyQVZHVlVva1dwQmNxNVVENmZYUExXUDdqUElSYTBqWHFncTJPTmY3aUdlMmltSVhKaXJNeUhaM3NOMERZMXFvaGQ4a1I5UDVRb0dJLTNITHpna2laYlV4SnZTTE8tNGhlU1FB?oc=5",
+      "source": "Global News",
+      "date": "2026-08-13",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-amarjot-sandhu-brampton-west-pc-mpp-amarjot-sandhu-billed-taxpa-2026-07-29",
       "mppNames": [
@@ -1564,32 +1590,6 @@
       "source": "OrilliaMatters.com",
       "date": "2026-05-04",
       "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-victor-fedeli-letter-from-gas-plant-scandal-to-foi-rollback-wh-2026-04-21",
-      "mppNames": [
-        "Victor Fedeli"
-      ],
-      "title": "LETTER: From gas plant scandal to FOI rollback: What changed, Minister Fedeli? - BayToday.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWHZDWFhCX3k3NTR4Umx3Nm1ud0wyWDVtYms5MkVTczlmUGVNV1NuazlIUHRNNmxSN0F0eTBMdkFNanpJVElNcVBzeWJJS0tIdExEc2NHQy03UnI2RUVCTkRGWlBxYXZhNE53dGhNT1JPalNxR2NiS0JmMUxVWGF0bjFta1ZWSl9kSFRmRGRWaHhCQ0tYaVc3cEszZ2J0WlpUeWMzcUdjdXNDY1gtT1M1THlUMEVmMm9xazRESDM5RmFaS25EMnN1RA?oc=5",
-      "source": "BayToday.ca",
-      "date": "2026-04-21",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-zee-hamid-ontario-s-solicitor-general-apologizes-for-being-2026-04-21",
-      "mppNames": [
-        "Zee Hamid"
-      ],
-      "title": "Ontario's solicitor general apologizes for being 'imprecise' about catching improperly released inmates - cbc.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd3IzMndaT1IyaVpNN1F4UGhpRHVKX09rQU9sTzJSXy1aX3QybXJ1c3ZqUWd0YjdUcXFSV0ZmQXFKOWVRb0k1X2VveGpGd2JvMzVwc1hwNmtxQkZxRkk3SUhsX2RiMDBwTi1EUjR1MzhGMTdWQTJiZFlaRnQxUTluZF9HUFU3V1JlWk0zaUZXcWRmU2gzLWFUSTczSHNDaWl2LWU1THFnblhwemozdWh1SDJibWw?oc=5",
-      "source": "cbc.ca",
-      "date": "2026-04-21",
-      "type": "news",
       "status": "reported"
     }
   ]
