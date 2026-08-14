@@ -206,6 +206,7 @@ code { font-size: 0.85em; color: var(--yellow); }
 }
 .badge.flag { border-color: rgba(125, 206, 160, 0.5); color: var(--ok); }
 .badge.water { border-color: rgba(110, 180, 220, 0.55); color: #8ec8e8; }
+.badge.agenda-closed { border-color: rgba(255, 199, 69, 0.45); color: var(--yellow); }
 .item.flagged:has(.badge.water) { --accent: #6eb4dc; }
 
 

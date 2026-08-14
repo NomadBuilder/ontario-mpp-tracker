@@ -83,13 +83,21 @@
       item.status === "past" ? "past" : "",
       item.status === "watch" ? "watch" : "",
     ].filter(Boolean).join(" ");
+    const agendaStatus = item.agendaStatus || (item.curated ? "posted" : "unknown");
     const extra = [
       topics.datacentre === "exact" ? `<span class="badge flag">Data centre</span>` : "",
       topics.datacentre === "broad" ? `<span class="badge flag">DC related</span>` : "",
       topics.water === "exact" ? `<span class="badge water">Water privatization</span>` : "",
       topics.water === "broad" ? `<span class="badge water">Water related</span>` : "",
-      !topics.datacentre && !topics.water && item.status !== "past" && item.status !== "watch"
-        ? `<span class="badge">Scan agenda</span>`
+      agendaStatus === "not_posted" ? `<span class="badge agenda-closed">Agenda not posted</span>` : "",
+      agendaStatus === "unavailable" ? `<span class="badge agenda-closed">Agenda locked</span>` : "",
+      !topics.datacentre &&
+      !topics.water &&
+      agendaStatus !== "not_posted" &&
+      agendaStatus !== "unavailable" &&
+      item.status !== "past" &&
+      item.status !== "watch"
+        ? `<span class="badge">${agendaStatus === "posted" ? "Scan agenda" : "On calendar"}</span>`
         : "",
     ].filter(Boolean).join("");
     const mark = statusMark(item);
@@ -156,6 +164,12 @@
     if (when === "water-broad") {
       return `${list.length} water exact + related · updated ${asOf}`;
     }
+    if (when === "agenda-posted") {
+      return `${list.length} with a published agenda we could read · updated ${asOf}`;
+    }
+    if (when === "agenda-closed") {
+      return `${list.length} with agenda not posted yet or locked · updated ${asOf}`;
+    }
     if (when === "past") {
       return `${list.length} past meetings · ${dcPast} data-centre · updated ${asOf}`;
     }
@@ -168,6 +182,8 @@
     broad: "Exact matches plus related terms — hyperscale, colocation, AI campus, named operators, large-load / IESO connection, crypto mining.",
     water: "Items that flag privatizing, selling, or handing municipal water to a private operator.",
     "water-broad": "Water privatization plus P3/PPP water, outsourcing, Veolia/EPCOR-style operators, bulk water sales, franchises.",
+    "agenda-posted": "Only sittings where we found a readable published agenda package.",
+    "agenda-closed": "On the calendar, but the agenda isn’t up yet — or the city blocks us from reading it.",
     past: "Meetings that already happened, including recorded votes when we have them.",
     all: "Upcoming, watch list, and past together.",
   };
@@ -190,6 +206,9 @@
       if (when === "broad" && !["exact", "broad"].includes(topics.datacentre)) return false;
       if (when === "water" && topics.water !== "exact") return false;
       if (when === "water-broad" && !["exact", "broad"].includes(topics.water)) return false;
+      const agendaStatus = it.agendaStatus || (it.curated ? "posted" : "unknown");
+      if (when === "agenda-posted" && agendaStatus !== "posted") return false;
+      if (when === "agenda-closed" && !["not_posted", "unavailable"].includes(agendaStatus)) return false;
       if (when === "past" && it.status !== "past") return false;
       if (!q) return true;
       const blob = [it.municipality, it.body, it.title, it.issue, it.why, it.result, ...(it.keywordsMatched || [])]

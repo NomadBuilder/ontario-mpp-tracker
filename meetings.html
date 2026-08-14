@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="meetings.css?v=14">
+  <link rel="stylesheet" href="meetings.css?v=15">
   <link rel="stylesheet" href="nav.css?v=2">
 </head>
 <body>
@@ -54,6 +54,8 @@
           <option value="broad" title="Exact matches plus related terms: hyperscale, colocation, AI campus, named operators, large-load / IESO connection, crypto mining.">Data centres — broad</option>
           <option value="water" title="Agenda or title flags water privatization / selling or outsourcing the municipal water system.">Water privatization</option>
           <option value="water-broad" title="Water privatization plus related terms: P3/PPP water, private operator, Veolia, EPCOR, bulk water sale, water franchise.">Water — broad</option>
+          <option value="agenda-posted" title="Meetings where we could read a published agenda package.">Agenda posted</option>
+          <option value="agenda-closed" title="On the calendar, but the clerk hasn’t published the agenda yet — or we can’t read it.">Agenda not posted / locked</option>
           <option value="past" title="Meetings that already happened, including recorded votes when we have them.">Past votes</option>
           <option value="all" title="Upcoming, watch list, and past together.">Everything</option>
         </select>
@@ -85,8 +87,10 @@
         <li><strong>Data centres — broad</strong> — that, plus hyperscale, colocation, AI campus, named operators, large-load / IESO connection, crypto mining.</li>
         <li><strong>Water privatization</strong> — selling, privatizing, or handing the municipal water system to a private operator.</li>
         <li><strong>Water — broad</strong> — that, plus P3/PPP water deals, outsourcing water services, Veolia / EPCOR / similar, bulk water sales, water franchises.</li>
+        <li><strong>Agenda posted</strong> — we opened the city’s meeting page and found a readable agenda package.</li>
+        <li><strong>Agenda not posted / locked</strong> — the sitting is scheduled, but the package isn’t up yet, or the city blocks scrapers (common for Toronto).</li>
       </ul>
-      <p class="note">We match words on the page. A rezoning or utility file that never uses any of that language will stay a plain “scan agenda” card until someone reads it.</p>
+      <p class="note">We match words on the page. A rezoning or utility file that never uses any of that language will stay a plain “scan agenda” card until someone reads it. Empty calendar shells are labelled <strong>Agenda not posted</strong> so a quiet filter isn’t mistaken for “nothing happening.”</p>
       <h2>How often</h2>
       <p>About <strong>9:15am and 9:15pm Eastern</strong>, every day. Places marked “checked twice a day” are in that round. Others are on our list but not in the automatic pass yet.</p>
       <h2>Calendars we look at</h2>
@@ -102,6 +106,6 @@
   </footer>
 
   <script src="nav.js"></script>
-  <script src="meetings-app.js?v=15"></script>
+  <script src="meetings-app.js?v=16"></script>
 </body>
 </html>

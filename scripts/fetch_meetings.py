@@ -841,6 +841,32 @@ def scrape_sarnia(portal: dict, horizon: date, inspect_all: bool) -> list[dict]:
     return items
 
 
+def agenda_status_from_page(page: str | None, page_text: str, opened: bool) -> str:
+    """posted | not_posted | unavailable | unknown — whether the clerk published agenda text we can read."""
+    if not opened:
+        return "unknown"
+    if page is None:
+        return "unavailable"
+    text = (page_text or "").strip()
+    text_len = len(text)
+    has_docs = bool(re.search(r"FileStream\.ashx|DocumentId=\d+", page, re.I))
+    has_body = bool(
+        re.search(
+            r"Item\s*No\.?|Disclosure of Pecuniary|Call to Order|Delegations|"
+            r"Confirmation of (?:the )?Agenda|Presentations|Communications",
+            text,
+            re.I,
+        )
+    )
+    if text_len < 600 and not has_docs:
+        return "not_posted"
+    if text_len < 1200 and not has_docs and not has_body:
+        return "not_posted"
+    if has_docs or has_body or text_len >= 1500:
+        return "posted"
+    return "not_posted"
+
+
 def items_from_raw(
     portal: dict,
     raw_meetings: list[dict],
@@ -866,6 +892,8 @@ def items_from_raw(
         hit_title = bool(KEYWORD_RE.search(mtg["body"] + " " + (mtg.get("label") or "")))
         snippets: list[str] = []
         page_text = ""
+        page_html: str | None = ""
+        opened = False
         inspect_body = bool(INSPECT_BODY.search(mtg["body"] or ""))
         within = True
         if day:
@@ -876,16 +904,18 @@ def items_from_raw(
         should_open = hit_title or (
             (inspect_body or inspect_all) and decision and (inspect_all or not day or within)
         )
-        if should_open and mtg.get("url") and inspected < 18:
-            page = fetch(mtg["url"])
+        # Prefer checking agenda-post status on upcoming decision sittings (raise cap).
+        if should_open and mtg.get("url") and inspected < 40:
+            page_html = fetch(mtg["url"])
+            opened = True
             inspected += 1
             time.sleep(0.18)
-            if page:
-                page_text = strip_tags(page)[:20000]
+            if page_html:
+                page_text = strip_tags(page_html)[:20000]
                 snippets = extract_snippets(page_text)
                 if not mtg.get("date"):
                     candidates = []
-                    tm = re.search(r"<title>([^<]+)</title>", page, re.I)
+                    tm = re.search(r"<title>([^<]+)</title>", page_html, re.I)
                     if tm:
                         candidates.append(htmlmod.unescape(tm.group(1)))
                     candidates.append(page_text[:4000])
@@ -897,6 +927,8 @@ def items_from_raw(
                             if t2 and not mtg.get("time"):
                                 mtg["time"] = t2
                             break
+            else:
+                page_html = None
         day = mtg.get("date") or ""
         keywords = []
         blob = f"{mtg['body']} {page_text}"
@@ -906,8 +938,6 @@ def items_from_raw(
                 keywords.append(k)
         topics = classify_topics(blob, keywords)
         if snippets and not topics:
-            # Snippet extractor only runs on keyword hits, so topics should usually be set;
-            # keep a datacentre broad fallback if somehow only snippets fired.
             topics = classify_topics(" ".join(snippets), keywords)
         relevant = bool(topics or snippets or hit_title)
         if relevant and not topics and hit_title:
@@ -923,6 +953,12 @@ def items_from_raw(
                 pass
         if mtg["cancelled"]:
             status = "cancelled"
+        if source == "tmmis":
+            agenda_status = "unavailable"
+        elif source in {"ajax", "sarnia"} and not opened:
+            agenda_status = "unknown"
+        else:
+            agenda_status = agenda_status_from_page(page_html if opened else None, page_text, opened)
         issue = ""
         if snippets:
             issue = snippets[0]
@@ -932,10 +968,19 @@ def items_from_raw(
             )
             issue = f"Agenda or title flagged for: {label}."
         elif decision:
-            # Keep a thin 'scan' card only for upcoming decision bodies with no keyword hit
             if status != "upcoming":
                 continue
-            if source == "tmmis":
+            if agenda_status == "not_posted":
+                issue = (
+                    "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — "
+                    "so we can’t scan for data centres or water privatization. Check back closer to the date."
+                )
+            elif agenda_status == "unavailable":
+                issue = (
+                    "On the published schedule. The detailed agenda isn’t readable from here "
+                    "(Toronto’s agenda system often blocks scrapers) — open the city’s calendar to confirm what’s on."
+                )
+            elif source == "tmmis":
                 issue = (
                     "On Toronto’s open meeting schedule — open the city’s calendar to confirm the "
                     "exact title (special sittings are sometimes renamed there) and scan the agenda."
@@ -973,6 +1018,7 @@ def items_from_raw(
                 "relevant": relevant,
                 "matchKind": match_kind,
                 "topics": topics,
+                "agendaStatus": agenda_status,
                 "source": source,
                 "curated": False,
             }
@@ -1119,6 +1165,7 @@ def main() -> int:
             it["topics"] = topics
         if not it.get("matchKind"):
             it["matchKind"] = topics.get("datacentre") or ("exact" if DC_EXACT_RE.search(blob) else "broad")
+        it.setdefault("agendaStatus", "posted")
 
     merged = merge_items(curated, scraped)
 

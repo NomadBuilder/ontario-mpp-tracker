@@ -301,6 +301,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -331,6 +332,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -361,6 +363,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -391,6 +394,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "civicplus",
       "curated": false
     },
@@ -421,6 +425,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -451,6 +456,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -481,6 +487,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -511,6 +518,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -541,6 +549,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -571,6 +580,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -585,7 +595,7 @@
       "location": "Council Chambers - Hybrid",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -601,6 +611,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -631,6 +642,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -645,7 +657,7 @@
       "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -661,6 +673,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -675,7 +688,7 @@
       "location": "Room 264, 2nd Floor, City Hall (hybrid) (RM)",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -691,6 +704,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -705,7 +719,7 @@
       "location": "Room 264, 2nd Floor, City Hall (hybrid) (RM)",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -721,6 +735,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -735,7 +750,7 @@
       "location": "Hybrid / Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -751,6 +766,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -781,6 +797,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -795,7 +812,7 @@
       "location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -811,6 +828,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -825,7 +843,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -841,6 +859,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -871,6 +890,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -901,6 +921,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -931,6 +952,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -945,7 +967,7 @@
       "location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -961,6 +983,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -991,6 +1014,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1005,7 +1029,7 @@
       "location": "Room 264, 2nd Floor, City Hall (hybrid) (RM)",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1021,6 +1045,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1055,7 +1080,8 @@
       "topics": {
         "datacentre": "exact"
       },
-      "matchKind": "exact"
+      "matchKind": "exact",
+      "agendaStatus": "posted"
     },
     {
       "id": "hamilton-bf8099f1-a7d7-4c",
@@ -1068,7 +1094,7 @@
       "location": "Room 264, 2nd Floor, City Hall (hybrid) (RM)",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1084,6 +1110,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1114,6 +1141,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1128,7 +1156,7 @@
       "location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1144,6 +1172,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1174,6 +1203,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1204,6 +1234,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1218,7 +1249,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1234,6 +1265,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1264,6 +1296,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1278,7 +1311,7 @@
       "location": "Council Chamber, 5th Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1294,6 +1327,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1324,6 +1358,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1338,7 +1373,7 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1354,6 +1389,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1368,7 +1404,7 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1384,6 +1420,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1398,7 +1435,7 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1414,6 +1451,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1428,7 +1466,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1444,6 +1482,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1458,7 +1497,7 @@
       "location": "Council Chambers/Electronic",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1474,6 +1513,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1488,7 +1528,7 @@
       "location": "Town Hall, 65 Harwood Avenue South, Ajax",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1504,6 +1544,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "ajax",
       "curated": false
     },
@@ -1518,7 +1559,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1534,6 +1575,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1548,7 +1590,7 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1564,6 +1606,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1594,6 +1637,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1624,6 +1668,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1638,7 +1683,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1654,6 +1699,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1668,7 +1714,7 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1684,6 +1730,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1698,7 +1745,7 @@
       "location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1714,6 +1761,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1744,6 +1792,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1758,7 +1807,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1774,6 +1823,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1788,7 +1838,7 @@
       "location": "Council Chambers/Electronic",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1804,6 +1854,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1834,6 +1885,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1848,7 +1900,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1864,6 +1916,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1878,7 +1931,7 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1894,6 +1947,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1924,6 +1978,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1938,7 +1993,7 @@
       "location": "Council Chamber, 5th Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1954,6 +2009,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1968,7 +2024,7 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1984,6 +2040,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1998,7 +2055,7 @@
       "location": "Council Chambers - Hybrid",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2014,6 +2071,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2028,7 +2086,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2044,6 +2102,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2058,7 +2117,7 @@
       "location": "Council Chamber, City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2074,6 +2133,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2104,6 +2164,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "civicplus",
       "curated": false
     },
@@ -2118,7 +2179,7 @@
       "location": "Town Hall, 65 Harwood Avenue South, Ajax",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2134,6 +2195,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "ajax",
       "curated": false
     },
@@ -2148,7 +2210,7 @@
       "location": "Town Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2164,6 +2226,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2178,7 +2241,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2194,6 +2257,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2208,7 +2272,7 @@
       "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2224,6 +2288,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2254,6 +2319,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -2284,6 +2350,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -2298,7 +2365,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2314,6 +2381,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2328,7 +2396,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2344,6 +2412,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2358,7 +2427,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2374,6 +2443,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2388,7 +2458,7 @@
       "location": "Councillor's Boardroom",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2404,6 +2474,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2434,6 +2505,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "civicplus",
       "curated": false
     },
@@ -2448,7 +2520,7 @@
       "location": "Hybrid / Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2464,6 +2536,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2478,7 +2551,7 @@
       "location": "Hybrid / Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2494,6 +2567,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2508,7 +2582,7 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2524,6 +2598,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2554,6 +2629,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -2590,7 +2666,8 @@
       "topics": {
         "datacentre": "exact"
       },
-      "matchKind": "exact"
+      "matchKind": "exact",
+      "agendaStatus": "posted"
     },
     {
       "id": "ottawa-4f10d146-6d32-42",
@@ -2603,7 +2680,7 @@
       "location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2619,6 +2696,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2633,7 +2711,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2649,6 +2727,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2663,7 +2742,7 @@
       "location": "Council Chamber, City Hall/Video Conference",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "On Toronto’s open meeting schedule — open the city’s calendar to confirm the exact title (special sittings are sometimes renamed there) and scan the agenda.",
+      "issue": "On the published schedule. The detailed agenda isn’t readable from here (Toronto’s agenda system often blocks scrapers) — open the city’s calendar to confirm what’s on.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2679,6 +2758,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unavailable",
       "source": "tmmis",
       "curated": false
     },
@@ -2693,7 +2773,7 @@
       "location": "Woodbridge Room - Committee Rooms 242/243",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2709,6 +2789,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2723,7 +2804,7 @@
       "location": "Hybrid / Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2739,6 +2820,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2769,6 +2851,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -2799,6 +2882,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -2813,7 +2897,7 @@
       "location": "Council Chambers, Brantford City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2829,6 +2913,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2859,6 +2944,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -2889,6 +2975,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -2903,7 +2990,7 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2919,6 +3006,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2933,7 +3021,7 @@
       "location": "Town Hall, 65 Harwood Avenue South, Ajax",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2949,6 +3037,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "ajax",
       "curated": false
     },
@@ -2979,6 +3068,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -2993,7 +3083,7 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3009,6 +3099,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3023,7 +3114,7 @@
       "location": "Hybrid / Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3039,6 +3130,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3053,7 +3145,7 @@
       "location": "Hybrid / Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3069,6 +3161,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3083,7 +3176,7 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3099,6 +3192,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3113,7 +3207,7 @@
       "location": "Charlie Ward Room, Brantford City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3129,6 +3223,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3143,7 +3238,7 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3159,6 +3254,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3173,7 +3269,7 @@
       "location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3189,6 +3285,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3203,7 +3300,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3219,6 +3316,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3249,6 +3347,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -3263,7 +3362,7 @@
       "location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3279,6 +3378,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3293,7 +3393,7 @@
       "location": "Council Chamber, 5th Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3309,6 +3409,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3323,7 +3424,7 @@
       "location": "Council Chambers - Hybrid",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3339,6 +3440,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3353,7 +3455,7 @@
       "location": "Council Chamber, City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3369,6 +3471,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3399,6 +3502,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "civicplus",
       "curated": false
     },
@@ -3413,7 +3517,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3429,6 +3533,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3443,7 +3548,7 @@
       "location": "Council Chambers, Brantford City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3459,6 +3564,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3473,7 +3579,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3489,6 +3595,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3503,7 +3610,7 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3519,6 +3626,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3533,7 +3641,7 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3549,6 +3657,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3563,7 +3672,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3579,6 +3688,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3593,7 +3703,7 @@
       "location": "Hybrid / Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3609,6 +3719,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3639,6 +3750,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -3653,7 +3765,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3669,6 +3781,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3699,6 +3812,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -3713,7 +3827,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3729,6 +3843,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3759,6 +3874,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "civicplus",
       "curated": false
     },
@@ -3773,7 +3889,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3789,6 +3905,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3803,7 +3920,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3819,6 +3936,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3833,7 +3951,7 @@
       "location": "Council Chambers/Electronic",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3849,6 +3967,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3863,7 +3982,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3879,6 +3998,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3909,6 +4029,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -3923,7 +4044,7 @@
       "location": "Council Chambers/Electronic",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -3939,6 +4060,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -3969,6 +4091,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -3999,6 +4122,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4029,6 +4153,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4043,7 +4168,7 @@
       "location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -4059,6 +4184,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -4089,6 +4215,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4119,6 +4246,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4133,7 +4261,7 @@
       "location": "Council Chamber, City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -4149,6 +4277,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -4179,6 +4308,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4193,7 +4323,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -4209,6 +4339,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -4239,6 +4370,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4269,6 +4401,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4299,6 +4432,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4329,6 +4463,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "civicplus",
       "curated": false
     },
@@ -4359,6 +4494,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4389,6 +4525,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4419,6 +4556,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4449,6 +4587,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4479,6 +4618,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4509,6 +4649,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4539,6 +4680,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4569,6 +4711,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "civicplus",
       "curated": false
     },
@@ -4583,7 +4726,7 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -4599,6 +4742,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -4629,6 +4773,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4643,7 +4788,7 @@
       "location": "Council Chambers/Electronic",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -4659,6 +4804,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -4673,7 +4819,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -4689,6 +4835,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -4719,6 +4866,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4749,6 +4897,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "halton",
       "curated": false
     },
@@ -4779,6 +4928,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4809,6 +4959,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4823,7 +4974,7 @@
       "location": "Council Chamber, City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -4839,6 +4990,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -4853,7 +5005,7 @@
       "location": "Halton Hills Town Hall, Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -4869,6 +5021,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -4883,7 +5036,7 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -4899,6 +5052,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -4929,6 +5083,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4959,6 +5114,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4989,6 +5145,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5003,7 +5160,7 @@
       "location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5019,6 +5176,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5033,7 +5191,7 @@
       "location": "Living Arts Centre - Hammerson Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5049,6 +5207,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5063,7 +5222,7 @@
       "location": "Hybrid / Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5079,6 +5238,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5093,7 +5253,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5109,6 +5269,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5123,7 +5284,7 @@
       "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5139,6 +5300,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5169,6 +5331,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5199,6 +5362,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "civicplus",
       "curated": false
     },
@@ -5213,7 +5377,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5229,6 +5393,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5259,6 +5424,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5273,7 +5439,7 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5289,6 +5455,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5319,6 +5486,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5349,6 +5517,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5379,6 +5548,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5409,6 +5579,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5439,6 +5610,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5453,7 +5625,7 @@
       "location": "Council Chamber, 5th Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5469,6 +5641,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5483,7 +5656,7 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5499,6 +5672,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5513,7 +5687,7 @@
       "location": "City Hall, Sarnia",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5530,6 +5704,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "sarnia",
       "curated": false
     },
@@ -5544,7 +5719,7 @@
       "location": "Council Chamber, City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5560,6 +5735,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5574,7 +5750,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5590,6 +5766,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5604,7 +5781,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5620,6 +5797,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5650,6 +5828,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5664,7 +5843,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5680,6 +5859,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5694,7 +5874,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5710,6 +5890,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5724,7 +5905,7 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5740,6 +5921,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5754,7 +5936,7 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5770,6 +5952,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5784,7 +5967,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5800,6 +5983,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5814,7 +5998,7 @@
       "location": "Woodbridge Room - Committee Rooms 242/243",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5830,6 +6014,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5860,6 +6045,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "civicplus",
       "curated": false
     },
@@ -5890,6 +6076,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5920,6 +6107,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5950,6 +6138,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5964,7 +6153,7 @@
       "location": "Council Chamber, 5th Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5980,6 +6169,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5994,7 +6184,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6010,6 +6200,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6024,7 +6215,7 @@
       "location": "Council Chambers - Hybrid",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6040,6 +6231,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6054,7 +6246,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6070,6 +6262,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6084,7 +6277,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6100,6 +6293,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6114,7 +6308,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6130,6 +6324,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6144,7 +6339,7 @@
       "location": "Council Chambers, Brantford City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6160,6 +6355,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6174,7 +6370,7 @@
       "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6190,6 +6386,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6204,7 +6401,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6220,6 +6417,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6250,6 +6448,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -6264,7 +6463,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6280,6 +6479,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6294,7 +6494,7 @@
       "location": "Councillor's Boardroom",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6310,6 +6510,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6340,6 +6541,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "civicplus",
       "curated": false
     },
@@ -6354,7 +6556,7 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6370,6 +6572,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6400,6 +6603,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -6430,6 +6634,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -6444,7 +6649,7 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6460,6 +6665,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6474,7 +6680,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6490,6 +6696,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6520,6 +6727,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "civicplus",
       "curated": false
     },
@@ -6534,7 +6742,7 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6550,6 +6758,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6564,7 +6773,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6580,6 +6789,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6610,6 +6820,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -6640,6 +6851,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -6654,7 +6866,7 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6670,6 +6882,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6684,7 +6897,7 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6700,6 +6913,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6730,6 +6944,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "civicplus",
       "curated": false
     },
@@ -6744,7 +6959,7 @@
       "location": "Town Hall, 65 Harwood Avenue South, Ajax",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6760,6 +6975,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "ajax",
       "curated": false
     },
@@ -6774,7 +6990,7 @@
       "location": "Town Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6790,6 +7006,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6804,7 +7021,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6820,6 +7037,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6834,7 +7052,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6850,6 +7068,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6864,7 +7083,7 @@
       "location": "Council Chambers, Brantford City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6880,6 +7099,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6894,7 +7114,7 @@
       "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6910,6 +7130,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6940,6 +7161,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -6954,7 +7176,7 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -6970,6 +7192,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -6984,7 +7207,7 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -7000,6 +7223,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -7014,7 +7238,7 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -7030,6 +7254,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -7044,7 +7269,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -7060,6 +7285,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -7090,6 +7316,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "civicplus",
       "curated": false
     },
@@ -7120,6 +7347,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "civicplus",
       "curated": false
     },
@@ -7134,7 +7362,7 @@
       "location": "Council Chambers/Electronic",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -7150,6 +7378,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -7164,7 +7393,7 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -7180,6 +7409,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -7210,6 +7440,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -7224,7 +7455,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -7240,6 +7471,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -7254,7 +7486,7 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -7270,6 +7502,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -7284,7 +7517,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -7300,6 +7533,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -7330,6 +7564,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "halton",
       "curated": false
     },
@@ -7360,6 +7595,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "civicplus",
       "curated": false
     },
@@ -7390,6 +7626,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -7420,6 +7657,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -7450,6 +7688,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -7464,7 +7703,7 @@
       "location": "Council Chambers, Brantford City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -7480,6 +7719,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -7510,6 +7750,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -7540,6 +7781,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -7570,6 +7812,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -7600,6 +7843,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
       "source": "civicplus",
       "curated": false
     },
@@ -7614,7 +7858,7 @@
       "location": "Council Chamber, 5th Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -7630,6 +7874,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -7644,7 +7889,7 @@
       "location": "225 East Beaver Creek Road",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -7660,6 +7905,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -7695,7 +7941,8 @@
       "topics": {
         "datacentre": "exact"
       },
-      "matchKind": "exact"
+      "matchKind": "exact",
+      "agendaStatus": "posted"
     },
     {
       "id": "hamilton-icb-2026-06",
@@ -7713,8 +7960,7 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
       },
       "keywordsMatched": [
         "data centre",
@@ -7726,7 +7972,8 @@
       "topics": {
         "datacentre": "exact"
       },
-      "matchKind": "exact"
+      "matchKind": "exact",
+      "agendaStatus": "posted"
     },
     {
       "id": "york-region-study-2026-07",
@@ -7744,8 +7991,7 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
-        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
       },
       "keywordsMatched": [
         "data centre"
@@ -7756,7 +8002,8 @@
       "topics": {
         "datacentre": "exact"
       },
-      "matchKind": "exact"
+      "matchKind": "exact",
+      "agendaStatus": "posted"
     },
     {
       "id": "hamilton-icb-2026-07",
@@ -7787,7 +8034,8 @@
       "topics": {
         "datacentre": "exact"
       },
-      "matchKind": "exact"
+      "matchKind": "exact",
+      "agendaStatus": "posted"
     },
     {
       "id": "mississauga-icbl-2026-07-29",
@@ -7818,7 +8066,8 @@
       "topics": {
         "datacentre": "exact"
       },
-      "matchKind": "exact"
+      "matchKind": "exact",
+      "agendaStatus": "posted"
     },
     {
       "id": "sault-icbl-2026-08-10",
@@ -7849,7 +8098,8 @@
       "topics": {
         "datacentre": "exact"
       },
-      "matchKind": "exact"
+      "matchKind": "exact",
+      "agendaStatus": "posted"
     },
     {
       "id": "stratford-25c9416e-c38e-45",
@@ -7882,6 +8132,7 @@
       "topics": {
         "datacentre": "exact"
       },
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -7914,7 +8165,8 @@
       "topics": {
         "datacentre": "exact"
       },
-      "matchKind": "exact"
+      "matchKind": "exact",
+      "agendaStatus": "posted"
     },
     {
       "id": "regionofwaterloo-62d2743f-d360-45",
@@ -7950,6 +8202,7 @@
       "topics": {
         "datacentre": "exact"
       },
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -7982,7 +8235,8 @@
       "topics": {
         "datacentre": "exact"
       },
-      "matchKind": "exact"
+      "matchKind": "exact",
+      "agendaStatus": "posted"
     },
     {
       "id": "oakville-e0529aa0-e508-47",
@@ -8016,6 +8270,7 @@
       "topics": {
         "datacentre": "exact"
       },
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     }
