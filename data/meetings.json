@@ -142,9 +142,9 @@
       "name": "City of Toronto",
       "type": "tmmis",
       "ok": true,
-      "meetings": 1,
+      "meetings": 0,
       "calendarUrl": "https://www.toronto.ca/city-government/council/council-committee-meetings/",
-      "note": "TMMIS open-data meeting schedule (agendas still on secure.toronto.ca)"
+      "note": "TMMIS open data — keyword hits only; title-only City Council scans skipped (live calendar titles diverge)"
     },
     {
       "id": "york-region",
@@ -2116,35 +2116,6 @@
       "relevant": false,
       "matchKind": "",
       "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "toronto-2026-09-16-city-",
-      "municipality": "City of Toronto",
-      "municipalityId": "toronto",
-      "body": "City Council",
-      "title": "City Council",
-      "date": "2026-09-16",
-      "time": "09:30 AM",
-      "location": "Council Chamber, City Hall/Video Conference",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://www.toronto.ca/city-government/council/council-committee-meetings/",
-        "agenda": "https://www.toronto.ca/city-government/council/council-committee-meetings/"
-      },
-      "keywordsMatched": [],
-      "relevant": false,
-      "matchKind": "",
-      "source": "tmmis",
       "curated": false
     },
     {

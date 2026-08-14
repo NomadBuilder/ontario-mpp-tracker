@@ -606,12 +606,20 @@ def scrape_toronto(portal: dict, horizon: date, inspect_all: bool) -> list[dict]
             continue
         if not DECISION_BODY.search(title):
             continue
+        mtg_no = (row.get("MTG #") or "").strip()
+        # Live calendar often renames special sittings (e.g. "S: City Council (urgent heritage
+        # matters)") while open data still says "City Council". Keep the meeting number so
+        # editors can cross-check; do not invent the special title from CSV alone.
+        label_bits = [title]
+        if mtg_no:
+            label_bits.append(f"meeting {mtg_no}")
+        body = " · ".join(label_bits)
         mid = f"{day}-{re.sub(r'[^a-z0-9]+', '-', title.lower())[:40]}"
         raw.append(
             {
                 "id": mid,
-                "body": title,
-                "label": f"{title} {day} {row.get('Start Time') or ''}",
+                "body": body,
+                "label": f"{body} {day} {row.get('Start Time') or ''}",
                 "date": day[:10],
                 "time": (row.get("Start Time") or "").replace("  ", " ").strip(),
                 "location": (row.get("Location") or "").strip(),
@@ -620,9 +628,14 @@ def scrape_toronto(portal: dict, horizon: date, inspect_all: bool) -> list[dict]
             }
         )
     print(f"  {portal['id']}: {len(raw)} listed", flush=True)
-    # TMMIS agenda HTML is behind a 403; list scan cards from the open-data schedule.
-    return items_from_raw(portal, raw, horizon, inspect_all=False, source="tmmis")
-
+    # TMMIS agenda HTML is behind auth/403, so we cannot inspect for keywords. Generic
+    # "scan this council sitting" cards mislead (Sept 16 2026 looked like a normal Council
+    # on open data, but the public calendar is an urgent heritage special). Only keep rows
+    # that already hit data-centre terms in the committee title.
+    items = items_from_raw(portal, raw, horizon, inspect_all=False, source="tmmis")
+    kept = [it for it in items if it.get("relevant")]
+    print(f"  {portal['id']}: kept {len(kept)} keyword-flagged (skipped {len(items) - len(kept)} title-only scans)", flush=True)
+    return kept
 
 # Official 2026 schedule (events.ajax.ca/meetings currently returns an Error page).
 # Refresh from https://ajax.ca/wp-content/uploads/2026/05/2026-Meeting-Schedule.pdf

@@ -103,13 +103,19 @@ Public page: **`meetings.html`** — not part of the WordPress iframe. Complemen
 - Hand-entered votes / spills / proposals: **`data/meetings-curated.json`**
 - Auto output: **`data/meetings.json`** from `python3 scripts/fetch_meetings.py`
 
-The twice-daily sync polls high-priority eScribe calendars (including London, Brantford, St. Thomas, Stratford, Peel and York Region), Durham’s CivicPlus calendar, Halton’s council calendar + OnBase, Toronto’s TMMIS open-data schedule, and Ajax’s published yearly schedule. Keyword hits are flagged; other upcoming council/planning meetings are listed so organizers can scan agendas. CivicWeb-only towns stay as gaps until a scraper exists — add those dates by hand.
+The twice-daily sync polls high-priority eScribe calendars (including London, Brantford, St. Thomas, Stratford, Peel and York Region), Durham’s CivicPlus calendar, Halton’s council calendar + OnBase, Toronto’s TMMIS open-data schedule (**keyword hits only** — generic “City Council” rows are skipped because the live calendar often uses a different special-session title and agendas are not scrapeable), and Ajax’s published yearly schedule. Keyword hits are flagged; other upcoming council/planning meetings are listed so organizers can scan agendas. CivicWeb-only towns stay as gaps until a scraper exists — add those dates by hand.
 
 The public hub is **`landing.html`** (title: Accountability). An Explore menu links the MPP tracker embed, city council watch, power map, player cards, and integrity news. Do not change the WordPress iframe.
 
 ## WordPress page
 
 Editors only change intro text on the WP page. The tracker itself is an embed — **do not** paste spreadsheet data into WordPress. The accountability watch lives on its own URL and is not embedded with the tracker.
+
+**Site menu:** rename the top-nav item from “MPP Tracker” to **Accountability** and point it at the hub:
+
+`https://nomadbuilder.github.io/ontario-mpp-tracker/landing.html`
+
+(Keep the existing vote-tracker page + iframe if you still want a direct “votes only” URL.)
 
 Embed URL (V1 cards):
 
