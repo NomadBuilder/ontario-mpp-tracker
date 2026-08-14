@@ -669,14 +669,101 @@ def scrape_ajax(portal: dict, horizon: date, inspect_all: bool) -> list[dict]:
                 "cancelled": False,
             }
         )
-    print(f"  {portal['id']}: {len(raw)} listed (published 2026 schedule)", flush=True)
-    items = items_from_raw(portal, raw, horizon, inspect_all=False, source="ajax-schedule")
-    for it in items:
-        it["issue"] = (
-            "Published on the Town's 2026 meeting schedule. "
-            "Open ajax.ca/meetings for the agenda when the clerk posts it — scan for zoning, site plan, or industrial items."
+    print(f"  {portal['id']}: {len(raw)} from published schedule", flush=True)
+    return items_from_raw(portal, raw, horizon, inspect_all, source="ajax")
+
+
+def _parse_sarnia_day(day_s: str, mon_s: str, year_s: str) -> date | None:
+    mon = MONTHS.get(mon_s.lower()[:3]) or MONTHS.get(mon_s.lower())
+    if not mon:
+        return None
+    try:
+        return date(int(year_s), mon, int(day_s))
+    except ValueError:
+        return None
+
+
+def scrape_sarnia(portal: dict, horizon: date, inspect_all: bool) -> list[dict]:
+    """Council sittings from CivicWeb meeting list + calendar.sarnia.ca series page."""
+    agenda = (portal.get("agendaUrl") or "https://sarnia.civicweb.net/").rstrip("/") + "/"
+    civicweb = portal.get("civicwebUrl") or (
+        "https://sarnia.civicweb.net/Portal/MeetingInformation.aspx?Id=1593&Org=Cal"
+    )
+    seen: set[str] = set()
+    raw: list[dict] = []
+
+    def add(day: date, tim: str, title: str, url: str) -> None:
+        if day < date.today() - timedelta(days=3) or day > horizon:
+            return
+        key = day.isoformat()
+        if key in seen:
+            return
+        seen.add(key)
+        raw.append(
+            {
+                "id": f"{key}-council",
+                "body": title,
+                "label": f"{title} {key} {tim}",
+                "date": key,
+                "time": tim,
+                "location": "City Hall, Sarnia",
+                "url": url,
+                "cancelled": False,
+            }
         )
-        it["links"]["agenda"] = "https://ajax.ca/wp-content/uploads/2026/05/2026-Meeting-Schedule.pdf"
+
+    html = fetch(civicweb, timeout=25) or ""
+    if html:
+        text = strip_tags(html)
+        for day_s, mon_s, year_s in re.findall(
+            r"\b(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\s+(20\d{2})\b",
+            text,
+            re.I,
+        ):
+            d = _parse_sarnia_day(day_s, mon_s, year_s)
+            if d:
+                add(d, "1:00 PM", "Regular Council", civicweb)
+
+    # Recurring series page lists further-out Mondays the CivicWeb list sometimes omits.
+    series = portal.get("seriesUrl") or (
+        "https://calendar.sarnia.ca/default/Detail/2026-02-09-1300-Sarnia-City-Council"
+    )
+    cal_html = fetch(series, timeout=20) or ""
+    for mon_name, day_s, year_s, tim in re.findall(
+        r"(?:Monday|Tuesday|Wednesday|Thursday|Friday),\s+"
+        r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+"
+        r"(\d{1,2}),\s+(20\d{2})\s+(\d{1,2}:\d{2}\s*[ap]m)",
+        cal_html,
+        re.I,
+    ):
+        d = _parse_sarnia_day(day_s, mon_name, year_s)
+        if not d:
+            continue
+        hhmm = tim.upper().replace(" ", "")
+        # Normalize 1:00pm → keep display time; build Detail slug as HHMM military-ish from clock
+        m = re.match(r"(\d{1,2}):(\d{2})\s*([AP]M)", tim, re.I)
+        slug_hhmm = "1300"
+        display = "1:00 PM"
+        if m:
+            hh, mm, ap = int(m.group(1)), m.group(2), m.group(3).upper()
+            display = f"{hh}:{mm} {ap}"
+            if ap == "PM" and hh != 12:
+                hh += 12
+            if ap == "AM" and hh == 12:
+                hh = 0
+            slug_hhmm = f"{hh:02d}{mm}"
+        detail = (
+            f"https://calendar.sarnia.ca/default/Detail/"
+            f"{d.isoformat()}-{slug_hhmm}-Sarnia-City-Council"
+        )
+        add(d, display, "Sarnia City Council", detail)
+
+    print(f"  {portal['id']}: {len(raw)} listed", flush=True)
+    items = items_from_raw(portal, raw, horizon, inspect_all, source="sarnia")
+    for it in items:
+        it.setdefault("links", {})
+        it["links"].setdefault("agenda", agenda)
+        it["links"].setdefault("source", civicweb)
     return items
 
 
@@ -909,6 +996,7 @@ def main() -> int:
             "halton": scrape_halton,
             "tmmis": scrape_toronto,
             "ajax": scrape_ajax,
+            "sarnia": scrape_sarnia,
         }
         fn = scrapers.get(kind)
         if not fn:

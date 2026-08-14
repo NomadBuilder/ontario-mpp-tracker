@@ -103,7 +103,7 @@ Public page: **`meetings.html`** — not part of the WordPress iframe. Complemen
 - Hand-entered votes / spills / proposals: **`data/meetings-curated.json`**
 - Auto output: **`data/meetings.json`** from `python3 scripts/fetch_meetings.py`
 
-The twice-daily sync polls high-priority eScribe calendars (including London, Brantford, St. Thomas, Stratford, Peel and York Region), Durham’s CivicPlus calendar, Halton’s council calendar + OnBase, Toronto’s TMMIS open-data schedule (titles can be more generic than the live calendar — cards note that), and Ajax’s published yearly schedule. Keyword hits are flagged; other upcoming council/planning meetings are listed so organizers can scan agendas. CivicWeb-only towns stay as gaps until a scraper exists — add those dates by hand.
+The twice-daily sync polls high-priority eScribe calendars (including London, Brantford, St. Thomas, Stratford, Kitchener, Cambridge, Region of Waterloo, Peel and York Region), Waterloo’s CivicPlus calendar, Sarnia’s CivicWeb/council calendar, Durham’s CivicPlus calendar, Halton’s council calendar + OnBase, Toronto’s TMMIS open-data schedule (titles can be more generic than the live calendar — cards note that), and Ajax’s published yearly schedule. Keyword hits are flagged; other upcoming council/planning meetings are listed so organizers can scan agendas. CivicWeb-only towns stay as gaps until a scraper exists — add those dates by hand.
 
 The public hub is **`landing.html`** (title: Accountability). An Explore menu links the MPP tracker embed, city council watch, power map, player cards, and integrity news. Do not change the WordPress iframe.
 

@@ -226,9 +226,83 @@
       "meetings": 1,
       "calendarUrl": "https://www.toronto.ca/city-government/council/council-committee-meetings/",
       "note": "TMMIS open-data schedule. Live calendar titles can be more specific (special sessions). Agendas on secure.toronto.ca often block scrapers."
+    },
+    {
+      "id": "kitchener",
+      "name": "City of Kitchener",
+      "type": "escribe",
+      "ok": true,
+      "meetings": 12,
+      "calendarUrl": "https://pub-kitchener.escribemeetings.com",
+      "note": ""
+    },
+    {
+      "id": "cambridge",
+      "name": "City of Cambridge",
+      "type": "escribe",
+      "ok": true,
+      "meetings": 9,
+      "calendarUrl": "https://pub-cambridge.escribemeetings.com",
+      "note": ""
+    },
+    {
+      "id": "regionofwaterloo",
+      "name": "Region of Waterloo",
+      "type": "escribe",
+      "ok": true,
+      "meetings": 11,
+      "calendarUrl": "https://pub-regionofwaterloo.escribemeetings.com",
+      "note": ""
+    },
+    {
+      "id": "waterloo",
+      "name": "City of Waterloo",
+      "type": "civicplus",
+      "ok": true,
+      "meetings": 10,
+      "calendarUrl": "https://events.waterloo.ca/meetings",
+      "note": "CivicPlus at events.waterloo.ca/meetings"
+    },
+    {
+      "id": "sarnia",
+      "name": "City of Sarnia",
+      "type": "sarnia",
+      "ok": true,
+      "meetings": 1,
+      "calendarUrl": "https://calendar.sarnia.ca/",
+      "note": "Council dates from CivicWeb + calendar.sarnia.ca series; agendas on CivicWeb"
     }
   ],
   "items": [
+    {
+      "id": "kitchener-8e764c04-063c-48",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-08-18",
+      "time": "10:00 AM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=8e764c04-063c-48d1-b953-501d47bbd6ab",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=8e764c04-063c-48d1-b953-501d47bbd6ab"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
     {
       "id": "ottawa-90ac1b7f-c5e0-41",
       "municipality": "City of Ottawa",
@@ -285,6 +359,35 @@
       "relevant": false,
       "matchKind": "",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "waterloo-2026-08-18-1630-",
+      "municipality": "City of Waterloo",
+      "municipalityId": "waterloo",
+      "body": "Committee of Adjustment Meeting",
+      "title": "Committee of Adjustment Meeting",
+      "date": "2026-08-18",
+      "time": "4:30 PM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://events.waterloo.ca/meetings/Detail/2026-08-18-1630-Committee-of-Adjustment-Meeting2",
+        "agenda": "https://events.waterloo.ca/meetings/Detail/2026-08-18-1630-Committee-of-Adjustment-Meeting2"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "civicplus",
       "curated": false
     },
     {
@@ -462,6 +565,35 @@
       "curated": false
     },
     {
+      "id": "kitchener-7fe8a50f-7c08-45",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-08-24",
+      "time": "7:00 PM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=7fe8a50f-7c08-456f-926f-52e2fe38c294",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=7fe8a50f-7c08-456f-926f-52e2fe38c294"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "brampton-f263491e-830e-49",
       "municipality": "City of Brampton",
       "municipalityId": "brampton",
@@ -483,6 +615,35 @@
       "links": {
         "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=f263491e-830e-49ca-9128-bd463ff56cb3",
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=f263491e-830e-49ca-9128-bd463ff56cb3"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "cambridge-ef3fe61f-fef5-49",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-08-25",
+      "time": "6:30 PM",
+      "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=ef3fe61f-fef5-49f7-99d0-2f397b2326c5",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=ef3fe61f-fef5-49f7-99d0-2f397b2326c5"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -578,6 +739,35 @@
       "curated": false
     },
     {
+      "id": "kitchener-3c85b6a2-ddbf-4e",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Economic Development Advisory Committee",
+      "title": "Economic Development Advisory Committee",
+      "date": "2026-08-26",
+      "time": "11:00 AM",
+      "location": "Conestoga Room",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=3c85b6a2-ddbf-4eb3-a7a8-97e7520bd226",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=3c85b6a2-ddbf-4eb3-a7a8-97e7520bd226"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "ottawa-47d13d57-fb07-4b",
       "municipality": "City of Ottawa",
       "municipalityId": "ottawa",
@@ -599,6 +789,35 @@
       "links": {
         "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=47d13d57-fb07-4bd5-9098-d155961c747c",
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=47d13d57-fb07-4bd5-9098-d155961c747c"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "regionofwaterloo-4d659b0e-4d32-4a",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-08-26",
+      "time": "7:00 PM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d659b0e-4d32-4a1b-b364-19ba7f6f26d5",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d659b0e-4d32-4a1b-b364-19ba7f6f26d5"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -1188,6 +1407,35 @@
       "curated": false
     },
     {
+      "id": "regionofwaterloo-63d31893-7137-47",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Sustainability, Infrastructure, and Development",
+      "title": "Sustainability, Infrastructure, and Development",
+      "date": "2026-09-08",
+      "time": "9:00 AM",
+      "location": "Council Chambers/Electronic",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=63d31893-7137-4737-94d9-e401d0937eae",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=63d31893-7137-4737-94d9-e401d0937eae"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "ajax-2026-09-08-commu",
       "municipality": "Town of Ajax",
       "municipalityId": "ajax",
@@ -1296,6 +1544,35 @@
       "links": {
         "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=dca4ed1e-00a2-4b21-b635-1befd9e14689",
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=dca4ed1e-00a2-4b21-b635-1befd9e14689"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "cambridge-580c96f5-1a44-49",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-09-09",
+      "time": "6:00 PM",
+      "location": "Bowman Room",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=580c96f5-1a44-4992-b8d6-71ddce6da74a",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=580c96f5-1a44-4992-b8d6-71ddce6da74a"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -1441,6 +1718,35 @@
       "links": {
         "meeting": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=4e5fdad4-a163-4113-8b27-0f5f1c8e748b",
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=4e5fdad4-a163-4113-8b27-0f5f1c8e748b"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "regionofwaterloo-274d3e39-1ccc-4b",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Special Council",
+      "title": "Special Council",
+      "date": "2026-09-09",
+      "time": "9:00 AM",
+      "location": "Council Chambers/Electronic",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=274d3e39-1ccc-4be7-be9e-dbc0184230c0",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=274d3e39-1ccc-4be7-be9e-dbc0184230c0"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -1623,6 +1929,64 @@
       "curated": false
     },
     {
+      "id": "kitchener-20a59114-51a4-4a",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Planning and Strategic Initiatives Committee",
+      "title": "Planning and Strategic Initiatives Committee",
+      "date": "2026-09-14",
+      "time": "12:00 AM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=20a59114-51a4-4a91-ac1a-1ca7ff7278df",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=20a59114-51a4-4a91-ac1a-1ca7ff7278df"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-dbeb1c24-fea9-45",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Community and Infrastructure Services Committee",
+      "title": "Community and Infrastructure Services Committee",
+      "date": "2026-09-14",
+      "time": "12:00 AM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=dbeb1c24-fea9-450e-af8b-269c4db24938",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=dbeb1c24-fea9-450e-af8b-269c4db24938"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "stratford-be47e44a-0c44-43",
       "municipality": "City of Stratford",
       "municipalityId": "stratford",
@@ -1649,6 +2013,35 @@
       "relevant": false,
       "matchKind": "",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "waterloo-2026-09-14-1400-",
+      "municipality": "City of Waterloo",
+      "municipalityId": "waterloo",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-09-14",
+      "time": "2:00 PM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://events.waterloo.ca/meetings/Detail/2026-09-14-1400-Council-Meeting",
+        "agenda": "https://events.waterloo.ca/meetings/Detail/2026-09-14-1400-Council-Meeting"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "civicplus",
       "curated": false
     },
     {
@@ -1731,6 +2124,64 @@
       "links": {
         "meeting": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=6d58b33e-267d-4e9e-b53e-ddaee7503f6a",
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=6d58b33e-267d-4e9e-b53e-ddaee7503f6a"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "cambridge-53f4ed8d-16a8-4f",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Planning - Statutory Public Meeting",
+      "title": "Planning - Statutory Public Meeting",
+      "date": "2026-09-15",
+      "time": "6:30 PM",
+      "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=53f4ed8d-16a8-4f47-ac30-ab56a98d490b",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=53f4ed8d-16a8-4f47-ac30-ab56a98d490b"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-aa4c129d-df4b-4a",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-09-15",
+      "time": "10:00 AM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=aa4c129d-df4b-4a3f-95d9-349506d20587",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=aa4c129d-df4b-4a3f-95d9-349506d20587"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -1881,6 +2332,35 @@
       "relevant": false,
       "matchKind": "",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "waterloo-2026-09-15-1630-",
+      "municipality": "City of Waterloo",
+      "municipalityId": "waterloo",
+      "body": "Committee of Adjustment Meeting",
+      "title": "Committee of Adjustment Meeting",
+      "date": "2026-09-15",
+      "time": "4:30 PM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://events.waterloo.ca/meetings/Detail/2026-09-15-1630-Committee-of-Adjustment-Meeting2",
+        "agenda": "https://events.waterloo.ca/meetings/Detail/2026-09-15-1630-Committee-of-Adjustment-Meeting2"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "civicplus",
       "curated": false
     },
     {
@@ -2612,6 +3092,35 @@
       "curated": false
     },
     {
+      "id": "regionofwaterloo-ab8d011f-3e47-45",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-09-23",
+      "time": "7:00 PM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=ab8d011f-3e47-459a-8fee-74f31a3a6a3a",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=ab8d011f-3e47-459a-8fee-74f31a3a6a3a"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-05213a90-4f89-4e",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -2699,6 +3208,35 @@
       "curated": false
     },
     {
+      "id": "kitchener-c2dd9b54-c6de-44",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-09-28",
+      "time": "7:00 PM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=c2dd9b54-c6de-44b6-ab82-c7cc1e82ff2a",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=c2dd9b54-c6de-44b6-ab82-c7cc1e82ff2a"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "stratford-ea5358b0-5b96-4b",
       "municipality": "City of Stratford",
       "municipalityId": "stratford",
@@ -2725,6 +3263,35 @@
       "relevant": false,
       "matchKind": "",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "waterloo-2026-09-28-1400-",
+      "municipality": "City of Waterloo",
+      "municipalityId": "waterloo",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-09-28",
+      "time": "2:00 PM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://events.waterloo.ca/meetings/Detail/2026-09-28-1400-Council-Meeting",
+        "agenda": "https://events.waterloo.ca/meetings/Detail/2026-09-28-1400-Council-Meeting"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "civicplus",
       "curated": false
     },
     {
@@ -3047,6 +3614,35 @@
       "curated": false
     },
     {
+      "id": "waterloo-2026-10-05-1400-",
+      "municipality": "City of Waterloo",
+      "municipalityId": "waterloo",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-10-05",
+      "time": "2:00 PM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://events.waterloo.ca/meetings/Detail/2026-10-05-1400-Council-Meeting",
+        "agenda": "https://events.waterloo.ca/meetings/Detail/2026-10-05-1400-Council-Meeting"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "civicplus",
+      "curated": false
+    },
+    {
       "id": "oakville-cc728ee4-8014-40",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -3105,6 +3701,35 @@
       "curated": false
     },
     {
+      "id": "regionofwaterloo-8db45c35-d042-42",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Sustainability, Infrastructure, and Development",
+      "title": "Sustainability, Infrastructure, and Development",
+      "date": "2026-10-06",
+      "time": "9:00 AM",
+      "location": "Council Chambers/Electronic",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "hamilton-185693f5-0e68-43",
       "municipality": "City of Hamilton",
       "municipalityId": "hamilton",
@@ -3155,6 +3780,35 @@
       "links": {
         "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=c36a6ea1-73ec-4f87-8485-f36a56b84e47",
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=c36a6ea1-73ec-4f87-8485-f36a56b84e47"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "regionofwaterloo-eaa83982-19fd-43",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Special Council",
+      "title": "Special Council",
+      "date": "2026-10-07",
+      "time": "9:00 AM",
+      "location": "Council Chambers/Electronic",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=eaa83982-19fd-43df-baa2-d1c2c42780f3",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=eaa83982-19fd-43df-baa2-d1c2c42780f3"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -3366,6 +4020,64 @@
       "curated": false
     },
     {
+      "id": "cambridge-0538254e-15d5-4d",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-10-14",
+      "time": "6:00 PM",
+      "location": "Bowman Room",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=0538254e-15d5-4d7f-a16f-be1c3edfc033",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=0538254e-15d5-4d7f-a16f-be1c3edfc033"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "regionofwaterloo-2471127d-9236-4e",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-10-14",
+      "time": "7:00 PM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=2471127d-9236-4ef9-883f-b49484793455",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=2471127d-9236-4ef9-883f-b49484793455"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "oakville-8e48d86a-978a-4e",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -3421,6 +4133,64 @@
       "relevant": false,
       "matchKind": "",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-877a12b2-95f3-4d",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-10-20",
+      "time": "10:00 AM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=877a12b2-95f3-4d2a-b776-a469d8a0556c",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=877a12b2-95f3-4d2a-b776-a469d8a0556c"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "waterloo-2026-10-20-1630-",
+      "municipality": "City of Waterloo",
+      "municipalityId": "waterloo",
+      "body": "Committee of Adjustment Meeting",
+      "title": "Committee of Adjustment Meeting",
+      "date": "2026-10-20",
+      "time": "4:30 PM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://events.waterloo.ca/meetings/Detail/2026-10-20-1630-Committee-of-Adjustment-Meeting2",
+        "agenda": "https://events.waterloo.ca/meetings/Detail/2026-10-20-1630-Committee-of-Adjustment-Meeting2"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "civicplus",
       "curated": false
     },
     {
@@ -3627,6 +4397,35 @@
       "curated": false
     },
     {
+      "id": "waterloo-2026-11-02-1400-",
+      "municipality": "City of Waterloo",
+      "municipalityId": "waterloo",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-11-02",
+      "time": "2:00 PM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://events.waterloo.ca/meetings/Detail/2026-11-02-1400-Council-Meeting",
+        "agenda": "https://events.waterloo.ca/meetings/Detail/2026-11-02-1400-Council-Meeting"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "civicplus",
+      "curated": false
+    },
+    {
       "id": "markham-8d901821-3268-4b",
       "municipality": "City of Markham",
       "municipalityId": "markham",
@@ -3677,6 +4476,64 @@
       "links": {
         "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=e66dec2e-e341-4fb1-8a16-58c1efe1e515",
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=e66dec2e-e341-4fb1-8a16-58c1efe1e515"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "regionofwaterloo-12801baa-20c9-46",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Sustainability, Infrastructure, and Development",
+      "title": "Sustainability, Infrastructure, and Development",
+      "date": "2026-11-03",
+      "time": "9:00 AM",
+      "location": "Council Chambers/Electronic",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=12801baa-20c9-46a3-aa56-3530a3c88a9c",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=12801baa-20c9-46a3-aa56-3530a3c88a9c"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "regionofwaterloo-29bfaae0-a36c-49",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-11-03",
+      "time": "7:00 PM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=29bfaae0-a36c-493b-9ad6-f07ec49998ec",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=29bfaae0-a36c-493b-9ad6-f07ec49998ec"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -3888,6 +4745,35 @@
       "curated": false
     },
     {
+      "id": "cambridge-de66c789-b09d-44",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-11-11",
+      "time": "6:00 PM",
+      "location": "Bowman Room",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=de66c789-b09d-441a-b4ff-1827f9bc1f7e",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=de66c789-b09d-441a-b4ff-1827f9bc1f7e"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "oakville-4162e72f-daa8-42",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -4059,6 +4945,93 @@
       "relevant": false,
       "matchKind": "",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "cambridge-43362d54-5eec-47",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-11-17",
+      "time": "6:30 PM",
+      "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=43362d54-5eec-4769-bff0-79a28acd32bc",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=43362d54-5eec-4769-bff0-79a28acd32bc"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-86530660-f27d-49",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-11-17",
+      "time": "10:00 AM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=86530660-f27d-4990-829c-30b273275cd3",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=86530660-f27d-4990-829c-30b273275cd3"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "waterloo-2026-11-17-1630-",
+      "municipality": "City of Waterloo",
+      "municipalityId": "waterloo",
+      "body": "Committee of Adjustment Meeting",
+      "title": "Committee of Adjustment Meeting",
+      "date": "2026-11-17",
+      "time": "4:30 PM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://events.waterloo.ca/meetings/Detail/2026-11-17-1630-Committee-of-Adjustment-Meeting2",
+        "agenda": "https://events.waterloo.ca/meetings/Detail/2026-11-17-1630-Committee-of-Adjustment-Meeting2"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "civicplus",
       "curated": false
     },
     {
@@ -4349,6 +5322,36 @@
       "relevant": false,
       "matchKind": "",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "sarnia-2026-11-23-counc",
+      "municipality": "City of Sarnia",
+      "municipalityId": "sarnia",
+      "body": "Sarnia City Council",
+      "title": "Sarnia City Council",
+      "date": "2026-11-23",
+      "time": "1:00 PM",
+      "location": "City Hall, Sarnia",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://calendar.sarnia.ca/default/Detail/2026-11-23-1300-Sarnia-City-Council",
+        "agenda": "https://calendar.sarnia.ca/default/Detail/2026-11-23-1300-Sarnia-City-Council",
+        "source": "https://sarnia.civicweb.net/Portal/MeetingInformation.aspx?Id=1593&Org=Cal"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "sarnia",
       "curated": false
     },
     {
@@ -4816,6 +5819,64 @@
       "curated": false
     },
     {
+      "id": "kitchener-dd38ce04-e03e-47",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Planning and Strategic Initiatives Committee",
+      "title": "Planning and Strategic Initiatives Committee",
+      "date": "2026-11-30",
+      "time": "12:00 AM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=dd38ce04-e03e-472e-88b6-2c92e6b10aa8",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=dd38ce04-e03e-472e-88b6-2c92e6b10aa8"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-a5c8bd78-ca67-41",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Community and Infrastructure Services Committee",
+      "title": "Community and Infrastructure Services Committee",
+      "date": "2026-11-30",
+      "time": "12:00 AM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=a5c8bd78-ca67-412e-baec-419ab74c98af",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=a5c8bd78-ca67-412e-baec-419ab74c98af"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "oakville-babf56dc-a0cb-47",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -4895,6 +5956,35 @@
       "links": {
         "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=dbba4b78-5229-44b4-978e-48db384d480e",
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=dbba4b78-5229-44b4-978e-48db384d480e"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "cambridge-9fb442c5-4197-46",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-12-01",
+      "time": "6:30 PM",
+      "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=9fb442c5-4197-46e6-b029-9b592fd25919",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=9fb442c5-4197-46e6-b029-9b592fd25919"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -5396,6 +6486,35 @@
       "curated": false
     },
     {
+      "id": "waterloo-2026-12-07-1400-",
+      "municipality": "City of Waterloo",
+      "municipalityId": "waterloo",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-12-07",
+      "time": "2:00 PM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://events.waterloo.ca/meetings/Detail/2026-12-07-1400-Council-Meeting",
+        "agenda": "https://events.waterloo.ca/meetings/Detail/2026-12-07-1400-Council-Meeting"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "civicplus",
+      "curated": false
+    },
+    {
       "id": "ajax-2026-12-07-commu",
       "municipality": "Town of Ajax",
       "municipalityId": "ajax",
@@ -5541,6 +6660,64 @@
       "curated": false
     },
     {
+      "id": "cambridge-afd4f6fa-1c4a-45",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Planning - Statutory Public Meeting",
+      "title": "Planning - Statutory Public Meeting",
+      "date": "2026-12-08",
+      "time": "6:30 PM",
+      "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=afd4f6fa-1c4a-4578-9624-fcdb7b30fc39",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=afd4f6fa-1c4a-4578-9624-fcdb7b30fc39"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-ebbdb378-cf6a-48",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-12-08",
+      "time": "10:00 AM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=ebbdb378-cf6a-48bd-8998-a99fdeab4294",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=ebbdb378-cf6a-48bd-8998-a99fdeab4294"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "markham-5d834874-515d-44",
       "municipality": "City of Markham",
       "municipalityId": "markham",
@@ -5657,6 +6834,35 @@
       "curated": false
     },
     {
+      "id": "waterloo-2026-12-08-1630-",
+      "municipality": "City of Waterloo",
+      "municipalityId": "waterloo",
+      "body": "Committee of Adjustment Meeting",
+      "title": "Committee of Adjustment Meeting",
+      "date": "2026-12-08",
+      "time": "4:30 PM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://events.waterloo.ca/meetings/Detail/2026-12-08-1630-Committee-of-Adjustment-Meeting2",
+        "agenda": "https://events.waterloo.ca/meetings/Detail/2026-12-08-1630-Committee-of-Adjustment-Meeting2"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "civicplus",
+      "curated": false
+    },
+    {
       "id": "durham-region-2026-12-08-0930-",
       "municipality": "Region of Durham",
       "municipalityId": "durham-region",
@@ -5686,6 +6892,35 @@
       "curated": false
     },
     {
+      "id": "regionofwaterloo-4d318740-9b3b-41",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Sustainability, Infrastructure, and Development",
+      "title": "Sustainability, Infrastructure, and Development",
+      "date": "2026-12-08",
+      "time": "9:00 AM",
+      "location": "Council Chambers/Electronic",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d318740-9b3b-41be-9a57-504fcf6ca41c",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d318740-9b3b-41be-9a57-504fcf6ca41c"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "brampton-83379f06-75c3-49",
       "municipality": "City of Brampton",
       "municipalityId": "brampton",
@@ -5707,6 +6942,35 @@
       "links": {
         "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=83379f06-75c3-4948-abf0-09d5a1e5e6c7",
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=83379f06-75c3-4948-abf0-09d5a1e5e6c7"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "cambridge-7f1187a3-a13d-4b",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-12-09",
+      "time": "6:00 PM",
+      "location": "Bowman Room",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=7f1187a3-a13d-4b95-bfdb-6ef06cdd9fe0",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=7f1187a3-a13d-4b95-bfdb-6ef06cdd9fe0"
       },
       "keywordsMatched": [],
       "relevant": false,
@@ -6377,6 +7641,40 @@
       "relevant": true,
       "source": "curated",
       "matchKind": "exact"
+    },
+    {
+      "id": "regionofwaterloo-62d2743f-d360-45",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Sustainability, Infrastructure, and Development",
+      "title": "Sustainability, Infrastructure, and Development",
+      "date": "2026-08-11",
+      "time": "9:00 AM",
+      "location": "Council Chambers/Electronic",
+      "status": "past",
+      "cancelled": false,
+      "issue": "nfrastructure, Sustainability 5.4 Warren Snider, Kitchener Re: Concerns about building AI data centers in the area 5.5 Megan Jesso, Hamilton Re: ai data center 6. Consent Agenda Items on the Consent Agenda can be approved in one motion of Com",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=62d2743f-d360-45ae-8358-23f073caf2db",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=62d2743f-d360-45ae-8358-23f073caf2db"
+      },
+      "keywordsMatched": [
+        "data centers",
+        "data center",
+        "data centres",
+        "data centre"
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "source": "escribe",
+      "curated": false
     },
     {
       "id": "oakville-cec61113-728a-48",

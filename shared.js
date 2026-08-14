@@ -204,6 +204,11 @@ window.MppShared = (function () {
       saintthomas: "stthomas",
       niagara: "niagararegion",
       waterlooregion: "regionofwaterloo",
+      regionofwaterloo: "regionofwaterloo",
+      sarnia: "sarnia",
+      kitchener: "kitchener",
+      cambridge: "cambridge",
+      waterloo: "waterloo",
     };
     const resolve = (raw) => {
       const key = foldPlace(raw);
