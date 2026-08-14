@@ -174,15 +174,6 @@
       "note": ""
     },
     {
-      "id": "toronto",
-      "name": "City of Toronto",
-      "type": "tmmis",
-      "ok": true,
-      "meetings": 0,
-      "calendarUrl": "https://www.toronto.ca/city-government/council/council-committee-meetings/",
-      "note": "TMMIS open-data schedule only — agendas are behind login/403, so we skip title-only scan cards (open data often says “City Council” while the live calendar shows a special session). Add curated watches for known Toronto data-centre items."
-    },
-    {
       "id": "york-region",
       "name": "York Region",
       "type": "escribe",
@@ -226,6 +217,15 @@
       "meetings": 0,
       "calendarUrl": "https://saultstemarie.ca/government/city-council/council-agendas-minutes-and-schedule/",
       "note": "Not auto-scanned yet — ICBL votes are hand-entered"
+    },
+    {
+      "id": "toronto",
+      "name": "City of Toronto",
+      "type": "tmmis",
+      "ok": true,
+      "meetings": 1,
+      "calendarUrl": "https://www.toronto.ca/city-government/council/council-committee-meetings/",
+      "note": "TMMIS open-data schedule. Live calendar titles can be more specific (special sessions). Agendas on secure.toronto.ca often block scrapers."
     }
   ],
   "items": [
@@ -2087,6 +2087,35 @@
       "relevant": false,
       "matchKind": "",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "toronto-2026-09-16-city-",
+      "municipality": "City of Toronto",
+      "municipalityId": "toronto",
+      "body": "City Council · meeting 44",
+      "title": "City Council · meeting 44",
+      "date": "2026-09-16",
+      "time": "09:30 AM",
+      "location": "Council Chamber, City Hall/Video Conference",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "On Toronto’s open meeting schedule — open the city’s calendar to confirm the exact title (special sittings are sometimes renamed there) and scan the agenda.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://www.toronto.ca/city-government/council/council-committee-meetings/",
+        "agenda": "https://www.toronto.ca/city-government/council/council-committee-meetings/"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "source": "tmmis",
       "curated": false
     },
     {

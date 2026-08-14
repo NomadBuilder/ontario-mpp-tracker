@@ -607,9 +607,8 @@ def scrape_toronto(portal: dict, horizon: date, inspect_all: bool) -> list[dict]
         if not DECISION_BODY.search(title):
             continue
         mtg_no = (row.get("MTG #") or "").strip()
-        # Live calendar often renames special sittings (e.g. "S: City Council (urgent heritage
-        # matters)") while open data still says "City Council". Keep the meeting number so
-        # editors can cross-check; do not invent the special title from CSV alone.
+        # Open data often says "City Council" while the live calendar uses a special-session
+        # title (e.g. "S: City Council (urgent heritage matters)"). Keep meeting # for matching.
         label_bits = [title]
         if mtg_no:
             label_bits.append(f"meeting {mtg_no}")
@@ -628,14 +627,9 @@ def scrape_toronto(portal: dict, horizon: date, inspect_all: bool) -> list[dict]
             }
         )
     print(f"  {portal['id']}: {len(raw)} listed", flush=True)
-    # TMMIS agenda HTML is behind auth/403, so we cannot inspect for keywords. Generic
-    # "scan this council sitting" cards mislead (Sept 16 2026 looked like a normal Council
-    # on open data, but the public calendar is an urgent heritage special). Only keep rows
-    # that already hit data-centre terms in the committee title.
-    items = items_from_raw(portal, raw, horizon, inspect_all=False, source="tmmis")
-    kept = [it for it in items if it.get("relevant")]
-    print(f"  {portal['id']}: kept {len(kept)} keyword-flagged (skipped {len(items) - len(kept)} title-only scans)", flush=True)
-    return kept
+    # Agendas on secure.toronto.ca are often 403 from this scraper — still list decision
+    # bodies from the open-data schedule so organizers don't miss sittings.
+    return items_from_raw(portal, raw, horizon, inspect_all=False, source="tmmis")
 
 # Official 2026 schedule (events.ajax.ca/meetings currently returns an Error page).
 # Refresh from https://ajax.ca/wp-content/uploads/2026/05/2026-Meeting-Schedule.pdf
@@ -772,7 +766,13 @@ def items_from_raw(
             # Keep a thin 'scan' card only for upcoming decision bodies with no keyword hit
             if status != "upcoming":
                 continue
-            issue = "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items."
+            if source == "tmmis":
+                issue = (
+                    "On Toronto’s open meeting schedule — open the city’s calendar to confirm the "
+                    "exact title (special sittings are sometimes renamed there) and scan the agenda."
+                )
+            else:
+                issue = "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items."
         part = participation_from_text(page_text or mtg.get("label") or "")
         if re.search(r"information package", mtg["body"] or "", re.I):
             part["attend"] = False
