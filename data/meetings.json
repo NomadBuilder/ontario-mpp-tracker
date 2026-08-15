@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-14",
+  "asOf": "2026-08-15",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -250,7 +250,7 @@
       "name": "Region of Durham",
       "type": "civicplus",
       "ok": true,
-      "meetings": 6,
+      "meetings": 7,
       "calendarUrl": "https://calendar.durham.ca/meetings",
       "note": "CivicPlus calendar. Official listing also at durham.ca/regional-government/council/agendas-and-minutes"
     },
@@ -582,6 +582,37 @@
       "topics": {},
       "agendaStatus": "unknown",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "durham-region-2026-08-21-0930-",
+      "municipality": "Region of Durham",
+      "municipalityId": "durham-region",
+      "body": "Special Regional Council Meeting",
+      "title": "Special Regional Council Meeting",
+      "date": "2026-08-21",
+      "time": "9:30 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-08-21-0930-Special-Regional-Council-Meeting",
+        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-08-21-0930-Special-Regional-Council-Meeting"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "civicplus",
       "curated": false
     },
     {
