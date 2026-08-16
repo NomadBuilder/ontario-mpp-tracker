@@ -187,7 +187,7 @@
       "name": "City of Sarnia",
       "type": "sarnia",
       "ok": true,
-      "meetings": 2,
+      "meetings": 0,
       "calendarUrl": "https://calendar.sarnia.ca/",
       "note": "Council dates from CivicWeb + calendar.sarnia.ca series; agendas on CivicWeb"
     },
@@ -5708,38 +5708,6 @@
       "curated": false
     },
     {
-      "id": "sarnia-2026-11-23-counc",
-      "municipality": "City of Sarnia",
-      "municipalityId": "sarnia",
-      "body": "Sarnia City Council",
-      "title": "Sarnia City Council",
-      "date": "2026-11-23",
-      "time": "1:00 PM",
-      "location": "City Hall, Sarnia",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://calendar.sarnia.ca/default/Detail/2026-11-23-1300-Sarnia-City-Council",
-        "agenda": "https://calendar.sarnia.ca/default/Detail/2026-11-23-1300-Sarnia-City-Council",
-        "source": "https://sarnia.civicweb.net/Portal/MeetingInformation.aspx?Id=1593&Org=Cal"
-      },
-      "keywordsMatched": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "sarnia",
-      "curated": false
-    },
-    {
       "id": "stratford-19a55fe7-185a-4f",
       "municipality": "City of Stratford",
       "municipalityId": "stratford",
@@ -7941,38 +7909,6 @@
       "curated": false
     },
     {
-      "id": "sarnia-2026-12-14-counc",
-      "municipality": "City of Sarnia",
-      "municipalityId": "sarnia",
-      "body": "Sarnia City Council",
-      "title": "Sarnia City Council",
-      "date": "2026-12-14",
-      "time": "1:00 PM",
-      "location": "City Hall, Sarnia",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://calendar.sarnia.ca/default/Detail/2026-12-14-1300-Sarnia-City-Council",
-        "agenda": "https://calendar.sarnia.ca/default/Detail/2026-12-14-1300-Sarnia-City-Council",
-        "source": "https://sarnia.civicweb.net/Portal/MeetingInformation.aspx?Id=1593&Org=Cal"
-      },
-      "keywordsMatched": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "sarnia",
-      "curated": false
-    },
-    {
       "id": "waterloo-2026-12-14-1400-",
       "municipality": "City of Waterloo",
       "municipalityId": "waterloo",
@@ -8210,8 +8146,7 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
-        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
       },
       "keywordsMatched": [
         "data centre"
