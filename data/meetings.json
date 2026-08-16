@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-15",
+  "asOf": "2026-08-16",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 19,
+      "meetings": 20,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -115,7 +115,7 @@
       "name": "Town of Ajax",
       "type": "ajax",
       "ok": true,
-      "meetings": 4,
+      "meetings": 6,
       "calendarUrl": "https://ajax.ca/meetings",
       "note": "events.ajax.ca/meetings currently shows an error page; cards use ajax.ca/meetings (Power Apps portal) and the 2026 schedule PDF"
     },
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 12,
+      "meetings": 13,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -178,7 +178,7 @@
       "name": "City of Waterloo",
       "type": "civicplus",
       "ok": true,
-      "meetings": 10,
+      "meetings": 11,
       "calendarUrl": "https://events.waterloo.ca/meetings",
       "note": "CivicPlus at events.waterloo.ca/meetings"
     },
@@ -187,7 +187,7 @@
       "name": "City of Sarnia",
       "type": "sarnia",
       "ok": true,
-      "meetings": 1,
+      "meetings": 2,
       "calendarUrl": "https://calendar.sarnia.ca/",
       "note": "Council dates from CivicWeb + calendar.sarnia.ca series; agendas on CivicWeb"
     },
@@ -7910,6 +7910,193 @@
       "curated": false
     },
     {
+      "id": "kitchener-d0d10e57-3b9c-49",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-12-14",
+      "time": "7:00 PM",
+      "location": "City of Kitchener",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=d0d10e57-3b9c-49e0-a234-34a5b5541ed0",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=d0d10e57-3b9c-49e0-a234-34a5b5541ed0"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "sarnia-2026-12-14-counc",
+      "municipality": "City of Sarnia",
+      "municipalityId": "sarnia",
+      "body": "Sarnia City Council",
+      "title": "Sarnia City Council",
+      "date": "2026-12-14",
+      "time": "1:00 PM",
+      "location": "City Hall, Sarnia",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://calendar.sarnia.ca/default/Detail/2026-12-14-1300-Sarnia-City-Council",
+        "agenda": "https://calendar.sarnia.ca/default/Detail/2026-12-14-1300-Sarnia-City-Council",
+        "source": "https://sarnia.civicweb.net/Portal/MeetingInformation.aspx?Id=1593&Org=Cal"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "sarnia",
+      "curated": false
+    },
+    {
+      "id": "waterloo-2026-12-14-1400-",
+      "municipality": "City of Waterloo",
+      "municipalityId": "waterloo",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-12-14",
+      "time": "2:00 PM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://events.waterloo.ca/meetings/Detail/2026-12-14-1400-Council-Meeting",
+        "agenda": "https://events.waterloo.ca/meetings/Detail/2026-12-14-1400-Council-Meeting"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "civicplus",
+      "curated": false
+    },
+    {
+      "id": "ajax-2026-12-14-gener",
+      "municipality": "Town of Ajax",
+      "municipalityId": "ajax",
+      "body": "General Government Committee",
+      "title": "General Government Committee",
+      "date": "2026-12-14",
+      "time": "1:00 PM",
+      "location": "Town Hall, 65 Harwood Avenue South, Ajax",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://ajax.ca/meetings",
+        "agenda": "https://ajax.ca/meetings"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "ajax",
+      "curated": false
+    },
+    {
+      "id": "ajax-2026-12-14-counc",
+      "municipality": "Town of Ajax",
+      "municipalityId": "ajax",
+      "body": "Council",
+      "title": "Council",
+      "date": "2026-12-14",
+      "time": "Following GGC",
+      "location": "Town Hall, 65 Harwood Avenue South, Ajax",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://ajax.ca/meetings",
+        "agenda": "https://ajax.ca/meetings"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "ajax",
+      "curated": false
+    },
+    {
+      "id": "oakville-064b3a08-e35d-4c",
+      "municipality": "Town of Oakville",
+      "municipalityId": "oakville",
+      "body": "Council",
+      "title": "Council",
+      "date": "2026-12-14",
+      "time": "6:30 PM",
+      "location": "'>Council Chamber",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=064b3a08-e35d-4c09-ad45-1f0ad4934cf9",
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=064b3a08-e35d-4c09-ad45-1f0ad4934cf9"
+      },
+      "keywordsMatched": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "richmondhill-b6e394a4-e8b1-47",
       "municipality": "City of Richmond Hill",
       "municipalityId": "richmondhill",
@@ -7991,7 +8178,8 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
+        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
       },
       "keywordsMatched": [
         "data centre",
