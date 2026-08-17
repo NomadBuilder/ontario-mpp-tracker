@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="meetings.css?v=15">
+  <link rel="stylesheet" href="meetings.css?v=16">
   <link rel="stylesheet" href="nav.css?v=2">
 </head>
 <body>
@@ -42,7 +42,7 @@
         <button type="button" class="page-tab" id="tab-sources" role="tab" aria-selected="false">Sources</button>
       </div>
       <p class="disclaimer" id="meetings-blurb">
-        Yellow button opens the city’s official page. “News coverage” is reporting, not the agenda.
+        Yellow button opens the city’s official page — often a calendar shell, not a data-centre item. Flagged cards quote the words that tied the sitting to data centres or water. “News coverage” is reporting, not the agenda.
       </p>
       <div class="filters" id="meetings-filters">
         <label class="sr" for="q">Search</label>
@@ -78,7 +78,7 @@
       <ol class="how">
         <li>Twice a day we open each place’s <strong>public meeting calendar</strong> — the same one the clerk posts for residents.</li>
         <li>We list upcoming council, planning, and committee meetings so people can show up or request a deputation.</li>
-        <li>When an agenda is posted, we read it for data-centre and water-privatization language (and related terms), then mark those cards.</li>
+        <li>When an agenda is posted, we read it for data-centre and water-privatization language (and related terms), then mark those cards and quote the matching words.</li>
         <li>Every card links back to the official agenda. This is a heads-up, not a replacement for the municipality’s site.</li>
       </ol>
       <h2>What the filters mean</h2>
@@ -90,7 +90,7 @@
         <li><strong>Agenda posted</strong> — we opened the city’s meeting page and found a readable agenda package.</li>
         <li><strong>Agenda not posted / locked</strong> — the sitting is scheduled, but the package isn’t up yet, or the city blocks scrapers (common for Toronto).</li>
       </ul>
-      <p class="note">We match words on the page. A rezoning or utility file that never uses any of that language will stay a plain “scan agenda” card until someone reads it. Empty calendar shells are labelled <strong>Agenda not posted</strong> so a quiet filter isn’t mistaken for “nothing happening.”</p>
+      <p class="note">We match words on the page and quote them on the card. A rezoning or utility file that never uses any of that language will stay a plain “scan agenda” card until someone reads it. Empty calendar shells are labelled <strong>Agenda not posted</strong> so a quiet filter isn’t mistaken for “nothing happening.” If a card is listed from news or a prior vote, the quote is from our notes — the city’s sitting page may not say it yet.</p>
       <h2>How often</h2>
       <p>About <strong>9:15am and 9:15pm Eastern</strong>, every day. Places marked “checked twice a day” are in that round. Others are on our list but not in the automatic pass yet.</p>
       <h2>Calendars we look at</h2>
@@ -106,6 +106,6 @@
   </footer>
 
   <script src="nav.js"></script>
-  <script src="meetings-app.js?v=16"></script>
+  <script src="meetings-app.js?v=17"></script>
 </body>
 </html>

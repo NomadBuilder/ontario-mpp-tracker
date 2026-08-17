@@ -75,6 +75,89 @@
     return topics;
   }
 
+  const HIT_RE =
+    /data[\s-]?cent(?:re|er)s?|datacent(?:re|er)s?|hyperscale|co-?location|\bcolo\b|prologis|interim control|digital infrastructure|AI campus|crypto(?:currency)?[\s-]?min(?:e|ing)|water[\s-]?privatiz\w*|veolia|\bepcor\b|bulk\s+water/i;
+
+  function escapeRe(s) {
+    return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function highlightTerms(raw, terms) {
+    const text = String(raw || "");
+    if (!text) return "";
+    const fromTerms = [...(terms || [])]
+      .map((t) => String(t || "").trim())
+      .filter((t) => t.length > 2)
+      .sort((a, b) => b.length - a.length)
+      .map((t) => escapeRe(t).replace(/[\s-]+/g, "[\\s-]+"));
+    const fallback =
+      "data[\\s-]?cent(?:re|er)s?|datacent(?:re|er)s?|hyperscale|co-?location|prologis|interim control|digital infrastructure|AI campus|water[\\s-]?privatiz\\w*|veolia|\\bepcor\\b";
+    const re = new RegExp("(" + (fromTerms.length ? fromTerms.join("|") + "|" : "") + fallback + ")", "gi");
+    return escapeHtml(text).replace(re, "<mark>$1</mark>");
+  }
+
+  function textHits(text, terms) {
+    const s = String(text || "");
+    if (!s) return false;
+    if (HIT_RE.test(s)) return true;
+    const low = s.toLowerCase();
+    return (terms || []).some((t) => t && low.includes(String(t).toLowerCase()));
+  }
+
+  function evidenceQuotes(item, terms) {
+    const fromAgenda = [...(item.snippets || [])].map((s) => String(s || "").trim()).filter(Boolean);
+    if (fromAgenda.length) return { quotes: fromAgenda.slice(0, 3), fromAgenda: true };
+    const quotes = [];
+    for (const field of [item.issue, item.why, item.result]) {
+      for (const sent of String(field || "").split(/(?<=[.!?])\s+/)) {
+        const bit = sent.trim();
+        if (bit && textHits(bit, terms) && !quotes.includes(bit)) quotes.push(bit);
+      }
+      if (quotes.length >= 2) break;
+    }
+    if (!quotes.length && item.issue) quotes.push(item.issue);
+    return { quotes: quotes.slice(0, 2), fromAgenda: false };
+  }
+
+  function leftoverIssue(issue, quotes) {
+    if (!issue) return "";
+    let rest = String(issue);
+    if (quotes.some((q) => q.trim() === rest.trim())) return "";
+    for (const q of quotes) {
+      if (q && rest.includes(q)) rest = rest.split(q).join(" ");
+    }
+    rest = rest.replace(/\s+/g, " ").trim().replace(/^[-–—.:;]+/, "").trim();
+    return rest.length > 24 ? rest : "";
+  }
+
+  function evidenceHtml(item, topics) {
+    const flagged = !!topics.datacentre || !!topics.water;
+    if (!flagged) return { html: "", leftoverIssue: "", fromAgenda: false };
+    const terms = item.keywordsMatched || [];
+    const { quotes, fromAgenda } = evidenceQuotes(item, terms);
+    if (!quotes.length) return { html: "", leftoverIssue: item.issue || "", fromAgenda: false };
+    const topic =
+      topics.datacentre && topics.water ? "data centres and water" : topics.water ? "water privatization" : "data centres";
+    const heading = fromAgenda ? "Quoted from the agenda" : `What ties this to ${topic}`;
+    const chips = terms.map((t) => `<span class="term">${escapeHtml(t)}</span>`).join("");
+    let origin = "";
+    if (item.origin) origin = `<p class="evidence-origin">${escapeHtml(item.origin)}</p>`;
+    else if (!fromAgenda) {
+      origin = `<p class="evidence-origin">The city’s sitting page may not mention ${escapeHtml(topic)} yet. The language below is why we listed it.</p>`;
+    }
+    const cls = topics.water && !topics.datacentre ? "evidence water" : "evidence";
+    return {
+      html: `<div class="${cls}">
+        <h3>${heading}</h3>
+        ${quotes.map((q) => `<blockquote>${highlightTerms(q, terms)}</blockquote>`).join("")}
+        ${chips ? `<p class="terms">Matched ${chips}</p>` : ""}
+        ${origin}
+      </div>`,
+      leftoverIssue: leftoverIssue(item.issue, quotes),
+      fromAgenda,
+    };
+  }
+
   function itemHtml(item, i) {
     const topics = topicMap(item);
     const flagged = !!item.relevant || !!topics.datacentre || !!topics.water;
@@ -102,7 +185,11 @@
     ].filter(Boolean).join("");
     const mark = statusMark(item);
     const links = item.links || {};
+    const terms = item.keywordsMatched || [];
+    const evidence = evidenceHtml(item, topics);
+    const showIssue = evidence.leftoverIssue;
     const officialLabel = item.status === "watch" ? "Open meeting calendar" : "Open official agenda";
+    const coverageLabel = flagged && !evidence.fromAgenda ? "Coverage that named this sitting" : "News coverage";
     const actions = [
       links.meeting ? `<a class="btn btn-primary" href="${escapeHtml(links.meeting)}" target="_blank" rel="noopener">${officialLabel}</a>` : "",
       links.agenda && links.agenda !== links.meeting
@@ -110,7 +197,7 @@
         : "",
       links.report ? `<a class="btn btn-ghost" href="${escapeHtml(links.report)}" target="_blank" rel="noopener">Staff report</a>` : "",
       links.application ? `<a class="btn btn-ghost" href="${escapeHtml(links.application)}" target="_blank" rel="noopener">Application</a>` : "",
-      links.source ? `<a class="btn btn-ghost" href="${escapeHtml(links.source)}" target="_blank" rel="noopener">News coverage</a>` : "",
+      links.source ? `<a class="btn btn-ghost" href="${escapeHtml(links.source)}" target="_blank" rel="noopener">${coverageLabel}</a>` : "",
     ].filter(Boolean);
     const meetingName = item.title || item.body || "Meeting";
     const showBody = item.body && item.body !== item.title && item.body !== item.municipality;
@@ -119,16 +206,17 @@
       <article class="item ${cls}" style="animation-delay:${Math.min(i * 25, 350)}ms">
         ${extra ? `<div class="item-kicker">${extra}</div>` : ""}
         <p class="place">${escapeHtml(item.municipality || "Municipality")}</p>
-        <h2>${escapeHtml(meetingName)}</h2>
+        <h2>${flagged ? highlightTerms(meetingName, terms) : escapeHtml(meetingName)}</h2>
         <div class="when-block">
           <span class="status-mark ${mark.cls}">${mark.label}</span>
           <p class="when">${escapeHtml(formatWhen(item))}</p>
         </div>
         ${showBody ? `<p class="where">${escapeHtml(item.body)}</p>` : ""}
         ${item.location ? `<p class="where">${escapeHtml(item.location)}</p>` : ""}
-        ${item.result ? `<div class="block result"><h3>Result</h3><p>${escapeHtml(item.result)}</p></div>` : ""}
-        ${item.issue ? `<div class="block"><h3>What’s on the table</h3><p>${escapeHtml(item.issue)}</p></div>` : ""}
-        ${item.why ? `<div class="block"><h3>Why this matters</h3><p>${escapeHtml(item.why)}</p></div>` : ""}
+        ${evidence.html}
+        ${item.result ? `<div class="block result"><h3>Result</h3><p>${flagged ? highlightTerms(item.result, terms) : escapeHtml(item.result)}</p></div>` : ""}
+        ${showIssue ? `<div class="block"><h3>What’s on the table</h3><p>${flagged ? highlightTerms(showIssue, terms) : escapeHtml(showIssue)}</p></div>` : ""}
+        ${item.why ? `<div class="block"><h3>Why this matters</h3><p>${flagged ? highlightTerms(item.why, terms) : escapeHtml(item.why)}</p></div>` : ""}
         ${item.status === "past" ? "" : `<div class="block">
           <h3>What to do next</h3>
           ${participateHtml(item.participate)}
@@ -153,7 +241,7 @@
       return `${list.length} upcoming · ${dcAhead} data-centre · ${waterAhead} water · updated ${asOf}`;
     }
     if (when === "exact") {
-      return `${list.length} with “data centre” in the agenda · updated ${asOf}`;
+      return `${list.length} with “data centre” in the agenda, title, or notes · updated ${asOf}`;
     }
     if (when === "broad") {
       return `${list.length} data-centre exact + related · updated ${asOf}`;
@@ -178,10 +266,10 @@
 
   const HINTS = {
     upcoming: "Every upcoming council and planning meeting we found. Flagged cards matched data-centre or water-privatization language.",
-    exact: "Only items whose agenda or title literally says data centre, data center, or datacentre.",
-    broad: "Exact matches plus related terms — hyperscale, colocation, AI campus, named operators, large-load / IESO connection, crypto mining.",
-    water: "Items that flag privatizing, selling, or handing municipal water to a private operator.",
-    "water-broad": "Water privatization plus P3/PPP water, outsourcing, Veolia/EPCOR-style operators, bulk water sales, franchises.",
+    exact: "Only items whose agenda or title literally says data centre, data center, or datacentre. Each card quotes the matching words.",
+    broad: "Exact matches plus related terms — hyperscale, colocation, AI campus, named operators, large-load / IESO connection, crypto mining. Each card quotes the words that triggered the match.",
+    water: "Items that flag privatizing, selling, or handing municipal water to a private operator. Each card quotes the matching words.",
+    "water-broad": "Water privatization plus P3/PPP water, outsourcing, Veolia/EPCOR-style operators, bulk water sales, franchises. Each card quotes the words that triggered the match.",
     "agenda-posted": "Only sittings where we found a readable published agenda package.",
     "agenda-closed": "On the calendar, but the agenda isn’t up yet — or the city blocks us from reading it.",
     past: "Meetings that already happened, including recorded votes when we have them.",

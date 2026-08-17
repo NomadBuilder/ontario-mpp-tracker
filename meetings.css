@@ -209,6 +209,66 @@ code { font-size: 0.85em; color: var(--yellow); }
 .badge.agenda-closed { border-color: rgba(255, 199, 69, 0.45); color: var(--yellow); }
 .item.flagged:has(.badge.water) { --accent: #6eb4dc; }
 
+.item h2 mark,
+.evidence mark,
+.block mark {
+  background: rgba(255, 199, 69, 0.38);
+  color: var(--ink);
+  padding: 0 0.12em;
+  font-weight: 700;
+}
+
+.evidence {
+  margin: 0 0 0.9rem;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid rgba(125, 206, 160, 0.4);
+  background: rgba(125, 206, 160, 0.1);
+}
+.evidence.water {
+  border-color: rgba(110, 180, 220, 0.45);
+  background: rgba(110, 180, 220, 0.1);
+}
+.evidence h3 {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ok);
+  margin-bottom: 0.4rem;
+}
+.evidence.water h3 { color: #8ec8e8; }
+.evidence blockquote {
+  font-size: 0.95rem;
+  color: var(--ink);
+  font-weight: 500;
+  line-height: 1.45;
+  margin: 0;
+}
+.evidence blockquote + blockquote {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--line);
+}
+.evidence .terms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: center;
+  margin: 0.5rem 0 0;
+  font-size: 0.75rem;
+  color: var(--dim);
+}
+.evidence .term {
+  font-weight: 700;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  padding: 0.12rem 0.4rem;
+}
+.evidence-origin {
+  margin-top: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--dim);
+  line-height: 1.4;
+}
 
 .place {
   font-family: var(--display);

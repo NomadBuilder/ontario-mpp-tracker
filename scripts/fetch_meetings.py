@@ -330,13 +330,23 @@ def parse_escribe_home(html: str, base: str) -> list[dict]:
     return out
 
 
-def extract_snippets(text: str, limit: int = 2) -> list[str]:
+def extract_snippets(text: str, limit: int = 3) -> list[str]:
     snippets: list[str] = []
-    for m in KEYWORD_RE.finditer(text):
-        start = max(0, m.start() - 90)
-        end = min(len(text), m.end() + 140)
-        bit = text[start:end].strip()
-        bit = re.sub(r"\s+", " ", bit)
+    blob = text or ""
+    for m in KEYWORD_RE.finditer(blob):
+        sent_start = max(
+            blob.rfind(".", 0, m.start()),
+            blob.rfind("?", 0, m.start()),
+            blob.rfind("!", 0, m.start()),
+        )
+        start = 0 if sent_start < 0 else sent_start + 1
+        ends = [blob.find(c, m.end()) for c in ".!?"]
+        ends = [i for i in ends if i != -1]
+        end = (min(ends) + 1) if ends else min(len(blob), m.end() + 160)
+        if end - start > 360 or end - start < 24:
+            start = max(0, m.start() - 90)
+            end = min(len(blob), m.end() + 140)
+        bit = re.sub(r"\s+", " ", blob[start:end]).strip(" \t-–—:;")
         if bit and bit not in snippets:
             snippets.append(bit)
         if len(snippets) >= limit:
@@ -435,9 +445,13 @@ def merge_items(existing: list[dict], incoming: list[dict]) -> list[dict]:
         if it.get("curated") and not prev.get("curated"):
             merged = {**it}
             merged["links"] = {**(prev.get("links") or {}), **(it.get("links") or {})}
+            if prev.get("snippets") and not merged.get("snippets"):
+                merged["snippets"] = prev["snippets"]
             buckets[key] = merged
         elif prev.get("curated") and not it.get("curated"):
             prev["links"] = {**(it.get("links") or {}), **(prev.get("links") or {})}
+            if it.get("snippets") and not prev.get("snippets"):
+                prev["snippets"] = it["snippets"]
         else:
             if len(it.get("issue") or "") > len(prev.get("issue") or ""):
                 buckets[key] = {**prev, **it, "curated": prev.get("curated") or it.get("curated")}
@@ -1015,6 +1029,7 @@ def items_from_raw(
                     "agenda": mtg["url"],
                 },
                 "keywordsMatched": keywords,
+                "snippets": snippets,
                 "relevant": relevant,
                 "matchKind": match_kind,
                 "topics": topics,
