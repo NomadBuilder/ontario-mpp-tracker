@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-16",
+  "asOf": "2026-08-17",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -1355,6 +1355,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-john-vanthof-fedeli-responds-to-recent-ndp-highway-criticism--2026-07-15",
+      "mppNames": [
+        "John Vanthof"
+      ],
+      "title": "Fedeli responds to recent NDP highway criticism - BayToday.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTzRMMjlQQ21pWlJWVmJ0R1p2eFFOUkd3MHNUNkVwVEUwVE00RlYteEU4Wk9ka082SFphSG9xRmpaUUxqeVJoOW1hQ2lNVV9yX0xtM2pkLXdPN3FsN1ppT3VacTlMS3FhWUItUl84cWgzalVxYW0wWFV5T25nMFp0aDYtVTZWeTFfbFkteFBOMkFidUJYM3c?oc=5",
+      "source": "BayToday.ca",
+      "date": "2026-07-15",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-stan-cho-tourism-minister-and-toronto-mpp-to-rep-2026-07-14",
       "mppNames": [
         "Stan Cho"
@@ -1576,19 +1589,6 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeldYc3E2X09BaXFpeUZ2RGpqSFVUd19FNWZOZExwRUdfNzhWTHJnN1lFd2FGOURYdDEwRnl4ZERNTUM5ckRIMVFUeTlTSmhMbGdyZnFKTXczelM0T3BNTG40bHlQRUJ6eUtvM0dqNjRfeEJYVjBnTFp1amxMLThfVnN2TkZFcFA1YWhfZDMwaV9tQmt6elRmME9yT0tvbjZsRS12NEsyd29FSElGQ0c4MjdB?oc=5",
       "source": "cbc.ca",
       "date": "2026-05-13",
-      "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-paul-calandra-special-education-funding-in-ontario-falling-sho-2026-05-12",
-      "mppNames": [
-        "Paul Calandra"
-      ],
-      "title": "Special education funding in Ontario falling short of growing need: auditor general - cbc.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMklPblVQY09BeFhxUTFGa25sa041bEQtZnZNT1FuSmRuT2loS0JnbkV4ZE9yLUt5MEcyQ0UtWlhzSWRrb1dqYlFiLXJGUHAwR29GakxhS2lhYUppSzE4b3lnVUZCUmNpY0xGM1NUYmVqZjhVUDdDN0J5TEZsMFFvSGx6RlBfbjBQeFpzb1g0TXluS0E?oc=5",
-      "source": "cbc.ca",
-      "date": "2026-05-12",
       "type": "investigation",
       "status": "reported"
     }
