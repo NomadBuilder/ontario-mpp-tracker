@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 12,
+      "meetings": 15,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -214,7 +214,7 @@
       "name": "City of Stratford",
       "type": "escribe",
       "ok": true,
-      "meetings": 6,
+      "meetings": 7,
       "calendarUrl": "https://pub-stratford.escribemeetings.com",
       "note": ""
     },
@@ -1173,6 +1173,70 @@
       "curated": false
     },
     {
+      "id": "ottawa-08cfaca3-a4bf-45",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Committee of Adjustment - Panel 3",
+      "title": "Committee of Adjustment - Panel 3",
+      "date": "2026-09-01",
+      "time": "9:00 AM",
+      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=08cfaca3-a4bf-45b1-ad55-8c4dabeaf86a",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=08cfaca3-a4bf-45b1-ad55-8c4dabeaf86a"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-f353ac51-93ab-47",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Committee of Adjustment - Panel 2",
+      "title": "Committee of Adjustment - Panel 2",
+      "date": "2026-09-01",
+      "time": "1:00 PM",
+      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=f353ac51-93ab-4755-83ee-982d2878176c",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=f353ac51-93ab-4755-83ee-982d2878176c"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "markham-cad418ed-4591-4e",
       "municipality": "City of Markham",
       "municipalityId": "markham",
@@ -1233,6 +1297,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-4a4b29bf-9779-4c",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Committee of Adjustment - Panel 1",
+      "title": "Committee of Adjustment - Panel 1",
+      "date": "2026-09-02",
+      "time": "1:00 PM",
+      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=4a4b29bf-9779-4cca-8da3-8301eec79b18",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=4a4b29bf-9779-4cca-8da3-8301eec79b18"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -3854,6 +3950,38 @@
       "links": {
         "meeting": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=005433a0-8126-4dce-822f-e0815cf96fe8",
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=005433a0-8126-4dce-822f-e0815cf96fe8"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "stratford-8e71fab5-e31b-4a",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Infrastructure, Transportation and Safety Sub-committee",
+      "title": "Infrastructure, Transportation and Safety Sub-committee",
+      "date": "2026-09-30",
+      "time": "4:30 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=8e71fab5-e31b-4a4b-9b5f-5e2d27a4baca",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=8e71fab5-e31b-4a4b-9b5f-5e2d27a4baca"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -8685,7 +8813,8 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
+        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
       },
       "keywordsMatched": [
         "data centre",
