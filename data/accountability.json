@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-08-17",
+  "asOf": "2026-08-18",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-doug-ford-calls-for-purchase-of-60-water-bombers-2026-08-18",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford calls for purchase of 60 water bombers as part of national wildfire strategy - The Globe and Mail",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNGtLQTZFT1NBeWY4NU90Z1Fld3I0QTJVR05PbUw0SEg5UndUcmtKX255aHZ1ZTN4RnJwY1NubHl1bGRiRGljSkRrNTBmSnlSWks3ZDFiOXZEUGpJTXN3YWNQTmlEbGFmZjYwSVNSelpSdUpfcFkzWTNDY0otT21xa3FWMVcxX3pTS204NnBvcktIemVxbVhmOUpnU0pPNHM?oc=5",
+      "source": "The Globe and Mail",
+      "date": "2026-08-18",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-mike-harris-early-assessment-of-wildfire-property-damage-und-2026-08-13",
       "mppNames": [
@@ -26,6 +39,19 @@
       "source": "globalnews.ca",
       "date": "2026-08-13",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-mike-harris-ford-government-won-t-commit-to-forest-fire-inqu-2026-08-08",
+      "mppNames": [
+        "Mike Harris"
+      ],
+      "title": "Ford government won’t commit to forest fire inquiry, as chiefs demand change - Kenora Miner & News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOdWVmYmdqZ0lGRlMwQU9aS3FuQU5hMjZ3NWc2Z204YVVfT2I0R0V6dDBNdzdrT3FhUWQ5WDY0UDVNVHVTZkp4aWR2R00yYWFOY2NhdGJUTTRiSzdLN2xMSmlCQXJaaXZRNHh4SWpoaXNEUnJPd01pdFNUX2ZQUEYxV19oeXM1M2RpdW9sM3dTVVFaa0NXYWJNMVdkcnlXRWVYTmFUVk1xMEp2OGlOSkNzaWdCT3JndTd5TTZtLXVUWjZZNXlfVzRkRFhXRmRzMzlDOWpkSHYwMEVNdHM1WDliNmRlNUhWMVhnNFJ5TVlwbDRHYmZ0dFVORjRkQWpramJyUnQwTExtWQ?oc=5",
+      "source": "Kenora Miner & News",
+      "date": "2026-08-08",
+      "type": "investigation",
       "status": "reported"
     },
     {
@@ -1563,32 +1589,6 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRExhRXF3c2Q5RmVsQ0wwZ01wTjlYLUJjMGItLUthY1QtTGwzLWs4UktZMlFRbjlwa0pHVmZsVVY4c1VUaW1KRVBaVWdoX01fQkNwR1hKZzVSZzQxVF9abXJ3bXVBSnpYUGV1VC1RYXlHVHV2U2JaSFJSNjZBbWt6Zm5Lbkh1UkJzdHJoRnBQTkJDNHF2eWV6dG8wbzhHSW9sU0dWanVIM1Q5SVJuOFYtYXlIVk5GcEJqQXR5MGh6VlpxQThVaDFYeTYyLUh2UQ?oc=5",
       "source": "Peel Regional Police",
       "date": "2026-05-21",
-      "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-nolan-quinn-ontario-will-inspect-all-private-truck-schools-a-2026-05-13",
-      "mppNames": [
-        "Nolan Quinn"
-      ],
-      "title": "Ontario will inspect all private truck schools after scathing audit found major gaps - globalnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR1pDT0Z5TnR3WHNqUjd0TXZib2lJU29xTTB4d0dBLWdKZnBjWUlka2tSTkNTSmdQM2F5NzRJQTl4cUxFVkIzZS0wVWoxbTM1SE1ycnB3dFJ2QVlvcGFUN1BGdlIyM3NsaUtuX1hENVFyd25tdVdkcGw2d09OZXF0cmRWcw?oc=5",
-      "source": "globalnews.ca",
-      "date": "2026-05-14",
-      "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-nolan-quinn-ontario-to-inspect-all-career-colleges-offering--2026-05-13",
-      "mppNames": [
-        "Nolan Quinn"
-      ],
-      "title": "Ontario to inspect all career colleges offering truck driving within 6 weeks, following scathing audit - cbc.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeldYc3E2X09BaXFpeUZ2RGpqSFVUd19FNWZOZExwRUdfNzhWTHJnN1lFd2FGOURYdDEwRnl4ZERNTUM5ckRIMVFUeTlTSmhMbGdyZnFKTXczelM0T3BNTG40bHlQRUJ6eUtvM0dqNjRfeEJYVjBnTFp1amxMLThfVnN2TkZFcFA1YWhfZDMwaV9tQmt6elRmME9yT0tvbjZsRS12NEsyd29FSElGQ0c4MjdB?oc=5",
-      "source": "cbc.ca",
-      "date": "2026-05-13",
       "type": "investigation",
       "status": "reported"
     }

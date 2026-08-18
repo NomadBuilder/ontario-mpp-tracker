@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-17",
+  "asOf": "2026-08-18",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 28,
+      "meetings": 29,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -52,7 +52,7 @@
       "name": "City of Markham",
       "type": "escribe",
       "ok": true,
-      "meetings": 19,
+      "meetings": 20,
       "calendarUrl": "https://pub-markham.escribemeetings.com",
       "note": ""
     },
@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 20,
+      "meetings": 19,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -160,7 +160,7 @@
       "name": "City of Cambridge",
       "type": "escribe",
       "ok": true,
-      "meetings": 9,
+      "meetings": 10,
       "calendarUrl": "https://pub-cambridge.escribemeetings.com",
       "note": ""
     },
@@ -196,7 +196,7 @@
       "name": "City of Brantford",
       "type": "escribe",
       "ok": true,
-      "meetings": 9,
+      "meetings": 10,
       "calendarUrl": "https://pub-brantford.escribemeetings.com",
       "note": ""
     },
@@ -214,7 +214,7 @@
       "name": "City of Stratford",
       "type": "escribe",
       "ok": true,
-      "meetings": 7,
+      "meetings": 6,
       "calendarUrl": "https://pub-stratford.escribemeetings.com",
       "note": ""
     },
@@ -250,7 +250,7 @@
       "name": "Region of Durham",
       "type": "civicplus",
       "ok": true,
-      "meetings": 7,
+      "meetings": 8,
       "calendarUrl": "https://calendar.durham.ca/meetings",
       "note": "CivicPlus calendar. Official listing also at durham.ca/regional-government/council/agendas-and-minutes"
     },
@@ -259,7 +259,7 @@
       "name": "Halton Region",
       "type": "halton",
       "ok": true,
-      "meetings": 2,
+      "meetings": 3,
       "calendarUrl": "https://www.halton.ca/the-region/regional-council-and-committees/calendars-and-schedules",
       "note": ""
     },
@@ -298,6 +298,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=8e764c04-063c-48d1-b953-501d47bbd6ab"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -329,6 +330,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=90ac1b7f-c5e0-4163-8f20-8120b452bd88"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -360,6 +362,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=07ee6e9e-7818-4318-915a-82bfb73fadbf"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -391,6 +394,7 @@
         "agenda": "https://events.waterloo.ca/meetings/Detail/2026-08-18-1630-Committee-of-Adjustment-Meeting2"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -422,6 +426,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=b17c3fb0-22f5-443c-acb4-843ea95e6870"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -453,6 +458,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=0a9568a3-d476-4d67-a6ad-40bbf2c27040"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -484,6 +490,7 @@
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=2a3c4255-df55-4144-9c2a-7152d376ae72"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -515,6 +522,7 @@
         "agenda": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=f6c14147-00ae-40c5-a859-7842795a65e7"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -546,6 +554,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=2d5dff8a-9635-4092-8c66-54f18ccc0cae"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -577,6 +586,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=a1620508-fc82-4182-8da3-3ade57c0d74b"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -608,6 +618,7 @@
         "agenda": "https://calendar.durham.ca/meetings/Detail/2026-08-21-0930-Special-Regional-Council-Meeting"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -639,6 +650,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=7fe8a50f-7c08-456f-926f-52e2fe38c294"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -670,6 +682,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=f263491e-830e-49ca-9128-bd463ff56cb3"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -701,6 +714,7 @@
         "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=ef3fe61f-fef5-49f7-99d0-2f397b2326c5"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -732,6 +746,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1735b94b-991a-4cc6-8ac8-42459d2ebd73"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -763,6 +778,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=7e06ee2f-b3d2-47cc-983f-716a0a532937"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -794,6 +810,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=8e4ba56f-b032-4795-9fd3-d26cc2527370"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -825,6 +842,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=3c85b6a2-ddbf-4eb3-a7a8-97e7520bd226"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -856,6 +874,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=47d13d57-fb07-4bd5-9098-d155961c747c"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -887,6 +906,7 @@
         "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d659b0e-4d32-4a1b-b364-19ba7f6f26d5"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -918,6 +938,7 @@
         "agenda": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=75c1cea0-1231-4bb8-b153-89ddb8260d26"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -949,6 +970,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1f8756ba-41a7-4b61-8f6a-737544d8132b"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -980,6 +1002,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=5efcf992-9698-41af-a4ac-9e4711a81ba2"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1011,6 +1034,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=d91120dc-74fc-4d5a-b72c-efccf2e363e1"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1042,6 +1066,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=f1df1828-549b-48f1-8932-cd29d2c60569"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1073,6 +1098,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=b997784e-e59a-4808-9928-f134e8db6212"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1138,6 +1164,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=bf8099f1-a7d7-4cc5-aa11-f26642ba0370"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1169,6 +1196,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=cad418ed-4591-4eaf-8363-d6c6356fd294"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1200,6 +1228,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=7f9c6472-aacb-43f2-b47e-7a4aec7b35ee"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1231,6 +1260,7 @@
         "agenda": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=202ed4ef-f316-40cd-8fb6-56bc3f61936b"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1262,6 +1292,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=dfa89b6e-2b1b-4ba6-934a-2cdb57592deb"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1293,6 +1324,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=8ce77237-e789-44ba-8fe5-ddb625967d8d"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1324,6 +1356,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=cd244149-f4db-4529-82ee-4af14284600c"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1355,6 +1388,7 @@
         "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=57840026-3711-4c45-b240-0159bdb3fb90"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1386,6 +1420,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=b9e20744-bb32-4460-8d4c-a33b50013566"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1417,6 +1452,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=c9c20d28-7997-404c-bedc-77bfdedb4d24"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1448,6 +1484,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=a83eb76a-66e5-4fa6-967e-fd487fc957a1"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1479,6 +1516,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=5d1ccb29-b4b6-4317-a7e0-55b5abe07586"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1510,6 +1548,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=010b808c-651f-4051-9a15-dee999ee0256"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1541,6 +1580,7 @@
         "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=63d31893-7137-4737-94d9-e401d0937eae"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1572,6 +1612,7 @@
         "agenda": "https://ajax.ca/meetings"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1603,6 +1644,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=1b6527f5-95b7-45e5-a80c-47819ae91ac6"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1634,6 +1676,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=6a896d48-b832-4085-8ae4-6737bbaf7c47"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1665,6 +1708,7 @@
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=dca4ed1e-00a2-4b21-b635-1befd9e14689"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1696,6 +1740,7 @@
         "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=580c96f5-1a44-4992-b8d6-71ddce6da74a"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1727,6 +1772,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=76de68bd-980f-4695-aa12-387a862471ca"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1758,6 +1804,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=ccc5188c-7b92-4968-8e9f-3e3c6175b8f5"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1789,6 +1836,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=5d321664-af3c-4344-b3f7-c470d1532508"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1820,6 +1868,7 @@
         "agenda": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=c07f1270-b320-4147-b1c4-d24562ccc250"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1851,6 +1900,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=4e5fdad4-a163-4113-8b27-0f5f1c8e748b"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1882,6 +1932,7 @@
         "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=274d3e39-1ccc-4be7-be9e-dbc0184230c0"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1913,6 +1964,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=3fbf2dad-6bee-42e8-a333-ee368895a080"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1944,6 +1996,7 @@
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=ad3c4f10-532c-4181-84d7-0ff71200f9f8"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -1975,6 +2028,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=05cfafc2-da36-40dd-98f3-c042b1c2ee19"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2006,6 +2060,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=95286970-88f7-451c-8bdb-abe72994fbe9"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2037,6 +2092,7 @@
         "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=9cde5fed-d635-4785-a8ce-bdff6958061f"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2068,6 +2124,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=3263f1c1-cc53-419f-9d62-ca8fe9d31276"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2099,6 +2156,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=20a59114-51a4-4a91-ac1a-1ca7ff7278df"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2130,6 +2188,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=dbeb1c24-fea9-450e-af8b-269c4db24938"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2161,6 +2220,7 @@
         "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=be47e44a-0c44-430f-bebd-4edc105b9f63"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2192,6 +2252,7 @@
         "agenda": "https://events.waterloo.ca/meetings/Detail/2026-09-14-1400-Council-Meeting"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2223,6 +2284,7 @@
         "agenda": "https://ajax.ca/meetings"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2254,6 +2316,7 @@
         "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=6bf2ac6b-5834-45b1-9f98-092878927c5a"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2285,6 +2348,7 @@
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=6d58b33e-267d-4e9e-b53e-ddaee7503f6a"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2316,6 +2380,7 @@
         "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=53f4ed8d-16a8-4f47-ac30-ab56a98d490b"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2347,6 +2412,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=aa4c129d-df4b-4a3f-95d9-349506d20587"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2378,6 +2444,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=9186fcc5-a7c2-4e40-8b51-05cab2dcd298"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2409,6 +2476,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=f786e6a3-12e0-4dd9-a80c-5d17e4884d52"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2440,6 +2508,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=7b1e16c7-b15e-4244-9b45-310a23604c1f"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2471,6 +2540,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=90770bc4-4366-4bb6-b126-58e0fdaf3650"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2502,6 +2572,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=9f9e5680-a4d9-4c8e-8918-a93094a872b1"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2533,6 +2604,7 @@
         "agenda": "https://events.waterloo.ca/meetings/Detail/2026-09-15-1630-Committee-of-Adjustment-Meeting2"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2564,6 +2636,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=3abc0f82-40ec-4c0b-ba7b-840c7c9be4a1"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2595,6 +2668,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=acaccf29-697a-459e-aa5b-a085bb49dd90"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2626,6 +2700,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=2260fefe-803b-478f-92bb-2177fb345a24"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2657,6 +2732,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=fd46ba23-4de8-46e9-bb46-582f1e280047"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2724,6 +2800,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=4f10d146-6d32-42df-8fc7-2f184d0729ec"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2755,6 +2832,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=c33c3473-5bc5-4f05-9db1-296c013cbcef"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2786,6 +2864,7 @@
         "agenda": "https://www.toronto.ca/city-government/council/council-committee-meetings/"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2817,6 +2896,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=dcf5d6cc-a5b6-4c27-866d-3c9ad1cf6fa0"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2848,6 +2928,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=a5a2a0fe-0568-4871-9194-9d1f258efbc6"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2879,6 +2960,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=ec6b8e37-9dfe-4a3c-9f02-6d01803dc68e"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2910,6 +2992,7 @@
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=5a7ea7ae-839b-43fb-aa30-b1c0a3d74450"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2941,6 +3024,7 @@
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=22df18f0-b455-465c-87d3-81740ca6f222"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -2972,6 +3056,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1ed6b202-e361-4ed3-95b0-b23c658470de"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3003,6 +3088,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=5d49362d-1bb3-4dfb-a222-b649fc40b7e6"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3011,13 +3097,13 @@
       "curated": false
     },
     {
-      "id": "mississauga-7b54c2d8-299b-4c",
+      "id": "mississauga-1e366a1e-60f3-42",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
       "body": "Planning and Development Committee",
       "title": "Planning and Development Committee",
       "date": "2026-09-21",
-      "time": "1:30 PM",
+      "time": "6:00 PM",
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
@@ -3030,10 +3116,11 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=7b54c2d8-299b-4c05-a78d-3e4e640af2fc",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=7b54c2d8-299b-4c05-a78d-3e4e640af2fc"
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1e366a1e-60f3-4226-a223-004488238a64",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1e366a1e-60f3-4226-a223-004488238a64"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3065,6 +3152,7 @@
         "agenda": "https://ajax.ca/meetings"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3096,6 +3184,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=5927df4d-248c-4b6b-aef0-eac4e5e76635"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3127,6 +3216,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=d780074d-ed76-43bc-a844-dbd97722e1d3"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3158,6 +3248,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=dd76c7e6-2796-4af2-89c5-d7ca0c76d8b6"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3189,6 +3280,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=4852b208-d7cf-4626-9e05-e03aa1832832"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3220,6 +3312,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=e7426af4-47fb-4bd1-a155-80a5d47037c9"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3251,6 +3344,7 @@
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=c2e8ce3d-cab4-4865-afa7-54cbb896416d"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3282,6 +3376,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=ee52c3af-e5d7-4efd-a2e1-0f0210886cc7"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3313,6 +3408,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=3250668b-98cd-46e3-a45a-c73fb6118d64"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3344,6 +3440,7 @@
         "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=ab8d011f-3e47-459a-8fee-74f31a3a6a3a"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3375,6 +3472,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=05213a90-4f89-4e7f-8473-4e5dc3135ecd"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3406,6 +3504,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=0480f8e6-a0a9-40a0-989f-6b42d7cb81d9"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3437,6 +3536,7 @@
         "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=ce5cb63f-093a-4588-90cb-eab8d8ca9b41"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3468,6 +3568,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=c2dd9b54-c6de-44b6-ab82-c7cc1e82ff2a"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3499,6 +3600,7 @@
         "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=ea5358b0-5b96-4b15-be7b-0db8fb733f7c"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3530,6 +3632,7 @@
         "agenda": "https://events.waterloo.ca/meetings/Detail/2026-09-28-1400-Council-Meeting"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3561,6 +3664,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=2d07a1ef-25bb-415e-8efc-e4b18959ebef"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3592,6 +3696,7 @@
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=f251d110-9eb3-41a3-8321-b8b90554b37e"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3623,6 +3728,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=50ece9fa-2662-4ba0-b15c-48cc1e2c3bf8"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3654,6 +3760,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=864956c8-5fe9-48cf-8600-301eae077387"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3685,6 +3792,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=98c0b015-30f6-404b-bb34-91ce0423684a"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3716,6 +3824,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=c810380a-de99-4055-81f5-b5dec4eb6deb"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3747,6 +3856,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=005433a0-8126-4dce-822f-e0815cf96fe8"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3778,6 +3888,7 @@
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=e1cbe0a8-46e0-4a70-b701-3d9b3ff5803c"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3809,6 +3920,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=5f716091-ed96-4329-b90f-3eb40b44bb8a"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3840,6 +3952,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=00df97c0-dba1-471f-88d6-8c58839af492"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3871,6 +3984,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=833e1899-b351-4a26-bdd8-62816c6d2980"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3902,6 +4016,7 @@
         "agenda": "https://events.waterloo.ca/meetings/Detail/2026-10-05-1400-Council-Meeting"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3933,6 +4048,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=cc728ee4-8014-404e-b9bc-a03db188abac"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3964,6 +4080,7 @@
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=f72ff365-cd38-4655-893c-a2f4c093cde3"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -3995,6 +4112,7 @@
         "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4026,6 +4144,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=185693f5-0e68-43aa-a90f-1ceb3c732ddc"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4057,6 +4176,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=c36a6ea1-73ec-4f87-8485-f36a56b84e47"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4088,6 +4208,7 @@
         "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=eaa83982-19fd-43df-baa2-d1c2c42780f3"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4119,6 +4240,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=752aa32f-0539-42e9-873f-ab37de961b0b"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4150,6 +4272,7 @@
         "agenda": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=c5662738-5c40-4111-95c3-313fbaa88863"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4181,6 +4304,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=a01556d5-ef84-4120-af97-075fa7110254"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4212,6 +4336,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=74228ec5-ebec-454c-accd-750d2e1d4d87"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4243,6 +4368,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=99df6cf2-1653-4587-addf-d843b47fc693"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4274,6 +4400,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=91f09014-5a96-4353-b74c-e89b6e05af37"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4305,6 +4432,7 @@
         "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=454cbc0e-4725-400b-92b0-9489065c1dd6"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4336,6 +4464,7 @@
         "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=0538254e-15d5-4d7f-a16f-be1c3edfc033"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4367,6 +4496,7 @@
         "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=2471127d-9236-4ef9-883f-b49484793455"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4398,6 +4528,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=8e48d86a-978a-4e9a-bc8c-ef35df11eea0"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4429,6 +4560,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=4ab468eb-db9a-4454-a093-f0dfd1db6f05"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4460,6 +4592,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=877a12b2-95f3-4d2a-b776-a469d8a0556c"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4491,6 +4624,7 @@
         "agenda": "https://events.waterloo.ca/meetings/Detail/2026-10-20-1630-Committee-of-Adjustment-Meeting2"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4522,6 +4656,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=7545ab0b-1bee-4bb7-becc-7547000557db"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4553,6 +4688,7 @@
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=c857b142-897f-4c1f-b64d-78681851f0f6"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4584,6 +4720,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=8a899e88-ff27-4255-92d7-191d3cac0351"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4615,6 +4752,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=5613b27d-211b-44cf-87ca-088ddea2ed29"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4646,6 +4784,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=5d59f544-a2b7-43db-9021-f1566971b4e2"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4677,6 +4816,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=cf9560c4-e3b1-475a-a396-fa7088c33288"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4708,6 +4848,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=b94c7b99-9ff3-4bd7-b838-57f3d0b01216"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4739,6 +4880,7 @@
         "agenda": "https://events.waterloo.ca/meetings/Detail/2026-11-02-1400-Council-Meeting"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4770,6 +4912,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=8d901821-3268-4be3-9ad8-224bc8479e32"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4801,6 +4944,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=e66dec2e-e341-4fb1-8a16-58c1efe1e515"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4832,6 +4976,7 @@
         "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=12801baa-20c9-46a3-aa56-3530a3c88a9c"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4863,6 +5008,7 @@
         "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=29bfaae0-a36c-493b-9ad6-f07ec49998ec"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4894,6 +5040,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=c0f59552-4b13-4f21-ab13-86c244b37e92"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4925,6 +5072,7 @@
         "agenda": "https://www.halton.ca/the-region/events/2026/halton-regional-council-november-4,-2026"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4956,6 +5104,7 @@
         "agenda": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=609d5f2d-7bd2-47d4-8715-2f3581ade18a"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -4987,6 +5136,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=7c33334e-ba45-4871-b13b-42a388b834a2"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5018,6 +5168,7 @@
         "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=be97e830-cb44-4650-b742-55e255e5b853"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5049,6 +5200,7 @@
         "agenda": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=53567908-a2a3-4253-b046-2139b9235bcc"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5080,6 +5232,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=a1c9d196-93f3-4e0b-9557-74b55051c0ec"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5111,6 +5264,7 @@
         "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=de66c789-b09d-441a-b4ff-1827f9bc1f7e"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5142,6 +5296,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=4162e72f-daa8-4252-bfd5-fd54f125ebe4"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5173,6 +5328,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=96fe3d6e-7d92-4b7f-8213-0696db22264a"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5204,6 +5360,7 @@
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1f95bde2-9158-4497-ab5d-c80e6c086ba2"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5235,6 +5392,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=264c7487-c0b3-4662-853b-215ba1722381"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5266,6 +5424,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=1ba70a47-53eb-45e6-a1a3-4e31195354d8"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5297,6 +5456,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=1673392e-f1c8-4681-9a66-380572644eaa"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5328,6 +5488,7 @@
         "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=43362d54-5eec-4769-bff0-79a28acd32bc"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5359,6 +5520,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=86530660-f27d-4990-829c-30b273275cd3"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5390,6 +5552,7 @@
         "agenda": "https://events.waterloo.ca/meetings/Detail/2026-11-17-1630-Committee-of-Adjustment-Meeting2"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5421,6 +5584,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=fce4de3c-81c0-4d60-a3b5-d38e6485b54b"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5452,6 +5616,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=5dfeae91-35f3-43a1-8e74-15360b25d8a1"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5483,6 +5648,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1db77deb-af8a-4b0d-aae8-a21725b0fab5"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5514,6 +5680,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=003de366-49d8-465b-af19-f836167b038c"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5545,6 +5712,7 @@
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=057c3f2d-0465-450b-aa5a-2e34471a9320"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5576,6 +5744,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=a597c976-abcb-4bc5-b9cb-046d9f9e9798"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5607,6 +5776,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=d07101af-3901-4dd5-98c0-5f10af062df0"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5638,6 +5808,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=58f4afa3-dda1-4217-97ff-470bb870c3de"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5669,6 +5840,7 @@
         "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=5277c23a-a0f2-443e-9010-729c5241032f"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5700,6 +5872,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=3823b957-7fa7-4f86-9be7-866f8281503a"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5732,6 +5905,7 @@
         "source": "https://sarnia.civicweb.net/Portal/MeetingInformation.aspx?Id=1593&Org=Cal"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5763,6 +5937,7 @@
         "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=19a55fe7-185a-4fa5-b99e-cf636e6b03d4"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5794,6 +5969,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=5258d4df-fc3b-4070-b1bd-143d4471cdad"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5825,6 +6001,7 @@
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=4d0f7457-d488-4485-8315-0f9afef2f2ee"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5856,6 +6033,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=fd9e632a-1422-46dd-8906-584133035463"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5887,6 +6065,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=72b48183-a711-4f2b-b558-67ad06a50451"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5918,6 +6097,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=bcbb3740-cd06-4fa9-be8e-9f416e425861"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5949,6 +6129,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=88f0c02e-e1a6-477c-a6ef-67b7f77004c2"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -5980,6 +6161,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=b8d22c9c-7009-4716-ba20-fe9fb33fa902"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6011,6 +6193,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=24806e4c-1993-4f51-9c21-0c42e026f040"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6042,6 +6225,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=d4d912d3-5c8a-43f4-8d7f-e43dcaa23c08"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6073,6 +6257,7 @@
         "agenda": "https://calendar.durham.ca/meetings/Detail/2026-11-25-1000-First-Meeting-of-Regional-Council"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6104,6 +6289,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=b177254d-563b-4da1-9ac2-6a01b973d61b"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6135,6 +6321,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=9e6ee035-106b-4e46-a208-b71ab04f0135"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6166,6 +6353,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=62862197-c451-43f3-8576-5b879f980cf3"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6197,6 +6385,7 @@
         "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=2c57bc05-a5b2-4fe0-bc58-827a3cf5c229"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6228,6 +6417,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=216bc724-64e8-438c-9512-2ae956234c06"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6259,6 +6449,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=dd38ce04-e03e-472e-88b6-2c92e6b10aa8"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6290,6 +6481,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=a5c8bd78-ca67-412e-baec-419ab74c98af"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6321,6 +6513,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=babf56dc-a0cb-47d2-a381-134c9bba4b66"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6352,6 +6545,7 @@
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=946af505-5d84-43b9-a294-37df78860112"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6383,6 +6577,7 @@
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=dbba4b78-5229-44b4-978e-48db384d480e"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6414,6 +6609,7 @@
         "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=9fb442c5-4197-46e6-b029-9b592fd25919"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6445,6 +6641,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=fbdb0190-75cc-48aa-a5ed-bdbccc89cc54"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6476,6 +6673,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=660f93b1-b086-47ae-b5fe-05bc42afb3e1"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6507,6 +6705,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=a36cccae-f468-4830-94be-2a38a9555330"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6538,6 +6737,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=841a38ea-37d1-415f-aab4-ce8c2b646511"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6569,6 +6769,7 @@
         "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-01-0930-Community-Growth-and-Economic-Development-Committe"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6600,6 +6801,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=cfc933a2-869c-40f1-a3f1-136df0ce7028"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6631,6 +6833,7 @@
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=854f9b56-9318-4dbe-8adc-e6d27222ebe6"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6662,6 +6865,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=e7cccb75-78c6-4773-af55-85ecbe2552f6"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6693,6 +6897,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=99eb38b3-9636-43c2-9730-d7e933b46378"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6724,6 +6929,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=d5e4cc2f-30b9-4a4c-bad0-012577240b21"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6755,6 +6961,7 @@
         "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-02-0930-Works-Committee-Meeting"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6786,6 +6993,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=8fb96837-752d-4d5f-9469-75ff1c7ffd33"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6817,6 +7025,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=afe7916d-ae42-425c-99ea-40cc45deab84"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6848,6 +7057,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=10da054e-46d9-45e8-ad73-2ebe9f098acc"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6879,6 +7089,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=2a930338-4ff3-4fe2-9b7b-26a7e6f3e92b"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6910,6 +7121,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=55aea75d-e2ef-4438-a6c4-6678cf0df1b8"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6941,6 +7153,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=36043955-d0aa-488f-ab2a-aa1abeb51e8e"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -6972,6 +7185,7 @@
         "agenda": "https://events.waterloo.ca/meetings/Detail/2026-12-07-1400-Council-Meeting"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7003,6 +7217,7 @@
         "agenda": "https://ajax.ca/meetings"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7034,6 +7249,7 @@
         "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=fb0913fe-a2f9-45a3-8a92-b92978b40839"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7065,6 +7281,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=7318ddb6-a5dc-4922-a419-070308ea7822"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7096,6 +7313,7 @@
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=54c1c3ca-8c44-4db7-96e8-91739220f27f"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7127,6 +7345,7 @@
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=9464b4d4-d315-4bf0-bccf-3ff7bc2cee17"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7158,6 +7377,7 @@
         "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=afd4f6fa-1c4a-4578-9624-fcdb7b30fc39"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7189,6 +7409,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=ebbdb378-cf6a-48bd-8998-a99fdeab4294"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7220,6 +7441,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=5d834874-515d-44cc-bc58-34d3a857e006"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7251,6 +7473,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=9fc3471a-06be-4ec1-a4ef-578e1dc08116"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7282,6 +7505,7 @@
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=ee31036c-972c-4cc6-bae1-665df0b0222a"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7313,6 +7537,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=669ae32b-b17f-4a82-b2dd-eab9ac43d0ce"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7344,6 +7569,7 @@
         "agenda": "https://events.waterloo.ca/meetings/Detail/2026-12-08-1630-Committee-of-Adjustment-Meeting2"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7375,6 +7601,7 @@
         "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-08-0930-Finance-and-Administration-Committee-Meeting"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7406,6 +7633,7 @@
         "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d318740-9b3b-41be-9a57-504fcf6ca41c"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7437,6 +7665,7 @@
         "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=83379f06-75c3-4948-abf0-09d5a1e5e6c7"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7468,6 +7697,7 @@
         "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=7f1187a3-a13d-4b95-bfdb-6ef06cdd9fe0"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7499,6 +7729,7 @@
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=bd80a57e-0de9-494c-8635-e4adc0e13b71"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7530,6 +7761,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=4e6368eb-29a3-43b6-bc8f-f4e151d3f0e4"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7561,6 +7793,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=e97620f9-30a1-403e-acfc-9bc154030e8e"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7592,6 +7825,7 @@
         "agenda": "https://www.halton.ca/the-region/events/2026/inaugural-meeting-of-2026-2030-council-december-9,-2026"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7623,6 +7857,7 @@
         "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-09-0930-Committee-of-the-Whole-Meeting"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7654,6 +7889,7 @@
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=7a4596ef-b1f5-4722-aeee-1beecdaea832"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7685,6 +7921,7 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=4009081c-828f-431a-b373-9b7073a8201e"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7716,6 +7953,7 @@
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=234aace3-6c8d-4235-99d5-8807c0554b04"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7747,6 +7985,7 @@
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=d652a7f2-e535-416e-a41a-1731e81ad008"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7778,6 +8017,7 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=6e9770ba-b6e8-43a4-b79c-1e6b40ec8cd5"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7809,6 +8049,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=364d5542-727f-4ce3-943c-c81e2d0743bd"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7840,6 +8081,7 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=fcedb38a-8275-4095-84a8-4287d5d8195d"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7871,6 +8113,7 @@
         "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-10-0930-Special-Committee-of-the-Whole-Meeting"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7902,6 +8145,7 @@
         "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=edf605e5-2a8c-4e32-a04f-64a7892c6a32"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7933,6 +8177,7 @@
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=d0d10e57-3b9c-49e0-a234-34a5b5541ed0"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7965,6 +8210,7 @@
         "source": "https://sarnia.civicweb.net/Portal/MeetingInformation.aspx?Id=1593&Org=Cal"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -7996,6 +8242,7 @@
         "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=5b48a4fd-60cf-4b61-a62a-1b7b90d28ef3"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -8027,6 +8274,7 @@
         "agenda": "https://events.waterloo.ca/meetings/Detail/2026-12-14-1400-Council-Meeting"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -8058,6 +8306,7 @@
         "agenda": "https://ajax.ca/meetings"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -8089,6 +8338,7 @@
         "agenda": "https://ajax.ca/meetings"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -8120,6 +8370,7 @@
         "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=c3a2c1d3-3ada-4f5c-ab65-5287d0a517f8"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -8151,6 +8402,71 @@
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=064b3a08-e35d-4c09-ad45-1f0ad4934cf9"
       },
       "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "brantford-052d5a2a-e3e2-4d",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "City Council",
+      "title": "City Council",
+      "date": "2026-12-15",
+      "time": "6:00 PM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=052d5a2a-e3e2-4deb-8973-9913bfa7c6dd",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=052d5a2a-e3e2-4deb-8973-9913bfa7c6dd"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "cambridge-70ad03d4-8f94-45",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-12-15",
+      "time": "6:30 PM",
+      "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=70ad03d4-8f94-451e-beb2-d756fa2b1104",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=70ad03d4-8f94-451e-beb2-d756fa2b1104"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -8166,7 +8482,7 @@
       "title": "Council",
       "date": "2026-12-15",
       "time": "1:00 PM",
-      "location": "2nd Floor, Vaughan City Hall",
+      "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
@@ -8182,11 +8498,108 @@
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=5f578b86-1c7a-4b72-ab3b-995c046a9a58"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
       "agendaStatus": "not_posted",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "markham-a58433b6-da22-4d",
+      "municipality": "City of Markham",
+      "municipalityId": "markham",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-12-16",
+      "time": "7:00 PM",
+      "location": "'>Electronic Meeting",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=a58433b6-da22-4d28-bbc4-1d644f75691c",
+        "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=a58433b6-da22-4d28-bbc4-1d644f75691c"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "halton-region-halton-regional-",
+      "municipality": "Halton Region",
+      "municipalityId": "halton-region",
+      "body": "Halton Regional Council - December 16, 2026",
+      "title": "Halton Regional Council - December 16, 2026",
+      "date": "2026-12-16",
+      "time": "9:30 AM",
+      "location": "Halton Regional Centre, 1151 Bronte Road, Oakville",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://www.halton.ca/the-region/events/2026/halton-regional-council-december-16,-2026",
+        "agenda": "https://www.halton.ca/the-region/events/2026/halton-regional-council-december-16,-2026"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "halton",
+      "curated": false
+    },
+    {
+      "id": "durham-region-2026-12-16-0930-",
+      "municipality": "Region of Durham",
+      "municipalityId": "durham-region",
+      "body": "Regional Council Meeting",
+      "title": "Regional Council Meeting",
+      "date": "2026-12-16",
+      "time": "9:30 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-16-0930-Regional-Council-Meeting",
+        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-16-0930-Regional-Council-Meeting"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "civicplus",
       "curated": false
     },
     {
@@ -8213,6 +8626,7 @@
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=b6e394a4-e8b1-4702-9dc5-f85748a2053e"
       },
       "keywordsMatched": [],
+      "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
@@ -8271,8 +8685,7 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
       },
       "keywordsMatched": [
         "data centre",
@@ -8415,41 +8828,6 @@
       "agendaStatus": "posted"
     },
     {
-      "id": "stratford-25c9416e-c38e-45",
-      "municipality": "City of Stratford",
-      "municipalityId": "stratford",
-      "body": "Regular Council",
-      "title": "Regular Council",
-      "date": "2026-08-10",
-      "time": "6:00 PM",
-      "location": "Council Chamber, City Hall",
-      "status": "past",
-      "cancelled": false,
-      "issue": "Ontario municipalities requesting their endorsement and support. 10.2 Notice of Motion - Data Centres - Councillor Burbach 1. Councillor Burbach - Data Centres.pdf At the September 14, 2026, Regular meeting, Councillor Burbach intends to put",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=25c9416e-c38e-45a6-a4e3-d4a4763b1ddc",
-        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=25c9416e-c38e-45a6-a4e3-d4a4763b1ddc"
-      },
-      "keywordsMatched": [
-        "data centres"
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "oakville-49b5ed3c-64bd-46",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -8492,7 +8870,7 @@
       "location": "Council Chambers/Electronic",
       "status": "past",
       "cancelled": false,
-      "issue": "nfrastructure, Sustainability 5.4 Warren Snider, Kitchener Re: Concerns about building AI data centers in the area 5.5 Megan Jesso, Hamilton Re: ai data center 6. Consent Agenda Items on the Consent Agenda can be approved in one motion of Com",
+      "issue": "4 Warren Snider, Kitchener Re: Concerns about building AI data centers in the area 5.",
       "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
       "participate": {
         "attend": true,
@@ -8509,6 +8887,11 @@
         "data center",
         "data centres",
         "data centre"
+      ],
+      "snippets": [
+        "4 Warren Snider, Kitchener Re: Concerns about building AI data centers in the area 5.",
+        "5 Megan Jesso, Hamilton Re: ai data center 6.",
+        "Correspondance- RE_ Motion_ Information Report on Data Centres_ Best Practices and Community Safeguards ."
       ],
       "relevant": true,
       "matchKind": "exact",
@@ -8549,7 +8932,10 @@
         "datacentre": "exact"
       },
       "matchKind": "exact",
-      "agendaStatus": "posted"
+      "agendaStatus": "posted",
+      "snippets": [
+        "pdf Being an Interim Control By-law to prohibit the use of land, buildings or structures for the purpose of new data centres and similar facilities, of The Corporation of the Town of Oakville under Section 38 of the Planning Act, R."
+      ]
     },
     {
       "id": "oakville-e0529aa0-e508-47",
@@ -8562,7 +8948,7 @@
       "location": "",
       "status": "past",
       "cancelled": false,
-      "issue": "AMO Watchfile - August 6, 2026.pdf 4. Correspondence 4.1 Sunita Saggar - Concerns for AI Data Centre - August 9, 2026 1. Sunita Saggar - Concerns for AI Data Centre - August 9, 2026.pdf 4.2 BUZZ HPC - Data Centres - August 10, 2026 1. BUZZ",
+      "issue": "1 Sunita Saggar - Concerns for AI Data Centre - August 9, 2026 1.",
       "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
       "participate": {
         "attend": false,
@@ -8577,6 +8963,11 @@
       "keywordsMatched": [
         "data centre",
         "data centres"
+      ],
+      "snippets": [
+        "1 Sunita Saggar - Concerns for AI Data Centre - August 9, 2026 1.",
+        "Sunita Saggar - Concerns for AI Data Centre - August 9, 2026.",
+        "2 BUZZ HPC - Data Centres - August 10, 2026 1."
       ],
       "relevant": true,
       "matchKind": "exact",
