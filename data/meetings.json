@@ -52,7 +52,7 @@
       "name": "City of Markham",
       "type": "escribe",
       "ok": true,
-      "meetings": 20,
+      "meetings": 19,
       "calendarUrl": "https://pub-markham.escribemeetings.com",
       "note": ""
     },
@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 18,
+      "meetings": 19,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -1397,38 +1397,6 @@
       "curated": false
     },
     {
-      "id": "markham-c9c20d28-7997-40",
-      "municipality": "City of Markham",
-      "municipalityId": "markham",
-      "body": "Development Services Public Meeting",
-      "title": "Development Services Public Meeting",
-      "date": "2026-09-08",
-      "time": "7:00 PM",
-      "location": "Live streamed",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=c9c20d28-7997-404c-bedc-77bfdedb4d24",
-        "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=c9c20d28-7997-404c-bedc-77bfdedb4d24"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "markham-a83eb76a-66e5-4f",
       "municipality": "City of Markham",
       "municipalityId": "markham",
@@ -1610,6 +1578,38 @@
       "links": {
         "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=1b6527f5-95b7-45e5-a80c-47819ae91ac6",
         "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=1b6527f5-95b7-45e5-a80c-47819ae91ac6"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "oakville-1ec3fdfe-1617-4d",
+      "municipality": "Town of Oakville",
+      "municipalityId": "oakville",
+      "body": "Public Meeting Notices",
+      "title": "Public Meeting Notices",
+      "date": "2026-09-08",
+      "time": "6:30 PM",
+      "location": "Council Chamber",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=1ec3fdfe-1617-4db4-b1d0-e3dc7f224e77",
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=1ec3fdfe-1617-4db4-b1d0-e3dc7f224e77"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -8813,8 +8813,7 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
       },
       "keywordsMatched": [
         "data centre",
