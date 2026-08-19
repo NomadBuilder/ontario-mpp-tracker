@@ -1,7 +1,20 @@
 {
-  "fetchedAt": "2026-08-18",
+  "fetchedAt": "2026-08-19",
   "source": "https://www.ola.org/en/members/expense-disclosure/list",
   "bySlug": {
+    "members-expenses-faq": {
+      "slug": "members-expenses-faq",
+      "name": "Members' expenses FAQ",
+      "riding": null,
+      "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/members-expenses-faq",
+      "total": 0.0,
+      "travel": 0.0,
+      "accommodation": 0.0,
+      "meals": 0.0,
+      "hospitality": 0.0,
+      "claimCount": 0,
+      "periodCount": 0
+    },
     "tyler-allsopp": {
       "slug": "tyler-allsopp",
       "name": "Allsopp, Tyler",
@@ -1876,6 +1889,8 @@
     }
   },
   "byName": {
+    "members' expenses faq": "members-expenses-faq",
+    "members expenses faq": "members-expenses-faq",
     "allsopp, tyler": "tyler-allsopp",
     "tyler allsopp": "tyler-allsopp",
     "hon. tyler allsopp": "tyler-allsopp",

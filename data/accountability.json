@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-18",
+  "asOf": "2026-08-19",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -37,7 +37,20 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQV0R6R2Jzb0FTX1hNU0FHYlFWbkxjYnpFelhWNzdmR3hxQ3EzSW1BcUdEeVRBblFFX1RoQmc2TGxzaEdFVXZoN2lya2loRWV6Z29YUDVmUlUwT2g0ZU91amJKQjBRS3JNV0lmNjlXSUJFWmUzSXN5d2wtUkJFS0tPOTRQQmI0WFkwRXoxQTFzWFZKNllqNFo5bF9TMkFua2Y5SmlVMDZuUTVDa3o1TFM2R0xtLVI3ZHQtcDQxaWdtZWlaQ2VzOTNQNnFxV3FiX2I2Zl9mdlRsamxxY0NtR3dQRU0tR1VQb1NPd0xkQllTMDdHNXZvNFNRME9QMC1PYTVaczB4a05GQlhQeWtURG82czFyN0FJbTA0VHRV?oc=5",
       "source": "Toronto Star",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-chandra-pasma-pasma-calandra-wasting-taxpayer-dollars-on-attac-2026-08-18",
+      "mppNames": [
+        "Chandra Pasma"
+      ],
+      "title": "PASMA: Calandra wasting taxpayer dollars on attacks rather than fixing education - Ontario NDP",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTJoWElURk5nb3Q5RmswTnRvTG9uNVl2SnRzVW5zX1VuTWlDLVhlRGNLUzBDWjdpSVgwb0d6dW1uRmNfM2pQNmRTNXBVVVZCMjBKMGNmbEZ2OHI5aFNMd1JPS3BVRExZbHhPTGU2ZFZKdi10N3ZhR2lzanh3Ulphb1ZRV25GU0E4Mk1CU2ZhN3hIZE5LeUp1cGZGTUNfNDVabjhpag?oc=5",
+      "source": "Ontario NDP",
+      "date": "2026-08-18",
       "type": "news",
       "status": "reported"
     },
@@ -147,6 +160,20 @@
       "status": "reported"
     },
     {
+      "id": "auto-doug-ford-ford-government-to-review-metrolinx-lcbo-and-oth-2026-08-05",
+      "mppNames": [
+        "Doug Ford",
+        "Peter Bethlenfalvy"
+      ],
+      "title": "Ford government to review Metrolinx, LCBO and other agencies amid hotel expenses scandal - globalnews.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRVg3blg5X1l4Y19JLWU5U0FsOFpkRDUza1l2Zk14TmNEVTRTbkxwbk0zNHNQMWdmb01BZzA2Vm5RRldSYWRoQkVMRlJvdTk2cko2VnU3VGxzaDhZTlFXS251dC1fTkxSRGpPaElWSW5BUFRLSHdBX21pdVBycjB4SzVnWUFfbV9DaGlfc2F0akJmMk1rV3J3UWY2SWlCdnQzb0ZwQUpWNzFFOHNQZEVZdDlKazA5cWo0bmRRMlktVktZQQ?oc=5",
+      "source": "globalnews.ca",
+      "date": "2026-08-05",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-doug-ford-s-popularity-dips-in-wake-of-expenses--2026-08-04",
       "mppNames": [
         "Doug Ford"
@@ -155,19 +182,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOS0dYMW5mdEQtdURhWTJLRERYT2JvYWdLYlFMT2U1c1FkUjhJSmJaT09BVi1hTUNIelVJWTVJQUhwNjlOcVZZQlZzZkVpaS1kbWs3ZkdnUDhtWGFWUWZjaXJOTmtFM3Awa1o1Xzl2MEJ5dGRMTUg4ajJOT3hnM3JKOHZCaUd3N3c1QWZqSHB5eTVJSlBsWjRHM0htYTl0MXJ5aGttWVNOWXpCamR5UzVLWHZCLUpYRjVJWDRhNmdNRkZrWURQaDJkZ1V2ZTNQOXNJTy1wUDN0TnpERG9hYTZNcE1WTUdYeFdsZVJNVWJqUGhab0tP?oc=5",
       "source": "Toronto Star",
-      "date": "2026-08-05",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-ford-government-to-review-metrolinx-lcbo-and-oth-2026-08-05",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Ford government to review Metrolinx, LCBO and other agencies amid hotel expenses scandal - globalnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRVg3blg5X1l4Y19JLWU5U0FsOFpkRDUza1l2Zk14TmNEVTRTbkxwbk0zNHNQMWdmb01BZzA2Vm5RRldSYWRoQkVMRlJvdTk2cko2VnU3VGxzaDhZTlFXS251dC1fTkxSRGpPaElWSW5BUFRLSHdBX21pdVBycjB4SzVnWUFfbV9DaGlfc2F0akJmMk1rV3J3UWY2SWlCdnQzb0ZwQUpWNzFFOHNQZEVZdDlKazA5cWo0bmRRMlktVktZQQ?oc=5",
-      "source": "globalnews.ca",
       "date": "2026-08-05",
       "type": "expenses",
       "status": "reported"
@@ -1575,19 +1589,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUmVXRFBPMV9hdmVyZF81OU42dy05QlJBZ2xlN2Q0cmVHNXRpQ2h1ZVVRRl9yMmVGVXhZd3BGSGpyX2hnQnN6aDFTXzFxaTE2a0lrOEYtTnZXVlpib1ZqVlI1VDluWkdwSFZabXpDSG5tSjBfVTNob0FCS0JfcHR2WVlNMmZhY0QzUzJaNEttcXRyYlFncEJV?oc=5",
       "source": "nationalpost.com",
-      "date": "2026-05-25",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-caroline-mulroney-mulroney-resigns-seat-as-york-simcoe-mpp-effecti-2026-05-25",
-      "mppNames": [
-        "Caroline Mulroney"
-      ],
-      "title": "Mulroney resigns seat as York-Simcoe MPP effective June 5 - BradfordToday.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa0ZEaGxJSUVyLV9FWnA1Mkp4cnRibm5FVnl0YkItSVY5SGd2UTRMYzFpWTdidWpYNDdJZXB3THd5ZVU4M1pNR2oya0JpV0huWGEtLVhlcjBCY2JlTS1tUUUwRVZQVTFjdDlSQ3dHQ1JobjVGc0NvLTJEWk01TmVOR0wxY2IycVM2U1F1TDktRFFnWjJnT3dhYUd4YldhSXBCX3dqRUFiT3RPUQ?oc=5",
-      "source": "BradfordToday.ca",
       "date": "2026-05-25",
       "type": "news",
       "status": "reported"
