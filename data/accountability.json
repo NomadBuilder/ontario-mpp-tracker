@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-08-19",
+  "asOf": "2026-08-20",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-a-dog-and-pony-show-opposition-slams-ford-after--2026-08-19",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "'A dog and pony show': Opposition slams Ford after FOI reveals Texas trade trip cost taxpayers over $93K | CBC News - cbc.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS1FCSng5X1N6c2RfNEd3YTFJc1lIa05HT1NEdkJZeGZIS3Azd3NlVV9PTXVPS09NREd3elB5aHhLemdSMUpSMmRuLUpWa1VxbUZDU0VmMEtHeWNzcW1EaHlJWTZxOTZMaGV4S0h2akpjNjJ2anhfMmJpY0c1amMya2VXcUhHZUl1ZFE?oc=5",
+      "source": "cbc.ca",
+      "date": "2026-08-19",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-doug-ford-calls-for-purchase-of-60-water-bombers-2026-08-18",
       "mppNames": [
@@ -1575,20 +1588,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUGpfQzdFR0lETW9qYkVWVUowX1FwcFVLdUNZNG5LOGliWkZPaTZoUExsemlxVDdjeWs1RWxRT2tjZjJ4T0dzSGlzZElhaERrVk10STZNQ2xJTGVvOGNfNDNaVFkwcVZYb2RPX3lKYWUxeVdjYl84a2RZODBjU25WODI3TnNiMnM?oc=5",
       "source": "CBC",
-      "date": "2026-05-25",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-caroline-mulroney-one-of-doug-ford-s-most-truste-2026-05-25",
-      "mppNames": [
-        "Doug Ford",
-        "Caroline Mulroney"
-      ],
-      "title": "Caroline Mulroney, one of Doug Ford's most trusted ministers, to resign: 'Now is the right time' - nationalpost.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUmVXRFBPMV9hdmVyZF81OU42dy05QlJBZ2xlN2Q0cmVHNXRpQ2h1ZVVRRl9yMmVGVXhZd3BGSGpyX2hnQnN6aDFTXzFxaTE2a0lrOEYtTnZXVlpib1ZqVlI1VDluWkdwSFZabXpDSG5tSjBfVTNob0FCS0JfcHR2WVlNMmZhY0QzUzJaNEttcXRyYlFncEJV?oc=5",
-      "source": "nationalpost.com",
       "date": "2026-05-25",
       "type": "news",
       "status": "reported"
