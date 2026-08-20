@@ -70,7 +70,7 @@
       "name": "Town of Milton",
       "type": "escribe",
       "ok": true,
-      "meetings": 3,
+      "meetings": 4,
       "calendarUrl": "https://pub-milton.escribemeetings.com",
       "note": ""
     },
@@ -849,6 +849,38 @@
       "links": {
         "meeting": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=f1df1828-549b-48f1-8932-cd29d2c60569",
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=f1df1828-549b-48f1-8932-cd29d2c60569"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "milton-f38b41bf-c729-40",
+      "municipality": "Town of Milton",
+      "municipalityId": "milton",
+      "body": "Committee of Adjustment and Consent",
+      "title": "Committee of Adjustment and Consent",
+      "date": "2026-08-27",
+      "time": "6:00 PM",
+      "location": "Council Chambers - In Person",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=f38b41bf-c729-4090-9cfb-54855717ec10",
+        "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=f38b41bf-c729-4090-9cfb-54855717ec10"
       },
       "keywordsMatched": [],
       "snippets": [],
