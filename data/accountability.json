@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-21",
+  "asOf": "2026-08-22",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -1405,6 +1405,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-stephanie-bowman-mpps-billing-taxpayers-for-toronto-hotels-should-2026-07-16",
+      "mppNames": [
+        "Stephanie Bowman"
+      ],
+      "title": "MPPs billing taxpayers for Toronto hotels should be held accountable, opposition says - Canada's National Observer",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUHEwdkRpenozTXBxQlFUNXFadjRjOW1CMXc4TUJoLTM2Mk5NU0FhNWtid2JVTGw1SjJRTlYwR2RMNXFMRGZhZURiX2hTRy1jMm5sMHhmSVUxY19fYzh4TTZLWl90SFFLVFRDSGFmcDNLVkxjWU5DWEJNZmpnMDBZMVlZRGJKZXJpQ2xrSVJwMUtKRjNXWmtad1c4bmM4cWFEcUg1MWlmS3psSWxTTklBMXNfb2JVeXRpaTlmWlFRVUNpZjJ1U2tDXw?oc=5",
+      "source": "Canada's National Observer",
+      "date": "2026-07-16",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-mohamed-firin-stan-cho-s-16k-hotel-tab-is-just-the-tip-of-the--2026-07-15",
       "mppNames": [
         "Mohamed Firin",
@@ -1576,19 +1589,6 @@
       "source": "Canadian Taxpayers Federation",
       "date": "2026-05-28",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-vijay-thanigasalam-charity-leaves-online-safety-coalition-before-an-2026-05-28",
-      "mppNames": [
-        "Vijay Thanigasalam"
-      ],
-      "title": "Charity leaves online safety coalition before announcing Google deal - Investigative Journalism Foundation",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zWktTRy11UjM0ZFR0OEpXc2ZOVENnWjBpd2xIUF9XNDdmeHJIM0dlT0g1Rmg5TlJ2dDExNjZvR1NCbFUycGdLY0xiWFdBVmVseGNFN2JOc1RTTGg0VUVWa0F3VnlMVUYzT3VadG5ZVlowSlA2MkE?oc=5",
-      "source": "Investigative Journalism Foundation",
-      "date": "2026-05-28",
-      "type": "investigation",
       "status": "reported"
     }
   ]
