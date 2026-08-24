@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-5-ontario-communities-still-waiting-for-reimburs-2026-08-24",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "5 Ontario communities still waiting for reimbursement after Greenbelt scandal - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM1ZuekFQUWFQclhDX09Kc0dNZjVpeXRzVDh6QkI5ZjRxZDc1TjJ0SEduYmdZUFQ0dXN5LVFpS0ZiNEVaTUVGVHdRWm9HazBsVl9BcnVfUlVRMzdXV0NlM05zVW96ODJPSXBGSjgwUUhVakpMdEZHYzlET19hMmFEeEpaM0szQjduX29BcmdfSUg2dw?oc=5",
+      "source": "CBC",
+      "date": "2026-08-24",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-a-dog-and-pony-show-opposition-slams-ford-after--2026-08-19",
       "mppNames": [
         "Doug Ford"
@@ -29,6 +42,20 @@
       "status": "reported"
     },
     {
+      "id": "auto-chandra-pasma-pasma-calandra-wasting-taxpayer-dollars-on-attac-2026-08-18",
+      "mppNames": [
+        "Chandra Pasma",
+        "Paul Calandra"
+      ],
+      "title": "PASMA: Calandra wasting taxpayer dollars on attacks rather than fixing education - Ontario NDP",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTJoWElURk5nb3Q5RmswTnRvTG9uNVl2SnRzVW5zX1VuTWlDLVhlRGNLUzBDWjdpSVgwb0d6dW1uRmNfM2pQNmRTNXBVVVZCMjBKMGNmbEZ2OHI5aFNMd1JPS3BVRExZbHhPTGU2ZFZKdi10N3ZhR2lzanh3Ulphb1ZRV25GU0E4Mk1CU2ZhN3hIZE5LeUp1cGZGTUNfNDVabjhpag?oc=5",
+      "source": "Ontario NDP",
+      "date": "2026-08-18",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-doug-ford-calls-for-purchase-of-60-water-bombers-2026-08-18",
       "mppNames": [
         "Doug Ford"
@@ -50,19 +77,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPR0ZYRWt4dks2WGVlS25uekVQWHcweXdhUDNjdkZJNnA1cExpZmpwOFd4UHNnejg3cEpJM3lUYlBUeFJiYlZHb1JPcS1POUtfV3JOVVRyZS1Kc1pkZjlONVN5aElsOTYtbXNrcVUyUldPNnlSdm5tYkZGX0NueEoyNnR4X29NeWN4eXhTQm50ajVwOVpGbmF1dGhiRGJQME1RV1hwV28wN2lpbnpSTFJsRHVxUkZZOFlkclQxNXZBNVNYSTE5ZEFKM2FJX3JZMzBaVWQtbTBGOW43NWhHV0JLNGtHVGJsT1hYVFdNbmJQekxkOFdmRGRwX3NIYnZjUjVmTlJ6MmFOeTBUU3Y2MkYwTE5QVXdFNFBoSi1ZWkIweWtUcC02YnZCSjJkaUFZR2FUYVZVUVJtMA?oc=5",
       "source": "Toronto Star",
-      "date": "2026-08-18",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-chandra-pasma-pasma-calandra-wasting-taxpayer-dollars-on-attac-2026-08-18",
-      "mppNames": [
-        "Chandra Pasma"
-      ],
-      "title": "PASMA: Calandra wasting taxpayer dollars on attacks rather than fixing education - Ontario NDP",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTJoWElURk5nb3Q5RmswTnRvTG9uNVl2SnRzVW5zX1VuTWlDLVhlRGNLUzBDWjdpSVgwb0d6dW1uRmNfM2pQNmRTNXBVVVZCMjBKMGNmbEZ2OHI5aFNMd1JPS3BVRExZbHhPTGU2ZFZKdi10N3ZhR2lzanh3Ulphb1ZRV25GU0E4Mk1CU2ZhN3hIZE5LeUp1cGZGTUNfNDVabjhpag?oc=5",
-      "source": "Ontario NDP",
       "date": "2026-08-18",
       "type": "news",
       "status": "reported"
@@ -1577,19 +1591,6 @@
       "source": "CollingwoodToday.ca",
       "date": "2026-06-04",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-jamie-west-sudbury-briefs-mpp-tables-mining-act-audit-commi-2026-05-30",
-      "mppNames": [
-        "Jamie West"
-      ],
-      "title": "Sudbury briefs: MPP tables mining act; audit committee members sought - thesudburystar.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPT1diRUlfaXJRNEhuS05VODBhbmd2SlExd0lJV3ZTd0wxWl9GOWUxZ05kdWxQaW9UMEhsUndCekw5VE5tNUJsZnNLQnNGVC1UREdMa1ExSV9tWGxONDVZMHZVejlhYWNxT1pGaWU5OXF2cHBuUEtNd3JfNE5KVXV5YlpUMUV6YzNjQVZJZzcxVk9Yal85T2VIZ2hsVjk1YTlBblFfVVZB?oc=5",
-      "source": "thesudburystar.com",
-      "date": "2026-05-30",
-      "type": "investigation",
       "status": "reported"
     }
   ]
