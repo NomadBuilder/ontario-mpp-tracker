@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-23",
+  "asOf": "2026-08-24",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -25,7 +25,7 @@
       "name": "City of Brampton",
       "type": "escribe",
       "ok": true,
-      "meetings": 14,
+      "meetings": 15,
       "calendarUrl": "https://pub-brampton.escribemeetings.com",
       "note": ""
     },
@@ -8601,6 +8601,38 @@
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=6575fe47-c615-4060-a1ab-72e0cdde7308",
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=6575fe47-c615-4060-a1ab-72e0cdde7308"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "brampton-5b7fd14f-2b28-42",
+      "municipality": "City of Brampton",
+      "municipalityId": "brampton",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-12-22",
+      "time": "9:30 AM",
+      "location": "'>Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=5b7fd14f-2b28-426e-8c6e-34c23bba2524",
+        "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=5b7fd14f-2b28-426e-8c6e-34c23bba2524"
       },
       "keywordsMatched": [],
       "snippets": [],
