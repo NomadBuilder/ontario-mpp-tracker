@@ -1,11 +1,12 @@
 {
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-25",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
       "id": "auto-doug-ford-5-ontario-communities-still-waiting-for-reimburs-2026-08-24",
       "mppNames": [
-        "Doug Ford"
+        "Doug Ford",
+        "Paul Calandra"
       ],
       "title": "5 Ontario communities still waiting for reimbursement after Greenbelt scandal - CBC",
       "summary": "",
