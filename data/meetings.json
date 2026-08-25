@@ -196,7 +196,7 @@
       "name": "City of Brantford",
       "type": "escribe",
       "ok": true,
-      "meetings": 11,
+      "meetings": 12,
       "calendarUrl": "https://pub-brantford.escribemeetings.com",
       "note": ""
     },
@@ -420,13 +420,13 @@
       "location": "Council Chambers - Please check the City website for additional meeting detail information.",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
         "deputations": null,
         "registerBy": null,
-        "notes": "May include a closed session — public items only."
+        "notes": ""
       },
       "links": {
         "meeting": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=7383f3f3-51de-4153-8776-6e7bab9ab9d6",
@@ -437,7 +437,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "posted",
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -2138,6 +2138,38 @@
       "links": {
         "meeting": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=6d58b33e-267d-4e9e-b53e-ddaee7503f6a",
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=6d58b33e-267d-4e9e-b53e-ddaee7503f6a"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "brantford-4b3e888b-b639-41",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "Special City Council",
+      "title": "Special City Council",
+      "date": "2026-09-15",
+      "time": "4:00 PM",
+      "location": "Charlie Ward Room, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=4b3e888b-b639-4137-bff5-fc130284d28a",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=4b3e888b-b639-4137-bff5-fc130284d28a"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -8701,7 +8733,8 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
+        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
       },
       "keywordsMatched": [
         "data centre"
