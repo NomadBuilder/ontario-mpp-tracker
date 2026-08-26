@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-26",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-trump-escalates-fight-with-ontario-premier-by-in-2026-08-25",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Trump escalates fight with Ontario Premier by invoking controversial late brother - The Independent",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNV9NWmx1cjlmaDZ1MjExUnk5NWF2emczeXdOcno4dlAyUXZyaHNFSU44dHhhX3VIaUdwRmZhQ2hFY28yVUNqODNJZEozLW5rcWRSdUs4RExrRnQycHpxbUh5UjViWUFrZUZVb1JHa1N2V1Q5a2gwNFFEMDRQdGtvY0ZUeWMxZERfcUxjNUcwcEFqMmNGRUF0SDJ6dHVMQXI3Tzh4dFlzMFNXOTg?oc=5",
+      "source": "The Independent",
+      "date": "2026-08-25",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-5-ontario-communities-still-waiting-for-reimburs-2026-08-24",
       "mppNames": [
@@ -1558,7 +1571,8 @@
       "id": "auto-ric-bresee-full-disclosure-area-mpps-list-their-travel-and--2026-06-11",
       "mppNames": [
         "Ric Bresee",
-        "Tyler Allsopp"
+        "Tyler Allsopp",
+        "Steve Clark"
       ],
       "title": "Full disclosure: Area MPPs list their travel and living expenses for the past year - Kingstonist News",
       "summary": "",
@@ -1578,19 +1592,6 @@
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaDM1VlllLWk2eVNVaHE1R1RyX3V3Zld6dGNBcExFajJlQlBxdzR2YmNJUXA3aHA2VEliLVRNeGJrMndYZ1VfTXY3YlA3dGkzR3MtVVoxbm93YW5LU1hxWG5sek9BZTN3VHg0SDIzRm9wak1vRjRCVHdMQTk2M1NyQjUtMDlnSjk0SU9BRmJLREdfNGFQRk9JZUJ6bzV4MWVkcUlSUXJ6eGhadVJVSjZPZElERm9FYW9Vak9SSFRLZWhweF9UOUJ3bDFzaENuUW02OVNHVmctb1RkTVplYTlCMGNfQkw2UnVobm5LX1dRTzVGc2xt?oc=5",
       "source": "The Trillium",
       "date": "2026-06-05",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-brian-saunderson-letter-saunderson-should-resign-over-shut-your-m-2026-06-04",
-      "mppNames": [
-        "Brian Saunderson"
-      ],
-      "title": "LETTER: Saunderson should resign over 'shut your mouth' comment - CollingwoodToday.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdVRscmhuc1VvT2VxTWJsWHI2NkljUlkwcHY2ODUyZDEya3FBcVNRRkJjZTdhWkctVUV3amZyUDNRMGFaTEs4bUo1Q29RMTlLdEU4YjFfdl95SzRDLWdoQnpjRy1vdGVuWWJ3ZjBsZTlfdXFERVB6V19aT1FSV3RvSnBPOWNHNTZjblF5UWs1NHlFVjJyMlRaVkxBdHFVT2YyYXNsakF2TkdHSjRVQU10S3FYOXlIY0cwM3lucER1eEg?oc=5",
-      "source": "CollingwoodToday.ca",
-      "date": "2026-06-04",
       "type": "news",
       "status": "reported"
     }
