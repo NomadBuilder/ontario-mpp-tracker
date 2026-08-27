@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-26",
+  "asOf": "2026-08-27",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 12,
+      "meetings": 11,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -52,7 +52,7 @@
       "name": "City of Markham",
       "type": "escribe",
       "ok": true,
-      "meetings": 19,
+      "meetings": 18,
       "calendarUrl": "https://pub-markham.escribemeetings.com",
       "note": ""
     },
@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 19,
+      "meetings": 17,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 11,
+      "meetings": 10,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -259,7 +259,7 @@
       "name": "Halton Region",
       "type": "halton",
       "ok": true,
-      "meetings": 3,
+      "meetings": 4,
       "calendarUrl": "https://www.halton.ca/the-region/regional-council-and-committees/calendars-and-schedules",
       "note": ""
     },
@@ -274,175 +274,6 @@
     }
   ],
   "items": [
-    {
-      "id": "kitchener-3c85b6a2-ddbf-4e",
-      "municipality": "City of Kitchener",
-      "municipalityId": "kitchener",
-      "body": "Economic Development Advisory Committee",
-      "title": "Economic Development Advisory Committee",
-      "date": "2026-08-26",
-      "time": "11:00 AM",
-      "location": "Conestoga Room",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=3c85b6a2-ddbf-4eb3-a7a8-97e7520bd226",
-        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=3c85b6a2-ddbf-4eb3-a7a8-97e7520bd226"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "ottawa-47d13d57-fb07-4b",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "City Council",
-      "title": "City Council",
-      "date": "2026-08-26",
-      "time": "10:00 AM",
-      "location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=47d13d57-fb07-4bd5-9098-d155961c747c",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=47d13d57-fb07-4bd5-9098-d155961c747c"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "regionofwaterloo-4d659b0e-4d32-4a",
-      "municipality": "Region of Waterloo",
-      "municipalityId": "regionofwaterloo",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-08-26",
-      "time": "7:00 PM",
-      "location": "Council Chambers",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "5 Craig Sloss, Waterloo Re: Data Centre motion (Agenda item 11.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d659b0e-4d32-4a1b-b364-19ba7f6f26d5",
-        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d659b0e-4d32-4a1b-b364-19ba7f6f26d5"
-      },
-      "keywordsMatched": [
-        "data centre",
-        "data centres"
-      ],
-      "snippets": [
-        "5 Craig Sloss, Waterloo Re: Data Centre motion (Agenda item 11.",
-        "stimates, funding opportunities, and recommendations for Council's consideration. WHEREAS data centres are an important and growing part of the digital economy and are being developed in communities across Ontario and Canada; AND WHEREAS data",
-        "tal economy and are being developed in communities across Ontario and Canada; AND WHEREAS data centres vary significantly in size, function, and resource requirements, including electricity, water, telecommunications infrastructure, and land"
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "newmarket-75c1cea0-1231-4b",
-      "municipality": "Town of Newmarket",
-      "municipalityId": "newmarket",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-08-26",
-      "time": "9:30 AM",
-      "location": "Electronic VIA ZOOM",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=75c1cea0-1231-4bb8-b153-89ddb8260d26",
-        "agenda": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=75c1cea0-1231-4bb8-b153-89ddb8260d26"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "oakville-609d20eb-7b8f-49",
-      "municipality": "Town of Oakville",
-      "municipalityId": "oakville",
-      "body": "Council Information Packages",
-      "title": "Council Information Packages",
-      "date": "2026-08-26",
-      "time": "9:00 AM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": false,
-        "deputations": false,
-        "registerBy": null,
-        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
-      },
-      "links": {
-        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=609d20eb-7b8f-4921-93ed-9623c0b886c1",
-        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=609d20eb-7b8f-4921-93ed-9623c0b886c1"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
     {
       "id": "hamilton-1f8756ba-41a7-4b",
       "municipality": "City of Hamilton",
@@ -766,6 +597,38 @@
       "curated": false
     },
     {
+      "id": "newmarket-65bf5c28-a152-48",
+      "municipality": "Town of Newmarket",
+      "municipalityId": "newmarket",
+      "body": "Central York Fire Services - Joint Council Committee",
+      "title": "Central York Fire Services - Joint Council Committee",
+      "date": "2026-09-01",
+      "time": "9:30 AM",
+      "location": "Streamed live from the Municipal Offices",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=65bf5c28-a152-48dd-857b-e7a594cec4ec",
+        "agenda": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=65bf5c28-a152-48dd-857b-e7a594cec4ec"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "markham-cad418ed-4591-4e",
       "municipality": "City of Markham",
       "municipalityId": "markham",
@@ -1054,38 +917,6 @@
       "curated": false
     },
     {
-      "id": "markham-a83eb76a-66e5-4f",
-      "municipality": "City of Markham",
-      "municipalityId": "markham",
-      "body": "General Committee Meeting",
-      "title": "General Committee Meeting",
-      "date": "2026-09-08",
-      "time": "9:30 AM",
-      "location": "Live streamed",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=a83eb76a-66e5-4fa6-967e-fd487fc957a1",
-        "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=a83eb76a-66e5-4fa6-967e-fd487fc957a1"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "mississauga-5d1ccb29-b4b6-43",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -1349,7 +1180,7 @@
       "title": "Committee of Adjustment",
       "date": "2026-09-09",
       "time": "6:00 PM",
-      "location": "Bowman Room",
+      "location": "Bowman Room, 1st Floor, City Hall, 50 Dickson St.",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
@@ -1438,7 +1269,7 @@
       "curated": false
     },
     {
-      "id": "ottawa-5d321664-af3c-43",
+      "id": "ottawa-0576ac9f-74e8-49",
       "municipality": "City of Ottawa",
       "municipalityId": "ottawa",
       "body": "City Council",
@@ -1457,8 +1288,8 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=5d321664-af3c-4344-b3f7-c470d1532508",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=5d321664-af3c-4344-b3f7-c470d1532508"
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=0576ac9f-74e8-4986-b8f8-9c96b26f6e67",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=0576ac9f-74e8-4986-b8f8-9c96b26f6e67"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -3721,7 +3552,7 @@
       "title": "Planning and Development Council",
       "date": "2026-10-05",
       "time": "6:30 PM",
-      "location": "Council Chamber",
+      "location": "This meeting has been cancelled.",
       "status": "upcoming",
       "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
@@ -4137,7 +3968,7 @@
       "title": "Committee of Adjustment",
       "date": "2026-10-14",
       "time": "6:00 PM",
-      "location": "Bowman Room",
+      "location": "Bowman Room, 1st Floor, City Hall, 50 Dickson St.",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
@@ -4770,6 +4601,38 @@
       "curated": false
     },
     {
+      "id": "halton-region-4638",
+      "municipality": "Halton Region",
+      "municipalityId": "halton-region",
+      "body": "REGULAR MEETING OF REGIONAL COUNCIL 08-26",
+      "title": "REGULAR MEETING OF REGIONAL COUNCIL 08-26",
+      "date": "2026-11-04",
+      "time": "9:30 AM",
+      "location": "Halton Regional Centre, 1151 Bronte Road, Oakville",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://edmweb.halton.ca/OnBaseAgendaOnline/Meetings/ViewMeeting?id=4638&doctype=1",
+        "agenda": "https://edmweb.halton.ca/OnBaseAgendaOnline/Meetings/ViewMeeting?id=4638&doctype=1"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "halton",
+      "curated": false
+    },
+    {
       "id": "haltonhills-609d5f2d-7bd2-47",
       "municipality": "Town of Halton Hills",
       "municipalityId": "haltonhills",
@@ -4937,7 +4800,7 @@
       "title": "Committee of Adjustment",
       "date": "2026-11-11",
       "time": "6:00 PM",
-      "location": "Bowman Room",
+      "location": "Bowman Room, 1st Floor, City Hall, 50 Dickson St.",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
@@ -7370,7 +7233,7 @@
       "title": "Committee of Adjustment",
       "date": "2026-12-09",
       "time": "6:00 PM",
-      "location": "Bowman Room",
+      "location": "Bowman Room, 1st Floor, City Hall, 50 Dickson St.",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
@@ -8534,7 +8397,8 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
+        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
       },
       "keywordsMatched": [
         "data centre",
@@ -8565,7 +8429,8 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
+        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
       },
       "keywordsMatched": [
         "data centre"
@@ -8740,45 +8605,6 @@
       "agendaStatus": "posted"
     },
     {
-      "id": "oakville-8211687c-d1eb-4f",
-      "municipality": "Town of Oakville",
-      "municipalityId": "oakville",
-      "body": "Council Information Packages",
-      "title": "Council Information Packages",
-      "date": "2026-08-19",
-      "time": "9:00 AM",
-      "location": "",
-      "status": "past",
-      "cancelled": false,
-      "issue": "2 AMO Policy Update – Property Tax Reassessment, National Housing Strategy Renewal, Provincial Data Centre Playbook - August 13, 2026 1.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": false,
-        "deputations": false,
-        "registerBy": null,
-        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
-      },
-      "links": {
-        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=8211687c-d1eb-4f0e-987f-872b776e2c24",
-        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=8211687c-d1eb-4f0e-987f-872b776e2c24"
-      },
-      "keywordsMatched": [
-        "data centre"
-      ],
-      "snippets": [
-        "2 AMO Policy Update – Property Tax Reassessment, National Housing Strategy Renewal, Provincial Data Centre Playbook - August 13, 2026 1.",
-        "AMO Policy Update - Property Tax Reassessment, National Housing Strategy, Data Centre Playbook - August 13, 2026."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "cambridge-ef3fe61f-fef5-49",
       "municipality": "City of Cambridge",
       "municipalityId": "cambridge",
@@ -8807,6 +8633,47 @@
       "snippets": [
         "5 Revised Motion: Mayor Liggett re: Provincial Data Centre Framework and Community Benefits (Mayor Liggett) 1.",
         "Revised Motion - Provincial Data Centre Framework and Community Benefits."
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "topics": {
+        "datacentre": "exact"
+      },
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "regionofwaterloo-4d659b0e-4d32-4a",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-08-26",
+      "time": "7:00 PM",
+      "location": "Council Chambers",
+      "status": "past",
+      "cancelled": false,
+      "issue": "5 Craig Sloss, Waterloo Re: Data Centre motion (Agenda item 11.",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d659b0e-4d32-4a1b-b364-19ba7f6f26d5",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d659b0e-4d32-4a1b-b364-19ba7f6f26d5"
+      },
+      "keywordsMatched": [
+        "data centre",
+        "data centres"
+      ],
+      "snippets": [
+        "5 Craig Sloss, Waterloo Re: Data Centre motion (Agenda item 11.",
+        "stimates, funding opportunities, and recommendations for Council's consideration. WHEREAS data centres are an important and growing part of the digital economy and are being developed in communities across Ontario and Canada; AND WHEREAS data",
+        "tal economy and are being developed in communities across Ontario and Canada; AND WHEREAS data centres vary significantly in size, function, and resource requirements, including electricity, water, telecommunications infrastructure, and land"
       ],
       "relevant": true,
       "matchKind": "exact",

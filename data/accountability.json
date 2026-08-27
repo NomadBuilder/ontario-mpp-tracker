@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-26",
+  "asOf": "2026-08-27",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -987,6 +987,20 @@
       "status": "reported"
     },
     {
+      "id": "auto-ontario-premier-doug-ford-s-update-on-wildfires--2026-07-17",
+      "mppNames": [
+        "Doug Ford",
+        "Mike Harris"
+      ],
+      "title": "Ontario Premier Doug Ford's Update on Wildfires – July 17, 2026 - CPAC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaEdtUnVHR3dxanhIVFVCWjh3S0h0dWcybTl2bG54UHFWamVtU29OUlNhNTVKakNNa1JmUVNIQWN1RzlwOEhQUXhERG9ETXhPLUZwTm0xYjVmRTlPbVhpazY1V0tRN2ZwTm5Md3prbDNTX1p5NzAtMFZDNmlPTjRIU2JNNml1X21fYk1oelNIUDlHLU5zVm16Q1h5OVIycGZoRENUcHRCaDFfUFZia21taHhIb3Fqc3lFUHM1NDNXTDZsVmcxbWg1YUlUZHk1UFRPVzRoeVMtLU9DYnpHNy13?oc=5",
+      "source": "CPAC",
+      "date": "2026-07-20",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-in-addition-to-16-000-in-hotel-expenses-stan-cho-2026-07-20",
       "mppNames": [
         "Stan Cho"
@@ -1047,19 +1061,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90VTBIdzVRcEpGeDdpSVExVmNBcC1GVk5vLVU3VVBWUkVucFp2M2Y4SGFuZ3BYYWhNZzJ4a1RPX0dfSTdCY3JMSFRURWp0Q1Q1a2VJSWlOQXQzb3I4MU1SaUFuRDdGVWNxYzJ2QkFYZklObVpOc1BraC03OWVZQ2c?oc=5",
       "source": "CBC",
-      "date": "2026-07-20",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-ontario-premier-doug-ford-s-update-on-wildfires--2026-07-20",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Ontario Premier Doug Ford's Update on Wildfires – July 20, 2026 - CPAC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNenZWc1Q2d05jd2lZVkpWV1V3aGlPM0Z0OVAtNXpGXzE4dzQ0NDdDVjVZQUF3aVB0aVE3QkZjd09nTEpwS0NsU0Nxc3k1d0xldS1LMnA5aFMyNkNGQUl1RHYzRDJhNzc3LWNiNVBQVF92QU5zUGdVaG1Ebk9vYXV3WmQ2S0hqRklWN3FwazVhUXViMWRjVlJ4NDZsZ1hMT0VZcFpJajh4SGU0bmVLSlVnY09lTS1NMl93V3Fvc1hsUTRIOXNPU2tLc1hXcVg0S3hQOUZGd21yQjZQSndCUTFR?oc=5",
-      "source": "CPAC",
       "date": "2026-07-20",
       "type": "news",
       "status": "reported"
@@ -1127,6 +1128,19 @@
       "source": "ottawa.citynews.ca",
       "date": "2026-07-20",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-david-smith-public-records-undermine-former-minister-s-late--2026-07-17",
+      "mppNames": [
+        "David Smith"
+      ],
+      "title": "Public records undermine former minister’s ‘late nights’ justification for hotel expenses - The Trillium",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdFpOZXhUZi0zbmFZeXFLTG9uMTM1bm5XSWpmQXhGSjlLVFN3b21QWXc2VXdyS25kRDNaNXNlZlpvR2ludEVHNTBfM1BXaWhiSzNFcmxHYXVlZDFhM0RtMEd0T3dNaXBhMkxZa1dhVFd0bENGQzZvLTJ6RU1WeVZqZmJkTVlwV2l6ajczNUlUaDROOW4tY2MwbjF3aE1zR0xmQ0tmN2hXSzBQZnhvQ0VfYlo2LVV6dlUzUkVkU2JUa3pWM0k3VlRnczlwaVZuVDNkMVE?oc=5",
+      "source": "The Trillium",
+      "date": "2026-07-20",
+      "type": "expenses",
       "status": "reported"
     },
     {
@@ -1353,19 +1367,6 @@
       "source": "cbc.ca",
       "date": "2026-07-17",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-david-smith-public-records-undermine-former-minister-s-late--2026-07-17",
-      "mppNames": [
-        "David Smith"
-      ],
-      "title": "Public records undermine former minister’s ‘late nights’ justification for hotel expenses - The Trillium",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdFpOZXhUZi0zbmFZeXFLTG9uMTM1bm5XSWpmQXhGSjlLVFN3b21QWXc2VXdyS25kRDNaNXNlZlpvR2ludEVHNTBfM1BXaWhiSzNFcmxHYXVlZDFhM0RtMEd0T3dNaXBhMkxZa1dhVFd0bENGQzZvLTJ6RU1WeVZqZmJkTVlwV2l6ajczNUlUaDROOW4tY2MwbjF3aE1zR0xmQ0tmN2hXSzBQZnhvQ0VfYlo2LVV6dlUzUkVkU2JUa3pWM0k3VlRnczlwaVZuVDNkMVE?oc=5",
-      "source": "The Trillium",
-      "date": "2026-07-17",
-      "type": "expenses",
       "status": "reported"
     },
     {
