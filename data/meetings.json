@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 11,
+      "meetings": 13,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 28,
+      "meetings": 29,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -25,7 +25,7 @@
       "name": "City of Brampton",
       "type": "escribe",
       "ok": true,
-      "meetings": 14,
+      "meetings": 15,
       "calendarUrl": "https://pub-brampton.escribemeetings.com",
       "note": ""
     },
@@ -106,7 +106,7 @@
       "name": "City of Pickering",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 2,
       "calendarUrl": "https://pub-pickering.escribemeetings.com",
       "note": ""
     },
@@ -431,6 +431,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "brampton-19070d07-0b3a-40",
+      "municipality": "City of Brampton",
+      "municipalityId": "brampton",
+      "body": "City Council - Special Meeting",
+      "title": "City Council - Special Meeting",
+      "date": "2026-08-31",
+      "time": "4:30 PM",
+      "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=19070d07-0b3a-404b-a5f6-4fb866317a5a",
+        "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=19070d07-0b3a-404b-a5f6-4fb866317a5a"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -799,13 +831,13 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=8ce77237-e789-44ba-8fe5-ddb625967d8d",
@@ -816,7 +848,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -949,6 +981,38 @@
       "curated": false
     },
     {
+      "id": "pickering-14716dd4-04e3-44",
+      "municipality": "City of Pickering",
+      "municipalityId": "pickering",
+      "body": "Planning and Development Committee",
+      "title": "Planning and Development Committee",
+      "date": "2026-09-08",
+      "time": "7:00 PM",
+      "location": "Electronic Meeting",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=14716dd4-04e3-448c-9355-1e8d524c9b27",
+        "agenda": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=14716dd4-04e3-448c-9355-1e8d524c9b27"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "richmondhill-010b808c-651f-40",
       "municipality": "City of Richmond Hill",
       "municipalityId": "richmondhill",
@@ -1055,11 +1119,11 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -1072,7 +1136,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -3705,6 +3769,38 @@
       "curated": false
     },
     {
+      "id": "ottawa-a2a6d56d-ffb8-4b",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Planning and Housing Committee",
+      "title": "Planning and Housing Committee",
+      "date": "2026-10-07",
+      "time": "9:30 AM",
+      "location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a2a6d56d-ffb8-4b1c-90a1-555352106242",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=a2a6d56d-ffb8-4b1c-90a1-555352106242"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "regionofwaterloo-eaa83982-19fd-43",
       "municipality": "Region of Waterloo",
       "municipalityId": "regionofwaterloo",
@@ -4565,6 +4661,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-0e176a88-8996-4b",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Planning and Housing Committee",
+      "title": "Planning and Housing Committee",
+      "date": "2026-11-04",
+      "time": "9:30 AM",
+      "location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=0e176a88-8996-4b96-bdaf-38624bd64786",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=0e176a88-8996-4b96-bdaf-38624bd64786"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -8397,8 +8525,7 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
       },
       "keywordsMatched": [
         "data centre",
