@@ -34,7 +34,7 @@
       "name": "City of Hamilton",
       "type": "escribe",
       "ok": true,
-      "meetings": 16,
+      "meetings": 17,
       "calendarUrl": "https://pub-hamilton.escribemeetings.com",
       "note": ""
     },
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 10,
+      "meetings": 11,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -274,6 +274,70 @@
     }
   ],
   "items": [
+    {
+      "id": "hamilton-c25a17dd-9b91-44",
+      "municipality": "City of Hamilton",
+      "municipalityId": "hamilton",
+      "body": "Council&#39;s Weekly Correspondence Listing",
+      "title": "Council&#39;s Weekly Correspondence Listing",
+      "date": "2026-08-28",
+      "time": "12:00 PM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=c25a17dd-9b91-4445-9dc5-d937e4b026cc",
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=c25a17dd-9b91-4445-9dc5-d937e4b026cc"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-76edac94-691a-4c",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Electronic Council Communication Information Package",
+      "title": "Electronic Council Communication Information Package",
+      "date": "2026-08-28",
+      "time": "2:00 PM",
+      "location": "Electronic Meeting",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": false,
+        "deputations": false,
+        "registerBy": null,
+        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=76edac94-691a-4c1d-9779-ff9a95391021",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=76edac94-691a-4c1d-9779-ff9a95391021"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
     {
       "id": "brampton-19070d07-0b3a-40",
       "municipality": "City of Brampton",
@@ -735,13 +799,13 @@
       "location": "Council Chamber, 5th Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=57840026-3711-4c45-b240-0159bdb3fb90",
@@ -752,7 +816,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -2272,7 +2336,7 @@
       "title": "Committee of the Whole (Working Session)",
       "date": "2026-09-16",
       "time": "1:00 PM",
-      "location": "Woodbridge Room - Committee Rooms 242/243",
+      "location": "Meeting Cancelled",
       "status": "upcoming",
       "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
