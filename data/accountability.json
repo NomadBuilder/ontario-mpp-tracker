@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-stan-cho-scott-stinson-ontario-mpp-in-new-spending-contro-2026-07-20",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Scott Stinson: Ontario MPP in new spending controversy after riding association spent almost $100K on his meals, hotels - nationalpost.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GREF5cHVZMlVHQVA2VGxxb0lVTEUxMXlMZklhMHJERkhMNGlOdk1jakk4cUVjSi1MNUZmUlc4bHIyWEw1LTk4TTFxTjYwY2Qzb2RWdkVLcldLenZGTk9KUGNQODNYbTZFZjFmTVRXTVg0Q3NTZWtjaFpBeW0zRXM?oc=5",
+      "source": "nationalpost.com",
+      "date": "2026-08-28",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-trump-escalates-fight-with-ontario-premier-by-in-2026-08-25",
       "mppNames": [
         "Doug Ford"
@@ -831,19 +844,6 @@
       "source": "torontolife.com",
       "date": "2026-07-22",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-stan-cho-scott-stinson-ontario-mpp-in-new-spending-contro-2026-07-20",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "Scott Stinson: Ontario MPP in new spending controversy after riding association spent almost $100K on his meals, hotels - nationalpost.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GREF5cHVZMlVHQVA2VGxxb0lVTEUxMXlMZklhMHJERkhMNGlOdk1jakk4cUVjSi1MNUZmUlc4bHIyWEw1LTk4TTFxTjYwY2Qzb2RWdkVLcldLenZGTk9KUGNQODNYbTZFZjFmTVRXTVg0Q3NTZWtjaFpBeW0zRXM?oc=5",
-      "source": "nationalpost.com",
-      "date": "2026-07-22",
-      "type": "expenses",
       "status": "reported"
     },
     {
