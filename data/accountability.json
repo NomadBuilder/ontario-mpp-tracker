@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-29",
+  "asOf": "2026-08-30",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -106,6 +106,20 @@
       "source": "Toronto Star",
       "date": "2026-08-18",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stan-cho-martin-regg-cohn-stan-cho-booked-the-posh-toront-2026-08-16",
+      "mppNames": [
+        "Stan Cho",
+        "Doug Ford"
+      ],
+      "title": "Martin Regg Cohn: Stan Cho booked the posh Toronto hotel room. Now, Doug Ford owns the stay - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNHg0R1pHSUdTMWZKNHRCZFRpTkNURkwwMVA0TFRkSWg1MFRUUzM5NEZpRDRNV0VQbmZNT1R6M21mZjB2N1hvY2NtOEpXRGlCN2FFeHBNeFdZdUd5REFrRUNNRVNSd2h5X2JWWEdINWdmbTdrVFRRSEI5Z0dONmNxeTV1ajcwSzFhcEUzMy05Z2pwUklrRVVjTzF4TmU0dWp3RWFqZ2dUSnR6anlFaWZOeTNXdUtLenk1bm5tYjV4aURYSnpLR1lRWllmenJkNTNlRVE3SQ?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-08-16",
+      "type": "expenses",
       "status": "reported"
     },
     {
@@ -1581,19 +1595,6 @@
       "source": "Kingstonist News",
       "date": "2026-06-11",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-rob-flack-ford-government-seeking-public-input-on-granting-2026-06-05",
-      "mppNames": [
-        "Rob Flack"
-      ],
-      "title": "Ford government seeking public input on granting MZO for controversial mega-development on Lake Erie - The Trillium",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaDM1VlllLWk2eVNVaHE1R1RyX3V3Zld6dGNBcExFajJlQlBxdzR2YmNJUXA3aHA2VEliLVRNeGJrMndYZ1VfTXY3YlA3dGkzR3MtVVoxbm93YW5LU1hxWG5sek9BZTN3VHg0SDIzRm9wak1vRjRCVHdMQTk2M1NyQjUtMDlnSjk0SU9BRmJLREdfNGFQRk9JZUJ6bzV4MWVkcUlSUXJ6eGhadVJVSjZPZElERm9FYW9Vak9SSFRLZWhweF9UOUJ3bDFzaENuUW02OVNHVmctb1RkTVplYTlCMGNfQkw2UnVobm5LX1dRTzVGc2xt?oc=5",
-      "source": "The Trillium",
-      "date": "2026-06-05",
-      "type": "news",
       "status": "reported"
     }
   ]
