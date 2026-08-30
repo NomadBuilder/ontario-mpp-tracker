@@ -250,7 +250,7 @@
       "name": "Region of Durham",
       "type": "civicplus",
       "ok": true,
-      "meetings": 0,
+      "meetings": 7,
       "calendarUrl": "https://calendar.durham.ca/meetings",
       "note": "CivicPlus calendar. Official listing also at durham.ca/regional-government/council/agendas-and-minutes"
     },
@@ -5754,6 +5754,38 @@
       "curated": false
     },
     {
+      "id": "durham-region-2026-11-25-1000-",
+      "municipality": "Region of Durham",
+      "municipalityId": "durham-region",
+      "body": "First Meeting of Regional Council",
+      "title": "First Meeting of Regional Council",
+      "date": "2026-11-25",
+      "time": "10:00 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-11-25-1000-First-Meeting-of-Regional-Council",
+        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-11-25-1000-First-Meeting-of-Regional-Council"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "civicplus",
+      "curated": false
+    },
+    {
       "id": "oakville-b177254d-563b-4d",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -6234,6 +6266,38 @@
       "curated": false
     },
     {
+      "id": "durham-region-2026-12-01-0930-",
+      "municipality": "Region of Durham",
+      "municipalityId": "durham-region",
+      "body": "Community Growth and Economic Development Committee Meeting",
+      "title": "Community Growth and Economic Development Committee Meeting",
+      "date": "2026-12-01",
+      "time": "9:30 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-01-0930-Community-Growth-and-Economic-Development-Committe",
+        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-01-0930-Community-Growth-and-Economic-Development-Committe"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "civicplus",
+      "curated": false
+    },
+    {
       "id": "brampton-cfc933a2-869c-40",
       "municipality": "City of Brampton",
       "municipalityId": "brampton",
@@ -6391,6 +6455,38 @@
       "topics": {},
       "agendaStatus": "not_posted",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "durham-region-2026-12-02-0930-",
+      "municipality": "Region of Durham",
+      "municipalityId": "durham-region",
+      "body": "Works Committee Meeting",
+      "title": "Works Committee Meeting",
+      "date": "2026-12-02",
+      "time": "9:30 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-02-0930-Works-Committee-Meeting",
+        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-02-0930-Works-Committee-Meeting"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "civicplus",
       "curated": false
     },
     {
@@ -7002,6 +7098,38 @@
       "curated": false
     },
     {
+      "id": "durham-region-2026-12-08-0930-",
+      "municipality": "Region of Durham",
+      "municipalityId": "durham-region",
+      "body": "Finance and Administration Committee Meeting",
+      "title": "Finance and Administration Committee Meeting",
+      "date": "2026-12-08",
+      "time": "9:30 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-08-0930-Finance-and-Administration-Committee-Meeting",
+        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-08-0930-Finance-and-Administration-Committee-Meeting"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "civicplus",
+      "curated": false
+    },
+    {
       "id": "regionofwaterloo-4d318740-9b3b-41",
       "municipality": "Region of Waterloo",
       "municipalityId": "regionofwaterloo",
@@ -7226,6 +7354,38 @@
       "curated": false
     },
     {
+      "id": "durham-region-2026-12-09-0930-",
+      "municipality": "Region of Durham",
+      "municipalityId": "durham-region",
+      "body": "Committee of the Whole Meeting",
+      "title": "Committee of the Whole Meeting",
+      "date": "2026-12-09",
+      "time": "9:30 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-09-0930-Committee-of-the-Whole-Meeting",
+        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-09-0930-Committee-of-the-Whole-Meeting"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "civicplus",
+      "curated": false
+    },
+    {
       "id": "caledon-7a4596ef-b1f5-47",
       "municipality": "Town of Caledon",
       "municipalityId": "caledon",
@@ -7447,6 +7607,38 @@
       "topics": {},
       "agendaStatus": "unknown",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "durham-region-2026-12-10-0930-",
+      "municipality": "Region of Durham",
+      "municipalityId": "durham-region",
+      "body": "Special Committee of the Whole Meeting",
+      "title": "Special Committee of the Whole Meeting",
+      "date": "2026-12-10",
+      "time": "9:30 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-10-0930-Special-Committee-of-the-Whole-Meeting",
+        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-10-0930-Special-Committee-of-the-Whole-Meeting"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "civicplus",
       "curated": false
     },
     {
@@ -7928,6 +8120,38 @@
       "topics": {},
       "agendaStatus": "posted",
       "source": "halton",
+      "curated": false
+    },
+    {
+      "id": "durham-region-2026-12-16-0930-",
+      "municipality": "Region of Durham",
+      "municipalityId": "durham-region",
+      "body": "Regional Council Meeting",
+      "title": "Regional Council Meeting",
+      "date": "2026-12-16",
+      "time": "9:30 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-16-0930-Regional-Council-Meeting",
+        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-16-0930-Regional-Council-Meeting"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "civicplus",
       "curated": false
     },
     {
