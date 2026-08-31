@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-sam-oosterhoff-trump-faces-criticism-in-us-canada-after-naming--2026-08-31",
+      "mppNames": [
+        "Sam Oosterhoff"
+      ],
+      "title": "Trump faces criticism in US, Canada after naming Lake Ontario, Lake America - Baltimore Sun",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXlsQW1OQkJyMFBISm5KRWM3NnJtMFFqaE85X2plc1dVeEMyenVPY1RwbThSUEUwWEMtdXJCcHpxeHQ0ZkZLMC1QUi1udDFldndvYzRPZ0FDX0ZSWk1sRjdfMW8xcVdiSmpfQUJDNjVDd2s1VzZ1MTJMTVk5cTNqbU5CY29RSHZ1TnRWaVlwUjE5VFlJNlNJd01STW1LdUFLTnJBcXZET0kwaDh5akVwYUJnbm0?oc=5",
+      "source": "Baltimore Sun",
+      "date": "2026-08-31",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-stan-cho-scott-stinson-ontario-mpp-in-new-spending-contro-2026-07-20",
       "mppNames": [
         "Stan Cho"
@@ -1350,10 +1363,10 @@
       "mppNames": [
         "Stan Cho"
       ],
-      "title": "Conservative Cabinet Minister Stan Cho resigns following hotel expense controversy - CP24",
+      "title": "Conservative Cabinet Minister Stan Cho resigns following hotel expense controversy - cp24.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSEs3OVJVQ2k0MjJ2cEI0aHJFT2d5OE5CZ3RhLVAzbVFPYVQxQ0s5Vmw3Wk5POGozSzJwT3dXandlc2M2MDEtdG96clFQUlRNcVZYaUhobUJBX2lRaFEtOG45RExwTVV2bDdXTW14UHBJXzkzOU8yMHhEeWNKUWRlLXVJZFFiRDdMM1FvMm5pQVdhYThBSGhBR05odFBobFpPbUFkYm15TnZVQkNERUpnQWx2UXFJWlo4dE8zNTh3?oc=5",
-      "source": "CP24",
+      "source": "cp24.com",
       "date": "2026-07-17",
       "type": "expenses",
       "status": "reported"
@@ -1580,21 +1593,6 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeEFPNjg0M3Noa3gteWNUaWZZRHc4QzVjWjBWM0V2bVlRN3BxaURPTzdLV1JfcFl5eGpma0FWTDRYeDhZUzRSS0NrX1hCaEI5SEZQbFkzSVEyZVRyaS1hdnpycWNWNmJOVG5OdFJ6RVZzNFF4R1VCN1F3WVlUY0g3V1I2b01rMkNOckVvUjlVUW1hbXlmbldnR0YyUDNvRkkybTVKMlpSeV9PSXVFMzNicDJTNWcwU1diVzZ3a2dLUQ?oc=5",
       "source": "torontosun.com",
       "date": "2026-07-14",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-ric-bresee-full-disclosure-area-mpps-list-their-travel-and--2026-06-11",
-      "mppNames": [
-        "Ric Bresee",
-        "Tyler Allsopp",
-        "Steve Clark"
-      ],
-      "title": "Full disclosure: Area MPPs list their travel and living expenses for the past year - Kingstonist News",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc192U1dxNmUzQVI0alJBeUd0QW5vUTFRb0kwdzVidmJPeExsQzc2d01tdHVuZDd0T1BfM2owakxpcHBMZ09ZOVd4UXVNYkIzRWlkbWo0elROamVsVW9YSURvMEdoTVgzanQyV1hJcUxCMlRyTTZmVVRUNjdYdWZnNlVRWkFmbmlBYm52dC1lM2dmU1Z3U2pfUEJzc1l6Ui0taTZRLVVLZG94b0hqYWtRUVZVUE1Ndw?oc=5",
-      "source": "Kingstonist News",
-      "date": "2026-06-11",
       "type": "expenses",
       "status": "reported"
     }
