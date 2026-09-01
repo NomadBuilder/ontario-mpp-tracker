@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-dw-news-lake-ontario-is-now-labeled-lake-america-2026-09-01",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "DW News. . Lake Ontario is now labeled \"Lake America\" on Google Maps for users in the United States. The change follows an executive order from President Donald Trump, triggering criticism from Canadian officials, including Ontario Premier Doug Ford. #d - facebook.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd3RCYzZpdDNXNmN6Tjl0ZTRMN0xjUWV0V1QxY1NfZ3FFdWQ5U1Y2cVRsTVNwUkpLWW1fRFlZT19Ob1BXYXlXSFVFMEpnQng5ZlZReV9IMzIxZ1hvNjRQNl90OWRNTlVMejFLSWtySDBLWGRFMWVoV01KSGdXZ05jSGh3UmFmMUdWNjhPRENBS1lqOWlPRFVCeFdLbVp3UTRPSEI2b21hWlZiRk5oVy1fWEJTS3hlamcwbWtkVTdJbjR3enp0U0RiTFFZM2lrMXRpaGJfdGZ3NExtamU1NTk4Y29B?oc=5",
+      "source": "facebook.com",
+      "date": "2026-09-01",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-sam-oosterhoff-trump-faces-criticism-in-us-canada-after-naming--2026-08-31",
       "mppNames": [
@@ -1218,10 +1231,10 @@
       "mppNames": [
         "Doug Ford"
       ],
-      "title": "Doug Ford Warns Ontario Wildfire Evacuees Not to Return Home - Barrie 360",
+      "title": "Doug Ford Warns Ontario Wildfire Evacuees Not to Return Home - barrie360.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVGhUOTVINWFpVjZHc1V0ZTgwdmN6MU1lYUUzbTF2Q1p6QXg1REVqb2x3cWRfbjVuOV9QeDJESzNzUXNYYmc0NXBLdG93VzlTRzQwNlJIVENKZXpPNlpzcU1JUTh5ZUVybXJmRXhyakNvRjgtQU84LUoyOEV1dXhUeVVqaHFGc2NnSjE0?oc=5",
-      "source": "Barrie 360",
+      "source": "barrie360.com",
       "date": "2026-07-18",
       "type": "news",
       "status": "reported"
@@ -1545,14 +1558,14 @@
       "status": "reported"
     },
     {
-      "id": "auto-minister-stan-cho-faces-backlash-over-16k-toront-2026-07-15",
+      "id": "auto-minister-stan-cho-faces-backlash-over-16k-toront-2026-07-14",
       "mppNames": [
         "Stan Cho"
       ],
-      "title": "Minister Stan Cho faces backlash over $16K Toronto hotel bill - CHCH",
+      "title": "Minister Stan Cho faces backlash over $16K Toronto hotel bill - chch.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQUthTmZWbDZ2bVp4bmNLVWtGRW9NTTVMaXFwb18wdTBfWl83RXdWVGljcFlRWEpfaXctUThYcmlnVm9KNWJkN0VZd2xTYTVVWjNhTlVtNm93THdqdEh2YnEwUnpJaXlJb3BpQWNqdTFGbmtTZDJiT3RzeG5hTTZUUURDS0h4Ml9lOE90WGs3VEo4X0o5MGk0?oc=5",
-      "source": "CHCH",
+      "source": "chch.com",
       "date": "2026-07-15",
       "type": "expenses",
       "status": "reported"
@@ -1579,19 +1592,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdkthWmFiaXAtc1JkXzVpRzJLMTQ3cnVGdzNITXl6RXVYQWVMZGNpNFh0Y212NXlYcFU3WXQxV25wa09fSjVvSGY5SEJIYkdpWXdaUnJWdjZrbmNKcTlUTjBGNWR4MzcwSm5DTHBaT0VGdmdFZnNiT2VCQ292YWRsOWZBVXl3bnpXQm5OelF6Zm9zTk5vczNPZERhcnpqVWdlX2hrZUltT2xtcWNvcUJZVkMxMm5kaEdf?oc=5",
       "source": "toronto.citynews.ca",
-      "date": "2026-07-14",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-lilley-six-kilometres-from-home-stan-cho-lives-t-2026-07-14",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "LILLEY: Six kilometres from home, Stan Cho lives the Suite Life in taxpayer-funded hotels - torontosun.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeEFPNjg0M3Noa3gteWNUaWZZRHc4QzVjWjBWM0V2bVlRN3BxaURPTzdLV1JfcFl5eGpma0FWTDRYeDhZUzRSS0NrX1hCaEI5SEZQbFkzSVEyZVRyaS1hdnpycWNWNmJOVG5OdFJ6RVZzNFF4R1VCN1F3WVlUY0g3V1I2b01rMkNOckVvUjlVUW1hbXlmbldnR0YyUDNvRkkybTVKMlpSeV9PSXVFMzNicDJTNWcwU1diVzZ3a2dLUQ?oc=5",
-      "source": "torontosun.com",
       "date": "2026-07-14",
       "type": "expenses",
       "status": "reported"

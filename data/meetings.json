@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -25,7 +25,7 @@
       "name": "City of Brampton",
       "type": "escribe",
       "ok": true,
-      "meetings": 15,
+      "meetings": 14,
       "calendarUrl": "https://pub-brampton.escribemeetings.com",
       "note": ""
     },
@@ -34,7 +34,7 @@
       "name": "City of Hamilton",
       "type": "escribe",
       "ok": true,
-      "meetings": 17,
+      "meetings": 16,
       "calendarUrl": "https://pub-hamilton.escribemeetings.com",
       "note": ""
     },
@@ -274,70 +274,6 @@
     }
   ],
   "items": [
-    {
-      "id": "brampton-19070d07-0b3a-40",
-      "municipality": "City of Brampton",
-      "municipalityId": "brampton",
-      "body": "City Council - Special Meeting",
-      "title": "City Council - Special Meeting",
-      "date": "2026-08-31",
-      "time": "4:30 PM",
-      "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=19070d07-0b3a-404b-a5f6-4fb866317a5a",
-        "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=19070d07-0b3a-404b-a5f6-4fb866317a5a"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "hamilton-b997784e-e59a-48",
-      "municipality": "City of Hamilton",
-      "municipalityId": "hamilton",
-      "body": "Public Works Committee",
-      "title": "Public Works Committee",
-      "date": "2026-08-31",
-      "time": "1:30 PM",
-      "location": "Room 264, 2nd Floor, City Hall (hybrid) (RM)",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=b997784e-e59a-4808-9928-f134e8db6212",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=b997784e-e59a-4808-9928-f134e8db6212"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
     {
       "id": "sault-icbl-2026-08-31",
       "municipality": "City of Sault Ste. Marie",
