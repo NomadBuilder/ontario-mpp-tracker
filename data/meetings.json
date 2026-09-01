@@ -341,38 +341,6 @@
       "curated": false
     },
     {
-      "id": "ottawa-08cfaca3-a4bf-45",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Committee of Adjustment - Panel 3",
-      "title": "Committee of Adjustment - Panel 3",
-      "date": "2026-09-01",
-      "time": "9:00 AM",
-      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=08cfaca3-a4bf-45b1-ad55-8c4dabeaf86a",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=08cfaca3-a4bf-45b1-ad55-8c4dabeaf86a"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "ottawa-f353ac51-93ab-47",
       "municipality": "City of Ottawa",
       "municipalityId": "ottawa",
@@ -394,6 +362,38 @@
       "links": {
         "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=f353ac51-93ab-4755-83ee-982d2878176c",
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=f353ac51-93ab-4755-83ee-982d2878176c"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-08cfaca3-a4bf-45",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Committee of Adjustment - Panel 3",
+      "title": "Committee of Adjustment - Panel 3",
+      "date": "2026-09-01",
+      "time": "9:00 AM",
+      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=08cfaca3-a4bf-45b1-ad55-8c4dabeaf86a",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=08cfaca3-a4bf-45b1-ad55-8c4dabeaf86a"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -469,38 +469,6 @@
       "curated": false
     },
     {
-      "id": "ottawa-7f9c6472-aacb-43",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Planning and Housing Committee",
-      "title": "Planning and Housing Committee",
-      "date": "2026-09-02",
-      "time": "9:30 AM",
-      "location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=7f9c6472-aacb-43f2-b47e-7a4aec7b35ee",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=7f9c6472-aacb-43f2-b47e-7a4aec7b35ee"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "ottawa-4a4b29bf-9779-4c",
       "municipality": "City of Ottawa",
       "municipalityId": "ottawa",
@@ -529,6 +497,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-7f9c6472-aacb-43",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Planning and Housing Committee",
+      "title": "Planning and Housing Committee",
+      "date": "2026-09-02",
+      "time": "9:30 AM",
+      "location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=7f9c6472-aacb-43f2-b47e-7a4aec7b35ee",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=7f9c6472-aacb-43f2-b47e-7a4aec7b35ee"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -8365,7 +8365,8 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
+        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
       },
       "keywordsMatched": [
         "data centre",
