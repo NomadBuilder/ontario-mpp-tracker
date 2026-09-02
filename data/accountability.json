@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -1240,14 +1240,14 @@
       "status": "reported"
     },
     {
-      "id": "auto-doug-ford-warns-ontario-wildfire-evacuees-not-to-2026-07-18",
+      "id": "auto-premier-doug-ford-warns-wildfire-evacuees-to-not-2026-07-18",
       "mppNames": [
         "Doug Ford"
       ],
-      "title": "Doug Ford Warns Ontario Wildfire Evacuees Not to Return Home - barrie360.com",
+      "title": "Premier Doug Ford warns wildfire evacuees to not return to their homes - CityNews Toronto",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVGhUOTVINWFpVjZHc1V0ZTgwdmN6MU1lYUUzbTF2Q1p6QXg1REVqb2x3cWRfbjVuOV9QeDJESzNzUXNYYmc0NXBLdG93VzlTRzQwNlJIVENKZXpPNlpzcU1JUTh5ZUVybXJmRXhyakNvRjgtQU84LUoyOEV1dXhUeVVqaHFGc2NnSjE0?oc=5",
-      "source": "barrie360.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU0o0LTlLbzc3ZGNvdTBEbllhWGFpalNWNS1TZ2VDcVhpNnI2T1FBWWxTUnBvX2dwMmVNRF84VFEzWUh1NEh4dWZRb3RrQ01YQjVRakgyUTA0VDBkbDhXX1BIRWs4MDg2OGlhbEdsaHc0eF94bFJEUjFFeHpoSjJqZVZKaXVIY1VkMFJpSXhZVGUtbGdtbGdDTXhqS0F1UV9IUTJ6MEczUEQxNVY5TTdMV1A5NklrZVVPYzNySGxn?oc=5",
+      "source": "CityNews Toronto",
       "date": "2026-07-18",
       "type": "news",
       "status": "reported"
@@ -1274,6 +1274,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTWMtMElNMkxTMC0zSWI4UnE3RXhpQjRvZFVjelAwYUxGM21yTEFyc3FFZWxja08ycmFMYWVIUkZuaWd1Q3pxTmYtNlBVUWFoa08wU3c0TUd4blFHUTJKVTZRQlY0emYydm1fWGZtWVlqMkphZ2pyUktVWkRHSzFPQjhScw?oc=5",
       "source": "globalnews.ca",
+      "date": "2026-07-18",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-mike-harris-minister-of-natural-resources-defends-province-s-2026-07-18",
+      "mppNames": [
+        "Mike Harris"
+      ],
+      "title": "Minister of Natural Resources defends province’s response to wildfires - Thunder Bay News - TBNewsWatch.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONVhVM3dxYVpXNHFvYjd1VFFxX19QVldaaGI3RE9mb3ZwYV9IVnltWWpKUzM3ZTRSZ0I4M3NLZ0Nzcl9MZkNrWEstdWZsWi0xbVd3VTdzdnl6UnRQTmwtRW5FdVQyaUtlcTloMUtCVUlpQkhrYXo4ejA2WXJoblJNWkpaY0I3Wm1SU01hZmhoMXJoRkgxbEt0MVRneFF1TnhSZzBzb25IeGxMMk1Gd1NaVC00d3JkMjBW?oc=5",
+      "source": "Thunder Bay News - TBNewsWatch.com",
       "date": "2026-07-18",
       "type": "news",
       "status": "reported"
@@ -1428,10 +1441,10 @@
       "mppNames": [
         "Marit Stiles"
       ],
-      "title": "‘I want to see the receipts’: Marit Stiles on MPP’s controversial hotel expenses - CTV News",
+      "title": "‘I want to see the receipts’: Marit Stiles on MPP’s controversial hotel expenses - ctvnews.ca",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOC1ZYWlvNzhqMkJrYUVUNG1SRG13aURyQzlIVHdNNDd2aTltcEEzWXlPV2t1NHFVVHNUdjlXcDlTWWhhdVlUVTdNNVVNOXNxMWgzems4R1NmUHNqSXVVWTJNUFJPZ3NaOEVtTXRNdUR0OV92eE1NbWIwX1FWdnlRbHE3UUdjd0lZUllJZmFYSmxJcWdsbDZlLWkyOW1JdUhqRHN3Z2hQU3hFMWx2SlNtWmxfampiQzJuZlZySnFJaXRzME0?oc=5",
-      "source": "CTV News",
+      "source": "ctvnews.ca",
       "date": "2026-07-17",
       "type": "expenses",
       "status": "reported"
@@ -1579,19 +1592,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQODBmZTFDNUVmY3V1VF81ZG9qVE42eWg1UzhtN1o1blRNdHZtZ2tOWFNLTWszS3FjWFhlRGQwUDZOaE9waTJCR05PZm8wSnE1MVR3NkJCdk1tWExYa201aWp4bl80TjUydVlTR2JtcGN0djVtVXFBUE9WMHdDako0bUZn?oc=5",
       "source": "cbc.ca",
-      "date": "2026-07-15",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-minister-stan-cho-faces-backlash-over-16k-toront-2026-07-14",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "Minister Stan Cho faces backlash over $16K Toronto hotel bill - chch.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQUthTmZWbDZ2bVp4bmNLVWtGRW9NTTVMaXFwb18wdTBfWl83RXdWVGljcFlRWEpfaXctUThYcmlnVm9KNWJkN0VZd2xTYTVVWjNhTlVtNm93THdqdEh2YnEwUnpJaXlJb3BpQWNqdTFGbmtTZDJiT3RzeG5hTTZUUURDS0h4Ml9lOE90WGs3VEo4X0o5MGk0?oc=5",
-      "source": "chch.com",
       "date": "2026-07-15",
       "type": "expenses",
       "status": "reported"
