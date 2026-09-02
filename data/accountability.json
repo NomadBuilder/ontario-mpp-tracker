@@ -3,6 +3,32 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-former-top-adviser-to-ontario-premier-doug-ford--2026-09-02",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Former top adviser to Ontario Premier Doug Ford takes on lobbying roles - Investigative Journalism Foundation",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYTRLNVlxdFNxSnlIWlo1MnBjeXJRQ1NrOWpfVVZNZXMzYkFZWnp4cEctU1FmWU80Umh4c3drOXI1bnp0eFZDc0lfRVFyWkNWT1d6cmw2elJiczFwN093WkJJVGpxZlU4RF9RaHJ5RG9nT0QwREhpMWUzdkd2TzM2QUpaRW0tRGhORzRXNUdhZ284TF9FbjctSVpieGI?oc=5",
+      "source": "Investigative Journalism Foundation",
+      "date": "2026-09-02",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-apple-changes-lake-ontario-name-to-lake-america--2026-09-02",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Apple changes Lake Ontario name to 'Lake America' for US users of its Maps, following Trump's order - Houston Chronicle",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNWpKODEzSXp5UWs1YTcweUpIeVd2UlExZDJKMlBLcU5UR0JYYVhRU0VENVdYZWEwNHJCTmJya1BwcElENDBfS21ZUTR5SGJweXZnVEp1NnNwRlJkOXFiYjhPMmVOR1dLZlFVMU8xYzRRV2EwV0J6bXdTT2pCcWFmbEtqWlB0dUNlTWxFWXRJMjh6Mm5mNy0xX1FDWDE0TmVVd01FYnk5b1hsX0ZzMVMw?oc=5",
+      "source": "Houston Chronicle",
+      "date": "2026-09-02",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-dw-news-lake-ontario-is-now-labeled-lake-america-2026-09-01",
       "mppNames": [
         "Doug Ford"
@@ -13,6 +39,19 @@
       "source": "facebook.com",
       "date": "2026-09-01",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-hardeep-singh-grewal-how-much-have-brampton-s-5-mpps-expensed-ontario-2026-09-01",
+      "mppNames": [
+        "Hardeep Singh Grewal"
+      ],
+      "title": "How much have Brampton’s 5 MPPs expensed Ontario taxpayers since March 2025? - Brampton Guardian",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNkVRQ0lSWVpKeFlrR3ZITlNLRkxKbGdTOG4wOGtsSTZvYnV1VE4xQlBMbno0SEkwWGRWWGx5OFNPLVdIazhKcHZGYmtOOVRWVWRNSV9UVnk1U1V0bU9pUno4OUY1Y1h3WFRNOTVNRng5cXdMUFgtLXd3bFJKLXFyejRWTnk3aUJYa09kX003anRsQUVxTi1pRjYwdUpqeXB4ZUZ1cHZhOFJOQVpUMVc0SlRpbTBTXzZSaWRsMk1SUkd2S0xE?oc=5",
+      "source": "Brampton Guardian",
+      "date": "2026-09-01",
+      "type": "expenses",
       "status": "reported"
     },
     {
@@ -549,6 +588,19 @@
       "title": "Markham–Stouffville PC MPP Paul Calandra billed taxpayers for 11 Toronto hotel stays - rebelnews.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ0ZHS2s2Tl9UTEgtLXE1TkdTMGtMVlc2MGliWlFaM0NfbGJuVUlmNXRxRjhtOFBXeEc3M1NjUWVRNkkzdjFxc1hBbHh6cFpjeVpBQ2tiYWtidEtqQzk4MGVTWmdLMzZkN2JXaGYxLU9NRk5rMU83QWRPRnA5UjJKR29xcGFlaEdFZkpYVnl6QjBWalhQYW5vOU0yclViUUN5SVU3SVFPVTN3MFo3X1dR?oc=5",
+      "source": "rebelnews.com",
+      "date": "2026-07-29",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-oakville-pc-mpp-stephen-crawford-billed-taxpayer-2026-07-29",
+      "mppNames": [
+        "Stephen Crawford"
+      ],
+      "title": "Oakville PC MPP Stephen Crawford billed taxpayers more than $6,500 for Toronto hotels - rebelnews.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX2RlVHViSmJ5VXotT2tPVk84bkhkbnhFbndCOHdUc3FWa2NaYlpSb3lHZkhhV01nWVlCTWlTZHhPVTNuZUY5a204VkxoMXd3clA1UXd2U0YxVjc0VG55WW9qc3FEVF9NRWhWemRZdmRmajRWaV9WWVZ5aXpGREZQUWdlVzZpWUV6MTJJeHZQUzQ2WkRZX3NVdFp3TjFrVHY4Umwyc1hJVFVBSTZNcW9r?oc=5",
       "source": "rebelnews.com",
       "date": "2026-07-29",
       "type": "expenses",
@@ -1188,10 +1240,10 @@
       "mppNames": [
         "David Smith"
       ],
-      "title": "Public records undermine former minister’s ‘late nights’ justification for hotel expenses - The Trillium",
+      "title": "Public records undermine former minister’s ‘late nights’ justification for hotel expenses - thetrillium.ca",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdFpOZXhUZi0zbmFZeXFLTG9uMTM1bm5XSWpmQXhGSjlLVFN3b21QWXc2VXdyS25kRDNaNXNlZlpvR2ludEVHNTBfM1BXaWhiSzNFcmxHYXVlZDFhM0RtMEd0T3dNaXBhMkxZa1dhVFd0bENGQzZvLTJ6RU1WeVZqZmJkTVlwV2l6ajczNUlUaDROOW4tY2MwbjF3aE1zR0xmQ0tmN2hXSzBQZnhvQ0VfYlo2LVV6dlUzUkVkU2JUa3pWM0k3VlRnczlwaVZuVDNkMVE?oc=5",
-      "source": "The Trillium",
+      "source": "thetrillium.ca",
       "date": "2026-07-20",
       "type": "expenses",
       "status": "reported"
@@ -1537,62 +1589,6 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUHEwdkRpenozTXBxQlFUNXFadjRjOW1CMXc4TUJoLTM2Mk5NU0FhNWtid2JVTGw1SjJRTlYwR2RMNXFMRGZhZURiX2hTRy1jMm5sMHhmSVUxY19fYzh4TTZLWl90SFFLVFRDSGFmcDNLVkxjWU5DWEJNZmpnMDBZMVlZRGJKZXJpQ2xrSVJwMUtKRjNXWmtad1c4bmM4cWFEcUg1MWlmS3psSWxTTklBMXNfb2JVeXRpaTlmWlFRVUNpZjJ1U2tDXw?oc=5",
       "source": "Canada's National Observer",
       "date": "2026-07-16",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-mohamed-firin-stan-cho-s-16k-hotel-tab-is-just-the-tip-of-the--2026-07-15",
-      "mppNames": [
-        "Mohamed Firin",
-        "Stan Cho",
-        "Deepak Anand"
-      ],
-      "title": "Stan Cho's $16k hotel tab is just the tip of the iceberg - Queen's Park Observer",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtVGkyZEgzdEs1OThHM0h1aXJ0SUt2TVFLTWlzMlBNNmlBMVNoeC1XczQ3dDBiV0hjc09kTl9zX3lnRExJWnZfYXdxSWJBeWZLMVU4YzU5djlEdXhxczRQc3hFZTRjQnZBY0NmRDFhcG0?oc=5",
-      "source": "Queen's Park Observer",
-      "date": "2026-07-15",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-stan-cho-scott-stinson-ontario-minister-who-lives-in-toro-2026-07-15",
-      "mppNames": [
-        "Stan Cho",
-        "Mohamed Firin"
-      ],
-      "title": "Scott Stinson: Ontario minister who lives in Toronto billed $16,000 for Toronto hotels - National Post",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoNUpWQ2syWWRwQldDZmZRc1JCbU5EaUF0MzNmY01CRlZKb0lfMlR5TTFPYXdKT1BuMlNscDBVdnZCSkRjUG9OUGJFUGFFSWNrVkFzRkFtUm9BTWJraDV1bms0RVo1dWk4b1RKeXN4cEwzdw?oc=5",
-      "source": "National Post",
-      "date": "2026-07-15",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-nina-tangri-progressive-conservative-mpps-living-in-peel-reg-2026-07-15",
-      "mppNames": [
-        "Nina Tangri",
-        "Hardeep Singh Grewal"
-      ],
-      "title": "Progressive Conservative MPPs living in Peel Region bill thousands for hotels in Toronto - globalnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVWFRa3dDQ2dYMUQ4WHlKMzQ4OEh0cjhXMWhNdnFNZE9CTHpDNUFpVUJaTTVfQlE5S3RwdXNTOE1IZzR3eng1Q1ZGeVFVczlZZWxRREhrTXJpeGVwdVdWY2pNM3hKZDVRM3hpbmJKbFFvQXA4bHR4REFReG8zWXVWMw?oc=5",
-      "source": "globalnews.ca",
-      "date": "2026-07-15",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-nina-tangri-ford-government-looks-to-axe-rule-that-allowed-t-2026-07-15",
-      "mppNames": [
-        "Nina Tangri"
-      ],
-      "title": "Ford government looks to axe rule that allowed Toronto MPPs expense hotel stays in city - cbc.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQODBmZTFDNUVmY3V1VF81ZG9qVE42eWg1UzhtN1o1blRNdHZtZ2tOWFNLTWszS3FjWFhlRGQwUDZOaE9waTJCR05PZm8wSnE1MVR3NkJCdk1tWExYa201aWp4bl80TjUydVlTR2JtcGN0djVtVXFBUE9WMHdDako0bUZn?oc=5",
-      "source": "cbc.ca",
-      "date": "2026-07-15",
       "type": "expenses",
       "status": "reported"
     }
