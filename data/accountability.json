@@ -3,6 +3,35 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-david-piccini-doug-ford-shuffles-labour-minister-under-ethics--2026-09-10",
+      "mppNames": [
+        "David Piccini",
+        "Kinga Surma",
+        "Doug Ford"
+      ],
+      "title": "Doug Ford shuffles labour minister under ethics investigation in cabinet shakeup - The Trillium",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNam93c0VfbnZURTZJR2ZTeHBucGdsMklaRkMzaXRsc3pMS3h0OFhJSjItbXZoOFZLM3hQd2dIc2ZhMWgxdG85OUpYTUdYaFdFdkdWdFNqS1QwQy1sQmc0aWdySkVJLXJPdE9ELThrVU4xbmV0RTFfVnNHMW9qSXFRdjBUWENSazNlcHJ3dmZ0UWlXSnN6VHJ4Sl9EVWFuWTdHWFF0aktSbVlGcGgtNWY0SGlrV3FGRDNNd1BMSmtJeTFOclpXRmhPdE1n?oc=5",
+      "source": "The Trillium",
+      "date": "2026-09-10",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-doug-ford-announces-cabinet-shuffle-david-piccin-2026-09-10",
+      "mppNames": [
+        "Doug Ford",
+        "David Piccini"
+      ],
+      "title": "Doug Ford announces cabinet shuffle, David Piccini moved into new portfolio amid ethics probe - CTV News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDA5LTIxaHVXSW5CWmo5M0FvWTJDYXYxVnU1TGpYdUNtbzRvQU50ZHVXYWE2czQ0ZEhMeE9ha294Smxwc2tYb1k1TGtBTWRsbzZpcjNfajRva2lvb3VRYl81S2xEMERGQW93cjJjOHNzTDdLQUgySUZFaFFtRUVBRTh2SXBFTVJvMnZuVXhqZjFpYVhpRGdvU3BWY2FmYUJhd3o4UkJndXJmXzdpRkZnOQ?oc=5",
+      "source": "CTV News",
+      "date": "2026-09-10",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-former-top-adviser-to-ontario-premier-doug-ford--2026-09-02",
       "mppNames": [
         "Doug Ford"
@@ -205,10 +234,10 @@
       "mppNames": [
         "Deepak Anand"
       ],
-      "title": "‘They have no respect for you’: Peel MPPs at the centre of PC expense scandal remain silent - The Pointer",
+      "title": "‘They have no respect for you’: Peel MPPs at the centre of PC expense scandal remain silent - thepointer.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVEkxM09EUjVXZV9Yd2pnVXpDa21WQ2tUcF9QYkFEVnJ2Y2NoRmRsNVBMQVFSZ3BraklXc3JWWDJ3ZXRTNjFVeUN3TUFyYzczTl83WmVjT2FObC04bEJfNjV0WWlESDRQRHhwWjhlLWFpT0piRWxJd25jQkcwSzZQdnE5d3N1c0hqM21NUkZ2Qk00bFMzTzZfcnJyNk9nZC1Nc2NYcktDZnlETXVsTG84TkcyR1owRGU2alBkQW5taVFyMndvMHZCZ2lB?oc=5",
-      "source": "The Pointer",
+      "source": "thepointer.com",
       "date": "2026-08-14",
       "type": "expenses",
       "status": "reported"
@@ -236,6 +265,20 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON3dtQzVSbV9EdVR0VGRWdnZRVXVfcVY0ZXJNY1pGT3BHbkMtZmNNRnZrejI0T2dESjRaR3dYUjNyQVZHVlVva1dwQmNxNVVENmZYUExXUDdqUElSYTBqWHFncTJPTmY3aUdlMmltSVhKaXJNeUhaM3NOMERZMXFvaGQ4a1I5UDVRb0dJLTNITHpna2laYlV4SnZTTE8tNGhlU1FB?oc=5",
       "source": "globalnews.ca",
       "date": "2026-08-13",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-mike-harris-ontario-ministers-provide-wildfire-update-july-3-2026-07-30",
+      "mppNames": [
+        "Mike Harris",
+        "Greg Rickford"
+      ],
+      "title": "Ontario Ministers Provide Wildfire Update – July 30, 2026 - CPAC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSF8zN0VQc3FkWER6anR3M1daekdSdWVPRmZrQzJHOXNnS2ZPTElmR19pU2htWVhzcjFhcGdMZjBfU09WTE9kRy1PZnpyUWs2eVIxTzJaWkFFNzk3aXJUU1RaRDJ4RGUwUmN3NGJSUko5SFBUeHJESWl2UnVnUmROMWtCaEVFdDBzeGZZa0FkSWhBUldMZmR3X002Z0lFUmFReDhEUFdtUUh0VTNtRHlOVl9JQjBjZGpnRDk2bVBHSUF2amhBRXl6RzQwWGhUU09fYXR5RGQ2TWI?oc=5",
+      "source": "CPAC",
+      "date": "2026-08-11",
       "type": "news",
       "status": "reported"
     },
@@ -420,20 +463,6 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcFlrNl9ZY2FsQTdhejdxc0RuX0FLLWFSVWZDeUFoRkc4YTJMNWZvNllZdGlCVjNjWFZNbGtDdWhNcmo5WV91OHRTbHI3bVJQcmVoeFR3VUxmbTFIUzFnV09RVllqWXJiQmUzZXlsUGNhQzRCZWtFUkJmaTdDVEpSVy1TQXZjTUg5YkxlZldLQThKeXZOY0hVWWFWVjJ1cVFZc0VTMWNhaTUxWVlTM1diNlI5MHVkZ05mMVZMbWJkNVFBa3RtcGNxLXNB?oc=5",
       "source": "TorontoToday.ca",
       "date": "2026-07-31",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-mike-harris-ontario-ministers-provide-wildfire-update-july-3-2026-07-30",
-      "mppNames": [
-        "Mike Harris",
-        "Greg Rickford"
-      ],
-      "title": "Ontario Ministers Provide Wildfire Update – July 30, 2026 - CPAC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSF8zN0VQc3FkWER6anR3M1daekdSdWVPRmZrQzJHOXNnS2ZPTElmR19pU2htWVhzcjFhcGdMZjBfU09WTE9kRy1PZnpyUWs2eVIxTzJaWkFFNzk3aXJUU1RaRDJ4RGUwUmN3NGJSUko5SFBUeHJESWl2UnVnUmROMWtCaEVFdDBzeGZZa0FkSWhBUldMZmR3X002Z0lFUmFReDhEUFdtUUh0VTNtRHlOVl9JQjBjZGpnRDk2bVBHSUF2amhBRXl6RzQwWGhUU09fYXR5RGQ2TWI?oc=5",
-      "source": "CPAC",
-      "date": "2026-07-30",
       "type": "news",
       "status": "reported"
     },
@@ -1562,32 +1591,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSGN2T2hmejdvUDN4VHpReTl1SG5DTkdSTm9sTnczQ19xbTVDQVR4WWFoYmIwRTlvTUoxdk92eUpUVU91aExYMEtVUVBGaWRVVW9QQzdRblI0dDBjaC1lM3UwRUlaX1RPU3dqRmVDUjJkNDZwcVZielFjU2JSTTdWQTk4ZXFnc1NaSmx3MFN6UEdiV0JtbVRQR0VVaTh1UlNqYkFoOFVuVQ?oc=5",
       "source": "netnewsledger.com",
-      "date": "2026-07-16",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-nina-tangri-unacceptable-ford-says-about-some-toronto-area-m-2026-07-16",
-      "mppNames": [
-        "Nina Tangri"
-      ],
-      "title": "'Unacceptable': Ford says about some Toronto-area ministers billing for hotel stays in the city - CityNews Toronto",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcllmZlF2WjVvXzBrNS00MTRudkw3eGFnTHh4c0VmbUZXb2lPelVKZzdWT2I3ZVo3OGdJZ3NyMjN1M25tNjYzVWEwbGQwcjd2QlRoQlFiY0NBV1FBNng1elFQeThlSjh4bEN3eVd1aWZFMG1RZVBqUXF1TmU0YV9CVQ?oc=5",
-      "source": "CityNews Toronto",
-      "date": "2026-07-16",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-ontario-premier-doug-ford-insists-all-financial--2026-07-16",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Ontario Premier Doug Ford insists all financial, crew resources being used for wildfires - toronto.citynews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYVNKYmJWYk9LVlA5dk9adEo0djJCeW1IalB6eFVoNWtxeUloRDhOSWRFRnZDVWxEQXRSeEFjZkxPMVNfaFFwc2RxbWg4SDRzS0UzaFBtejlUaTU3aWJIWjRqNDRkLXFoVlFQOUJCZ2ZwZ3QzTFRuTFdkcTdvQW1oSTFKYWxDalcwNmE2X0MzT2pHVkls?oc=5",
-      "source": "toronto.citynews.ca",
       "date": "2026-07-16",
       "type": "news",
       "status": "reported"
