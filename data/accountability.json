@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-10",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -24,6 +24,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNWpKODEzSXp5UWs1YTcweUpIeVd2UlExZDJKMlBLcU5UR0JYYVhRU0VENVdYZWEwNHJCTmJya1BwcElENDBfS21ZUTR5SGJweXZnVEp1NnNwRlJkOXFiYjhPMmVOR1dLZlFVMU8xYzRRV2EwV0J6bXdTT2pCcWFmbEtqWlB0dUNlTWxFWXRJMjh6Mm5mNy0xX1FDWDE0TmVVd01FYnk5b1hsX0ZzMVMw?oc=5",
       "source": "Houston Chronicle",
+      "date": "2026-09-02",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-ontario-taxpayers-paid-25k-for-doug-ford-s-new-l-2026-09-02",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ontario taxpayers paid $25K for Doug Ford’s new Lake Ontario sign - NOW Toronto",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNd1RmQ1piUDhjLXBoNXItVFdHOXRiWTZka1YyUzhRWlViam8zSGZMdXpSNDhYYi1JX0Z1S2gyMDBmaEpjN0NPdW1mOFZ6OUwtUm9VcEQyWk9IZk41bm03WkFGcXd5ZkhaakswdElkVm1RTEFRTElicmUzUjh1UUlOVQ?oc=5",
+      "source": "NOW Toronto",
       "date": "2026-09-02",
       "type": "news",
       "status": "reported"
@@ -184,6 +197,19 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNHg0R1pHSUdTMWZKNHRCZFRpTkNURkwwMVA0TFRkSWg1MFRUUzM5NEZpRDRNV0VQbmZNT1R6M21mZjB2N1hvY2NtOEpXRGlCN2FFeHBNeFdZdUd5REFrRUNNRVNSd2h5X2JWWEdINWdmbTdrVFRRSEI5Z0dONmNxeTV1ajcwSzFhcEUzMy05Z2pwUklrRVVjTzF4TmU0dWp3RWFqZ2dUSnR6anlFaWZOeTNXdUtLenk1bm5tYjV4aURYSnpLR1lRWllmenJkNTNlRVE3SQ?oc=5",
       "source": "Toronto Star",
       "date": "2026-08-16",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-deepak-anand-they-have-no-respect-for-you-peel-mpps-at-the-ce-2026-08-14",
+      "mppNames": [
+        "Deepak Anand"
+      ],
+      "title": "‘They have no respect for you’: Peel MPPs at the centre of PC expense scandal remain silent - The Pointer",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVEkxM09EUjVXZV9Yd2pnVXpDa21WQ2tUcF9QYkFEVnJ2Y2NoRmRsNVBMQVFSZ3BraklXc3JWWDJ3ZXRTNjFVeUN3TUFyYzczTl83WmVjT2FObC04bEJfNjV0WWlESDRQRHhwWjhlLWFpT0piRWxJd25jQkcwSzZQdnE5d3N1c0hqM21NUkZ2Qk00bFMzTzZfcnJyNk9nZC1Nc2NYcktDZnlETXVsTG84TkcyR1owRGU2alBkQW5taVFyMndvMHZCZ2lB?oc=5",
+      "source": "The Pointer",
+      "date": "2026-08-14",
       "type": "expenses",
       "status": "reported"
     },
@@ -1564,32 +1590,6 @@
       "source": "toronto.citynews.ca",
       "date": "2026-07-16",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-jill-dunlop-simcoe-north-s-mpp-jill-dunlop-requests-federal--2026-07-16",
-      "mppNames": [
-        "Jill Dunlop"
-      ],
-      "title": "Simcoe North's MPP Jill Dunlop requests federal support in addressing the wildfires - ctvnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTklqV0V5TC1yMDRMY0VoTFd3NkE3M2NHb2htTnpacDV3RnpXb3BWZDNCaHZLUWVwZGpRa2lxcURraUFYeEM0VmhxYlBqcWtySTQ5NzhTZlFndXBaT3o0RC04dmdYZWUybjdkWTRwRUVnOFRGVWhQbTZXRFUzbUxIX3hWN3VIU0stQlphUUt1ak5aV3VsN3ZUSEE4NEw5Y2o1bl9TUW8wQV9hVDZqYXZ2VDduck5lQjljdUUzWDBHZ2ppN0JNUjNPRzVB?oc=5",
-      "source": "ctvnews.ca",
-      "date": "2026-07-16",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-stephanie-bowman-mpps-billing-taxpayers-for-toronto-hotels-should-2026-07-16",
-      "mppNames": [
-        "Stephanie Bowman"
-      ],
-      "title": "MPPs billing taxpayers for Toronto hotels should be held accountable, opposition says - Canada's National Observer",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUHEwdkRpenozTXBxQlFUNXFadjRjOW1CMXc4TUJoLTM2Mk5NU0FhNWtid2JVTGw1SjJRTlYwR2RMNXFMRGZhZURiX2hTRy1jMm5sMHhmSVUxY19fYzh4TTZLWl90SFFLVFRDSGFmcDNLVkxjWU5DWEJNZmpnMDBZMVlZRGJKZXJpQ2xrSVJwMUtKRjNXWmtad1c4bmM4cWFEcUg1MWlmS3psSWxTTklBMXNfb2JVeXRpaTlmWlFRVUNpZjJ1U2tDXw?oc=5",
-      "source": "Canada's National Observer",
-      "date": "2026-07-16",
-      "type": "expenses",
       "status": "reported"
     }
   ]
