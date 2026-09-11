@@ -1,7 +1,36 @@
 {
-  "asOf": "2026-09-10",
+  "asOf": "2026-09-11",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-ontario-taxpayers-paid-25k-for-doug-ford-s-new-l-2026-09-02",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ontario taxpayers paid $25K for Doug Ford’s new Lake Ontario sign - NOW Toronto",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNd1RmQ1piUDhjLXBoNXItVFdHOXRiWTZka1YyUzhRWlViam8zSGZMdXpSNDhYYi1JX0Z1S2gyMDBmaEpjN0NPdW1mOFZ6OUwtUm9VcEQyWk9IZk41bm03WkFGcXd5ZkhaakswdElkVm1RTEFRTElicmUzUjh1UUlOVQ?oc=5",
+      "source": "NOW Toronto",
+      "date": "2026-09-11",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-overhauls-cabinet-following-multiple-r-2026-09-10",
+      "mppNames": [
+        "Doug Ford",
+        "Michelle Cooper",
+        "David Piccini",
+        "Kinga Surma"
+      ],
+      "title": "Doug Ford overhauls cabinet following multiple resignations. Here is the full list - CP24",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZlNod1ZnSFo3d0xnT3d1WVZKYU1NQlBPQ1RJbnQxbG9XRV9KQWw2cVVhLV90Y0lsZEM2anVTc1hONmNWSUhILXhCVHlRN3VnMl91d1lKRG5ETXZuUDNNLTFNMkFySDlTNzA5YW43MkV2cHJfUEZnTWg3bUFweEI2MWFyUU1yR29aNmJEWkVlMS1wZW9sc2hHSkF3WnNMQnpVbDVhUVB3aw?oc=5",
+      "source": "CP24",
+      "date": "2026-09-10",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-david-piccini-doug-ford-shuffles-labour-minister-under-ethics--2026-09-10",
       "mppNames": [
@@ -32,6 +61,33 @@
       "status": "reported"
     },
     {
+      "id": "auto-doug-downey-ford-shuffles-labour-minister-under-ethics-probe-2026-09-10",
+      "mppNames": [
+        "Doug Downey",
+        "Trevor Jones"
+      ],
+      "title": "Ford shuffles labour minister under ethics probe in cabinet shakeup - Barrie News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOWQ1SlBJcGM2N0x4bUNIQTlIdGs2bEkza2NBaEl3bE1salBPTDBxLWRvR19XWkQ5bUdOT1l2b3hnZXJCMElLdjZkT0ZGeTVEd1dWSEJXVUFtMFNtWlBXSkpmOXJuTlh1bXFDR3lNZ1BOVjRsWjdJZ0tiRFpiUWZZcE8wVHFDU3g5a0h2cWI0cXZuOW05OTZSVUxfXzVjVDRiMTRLV0Q3Q1E1M1FBejBoNnRUUXgwZw?oc=5",
+      "source": "Barrie News",
+      "date": "2026-09-10",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-david-piccini-amid-an-ongoing-ethics-investigation-david-picci-2026-09-10",
+      "mppNames": [
+        "David Piccini"
+      ],
+      "title": "Amid an ongoing ethics investigation, David Piccini is no longer Ontario’s labour minister - Toronto Life",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRnR0UHZZbHFYMDkxTl9GLTBORWJIV05udWhlZlEzNWg1YTc1WE9lRWsyakdZM1VuU1BrdUV5am5MQWpkTnM1aFdXcWpHMTl4SU9Id1U3SkZqa0YyQk5IWjdpZVpQNWpDOHRZdGFmajUtT2hfM194MTVNTFhTLUdHeVJ2Qi05YWxUQmhNWWJwc2VEaXMyUkJmRzBERnJoMzVRbk85U24wcXpaeUlNMjNPT2tNTjVPd1RQZVE?oc=5",
+      "source": "Toronto Life",
+      "date": "2026-09-10",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-former-top-adviser-to-ontario-premier-doug-ford--2026-09-02",
       "mppNames": [
         "Doug Ford"
@@ -53,19 +109,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNWpKODEzSXp5UWs1YTcweUpIeVd2UlExZDJKMlBLcU5UR0JYYVhRU0VENVdYZWEwNHJCTmJya1BwcElENDBfS21ZUTR5SGJweXZnVEp1NnNwRlJkOXFiYjhPMmVOR1dLZlFVMU8xYzRRV2EwV0J6bXdTT2pCcWFmbEtqWlB0dUNlTWxFWXRJMjh6Mm5mNy0xX1FDWDE0TmVVd01FYnk5b1hsX0ZzMVMw?oc=5",
       "source": "Houston Chronicle",
-      "date": "2026-09-02",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-ontario-taxpayers-paid-25k-for-doug-ford-s-new-l-2026-09-02",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Ontario taxpayers paid $25K for Doug Ford’s new Lake Ontario sign - NOW Toronto",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNd1RmQ1piUDhjLXBoNXItVFdHOXRiWTZka1YyUzhRWlViam8zSGZMdXpSNDhYYi1JX0Z1S2gyMDBmaEpjN0NPdW1mOFZ6OUwtUm9VcEQyWk9IZk41bm03WkFGcXd5ZkhaakswdElkVm1RTEFRTElicmUzUjh1UUlOVQ?oc=5",
-      "source": "NOW Toronto",
       "date": "2026-09-02",
       "type": "news",
       "status": "reported"
@@ -1554,45 +1597,6 @@
       "source": "ctvnews.ca",
       "date": "2026-07-17",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-blasts-his-own-tory-ministers-and-mpps-2026-07-16",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Doug Ford blasts his own Tory ministers and MPPs for ‘totally unacceptable’ expensing of Toronto hotel rooms - Toronto Star",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOS3ZURXlJOTY1NEMtS2steVBleWcxUldxYWpSS0lmT2dsa05YMnh6WFVZSVJwOV9DYTJXMGx0UkNzNDZnX2RJYWFWQWlTYzhXZDFmOWNSQ25acTE4bHpUeXVtbjM1OTliT3I0a0c2OVpZRS1VN2x1Umhmdi1XSnVzckY5NTYzekQxeXFOUjFlUVk2OXlJRXJJeGp4cE1WYnVyYl9KQUs2dTQtSF9wd2cwZVFmekU2NVdSaU1nUlhXbHl0VUVmbEJmQlEzYWFLaU1oM1BaamwxMFJxbFljMkNYc19hRFFIUmF2elUxLUNHaExYUmZXYlNuSGktaHhleEh1dXE0bnBPRjNQbGpjSW51Wmo1a1FQNDY5ODBLYnhiSjg?oc=5",
-      "source": "Toronto Star",
-      "date": "2026-07-16",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-vows-to-spare-no-expense-in-ontario-wi-2026-07-16",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Doug Ford vows to spare no expense in Ontario wildfire fight - London Free Press",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU29WVGFycktCTE1ibUJTOHpSeHZoM1dWaklrOVNFUG9XR3dySXVnUWk3RGVMQlBIckQ0YkVubWQ0U21MWk9uTF9ZMVhUbWNLRFprOU9LZlFjQnhRbEdrX0E2dV9Gb2pTM2pkTG1xdkVCakFrVjJySVJxMDI1U1hGN0FTMEtlTFhxT2cyMWpGTUo2NkRIdkg1UFZB?oc=5",
-      "source": "London Free Press",
-      "date": "2026-07-16",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-greg-rickford-statement-on-northern-ontario-wildfires-minister-2026-07-16",
-      "mppNames": [
-        "Greg Rickford"
-      ],
-      "title": "Statement on Northern Ontario Wildfires: Minister Greg Rickford - netnewsledger.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSGN2T2hmejdvUDN4VHpReTl1SG5DTkdSTm9sTnczQ19xbTVDQVR4WWFoYmIwRTlvTUoxdk92eUpUVU91aExYMEtVUVBGaWRVVW9QQzdRblI0dDBjaC1lM3UwRUlaX1RPU3dqRmVDUjJkNDZwcVZielFjU2JSTTdWQTk4ZXFnc1NaSmx3MFN6UEdiV0JtbVRQR0VVaTh1UlNqYkFoOFVuVQ?oc=5",
-      "source": "netnewsledger.com",
-      "date": "2026-07-16",
-      "type": "news",
       "status": "reported"
     }
   ]
