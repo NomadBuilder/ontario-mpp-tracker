@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-11",
+  "asOf": "2026-09-12",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -160,7 +160,7 @@
       "name": "City of Cambridge",
       "type": "escribe",
       "ok": true,
-      "meetings": 9,
+      "meetings": 8,
       "calendarUrl": "https://pub-cambridge.escribemeetings.com",
       "note": ""
     },
@@ -307,38 +307,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "cambridge-741e8bd8-8ae1-47",
-      "municipality": "City of Cambridge",
-      "municipalityId": "cambridge",
-      "body": "Council Information Package (CIP)",
-      "title": "Council Information Package (CIP)",
-      "date": "2026-09-11",
-      "time": "4:30 PM",
-      "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": false,
-        "deputations": false,
-        "registerBy": null,
-        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
-      },
-      "links": {
-        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=741e8bd8-8ae1-4702-ba3a-4ff0885c7227",
-        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=741e8bd8-8ae1-4702-ba3a-4ff0885c7227"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "brampton-3263f1c1-cc53-41",
@@ -720,7 +688,7 @@
       "location": "Town Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "9 - NOM - Waiving Rules - Clr Ali - AI Data Centres.",
+      "issue": "7 Subject : Motion to Consider: AI Data Centres - Councillor Ali 1.",
       "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
       "participate": {
         "attend": true,
@@ -736,9 +704,9 @@
         "data centres"
       ],
       "snippets": [
-        "9 - NOM - Waiving Rules - Clr Ali - AI Data Centres.",
-        "7 Motion to Consider: AI Data Centres - Councillor Ali 1.",
-        "9 - NOM - Cllr Ali -AI Data Centres."
+        "7 Subject : Motion to Consider: AI Data Centres - Councillor Ali 1.",
+        "7 - Motion to Consider - AI Data Centres - Cecil Young.",
+        "7 - Motion to Consider - AI Data Centres - Shayan Hussain."
       ],
       "relevant": true,
       "matchKind": "exact",
@@ -1057,13 +1025,13 @@
       "location": "Councillor's Boardroom",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
         "deputations": null,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=9f9e5680-a4d9-4c8e-8918-a93094a872b1",
@@ -1074,7 +1042,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1290,11 +1258,11 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "issue": "011 - 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited - (CW Item 11.",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -1302,12 +1270,20 @@
         "meeting": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=c33c3473-5bc5-4f05-9db1-296c013cbcef",
         "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=c33c3473-5bc5-4f05-9db1-296c013cbcef"
       },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
+      "keywordsMatched": [
+        "urbacon"
+      ],
+      "snippets": [
+        "011 - 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited - (CW Item 11.",
+        "11.5) a) That staff report SRIES.26.011 regarding 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited, be received; b) That lands described as part of Block 15, Plan 65M-4114, more particularly described as Part 4 on Plan",
+        "5, Plan 65M-4114, more particularly described as Part 4 on Plan 65R-41938, be conveyed to Urbacon Properties Limited for nominal consideration subject to Urbacon Properties Limited paying all costs related to the transfer and registratio"
+      ],
+      "relevant": true,
+      "matchKind": "broad",
+      "topics": {
+        "datacentre": "broad"
+      },
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1450,11 +1426,11 @@
       "location": "Council Chambers, Brantford City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -1467,7 +1443,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-11",
+  "asOf": "2026-09-12",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -13,6 +13,19 @@
       "source": "NOW Toronto",
       "date": "2026-09-11",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-doug-ford-is-privatizing-education-at-the-expens-2026-09-11",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford is privatizing education at the expense of teachers, students, and taxpayers - springmag.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeTRKVTd3M0ZGaXdBa0ZsN1BzOF9sYk10YjRvS1VnQk94dXEtQlV2MU11UldyNTJOM0tDbzN3cjFzUHgxa3o1WWhOTERfTGxoM01iaE0tYWJKLUw3QmFvZE5LbVlxLURpQnNJZXpZR1VjQ1Z4T3FjdWNTNWVVa19UVXFpYmV0TmtWZ0ZwT3lZNU1DQmtfMUJ4QlBrbTNVZ2hmN1lRRWZsbEs?oc=5",
+      "source": "springmag.ca",
+      "date": "2026-09-11",
+      "type": "expenses",
       "status": "reported"
     },
     {
@@ -1585,19 +1598,6 @@
       "source": "cbc.ca",
       "date": "2026-07-17",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-i-want-to-see-the-receipts-marit-stiles-on-mpp-s-2026-07-17",
-      "mppNames": [
-        "Marit Stiles"
-      ],
-      "title": "‘I want to see the receipts’: Marit Stiles on MPP’s controversial hotel expenses - ctvnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOC1ZYWlvNzhqMkJrYUVUNG1SRG13aURyQzlIVHdNNDd2aTltcEEzWXlPV2t1NHFVVHNUdjlXcDlTWWhhdVlUVTdNNVVNOXNxMWgzems4R1NmUHNqSXVVWTJNUFJPZ3NaOEVtTXRNdUR0OV92eE1NbWIwX1FWdnlRbHE3UUdjd0lZUllJZmFYSmxJcWdsbDZlLWkyOW1JdUhqRHN3Z2hQU3hFMWx2SlNtWmxfampiQzJuZlZySnFJaXRzME0?oc=5",
-      "source": "ctvnews.ca",
-      "date": "2026-07-17",
-      "type": "expenses",
       "status": "reported"
     }
   ]
