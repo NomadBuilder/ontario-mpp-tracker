@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-09-14",
+  "asOf": "2026-09-15",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-mike-harris-ontario-minister-pledges-better-communication-du-2026-09-14",
+      "mppNames": [
+        "Mike Harris"
+      ],
+      "title": "Ontario minister pledges better communication during wildfire season - APTN News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaU9SdWhCVHpfTmVXanJIb3FmSTBpQzFnaVZlSXdNWlVlV2xBVG9XcG9BdHRIRDg0UC02c3VQMFU1M0VNYjdNdG1lTXRLQm1jejBvOWx2akZya2p4MXlDNUhmU3dzOWd4T2RWNmRrY1pOZ2lmRFo2YzZWQUp2Ri1mZF9aUzZIcXFrTGFJU0tJM1pYSTVpTktFb3RualNYd3RidXBrSlBCa3JBaU5HX0FZ?oc=5",
+      "source": "APTN News",
+      "date": "2026-09-14",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-ontario-taxpayers-paid-25k-for-doug-ford-s-new-l-2026-09-13",
       "mppNames": [
@@ -13,6 +26,21 @@
       "source": "nowtoronto.com",
       "date": "2026-09-13",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-david-piccini-doug-ford-shuffles-labour-minister-under-ethics--2026-09-10",
+      "mppNames": [
+        "David Piccini",
+        "Kinga Surma",
+        "Doug Ford"
+      ],
+      "title": "Doug Ford shuffles labour minister under ethics investigation in cabinet shakeup - The Trillium",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNam93c0VfbnZURTZJR2ZTeHBucGdsMklaRkMzaXRsc3pMS3h0OFhJSjItbXZoOFZLM3hQd2dIc2ZhMWgxdG85OUpYTUdYaFdFdkdWdFNqS1QwQy1sQmc0aWdySkVJLXJPdE9ELThrVU4xbmV0RTFfVnNHMW9qSXFRdjBUWENSazNlcHJ3dmZ0UWlXSnN6VHJ4Sl9EVWFuWTdHWFF0aktSbVlGcGgtNWY0SGlrV3FGRDNNd1BMSmtJeTFOclpXRmhPdE1n?oc=5",
+      "source": "The Trillium",
+      "date": "2026-09-11",
+      "type": "integrity",
       "status": "reported"
     },
     {
@@ -42,21 +70,6 @@
       "source": "CP24",
       "date": "2026-09-10",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-david-piccini-doug-ford-shuffles-labour-minister-under-ethics--2026-09-10",
-      "mppNames": [
-        "David Piccini",
-        "Kinga Surma",
-        "Doug Ford"
-      ],
-      "title": "Doug Ford shuffles labour minister under ethics investigation in cabinet shakeup - The Trillium",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNam93c0VfbnZURTZJR2ZTeHBucGdsMklaRkMzaXRsc3pMS3h0OFhJSjItbXZoOFZLM3hQd2dIc2ZhMWgxdG85OUpYTUdYaFdFdkdWdFNqS1QwQy1sQmc0aWdySkVJLXJPdE9ELThrVU4xbmV0RTFfVnNHMW9qSXFRdjBUWENSazNlcHJ3dmZ0UWlXSnN6VHJ4Sl9EVWFuWTdHWFF0aktSbVlGcGgtNWY0SGlrV3FGRDNNd1BMSmtJeTFOclpXRmhPdE1n?oc=5",
-      "source": "The Trillium",
-      "date": "2026-09-10",
-      "type": "integrity",
       "status": "reported"
     },
     {
@@ -1288,10 +1301,10 @@
       "mppNames": [
         "Stan Cho"
       ],
-      "title": "More questions emerge about Ontario MPP Stan Cho’s spending scandal - YouTube",
+      "title": "More questions emerge about Ontario MPP Stan Cho’s spending scandal - youtu.be",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VWjFNMERRVXFBV0JHdTZuU1F2b1dOeEl2cjlWQkRiQ3BVNW1WdE1QbFB0RHlSS1VteG5ZZU1KNGVSRDhaczU0SXY1QXdwZDZkaGdXNDBrRXQxRS1X?oc=5",
-      "source": "YouTube",
+      "source": "youtu.be",
       "date": "2026-07-20",
       "type": "news",
       "status": "reported"
@@ -1586,19 +1599,6 @@
       "source": "insauga.com",
       "date": "2026-07-17",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-mike-harris-republicans-using-wildfires-to-score-cheap-polit-2026-07-17",
-      "mppNames": [
-        "Mike Harris"
-      ],
-      "title": "Republicans using wildfires ‘to score cheap political points': Ontario minister - cbc.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXZDUyZkl6OWNaLUlQdUZ6eWZnRFItdlFmMHl2UjNtT2lXZkYwNExDTVVEd2ZIZlFicnNjdE5LM19pdXp3QzVXMzhsOUg1amhsdzU2eXFFWGM4UQ?oc=5",
-      "source": "cbc.ca",
-      "date": "2026-07-17",
-      "type": "news",
       "status": "reported"
     }
   ]
