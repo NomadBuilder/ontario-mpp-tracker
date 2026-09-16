@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-16",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 7,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -43,7 +43,7 @@
       "name": "City of Vaughan",
       "type": "escribe",
       "ok": true,
-      "meetings": 15,
+      "meetings": 13,
       "calendarUrl": "https://pub-vaughan.escribemeetings.com",
       "note": ""
     },
@@ -52,7 +52,7 @@
       "name": "City of Markham",
       "type": "escribe",
       "ok": true,
-      "meetings": 17,
+      "meetings": 16,
       "calendarUrl": "https://pub-markham.escribemeetings.com",
       "note": ""
     },
@@ -61,7 +61,7 @@
       "name": "City of Richmond Hill",
       "type": "escribe",
       "ok": true,
-      "meetings": 13,
+      "meetings": 12,
       "calendarUrl": "https://pub-richmondhill.escribemeetings.com",
       "note": ""
     },
@@ -79,7 +79,7 @@
       "name": "Town of Caledon",
       "type": "escribe",
       "ok": true,
-      "meetings": 10,
+      "meetings": 8,
       "calendarUrl": "https://pub-caledon.escribemeetings.com",
       "note": ""
     },
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 7,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -160,7 +160,7 @@
       "name": "City of Cambridge",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 7,
       "calendarUrl": "https://pub-cambridge.escribemeetings.com",
       "note": ""
     },
@@ -250,7 +250,7 @@
       "name": "Region of Durham",
       "type": "civicplus",
       "ok": true,
-      "meetings": 9,
+      "meetings": 0,
       "calendarUrl": "https://calendar.durham.ca/meetings",
       "note": "CivicPlus calendar. Official listing also at durham.ca/regional-government/council/agendas-and-minutes"
     },
@@ -307,335 +307,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "cambridge-79f01b7a-eaa0-4a",
-      "municipality": "City of Cambridge",
-      "municipalityId": "cambridge",
-      "body": "Special Council Meeting",
-      "title": "Special Council Meeting",
-      "date": "2026-09-15",
-      "time": "6:30 PM",
-      "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=79f01b7a-eaa0-4a6a-a5aa-b6e9354baefc",
-        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=79f01b7a-eaa0-4a6a-a5aa-b6e9354baefc"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "kitchener-aa4c129d-df4b-4a",
-      "municipality": "City of Kitchener",
-      "municipalityId": "kitchener",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-09-15",
-      "time": "10:00 AM",
-      "location": "Council Chambers",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=aa4c129d-df4b-4a3f-95d9-349506d20587",
-        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=aa4c129d-df4b-4a3f-95d9-349506d20587"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "markham-9186fcc5-a7c2-4e",
-      "municipality": "City of Markham",
-      "municipalityId": "markham",
-      "body": "Development Services Committee Meeting",
-      "title": "Development Services Committee Meeting",
-      "date": "2026-09-15",
-      "time": "9:30 AM",
-      "location": "Live streamed",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=9186fcc5-a7c2-4e40-8b51-05cab2dcd298",
-        "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=9186fcc5-a7c2-4e40-8b51-05cab2dcd298"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "ottawa-6e300391-41b5-4e",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Committee of Adjustment - Panel 2",
-      "title": "Committee of Adjustment - Panel 2",
-      "date": "2026-09-15",
-      "time": "1:00 PM",
-      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=6e300391-41b5-4e68-a5ec-0fcaf61fe610",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=6e300391-41b5-4e68-a5ec-0fcaf61fe610"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "richmondhill-f786e6a3-12e0-4d",
-      "municipality": "City of Richmond Hill",
-      "municipalityId": "richmondhill",
-      "body": "Council Public Meeting",
-      "title": "Council Public Meeting",
-      "date": "2026-09-15",
-      "time": "6:00 PM",
-      "location": "Council Chambers",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=f786e6a3-12e0-4dd9-a80c-5d17e4884d52",
-        "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=f786e6a3-12e0-4dd9-a80c-5d17e4884d52"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "vaughan-7b1e16c7-b15e-42",
-      "municipality": "City of Vaughan",
-      "municipalityId": "vaughan",
-      "body": "Committee of the Whole (1)",
-      "title": "Committee of the Whole (1)",
-      "date": "2026-09-15",
-      "time": "1:00 PM",
-      "location": "Council Chamber",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "INITIATING A REVIEW OF DATA CENTRE DEVELOPMENT IN VAUGHAN 1.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=7b1e16c7-b15e-4244-9b45-310a23604c1f",
-        "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=7b1e16c7-b15e-4244-9b45-310a23604c1f"
-      },
-      "keywordsMatched": [
-        "data centre",
-        "data centres"
-      ],
-      "snippets": [
-        "INITIATING A REVIEW OF DATA CENTRE DEVELOPMENT IN VAUGHAN 1.",
-        "Initiating a Review of Data Centre Development (GR).",
-        "I DATA CENTRES IN THE CITY OF VAUGHAN 1."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "vaughan-90770bc4-4366-4b",
-      "municipality": "City of Vaughan",
-      "municipalityId": "vaughan",
-      "body": "Committee of the Whole (Public Meeting)",
-      "title": "Committee of the Whole (Public Meeting)",
-      "date": "2026-09-15",
-      "time": "7:00 PM",
-      "location": "Council Chamber",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=90770bc4-4366-4bb6-b126-58e0fdaf3650",
-        "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=90770bc4-4366-4bb6-b126-58e0fdaf3650"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "vaughan-9f9e5680-a4d9-4c",
-      "municipality": "City of Vaughan",
-      "municipalityId": "vaughan",
-      "body": "Committee of the Whole (Closed Session) (Public)",
-      "title": "Committee of the Whole (Closed Session) (Public)",
-      "date": "2026-09-15",
-      "time": "5:00 PM",
-      "location": "Councillor's Boardroom",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=9f9e5680-a4d9-4c8e-8918-a93094a872b1",
-        "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=9f9e5680-a4d9-4c8e-8918-a93094a872b1"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "caledon-3abc0f82-40ec-4c",
-      "municipality": "Town of Caledon",
-      "municipalityId": "caledon",
-      "body": "General Committee Meeting",
-      "title": "General Committee Meeting",
-      "date": "2026-09-15",
-      "time": "2:30 PM",
-      "location": "CANCELLED",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=3abc0f82-40ec-4c0b-ba7b-840c7c9be4a1",
-        "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=3abc0f82-40ec-4c0b-ba7b-840c7c9be4a1"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "caledon-acaccf29-697a-45",
-      "municipality": "Town of Caledon",
-      "municipalityId": "caledon",
-      "body": "Planning and Development Committee - Public Meeting",
-      "title": "Planning and Development Committee - Public Meeting",
-      "date": "2026-09-15",
-      "time": "7:00 PM",
-      "location": "CANCELLED",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=acaccf29-697a-459e-aa5b-a085bb49dd90",
-        "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=acaccf29-697a-459e-aa5b-a085bb49dd90"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "brampton-2260fefe-803b-47",
@@ -4367,38 +4038,6 @@
       "curated": false
     },
     {
-      "id": "durham-region-2026-11-25-1000-",
-      "municipality": "Region of Durham",
-      "municipalityId": "durham-region",
-      "body": "First Meeting of Regional Council",
-      "title": "First Meeting of Regional Council",
-      "date": "2026-11-25",
-      "time": "10:00 AM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-11-25-1000-First-Meeting-of-Regional-Council",
-        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-11-25-1000-First-Meeting-of-Regional-Council"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "civicplus",
-      "curated": false
-    },
-    {
       "id": "oakville-b177254d-563b-4d",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -4879,38 +4518,6 @@
       "curated": false
     },
     {
-      "id": "durham-region-2026-12-01-0930-",
-      "municipality": "Region of Durham",
-      "municipalityId": "durham-region",
-      "body": "Community Growth and Economic Development Committee Meeting",
-      "title": "Community Growth and Economic Development Committee Meeting",
-      "date": "2026-12-01",
-      "time": "9:30 AM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-01-0930-Community-Growth-and-Economic-Development-Committe",
-        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-01-0930-Community-Growth-and-Economic-Development-Committe"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "civicplus",
-      "curated": false
-    },
-    {
       "id": "brampton-cfc933a2-869c-40",
       "municipality": "City of Brampton",
       "municipalityId": "brampton",
@@ -5068,38 +4675,6 @@
       "topics": {},
       "agendaStatus": "not_posted",
       "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "durham-region-2026-12-02-0930-",
-      "municipality": "Region of Durham",
-      "municipalityId": "durham-region",
-      "body": "Works Committee Meeting",
-      "title": "Works Committee Meeting",
-      "date": "2026-12-02",
-      "time": "9:30 AM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-02-0930-Works-Committee-Meeting",
-        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-02-0930-Works-Committee-Meeting"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "civicplus",
       "curated": false
     },
     {
@@ -5647,38 +5222,6 @@
       "curated": false
     },
     {
-      "id": "durham-region-2026-12-08-0930-",
-      "municipality": "Region of Durham",
-      "municipalityId": "durham-region",
-      "body": "Finance and Administration Committee Meeting",
-      "title": "Finance and Administration Committee Meeting",
-      "date": "2026-12-08",
-      "time": "9:30 AM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-08-0930-Finance-and-Administration-Committee-Meeting",
-        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-08-0930-Finance-and-Administration-Committee-Meeting"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "civicplus",
-      "curated": false
-    },
-    {
       "id": "regionofwaterloo-4d318740-9b3b-41",
       "municipality": "Region of Waterloo",
       "municipalityId": "regionofwaterloo",
@@ -5903,38 +5446,6 @@
       "curated": false
     },
     {
-      "id": "durham-region-2026-12-09-0930-",
-      "municipality": "Region of Durham",
-      "municipalityId": "durham-region",
-      "body": "Committee of the Whole Meeting",
-      "title": "Committee of the Whole Meeting",
-      "date": "2026-12-09",
-      "time": "9:30 AM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-09-0930-Committee-of-the-Whole-Meeting",
-        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-09-0930-Committee-of-the-Whole-Meeting"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "civicplus",
-      "curated": false
-    },
-    {
       "id": "caledon-7a4596ef-b1f5-47",
       "municipality": "Town of Caledon",
       "municipalityId": "caledon",
@@ -6156,38 +5667,6 @@
       "topics": {},
       "agendaStatus": "unknown",
       "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "durham-region-2026-12-10-0930-",
-      "municipality": "Region of Durham",
-      "municipalityId": "durham-region",
-      "body": "Special Committee of the Whole Meeting",
-      "title": "Special Committee of the Whole Meeting",
-      "date": "2026-12-10",
-      "time": "9:30 AM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-10-0930-Special-Committee-of-the-Whole-Meeting",
-        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-10-0930-Special-Committee-of-the-Whole-Meeting"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "civicplus",
       "curated": false
     },
     {
@@ -6607,38 +6086,6 @@
       "curated": false
     },
     {
-      "id": "durham-region-2026-12-16-0930-",
-      "municipality": "Region of Durham",
-      "municipalityId": "durham-region",
-      "body": "Regional Council Meeting",
-      "title": "Regional Council Meeting",
-      "date": "2026-12-16",
-      "time": "9:30 AM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://calendar.durham.ca/meetings/Detail/2026-12-16-0930-Regional-Council-Meeting",
-        "agenda": "https://calendar.durham.ca/meetings/Detail/2026-12-16-0930-Regional-Council-Meeting"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "civicplus",
-      "curated": false
-    },
-    {
       "id": "regionofwaterloo-101bcf5e-12f1-42",
       "municipality": "Region of Waterloo",
       "municipalityId": "regionofwaterloo",
@@ -6767,38 +6214,6 @@
       "curated": false
     },
     {
-      "id": "durham-region-2027-01-05-2130-",
-      "municipality": "Region of Durham",
-      "municipalityId": "durham-region",
-      "body": "Community Growth and Economic Development Committee Meeting",
-      "title": "Community Growth and Economic Development Committee Meeting",
-      "date": "2027-01-05",
-      "time": "9:30 PM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://calendar.durham.ca/meetings/Detail/2027-01-05-2130-Community-Growth-and-Economic-Development-Committe",
-        "agenda": "https://calendar.durham.ca/meetings/Detail/2027-01-05-2130-Community-Growth-and-Economic-Development-Committe"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "civicplus",
-      "curated": false
-    },
-    {
       "id": "mississauga-0398b5da-7b52-48",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -6828,38 +6243,6 @@
       "topics": {},
       "agendaStatus": "not_posted",
       "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "durham-region-2027-01-06-0930-",
-      "municipality": "Region of Durham",
-      "municipalityId": "durham-region",
-      "body": "Works Committee Meeting",
-      "title": "Works Committee Meeting",
-      "date": "2027-01-06",
-      "time": "9:30 AM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://calendar.durham.ca/meetings/Detail/2027-01-06-0930-Works-Committee-Meeting",
-        "agenda": "https://calendar.durham.ca/meetings/Detail/2027-01-06-0930-Works-Committee-Meeting"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "civicplus",
       "curated": false
     },
     {
@@ -6902,7 +6285,7 @@
       "title": "Council",
       "date": "2027-01-13",
       "time": "9:30 AM",
-      "location": "300 City Centre Drive, Mississauga, Ontario, L5B 3C1",
+      "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
@@ -7481,6 +6864,47 @@
         "7 Subject : Motion to Consider: AI Data Centres - Councillor Ali 1.",
         "7 - Motion to Consider - AI Data Centres - Cecil Young.",
         "7 - Motion to Consider - AI Data Centres - Shayan Hussain."
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "topics": {
+        "datacentre": "exact"
+      },
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "vaughan-7b1e16c7-b15e-42",
+      "municipality": "City of Vaughan",
+      "municipalityId": "vaughan",
+      "body": "Committee of the Whole (1)",
+      "title": "Committee of the Whole (1)",
+      "date": "2026-09-15",
+      "time": "1:00 PM",
+      "location": "Council Chamber",
+      "status": "past",
+      "cancelled": false,
+      "issue": "INITIATING A REVIEW OF DATA CENTRE DEVELOPMENT IN VAUGHAN 1.",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=7b1e16c7-b15e-4244-9b45-310a23604c1f",
+        "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=7b1e16c7-b15e-4244-9b45-310a23604c1f"
+      },
+      "keywordsMatched": [
+        "data centre",
+        "data centres"
+      ],
+      "snippets": [
+        "INITIATING A REVIEW OF DATA CENTRE DEVELOPMENT IN VAUGHAN 1.",
+        "Initiating a Review of Data Centre Development (GR).",
+        "I DATA CENTRES IN THE CITY OF VAUGHAN 1."
       ],
       "relevant": true,
       "matchKind": "exact",
