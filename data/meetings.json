@@ -142,7 +142,7 @@
       "name": "City of London",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 2,
       "calendarUrl": "https://pub-london.escribemeetings.com",
       "note": ""
     },
@@ -774,6 +774,38 @@
       "curated": false
     },
     {
+      "id": "london-daf0f86c-cc5f-40",
+      "municipality": "City of London",
+      "municipalityId": "london",
+      "body": "Planning and Environment Committee",
+      "title": "Planning and Environment Committee",
+      "date": "2026-09-21",
+      "time": "1:00 PM",
+      "location": "Council Chambers - Please check the City website for additional meeting detail information.",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=daf0f86c-cc5f-4045-97db-4fb49988148c",
+        "agenda": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=daf0f86c-cc5f-4045-97db-4fb49988148c"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-1e366a1e-60f3-42",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -816,7 +848,7 @@
       "location": "Town Hall, 65 Harwood Avenue South, Ajax",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -833,7 +865,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "ajax",
       "curated": false
     },
@@ -4880,7 +4912,7 @@
       "location": "Town Hall, 65 Harwood Avenue South, Ajax",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -4897,7 +4929,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "ajax",
       "curated": false
     },
@@ -5776,7 +5808,7 @@
       "location": "Town Hall, 65 Harwood Avenue South, Ajax",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5793,7 +5825,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "ajax",
       "curated": false
     },
@@ -5808,7 +5840,7 @@
       "location": "Town Hall, 65 Harwood Avenue South, Ajax",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5825,7 +5857,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "ajax",
       "curated": false
     },

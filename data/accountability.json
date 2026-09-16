@@ -3,6 +3,20 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-mpp-john-jordan-defends-piccini-appointment-amid-2026-09-16",
+      "mppNames": [
+        "John Jordan",
+        "David Piccini"
+      ],
+      "title": "MPP John Jordan defends Piccini appointment amid integrity commissioner probe - Lanarkleedstoday.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVmtHVmQ1MnVMTU1UeUxPSXFaUEx3bmhOVThPZFFzdkNncndOS2ZXS2F5clJSeXFKOHhDdHhvc09uZmFadFd2UHZ5eU42ZFo5ZHBfVjd5cFNKTV84VWJ2LVpaZkpkcERZSlc0WDhnYnNsV0dxUHBKTUVtMFVUM0dHVWRJUjA0QU9hNWFYTWVfd3haQXJ1bElEbUU1M2VMWHhpYmh5WGh6MnZ5V29pVTdnQ3Z1SFpPWWJR?oc=5",
+      "source": "Lanarkleedstoday.ca",
+      "date": "2026-09-16",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
       "id": "auto-mike-harris-ontario-minister-pledges-better-communication-du-2026-09-14",
       "mppNames": [
         "Mike Harris"
@@ -33,7 +47,9 @@
       "mppNames": [
         "David Piccini",
         "Kinga Surma",
-        "Doug Ford"
+        "Doug Ford",
+        "Trevor Jones",
+        "Doug Downey"
       ],
       "title": "Doug Ford shuffles labour minister under ethics investigation in cabinet shakeup - The Trillium",
       "summary": "",
@@ -82,20 +98,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDA5LTIxaHVXSW5CWmo5M0FvWTJDYXYxVnU1TGpYdUNtbzRvQU50ZHVXYWE2czQ0ZEhMeE9ha294Smxwc2tYb1k1TGtBTWRsbzZpcjNfajRva2lvb3VRYl81S2xEMERGQW93cjJjOHNzTDdLQUgySUZFaFFtRUVBRTh2SXBFTVJvMnZuVXhqZjFpYVhpRGdvU3BWY2FmYUJhd3o4UkJndXJmXzdpRkZnOQ?oc=5",
       "source": "CTV News",
-      "date": "2026-09-10",
-      "type": "integrity",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-downey-ford-shuffles-labour-minister-under-ethics-probe-2026-09-10",
-      "mppNames": [
-        "Doug Downey",
-        "Trevor Jones"
-      ],
-      "title": "Ford shuffles labour minister under ethics probe in cabinet shakeup - Barrie News",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOWQ1SlBJcGM2N0x4bUNIQTlIdGs2bEkza2NBaEl3bE1salBPTDBxLWRvR19XWkQ5bUdOT1l2b3hnZXJCMElLdjZkT0ZGeTVEd1dWSEJXVUFtMFNtWlBXSkpmOXJuTlh1bXFDR3lNZ1BOVjRsWjdJZ0tiRFpiUWZZcE8wVHFDU3g5a0h2cWI0cXZuOW05OTZSVUxfXzVjVDRiMTRLV0Q3Q1E1M1FBejBoNnRUUXgwZw?oc=5",
-      "source": "Barrie News",
       "date": "2026-09-10",
       "type": "integrity",
       "status": "reported"
