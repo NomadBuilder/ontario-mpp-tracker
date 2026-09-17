@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-hardeep-singh-grewal-elections-ontario-closes-complaint-into-progress-2026-09-17",
+      "mppNames": [
+        "Hardeep Singh Grewal"
+      ],
+      "title": "Elections Ontario closes complaint into Progressive Conservative MPP over newspaper ads - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTDgtYUVDbTIzTWQyOHdQRzQ3WmMycWJORXZSSlNYWW5jc2JTVXJ4dm9DSlZJZE5qSlp0cDNqVmRQY2ZrVkpsbGl1ZHFhVHVvbmM4YVdvM3dMT1QweVJDWUtMWVYzWlBBek9VTms4dDN5Q1kxejktTVp1amZpelNZSTF5Yld2dEluTW9wdXhPNA?oc=5",
+      "source": "Global News",
+      "date": "2026-09-17",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-mpp-john-jordan-defends-piccini-appointment-amid-2026-09-16",
       "mppNames": [
         "John Jordan",
@@ -1586,19 +1599,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSEs3OVJVQ2k0MjJ2cEI0aHJFT2d5OE5CZ3RhLVAzbVFPYVQxQ0s5Vmw3Wk5POGozSzJwT3dXandlc2M2MDEtdG96clFQUlRNcVZYaUhobUJBX2lRaFEtOG45RExwTVV2bDdXTW14UHBJXzkzOU8yMHhEeWNKUWRlLXVJZFFiRDdMM1FvMm5pQVdhYThBSGhBR05odFBobFpPbUFkYm15TnZVQkNERUpnQWx2UXFJWlo4dE8zNTh3?oc=5",
       "source": "cp24.com",
-      "date": "2026-07-17",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-neil-lumsden-will-brampton-politicians-resign-over-40k-hotel--2026-07-17",
-      "mppNames": [
-        "Neil Lumsden"
-      ],
-      "title": "Will Brampton politicians resign over $40K hotel expenses? - insauga.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMC1fTXEzcERwX2RNSkxkZFFjbFotblZEek1qUVRHYThRMHBGUTU0amFuTnpEM0oxTEtFb0oxS29iOERNbWtsYml6T2t5Rm14SWVKcy1pVVpTeUo3cWlTVmxwUlh0S1hIRy1oUmtFWjEtOEtsUlpUSTB4azVaUk81RmhGeGdpUFJn?oc=5",
-      "source": "insauga.com",
       "date": "2026-07-17",
       "type": "expenses",
       "status": "reported"

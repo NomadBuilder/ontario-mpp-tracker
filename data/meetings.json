@@ -106,7 +106,7 @@
       "name": "City of Pickering",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 2,
       "calendarUrl": "https://pub-pickering.escribemeetings.com",
       "note": ""
     },
@@ -232,7 +232,7 @@
       "name": "York Region",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 2,
       "calendarUrl": "https://yorkpublishing.escribemeetings.com/",
       "note": "Official agendas also at york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
     },
@@ -563,6 +563,38 @@
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1e366a1e-60f3-4226-a223-004488238a64",
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1e366a1e-60f3-4226-a223-004488238a64"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "pickering-fcd72270-190b-4d",
+      "municipality": "City of Pickering",
+      "municipalityId": "pickering",
+      "body": "Council",
+      "title": "Council",
+      "date": "2026-09-21",
+      "time": "7:00 PM",
+      "location": "Electronic Meeting",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=fcd72270-190b-4dd2-a50b-ec898025a92c",
+        "agenda": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=fcd72270-190b-4dd2-a50b-ec898025a92c"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -986,6 +1018,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "york-region-095a3d26-af4f-46",
+      "municipality": "York Region",
+      "municipalityId": "york-region",
+      "body": "Human Services Planning Board",
+      "title": "Human Services Planning Board",
+      "date": "2026-09-25",
+      "time": "9:00 AM",
+      "location": "Electronic Meeting",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://yorkpublishing.escribemeetings.com/Meeting.aspx?Id=095a3d26-af4f-46da-9326-e47ae3b336c3",
+        "agenda": "https://yorkpublishing.escribemeetings.com/Meeting.aspx?Id=095a3d26-af4f-46da-9326-e47ae3b336c3"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
