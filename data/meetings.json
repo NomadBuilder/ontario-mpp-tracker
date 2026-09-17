@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-17",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 7,
+      "meetings": 6,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -25,7 +25,7 @@
       "name": "City of Brampton",
       "type": "escribe",
       "ok": true,
-      "meetings": 11,
+      "meetings": 10,
       "calendarUrl": "https://pub-brampton.escribemeetings.com",
       "note": ""
     },
@@ -43,7 +43,7 @@
       "name": "City of Vaughan",
       "type": "escribe",
       "ok": true,
-      "meetings": 13,
+      "meetings": 12,
       "calendarUrl": "https://pub-vaughan.escribemeetings.com",
       "note": ""
     },
@@ -52,7 +52,7 @@
       "name": "City of Markham",
       "type": "escribe",
       "ok": true,
-      "meetings": 16,
+      "meetings": 15,
       "calendarUrl": "https://pub-markham.escribemeetings.com",
       "note": ""
     },
@@ -61,7 +61,7 @@
       "name": "City of Richmond Hill",
       "type": "escribe",
       "ok": true,
-      "meetings": 12,
+      "meetings": 11,
       "calendarUrl": "https://pub-richmondhill.escribemeetings.com",
       "note": ""
     },
@@ -79,7 +79,7 @@
       "name": "Town of Caledon",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 7,
       "calendarUrl": "https://pub-caledon.escribemeetings.com",
       "note": ""
     },
@@ -133,7 +133,7 @@
       "name": "Township of King",
       "type": "escribe",
       "ok": true,
-      "meetings": 10,
+      "meetings": 9,
       "calendarUrl": "https://pub-king.escribemeetings.com",
       "note": ""
     },
@@ -309,70 +309,6 @@
       "agendaStatus": "posted"
     },
     {
-      "id": "brampton-2260fefe-803b-47",
-      "municipality": "City of Brampton",
-      "municipalityId": "brampton",
-      "body": "Committee of Council",
-      "title": "Committee of Council",
-      "date": "2026-09-16",
-      "time": "9:30 AM",
-      "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=2260fefe-803b-478f-92bb-2177fb345a24",
-        "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=2260fefe-803b-478f-92bb-2177fb345a24"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "markham-fd46ba23-4de8-46",
-      "municipality": "City of Markham",
-      "municipalityId": "markham",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-09-16",
-      "time": "7:00 PM",
-      "location": "Electronic Meeting",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=fd46ba23-4de8-46e9-bb46-582f1e280047",
-        "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=fd46ba23-4de8-46e9-bb46-582f1e280047"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "mississauga-f3e10e24-5dc3-42",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -412,206 +348,6 @@
         "[EXTERNAL] Vote no to Data Centers in Mississauga!",
         "Bredeson, Executive Correspondence Officer regarding major digital infrastructure and artificial intelligence data centres 1."
       ]
-    },
-    {
-      "id": "ottawa-4f10d146-6d32-42",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Planning and Housing Committee",
-      "title": "Planning and Housing Committee",
-      "date": "2026-09-16",
-      "time": "9:30 AM",
-      "location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=4f10d146-6d32-42df-8fc7-2f184d0729ec",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=4f10d146-6d32-42df-8fc7-2f184d0729ec"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "richmondhill-c33c3473-5bc5-4f",
-      "municipality": "City of Richmond Hill",
-      "municipalityId": "richmondhill",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-09-16",
-      "time": "9:30 AM",
-      "location": "Council Chambers",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "011 - 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited - (CW Item 11.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=c33c3473-5bc5-4f05-9db1-296c013cbcef",
-        "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=c33c3473-5bc5-4f05-9db1-296c013cbcef"
-      },
-      "keywordsMatched": [
-        "urbacon"
-      ],
-      "snippets": [
-        "011 - 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited - (CW Item 11.",
-        "11.5) a) That staff report SRIES.26.011 regarding 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited, be received; b) That lands described as part of Block 15, Plan 65M-4114, more particularly described as Part 4 on Plan",
-        "5, Plan 65M-4114, more particularly described as Part 4 on Plan 65R-41938, be conveyed to Urbacon Properties Limited for nominal consideration subject to Urbacon Properties Limited paying all costs related to the transfer and registratio"
-      ],
-      "relevant": true,
-      "matchKind": "broad",
-      "topics": {
-        "datacentre": "broad"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "vaughan-dcf5d6cc-a5b6-4c",
-      "municipality": "City of Vaughan",
-      "municipalityId": "vaughan",
-      "body": "Committee of the Whole (Working Session)",
-      "title": "Committee of the Whole (Working Session)",
-      "date": "2026-09-16",
-      "time": "1:00 PM",
-      "location": "Meeting Cancelled",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=dcf5d6cc-a5b6-4c27-866d-3c9ad1cf6fa0",
-        "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=dcf5d6cc-a5b6-4c27-866d-3c9ad1cf6fa0"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "caledon-a5a2a0fe-0568-48",
-      "municipality": "Town of Caledon",
-      "municipalityId": "caledon",
-      "body": "General Committee Meeting - Workshop",
-      "title": "General Committee Meeting - Workshop",
-      "date": "2026-09-16",
-      "time": "2:30 PM",
-      "location": "CANCELLED",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=a5a2a0fe-0568-4871-9194-9d1f258efbc6",
-        "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=a5a2a0fe-0568-4871-9194-9d1f258efbc6"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "oakville-ec6b8e37-9dfe-4a",
-      "municipality": "Town of Oakville",
-      "municipalityId": "oakville",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-09-16",
-      "time": "7:00 PM",
-      "location": "Virtual Meeting",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=ec6b8e37-9dfe-4a3c-9f02-6d01803dc68e",
-        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=ec6b8e37-9dfe-4a3c-9f02-6d01803dc68e"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "king-5a7ea7ae-839b-43",
-      "municipality": "Township of King",
-      "municipalityId": "king",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-09-16",
-      "time": "6:00 PM",
-      "location": "Council Chambers",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=5a7ea7ae-839b-43fb-aa30-b1c0a3d74450",
-        "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=5a7ea7ae-839b-43fb-aa30-b1c0a3d74450"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "brantford-22df18f0-b455-46",
@@ -1136,13 +872,13 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=ab8d011f-3e47-459a-8fee-74f31a3a6a3a",
@@ -1153,7 +889,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -2502,13 +2238,13 @@
       "curated": false
     },
     {
-      "id": "mississauga-8a899e88-ff27-42",
+      "id": "mississauga-5f4eecf9-f5cd-4a",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
       "body": "Committee of Adjustment",
       "title": "Committee of Adjustment",
       "date": "2026-10-22",
-      "time": "1:00 PM",
+      "time": "3:30 PM",
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
@@ -2521,8 +2257,8 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=8a899e88-ff27-4255-92d7-191d3cac0351",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=8a899e88-ff27-4255-92d7-191d3cac0351"
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=5f4eecf9-f5cd-4a80-882d-06ab5deb491c",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=5f4eecf9-f5cd-4a80-882d-06ab5deb491c"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -6456,8 +6192,7 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
       },
       "keywordsMatched": [
         "data centre",
@@ -6664,87 +6399,6 @@
       "agendaStatus": "posted"
     },
     {
-      "id": "mississauga-ccc5188c-7b92-49",
-      "municipality": "City of Mississauga",
-      "municipalityId": "mississauga",
-      "body": "General Committee",
-      "title": "General Committee",
-      "date": "2026-09-09",
-      "time": "9:30 AM",
-      "location": "Council Chambers, Civic Centre, 2nd Floor",
-      "status": "past",
-      "cancelled": false,
-      "issue": "Playbook Data Centres - GC - Sept 9 2026.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": "calling 90",
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=ccc5188c-7b92-4968-8e9f-3e3c6175b8f5",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=ccc5188c-7b92-4968-8e9f-3e3c6175b8f5"
-      },
-      "keywordsMatched": [
-        "data centres",
-        "data centre"
-      ],
-      "snippets": [
-        "Playbook Data Centres - GC - Sept 9 2026.",
-        "1 Summary and Implications of Ontario's Economic and Strategic Assessment Framework for New Data Centres 1.",
-        "Summary of Ontario's Economic and Strategic Assessment Framework for New Data Centres - 0425-2026."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "richmondhill-4e5fdad4-a163-41",
-      "municipality": "City of Richmond Hill",
-      "municipalityId": "richmondhill",
-      "body": "Committee of the Whole",
-      "title": "Committee of the Whole",
-      "date": "2026-09-09",
-      "time": "9:30 AM",
-      "location": "Council Chambers",
-      "status": "past",
-      "cancelled": false,
-      "issue": "011 - 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited 1.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=4e5fdad4-a163-4113-8b27-0f5f1c8e748b",
-        "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=4e5fdad4-a163-4113-8b27-0f5f1c8e748b"
-      },
-      "keywordsMatched": [
-        "urbacon"
-      ],
-      "snippets": [
-        "011 - 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited 1.",
-        "011 - 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited.",
-        "38.pdf a) That staff report SRIES.26.011 regarding 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited, be received; b) That lands described as part of Block 15, Plan 65M-4114, more particularly described as Part 4 on Plan"
-      ],
-      "relevant": true,
-      "matchKind": "broad",
-      "topics": {
-        "datacentre": "broad"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "york-region-9df9fc70-4c5d-40",
       "municipality": "York Region",
       "municipalityId": "york-region",
@@ -6937,6 +6591,85 @@
         "INITIATING A REVIEW OF DATA CENTRE DEVELOPMENT IN VAUGHAN 1.",
         "Initiating a Review of Data Centre Development (GR).",
         "I DATA CENTRES IN THE CITY OF VAUGHAN 1."
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "topics": {
+        "datacentre": "exact"
+      },
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "richmondhill-c33c3473-5bc5-4f",
+      "municipality": "City of Richmond Hill",
+      "municipalityId": "richmondhill",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-09-16",
+      "time": "9:30 AM",
+      "location": "Council Chambers",
+      "status": "past",
+      "cancelled": false,
+      "issue": "011 - 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited - (CW Item 11.",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=c33c3473-5bc5-4f05-9db1-296c013cbcef",
+        "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=c33c3473-5bc5-4f05-9db1-296c013cbcef"
+      },
+      "keywordsMatched": [
+        "urbacon"
+      ],
+      "snippets": [
+        "011 - 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited - (CW Item 11.",
+        "11.5) a) That staff report SRIES.26.011 regarding 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited, be received; b) That lands described as part of Block 15, Plan 65M-4114, more particularly described as Part 4 on Plan",
+        "5, Plan 65M-4114, more particularly described as Part 4 on Plan 65R-41938, be conveyed to Urbacon Properties Limited for nominal consideration subject to Urbacon Properties Limited paying all costs related to the transfer and registratio"
+      ],
+      "relevant": true,
+      "matchKind": "broad",
+      "topics": {
+        "datacentre": "broad"
+      },
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "oakville-4ad1163a-6f12-4d",
+      "municipality": "Town of Oakville",
+      "municipalityId": "oakville",
+      "body": "Council Information Packages",
+      "title": "Council Information Packages",
+      "date": "2026-09-16",
+      "time": "9:00 AM",
+      "location": "",
+      "status": "past",
+      "cancelled": false,
+      "issue": "2 AMO Policy - Data Centres and Building Code Review - September 15, 2026 1.",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": false,
+        "deputations": false,
+        "registerBy": null,
+        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
+      },
+      "links": {
+        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=4ad1163a-6f12-4dc0-8ffa-cfca7b7b4920",
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=4ad1163a-6f12-4dc0-8ffa-cfca7b7b4920"
+      },
+      "keywordsMatched": [
+        "data centres"
+      ],
+      "snippets": [
+        "2 AMO Policy - Data Centres and Building Code Review - September 15, 2026 1.",
+        "AMO Policy - Data Centres and Building Code Review - September 15, 2026."
       ],
       "relevant": true,
       "matchKind": "exact",
