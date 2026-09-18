@@ -70,7 +70,7 @@
       "name": "Town of Milton",
       "type": "escribe",
       "ok": true,
-      "meetings": 3,
+      "meetings": 4,
       "calendarUrl": "https://pub-milton.escribemeetings.com",
       "note": ""
     },
@@ -160,7 +160,7 @@
       "name": "City of Cambridge",
       "type": "escribe",
       "ok": true,
-      "meetings": 7,
+      "meetings": 8,
       "calendarUrl": "https://pub-cambridge.escribemeetings.com",
       "note": ""
     },
@@ -205,7 +205,7 @@
       "name": "City of St. Thomas",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 2,
       "calendarUrl": "https://pub-stthomas.escribemeetings.com",
       "note": ""
     },
@@ -350,6 +350,38 @@
       ]
     },
     {
+      "id": "cambridge-9636130f-de3b-41",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Council Information Package (CIP)",
+      "title": "Council Information Package (CIP)",
+      "date": "2026-09-18",
+      "time": "4:30 PM",
+      "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": false,
+        "deputations": false,
+        "registerBy": null,
+        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=9636130f-de3b-41ef-9308-40f8dfcf7163",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=9636130f-de3b-41ef-9308-40f8dfcf7163"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "london-daf0f86c-cc5f-40",
       "municipality": "City of London",
       "municipalityId": "london",
@@ -441,6 +473,48 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "stthomas-5e7b0242-00a4-4e",
+      "municipality": "City of St. Thomas",
+      "municipalityId": "stthomas",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-09-21",
+      "time": "5:00 PM",
+      "location": "COUNCIL CHAMBERS/ZOOM",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "e Proposed Interim Control By-law – Data Centres, Enterprise Computing Facilities and Similar High-Intensity Digital Processing Facilities 1.",
+      "why": "An interim control by-law can pause approvals while staff study power, water, and land-use impacts.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=5e7b0242-00a4-4e2e-8430-e4eee5e5c28f",
+        "agenda": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=5e7b0242-00a4-4e2e-8430-e4eee5e5c28f"
+      },
+      "keywordsMatched": [
+        "interim control by-law – data",
+        "interim control by-law - data",
+        "data centres"
+      ],
+      "snippets": [
+        "e Proposed Interim Control By-law – Data Centres, Enterprise Computing Facilities and Similar High-Intensity Digital Processing Facilities 1.",
+        "Interim Control By-law - Data Centres.",
+        "A by-law to enact an interim control by-law to prohibit the use of land, buildings or structures for the purpose of new data centres, enterprise computing facilities and similar high-intensity digital processing facilities."
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "topics": {
+        "datacentre": "exact"
+      },
       "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
@@ -584,11 +658,11 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -601,7 +675,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -782,11 +856,11 @@
       "location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -799,7 +873,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -910,7 +984,47 @@
       "location": "Council Chamber, 5th Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "3 Peel Region Comments on the Provincial Economic and Strategic Assessment Framework for New Data Centres 1.",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=ce5cb63f-093a-4588-90cb-eab8d8ca9b41",
+        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=ce5cb63f-093a-4588-90cb-eab8d8ca9b41"
+      },
+      "keywordsMatched": [
+        "data centres"
+      ],
+      "snippets": [
+        "3 Peel Region Comments on the Provincial Economic and Strategic Assessment Framework for New Data Centres 1.",
+        "Peel Region Comments on the Provincial Economic and Strategic Assessment Framework for New Data Centres.",
+        "Appendix I – Response to Economic and Strategic Assessment Framework for New Data Centres (ERO 026-0853)."
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "topics": {
+        "datacentre": "exact"
+      },
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "milton-3d8923c4-6c5c-46",
+      "municipality": "Town of Milton",
+      "municipalityId": "milton",
+      "body": "Committee of Adjustment and Consent",
+      "title": "Committee of Adjustment and Consent",
+      "date": "2026-09-24",
+      "time": "6:00 PM",
+      "location": "Council Chambers - In Person",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -919,15 +1033,15 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=ce5cb63f-093a-4588-90cb-eab8d8ca9b41",
-        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=ce5cb63f-093a-4588-90cb-eab8d8ca9b41"
+        "meeting": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=3d8923c4-6c5c-4649-8c0d-d0d05eb26f4a",
+        "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=3d8923c4-6c5c-4649-8c0d-d0d05eb26f4a"
       },
       "keywordsMatched": [],
       "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1358,11 +1472,11 @@
       "location": "Council Chamber, City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -1375,7 +1489,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -6230,8 +6344,7 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
-        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
       },
       "keywordsMatched": [
         "data centre"
