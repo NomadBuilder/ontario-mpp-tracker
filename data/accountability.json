@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-18",
+  "asOf": "2026-09-19",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -105,7 +105,8 @@
       "id": "auto-doug-ford-doug-ford-announces-cabinet-shuffle-david-piccin-2026-09-10",
       "mppNames": [
         "Doug Ford",
-        "David Piccini"
+        "David Piccini",
+        "Sam Oosterhoff"
       ],
       "title": "Doug Ford announces cabinet shuffle, David Piccini moved into new portfolio amid ethics probe - CTV News",
       "summary": "",
