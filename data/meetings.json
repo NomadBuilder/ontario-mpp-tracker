@@ -34,7 +34,7 @@
       "name": "City of Hamilton",
       "type": "escribe",
       "ok": true,
-      "meetings": 11,
+      "meetings": 12,
       "calendarUrl": "https://pub-hamilton.escribemeetings.com",
       "note": ""
     },
@@ -1931,6 +1931,38 @@
       "links": {
         "meeting": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=c5662738-5c40-4111-95c3-313fbaa88863",
         "agenda": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=c5662738-5c40-4111-95c3-313fbaa88863"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "hamilton-b6eeefb0-e38c-48",
+      "municipality": "City of Hamilton",
+      "municipalityId": "hamilton",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-10-08",
+      "time": "9:30 AM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=b6eeefb0-e38c-4803-95ff-3ec295395ea8",
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=b6eeefb0-e38c-4803-95ff-3ec295395ea8"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -6312,8 +6344,7 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
       },
       "keywordsMatched": [
         "data centre",
@@ -6344,7 +6375,8 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
+        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
       },
       "keywordsMatched": [
         "data centre"
