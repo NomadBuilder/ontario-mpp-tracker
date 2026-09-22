@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 28,
+      "meetings": 26,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -70,7 +70,7 @@
       "name": "Town of Milton",
       "type": "escribe",
       "ok": true,
-      "meetings": 4,
+      "meetings": 3,
       "calendarUrl": "https://pub-milton.escribemeetings.com",
       "note": ""
     },
@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 18,
+      "meetings": 16,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -106,7 +106,7 @@
       "name": "City of Pickering",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 1,
       "calendarUrl": "https://pub-pickering.escribemeetings.com",
       "note": ""
     },
@@ -115,7 +115,7 @@
       "name": "Town of Ajax",
       "type": "ajax",
       "ok": true,
-      "meetings": 4,
+      "meetings": 3,
       "calendarUrl": "https://ajax.ca/meetings",
       "note": "events.ajax.ca/meetings currently shows an error page; cards use ajax.ca/meetings (Power Apps portal) and the 2026 schedule PDF"
     },
@@ -124,7 +124,7 @@
       "name": "Town of Newmarket",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 1,
       "calendarUrl": "https://pub-newmarket.escribemeetings.com",
       "note": ""
     },
@@ -142,7 +142,7 @@
       "name": "City of London",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 1,
       "calendarUrl": "https://pub-london.escribemeetings.com",
       "note": ""
     },
@@ -205,7 +205,7 @@
       "name": "City of St. Thomas",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 1,
       "calendarUrl": "https://pub-stthomas.escribemeetings.com",
       "note": ""
     },
@@ -214,7 +214,7 @@
       "name": "City of Stratford",
       "type": "escribe",
       "ok": true,
-      "meetings": 7,
+      "meetings": 6,
       "calendarUrl": "https://pub-stratford.escribemeetings.com",
       "note": ""
     },
@@ -259,7 +259,7 @@
       "name": "Halton Region",
       "type": "halton",
       "ok": true,
-      "meetings": 5,
+      "meetings": 6,
       "calendarUrl": "https://www.halton.ca/the-region/regional-council-and-committees/calendars-and-schedules",
       "note": ""
     },
@@ -348,240 +348,6 @@
         "[EXTERNAL] Vote no to Data Centers in Mississauga!",
         "Bredeson, Executive Correspondence Officer regarding major digital infrastructure and artificial intelligence data centres 1."
       ]
-    },
-    {
-      "id": "london-daf0f86c-cc5f-40",
-      "municipality": "City of London",
-      "municipalityId": "london",
-      "body": "Planning and Environment Committee",
-      "title": "Planning and Environment Committee",
-      "date": "2026-09-21",
-      "time": "1:00 PM",
-      "location": "Council Chambers - Please check the City website for additional meeting detail information.",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=daf0f86c-cc5f-4045-97db-4fb49988148c",
-        "agenda": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=daf0f86c-cc5f-4045-97db-4fb49988148c"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "mississauga-1e366a1e-60f3-42",
-      "municipality": "City of Mississauga",
-      "municipalityId": "mississauga",
-      "body": "Planning and Development Committee",
-      "title": "Planning and Development Committee",
-      "date": "2026-09-21",
-      "time": "6:00 PM",
-      "location": "Council Chambers, Civic Centre, 2nd Floor",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1e366a1e-60f3-4226-a223-004488238a64",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1e366a1e-60f3-4226-a223-004488238a64"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "pickering-fcd72270-190b-4d",
-      "municipality": "City of Pickering",
-      "municipalityId": "pickering",
-      "body": "Council",
-      "title": "Council",
-      "date": "2026-09-21",
-      "time": "7:00 PM",
-      "location": "Electronic Meeting",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=fcd72270-190b-4dd2-a50b-ec898025a92c",
-        "agenda": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=fcd72270-190b-4dd2-a50b-ec898025a92c"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "stthomas-5e7b0242-00a4-4e",
-      "municipality": "City of St. Thomas",
-      "municipalityId": "stthomas",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-09-21",
-      "time": "5:00 PM",
-      "location": "COUNCIL CHAMBERS/ZOOM",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "e Proposed Interim Control By-law – Data Centres, Enterprise Computing Facilities and Similar High-Intensity Digital Processing Facilities 1.",
-      "why": "An interim control by-law can pause approvals while staff study power, water, and land-use impacts.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=5e7b0242-00a4-4e2e-8430-e4eee5e5c28f",
-        "agenda": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=5e7b0242-00a4-4e2e-8430-e4eee5e5c28f"
-      },
-      "keywordsMatched": [
-        "interim control by-law – data",
-        "interim control by-law - data",
-        "data centres"
-      ],
-      "snippets": [
-        "e Proposed Interim Control By-law – Data Centres, Enterprise Computing Facilities and Similar High-Intensity Digital Processing Facilities 1.",
-        "Interim Control By-law - Data Centres.",
-        "A by-law to enact an interim control by-law to prohibit the use of land, buildings or structures for the purpose of new data centres, enterprise computing facilities and similar high-intensity digital processing facilities."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "ajax-2026-09-21-counc",
-      "municipality": "Town of Ajax",
-      "municipalityId": "ajax",
-      "body": "Council",
-      "title": "Council",
-      "date": "2026-09-21",
-      "time": "1:00 PM",
-      "location": "Town Hall, 65 Harwood Avenue South, Ajax",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://ajax.ca/meetings",
-        "agenda": "https://ajax.ca/meetings"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "ajax",
-      "curated": false
-    },
-    {
-      "id": "newmarket-ef06a62b-b6b1-42",
-      "municipality": "Town of Newmarket",
-      "municipalityId": "newmarket",
-      "body": "Council - Electronic",
-      "title": "Council - Electronic",
-      "date": "2026-09-21",
-      "time": "1:00 PM",
-      "location": "Streamed live from the Municipal Offices",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=ef06a62b-b6b1-4297-9f6c-0082d901c18f",
-        "agenda": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=ef06a62b-b6b1-4297-9f6c-0082d901c18f"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "oakville-33e682df-d235-4c",
-      "municipality": "Town of Oakville",
-      "municipalityId": "oakville",
-      "body": "Special Council",
-      "title": "Special Council",
-      "date": "2026-09-21",
-      "time": "6:35 PM",
-      "location": "Council Chamber",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=33e682df-d235-4c05-8537-3739515c0484",
-        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=33e682df-d235-4c05-8537-3739515c0484"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "brampton-5927df4d-248c-4b",
@@ -6262,6 +6028,38 @@
       "curated": false
     },
     {
+      "id": "halton-region-halton-regional-",
+      "municipality": "Halton Region",
+      "municipalityId": "halton-region",
+      "body": "Halton Regional Council: Budget Meeting - January 20, 2027",
+      "title": "Halton Regional Council: Budget Meeting - January 20, 2027",
+      "date": "2027-01-20",
+      "time": "9:30 AM",
+      "location": "Halton Regional Centre, 1151 Bronte Road, Oakville",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://www.halton.ca/the-region/events/2027/halton-regional-council-budget-meeting-january-20,-2027",
+        "agenda": "https://www.halton.ca/the-region/events/2027/halton-regional-council-budget-meeting-january-20,-2027"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "halton",
+      "curated": false
+    },
+    {
       "id": "richmondhill-b6e394a4-e8b1-47",
       "municipality": "City of Richmond Hill",
       "municipalityId": "richmondhill",
@@ -6344,7 +6142,8 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
+        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
       },
       "keywordsMatched": [
         "data centre",
@@ -6551,127 +6350,6 @@
       "agendaStatus": "posted"
     },
     {
-      "id": "stthomas-ca4c095d-2505-44",
-      "municipality": "City of St. Thomas",
-      "municipalityId": "stthomas",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-09-14",
-      "time": "5:00 PM",
-      "location": "COUNCIL CHAMBERS/ZOOM",
-      "status": "past",
-      "cancelled": false,
-      "issue": "f Provincial Data Centre Playbook – Options for Municipalities 1.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=ca4c095d-2505-44fe-8dd2-9c605f2ea439",
-        "agenda": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=ca4c095d-2505-44fe-8dd2-9c605f2ea439"
-      },
-      "keywordsMatched": [
-        "data centre"
-      ],
-      "snippets": [
-        "f Provincial Data Centre Playbook – Options for Municipalities 1.",
-        "Provincial Data Centre Playbook - Options for Municipalities.",
-        "Data Centre Playbook_Ontario_August 2026."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "stratford-be47e44a-0c44-43",
-      "municipality": "City of Stratford",
-      "municipalityId": "stratford",
-      "body": "Regular Council",
-      "title": "Regular Council",
-      "date": "2026-09-14",
-      "time": "7:00 PM",
-      "location": "Council Chamber, City Hall",
-      "status": "past",
-      "cancelled": false,
-      "issue": "2 Notice of Motion - Data Centres - Councillor Burbach 1.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=be47e44a-0c44-430f-bebd-4edc105b9f63",
-        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=be47e44a-0c44-430f-bebd-4edc105b9f63"
-      },
-      "keywordsMatched": [
-        "data centres",
-        "data centre"
-      ],
-      "snippets": [
-        "2 Notice of Motion - Data Centres - Councillor Burbach 1.",
-        "Councillor Burbach - Data Centres.",
-        "CFUW Data Centres final (1)."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "milton-6bf2ac6b-5834-45",
-      "municipality": "Town of Milton",
-      "municipalityId": "milton",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-09-14",
-      "time": "7:00 PM",
-      "location": "Town Hall",
-      "status": "past",
-      "cancelled": false,
-      "issue": "7 Subject : Motion to Consider: AI Data Centres - Councillor Ali 1.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=6bf2ac6b-5834-45b1-9f98-092878927c5a",
-        "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=6bf2ac6b-5834-45b1-9f98-092878927c5a"
-      },
-      "keywordsMatched": [
-        "data centres"
-      ],
-      "snippets": [
-        "7 Subject : Motion to Consider: AI Data Centres - Councillor Ali 1.",
-        "7 - Motion to Consider - AI Data Centres - Cecil Young.",
-        "7 - Motion to Consider - AI Data Centres - Shayan Hussain."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "vaughan-7b1e16c7-b15e-42",
       "municipality": "City of Vaughan",
       "municipalityId": "vaughan",
@@ -6781,6 +6459,48 @@
       "snippets": [
         "2 AMO Policy - Data Centres and Building Code Review - September 15, 2026 1.",
         "AMO Policy - Data Centres and Building Code Review - September 15, 2026."
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "topics": {
+        "datacentre": "exact"
+      },
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "stthomas-5e7b0242-00a4-4e",
+      "municipality": "City of St. Thomas",
+      "municipalityId": "stthomas",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-09-21",
+      "time": "5:00 PM",
+      "location": "COUNCIL CHAMBERS/ZOOM",
+      "status": "past",
+      "cancelled": false,
+      "issue": "e Proposed Interim Control By-law – Data Centres, Enterprise Computing Facilities and Similar High-Intensity Digital Processing Facilities 1.",
+      "why": "An interim control by-law can pause approvals while staff study power, water, and land-use impacts.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=5e7b0242-00a4-4e2e-8430-e4eee5e5c28f",
+        "agenda": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=5e7b0242-00a4-4e2e-8430-e4eee5e5c28f"
+      },
+      "keywordsMatched": [
+        "interim control by-law – data",
+        "interim control by-law - data",
+        "data centres"
+      ],
+      "snippets": [
+        "e Proposed Interim Control By-law – Data Centres, Enterprise Computing Facilities and Similar High-Intensity Digital Processing Facilities 1.",
+        "Interim Control By-law - Data Centres.",
+        "A by-law to enact an interim control by-law to prohibit the use of land, buildings or structures for the purpose of new data centres, enterprise computing facilities and similar high-intensity digital processing facilities."
       ],
       "relevant": true,
       "matchKind": "exact",
