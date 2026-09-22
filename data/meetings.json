@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 6,
+      "meetings": 8,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -597,10 +597,14 @@
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=ee52c3af-e5d7-4efd-a2e1-0f0210886cc7"
       },
       "keywordsMatched": [
-        "data centres"
+        "data centres",
+        "digital infrastructure",
+        "data centre"
       ],
       "snippets": [
-        "5 Matthew Nicoll, Resident (Ward 3) with respect to commercialization of biological data utilizing Data Centres 1."
+        "5 Matthew Nicoll, Resident (Ward 3) with respect to commercialization of biological data utilizing Data Centres 1.",
+        "1 Letter dated September 16, 2026 from David Wojcik, President & CEO, Mississauga Board of Trade with respect to Data Centres and Digital Infrastructure Projects 1.",
+        "Letter to Mayor on Data Centre Digital Infrastructure."
       ],
       "relevant": true,
       "matchKind": "exact",
@@ -650,7 +654,7 @@
       "body": "Council Meeting",
       "title": "Council Meeting",
       "date": "2026-09-23",
-      "time": "7:00 PM",
+      "time": "5:30 PM",
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
@@ -660,7 +664,7 @@
         "attend": true,
         "deputations": true,
         "registerBy": null,
-        "notes": "May include a closed session — public items only."
+        "notes": ""
       },
       "links": {
         "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=ab8d011f-3e47-459a-8fee-74f31a3a6a3a",
@@ -1203,7 +1207,7 @@
       "title": "Council Meeting",
       "date": "2026-09-29",
       "time": "3:00 PM",
-      "location": "Hybrid / Council Chamber",
+      "location": "CANCELLED",
       "status": "upcoming",
       "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
@@ -1480,6 +1484,70 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-cd7c9554-420a-44",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Committee of Adjustment - Panel 2",
+      "title": "Committee of Adjustment - Panel 2",
+      "date": "2026-10-06",
+      "time": "1:00 PM",
+      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=cd7c9554-420a-4438-a5c3-5cb75cc6c498",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=cd7c9554-420a-4438-a5c3-5cb75cc6c498"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-216c2621-5155-46",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Committee of Adjustment - Panel 3",
+      "title": "Committee of Adjustment - Panel 3",
+      "date": "2026-10-06",
+      "time": "9:00 AM",
+      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=216c2621-5155-4690-b624-96a8cd2d60ee",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=216c2621-5155-4690-b624-96a8cd2d60ee"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -1772,7 +1840,7 @@
       "curated": false
     },
     {
-      "id": "ottawa-74228ec5-ebec-45",
+      "id": "ottawa-f282702d-17f6-4d",
       "municipality": "City of Ottawa",
       "municipalityId": "ottawa",
       "body": "City Council",
@@ -1791,8 +1859,8 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=74228ec5-ebec-454c-accd-750d2e1d4d87",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=74228ec5-ebec-454c-accd-750d2e1d4d87"
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=f282702d-17f6-4d5c-9aed-2c251ef14ef9",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=f282702d-17f6-4d5c-9aed-2c251ef14ef9"
       },
       "keywordsMatched": [],
       "snippets": [],
