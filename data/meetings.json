@@ -142,7 +142,7 @@
       "name": "City of London",
       "type": "escribe",
       "ok": true,
-      "meetings": 0,
+      "meetings": 1,
       "calendarUrl": "https://pub-london.escribemeetings.com",
       "note": ""
     },
@@ -922,13 +922,13 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=50ece9fa-2662-4ba0-b15c-48cc1e2c3bf8",
@@ -939,7 +939,39 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "london-b16c0f5c-465d-42",
+      "municipality": "City of London",
+      "municipalityId": "london",
+      "body": "Planning and Environment Committee",
+      "title": "Planning and Environment Committee",
+      "date": "2026-09-29",
+      "time": "1:00 PM",
+      "location": "Council Chambers - Please check the City website for additional meeting detail information.",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=b16c0f5c-465d-421f-a042-658b33eddaae",
+        "agenda": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=b16c0f5c-465d-421f-a042-658b33eddaae"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
