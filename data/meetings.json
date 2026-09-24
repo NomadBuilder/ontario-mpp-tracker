@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-23",
+  "asOf": "2026-09-24",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 7,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 26,
+      "meetings": 25,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -25,7 +25,7 @@
       "name": "City of Brampton",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 7,
       "calendarUrl": "https://pub-brampton.escribemeetings.com",
       "note": ""
     },
@@ -61,7 +61,7 @@
       "name": "City of Richmond Hill",
       "type": "escribe",
       "ok": true,
-      "meetings": 10,
+      "meetings": 9,
       "calendarUrl": "https://pub-richmondhill.escribemeetings.com",
       "note": ""
     },
@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 16,
+      "meetings": 15,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 7,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -169,7 +169,7 @@
       "name": "Region of Waterloo",
       "type": "escribe",
       "ok": true,
-      "meetings": 9,
+      "meetings": 8,
       "calendarUrl": "https://pub-regionofwaterloo.escribemeetings.com",
       "note": ""
     },
@@ -342,182 +342,7 @@
         "datacentre": "exact"
       },
       "matchKind": "exact",
-      "agendaStatus": "posted",
-      "snippets": [
-        "5 Flora Aguilar, Vaughan Stop The Datacentre 7.",
-        "[EXTERNAL] Vote no to Data Centers in Mississauga!",
-        "Bredeson, Executive Correspondence Officer regarding major digital infrastructure and artificial intelligence data centres 1."
-      ]
-    },
-    {
-      "id": "brampton-e7426af4-47fb-4b",
-      "municipality": "City of Brampton",
-      "municipalityId": "brampton",
-      "body": "City Council",
-      "title": "City Council",
-      "date": "2026-09-23",
-      "time": "9:30 AM",
-      "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=e7426af4-47fb-4bd1-a155-80a5d47037c9",
-        "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=e7426af4-47fb-4bd1-a155-80a5d47037c9"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "kitchener-c5ee9a1f-6342-4e",
-      "municipality": "City of Kitchener",
-      "municipalityId": "kitchener",
-      "body": "Economic Development Advisory Committee",
-      "title": "Economic Development Advisory Committee",
-      "date": "2026-09-23",
-      "time": "11:00 AM",
-      "location": "Schmalz Room - Second Floor City Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=c5ee9a1f-6342-4e2c-b314-42e0711dc196",
-        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=c5ee9a1f-6342-4e2c-b314-42e0711dc196"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "mississauga-ee52c3af-e5d7-4e",
-      "municipality": "City of Mississauga",
-      "municipalityId": "mississauga",
-      "body": "General Committee",
-      "title": "General Committee",
-      "date": "2026-09-23",
-      "time": "9:30 AM",
-      "location": "Council Chambers, Civic Centre, 2nd Floor",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "5 Matthew Nicoll, Resident (Ward 3) with respect to commercialization of biological data utilizing Data Centres 1.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": "calling 90",
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=ee52c3af-e5d7-4efd-a2e1-0f0210886cc7",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=ee52c3af-e5d7-4efd-a2e1-0f0210886cc7"
-      },
-      "keywordsMatched": [
-        "data centres",
-        "digital infrastructure",
-        "data centre"
-      ],
-      "snippets": [
-        "5 Matthew Nicoll, Resident (Ward 3) with respect to commercialization of biological data utilizing Data Centres 1.",
-        "1 Letter dated September 16, 2026 from David Wojcik, President & CEO, Mississauga Board of Trade with respect to Data Centres and Digital Infrastructure Projects 1.",
-        "Letter to Mayor on Data Centre Digital Infrastructure."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "ottawa-de879260-e75d-4f",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "City Council",
-      "title": "City Council",
-      "date": "2026-09-23",
-      "time": "10:00 AM",
-      "location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=de879260-e75d-4f74-b0b7-4c8d8cbde996",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=de879260-e75d-4f74-b0b7-4c8d8cbde996"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "regionofwaterloo-ab8d011f-3e47-45",
-      "municipality": "Region of Waterloo",
-      "municipalityId": "regionofwaterloo",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-09-23",
-      "time": "5:30 PM",
-      "location": "Council Chambers",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=ab8d011f-3e47-459a-8fee-74f31a3a6a3a",
-        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=ab8d011f-3e47-459a-8fee-74f31a3a6a3a"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
+      "agendaStatus": "posted"
     },
     {
       "id": "mississauga-05213a90-4f89-4e",
@@ -1018,13 +843,13 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
+        "deputations": true,
+        "registerBy": "calling 90",
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=98c0b015-30f6-404b-bb34-91ce0423684a",
@@ -1035,7 +860,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -6290,85 +6115,6 @@
       "agendaStatus": "posted"
     },
     {
-      "id": "richmondhill-c33c3473-5bc5-4f",
-      "municipality": "City of Richmond Hill",
-      "municipalityId": "richmondhill",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-09-16",
-      "time": "9:30 AM",
-      "location": "Council Chambers",
-      "status": "past",
-      "cancelled": false,
-      "issue": "011 - 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited - (CW Item 11.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=c33c3473-5bc5-4f05-9db1-296c013cbcef",
-        "agenda": "https://pub-richmondhill.escribemeetings.com/Meeting.aspx?Id=c33c3473-5bc5-4f05-9db1-296c013cbcef"
-      },
-      "keywordsMatched": [
-        "urbacon"
-      ],
-      "snippets": [
-        "011 - 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited - (CW Item 11.",
-        "11.5) a) That staff report SRIES.26.011 regarding 19T-06006 Authorize Land Conveyance to Urbacon Properties Limited, be received; b) That lands described as part of Block 15, Plan 65M-4114, more particularly described as Part 4 on Plan",
-        "5, Plan 65M-4114, more particularly described as Part 4 on Plan 65R-41938, be conveyed to Urbacon Properties Limited for nominal consideration subject to Urbacon Properties Limited paying all costs related to the transfer and registratio"
-      ],
-      "relevant": true,
-      "matchKind": "broad",
-      "topics": {
-        "datacentre": "broad"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "oakville-4ad1163a-6f12-4d",
-      "municipality": "Town of Oakville",
-      "municipalityId": "oakville",
-      "body": "Council Information Packages",
-      "title": "Council Information Packages",
-      "date": "2026-09-16",
-      "time": "9:00 AM",
-      "location": "",
-      "status": "past",
-      "cancelled": false,
-      "issue": "2 AMO Policy - Data Centres and Building Code Review - September 15, 2026 1.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": false,
-        "deputations": false,
-        "registerBy": null,
-        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
-      },
-      "links": {
-        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=4ad1163a-6f12-4dc0-8ffa-cfca7b7b4920",
-        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=4ad1163a-6f12-4dc0-8ffa-cfca7b7b4920"
-      },
-      "keywordsMatched": [
-        "data centres"
-      ],
-      "snippets": [
-        "2 AMO Policy - Data Centres and Building Code Review - September 15, 2026 1.",
-        "AMO Policy - Data Centres and Building Code Review - September 15, 2026."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "stthomas-5e7b0242-00a4-4e",
       "municipality": "City of St. Thomas",
       "municipalityId": "stthomas",
@@ -6400,6 +6146,48 @@
         "e Proposed Interim Control By-law – Data Centres, Enterprise Computing Facilities and Similar High-Intensity Digital Processing Facilities 1.",
         "Interim Control By-law - Data Centres.",
         "A by-law to enact an interim control by-law to prohibit the use of land, buildings or structures for the purpose of new data centres, enterprise computing facilities and similar high-intensity digital processing facilities."
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "topics": {
+        "datacentre": "exact"
+      },
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "mississauga-ee52c3af-e5d7-4e",
+      "municipality": "City of Mississauga",
+      "municipalityId": "mississauga",
+      "body": "General Committee",
+      "title": "General Committee",
+      "date": "2026-09-23",
+      "time": "9:30 AM",
+      "location": "Council Chambers, Civic Centre, 2nd Floor",
+      "status": "past",
+      "cancelled": false,
+      "issue": "5 Matthew Nicoll, Resident (Ward 3) with respect to commercialization of biological data utilizing Data Centres 1.",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": "calling 90",
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=ee52c3af-e5d7-4efd-a2e1-0f0210886cc7",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=ee52c3af-e5d7-4efd-a2e1-0f0210886cc7"
+      },
+      "keywordsMatched": [
+        "data centres",
+        "digital infrastructure",
+        "data centre"
+      ],
+      "snippets": [
+        "5 Matthew Nicoll, Resident (Ward 3) with respect to commercialization of biological data utilizing Data Centres 1.",
+        "1 Letter dated September 16, 2026 from David Wojcik, President & CEO, Mississauga Board of Trade with respect to Data Centres and Digital Infrastructure Projects 1.",
+        "Letter to Mayor on Data Centre Digital Infrastructure."
       ],
       "relevant": true,
       "matchKind": "exact",
