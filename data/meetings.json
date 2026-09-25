@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 7,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 25,
+      "meetings": 24,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -70,7 +70,7 @@
       "name": "Town of Milton",
       "type": "escribe",
       "ok": true,
-      "meetings": 3,
+      "meetings": 2,
       "calendarUrl": "https://pub-milton.escribemeetings.com",
       "note": ""
     },
@@ -232,7 +232,7 @@
       "name": "York Region",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 1,
       "calendarUrl": "https://yorkpublishing.escribemeetings.com/",
       "note": "Official agendas also at york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
     },
@@ -343,174 +343,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "mississauga-05213a90-4f89-4e",
-      "municipality": "City of Mississauga",
-      "municipalityId": "mississauga",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-09-24",
-      "time": "1:00 PM",
-      "location": "Council Chambers, Civic Centre, 2nd Floor",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=05213a90-4f89-4e7f-8473-4e5dc3135ecd",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=05213a90-4f89-4e7f-8473-4e5dc3135ecd"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "ottawa-0480f8e6-a0a9-40",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Public Works and Infrastructure Committee",
-      "title": "Public Works and Infrastructure Committee",
-      "date": "2026-09-24",
-      "time": "9:30 AM",
-      "location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=0480f8e6-a0a9-40a0-989f-6b42d7cb81d9",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=0480f8e6-a0a9-40a0-989f-6b42d7cb81d9"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "peel-region-ce5cb63f-093a-45",
-      "municipality": "Region of Peel",
-      "municipalityId": "peel-region",
-      "body": "Regional Council",
-      "title": "Regional Council",
-      "date": "2026-09-24",
-      "time": "9:30 AM",
-      "location": "Council Chamber, 5th Floor",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "3 Peel Region Comments on the Provincial Economic and Strategic Assessment Framework for New Data Centres 1.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=ce5cb63f-093a-4588-90cb-eab8d8ca9b41",
-        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=ce5cb63f-093a-4588-90cb-eab8d8ca9b41"
-      },
-      "keywordsMatched": [
-        "data centres"
-      ],
-      "snippets": [
-        "3 Peel Region Comments on the Provincial Economic and Strategic Assessment Framework for New Data Centres 1.",
-        "Peel Region Comments on the Provincial Economic and Strategic Assessment Framework for New Data Centres.",
-        "Appendix I – Response to Economic and Strategic Assessment Framework for New Data Centres (ERO 026-0853)."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "milton-3d8923c4-6c5c-46",
-      "municipality": "Town of Milton",
-      "municipalityId": "milton",
-      "body": "Committee of Adjustment and Consent",
-      "title": "Committee of Adjustment and Consent",
-      "date": "2026-09-24",
-      "time": "6:00 PM",
-      "location": "Council Chambers - In Person",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=3d8923c4-6c5c-4649-8c0d-d0d05eb26f4a",
-        "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=3d8923c4-6c5c-4649-8c0d-d0d05eb26f4a"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "york-region-f8f759a6-b385-44",
-      "municipality": "York Region",
-      "municipalityId": "york-region",
-      "body": "Regional Council",
-      "title": "Regional Council",
-      "date": "2026-09-24",
-      "time": "9:00 AM",
-      "location": "Electronic and In-Person Meeting",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://yorkpublishing.escribemeetings.com/Meeting.aspx?Id=f8f759a6-b385-444a-998a-b8221ca61454",
-        "agenda": "https://yorkpublishing.escribemeetings.com/Meeting.aspx?Id=f8f759a6-b385-444a-998a-b8221ca61454"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "york-region-095a3d26-af4f-46",
@@ -651,11 +483,11 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -668,7 +500,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1067,13 +899,13 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=5f716091-ed96-4329-b90f-3eb40b44bb8a",
@@ -1084,7 +916,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -6099,7 +5931,8 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
+        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
       },
       "keywordsMatched": [
         "data centre"
@@ -6347,6 +6180,46 @@
         "5 Matthew Nicoll, Resident (Ward 3) with respect to commercialization of biological data utilizing Data Centres 1.",
         "1 Letter dated September 16, 2026 from David Wojcik, President & CEO, Mississauga Board of Trade with respect to Data Centres and Digital Infrastructure Projects 1.",
         "Letter to Mayor on Data Centre Digital Infrastructure."
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "topics": {
+        "datacentre": "exact"
+      },
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "peel-region-ce5cb63f-093a-45",
+      "municipality": "Region of Peel",
+      "municipalityId": "peel-region",
+      "body": "Regional Council",
+      "title": "Regional Council",
+      "date": "2026-09-24",
+      "time": "9:30 AM",
+      "location": "Council Chamber, 5th Floor",
+      "status": "past",
+      "cancelled": false,
+      "issue": "3 Peel Region Comments on the Provincial Economic and Strategic Assessment Framework for New Data Centres 1.",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=ce5cb63f-093a-4588-90cb-eab8d8ca9b41",
+        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=ce5cb63f-093a-4588-90cb-eab8d8ca9b41"
+      },
+      "keywordsMatched": [
+        "data centres"
+      ],
+      "snippets": [
+        "3 Peel Region Comments on the Provincial Economic and Strategic Assessment Framework for New Data Centres 1.",
+        "Peel Region Comments on the Provincial Economic and Strategic Assessment Framework for New Data Centres.",
+        "Appendix I – Response to Economic and Strategic Assessment Framework for New Data Centres (ERO 026-0853)."
       ],
       "relevant": true,
       "matchKind": "exact",
