@@ -34,7 +34,7 @@
       "name": "City of Hamilton",
       "type": "escribe",
       "ok": true,
-      "meetings": 12,
+      "meetings": 13,
       "calendarUrl": "https://pub-hamilton.escribemeetings.com",
       "note": ""
     },
@@ -88,7 +88,7 @@
       "name": "Town of Halton Hills",
       "type": "escribe",
       "ok": true,
-      "meetings": 3,
+      "meetings": 4,
       "calendarUrl": "https://pub-haltonhills.escribemeetings.com",
       "note": ""
     },
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 7,
+      "meetings": 8,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -345,6 +345,38 @@
       "agendaStatus": "posted"
     },
     {
+      "id": "hamilton-1d8a9573-e38d-47",
+      "municipality": "City of Hamilton",
+      "municipalityId": "hamilton",
+      "body": "Council&#39;s Weekly Correspondence Listing",
+      "title": "Council&#39;s Weekly Correspondence Listing",
+      "date": "2026-09-25",
+      "time": "12:00 PM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1d8a9573-e38d-4728-bea0-169fe6feb218",
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1d8a9573-e38d-4728-bea0-169fe6feb218"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "york-region-095a3d26-af4f-46",
       "municipality": "York Region",
       "municipalityId": "york-region",
@@ -377,6 +409,38 @@
       "curated": false
     },
     {
+      "id": "kitchener-f2096757-a86f-46",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Special Council Meeting",
+      "title": "Special Council Meeting",
+      "date": "2026-09-28",
+      "time": "4:00 PM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=f2096757-a86f-46b6-9928-932dce536494",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=f2096757-a86f-46b6-9928-932dce536494"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "kitchener-c2dd9b54-c6de-44",
       "municipality": "City of Kitchener",
       "municipalityId": "kitchener",
@@ -387,11 +451,11 @@
       "location": "Council Chambers - Hybrid",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -404,7 +468,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -419,6 +483,38 @@
       "location": "Council Chamber, City Hall",
       "status": "upcoming",
       "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=ea5358b0-5b96-4b15-be7b-0db8fb733f7c",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=ea5358b0-5b96-4b15-be7b-0db8fb733f7c"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "haltonhills-dcbb7952-8a3e-44",
+      "municipality": "Town of Halton Hills",
+      "municipalityId": "haltonhills",
+      "body": "Special Council",
+      "title": "Special Council",
+      "date": "2026-09-28",
+      "time": "11:30 AM",
+      "location": "VIA Zoom Meeting",
+      "status": "upcoming",
+      "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
@@ -428,8 +524,8 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=ea5358b0-5b96-4b15-be7b-0db8fb733f7c",
-        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=ea5358b0-5b96-4b15-be7b-0db8fb733f7c"
+        "meeting": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=dcbb7952-8a3e-4413-a5cb-ae4254321b2c",
+        "agenda": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=dcbb7952-8a3e-4413-a5cb-ae4254321b2c"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -515,11 +611,11 @@
       "location": "Council Chambers, Brantford City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -532,7 +628,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -547,7 +643,7 @@
       "location": "Charlie Ward Room, Brantford City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -564,7 +660,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1407,7 +1503,7 @@
       "body": "City Council",
       "title": "City Council",
       "date": "2026-10-08",
-      "time": "10:00 AM",
+      "time": "1:00 PM",
       "location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
       "status": "upcoming",
       "cancelled": false,
