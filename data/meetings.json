@@ -451,13 +451,13 @@
       "location": "VIA Zoom Meeting",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=dcbb7952-8a3e-4413-a5cb-ae4254321b2c",
@@ -468,7 +468,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -707,8 +707,8 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "issue": "2 A Notice of Motion regarding establish a Hyperscale Data Centre Task Force (Councillor McFadden) 1.",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
       "participate": {
         "attend": true,
         "deputations": true,
@@ -719,11 +719,19 @@
         "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=98c0b015-30f6-404b-bb34-91ce0423684a",
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=98c0b015-30f6-404b-bb34-91ce0423684a"
       },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
+      "keywordsMatched": [
+        "hyperscale",
+        "data centre"
+      ],
+      "snippets": [
+        "2 A Notice of Motion regarding establish a Hyperscale Data Centre Task Force (Councillor McFadden) 1.",
+        "NOTICE OF MOTION - data centre task force fnl."
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "topics": {
+        "datacentre": "exact"
+      },
       "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
