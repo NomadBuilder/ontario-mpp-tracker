@@ -142,7 +142,7 @@
       "name": "City of London",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 2,
       "calendarUrl": "https://pub-london.escribemeetings.com",
       "note": ""
     },
@@ -831,6 +831,38 @@
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=833e1899-b351-4a26-bdd8-62816c6d2980",
         "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=833e1899-b351-4a26-bdd8-62816c6d2980"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "london-ec4b5612-2b91-41",
+      "municipality": "City of London",
+      "municipalityId": "london",
+      "body": "Infrastructure and Corporate Services Committee",
+      "title": "Infrastructure and Corporate Services Committee",
+      "date": "2026-10-05",
+      "time": "1:00 PM",
+      "location": "Council Chambers - Please check the City website for additional meeting detail information.",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=ec4b5612-2b91-41ab-8152-918551c89d07",
+        "agenda": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=ec4b5612-2b91-41ab-8152-918551c89d07"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -5884,7 +5916,8 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
+        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
       },
       "keywordsMatched": [
         "data centre"
