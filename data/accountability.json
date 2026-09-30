@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-30",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-doug-ford-says-ontario-taxpayers-will-invest-in--2026-09-29",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford says Ontario taxpayers will invest in proposed pipeline from Alberta to Sarnia - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbzNrYUJkaWRsMVlZMHlMSTJwVF9fcEM4ZW9KTE8teDI1VXBnaWpLVHkzMGNGYzVqaEVzd00yS3h2amxCUHRjcFVERHdxRjdiX21wUGN4SGwtcmNPSm1aaXZrWEtHWERSYkZhRVFkMGJoSHE4eklmb25aT2VKbkd3bnl5U1FmcHV1MGY2NjBEdWUycDdRcW56RzFGWHZNc3hVMnRjUzJWOTZMeXBUaGIwU0R5V1dSWld5Vm4yclNmMDRSSmdzaFFVWEg3ckVoN0lIUUxJdExTaFNDcEM0RWViVEhQSWJDd1JiN29FY1hNT3ZVMURKbFluSVRtb2ZMUjNub09MMFJ1bEw2NDRhT18w?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-09-29",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-stan-cho-scott-stinson-ontario-mpp-in-new-spending-contro-2026-07-20",
       "mppNames": [
@@ -1589,19 +1602,6 @@
       "source": "castanet.net",
       "date": "2026-07-17",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-neil-lumsden-ontario-cabinet-minister-resigns-in-hotel-expens-2026-07-17",
-      "mppNames": [
-        "Neil Lumsden"
-      ],
-      "title": "Ontario cabinet minister resigns in hotel expense saga - insauga.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcWZuWmI3TFdHVzJ5ejN1VkJ0NDRxcmlrdzBvOFdEOWtpYVNSWVFIU2haZjVlUnl3WDVXWThFUDFkZTZTTUxLckNKS0dEYUJteXlQT3JKNHdEUlNGTW0ydmpqaXp6NC11NkhFYjlGZTZoTHV4aVZ0dFlQWmxjR2dtZGdaU3VzUQ?oc=5",
-      "source": "insauga.com",
-      "date": "2026-07-17",
-      "type": "expenses",
       "status": "reported"
     }
   ]
