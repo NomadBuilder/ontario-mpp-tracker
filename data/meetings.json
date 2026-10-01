@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 14,
+      "meetings": 15,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -441,6 +441,38 @@
       "curated": false
     },
     {
+      "id": "oakville-3283d80e-839d-4a",
+      "municipality": "Town of Oakville",
+      "municipalityId": "oakville",
+      "body": "Council Information Packages",
+      "title": "Council Information Packages",
+      "date": "2026-10-01",
+      "time": "9:00 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": false,
+        "deputations": false,
+        "registerBy": null,
+        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
+      },
+      "links": {
+        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=3283d80e-839d-4af5-84af-f9dcc23577dc",
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=3283d80e-839d-4af5-84af-f9dcc23577dc"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "hamilton-833e1899-b351-4a",
       "municipality": "City of Hamilton",
       "municipalityId": "hamilton",
@@ -547,7 +579,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -564,7 +596,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -992,7 +1024,7 @@
       "title": "Committee of Adjustment",
       "date": "2026-10-08",
       "time": "6:00 PM",
-      "location": "Committee Rooms 242/243",
+      "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",

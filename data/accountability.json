@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-iris-gorfinkel-how-ontario-s-private-clinics-are-2026-10-01",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Iris Gorfinkel: How Ontario’s private clinics are draining taxpayer dollars and staff from public health care - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOR0lxenZIeGw3QUNPOVU2eHRRS3V3ZUpLdFo2WGxSM2FZb3JlU0NULW5CUWpuNGVmTlF6bE5QbXpYY2pjR0R1eEZRUzNfaUFlNnZDNDV1eHZ4MGxIN1ZtZUZ2a3MwLWVwcXJhek5reUQxYlp0Nl9fTWVGUkZRSWVpc2pGUFJpbWwxOWpCTzd3d1Jfa2lnXzZfMHZidlVZOHBkM0Y1NkV1QmRncmxMSldETUpnRHJJcGM1cWNLR3ZWeVdjNncxNjI5QXRFdlJDdmNUT3U4d2hQaTFULWtidXVGaDBpaVM0V3JGU256dEtmOGNoN3Z5anZPRVluaFo3NV9fRmI4eUYxY1hnd09fbE1DNg?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-10-01",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-doug-ford-says-ontario-taxpayers-will-invest-in--2026-09-29",
       "mppNames": [
         "Doug Ford"
@@ -1589,19 +1602,6 @@
       "source": "chch.com",
       "date": "2026-07-17",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-mike-harris-ontario-crews-battling-about-190-wildfires-half--2026-07-17",
-      "mppNames": [
-        "Mike Harris"
-      ],
-      "title": "Ontario crews battling about 190 wildfires, half out of control: officials - castanet.net",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX1NFOEFpTUdpcWRzRjF4VURSWjVQeEVzNnBOWjZoNGkxSW5RQms4UFNNOHczQkhlczZLZ2VoZVNQR0ljREZURFA0aWpuZXNiR1pOZ0QzbWZjNWVMNFpvdGx2UG1KZWNJVlgwX1FmdTB3UkZrcS1UTjh0R1F4dHpTclh5WE02R0hBWno3YnFvSG1YLXZtc3pKcEp4cUNFWEI0QnY0QldvVmFOZXNZRTgyN3VBRVk1TjQ?oc=5",
-      "source": "castanet.net",
-      "date": "2026-07-17",
-      "type": "news",
       "status": "reported"
     }
   ]
