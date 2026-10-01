@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-30",
+  "asOf": "2026-10-01",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 25,
+      "meetings": 24,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -124,7 +124,7 @@
       "name": "Town of Newmarket",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 0,
       "calendarUrl": "https://pub-newmarket.escribemeetings.com",
       "note": ""
     },
@@ -214,7 +214,7 @@
       "name": "City of Stratford",
       "type": "escribe",
       "ok": true,
-      "meetings": 5,
+      "meetings": 4,
       "calendarUrl": "https://pub-stratford.escribemeetings.com",
       "note": ""
     },
@@ -343,70 +343,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "stratford-8e71fab5-e31b-4a",
-      "municipality": "City of Stratford",
-      "municipalityId": "stratford",
-      "body": "Infrastructure, Transportation and Safety Sub-committee",
-      "title": "Infrastructure, Transportation and Safety Sub-committee",
-      "date": "2026-09-30",
-      "time": "4:30 PM",
-      "location": "Council Chamber, City Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=8e71fab5-e31b-4a4b-9b5f-5e2d27a4baca",
-        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=8e71fab5-e31b-4a4b-9b5f-5e2d27a4baca"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "newmarket-70d3b941-1dea-4b",
-      "municipality": "Town of Newmarket",
-      "municipalityId": "newmarket",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-09-30",
-      "time": "9:30 AM",
-      "location": "Electronic VIA ZOOM",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=70d3b941-1dea-4b5b-a018-6d6ef254844b",
-        "agenda": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=70d3b941-1dea-4b5b-a018-6d6ef254844b"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "brantford-e1cbe0a8-46e0-4a",
@@ -5785,48 +5721,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "mississauga-ee52c3af-e5d7-4e",
-      "municipality": "City of Mississauga",
-      "municipalityId": "mississauga",
-      "body": "General Committee",
-      "title": "General Committee",
-      "date": "2026-09-23",
-      "time": "9:30 AM",
-      "location": "Council Chambers, Civic Centre, 2nd Floor",
-      "status": "past",
-      "cancelled": false,
-      "issue": "5 Matthew Nicoll, Resident (Ward 3) with respect to commercialization of biological data utilizing Data Centres 1.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": "calling 90",
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=ee52c3af-e5d7-4efd-a2e1-0f0210886cc7",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=ee52c3af-e5d7-4efd-a2e1-0f0210886cc7"
-      },
-      "keywordsMatched": [
-        "data centres",
-        "digital infrastructure",
-        "data centre"
-      ],
-      "snippets": [
-        "5 Matthew Nicoll, Resident (Ward 3) with respect to commercialization of biological data utilizing Data Centres 1.",
-        "1 Letter dated September 16, 2026 from David Wojcik, President & CEO, Mississauga Board of Trade with respect to Data Centres and Digital Infrastructure Projects 1.",
-        "Letter to Mayor on Data Centre Digital Infrastructure."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "peel-region-ce5cb63f-093a-45",
