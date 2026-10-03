@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-02",
+  "asOf": "2026-10-03",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -866,6 +866,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-neil-lumsden-political-analyst-speaks-on-outlook-of-ontario-b-2026-07-24",
+      "mppNames": [
+        "Neil Lumsden"
+      ],
+      "title": "Political analyst speaks on outlook of Ontario byelections in wake of hotel scandal - chch.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSk85M2tNM1NjVm1TRzZ4cXpPRnZFV21DRmpZN1RJSG5aekNpSF81d0E2MTlIVWtWa0tjNkpzeFhWLVF5ZUV4bURHMVotUDlfd1hRUGJNbTk1ZnFWU2pJN1VfeUxKYnZWWEhsdzBBZkNOUVBBQ2VfdmZqQnJiSVdJREVSRXE4eGRIZDRXUV8xczdJYnRRWnZ3cTNCVkUzWVhPdlRubEt2T1pYYl9tUHl3YlpfYWs2Zw?oc=5",
+      "source": "chch.com",
+      "date": "2026-07-27",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-kevin-holland-wildfire-response-fuels-protest-outside-mpp-holl-2026-07-25",
       "mppNames": [
         "Kevin Holland"
@@ -993,19 +1006,6 @@
       "source": "theglobeandmail.com",
       "date": "2026-07-24",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-neil-lumsden-political-analyst-speaks-on-outlook-of-ontario-b-2026-07-24",
-      "mppNames": [
-        "Neil Lumsden"
-      ],
-      "title": "Political analyst speaks on outlook of Ontario byelections in wake of hotel scandal - chch.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSk85M2tNM1NjVm1TRzZ4cXpPRnZFV21DRmpZN1RJSG5aekNpSF81d0E2MTlIVWtWa0tjNkpzeFhWLVF5ZUV4bURHMVotUDlfd1hRUGJNbTk1ZnFWU2pJN1VfeUxKYnZWWEhsdzBBZkNOUVBBQ2VfdmZqQnJiSVdJREVSRXE4eGRIZDRXUV8xczdJYnRRWnZ3cTNCVkUzWVhPdlRubEt2T1pYYl9tUHl3YlpfYWs2Zw?oc=5",
-      "source": "chch.com",
-      "date": "2026-07-24",
-      "type": "expenses",
       "status": "reported"
     },
     {
@@ -1430,6 +1430,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-stan-cho-burns-84k-in-donor-cash-on-steak-dinner-2026-07-20",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Stan Cho burns $84K in donor cash on steak dinners, Jays games, luxury hotels - Queen's Park Observer",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NczhDVDlocUJKU0J0bXpPdFJNaWU5MnBhTGdnWEpYY3NYLTNPT0JGeVpEVUlLMzRWbjhFcl82bUE1X05XUWlOS1F2QjlseXNQR0hxTDlMaXJaR2gtWVlBRzQyeUNrdThVVlNGVw?oc=5",
+      "source": "Queen's Park Observer",
+      "date": "2026-07-20",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-stephen-crawford-toronto-area-pc-mpps-billed-taxpayers-over-100k--2026-07-14",
       "mppNames": [
         "Stephen Crawford",
@@ -1589,19 +1602,6 @@
       "source": "London Free Press",
       "date": "2026-07-17",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-neil-lumsden-ministers-cho-lumsden-leaving-ford-s-cabinet-ami-2026-07-17",
-      "mppNames": [
-        "Neil Lumsden"
-      ],
-      "title": "Ministers Cho, Lumsden leaving Ford’s cabinet amid hotel controversy - chch.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVUlsb3RWSmo0d3BYeHdJZHpiYWhNcDRtMm96VkQxQnVrMUJObEdWakdqa3d2SU1pbGsxenNpNjhmS251eGxQeHRBS2ExazhmWG42a3RMNkpOVFF3ai1HMWMwc0gxdlYyLVhJMTJ2ZGdfWm9WLS0tT253VjZLTjVaN21RYUVXZHFWa2pReGxfbHY1NDg?oc=5",
-      "source": "chch.com",
-      "date": "2026-07-17",
-      "type": "expenses",
       "status": "reported"
     }
   ]
