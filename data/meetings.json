@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-03",
+  "asOf": "2026-10-04",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 24,
+      "meetings": 25,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -5334,6 +5334,38 @@
       "topics": {},
       "agendaStatus": "posted",
       "source": "halton",
+      "curated": false
+    },
+    {
+      "id": "mississauga-edddc810-e336-49",
+      "municipality": "City of Mississauga",
+      "municipalityId": "mississauga",
+      "body": "Planning and Development Committee",
+      "title": "Planning and Development Committee",
+      "date": "2027-02-01",
+      "time": "1:30 PM",
+      "location": "300 City Centre Drive, Mississauga, Ontario, L5B 3C1",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=edddc810-e336-4917-82a5-331c0941b952",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=edddc810-e336-4917-82a5-331c0941b952"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
       "curated": false
     },
     {
