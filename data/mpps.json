@@ -9560,17 +9560,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Sylvia_Jones.jpeg",
       "profileUrl": "https://www.ola.org/en/members/all/sylvia-jones",
-      "expenses": {
-        "total": 5534.83,
-        "travel": 947.26,
-        "accommodation": 799.52,
-        "meals": 0.0,
-        "hospitality": 3788.05,
-        "claimCount": 19,
-        "periodCount": 7,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/sylvia-jones",
-        "asOf": "2026-10-05"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 213939.75,
         "benefits": 1227.49,
@@ -9738,17 +9728,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Trevor_Jones.png",
       "profileUrl": "https://www.ola.org/en/members/all/trevor-jones",
-      "expenses": {
-        "total": 22061.43,
-        "travel": 14878.95,
-        "accommodation": 1037.3,
-        "meals": 0.0,
-        "hospitality": 6145.18,
-        "claimCount": 102,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/trevor-jones",
-        "asOf": "2026-10-05"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 207700.79,
         "benefits": 1192.01,
@@ -9916,17 +9896,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/John_Jordan.png",
       "profileUrl": "https://www.ola.org/en/members/all/john-jordan",
-      "expenses": {
-        "total": 27543.3,
-        "travel": 19254.81,
-        "accommodation": 1082.5,
-        "meals": 0.0,
-        "hospitality": 7205.99,
-        "claimCount": 86,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/john-jordan",
-        "asOf": "2026-10-05"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171843.38,
         "benefits": 989.4,
@@ -10094,17 +10064,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Logan_Kanapathi.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/logan-kanapathi",
-      "expenses": {
-        "total": 82240.68,
-        "travel": 6435.7,
-        "accommodation": 1400.3,
-        "meals": 89.74,
-        "hospitality": 74314.94,
-        "claimCount": 142,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/logan-kanapathi",
-        "asOf": "2026-10-05"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 171655.87,
         "benefits": 988.16,

@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 25,
+      "meetings": 27,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -169,7 +169,7 @@
       "name": "Region of Waterloo",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 9,
       "calendarUrl": "https://pub-regionofwaterloo.escribemeetings.com",
       "note": ""
     },
@@ -214,7 +214,7 @@
       "name": "City of Stratford",
       "type": "escribe",
       "ok": true,
-      "meetings": 4,
+      "meetings": 3,
       "calendarUrl": "https://pub-stratford.escribemeetings.com",
       "note": ""
     },
@@ -537,13 +537,13 @@
       "curated": false
     },
     {
-      "id": "regionofwaterloo-8db45c35-d042-42",
+      "id": "regionofwaterloo-8844b486-24a2-40",
       "municipality": "Region of Waterloo",
       "municipalityId": "regionofwaterloo",
-      "body": "Sustainability, Infrastructure, and Development",
-      "title": "Sustainability, Infrastructure, and Development",
+      "body": "Special Council",
+      "title": "Special Council",
       "date": "2026-10-06",
-      "time": "9:00 AM",
+      "time": "3:00 PM",
       "location": "Council Chambers/Electronic",
       "status": "upcoming",
       "cancelled": false,
@@ -556,14 +556,52 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7",
-        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7"
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8844b486-24a2-40ab-8b48-4fbaf7c3bc8b",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8844b486-24a2-40ab-8b48-4fbaf7c3bc8b"
       },
       "keywordsMatched": [],
       "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "regionofwaterloo-8db45c35-d042-42",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Sustainability, Infrastructure, and Development",
+      "title": "Sustainability, Infrastructure, and Development",
+      "date": "2026-10-06",
+      "time": "9:00 AM",
+      "location": "Council Chambers/Electronic",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "3 Christina Lalic, Kitchener Re: Data Centre Water Use 9.",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7"
+      },
+      "keywordsMatched": [
+        "data centre"
+      ],
+      "snippets": [
+        "3 Christina Lalic, Kitchener Re: Data Centre Water Use 9."
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "topics": {
+        "datacentre": "exact"
+      },
       "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
@@ -917,38 +955,6 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "stratford-454cbc0e-4725-40",
-      "municipality": "City of Stratford",
-      "municipalityId": "stratford",
-      "body": "Regular Council",
-      "title": "Regular Council",
-      "date": "2026-10-13",
-      "time": "7:00 PM",
-      "location": "Council Chamber, City Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=454cbc0e-4725-400b-92b0-9489065c1dd6",
-        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=454cbc0e-4725-400b-92b0-9489065c1dd6"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5049,6 +5055,38 @@
       "curated": false
     },
     {
+      "id": "mississauga-6315c730-1891-4b",
+      "municipality": "City of Mississauga",
+      "municipalityId": "mississauga",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2027-01-14",
+      "time": "1:00 PM",
+      "location": "Council Chambers, Civic Centre, 2nd Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=6315c730-1891-4b09-bf5b-96f2d7489766",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=6315c730-1891-4b09-bf5b-96f2d7489766"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "oakville-3307b55f-a079-45",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -5238,6 +5276,38 @@
       "topics": {},
       "agendaStatus": "posted",
       "source": "halton",
+      "curated": false
+    },
+    {
+      "id": "mississauga-d047cecd-12a4-4a",
+      "municipality": "City of Mississauga",
+      "municipalityId": "mississauga",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2027-01-21",
+      "time": "1:00 PM",
+      "location": "Council Chambers, Civic Centre, 2nd Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=d047cecd-12a4-4a5e-8523-6eea5b3fdf2d",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=d047cecd-12a4-4a5e-8523-6eea5b3fdf2d"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
       "curated": false
     },
     {
@@ -5738,7 +5808,7 @@
       "participate": {
         "attend": true,
         "deputations": true,
-        "registerBy": "calling 90",
+        "registerBy": null,
         "notes": "May include a closed session — public items only."
       },
       "links": {
