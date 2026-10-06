@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-06",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-liberals-ask-auditor-general-to-investigate-osap-2026-10-05",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Liberals ask auditor general to investigate OSAP spending at private career colleges - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMzNwTXE3blB5ZnN4bVZfazFTZHhmX2FDUTJkZ2hsTkJ5VXd3MEplX0dleG4tSGhodWtYQWZpVDJxeGZRdHBLTms3N0dPQ3dzSjVxS2tXU1pBbnhzSVNhNm1OWC1ibWNFdE1VR1EteFV2eXpYWjNPVGkya1hXTnJFYXBZbk1Nbmp5SUdOYWFaQS1yY3RSVzdGelU4UVFrYzJLZVdMeXhKdExFVENwWFE?oc=5",
+      "source": "CBC",
+      "date": "2026-10-05",
+      "type": "investigation",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-iris-gorfinkel-how-ontario-s-private-clinics-are-2026-10-01",
       "mppNames": [
@@ -1589,19 +1602,6 @@
       "source": "torontolife.com",
       "date": "2026-07-17",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-not-in-our-dna-doug-ford-defends-party-s-reputat-2026-07-17",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "'Not in our DNA': Doug Ford defends party's reputation as minister resigns - London Free Press",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcWxwWHE3SGJOMGJKQkdJZ3FYejFWUnotVDBIdkdsZ0xXVUYySlpVU1Y4SVc2U2hUQ2xiU3RkTG9qbHNyN2dHZGZxMUgxdUNNSmZvcU5fdk1kS2gzOERNRVRWdE5GVWs5dU9uWmdEMDZ6TUtTVnRSZ013WFRLektTNmlNRDJ5Ylp3UnN3YjJ5WDVLbUd3c3VwRWJIaHRMckJLNTJla183OA?oc=5",
-      "source": "London Free Press",
-      "date": "2026-07-17",
-      "type": "news",
       "status": "reported"
     }
   ]
