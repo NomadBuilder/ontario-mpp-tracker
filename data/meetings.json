@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-07",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 6,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -43,7 +43,7 @@
       "name": "City of Vaughan",
       "type": "escribe",
       "ok": true,
-      "meetings": 19,
+      "meetings": 18,
       "calendarUrl": "https://pub-vaughan.escribemeetings.com",
       "note": ""
     },
@@ -169,7 +169,7 @@
       "name": "Region of Waterloo",
       "type": "escribe",
       "ok": true,
-      "meetings": 9,
+      "meetings": 8,
       "calendarUrl": "https://pub-regionofwaterloo.escribemeetings.com",
       "note": ""
     },
@@ -345,140 +345,6 @@
       "agendaStatus": "posted"
     },
     {
-      "id": "ottawa-cd7c9554-420a-44",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Committee of Adjustment - Panel 2",
-      "title": "Committee of Adjustment - Panel 2",
-      "date": "2026-10-06",
-      "time": "1:00 PM",
-      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=cd7c9554-420a-4438-a5c3-5cb75cc6c498",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=cd7c9554-420a-4438-a5c3-5cb75cc6c498"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "ottawa-216c2621-5155-46",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Committee of Adjustment - Panel 3",
-      "title": "Committee of Adjustment - Panel 3",
-      "date": "2026-10-06",
-      "time": "9:00 AM",
-      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=216c2621-5155-4690-b624-96a8cd2d60ee",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=216c2621-5155-4690-b624-96a8cd2d60ee"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "regionofwaterloo-8844b486-24a2-40",
-      "municipality": "Region of Waterloo",
-      "municipalityId": "regionofwaterloo",
-      "body": "Special Council",
-      "title": "Special Council",
-      "date": "2026-10-06",
-      "time": "3:00 PM",
-      "location": "Council Chambers/Electronic",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8844b486-24a2-40ab-8b48-4fbaf7c3bc8b",
-        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8844b486-24a2-40ab-8b48-4fbaf7c3bc8b"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "regionofwaterloo-8db45c35-d042-42",
-      "municipality": "Region of Waterloo",
-      "municipalityId": "regionofwaterloo",
-      "body": "Sustainability, Infrastructure, and Development",
-      "title": "Sustainability, Infrastructure, and Development",
-      "date": "2026-10-06",
-      "time": "9:00 AM",
-      "location": "Council Chambers/Electronic",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "3 Christina Lalic, Kitchener Re: Data Centre Water Use 9.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7",
-        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7"
-      },
-      "keywordsMatched": [
-        "data centre"
-      ],
-      "snippets": [
-        "3 Christina Lalic, Kitchener Re: Data Centre Water Use 9."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "hamilton-185693f5-0e68-43",
       "municipality": "City of Hamilton",
       "municipalityId": "hamilton",
@@ -489,13 +355,13 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=185693f5-0e68-43aa-a90f-1ceb3c732ddc",
@@ -506,7 +372,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1023,38 +889,6 @@
       "curated": false
     },
     {
-      "id": "ottawa-243db89a-9889-4e",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Committee of Adjustment - Panel 3",
-      "title": "Committee of Adjustment - Panel 3",
-      "date": "2026-10-20",
-      "time": "9:00 AM",
-      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=243db89a-9889-4e18-9a2c-212137b70b15",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=243db89a-9889-4e18-9a2c-212137b70b15"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "ottawa-20539736-16ed-40",
       "municipality": "City of Ottawa",
       "municipalityId": "ottawa",
@@ -1076,6 +910,38 @@
       "links": {
         "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=20539736-16ed-409c-b60e-7e44c89a08b9",
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=20539736-16ed-409c-b60e-7e44c89a08b9"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-243db89a-9889-4e",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Committee of Adjustment - Panel 3",
+      "title": "Committee of Adjustment - Panel 3",
+      "date": "2026-10-20",
+      "time": "9:00 AM",
+      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=243db89a-9889-4e18-9a2c-212137b70b15",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=243db89a-9889-4e18-9a2c-212137b70b15"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -5446,7 +5312,7 @@
       "title": "Council",
       "date": "2027-02-03",
       "time": "9:30 AM",
-      "location": "300 City Centre Drive, Mississauga, Ontario, L5B 3C1",
+      "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
@@ -5478,7 +5344,7 @@
       "title": "Committee of the Whole (Working Session)",
       "date": "2027-02-03",
       "time": "1:00 PM",
-      "location": "2nd Floor, Vaughan City Hall",
+      "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
@@ -5499,6 +5365,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "mississauga-b507e963-39c1-45",
+      "municipality": "City of Mississauga",
+      "municipalityId": "mississauga",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2027-02-04",
+      "time": "1:00 PM",
+      "location": "300 City Centre Drive, Mississauga, Ontario, L5B 3C1",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=b507e963-39c1-45ae-82e4-60171dfecc8c",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=b507e963-39c1-45ae-82e4-60171dfecc8c"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5585,7 +5483,8 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
+        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
       },
       "keywordsMatched": [
         "data centre",
@@ -5616,7 +5515,8 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
+        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
       },
       "keywordsMatched": [
         "data centre"
@@ -5791,76 +5691,33 @@
       "agendaStatus": "posted"
     },
     {
-      "id": "mississauga-98c0b015-30f6-40",
-      "municipality": "City of Mississauga",
-      "municipalityId": "mississauga",
-      "body": "Council",
-      "title": "Council",
-      "date": "2026-09-29",
-      "time": "9:30 AM",
-      "location": "Council Chambers, Civic Centre, 2nd Floor",
+      "id": "regionofwaterloo-8db45c35-d042-42",
+      "municipality": "Region of Waterloo",
+      "municipalityId": "regionofwaterloo",
+      "body": "Sustainability, Infrastructure, and Development",
+      "title": "Sustainability, Infrastructure, and Development",
+      "date": "2026-10-06",
+      "time": "9:00 AM",
+      "location": "Council Chambers/Electronic",
       "status": "past",
       "cancelled": false,
-      "issue": "2 A Notice of Motion regarding establish a Hyperscale Data Centre Task Force (Councillor McFadden) 1.",
+      "issue": "3 Christina Lalic, Kitchener Re: Data Centre Water Use 9.",
       "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
       "participate": {
         "attend": true,
         "deputations": true,
         "registerBy": null,
-        "notes": "May include a closed session — public items only."
+        "notes": ""
       },
       "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=98c0b015-30f6-404b-bb34-91ce0423684a",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=98c0b015-30f6-404b-bb34-91ce0423684a"
+        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7",
+        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7"
       },
       "keywordsMatched": [
-        "hyperscale",
         "data centre"
       ],
       "snippets": [
-        "2 A Notice of Motion regarding establish a Hyperscale Data Centre Task Force (Councillor McFadden) 1.",
-        "NOTICE OF MOTION - data centre task force fnl."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "vaughan-c810380a-de99-40",
-      "municipality": "City of Vaughan",
-      "municipalityId": "vaughan",
-      "body": "Council",
-      "title": "Council",
-      "date": "2026-09-29",
-      "time": "1:00 PM",
-      "location": "Council Chamber",
-      "status": "past",
-      "cancelled": false,
-      "issue": "INITIATING A REVIEW OF DATA CENTRE DEVELOPMENT IN VAUGHAN 1.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=c810380a-de99-4055-81f5-b5dec4eb6deb",
-        "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=c810380a-de99-4055-81f5-b5dec4eb6deb"
-      },
-      "keywordsMatched": [
-        "data centre",
-        "data centres"
-      ],
-      "snippets": [
-        "INITIATING A REVIEW OF DATA CENTRE DEVELOPMENT IN VAUGHAN 1.",
-        "Initiating a Review of Data Centre Development (GR).",
-        "I DATA CENTRES IN THE CITY OF VAUGHAN 1."
+        "3 Christina Lalic, Kitchener Re: Data Centre Water Use 9."
       ],
       "relevant": true,
       "matchKind": "exact",
