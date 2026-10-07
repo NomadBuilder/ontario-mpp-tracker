@@ -3,6 +3,32 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-nolan-quinn-opp-investigate-possible-criminal-activity-linke-2026-10-07",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "OPP investigate possible criminal activity linked to OSAP funding - CHCH",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUTFwdWZnSS0wM29EWDBkOUY4Q2hqMkI5N09nYzkyS1BoRDN6cVd2Qm1pNXp2WTRVYl94T3hMZUQtTlhQMUtldTk4MklJQ0pBUWxGX2RwOXNvSU5ZMXFXdHZfMllfUExZUmN2aG9adDJ0SWxsT2JrcUNUQ0w0bmRkWkNjaUZfU1B0SGpBb0JxU1oyVmNJWU56S0U1ZDJjUQ?oc=5",
+      "source": "CHCH",
+      "date": "2026-10-07",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nolan-quinn-two-years-later-ford-refers-osap-criminal-allega-2026-10-06",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "Two years later, Ford refers OSAP ‘criminal allegations’ to OPP - OrilliaMatters.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdDVhSjU5ajJ6ZjFUVGl1dWRDUmJ1YnlFTndJNHpRQXdKWWNoOFpZM284cHZ0cEktWUdRXzRIUWVscGh0akE4VWpZU2hOa2N0UENiMUE0dVZlZGpDMzZWbkwwTW5qMERSNUctSTBJVWl0TGZVOWF0UDBnN0FlWDBZWG9jX214ZzJDSkRmaHJvVVFRZmNfYlpOamQ0dmNYbTNnQ05PN3V0SUhWX0NKemFQdA?oc=5",
+      "source": "OrilliaMatters.com",
+      "date": "2026-10-06",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-liberals-ask-auditor-general-to-investigate-osap-2026-10-05",
       "mppNames": [
         "Doug Ford"
@@ -1576,32 +1602,6 @@
       "source": "playbackonline.ca",
       "date": "2026-07-17",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-nina-tangri-ontario-pc-mpps-who-spent-big-on-hotels-face-que-2026-07-17",
-      "mppNames": [
-        "Nina Tangri"
-      ],
-      "title": "Ontario PC MPPs who spent big on hotels face questions as minister resigns - globalnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRGpVLXkxUzl0MFF3Ql9JWFpxY1pGbTV6ZjZZbWtZWHdOUVRPU1h4ZXU1R3pPU1BfSXZUSXdiSkxDMk5CdTdfZWJWT2pobTlyd05kc3JTbC1XMmpvMWhTUkRzMExpUEU0VnA4ZlExOHQ3WE9uVm1ZaUZmUWVqNGIxcVJjVXhCeWQzN0RrSg?oc=5",
-      "source": "globalnews.ca",
-      "date": "2026-07-17",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-stan-cho-has-resigned-over-spending-16-000-on-ho-2026-07-17",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "Stan Cho has resigned over spending $16,000 on hotels 20 minutes from his house - torontolife.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdk9oY1J1cGFOTjJoMjRqcnRCTDE0d1NjWnhYNk9OZlFyZUVDamZRdkUxRFhaY29XcUZkd25xR1FJZUl6eGZ4bEc2dmVGT3JqUFQtMk9KQ2NtdUNORklLSkJhd2YyeW44emFxaGM5Um00ZU5BZlM3V05hTHpIaFR1d1pOZ3BteGdlOS1ieVk3VFp4TlNuUGEtd1p6dFFBUTBzMDNRRnctTlpKR3M?oc=5",
-      "source": "torontolife.com",
-      "date": "2026-07-17",
-      "type": "expenses",
       "status": "reported"
     }
   ]

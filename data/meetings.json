@@ -70,7 +70,7 @@
       "name": "Town of Milton",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 3,
       "calendarUrl": "https://pub-milton.escribemeetings.com",
       "note": ""
     },
@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 12,
+      "meetings": 13,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -241,7 +241,7 @@
       "name": "Region of Peel",
       "type": "escribe",
       "ok": true,
-      "meetings": 3,
+      "meetings": 6,
       "calendarUrl": "https://pub-peelregion.escribemeetings.com/",
       "note": ""
     },
@@ -533,6 +533,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "oakville-ce6b59ea-3318-44",
+      "municipality": "Town of Oakville",
+      "municipalityId": "oakville",
+      "body": "Council Information Packages",
+      "title": "Council Information Packages",
+      "date": "2026-10-07",
+      "time": "9:00 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": false,
+        "deputations": false,
+        "registerBy": null,
+        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
+      },
+      "links": {
+        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=ce6b59ea-3318-44d1-874f-5a674c79f40c",
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=ce6b59ea-3318-44d1-874f-5a674c79f40c"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1838,6 +1870,38 @@
       "links": {
         "meeting": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=1ba70a47-53eb-45e6-a1a3-4e31195354d8",
         "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=1ba70a47-53eb-45e6-a1a3-4e31195354d8"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "milton-718315ca-364a-43",
+      "municipality": "Town of Milton",
+      "municipalityId": "milton",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-11-16",
+      "time": "7:00 PM",
+      "location": "Town Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=718315ca-364a-4337-8eb7-5f9293e2ded6",
+        "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=718315ca-364a-4337-8eb7-5f9293e2ded6"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -4889,6 +4953,38 @@
       "curated": false
     },
     {
+      "id": "peel-region-864149a3-4770-4c",
+      "municipality": "Region of Peel",
+      "municipalityId": "peel-region",
+      "body": "Regional Council",
+      "title": "Regional Council",
+      "date": "2027-01-14",
+      "time": "9:30 AM",
+      "location": "Council Chamber, 5th Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=864149a3-4770-4cef-a0dc-14554119e6c4",
+        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=864149a3-4770-4cef-a0dc-14554119e6c4"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "oakville-3307b55f-a079-45",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -5113,6 +5209,38 @@
       "curated": false
     },
     {
+      "id": "peel-region-829a3da1-7a95-46",
+      "municipality": "Region of Peel",
+      "municipalityId": "peel-region",
+      "body": "Regional Council Budget",
+      "title": "Regional Council Budget",
+      "date": "2027-01-21",
+      "time": "9:30 AM",
+      "location": "Council Chamber, 5th Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=829a3da1-7a95-46df-bec1-15f0e881bdf6",
+        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=829a3da1-7a95-46df-bec1-15f0e881bdf6"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "vaughan-ad4c7605-8785-4c",
       "municipality": "City of Vaughan",
       "municipalityId": "vaughan",
@@ -5206,6 +5334,38 @@
       "topics": {},
       "agendaStatus": "posted",
       "source": "halton",
+      "curated": false
+    },
+    {
+      "id": "peel-region-5dcc937d-45fa-44",
+      "municipality": "Region of Peel",
+      "municipalityId": "peel-region",
+      "body": "Regional Council Budget",
+      "title": "Regional Council Budget",
+      "date": "2027-01-28",
+      "time": "9:30 AM",
+      "location": "Council Chamber, 5th Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=5dcc937d-45fa-440f-a7da-360a783497a9",
+        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=5dcc937d-45fa-440f-a7da-360a783497a9"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
       "curated": false
     },
     {
