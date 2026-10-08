@@ -3,6 +3,32 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-three-years-later-rcmp-says-investigation-into-d-2026-10-08",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Three years later, RCMP says investigation into Doug Ford’s Greenbelt scandal is still ‘ongoing’ - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNeUhwRFFlVVREbHpHTFdlS0FoSzA5MjFBNENWN0tPb25iaVlhNURMQTRZMlhZRGxvUU9jSFVGVHFGdEFxb1A4eW1pNkozanlWMGhlbjh6b2daMkFwT1BGamFVMmNMQzM3bFRORlI4RzhzTGoxTHNBbVkyZWotZngyZktPWUJkX05hT1MtYzVMbThBWmtRSWlBOUNkY19VOWFLMS16by1FN3RXV2stVTNOdktHcGdQZVR5bU9UX0d1TFlvZF9OT3JoNmNpMjh4NmlESXU4bG5neWxhQXl5NXl3TUxFckp2Y0NSY0ZlTk13dGZjYjY0UExTYkw2MlpSLVY1bEtWLXlEM212ZzBSVUJVc1lwR2VRdw?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-10-08",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-amarjot-sandhu-osap-scandal-the-ford-gov-had-years-of-warnings--2026-10-08",
+      "mppNames": [
+        "Amarjot Sandhu"
+      ],
+      "title": "OSAP Scandal: The Ford gov had years of warnings before funding freeze - Juno News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6aWNqbXM2YnRDZnJJRHJ4cUVLcEZBbGk2N2hBc0Y4b0Y3X0w4YzBuRjNTNDVNWTJIbDQ4MWE0VUF0UmJpa010N0o3LW1keXNwLTBsWXhNdF9pQnVJOHpTd0VPQ0hKVzNBcWVHa0Vlbw?oc=5",
+      "source": "Juno News",
+      "date": "2026-10-08",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-nolan-quinn-opp-investigate-possible-criminal-activity-linke-2026-10-07",
       "mppNames": [
         "Nolan Quinn"
@@ -29,6 +55,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-doug-ford-ford-government-used-leverage-over-taxpayer-fund-2026-10-07",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ford government used “leverage” over taxpayer-funded company to extract political benefit: legal letter - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVGFXUDg5bmNWWTExT1lOZlJCaU9CRzM2QnYwMlR6UkktV2JzRktPd3NBaW1HeHNhbHVwMHZOZGs3cU9jUVQyVEtrd3d6V0l1a0NLWUhqZWlOdEFuQmhxdUJFV2NKTlRFZG1MbE9vYTVHcVBCb3JCZ1FNN3BQS2dlZzNySHA1c1hEOXVHajlOaG1iRlNsSHQwVThDLTgyV0ZTT0FjeVhheXRqOFhZanNRcE1Scmg2ZkUtQXBOUDVGT3BEeFZfU3g4WFFPRmJ6ZXNmb3o0?oc=5",
+      "source": "Global News",
+      "date": "2026-10-07",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-nolan-quinn-two-years-later-ford-refers-osap-criminal-allega-2026-10-06",
       "mppNames": [
         "Nolan Quinn"
@@ -37,6 +76,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdDVhSjU5ajJ6ZjFUVGl1dWRDUmJ1YnlFTndJNHpRQXdKWWNoOFpZM284cHZ0cEktWUdRXzRIUWVscGh0akE4VWpZU2hOa2N0UENiMUE0dVZlZGpDMzZWbkwwTW5qMERSNUctSTBJVWl0TGZVOWF0UDBnN0FlWDBZWG9jX214ZzJDSkRmaHJvVVFRZmNfYlpOamQ0dmNYbTNnQ05PN3V0SUhWX0NKemFQdA?oc=5",
       "source": "OrilliaMatters.com",
+      "date": "2026-10-06",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nolan-quinn-statement-by-minister-quinn-on-pausing-osap-paym-2026-10-06",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "Statement by Minister Quinn on Pausing OSAP Payments to Private Postsecondary Institutions and Restoring Integrity to the OSAP System - ontario.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPMGg3SEFkX1RNbjYtek1qN1Y0OXBMY2U1eVRKV2Rmb3NBcllObWR6UzFrMUE5SzNOa2NndGxoM1c3bUtfWC1hUjVabXVqNmsxYnlOdUphT0F5OHRNUEpaMFNHSDFSR29DaUFkbUJfZG96VlBBZFpqc21yNm4xMjBXdC01ZWM0UTJVbE53OU83dlZDdmRzbkJhajVrdmc0cWZKNnk3NThzaW9MTHZlaUxqcjRraVlXUU5xMzBpUkZRY3FvYXZJV21zaGhrbTBQX0NabnI2ZnZPOUtkay1ZRV9GN0FyUXZkYlhFeXBZMjNOTjI4aTlOR3k1TEFPcWRvaGZpRzM1LU5DSmRuUQ?oc=5",
+      "source": "ontario.ca",
       "date": "2026-10-06",
       "type": "news",
       "status": "reported"
@@ -1547,59 +1599,6 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU0o0LTlLbzc3ZGNvdTBEbllhWGFpalNWNS1TZ2VDcVhpNnI2T1FBWWxTUnBvX2dwMmVNRF84VFEzWUh1NEh4dWZRb3RrQ01YQjVRakgyUTA0VDBkbDhXX1BIRWs4MDg2OGlhbEdsaHc0eF94bFJEUjFFeHpoSjJqZVZKaXVIY1VkMFJpSXhZVGUtbGdtbGdDTXhqS0F1UV9IUTJ6MEczUEQxNVY5TTdMV1A5NklrZVVPYzNySGxn?oc=5",
       "source": "toronto.citynews.ca",
       "date": "2026-07-18",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-ontario-tourism-minister-stan-cho-resigns-over-h-2026-07-17",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "Ontario tourism minister Stan Cho resigns over hotel expenses scandal | Page 903 - unpublished.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWXpPYlpfdkhGY1BmWjFzQVNpS3ZqQk5TMEpLRjE1cEVhWF9ZeDV2RWlZYmEyUmhTOVJYNzVrUEhQWnhYcjFyMXNpb2dBNnNpamZmQVlBYmZqOXFWSGxLOGxBaFpRZlh2cGZTekNOQ29qSFJlaTRtWXlSS090a3FxOG55OWtWVEo5YlNkZFdPdVNDek1OejVnYUctUEpUVFJOV1dmVmRRcW54Uy1BYURyWG9zRkhSSjZWZWFGRGt4aVBYcnNPRlE?oc=5",
-      "source": "unpublished.ca",
-      "date": "2026-07-18",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-visits-thunder-bay-as-northern-ontario-2026-07-18",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Doug Ford visits Thunder Bay as northern Ontario fires force evacuations - globalnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTWMtMElNMkxTMC0zSWI4UnE3RXhpQjRvZFVjelAwYUxGM21yTEFyc3FFZWxja08ycmFMYWVIUkZuaWd1Q3pxTmYtNlBVUWFoa08wU3c0TUd4blFHUTJKVTZRQlY0emYydm1fWGZtWVlqMkphZ2pyUktVWkRHSzFPQjhScw?oc=5",
-      "source": "globalnews.ca",
-      "date": "2026-07-18",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-mike-harris-minister-of-natural-resources-defends-province-s-2026-07-18",
-      "mppNames": [
-        "Mike Harris"
-      ],
-      "title": "Minister of Natural Resources defends province’s response to wildfires - Thunder Bay News - TBNewsWatch.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONVhVM3dxYVpXNHFvYjd1VFFxX19QVldaaGI3RE9mb3ZwYV9IVnltWWpKUzM3ZTRSZ0I4M3NLZ0Nzcl9MZkNrWEstdWZsWi0xbVd3VTdzdnl6UnRQTmwtRW5FdVQyaUtlcTloMUtCVUlpQkhrYXo4ejA2WXJoblJNWkpaY0I3Wm1SU01hZmhoMXJoRkgxbEt0MVRneFF1TnhSZzBzb25IeGxMMk1Gd1NaVC00d3JkMjBW?oc=5",
-      "source": "Thunder Bay News - TBNewsWatch.com",
-      "date": "2026-07-18",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-cabinet-shuffle-in-the-works-with-resignation-of-2026-07-17",
-      "mppNames": [
-        "Neil Lumsden",
-        "Stan Cho"
-      ],
-      "title": "Cabinet shuffle in the works with Resignation of Stan Cho and surprise retirement announcement by Neil Lumsden - The Bay Observer - Providing a Fresh Perspective for Hamilton and Burlington",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLUt3Xy1XckhwYkdxdVpvOEJENjFTdmpyUWxxZDktVUV3Z1FIMXlxb3hpSW9pUlRNNE5ObnJfQndzamJaV3NCbmEzOTNkSE53bnJKekdtVWhJakNlSVRJRktzZEgxdDhfWENRZXdwaFZqSU1yUnV4UG1mMkdiWUl2Nl8zeUNfRGhzOXRfUlZzYTJkNVlFQmJFVlNMbzZnNkVOSFdCc3pCMGl3N3p5bVVIV3FDTUxyU2dzTnNmZnhPYkdnVXRkc3drVGkzaVhQckE?oc=5",
-      "source": "The Bay Observer - Providing a Fresh Perspective for Hamilton and Burlington",
-      "date": "2026-07-17",
       "type": "news",
       "status": "reported"
     }
