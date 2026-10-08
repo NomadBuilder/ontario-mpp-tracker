@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-08",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -11,6 +11,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUTFwdWZnSS0wM29EWDBkOUY4Q2hqMkI5N09nYzkyS1BoRDN6cVd2Qm1pNXp2WTRVYl94T3hMZUQtTlhQMUtldTk4MklJQ0pBUWxGX2RwOXNvSU5ZMXFXdHZfMllfUExZUmN2aG9adDJ0SWxsT2JrcUNUQ0w0bmRkWkNjaUZfU1B0SGpBb0JxU1oyVmNJWU56S0U1ZDJjUQ?oc=5",
       "source": "CHCH",
+      "date": "2026-10-07",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-scott-stinson-ontario-calls-in-the-police-to-inv-2026-10-07",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Scott Stinson: Ontario calls in the police to investigate its own career-college gravy train - National Post",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQi1zcG1nbzBZc1V2aXlxS0ZjNnhCeHNNNHlqNTltZFRqalZqMW0wT3M2VnJKUVoxVHI3djJldzJtZnM0Rll0dXYwRE4zdGZzelJLcVhUOV92Zk9rQnZEZVRDVTA2RDBHVzFWWnczOFpXeG9BelJzTGxyT1RiLXZkWHAxOFhxOE5haGItTVhFbUFZQi1iWFBMaHA3UGQ4bklLOUlPS0prMU1kQzVxc09PRGhtdUM3cWRHcFJOYW5oVGJxUQ?oc=5",
+      "source": "National Post",
       "date": "2026-10-07",
       "type": "investigation",
       "status": "reported"
@@ -1586,20 +1599,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLUt3Xy1XckhwYkdxdVpvOEJENjFTdmpyUWxxZDktVUV3Z1FIMXlxb3hpSW9pUlRNNE5ObnJfQndzamJaV3NCbmEzOTNkSE53bnJKekdtVWhJakNlSVRJRktzZEgxdDhfWENRZXdwaFZqSU1yUnV4UG1mMkdiWUl2Nl8zeUNfRGhzOXRfUlZzYTJkNVlFQmJFVlNMbzZnNkVOSFdCc3pCMGl3N3p5bVVIV3FDTUxyU2dzTnNmZnhPYkdnVXRkc3drVGkzaVhQckE?oc=5",
       "source": "The Bay Observer - Providing a Fresh Perspective for Hamilton and Burlington",
-      "date": "2026-07-17",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-downey-stan-cho-resigns-as-ontario-culture-minister-pla-2026-07-17",
-      "mppNames": [
-        "Doug Downey",
-        "Stan Cho"
-      ],
-      "title": "Stan Cho resigns as Ontario culture minister - playbackonline.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeXFycWpOX1d1Qm1aUFJ3eU1SbkNlX3ppZ2w2THNlQ3pXa1Nxd0lKVU1heWxodlRlOXQwdnJOc05nS00zeERzNjFRczdvR09hTFBkOGhsS0hsVEMwbzhJNzJLS0ZaQ0VmLW5OVXlTZ1d5Wm5uaVYycDNqYndmR3BfeHhCR1phMkZGVWc?oc=5",
-      "source": "playbackonline.ca",
       "date": "2026-07-17",
       "type": "news",
       "status": "reported"
