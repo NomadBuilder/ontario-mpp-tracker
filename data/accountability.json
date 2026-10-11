@@ -3,6 +3,20 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-scott-stinson-ontario-calls-in-the-police-to-inv-2026-10-07",
+      "mppNames": [
+        "Doug Ford",
+        "Nolan Quinn"
+      ],
+      "title": "Scott Stinson: Ontario calls in the police to investigate its own career-college gravy train - National Post",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQi1zcG1nbzBZc1V2aXlxS0ZjNnhCeHNNNHlqNTltZFRqalZqMW0wT3M2VnJKUVoxVHI3djJldzJtZnM0Rll0dXYwRE4zdGZzelJLcVhUOV92Zk9rQnZEZVRDVTA2RDBHVzFWWnczOFpXeG9BelJzTGxyT1RiLXZkWHAxOFhxOE5haGItTVhFbUFZQi1iWFBMaHA3UGQ4bklLOUlPS0prMU1kQzVxc09PRGhtdUM3cWRHcFJOYW5oVGJxUQ?oc=5",
+      "source": "National Post",
+      "date": "2026-10-10",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-three-years-later-rcmp-says-investigation-into-d-2026-10-08",
       "mppNames": [
         "Doug Ford"
@@ -37,19 +51,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUTFwdWZnSS0wM29EWDBkOUY4Q2hqMkI5N09nYzkyS1BoRDN6cVd2Qm1pNXp2WTRVYl94T3hMZUQtTlhQMUtldTk4MklJQ0pBUWxGX2RwOXNvSU5ZMXFXdHZfMllfUExZUmN2aG9adDJ0SWxsT2JrcUNUQ0w0bmRkWkNjaUZfU1B0SGpBb0JxU1oyVmNJWU56S0U1ZDJjUQ?oc=5",
       "source": "CHCH",
-      "date": "2026-10-07",
-      "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-scott-stinson-ontario-calls-in-the-police-to-inv-2026-10-07",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Scott Stinson: Ontario calls in the police to investigate its own career-college gravy train - National Post",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQi1zcG1nbzBZc1V2aXlxS0ZjNnhCeHNNNHlqNTltZFRqalZqMW0wT3M2VnJKUVoxVHI3djJldzJtZnM0Rll0dXYwRE4zdGZzelJLcVhUOV92Zk9rQnZEZVRDVTA2RDBHVzFWWnczOFpXeG9BelJzTGxyT1RiLXZkWHAxOFhxOE5haGItTVhFbUFZQi1iWFBMaHA3UGQ4bklLOUlPS0prMU1kQzVxc09PRGhtdUM3cWRHcFJOYW5oVGJxUQ?oc=5",
-      "source": "National Post",
       "date": "2026-10-07",
       "type": "investigation",
       "status": "reported"
