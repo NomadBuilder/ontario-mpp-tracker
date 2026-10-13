@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-costs-mount-for-taxpayers-and-commuters-as-premi-2026-10-13",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Costs mount for taxpayers and commuters as Premier Doug Ford begins removing Etobicoke, Ontario bike lanes - Money.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kQVBVUnJNdEt0bDZmY1Y5b2JXTng2bVpPTkhaYl9MZzQ4M0pLS0xzLUlPRHJOWHUyY2pOWUdsMVZFc0xyQWRRR3M4X1NnUkVWUzFGWkxiTGgtalk0VXdsNXNCZk53QVh0UkJFNk5fam9OcWxwREtfR1dB?oc=5",
+      "source": "Money.ca",
+      "date": "2026-10-13",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-scott-stinson-ontario-calls-in-the-police-to-inv-2026-10-07",
       "mppNames": [
         "Doug Ford",
@@ -1586,19 +1599,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNel9SQ2FGU3owTnlpLVBzVlR2NnpQUnBSREhnTnQxY3ItX01mQnhHRXl0RTdzdEZjaDE5eTJIbWxIby1TYm4tb2VkcHZsb2UydXJHaFpmblNJbW9LY2NSb1RkUDV5SWFydTJvLW5kTTB0Q3RNVjg0N1BTY2xzMlVxd1VMaTQzYjJfekFqM25BdXh1emZFVzgySDhoU3dyMFdwVEhrdW4xWjVLTUNJZUgzWmdaRjBKQQ?oc=5",
       "source": "castanet.net",
-      "date": "2026-07-19",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-canada-wildfire-update-ontario-premier-doug-ford-2026-07-19",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Canada wildfire update: Ontario Premier Doug Ford calls Donald Trump's threat to add wildfire pollution tariffs 'unacceptable' - ABC7 Eyewitness News",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVnIzdFZQNzJVTy1zX2Ria0lXbUhmMnZSTmZWNkUtYTFEWUV2V1dja2tzdGRlUnJxa1NscTZBOXlJSnBvbXNELWZPalVjOTcwTHc4Tjd4ejNlbGtmN1RRQ2gxdV9Zd0s0T0p2Mk5LdUJHTTZyalo1aGdOWGRJQ29mc01fbUxUVTJHZHhHbTQxNFQ0RFhPYXBqcUNOMlhocXVNcXM0UDhQQWwtQjhTM1k5a3RfNmEzMW1xOHlqdGxMUXRscnRseG9xeHktNHJJUDZXc056ZnhmdnprazEx0gHiAUFVX3lxTFBNZTcyVl91cDdaQWF6SW00MUZobl9XWXUtbGJjUW1nYzZCWjJ4WkhhOUNwcmdOUFE0Q2JrSkZFelh3czFfTHlTXzlnMW55MnQ0WmlvVFdiMXp5VV8wNmhCX29HTXdKRllXTnNyeEZmWVRhY1RVN2RUN2Z6bzJTRTBVNXNybERpZHU4TzFmLTE0QnlZQ21jcnd1M3JKVGpONE12dWFqZzQ0andtYmI2djJKbGdtZl8zd2UtWUl5bmdkX29jYUYwcnhhVC14M2FKUzloLTFVRVc1dUdqMllkOFZ0VVE?oc=5",
-      "source": "ABC7 Eyewitness News",
       "date": "2026-07-19",
       "type": "news",
       "status": "reported"
