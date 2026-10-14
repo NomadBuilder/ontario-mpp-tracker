@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 28,
+      "meetings": 29,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -169,7 +169,7 @@
       "name": "Region of Waterloo",
       "type": "escribe",
       "ok": true,
-      "meetings": 7,
+      "meetings": 6,
       "calendarUrl": "https://pub-regionofwaterloo.escribemeetings.com",
       "note": ""
     },
@@ -205,7 +205,7 @@
       "name": "City of St. Thomas",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 0,
       "calendarUrl": "https://pub-stthomas.escribemeetings.com",
       "note": ""
     },
@@ -343,70 +343,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "stthomas-aee705f2-bbec-4e",
-      "municipality": "City of St. Thomas",
-      "municipalityId": "stthomas",
-      "body": "Official Plan and Zoning Meeting",
-      "title": "Official Plan and Zoning Meeting",
-      "date": "2026-10-13",
-      "time": "6:00 PM",
-      "location": "COUNCIL CHAMBERS/ZOOM",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=aee705f2-bbec-4e25-afec-0b39e0230623",
-        "agenda": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=aee705f2-bbec-4e25-afec-0b39e0230623"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "stthomas-8a4296a8-4cb1-4c",
-      "municipality": "City of St. Thomas",
-      "municipalityId": "stthomas",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-10-13",
-      "time": "5:00 PM",
-      "location": "COUNCIL CHAMBERS/ZOOM",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=8a4296a8-4cb1-4c39-8c35-96feb7837c19",
-        "agenda": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=8a4296a8-4cb1-4c39-8c35-96feb7837c19"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "cambridge-0538254e-15d5-4d",
@@ -633,38 +569,6 @@
       "curated": false
     },
     {
-      "id": "ottawa-243db89a-9889-4e",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Committee of Adjustment - Panel 3",
-      "title": "Committee of Adjustment - Panel 3",
-      "date": "2026-10-20",
-      "time": "9:00 AM",
-      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=243db89a-9889-4e18-9a2c-212137b70b15",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=243db89a-9889-4e18-9a2c-212137b70b15"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "ottawa-20539736-16ed-40",
       "municipality": "City of Ottawa",
       "municipalityId": "ottawa",
@@ -686,6 +590,38 @@
       "links": {
         "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=20539736-16ed-409c-b60e-7e44c89a08b9",
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=20539736-16ed-409c-b60e-7e44c89a08b9"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-243db89a-9889-4e",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Committee of Adjustment - Panel 3",
+      "title": "Committee of Adjustment - Panel 3",
+      "date": "2026-10-20",
+      "time": "9:00 AM",
+      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=243db89a-9889-4e18-9a2c-212137b70b15",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=243db89a-9889-4e18-9a2c-212137b70b15"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -5401,6 +5337,38 @@
       "curated": false
     },
     {
+      "id": "mississauga-1b618064-20ac-4d",
+      "municipality": "City of Mississauga",
+      "municipalityId": "mississauga",
+      "body": "General Committee",
+      "title": "General Committee",
+      "date": "2027-02-10",
+      "time": "9:30 AM",
+      "location": "Council Chambers, Civic Centre, 2nd Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1b618064-20ac-4d72-8517-be4bd3b7e9bc",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1b618064-20ac-4d72-8517-be4bd3b7e9bc"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-bef75b81-9eb5-4e",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -5408,7 +5376,7 @@
       "title": "Special Council",
       "date": "2027-02-10",
       "time": "9:00 AM",
-      "location": "300 City Centre Drive, Mississauga, Ontario, L5B 3C1",
+      "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
@@ -5433,17 +5401,17 @@
       "curated": false
     },
     {
-      "id": "mississauga-1b618064-20ac-4d",
+      "id": "mississauga-cf2524fb-5f23-4d",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
-      "body": "General Committee",
-      "title": "General Committee",
-      "date": "2027-02-10",
-      "time": "9:30 AM",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2027-02-11",
+      "time": "1:00 PM",
       "location": "300 City Centre Drive, Mississauga, Ontario, L5B 3C1",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -5452,15 +5420,15 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1b618064-20ac-4d72-8517-be4bd3b7e9bc",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1b618064-20ac-4d72-8517-be4bd3b7e9bc"
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=cf2524fb-5f23-4dcb-9e36-b9f389a05f1c",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=cf2524fb-5f23-4dcb-9e36-b9f389a05f1c"
       },
       "keywordsMatched": [],
       "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -5579,7 +5547,8 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
+        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
       },
       "keywordsMatched": [
         "data centre"
@@ -5752,44 +5721,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "regionofwaterloo-8db45c35-d042-42",
-      "municipality": "Region of Waterloo",
-      "municipalityId": "regionofwaterloo",
-      "body": "Sustainability, Infrastructure, and Development",
-      "title": "Sustainability, Infrastructure, and Development",
-      "date": "2026-10-06",
-      "time": "9:00 AM",
-      "location": "Council Chambers/Electronic",
-      "status": "past",
-      "cancelled": false,
-      "issue": "3 Christina Lalic, Kitchener Re: Data Centre Water Use 9.",
-      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7",
-        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=8db45c35-d042-42f0-a734-cdeaaa0ab1e7"
-      },
-      "keywordsMatched": [
-        "data centre"
-      ],
-      "snippets": [
-        "3 Christina Lalic, Kitchener Re: Data Centre Water Use 9."
-      ],
-      "relevant": true,
-      "matchKind": "exact",
-      "topics": {
-        "datacentre": "exact"
-      },
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
     }
   ]
 }
