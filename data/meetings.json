@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 12,
+      "meetings": 11,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -106,7 +106,7 @@
       "name": "City of Pickering",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 0,
       "calendarUrl": "https://pub-pickering.escribemeetings.com",
       "note": ""
     },
@@ -142,7 +142,7 @@
       "name": "City of London",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 0,
       "calendarUrl": "https://pub-london.escribemeetings.com",
       "note": ""
     },
@@ -160,7 +160,7 @@
       "name": "City of Cambridge",
       "type": "escribe",
       "ok": true,
-      "meetings": 7,
+      "meetings": 6,
       "calendarUrl": "https://pub-cambridge.escribemeetings.com",
       "note": ""
     },
@@ -169,7 +169,7 @@
       "name": "Region of Waterloo",
       "type": "escribe",
       "ok": true,
-      "meetings": 6,
+      "meetings": 5,
       "calendarUrl": "https://pub-regionofwaterloo.escribemeetings.com",
       "note": ""
     },
@@ -241,7 +241,7 @@
       "name": "Region of Peel",
       "type": "escribe",
       "ok": true,
-      "meetings": 7,
+      "meetings": 9,
       "calendarUrl": "https://pub-peelregion.escribemeetings.com/",
       "note": ""
     },
@@ -343,166 +343,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "cambridge-0538254e-15d5-4d",
-      "municipality": "City of Cambridge",
-      "municipalityId": "cambridge",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-10-14",
-      "time": "6:00 PM",
-      "location": "Bowman Room, 1st Floor, City Hall, 50 Dickson St.",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=0538254e-15d5-4d7f-a16f-be1c3edfc033",
-        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=0538254e-15d5-4d7f-a16f-be1c3edfc033"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "london-bad379f2-e4e6-4f",
-      "municipality": "City of London",
-      "municipalityId": "london",
-      "body": "Council",
-      "title": "Council",
-      "date": "2026-10-14",
-      "time": "1:00 PM",
-      "location": "Council Chambers - Please check the City website for additional meeting detail information.",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=bad379f2-e4e6-4fd2-940d-197c45f74d87",
-        "agenda": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=bad379f2-e4e6-4fd2-940d-197c45f74d87"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "pickering-2844888a-b0ab-48",
-      "municipality": "City of Pickering",
-      "municipalityId": "pickering",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-10-14",
-      "time": "7:00 PM",
-      "location": "Electronic Meeting",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=2844888a-b0ab-48de-b3d4-bb750cb32b0e",
-        "agenda": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=2844888a-b0ab-48de-b3d4-bb750cb32b0e"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "regionofwaterloo-2471127d-9236-4e",
-      "municipality": "Region of Waterloo",
-      "municipalityId": "regionofwaterloo",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-10-14",
-      "time": "7:00 PM",
-      "location": "Council Chambers",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=2471127d-9236-4ef9-883f-b49484793455",
-        "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=2471127d-9236-4ef9-883f-b49484793455"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "oakville-8e48d86a-978a-4e",
-      "municipality": "Town of Oakville",
-      "municipalityId": "oakville",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-10-14",
-      "time": "7:00 PM",
-      "location": "Virtual Meeting",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=8e48d86a-978a-4e9a-bc8c-ef35df11eea0",
-        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=8e48d86a-978a-4e9a-bc8c-ef35df11eea0"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "brampton-4ab468eb-db9a-44",
@@ -5408,7 +5248,7 @@
       "title": "Committee of Adjustment",
       "date": "2027-02-11",
       "time": "1:00 PM",
-      "location": "300 City Centre Drive, Mississauga, Ontario, L5B 3C1",
+      "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
@@ -5429,6 +5269,70 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "peel-region-e9d3308f-45f8-4c",
+      "municipality": "Region of Peel",
+      "municipalityId": "peel-region",
+      "body": "Regional Council Budget",
+      "title": "Regional Council Budget",
+      "date": "2027-02-11",
+      "time": "9:30 AM",
+      "location": "Council Chamber, 5th Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=e9d3308f-45f8-4c65-972d-43fda2ca387e",
+        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=e9d3308f-45f8-4c65-972d-43fda2ca387e"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "peel-region-0299b20d-e58e-4f",
+      "municipality": "Region of Peel",
+      "municipalityId": "peel-region",
+      "body": "Regional Council",
+      "title": "Regional Council",
+      "date": "2027-02-11",
+      "time": "11:00 AM",
+      "location": "Council Chamber, 5th Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=0299b20d-e58e-4f7a-87ab-d22c85123359",
+        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=0299b20d-e58e-4f7a-87ab-d22c85123359"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5515,8 +5419,7 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
       },
       "keywordsMatched": [
         "data centre",
