@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 11,
+      "meetings": 12,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -5657,6 +5657,45 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
+    },
+    {
+      "id": "oakville-89d9f202-326e-45",
+      "municipality": "Town of Oakville",
+      "municipalityId": "oakville",
+      "body": "Council Information Packages",
+      "title": "Council Information Packages",
+      "date": "2026-10-15",
+      "time": "9:00 AM",
+      "location": "",
+      "status": "past",
+      "cancelled": false,
+      "issue": "2 Corporate Strategy and Government Relations - Responses to the Environmental Registry of Ontario - Regional Conservation Authority Governance and Data Centre Playbook - October 14, 2026 1.",
+      "why": "Data-centre proposals often hide in zoning, site plan, or 'employment land' items — show up before the vote if you want deputations on the record.",
+      "participate": {
+        "attend": false,
+        "deputations": false,
+        "registerBy": null,
+        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
+      },
+      "links": {
+        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=89d9f202-326e-453d-ac82-8a1ea8adefdd",
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=89d9f202-326e-453d-ac82-8a1ea8adefdd"
+      },
+      "keywordsMatched": [
+        "data centre"
+      ],
+      "snippets": [
+        "2 Corporate Strategy and Government Relations - Responses to the Environmental Registry of Ontario - Regional Conservation Authority Governance and Data Centre Playbook - October 14, 2026 1.",
+        "Corp Strat GR - Responses to the ERO - Conservation Authority Governance and Data Centre Playbook - October 14, 2026."
+      ],
+      "relevant": true,
+      "matchKind": "exact",
+      "topics": {
+        "datacentre": "exact"
+      },
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
     }
   ]
 }
