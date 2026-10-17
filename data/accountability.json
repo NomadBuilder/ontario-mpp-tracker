@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-17",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -579,6 +579,21 @@
       "status": "reported"
     },
     {
+      "id": "auto-mohamed-firin-toronto-area-pc-mpps-have-billed-taxpayers-over--2026-07-14",
+      "mppNames": [
+        "Mohamed Firin",
+        "David Smith",
+        "Nina Tangri"
+      ],
+      "title": "Toronto-area PC MPPs have billed taxpayers over $100K for Toronto overnight stays - The Trillium",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZm5oVWNBTVI4ckNnUXJSWUxoY3pzQnlrZFN2VUJZeVRQYmdUYVdvSWNQN1o4MjN2Q1pYZmw0OFFrSXpZTmlHeEl1N1pSVm1oa0prUmdndFhEeGRtQVROQTBlc2pmUk1mU09JNVlGcDZZSGtxNXowLVBTM1BRRFJscFVDZkNTMnFKWVhObXU5bzJqMERaRExOVkd6emhvMDFhZzNDM3VaWnpGQ2twc3F2YlYySXFuSVZKWVFxenE5YnVoM3lwZlMtSUlOaWY5OTc5ZC1wR3BXTWlaWEM1bi03aFlrUlBUMjRaV29mRw?oc=5",
+      "source": "The Trillium",
+      "date": "2026-08-07",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-amarjot-sandhu-brampton-west-pc-mpp-amarjot-sandhu-billed-taxpa-2026-07-29",
       "mppNames": [
         "Amarjot Sandhu"
@@ -599,19 +614,6 @@
       "title": "Mississauga PC MPP Silvia Gualtieri Billed taxpayers for Toronto hotel stays - rebelnews.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQejFXdUpqZXk1ODlNUmNQRFhfbUtscW9LYTBib0VHTGhzTzZRZ2V3WDZzaWllSWlFZ1dibk9qMGQ4VGpwT29KNU1OdmtGZEtrQUNPdVJ3aHJZcF9kbDU1N0JDTUgwc0UtU2twTlN4QWpxMjZDNHFCYzRpOTUyMVJtTU9kdXppdlZicGhraTFUcE1HeTN2VzV6OFJxaWQxb1FtT2FaMQ?oc=5",
-      "source": "rebelnews.com",
-      "date": "2026-08-07",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-david-smith-scarborough-centre-pc-mpp-david-smith-billed-tax-2026-07-29",
-      "mppNames": [
-        "David Smith"
-      ],
-      "title": "Scarborough Centre PC MPP David Smith billed taxpayers more than $6,500 for Toronto hotel stays - rebelnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVl9SanRVMFJrOWllSVlUd0tkeHpPQzVhbE1ncTNzamNoTlRWckVJTlFlWFVHMFZMaTRPRW9BMjVEU2pqSnFHWDI3SEMtQkhJTU1WZEVqZWlXajFQaDREaVBEdjRGTVNEOHdGdWpnb0ZKa2ktaFd3cHlKMUJyeWlfWUJnYkJvWlRRcERzMURvQkN5Yi1HcjRSVmFoeFJBOTNSdFpxaU1nZGgwYXZzWVAzSEF2dWw4ZnN6Y3FsZQ?oc=5",
       "source": "rebelnews.com",
       "date": "2026-08-07",
       "type": "expenses",
@@ -887,19 +889,6 @@
       "title": "Mississauga Centre PC MPP Natalia Kusendova-Bashta billed taxpayers $4,258 for six Toronto hotel stays - rebelnews.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVk1yYkJ2Qmx5Z3VsRGdfdXR6X21XaW5DWUZvcm9tb1d1Y3M4YVk5c1VRai1PcDdXaXlReFlFVW1GOVd2T2JoQXhjWUs0S2drcUFLX0JNZ1h6dUM5LWNOeGFsUTF0ZjNPWjBWNGJqcURPM3hwcTZFTkVuUHZkaG1aN1hid3JwQllHN2N2T3EwZ0xCUE5rR1RDZ2NOdlRXNTJJbjBMOERzUldjVGdBV2RubUxkQnZyYTI5THJ5dWxsbGt6MXQ4bmc?oc=5",
-      "source": "rebelnews.com",
-      "date": "2026-07-29",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-york-south-weston-pc-mpp-mohamed-firin-billed-ta-2026-07-29",
-      "mppNames": [
-        "Mohamed Firin"
-      ],
-      "title": "York South–Weston PC MPP Mohamed Firin billed taxpayers for Toronto hotel stays - rebelnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOckhpc09TSWtBYXFROEY4WkZDTnNrM1NHQUxLUEpUSUE4TTg0SUhSNXNTVDZCcUdMMUQ3aVROTzI4RHJ5aDhRSmpHR1RybktGRXBVd2UwMUJPaW1KejkxNHdraVQxT3htSTZBZnMzU2hjeXI1WS1kYVJhS2JmNVV5Y3dOWTUzSkRXcDFjYVp2NlRiWUhDbEg5dVZMZDVxRF9zc0FyNmxoSEg?oc=5",
       "source": "rebelnews.com",
       "date": "2026-07-29",
       "type": "expenses",
@@ -1597,6 +1586,19 @@
       "source": "Queen's Park Observer",
       "date": "2026-07-20",
       "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-visits-thunder-bay-as-northern-ontario-2026-07-18",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford visits Thunder Bay as northern Ontario fires force evacuations - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTWMtMElNMkxTMC0zSWI4UnE3RXhpQjRvZFVjelAwYUxGM21yTEFyc3FFZWxja08ycmFMYWVIUkZuaWd1Q3pxTmYtNlBVUWFoa08wU3c0TUd4blFHUTJKVTZRQlY0emYydm1fWGZtWVlqMkphZ2pyUktVWkRHSzFPQjhScw?oc=5",
+      "source": "Global News",
+      "date": "2026-07-18",
+      "type": "news",
       "status": "reported"
     }
   ]
