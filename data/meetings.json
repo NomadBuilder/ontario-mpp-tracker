@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-20",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 29,
+      "meetings": 30,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -205,7 +205,7 @@
       "name": "City of St. Thomas",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 0,
       "calendarUrl": "https://pub-stthomas.escribemeetings.com",
       "note": ""
     },
@@ -343,38 +343,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "stthomas-34e7b4c5-1b4d-43",
-      "municipality": "City of St. Thomas",
-      "municipalityId": "stthomas",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-10-19",
-      "time": "5:00 PM",
-      "location": "COUNCIL CHAMBERS/ZOOM",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=34e7b4c5-1b4d-435b-8ee8-47cad65bf76a",
-        "agenda": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=34e7b4c5-1b4d-435b-8ee8-47cad65bf76a"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "brampton-4ab468eb-db9a-44",
@@ -5422,6 +5390,38 @@
       "links": {
         "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=0299b20d-e58e-4f7a-87ab-d22c85123359",
         "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=0299b20d-e58e-4f7a-87ab-d22c85123359"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "mississauga-bf7b6bec-4631-47",
+      "municipality": "City of Mississauga",
+      "municipalityId": "mississauga",
+      "body": "Council",
+      "title": "Council",
+      "date": "2027-02-17",
+      "time": "9:30 AM",
+      "location": "300 City Centre Drive, Mississauga, Ontario, L5B 3C1",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=bf7b6bec-4631-47c9-b374-77147e0d1ddd",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=bf7b6bec-4631-47c9-b374-77147e0d1ddd"
       },
       "keywordsMatched": [],
       "snippets": [],
