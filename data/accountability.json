@@ -369,7 +369,8 @@
       "mppNames": [
         "Doug Ford",
         "David Piccini",
-        "Sam Oosterhoff"
+        "Sam Oosterhoff",
+        "Kinga Surma"
       ],
       "title": "Doug Ford announces cabinet shuffle, David Piccini moved into new portfolio amid ethics probe - CTV News",
       "summary": "",
@@ -638,7 +639,8 @@
       "mppNames": [
         "Mohamed Firin",
         "David Smith",
-        "Nina Tangri"
+        "Nina Tangri",
+        "Silvia Gualtieri"
       ],
       "title": "Toronto-area PC MPPs have billed taxpayers over $100K for Toronto overnight stays - The Trillium",
       "summary": "",
@@ -656,19 +658,6 @@
       "title": "Brampton West PC MPP Amarjot Sandhu billed taxpayers for Toronto hotel stays - rebelnews.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPejNFTFJiQkpsNW9Zdnk3NlRuZWQtdDlmUnVIVFQ0YThjaGRkaHgxUmNmdWotcWNlOUFaWmE2QmRVM3k3bW1VOVZ5R3lBRmFWdDNIQS1Cc3NTX0JQS3RtR0ItT25CdWZVODNwaVE4eExNeEhDSm5ra0tUNk82RnRYZV9pUU5rTy1EeTcwYVloOFcxdUhPTlNjOHpmYU9GQ3dYM1k3cw?oc=5",
-      "source": "rebelnews.com",
-      "date": "2026-08-07",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-mississauga-pc-mpp-silvia-gualtieri-billed-taxpa-2026-07-29",
-      "mppNames": [
-        "Silvia Gualtieri"
-      ],
-      "title": "Mississauga PC MPP Silvia Gualtieri Billed taxpayers for Toronto hotel stays - rebelnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQejFXdUpqZXk1ODlNUmNQRFhfbUtscW9LYTBib0VHTGhzTzZRZ2V3WDZzaWllSWlFZ1dibk9qMGQ4VGpwT29KNU1OdmtGZEtrQUNPdVJ3aHJZcF9kbDU1N0JDTUgwc0UtU2twTlN4QWpxMjZDNHFCYzRpOTUyMVJtTU9kdXppdlZicGhraTFUcE1HeTN2VzV6OFJxaWQxb1FtT2FaMQ?oc=5",
       "source": "rebelnews.com",
       "date": "2026-08-07",
       "type": "expenses",
@@ -1602,6 +1591,19 @@
       "source": "insauga.com",
       "date": "2026-07-20",
       "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-visits-thunder-bay-as-northern-ontario-2026-07-18",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford visits Thunder Bay as northern Ontario fires force evacuations - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTWMtMElNMkxTMC0zSWI4UnE3RXhpQjRvZFVjelAwYUxGM21yTEFyc3FFZWxja08ycmFMYWVIUkZuaWd1Q3pxTmYtNlBVUWFoa08wU3c0TUd4blFHUTJKVTZRQlY0emYydm1fWGZtWVlqMkphZ2pyUktVWkRHSzFPQjhScw?oc=5",
+      "source": "Global News",
+      "date": "2026-07-18",
+      "type": "news",
       "status": "reported"
     }
   ]
