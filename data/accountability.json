@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -323,7 +323,9 @@
         "Kinga Surma",
         "Doug Ford",
         "Trevor Jones",
-        "Doug Downey"
+        "Doug Downey",
+        "Michelle Cooper",
+        "Andrea Khanjin"
       ],
       "title": "Doug Ford shuffles labour minister under ethics investigation in cabinet shakeup - The Trillium",
       "summary": "",
@@ -418,6 +420,20 @@
       "status": "reported"
     },
     {
+      "id": "auto-hardeep-singh-grewal-how-much-have-brampton-s-5-mpps-expensed-ontario-2026-09-01",
+      "mppNames": [
+        "Hardeep Singh Grewal",
+        "Graham McGregor"
+      ],
+      "title": "How much have Brampton’s 5 MPPs expensed Ontario taxpayers since March 2025? - Brampton Guardian",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNkVRQ0lSWVpKeFlrR3ZITlNLRkxKbGdTOG4wOGtsSTZvYnV1VE4xQlBMbno0SEkwWGRWWGx5OFNPLVdIazhKcHZGYmtOOVRWVWRNSV9UVnk1U1V0bU9pUno4OUY1Y1h3WFRNOTVNRng5cXdMUFgtLXd3bFJKLXFyejRWTnk3aUJYa09kX003anRsQUVxTi1pRjYwdUpqeXB4ZUZ1cHZhOFJOQVpUMVc0SlRpbTBTXzZSaWRsMk1SUkd2S0xE?oc=5",
+      "source": "Brampton Guardian",
+      "date": "2026-09-01",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-dw-news-lake-ontario-is-now-labeled-lake-america-2026-09-01",
       "mppNames": [
         "Doug Ford"
@@ -428,19 +444,6 @@
       "source": "facebook.com",
       "date": "2026-09-01",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-hardeep-singh-grewal-how-much-have-brampton-s-5-mpps-expensed-ontario-2026-09-01",
-      "mppNames": [
-        "Hardeep Singh Grewal"
-      ],
-      "title": "How much have Brampton’s 5 MPPs expensed Ontario taxpayers since March 2025? - Brampton Guardian",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNkVRQ0lSWVpKeFlrR3ZITlNLRkxKbGdTOG4wOGtsSTZvYnV1VE4xQlBMbno0SEkwWGRWWGx5OFNPLVdIazhKcHZGYmtOOVRWVWRNSV9UVnk1U1V0bU9pUno4OUY1Y1h3WFRNOTVNRng5cXdMUFgtLXd3bFJKLXFyejRWTnk3aUJYa09kX003anRsQUVxTi1pRjYwdUpqeXB4ZUZ1cHZhOFJOQVpUMVc0SlRpbTBTXzZSaWRsMk1SUkd2S0xE?oc=5",
-      "source": "Brampton Guardian",
-      "date": "2026-09-01",
-      "type": "expenses",
       "status": "reported"
     },
     {
