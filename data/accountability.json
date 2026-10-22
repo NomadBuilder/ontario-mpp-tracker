@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -354,7 +354,8 @@
         "Doug Ford",
         "Michelle Cooper",
         "David Piccini",
-        "Kinga Surma"
+        "Kinga Surma",
+        "Doug Downey"
       ],
       "title": "Doug Ford overhauls cabinet following multiple resignations. Here is the full list - CP24",
       "summary": "",
@@ -443,6 +444,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd3RCYzZpdDNXNmN6Tjl0ZTRMN0xjUWV0V1QxY1NfZ3FFdWQ5U1Y2cVRsTVNwUkpLWW1fRFlZT19Ob1BXYXlXSFVFMEpnQng5ZlZReV9IMzIxZ1hvNjRQNl90OWRNTlVMejFLSWtySDBLWGRFMWVoV01KSGdXZ05jSGh3UmFmMUdWNjhPRENBS1lqOWlPRFVCeFdLbVp3UTRPSEI2b21hWlZiRk5oVy1fWEJTS3hlamcwbWtkVTdJbjR3enp0U0RiTFFZM2lrMXRpaGJfdGZ3NExtamU1NTk4Y29B?oc=5",
       "source": "facebook.com",
+      "date": "2026-09-01",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-caroline-mulroney-column-pondering-how-to-prevent-politicians-from-2026-09-01",
+      "mppNames": [
+        "Caroline Mulroney"
+      ],
+      "title": "COLUMN: Pondering how to prevent politicians from early resignation - BradfordToday.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT2NydDY0SXBhZlhITlAyb3I0WVB4VDgyMHo4b2Z0dUYzbmcyOFA2TjZqSmVUQm5acy1remFISVVpeDc3UG9IVENxTGxzbzFkNmxjNmEtdGJjNVBJT1RmZEZITFVDeWdYMXNQNHctLVFpcEJYckJESUhJd09EMW8tVEQwUFhQZk1aak84elZVNmpKMVYzMlVzNzdwZ0NEWDkyTjQwVGt4OEpxaTVHNzVPanI2M18tdw?oc=5",
+      "source": "BradfordToday.ca",
       "date": "2026-09-01",
       "type": "news",
       "status": "reported"
@@ -1591,19 +1605,6 @@
       "source": "insauga.com",
       "date": "2026-07-20",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-visits-thunder-bay-as-northern-ontario-2026-07-18",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Doug Ford visits Thunder Bay as northern Ontario fires force evacuations - Global News",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTWMtMElNMkxTMC0zSWI4UnE3RXhpQjRvZFVjelAwYUxGM21yTEFyc3FFZWxja08ycmFMYWVIUkZuaWd1Q3pxTmYtNlBVUWFoa08wU3c0TUd4blFHUTJKVTZRQlY0emYydm1fWGZtWVlqMkphZ2pyUktVWkRHSzFPQjhScw?oc=5",
-      "source": "Global News",
-      "date": "2026-07-18",
-      "type": "news",
       "status": "reported"
     }
   ]
