@@ -34,7 +34,7 @@
       "name": "City of Hamilton",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 9,
       "calendarUrl": "https://pub-hamilton.escribemeetings.com",
       "note": ""
     },
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 5,
+      "meetings": 8,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -343,6 +343,70 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
+    },
+    {
+      "id": "hamilton-b7a039f9-ae4b-41",
+      "municipality": "City of Hamilton",
+      "municipalityId": "hamilton",
+      "body": "Council&#39;s Weekly Correspondence Listing",
+      "title": "Council&#39;s Weekly Correspondence Listing",
+      "date": "2026-10-23",
+      "time": "12:00 PM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=b7a039f9-ae4b-41e2-9eca-9cfe2e79d9e8",
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=b7a039f9-ae4b-41e2-9eca-9cfe2e79d9e8"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-d7014eb0-1c82-4d",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Electronic Council Communication Information Package",
+      "title": "Electronic Council Communication Information Package",
+      "date": "2026-10-23",
+      "time": "2:00 PM",
+      "location": "Electronic Meeting",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": false,
+        "deputations": false,
+        "registerBy": null,
+        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=d7014eb0-1c82-4d3b-87d0-b62e9cd0ca1e",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=d7014eb0-1c82-4d3b-87d0-b62e9cd0ca1e"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
     },
     {
       "id": "newmarket-f2eaea99-27c0-4e",
@@ -579,11 +643,11 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -596,7 +660,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -4281,6 +4345,38 @@
       "curated": false
     },
     {
+      "id": "kitchener-edfb387c-3da6-40",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Community and Infrastructure Services Committee",
+      "title": "Community and Infrastructure Services Committee",
+      "date": "2027-01-11",
+      "time": "12:00 AM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=edfb387c-3da6-4076-a5d4-29fe22b5beae",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=edfb387c-3da6-4076-a5d4-29fe22b5beae"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-fa2f60d1-3454-48",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -4814,6 +4910,38 @@
       "links": {
         "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=5dcc937d-45fa-440f-a7da-360a783497a9",
         "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=5dcc937d-45fa-440f-a7da-360a783497a9"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-69a363ae-fb12-4f",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Community and Infrastructure Services Committee",
+      "title": "Community and Infrastructure Services Committee",
+      "date": "2027-02-01",
+      "time": "12:00 AM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=69a363ae-fb12-4f59-8d23-e9f4fac7a37f",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=69a363ae-fb12-4f59-8d23-e9f4fac7a37f"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -5419,7 +5547,8 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
+        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
       },
       "keywordsMatched": [
         "data centre",

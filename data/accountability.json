@@ -3,6 +3,32 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-ford-gives-stan-cho-parliamentary-assistant-role-2026-10-23",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Ford gives Stan Cho parliamentary assistant role three months after hotel-expenses resignation - St. Catharines Standard",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNQVlSaW81T3VBYkpRc2d3bTB5Ym9rbkhxU2NtaS1rZVpFX1hzaGFUb3hpVXdQZjd5N2FuckZmZHRvZ3VkdzJGT21XQXFNcWZ0TjgwbERTSnFza3hzOHc2clI3QWVhcEpVMElVS3doT29ZV3UwV3BEd1hLV21RWElPTldYRm1YSGtZQzNDYklFRmMySVRnNkVBSWpzZE1EbmpETkpUN2FoT29fMDJJMEFiNkpOTlNCbVg1XzVFTk5DdWNJLUlHSXU1dUx0Wll1MzFKQV9GeVNrTDhLYmxGNmtvSDlOamIyeG1BdHNqUm9ZN3BOTjAzeEwtNnVaZ05BcHlWZWdWbmd5SVktMWxYSFhCYTlYeFlvYTNrYmlhQzdRRFJQc3VySk1z?oc=5",
+      "source": "St. Catharines Standard",
+      "date": "2026-10-23",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stan-cho-returns-as-ontario-parliamentary-assist-2026-10-23",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Stan Cho returns as Ontario parliamentary assistant, months after spending scandal - CityNews Toronto",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcktJZXdKQ3hWMlNjSVBncTFJV3BCX3lVMm9KSHJYdG9pcDFWVmFuTXo2bzhmaENVaXdNUldOTGhQY0Iwc1VDQUtfc0dvZ2h5c2E5SUVJMzU1OVZHYlR6MHZXUDNrcEwxX2tpMWtiY3h3UTVKZ1kyZzRmV2RMSUJBZXVxUUlUWjVnNXFBY3hTcklrU1lGMkUzRTRfY0xzVUo3ampERU9QUGp3LVdpLUJ0YldXcDVMUUVpbXVjcUZB?oc=5",
+      "source": "CityNews Toronto",
+      "date": "2026-10-23",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-stan-cho-stan-cho-rebounds-from-hotel-expense-controversy-2026-10-22",
       "mppNames": [
         "Stan Cho"
@@ -1578,32 +1604,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjekFQMnF4YnowOG51M2M1YVM2ckJMcS1mS1VQX1AzUlRfc2NLUmhycEVncWtTZ3lQY1N6VXBuQ1J2RUpVR2FCVnJneFJDTFFVYVhBQVp2R2k3T1AtU0UyRjhvYlV3aEgtWVFpcVZKTXNOSXM?oc=5",
       "source": "globalnews.ca",
-      "date": "2026-07-20",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-mike-harris-it-s-moving-quickly-ford-provides-update-on-nort-2026-07-20",
-      "mppNames": [
-        "Mike Harris"
-      ],
-      "title": "'It's moving quickly': Ford provides update on northern Ontario wildfires, evacuations - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90VTBIdzVRcEpGeDdpSVExVmNBcC1GVk5vLVU3VVBWUkVucFp2M2Y4SGFuZ3BYYWhNZzJ4a1RPX0dfSTdCY3JMSFRURWp0Q1Q1a2VJSWlOQXQzb3I4MU1SaUFuRDdGVWNxYzJ2QkFYZklObVpOc1BraC03OWVZQ2c?oc=5",
-      "source": "CBC",
-      "date": "2026-07-20",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-more-questions-emerge-about-ontario-mpp-stan-cho-2026-07-20",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "More questions emerge about Ontario MPP Stan Cho’s spending scandal - youtu.be",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VWjFNMERRVXFBV0JHdTZuU1F2b1dOeEl2cjlWQkRiQ3BVNW1WdE1QbFB0RHlSS1VteG5ZZU1KNGVSRDhaczU0SXY1QXdwZDZkaGdXNDBrRXQxRS1X?oc=5",
-      "source": "youtu.be",
       "date": "2026-07-20",
       "type": "news",
       "status": "reported"
