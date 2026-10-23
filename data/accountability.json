@@ -1,7 +1,33 @@
 {
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-stan-cho-stan-cho-rebounds-from-hotel-expense-controversy-2026-10-22",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Stan Cho rebounds from hotel expense controversy with new Ministry of Education role - Toronto Life",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONlN6eG5sRllreUVIVnNvVmd3eC1PSUc5TXROb2lzM1M2b0R6VDk3V18zdkthbXRiUkJ0NmVCcWRqWUpRRXJNeXhUdkl2bkdVaEdYR0lVc2hJYUJ5Z1NzWXo3c053MG0xS0RyNFNESWtrX014bWIybTViQklIdXY1NVk2Q0NrN1E4ODN2S1B5bHpudm9zdmtBSXZrNGVLdnZNVXhtVTVDTllXSVItd3NSOVM2WF8?oc=5",
+      "source": "Toronto Life",
+      "date": "2026-10-22",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stan-cho-former-tourism-minister-stan-cho-returns-to-gove-2026-10-22",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Former tourism minister Stan Cho returns to government role after hotel expense scandal - QP Briefing",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONlM2THZMN1pNeWk1YUhucFluNzB6VUdvMkxRd1hPd05mcDMwU0ZZUHhMRWVvQnFWNm55a0dsQnU1OTNmYm5NdzJIQXEyN0JBamdoZEhZYkpxVFdKN0lWYmZzMDZVZjRiLTFrQjJZLVBFcmdaSUNQMUZJQmkyZU56Zlc2Y2J2NjdhX3pDRlZ4Y21GbkZ0dGMxd2FscGlZZnozMzhMd204VTZ0bE5KR0x0ZlRlek01SWdYS3RN?oc=5",
+      "source": "QP Briefing",
+      "date": "2026-10-22",
+      "type": "expenses",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-star-editorial-board-doug-ford-must-address-appa-2026-10-19",
       "mppNames": [
@@ -325,7 +351,8 @@
         "Trevor Jones",
         "Doug Downey",
         "Michelle Cooper",
-        "Andrea Khanjin"
+        "Andrea Khanjin",
+        "Zee Hamid"
       ],
       "title": "Doug Ford shuffles labour minister under ethics investigation in cabinet shakeup - The Trillium",
       "summary": "",
@@ -1579,32 +1606,6 @@
       "source": "youtu.be",
       "date": "2026-07-20",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-not-one-single-offer-doug-ford-criticizes-donald-2026-07-20",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "‘Not one single offer:’ Doug Ford criticizes Donald Trump for not offering help amid wildfires - CP24",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeTVWYTNLQmtGRDhWWFN5RXpFRWdHcVR5RnBwZExtcFBrU3JIVGNWR1IzQVhTTTNLYzY4RTRvUHpXTElXSTJldVR4YnBzNmdEYnk5aHFlMUdrakRCc3FWdUlES0dVbll0OTVyc3M0VFFubGlGQmRUWEdpTlptQU1Fa1g2dURxdXlCY010dkxobTZBaUluOHAwSTFTYWRJR29hTmcyMFNTZ1JkUQ?oc=5",
-      "source": "CP24",
-      "date": "2026-07-20",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-stan-cho-ontario-premier-won-t-say-if-ex-minister-will-re-2026-07-20",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "Ontario premier won't say if ex-minister will remain in PC caucus after hotel expense controversy - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcE04em9yXzEzNWs0RXIybXM4eTgzVVFNdTBzSVFiZk1OY0d0ZFp2XzhiN29ZcDRhdFJ2d28wMlNHMXVHQmxhUWJxNktnY0xKUEoybUZYQUdxZHJldVQ3QVRXYzVrSHYxaGRBcTY3YmRWU0xxVy1mWW0tdUJPaGNDUUQ2aHoyY0ZoT0E?oc=5",
-      "source": "CBC",
-      "date": "2026-07-20",
-      "type": "expenses",
       "status": "reported"
     }
   ]
