@@ -1,16 +1,45 @@
 {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-24",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
-      "id": "auto-ford-gives-stan-cho-parliamentary-assistant-role-2026-10-23",
+      "id": "auto-doug-ford-jarvis-ontario-premier-doug-ford-spending-taxpay-2026-10-24",
       "mppNames": [
-        "Stan Cho"
+        "Doug Ford"
       ],
-      "title": "Ford gives Stan Cho parliamentary assistant role three months after hotel-expenses resignation - St. Catharines Standard",
+      "title": "JARVIS: Ontario Premier Doug Ford spending taxpayer money on self-promotional ads - Toronto Sun",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNQVlSaW81T3VBYkpRc2d3bTB5Ym9rbkhxU2NtaS1rZVpFX1hzaGFUb3hpVXdQZjd5N2FuckZmZHRvZ3VkdzJGT21XQXFNcWZ0TjgwbERTSnFza3hzOHc2clI3QWVhcEpVMElVS3doT29ZV3UwV3BEd1hLV21RWElPTldYRm1YSGtZQzNDYklFRmMySVRnNkVBSWpzZE1EbmpETkpUN2FoT29fMDJJMEFiNkpOTlNCbVg1XzVFTk5DdWNJLUlHSXU1dUx0Wll1MzFKQV9GeVNrTDhLYmxGNmtvSDlOamIyeG1BdHNqUm9ZN3BOTjAzeEwtNnVaZ05BcHlWZWdWbmd5SVktMWxYSFhCYTlYeFlvYTNrYmlhQzdRRFJQc3VySk1z?oc=5",
-      "source": "St. Catharines Standard",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSWNJclZQR1daendtX1RDajNSOEl1TmZOYjBZaFM4ejdpNTg0YWdmTVBERDQxRmlGRXUxRFFzYVVSYW93UG1KMkUzdmgyOElFdFJ1UWdHb0JNLUp0bTZUYk05eU8xME11RFZRR3JXZ3g1MTdCSjVwMFJiYXE2M3FzX1NQM0dfeElzMDRIazdJbGdnOV9CMHZPV0lXcFJiODBtaHlpU3F3ZlA2dkpJd3RYc2pB?oc=5",
+      "source": "Toronto Sun",
+      "date": "2026-10-24",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-willowdale-mpp-stan-cho-resigns-from-doug-ford-s-2026-07-17",
+      "mppNames": [
+        "Stan Cho",
+        "Doug Ford",
+        "Neil Lumsden"
+      ],
+      "title": "Willowdale MPP Stan Cho resigns from Doug Ford's cabinet over hotel expenses - Toronto Sun",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40eVQtdzRmNVJ4cVlyemhRdzhqZmlDTnNGSngtQ2MwNDNjb3MzOWpJYUc1RXFFa1h2Q1RTdC1XSWVPNkVVTHNnZkt6dXRiVk1WakdOem1sUnhsWU81V1dMSi1pVmR4YUVrRkdDb21jclpnUTktLXBjQS13?oc=5",
+      "source": "Toronto Sun",
+      "date": "2026-10-23",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-gives-stan-cho-parliamentary-assistant-2026-10-23",
+      "mppNames": [
+        "Stan Cho",
+        "Doug Ford"
+      ],
+      "title": "Doug Ford gives Stan Cho parliamentary assistant role three months after hotel-expenses resignation - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNM2lxSmJ3ZlRyWGZGTFppZ1RRbWgyMWFjanI2bVhhNTR2clBRNXJSaEFEaWdzZEpoTXZaSzdQWXJoNGtNOWNsN2hXRzlrR2QyMThHSHhjRUY5WUhiWEtqLVhCUHd0VThYanFyQXg0YzNtcXlHdWtLTHdwR2Zad0NDMGRNNmhnNEpyckJhRWQxRkFmdk5nWEJEUTZGWExjQTA1RmlmN1NNZnotYnN0ckJDRng5NXJ1T1I3RmhaY01wV1Z2UWREaVgtaGJCaVRaalh0dUdkODdRYnVNeG52Z0M2bXg3ZTEwb2xCX2gzNE90SkVEQk5wcFIxN3l0bWtGa3h6V3JuU0o4ZzBKY3ZJMTlSMnpuVloxX1k?oc=5",
+      "source": "Toronto Star",
       "date": "2026-10-23",
       "type": "expenses",
       "status": "reported"
@@ -1336,21 +1365,6 @@
       "status": "reported"
     },
     {
-      "id": "auto-willowdale-mpp-stan-cho-resigns-from-doug-ford-s-2026-07-17",
-      "mppNames": [
-        "Stan Cho",
-        "Doug Ford",
-        "Neil Lumsden"
-      ],
-      "title": "Willowdale MPP Stan Cho resigns from Doug Ford's cabinet over hotel expenses - Toronto Sun",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40eVQtdzRmNVJ4cVlyemhRdzhqZmlDTnNGSngtQ2MwNDNjb3MzOWpJYUc1RXFFa1h2Q1RTdC1XSWVPNkVVTHNnZkt6dXRiVk1WakdOem1sUnhsWU81V1dMSi1pVmR4YUVrRkdDb21jclpnUTktLXBjQS13?oc=5",
-      "source": "Toronto Sun",
-      "date": "2026-07-22",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
       "id": "auto-doug-ford-ford-government-advised-its-mpps-they-could-use--2026-07-22",
       "mppNames": [
         "Doug Ford"
@@ -1593,19 +1607,6 @@
       "source": "cbc.ca",
       "date": "2026-07-20",
       "type": "integrity",
-      "status": "reported"
-    },
-    {
-      "id": "auto-hardeep-singh-grewal-brampton-mpp-faces-questions-over-taxpayer-funde-2026-07-20",
-      "mppNames": [
-        "Hardeep Singh Grewal"
-      ],
-      "title": "Brampton MPP faces questions over taxpayer-funded ads in father’s newspaper - globalnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjekFQMnF4YnowOG51M2M1YVM2ckJMcS1mS1VQX1AzUlRfc2NLUmhycEVncWtTZ3lQY1N6VXBuQ1J2RUpVR2FCVnJneFJDTFFVYVhBQVp2R2k3T1AtU0UyRjhvYlV3aEgtWVFpcVZKTXNOSXM?oc=5",
-      "source": "globalnews.ca",
-      "date": "2026-07-20",
-      "type": "news",
       "status": "reported"
     }
   ]
