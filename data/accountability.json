@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-10-25",
+  "asOf": "2026-10-26",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-why-eby-s-early-election-backfired-and-why-doug--2026-10-25",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Why Eby’s early election backfired — and why Doug Ford’s did not - iPolitics",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS01aaWFIc0IwXy1EYmN3SUJiazRWTUtwVUs5VjVEbzNYME14aWc5RGxYZVphTTBWVUtuRzFUM094bXFUYi1DQzBoaHhxUVNwTU9BdUV3RlNJb1FoOFdLNzBXdUlTM3ltbFNpRlFxQndieFdmMm01OTBzRkd2Y1h3alpZcGg3YVNsZHdDTTlORFA5c2FWaG5XTWtodkR3Zw?oc=5",
+      "source": "iPolitics",
+      "date": "2026-10-25",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-jarvis-ontario-premier-doug-ford-spending-taxpay-2026-10-24",
       "mppNames": [
@@ -1595,19 +1608,6 @@
       "source": "globalnews.ca",
       "date": "2026-07-20",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-hardeep-singh-grewal-brampton-mpp-accused-of-using-public-funds-for-a-2026-07-20",
-      "mppNames": [
-        "Hardeep Singh Grewal"
-      ],
-      "title": "Brampton MPP accused of using public funds for ads in family newspaper, integrity commissioner reviewing - cbc.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQ2x5OGl4UFFaa3pFV2R2OXNxd2hwMjQ3enU0ZHNkcGJWM25Zam1ZZDA0LUZ0Z2FTRE9XQmZWUXdSekhyRzduUUlwYkdJS1F0RmdGUTZ6MnhoYmRkUFVReVRDbGJNTGlYcTNrR3NSVENYN1J3LVRUbGhkZ2FBVHFBRU12UWJiVmMtOGFHb1hjWVp0WGp1NmVhQS1XTldvU1llQmpacGxJakk3TkdVcDk2VTBIWkU0UHplcGJVaw?oc=5",
-      "source": "cbc.ca",
-      "date": "2026-07-20",
-      "type": "integrity",
       "status": "reported"
     }
   ]
