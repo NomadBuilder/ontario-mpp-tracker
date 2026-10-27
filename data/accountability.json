@@ -3,6 +3,20 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-ontario-legislature-returning-after-21-weeks-wit-2026-10-26",
+      "mppNames": [
+        "Doug Ford",
+        "Nolan Quinn"
+      ],
+      "title": "Ontario legislature returning after 21 weeks with new faces, rejigged cabinet, cloud of scandal - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSlhVMjl0MUFjVzNzRUFmcGJMUklHX0Q0bWtQNmVxdHB5eXh4NnNVeUVHREtDSkxXNHBiSjN2dWNJSnVlcEs0ajRVVFdkc0xlNnVPbzdYdzc1ck95ei1WaHRtdThkSUZhMW1LaFpMNkVIOHd4NzlwWmpsS3FsVTlkeTBUeFRVUnNPZjZvVDVrS1Jfb2lfZ05yX1NtS0RZUm1wOU1DRkM4d1o?oc=5",
+      "source": "CBC",
+      "date": "2026-10-26",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-why-eby-s-early-election-backfired-and-why-doug--2026-10-25",
       "mppNames": [
         "Doug Ford"
@@ -302,6 +316,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPMGg3SEFkX1RNbjYtek1qN1Y0OXBMY2U1eVRKV2Rmb3NBcllObWR6UzFrMUE5SzNOa2NndGxoM1c3bUtfWC1hUjVabXVqNmsxYnlOdUphT0F5OHRNUEpaMFNHSDFSR29DaUFkbUJfZG96VlBBZFpqc21yNm4xMjBXdC01ZWM0UTJVbE53OU83dlZDdmRzbkJhajVrdmc0cWZKNnk3NThzaW9MTHZlaUxqcjRraVlXUU5xMzBpUkZRY3FvYXZJV21zaGhrbTBQX0NabnI2ZnZPOUtkay1ZRV9GN0FyUXZkYlhFeXBZMjNOTjI4aTlOR3k1TEFPcWRvaGZpRzM1LU5DSmRuUQ?oc=5",
       "source": "Ontario Newsroom",
+      "date": "2026-10-06",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nolan-quinn-ontario-liberals-call-for-minister-quinn-s-resig-2026-10-06",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "Ontario Liberals Call for Minister Quinn’s Resignation Over OSAP Scandal and Mismanagement - Ontario Liberal Party",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYjlNOXN2RDNRbWRlY1RqeVRqaWRnWDJZb2NYQzAxVFpxZGxRRGc3dTd6UXktUm8yb1RGdmxYamw3M2lZbkRFM1hVVENUOEp4M184cmpLUEZzNHo1dW5xUHViUlM0VmFfSkNKTVRnZkVzeG4zY2NtZ1V4MEU4cVVtWGRhNGhXaXhVUUZ2d1dkWld5V2R1UTdYc2NwUGpPNTRLTklMTzlOWWRza2hVdXF3QTd6Q250bHFFQXVac2NBQm1HUmtp?oc=5",
+      "source": "Ontario Liberal Party",
       "date": "2026-10-06",
       "type": "news",
       "status": "reported"
@@ -1579,33 +1606,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOVZSWE1wLWZqQzc4YnVfclQ3dV9BbHZyaTlwRVNGTTdVMVVIYVBYYW5BTV92dUgwbWxTWnAyMVRJb0hWaVBmWnlXbXdMbktlM3lhcjNub1ZSY2dTSXhDZmFxQnNqUmtId2xBQVM1cXh3T0ROWGI5UnVTNzlkb21reVh2TUVTS0YwUS03b3kyTmNndFBQTGpCOExtMlM4TW9UZlpjX2NRRGNKVjcxZUFrWkc5N05tMUdVcGZMV2l6NnBXMDdEVXRsVEtLRWhGTzBXa3BN?oc=5",
       "source": "vancouverisland.ctvnews.ca",
-      "date": "2026-07-20",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-ontario-premier-doug-ford-s-update-on-wildfires--2026-07-17",
-      "mppNames": [
-        "Doug Ford",
-        "Mike Harris"
-      ],
-      "title": "Ontario Premier Doug Ford's Update on Wildfires – July 17, 2026 - CPAC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaEdtUnVHR3dxanhIVFVCWjh3S0h0dWcybTl2bG54UHFWamVtU29OUlNhNTVKakNNa1JmUVNIQWN1RzlwOEhQUXhERG9ETXhPLUZwTm0xYjVmRTlPbVhpazY1V0tRN2ZwTm5Md3prbDNTX1p5NzAtMFZDNmlPTjRIU2JNNml1X21fYk1oelNIUDlHLU5zVm16Q1h5OVIycGZoRENUcHRCaDFfUFZia21taHhIb3Fqc3lFUHM1NDNXTDZsVmcxbWg1YUlUZHk1UFRPVzRoeVMtLU9DYnpHNy13?oc=5",
-      "source": "CPAC",
-      "date": "2026-07-20",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-in-addition-to-16-000-in-hotel-expenses-stan-cho-2026-07-20",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "In addition to $16,000 in hotel expenses, Stan Cho allegedly spent thousands more on lobster and a limousine - torontolife.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQlY0Nkhxb3RxY1FIMHlicGdjOGhidXRSMmdELVhTczFqd0g2UGJ5LWpRa1JNTnRCLXhub1pJTHJtU3ZJTzVNSzc1ZldqY2dQajBGUGlkdlRJaDJPOFV3YUFsbnBXUXZrVEhLanhLcVM1RC0ya0h3Q1JPdFNRTHFWYzV2M3dUWXpGS3FEX0lQdXVHdzRlendVa1VscWZXdXNTM0hvUUZpcjRkNlQwTXJzWmczcGYtd0lxRlU4bUpRQ0R5UFFmU0NCSGVZU0J5aWxX?oc=5",
-      "source": "torontolife.com",
       "date": "2026-07-20",
       "type": "expenses",
       "status": "reported"
