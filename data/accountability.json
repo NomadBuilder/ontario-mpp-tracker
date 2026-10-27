@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-27",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -263,6 +263,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObkh4a0VhczZidVhBSGhETGVGTmhxNXJfLUJnZ3BxYURqU0RQMUM5eGxpamg0eXNtbUJ6VmRYSW42MnVNNEtqLXNTbUU2WVlhQ29PQ3JuTmZaVW1NdVAtel82dC1vVHlKR1AzSF90SU85MTdWNV9UY1hqZEoyZndZQWdKSU9vUHZSaHZn?oc=5",
       "source": "Toronto Sun",
+      "date": "2026-10-07",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nolan-quinn-ford-government-refers-osap-criminal-allegations-2026-10-07",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "Ford government refers OSAP ‘criminal allegations’ to police, more than two years after concerns first raised - Barrie News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNb0FvQmoyLUI4UjVoVm1mVUxGZGUzbXY1VHp3bnZZRm1XLUtBWTRKYUlVak1jN1ZuSE1jMEFKN1ZpUzFZODJKUTdteGViQzRtMDRaRHFnRjg0ODBUbmN6TF9LZ0hrMnNRNTlJV01tS2NWSEJJc3Jyd19tejdvd0tSaFd4YldiWUZqTlp6bkpuNE1kMVRWT2VhSXg5S2ZNdFhPamYydnp2bS14YVhrVl92V1k0SV9vem44RkZfWDR4ZV9lcWdoOW9ic2lYY0QtckpfUjQxa2Y2N3NfVFpCbWc5R0JKU281eElyZHc?oc=5",
+      "source": "Barrie News",
       "date": "2026-10-07",
       "type": "news",
       "status": "reported"
@@ -1593,19 +1606,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQlY0Nkhxb3RxY1FIMHlicGdjOGhidXRSMmdELVhTczFqd0g2UGJ5LWpRa1JNTnRCLXhub1pJTHJtU3ZJTzVNSzc1ZldqY2dQajBGUGlkdlRJaDJPOFV3YUFsbnBXUXZrVEhLanhLcVM1RC0ya0h3Q1JPdFNRTHFWYzV2M3dUWXpGS3FEX0lQdXVHdzRlendVa1VscWZXdXNTM0hvUUZpcjRkNlQwTXJzWmczcGYtd0lxRlU4bUpRQ0R5UFFmU0NCSGVZU0J5aWxX?oc=5",
       "source": "torontolife.com",
-      "date": "2026-07-20",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-ontario-mpp-stan-cho-charged-riding-association--2026-07-20",
-      "mppNames": [
-        "Stan Cho"
-      ],
-      "title": "Ontario MPP Stan Cho charged riding association for upscale meals, hotels and limo rentals - globalnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVRZUG5Sc2stUS1NRXU2aEUyMzYxbzVCeVcwUUNPWEdhR1VZQ3JIVGtmZzF0TFVfdlE3Y05TeDQ4N09QNlE4TVZ1VXVmRGZGTHBXUUpObEdyanpUWlp3bFNnUlRfd1FMcmpaV0lfd2RFOG83NGZBUHNPMTR1eEdhNGFfVHhQa2xqb0FVS1BqUjFZeGdpRVhHcnhVNW5VdU5Qd0VfcElUdFN4NkFOWDN5S3RiOXJTT0Y0VUN2NWFpTHJibDl3RUdF?oc=5",
-      "source": "globalnews.ca",
       "date": "2026-07-20",
       "type": "expenses",
       "status": "reported"
