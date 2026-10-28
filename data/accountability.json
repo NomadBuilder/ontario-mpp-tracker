@@ -1,7 +1,34 @@
 {
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-28",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-stan-cho-former-ontario-cabinet-minister-who-resigned-ove-2026-10-28",
+      "mppNames": [
+        "Stan Cho",
+        "Doug Ford"
+      ],
+      "title": "Former Ontario cabinet minister who resigned over expenses scandal defends promotion - CityNews Toronto",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNEJ1TjlUWUJzcVN2dG9zY014eGlTNTE2a2J2Z3lTd0Rzd3VtNWN4RWdudDRTdEt3TU5Xc3JBZFpkR1JfUS1icEtaT0ZGSmFnREx2cnh1X051OEVXYTE4YU5uVVY2dlZPNm5sVE1IeGk2QUc2WEg2ZU9rcVV5VXFnTy1EM1pEQWNleUg3NWlxVXJLZGZ0MnpLSGpzeUxtVVVQak5NUkN0R1N3TTc2STJWeFBMNm5BT2d5RVkzWktBak1Wdw?oc=5",
+      "source": "CityNews Toronto",
+      "date": "2026-10-28",
+      "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stan-cho-stan-cho-admits-error-in-judgment-says-hip-repla-2026-10-27",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Stan Cho admits ‘error in judgment,’ says hip replacement, young family led to Toronto hotel stays - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQUnRlMW1idm5IcWxrNXBWOGhvQzk1VXdlem9vYkI5c3phOUZuYkE0M2ZHblBoekplUjRKdTVxRGNQTkd0OG85blJPX0s5RlRyOWtkX25MZU5nWlpQNV9zeTdEcnUwTUt6UVBrdUNiUmZoMjd5SlhJUmNWZmZhbU5yTzhDSnpEdnBYZjNxVXF2VnBQUEI4d2w4STBtSW1WaUJQbzROelpVa3ZnSlpUb3RtUWp0dUF5eHVXZGZiVWQ0VXloM29qNEZabFBmVWE0aE5FcjZCMTNWd1o4Z3Fxb1p4Z19jcjAwQURoU1JCVTdyYndhVy0xUzRIUU01anJfM1BfYWVJVDY0d0xqWU03c3ExeHpUamx1QUE?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-10-27",
+      "type": "expenses",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-ontario-legislature-returning-after-21-weeks-wit-2026-10-26",
       "mppNames": [
@@ -1581,33 +1608,6 @@
       "source": "ctvnews.ca",
       "date": "2026-07-21",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-ford-defends-wildfire-response-amid-criticism-fr-2026-07-21",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Ford defends wildfire response amid criticism from First Nations, firefighters - London Free Press",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVkdPSTFqVHhxSnF5dEFBTy0yOWJNUGZOT25HU0FPSkdYblQ3eWRnVVBOMDBpNmRGZVVvcTNRQ3RDQW9vRi13Y3NaZTFTcjItaERaMWxXN1hfZjNKU050ang3bjVGdjd0cFdGSTRHMW5ILTJTMmhzY3JlT21xbVZ1X09YRXAtLU1ldUxIWk1yMVVUQnlEa2kyMVNaV1FYSVJqZ1VEOQ?oc=5",
-      "source": "London Free Press",
-      "date": "2026-07-21",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-will-stan-cho-remain-in-pc-caucus-following-hote-2026-07-20",
-      "mppNames": [
-        "Stan Cho",
-        "Doug Ford"
-      ],
-      "title": "Will Stan Cho remain in PC caucus following hotel expense claim scandal? Doug Ford won’t say - vancouverisland.ctvnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOVZSWE1wLWZqQzc4YnVfclQ3dV9BbHZyaTlwRVNGTTdVMVVIYVBYYW5BTV92dUgwbWxTWnAyMVRJb0hWaVBmWnlXbXdMbktlM3lhcjNub1ZSY2dTSXhDZmFxQnNqUmtId2xBQVM1cXh3T0ROWGI5UnVTNzlkb21reVh2TUVTS0YwUS03b3kyTmNndFBQTGpCOExtMlM4TW9UZlpjX2NRRGNKVjcxZUFrWkc5N05tMUdVcGZMV2l6NnBXMDdEVXRsVEtLRWhGTzBXa3BN?oc=5",
-      "source": "vancouverisland.ctvnews.ca",
-      "date": "2026-07-20",
-      "type": "expenses",
       "status": "reported"
     }
   ]
