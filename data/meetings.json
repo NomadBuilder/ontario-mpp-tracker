@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 11,
+      "meetings": 12,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -196,7 +196,7 @@
       "name": "City of Brantford",
       "type": "escribe",
       "ok": true,
-      "meetings": 5,
+      "meetings": 7,
       "calendarUrl": "https://pub-brantford.escribemeetings.com",
       "note": ""
     },
@@ -405,6 +405,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "oakville-e9d71554-c342-4b",
+      "municipality": "Town of Oakville",
+      "municipalityId": "oakville",
+      "body": "Council Information Packages",
+      "title": "Council Information Packages",
+      "date": "2026-10-28",
+      "time": "9:00 AM",
+      "location": "",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": false,
+        "deputations": false,
+        "registerBy": null,
+        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
+      },
+      "links": {
+        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=e9d71554-c342-4bab-aefb-b95be4cd0ba3",
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=e9d71554-c342-4bab-aefb-b95be4cd0ba3"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1369,13 +1401,45 @@
       "curated": false
     },
     {
+      "id": "brantford-602d842b-783a-44",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "City Council",
+      "title": "City Council",
+      "date": "2026-11-17",
+      "time": "6:00 PM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=602d842b-783a-4469-a5b3-91a834056593",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=602d842b-783a-4469-a5b3-91a834056593"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "cambridge-43362d54-5eec-47",
       "municipality": "City of Cambridge",
       "municipalityId": "cambridge",
       "body": "Council Meeting",
       "title": "Council Meeting",
       "date": "2026-11-17",
-      "time": "6:30 PM",
+      "time": "6:00 PM",
       "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
       "status": "upcoming",
       "cancelled": false,
@@ -1909,6 +1973,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "brantford-d2e70212-234a-43",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "City Council",
+      "title": "City Council",
+      "date": "2026-11-24",
+      "time": "6:00 PM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=d2e70212-234a-4306-8de7-1d7581824a82",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=d2e70212-234a-4306-8de7-1d7581824a82"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -5675,7 +5771,8 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
+        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
       },
       "keywordsMatched": [
         "data centre"
