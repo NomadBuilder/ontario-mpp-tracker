@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -41,6 +41,19 @@
       "source": "CBC",
       "date": "2026-10-26",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-jamie-west-ontario-ndp-wants-the-auditor-general-to-investi-2026-10-26",
+      "mppNames": [
+        "Jamie West"
+      ],
+      "title": "Ontario NDP wants the auditor general to investigate WSIB - Northern Ontario Business",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS2MxSkdFU01sdkFKRlc4QjhMSXZDNnVMeW04alU5Wmd3WURaNG9HS192aGNINnBUOGZ2eUh2QUR0dEJoRWFZcnRkeTFadGd1dW5tamJkam9Tci0zbXRHMjNnNUU3NXpZdFZkbXFfaXQ1UG1WYl9qcERzMDZSWEFOSkNURTVvQkplZlQ1WEg0MnlnOEtIMXQ3RjFfTVpfYmxDS2hsdEdHZXRMcnVzYy1yMThScU5YX0YxdXY5LTNTV0hRNDVSai1zV0NKUHAwOGhzc0Q3d2dOTFQ?oc=5",
+      "source": "Northern Ontario Business",
+      "date": "2026-10-26",
+      "type": "investigation",
       "status": "reported"
     },
     {
@@ -423,6 +436,20 @@
       "source": "nationalpost.com",
       "date": "2026-09-26",
       "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-paul-calandra-marit-stiles-wants-the-auditor-general-to-invest-2026-09-23",
+      "mppNames": [
+        "Paul Calandra",
+        "Marit Stiles"
+      ],
+      "title": "Marit Stiles wants the auditor general to investigate Ontario’s Classroom Supplies Fund - Toronto Life",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1pGWW1tM2NwdTZETGJPTGVidTZ0VDE0Z255TjBMM2tOcTRmc0F1cXgzVVRjTEk2V1BscDdVczlieDZreVhTTE9FUk16U2VaQ05remxHMENBeWx3cWZYRVdieG85TVFfbTIxYTV3QUVKellrWFZUMjVtZ21tN1IyOGU1ZFJnQlFxMVlreWw2cHdzckVFb0lQSWd4WnpLcGs4RFFaczExWFRXMkttdXB6VXcyNG4xNDA?oc=5",
+      "source": "Toronto Life",
+      "date": "2026-09-23",
+      "type": "investigation",
       "status": "reported"
     },
     {
@@ -1581,34 +1608,6 @@
       "type": "integrity",
       "status": "under_review",
       "curated": true
-    },
-    {
-      "id": "grewal-williams-hotels-2026-07",
-      "mppNames": [
-        "Hardeep Singh Grewal",
-        "Charmaine A. Williams"
-      ],
-      "title": "Brampton MPPs under fire for Toronto hotel expense claims",
-      "summary": "Reporting highlighted Brampton East and Brampton Centre MPPs among GTA Progressive Conservatives who expensed substantial Toronto hotel stays while living in the GTA.",
-      "url": "https://www.bramptonguardian.com/news/brampton-mpps-toronto-hotel-expenses/article_2a5a8e2f-f4f3-5d7a-b82e-17a5b456a287.html",
-      "source": "Brampton Guardian",
-      "date": "2026-07-21",
-      "type": "expenses",
-      "status": "reported",
-      "curated": true
-    },
-    {
-      "id": "auto-hardeep-singh-grewal-pc-mpp-potentially-spent-taxpayer-money-on-ads-i-2026-07-21",
-      "mppNames": [
-        "Hardeep Singh Grewal"
-      ],
-      "title": "PC MPP potentially spent taxpayer money on ads in newspaper owned by his father, NDP leader says - toronto.citynews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSFhMZHAtSU5PeV9ock1fYjlXZXJwNDVyZVFwMXhXUVFIcW15TzBxOWpkUVE3bDl4ZkpBb3ZPTXltckNPOFp4cGVpM3pzNHdTcmF3dTUtamo1TUNyQVNiNWpYQUZTdEFnMXlyYXZqX0t6VG9BbGZfRDBNRnlkal9rTE5ES09yRnFmbmhF?oc=5",
-      "source": "toronto.citynews.ca",
-      "date": "2026-07-21",
-      "type": "news",
-      "status": "reported"
     }
   ]
 }
