@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-laurie-scott-a-pc-mpp-helped-mr-x-with-mzos-and-got-his-help--2026-10-29",
+      "mppNames": [
+        "Laurie Scott"
+      ],
+      "title": "A PC MPP helped ‘Mr. X’ with MZOs — and got his help raising $10Ks: integrity commissioner report - The Trillium",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNeUhHTGduQ0czdk1fN3JCQTlOZzUwT1VmTWpXcU5JTjgwU0lkWVZORHV1WWxCSGo3OUI2NVpkWDdtV2RCbHB6dDJGT2I1bmlNUXBnaUhjRy1xbTZkVmVKWEotb01qZi1aZURraWxCbnVCbGh6MlBSRmRucEd5S3pUQnpOU0k0Q2dDeVlnREZmSlpLak1SRDZPZkduRVNaektDV3VHNXR2NEthTU4wandKdFRMZUUxbWhPc0NFc3hlMHhIaWpvbl9ubU5QSEFFYzRILVRCMWN6bl9sQktOTVJydEZ4ZmJnZzBKaTJ3bVQ2OWI?oc=5",
+      "source": "The Trillium",
+      "date": "2026-10-29",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
       "id": "auto-stan-cho-former-ontario-cabinet-minister-who-resigned-ove-2026-10-28",
       "mppNames": [
         "Stan Cho",
@@ -1592,21 +1605,6 @@
       "date": "2026-07-21",
       "type": "expenses",
       "status": "reported",
-      "curated": true
-    },
-    {
-      "id": "grewal-punjabi-post-2026-07",
-      "mppNames": [
-        "Hardeep Singh Grewal",
-        "Marit Stiles"
-      ],
-      "title": "Integrity complaint over ads in father’s newspaper",
-      "summary": "NDP Leader Marit Stiles asked the Integrity Commissioner to examine whether Brampton East MPP Hardeep Grewal used constituency funds for ads in The Punjabi Post, run by his father.",
-      "url": "https://globalnews.ca/news/11972529/hardeep-grewal-ndp-complaint/",
-      "source": "Global News",
-      "date": "2026-07-21",
-      "type": "integrity",
-      "status": "under_review",
       "curated": true
     }
   ]
