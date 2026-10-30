@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -27,6 +27,19 @@
       "source": "CityNews Toronto",
       "date": "2026-10-28",
       "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nolan-quinn-colleges-and-universities-minister-refuses-to-re-2026-10-28",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "Colleges and Universities Minister refuses to resign as opposition hammers student aid freeze - Western Standard",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWnZpaTlIYVJ6NHZXd1dKdE5wTlRqc2JUZ1laclFMdlI5UEw1S0FqUVlTaHlsTEt3cS00MTMxdi1aVWdkUUxFTk1mcUhWcU5laVJvdWhWOEtTT1ZWaWVzcXZWRDlaZVJIeFdnSTBxQ0tHWGxMbHA2a0JOQ0hTRkVISVVzbVZyZjBaaW9ldXZXNzVqR09lVFFSLTVrb0gteGJHcUI5ZnZmRDIxOXE4eS1IZ1NmczBiUkU0TDNJMFotS2pWN2pOWW5palVLOEpGNmtBaXRv?oc=5",
+      "source": "Western Standard",
+      "date": "2026-10-28",
+      "type": "news",
       "status": "reported"
     },
     {
@@ -129,10 +142,10 @@
       "mppNames": [
         "Stan Cho"
       ],
-      "title": "Stan Cho returns as Ontario parliamentary assistant, months after spending scandal - CityNews Toronto",
+      "title": "Stan Cho returns as Ontario parliamentary assistant, months after spending scandal - CityNews Kitchener",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcktJZXdKQ3hWMlNjSVBncTFJV3BCX3lVMm9KSHJYdG9pcDFWVmFuTXo2bzhmaENVaXdNUldOTGhQY0Iwc1VDQUtfc0dvZ2h5c2E5SUVJMzU1OVZHYlR6MHZXUDNrcEwxX2tpMWtiY3h3UTVKZ1kyZzRmV2RMSUJBZXVxUUlUWjVnNXFBY3hTcklrU1lGMkUzRTRfY0xzVUo3ampERU9QUGp3LVdpLUJ0YldXcDVMUUVpbXVjcUZB?oc=5",
-      "source": "CityNews Toronto",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU2V3LUJMdXFJUzFBRmRNOGtZWGV6cFRYY0lIQ3lzWXo0cmVuTEg1T21wTGw1V203LWZXdDd6RDY0UENBUEhuYWpWTVItOEoxeTk1M2gzZW5fQ3VPdXpONFNqN1dTZGhVRV9IamROZ21mY1JaUUNLMURzdlg4NWFDSUJmN2tvYXFWM2tyTVRjZjlYVnRsYjZ3a0g3S2ViTkNPT3czN2cwcV9GX0ZDQ2dwRzZHRUVhb2RqenMxVllIbGE?oc=5",
+      "source": "CityNews Kitchener",
       "date": "2026-10-23",
       "type": "news",
       "status": "reported"
@@ -1588,24 +1601,6 @@
       "date": "2026-07-22",
       "type": "expenses",
       "status": "reported"
-    },
-    {
-      "id": "cho-hotel-resign-2026-07",
-      "mppNames": [
-        "Stan Cho",
-        "Nina Tangri",
-        "Hardeep Singh Grewal",
-        "Charmaine A. Williams",
-        "Doug Ford"
-      ],
-      "title": "Tourism minister resigns amid GTA hotel expense scrutiny; Ford says MPPs will repay",
-      "summary": "Stan Cho stepped down as Minister of Tourism, Culture and Gaming after reporting on GTA Progressive Conservative MPPs billing taxpayers for Toronto hotel stays. Coverage also named Nina Tangri, Hardeep Grewal, and Charmaine Williams among high claimants; Ford said amounts would be repaid.",
-      "url": "https://www.nationalobserver.com/2026/07/21/news/ontario-doug-ford-mpp-billing-scandal",
-      "source": "Canada’s National Observer",
-      "date": "2026-07-21",
-      "type": "expenses",
-      "status": "reported",
-      "curated": true
     }
   ]
 }
