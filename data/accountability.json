@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-david-piccini-mpp-piccini-facing-new-call-for-investigation-ov-2026-10-30",
+      "mppNames": [
+        "David Piccini"
+      ],
+      "title": "MPP Piccini facing new call for investigation over past dealings with banned lobbyist - Northumberland News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOXFYODFENkxJZXZEVEpDb2g2WFFzemJnV09XSzR6S2ltRVV0dlF2TFRyN3d6RVRPZHZYY1FLcG8xbkVIWDFuNG1zOTlTOWdaR0ZWWG14SDZkY01tUEJZcldOeWNwNjY3VEs1U0MyS3o4LTV6U3F6cTJTUXNDQW9Bd1F1TWtqY212ZVI1SUdObE1zb2pLMHQwdXZPX3U2NENlRWxOTE93djlxMnpUbWtldFNVczJjRnVQRWhBWHZmNEY0UnlGOXo2bDcyazJXTEhqSmdkVmZHREhvYXlaQmkwS0hLTDM?oc=5",
+      "source": "Northumberland News",
+      "date": "2026-10-30",
+      "type": "investigation",
+      "status": "reported"
+    },
     {
       "id": "auto-laurie-scott-a-pc-mpp-helped-mr-x-with-mzos-and-got-his-help--2026-10-29",
       "mppNames": [
@@ -53,6 +66,19 @@
       "source": "Toronto Star",
       "date": "2026-10-27",
       "type": "expenses",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-timeline-of-events-in-osap-career-colleges-warni-2026-10-27",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Timeline of events in OSAP career colleges warnings, probes - CityNews Toronto",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5jQ1AyZXNnbUVGa1QyTFIwZHFTLUZFSkxsMEE1LU5qSzU0SzFwbUZ3bV8xLUFqdFlsdjBmTHlQWVRvaEljTnkzUG5RTmk3dEtjZHRzODUyT3Q0NG1GTHdueEJRS1d6SzAxWUpjQ2t1TDYxR2NZR3pyX21n?oc=5",
+      "source": "CityNews Toronto",
+      "date": "2026-10-27",
+      "type": "investigation",
       "status": "reported"
     },
     {
@@ -1574,32 +1600,6 @@
       "source": "nowtoronto.com",
       "date": "2026-07-22",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-adil-shamji-watch-first-nations-chiefs-demand-public-inquiry-2026-07-22",
-      "mppNames": [
-        "Adil Shamji"
-      ],
-      "title": "WATCH: First Nations chiefs demand public inquiry into Ontario’s wildfire response - Western Standard",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdUx6TGc5dGxrM1NVWmw4TVNPd0k3bS1JVzJtSzI1NzZjOUlfOEY4WW9VdGVnQ1NYYVBIeUZHUXhiek5RMDlZc1JTVHlHeUNhWjkxMGR1UDV3Uzc4aklYc1JybWZldzlEMXJXMHIzMzFrQy1BMFZybFYyMGI4Wmwxd1o1SVVkdDhnOHpDWDZQY1RqV1M2b3h0QjFOTHBuRHRIcUFTMHFpSzNqRGtBTXBBeEhVeEJnRTE0VXlhNk4zOTZZQdIBzwFBVV95cUxPUmoyRDAyaTYxTjNET3RHYVlUM2x1NDdZWGc2Z2xONTduQURmRlFiT1RvVTRMVE56S3NyTVZGRXdQdWhLQTU1dkxmNGJRdEtEcll4NV9IREJWb1plR2RYNWZTTVNhbUY2MzIwMVQtRjJHZVRRZ2hUb1pFWFVSNlBYVlNJNndTaWRFQ0pyT011eUtmVHRlLTJFQkVWVlBEVnBqVnk1TTcxa2dFRW1wNjlHWGdPSGpTZmtUVkQ4SzVZTk9rNHk2Nndma3M5TXpfeDg?oc=5",
-      "source": "Western Standard",
-      "date": "2026-07-22",
-      "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-nina-tangri-taxpayers-call-for-greater-transparency-with-mpp-2026-07-22",
-      "mppNames": [
-        "Nina Tangri"
-      ],
-      "title": "Taxpayers call for greater transparency with MPP expenses - Canadian Taxpayers Federation",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdGI2ZEs0UG1vQTRoVkY2aWlFUGVDbmFKRExYTU5oMDFpZUxwYUxsYU1nZXRUa2VmWDlRRUV4QjQwOHI0OUpJNGk1VVdxSGlMLW5yZEhQU1Nfd1NqcFlvODJHSkgzTWh5eW8xMk5nbkdTTHphdU45NXU5TjQtSDJXWVk4VkY0UHhUQXdyR0FRMHpEcmV6YVE?oc=5",
-      "source": "Canadian Taxpayers Federation",
-      "date": "2026-07-22",
-      "type": "expenses",
       "status": "reported"
     }
   ]

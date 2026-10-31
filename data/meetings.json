@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 7,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -345,38 +345,6 @@
       "agendaStatus": "posted"
     },
     {
-      "id": "kitchener-aac24e1f-7c71-4f",
-      "municipality": "City of Kitchener",
-      "municipalityId": "kitchener",
-      "body": "Electronic Council Communication Information Package",
-      "title": "Electronic Council Communication Information Package",
-      "date": "2026-10-30",
-      "time": "2:00 PM",
-      "location": "Electronic Meeting",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": false,
-        "deputations": false,
-        "registerBy": null,
-        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
-      },
-      "links": {
-        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=aac24e1f-7c71-4f0a-a3d0-d732e67b5f77",
-        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=aac24e1f-7c71-4f0a-a3d0-d732e67b5f77"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "stthomas-5bdf8e42-ed3e-46",
       "municipality": "City of St. Thomas",
       "municipalityId": "stthomas",
@@ -415,7 +383,7 @@
       "body": "Council Meeting",
       "title": "Council Meeting",
       "date": "2026-11-02",
-      "time": "6:00 PM",
+      "time": "5:00 PM",
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
@@ -425,7 +393,7 @@
         "attend": true,
         "deputations": null,
         "registerBy": null,
-        "notes": "May include a closed session — public items only."
+        "notes": ""
       },
       "links": {
         "meeting": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=a834bacf-11ab-4439-ab2c-4cd81674e3fe",
