@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-31",
+  "asOf": "2026-11-01",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -580,7 +580,8 @@
         "Doug Downey",
         "Michelle Cooper",
         "Andrea Khanjin",
-        "Zee Hamid"
+        "Zee Hamid",
+        "Brian Saunderson"
       ],
       "title": "Doug Ford shuffles labour minister under ethics investigation in cabinet shakeup - The Trillium",
       "summary": "",
@@ -646,19 +647,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRnR0UHZZbHFYMDkxTl9GLTBORWJIV05udWhlZlEzNWg1YTc1WE9lRWsyakdZM1VuU1BrdUV5am5MQWpkTnM1aFdXcWpHMTl4SU9Id1U3SkZqa0YyQk5IWjdpZVpQNWpDOHRZdGFmajUtT2hfM194MTVNTFhTLUdHeVJ2Qi05YWxUQmhNWWJwc2VEaXMyUkJmRzBERnJoMzVRbk85U24wcXpaeUlNMjNPT2tNTjVPd1RQZVE?oc=5",
       "source": "Toronto Life",
-      "date": "2026-09-10",
-      "type": "integrity",
-      "status": "reported"
-    },
-    {
-      "id": "auto-brian-saunderson-premier-shuffles-labour-minister-under-ethics-pr-2026-09-10",
-      "mppNames": [
-        "Brian Saunderson"
-      ],
-      "title": "Premier shuffles labour minister under ethics probe in cabinet shakeup - BradfordToday.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMHM2bVlLdVZQWU1sNTZmbzF4OG9uTFlncm1fa05WLXhBLWNQRE9zSDVsSzFCQXhNZjhxcEZyZDNUMHFSb0txRjBDWnc3eGxvdTdZemF3bHVHUEVLR2dHUWJ2QkszbF9YelNucnBmeWZ5d2JoVWpveDVfS2dSd1h6YmR0cnNwQXFzQTloZGpQdWw5NWc0X1BCdkxORWRJaUIxY051dFBEYmJvU29fUTRTN2ZRSmdVS0ZKWV9OM1pwOFRIM0NqTU1OYQ?oc=5",
-      "source": "BradfordToday.ca",
       "date": "2026-09-10",
       "type": "integrity",
       "status": "reported"
@@ -1600,6 +1588,19 @@
       "source": "nowtoronto.com",
       "date": "2026-07-22",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nina-tangri-taxpayers-call-for-greater-transparency-with-mpp-2026-07-22",
+      "mppNames": [
+        "Nina Tangri"
+      ],
+      "title": "Taxpayers call for greater transparency with MPP expenses - Canadian Taxpayers Federation",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdGI2ZEs0UG1vQTRoVkY2aWlFUGVDbmFKRExYTU5oMDFpZUxwYUxsYU1nZXRUa2VmWDlRRUV4QjQwOHI0OUpJNGk1VVdxSGlMLW5yZEhQU1Nfd1NqcFlvODJHSkgzTWh5eW8xMk5nbkdTTHphdU45NXU5TjQtSDJXWVk4VkY0UHhUQXdyR0FRMHpEcmV6YVE?oc=5",
+      "source": "Canadian Taxpayers Federation",
+      "date": "2026-07-22",
+      "type": "expenses",
       "status": "reported"
     }
   ]
