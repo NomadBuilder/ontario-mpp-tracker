@@ -34,7 +34,7 @@
       "name": "City of Hamilton",
       "type": "escribe",
       "ok": true,
-      "meetings": 7,
+      "meetings": 8,
       "calendarUrl": "https://pub-hamilton.escribemeetings.com",
       "note": ""
     },
@@ -214,7 +214,7 @@
       "name": "City of Stratford",
       "type": "escribe",
       "ok": true,
-      "meetings": 3,
+      "meetings": 5,
       "calendarUrl": "https://pub-stratford.escribemeetings.com",
       "note": ""
     },
@@ -867,13 +867,13 @@
       "location": "Halton Hills Town Hall, Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=53567908-a2a3-4253-b046-2139b9235bcc",
@@ -884,7 +884,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1145,7 +1145,7 @@
       "curated": false
     },
     {
-      "id": "mississauga-264c7487-c0b3-46",
+      "id": "mississauga-76ee2619-127f-4a",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
       "body": "Inaugural Council",
@@ -1164,8 +1164,8 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=264c7487-c0b3-4662-853b-215ba1722381",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=264c7487-c0b3-4662-853b-215ba1722381"
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=76ee2619-127f-4acd-ab10-1c626fd4a2f6",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=76ee2619-127f-4acd-ab10-1c626fd4a2f6"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -1582,6 +1582,38 @@
       "links": {
         "meeting": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=057c3f2d-0465-450b-aa5a-2e34471a9320",
         "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=057c3f2d-0465-450b-aa5a-2e34471a9320"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "hamilton-99539a48-98d1-46",
+      "municipality": "City of Hamilton",
+      "municipalityId": "hamilton",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2026-11-19",
+      "time": "9:30 AM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=99539a48-98d1-46b4-aa90-f77644327516",
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=99539a48-98d1-46b4-aa90-f77644327516"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -2382,6 +2414,70 @@
       "links": {
         "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=a5c8bd78-ca67-412e-baec-419ab74c98af",
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=a5c8bd78-ca67-412e-baec-419ab74c98af"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "stratford-69749c2d-7f3d-47",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Committee of the Whole Open Session",
+      "title": "Committee of the Whole Open Session",
+      "date": "2026-11-30",
+      "time": "2:00 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=69749c2d-7f3d-47e1-b0c2-1caad6173b68",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=69749c2d-7f3d-47e1-b0c2-1caad6173b68"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "stratford-628adf31-7311-4a",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Special and Public Meeting",
+      "title": "Special and Public Meeting",
+      "date": "2026-11-30",
+      "time": "5:00 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=628adf31-7311-4a73-bb12-e3e8e01e11cf",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=628adf31-7311-4a73-bb12-e3e8e01e11cf"
       },
       "keywordsMatched": [],
       "snippets": [],

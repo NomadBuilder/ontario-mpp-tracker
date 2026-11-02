@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-david-piccini-ndp-leader-calls-for-ethics-probe-involving-nort-2026-11-02",
+      "mppNames": [
+        "David Piccini"
+      ],
+      "title": "NDP leader calls for ethics probe involving Northumberland MPP David Piccini - Brighton Today.ca",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMTFhc2s0N2RwRmI3WFR3R2FabWNrWE80V09RWkhCVkx0SGUxZ1k1Q0U2Ql9MZFk3NVp2bHpRLThyNUlmakd4MmxUekxvSHVFN3E2dzc3OWlaRnQwa1JxRWcxbEVEMnlHekFRd2Z2SldjMzRTTkotd1p2ZzNPVnlkR0dfdTJpcC05TTl6NFdDNG0xZU1qWVRMUm1sR05QdlBWLU43SmVqME1JU09zWDJJTU1VRURVQk5E?oc=5",
+      "source": "Brighton Today.ca",
+      "date": "2026-11-02",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
       "id": "auto-david-piccini-mpp-piccini-facing-new-call-for-investigation-ov-2026-10-30",
       "mppNames": [
         "David Piccini"
@@ -1588,19 +1601,6 @@
       "source": "nowtoronto.com",
       "date": "2026-07-22",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-nina-tangri-taxpayers-call-for-greater-transparency-with-mpp-2026-07-22",
-      "mppNames": [
-        "Nina Tangri"
-      ],
-      "title": "Taxpayers call for greater transparency with MPP expenses - Canadian Taxpayers Federation",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdGI2ZEs0UG1vQTRoVkY2aWlFUGVDbmFKRExYTU5oMDFpZUxwYUxsYU1nZXRUa2VmWDlRRUV4QjQwOHI0OUpJNGk1VVdxSGlMLW5yZEhQU1Nfd1NqcFlvODJHSkgzTWh5eW8xMk5nbkdTTHphdU45NXU5TjQtSDJXWVk4VkY0UHhUQXdyR0FRMHpEcmV6YVE?oc=5",
-      "source": "Canadian Taxpayers Federation",
-      "date": "2026-07-22",
-      "type": "expenses",
       "status": "reported"
     }
   ]
