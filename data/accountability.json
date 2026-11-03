@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-nolan-quinn-ontario-won-t-make-career-college-osap-audit-pub-2026-11-03",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "Ontario won't make career college OSAP audit public, minister says - CP24",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMk1VdFhaVFh4a0dwbkw0cTdhSzZJTDlyNjI5WlpEb2hNS2dNWF94bzZPSHh1ZEpaenNBVEpENUw2b080dmI0MmllT3phTUVqU0xJSHNNNUNGSWZ2OGoxV2dXVGVfblI4YlVBenJSS1MyLTgxYVpfSGNsUHI3TUZ5b29qOTZ5UTdpb2xQWFBQcnlmaENCaVNpcVo1X2xWUVZvVnBIWWYzeEJOakVtbmhfVl9welpBb3N3cUE?oc=5",
+      "source": "CP24",
+      "date": "2026-11-03",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-david-piccini-ndp-leader-calls-for-ethics-probe-involving-nort-2026-11-02",
       "mppNames": [
         "David Piccini"
@@ -1588,19 +1601,6 @@
       "source": "bramptonguardian.com",
       "date": "2026-07-22",
       "type": "integrity",
-      "status": "reported"
-    },
-    {
-      "id": "auto-jill-dunlop-ontario-s-minister-of-emergency-preparedness-and-2026-07-22",
-      "mppNames": [
-        "Jill Dunlop"
-      ],
-      "title": "Ontario's minister of emergency preparedness and response hung up during a CBC radio interview - torontolife.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM2dXT2xtcVk4V0FxM2k2UnlhT1pjSmdpYTEyWlNidERnQ1Jtd1E3cFdCTjBVMkRaLUtGcEdreEVCMFp6ODhSNFBaQ0JCUDFuVWwxd3VadGEzVXlMZ2VUT2JzdkFNY0ljLXh4Ym5wakpMY3hQbkNoMnM5cTBxU0JMMWY1YnF0SGlUaFpfdjFpRWh5aVdmMmozYVVqcHRuVmJ0QmRvZ3J3YVA5aGlSeENoMlBCb3Y5WXo3?oc=5",
-      "source": "torontolife.com",
-      "date": "2026-07-22",
-      "type": "news",
       "status": "reported"
     }
   ]
