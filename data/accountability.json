@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-03",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -13,6 +13,19 @@
       "source": "Brighton Today.ca",
       "date": "2026-11-02",
       "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-pcs-vote-down-ontario-auditor-general-probe-of-c-2026-11-02",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "PCs vote down Ontario Auditor General probe of career college spending - Western Standard",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLUFkQXUySnZtdVJ4RUhGNVF2ZVNubUF6Z0NXRzVNYTB0QVJCNGpETjVWR1lsNEpIUHdnWURyNlFUdWRaOFM1ekl1LUpJRTYzQmdjR2tUY0xRN3lqWWY2R3NocDhncUdJalBMNGJWZTg2TTNQMjNvMGM3bHkzcjNlYmFxcDdJRTdrRHpPV0RENVM1WGJ5LThNSXBVa2J2RnNJbDZ5cl83SzVtNGpJUTVrVTlpeE8?oc=5",
+      "source": "Western Standard",
+      "date": "2026-11-02",
+      "type": "investigation",
       "status": "reported"
     },
     {
@@ -1586,19 +1599,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM2dXT2xtcVk4V0FxM2k2UnlhT1pjSmdpYTEyWlNidERnQ1Jtd1E3cFdCTjBVMkRaLUtGcEdreEVCMFp6ODhSNFBaQ0JCUDFuVWwxd3VadGEzVXlMZ2VUT2JzdkFNY0ljLXh4Ym5wakpMY3hQbkNoMnM5cTBxU0JMMWY1YnF0SGlUaFpfdjFpRWh5aVdmMmozYVVqcHRuVmJ0QmRvZ3J3YVA5aGlSeENoMlBCb3Y5WXo3?oc=5",
       "source": "torontolife.com",
-      "date": "2026-07-22",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-jill-dunlop-ontario-minister-pulled-from-cbc-wildfire-interv-2026-07-22",
-      "mppNames": [
-        "Jill Dunlop"
-      ],
-      "title": "Ontario minister pulled from CBC wildfire interview as critics decry ‘PC government culture’ - nowtoronto.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY3YycUZuVWtNdlhEUENnQ25oVnEyMUpKNHBweDVacHhlLXd3M1hXeVozM3ZiNDlxUHhiWkJPaUx2SlpkTVo0Z2tiR0FZZ3ZJQV9pNkRBVGdPVXd6UVVrSEhVSTV1TVlaaWRXWE95a25BQkN0dGJyR1ZfWHpHODgwWmx5YjN2N2g5?oc=5",
-      "source": "nowtoronto.com",
       "date": "2026-07-22",
       "type": "news",
       "status": "reported"

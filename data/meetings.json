@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-03",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 32,
+      "meetings": 33,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -43,7 +43,7 @@
       "name": "City of Vaughan",
       "type": "escribe",
       "ok": true,
-      "meetings": 22,
+      "meetings": 23,
       "calendarUrl": "https://pub-vaughan.escribemeetings.com",
       "note": ""
     },
@@ -133,7 +133,7 @@
       "name": "Township of King",
       "type": "escribe",
       "ok": true,
-      "meetings": 6,
+      "meetings": 5,
       "calendarUrl": "https://pub-king.escribemeetings.com",
       "note": ""
     },
@@ -205,7 +205,7 @@
       "name": "City of St. Thomas",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 0,
       "calendarUrl": "https://pub-stthomas.escribemeetings.com",
       "note": ""
     },
@@ -343,70 +343,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "stthomas-5bdf8e42-ed3e-46",
-      "municipality": "City of St. Thomas",
-      "municipalityId": "stthomas",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-11-02",
-      "time": "5:00 PM",
-      "location": "COUNCIL CHAMBERS/ZOOM",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=5bdf8e42-ed3e-46f2-b441-4db9f3dfd5ac",
-        "agenda": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=5bdf8e42-ed3e-46f2-b441-4db9f3dfd5ac"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "king-a834bacf-11ab-44",
-      "municipality": "Township of King",
-      "municipalityId": "king",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-11-02",
-      "time": "5:00 PM",
-      "location": "Council Chambers",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=a834bacf-11ab-4439-ab2c-4cd81674e3fe",
-        "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=a834bacf-11ab-4439-ab2c-4cd81674e3fe"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "markham-8d901821-3268-4b",
@@ -5792,7 +5728,7 @@
       "title": "Committee of the Whole (1)",
       "date": "2027-03-02",
       "time": "1:00 PM",
-      "location": "2nd Floor, Vaughan City Hall",
+      "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
@@ -5824,7 +5760,7 @@
       "title": "Committee of the Whole (Public Meeting)",
       "date": "2027-03-02",
       "time": "7:00 PM",
-      "location": "2nd Floor, Vaughan City Hall",
+      "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
@@ -5838,6 +5774,70 @@
       "links": {
         "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=6814948c-5561-4526-bec1-75719fad7186",
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=6814948c-5561-4526-bec1-75719fad7186"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "mississauga-d2361d0b-03cd-43",
+      "municipality": "City of Mississauga",
+      "municipalityId": "mississauga",
+      "body": "Council",
+      "title": "Council",
+      "date": "2027-03-03",
+      "time": "9:30 AM",
+      "location": "300 City Centre Drive, Mississauga, Ontario, L5B 3C1",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=d2361d0b-03cd-4300-8d0b-aae69e9fda56",
+        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=d2361d0b-03cd-4300-8d0b-aae69e9fda56"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "vaughan-f24ee276-1f1e-45",
+      "municipality": "City of Vaughan",
+      "municipalityId": "vaughan",
+      "body": "Committee of the Whole (Working Session)",
+      "title": "Committee of the Whole (Working Session)",
+      "date": "2027-03-03",
+      "time": "1:00 PM",
+      "location": "2nd Floor, Vaughan City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=f24ee276-1f1e-4554-9b8e-de201dbe0f02",
+        "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=f24ee276-1f1e-4554-9b8e-de201dbe0f02"
       },
       "keywordsMatched": [],
       "snippets": [],
