@@ -124,7 +124,7 @@
       "name": "Town of Newmarket",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 2,
       "calendarUrl": "https://pub-newmarket.escribemeetings.com",
       "note": ""
     },
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 9,
+      "meetings": 10,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -214,7 +214,7 @@
       "name": "City of Stratford",
       "type": "escribe",
       "ok": true,
-      "meetings": 5,
+      "meetings": 6,
       "calendarUrl": "https://pub-stratford.escribemeetings.com",
       "note": ""
     },
@@ -409,6 +409,38 @@
       "curated": false
     },
     {
+      "id": "kitchener-71a9a160-65e5-4c",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Special Council Meeting",
+      "title": "Special Council Meeting",
+      "date": "2026-11-06",
+      "time": "1:15 PM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=71a9a160-65e5-4c8c-b99c-5d26da87e1c5",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=71a9a160-65e5-4c8c-b99c-5d26da87e1c5"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "stratford-be97e830-cb44-46",
       "municipality": "City of Stratford",
       "municipalityId": "stratford",
@@ -419,11 +451,11 @@
       "location": "Council Chamber, City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -436,7 +468,39 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "stratford-805ad3bb-c5d0-4f",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Infrastructure, Transportation and Safety Committee",
+      "title": "Infrastructure, Transportation and Safety Committee",
+      "date": "2026-11-09",
+      "time": "7:10 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=805ad3bb-c5d0-4fa6-8a60-f6c1de212c94",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=805ad3bb-c5d0-4fa6-8a60-f6c1de212c94"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -462,6 +526,38 @@
       "links": {
         "meeting": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=53567908-a2a3-4253-b046-2139b9235bcc",
         "agenda": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=53567908-a2a3-4253-b046-2139b9235bcc"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "newmarket-f5da5f39-c12c-4a",
+      "municipality": "Town of Newmarket",
+      "municipalityId": "newmarket",
+      "body": "Special Council - Electronic",
+      "title": "Special Council - Electronic",
+      "date": "2026-11-09",
+      "time": "1:00 PM",
+      "location": "Streamed live from the Municipal Offices",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=f5da5f39-c12c-4a89-817c-5dce9b198b59",
+        "agenda": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=f5da5f39-c12c-4a89-817c-5dce9b198b59"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -515,11 +611,11 @@
       "location": "Live streamed",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -532,7 +628,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1952,7 +2048,7 @@
       "title": "Hamilton Tourism Development Corporation Board of Directors",
       "date": "2026-11-26",
       "time": "1:00 PM",
-      "location": "Room 264, 2nd Floor, City Hall (hybrid) (RM)",
+      "location": "CANCELLED",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
@@ -2656,7 +2752,7 @@
       "title": "Sole Voting Member of the Hamilton Tourism Development Corp",
       "date": "2026-12-04",
       "time": "9:30 AM",
-      "location": "Council Chambers",
+      "location": "CANCELLED",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",

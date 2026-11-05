@@ -68,6 +68,19 @@
       "status": "reported"
     },
     {
+      "id": "auto-stephen-lecce-saskatchewan-first-nation-seeks-stake-in-propose-2026-11-04",
+      "mppNames": [
+        "Stephen Lecce"
+      ],
+      "title": "Saskatchewan First Nation seeks stake in proposed nuclear project - Investigative Journalism Foundation",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUWlvMkx4Z0ZCNVIzVVRjcTVNM0FkbG1seU0tSy1UTzFldi1SRVVPZmhQWHNscHN2a19EQUpRT1VOT1hHc2ROSUF0aXBqMTBBRXlNZmJuTjJsREVZRXRhLVc4WWl6T1ZXU0pBY3dlUUs4c2N0SndKS2JpcjNsN3dObC13X0JsR2NiQ3ByWjhVc0RDOGFG?oc=5",
+      "source": "Investigative Journalism Foundation",
+      "date": "2026-11-04",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-ford-keeps-osap-audit-sealed-blocks-call-for-ind-2026-11-03",
       "mppNames": [
         "Doug Ford"
@@ -1587,19 +1600,6 @@
       "type": "investigation",
       "status": "reported",
       "curated": true
-    },
-    {
-      "id": "auto-doug-ford-first-nations-had-a-wildfire-plan-ontario-ignore-2026-07-23",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "First Nations had a wildfire plan. Ontario ignored it. Then came the flames - thenarwhal.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkSWlzNFdtc2FXN2xCVlRYMTFicEFzVDZ3N1ZxZW5vREJETUxzSm9JaTR2cE1lNXROVDd2dXhySFpMSVdfc044Rm9CR2FaamtNZTcyYmRaOUJLeTI3SEp6b0h4dmc3T3NkMWl4VExOMTN4VkZS?oc=5",
-      "source": "thenarwhal.ca",
-      "date": "2026-07-23",
-      "type": "news",
-      "status": "reported"
     }
   ]
 }
