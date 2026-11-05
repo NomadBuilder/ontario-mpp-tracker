@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -37,6 +37,32 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPUUtDazlsYTljQ0xPYXdEOXd4ZU5vTVpOTjlzNncwdHlUdm9jX1dyZXM4V2k0Q1VvMG1IMy1ianppaDg4WW5CaHRoSzNySDRWM05ZaDZja0p2ZzltZDVOQ2NvdkJGMjFtWnNfa0VHekFHQkRleXNoV084eEo0Mm4xai1SMEdJSFVLa1lOdGRsSDlkdjhocVVGX19mRlpfODJxaTZyb2NQZjZYLUpORy1MS3Bmb1ZJaWdjSWFZRjNHRVh2Zjh0aWp4QncwejFKTDJFd3ZFMF94QXZHZEJDYjNFS1RkYlJ6N0k3SXRGWUkyalRMejFqZ00ySllzWVRvZ2tZZ1R5UzVwUVp3TDlkdy1XTm4xOGpsQkpIZFAw?oc=5",
       "source": "Toronto Star",
+      "date": "2026-11-04",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-paul-calandra-ontario-education-minister-played-behind-the-sce-2026-11-04",
+      "mppNames": [
+        "Paul Calandra"
+      ],
+      "title": "Ontario education minister played behind-the-scenes role in OCDSB Pride parade controversy - Yahoo News Canada",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ19HLUJ5QzJjSzV3VDI4ZFNqRUNEcVlvMlFDOTJlSk9oQTZGTXVkTzVpa1ZuYmQ4VmR0aUpsT01sMFY1WjdVbW0zUzJfdHdpSzlxTDZadXFZSVNERkNrdG1xdnJqc2lyLS1HX1dxU1luZVh1RVFFVW9hNjFUWUR5UXZvT3R2a185?oc=5",
+      "source": "Yahoo News Canada",
+      "date": "2026-11-04",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nolan-quinn-ford-says-osap-auditors-will-prioritize-low-risk-2026-11-04",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "Ford says OSAP auditors will prioritize low-risk career colleges to unfreeze funding, but no timeline given - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16LUs4TzJad25EeWxXQ0dBMHJMMWNhRy1RYUJpb09RdWhlazRGSXpYNDFXUmFhRmk2ZnJOWFdqMWhxNERWU1VqazIyWnVIQjNHbmNXRHFHMGpZTDFFMmdWR1Q2aldkLWk4?oc=5",
+      "source": "CBC",
       "date": "2026-11-04",
       "type": "investigation",
       "status": "reported"
@@ -1573,34 +1599,6 @@
       "source": "thenarwhal.ca",
       "date": "2026-07-23",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-mike-harris-provincial-funding-adapting-to-wildfire-situatio-2026-07-21",
-      "mppNames": [
-        "Mike Harris"
-      ],
-      "title": "Provincial funding adapting to wildfire situation, says local MPP Mike Harris - The Peterborough Examiner",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxORkdBeVB5allHNldYRS1MVVRldDBIMmVCVlhmVU0yNmhma2JTLWpoTWFxaU9nQ3p1QmVTbW5zcWp6QWdXcDhaX0s3UXhQTWZvZXJjTGJtM1dibkdwV0JscVVlbElnZWhabGpSbEtVajNTQUU0SEExWmNKU2tyQkwyTHpFOGo3a0lMenFiVElZWFdXSGhVZ0k1UVBBeHVqUEMtY0J5d0lsS0RBNzhLbkdSNTVCM3hVSWRZRk1XUjJGMF9lNUdGbkh6X3hUNTVxLVIzVlBUeHYtVkV5RHJSeFl0RC0tU1BMQV9vVW5iNThCNWEwNklhX2N3T1V6a0dsbU5TTHB3S2VFQlpJZw?oc=5",
-      "source": "The Peterborough Examiner",
-      "date": "2026-07-23",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-graham-mcgregor-brampton-politicians-dodge-resignation-questions-2026-07-22",
-      "mppNames": [
-        "Graham McGregor",
-        "Amarjot Sandhu",
-        "Prabmeet Singh Sarkaria"
-      ],
-      "title": "Brampton politicians dodge resignation questions amid $49K hotel spending scandal - INsauga",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORzdzZW5UdkpHMFh0YTBrOUlzb1JnQzByZXNwUWh4T2pVSHhYcVhHYmxkdkFId3BjZkRKYXoxS3JnUTVjOUVmc21nbDBTSGxWY082QXJaWi1QaTE5RmRZZVZRN2c0UFJSbnZTWjVkM1dEZWVhdUFxb3llcndFeTZUaG83dFpPN3IyWUp2QVR4c1BfVHNLZVFQeFlUVV9vWlBiQWR6QTF0ekw?oc=5",
-      "source": "INsauga",
-      "date": "2026-07-22",
-      "type": "expenses",
       "status": "reported"
     }
   ]

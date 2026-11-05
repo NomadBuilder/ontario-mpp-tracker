@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 7,
+      "meetings": 6,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -52,7 +52,7 @@
       "name": "City of Markham",
       "type": "escribe",
       "ok": true,
-      "meetings": 9,
+      "meetings": 8,
       "calendarUrl": "https://pub-markham.escribemeetings.com",
       "note": ""
     },
@@ -88,7 +88,7 @@
       "name": "Town of Halton Hills",
       "type": "escribe",
       "ok": true,
-      "meetings": 3,
+      "meetings": 2,
       "calendarUrl": "https://pub-haltonhills.escribemeetings.com",
       "note": ""
     },
@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 11,
+      "meetings": 10,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -241,7 +241,7 @@
       "name": "Region of Peel",
       "type": "escribe",
       "ok": true,
-      "meetings": 11,
+      "meetings": 12,
       "calendarUrl": "https://pub-peelregion.escribemeetings.com/",
       "note": ""
     },
@@ -259,7 +259,7 @@
       "name": "Halton Region",
       "type": "halton",
       "ok": true,
-      "meetings": 2,
+      "meetings": 6,
       "calendarUrl": "https://www.halton.ca/the-region/regional-council-and-committees/calendars-and-schedules",
       "note": ""
     },
@@ -343,166 +343,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "markham-c0f59552-4b13-4f",
-      "municipality": "City of Markham",
-      "municipalityId": "markham",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-11-04",
-      "time": "7:00 PM",
-      "location": "Electronic Meeting",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=c0f59552-4b13-4f21-ab13-86c244b37e92",
-        "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=c0f59552-4b13-4f21-ab13-86c244b37e92"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "ottawa-0e176a88-8996-4b",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Planning and Housing Committee",
-      "title": "Planning and Housing Committee",
-      "date": "2026-11-04",
-      "time": "9:30 AM",
-      "location": "Champlain Room, 110 Laurier Avenue West, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=0e176a88-8996-4b96-bdaf-38624bd64786",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=0e176a88-8996-4b96-bdaf-38624bd64786"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "halton-region-4638",
-      "municipality": "Halton Region",
-      "municipalityId": "halton-region",
-      "body": "REGULAR MEETING OF REGIONAL COUNCIL 08-26",
-      "title": "REGULAR MEETING OF REGIONAL COUNCIL 08-26",
-      "date": "2026-11-04",
-      "time": "9:30 AM",
-      "location": "Halton Regional Centre, 1151 Bronte Road, Oakville",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://edmweb.halton.ca/OnBaseAgendaOnline/Documents/Downloadfile/REGULAR_MEETING_OF_REGIONAL_COUNCIL_08-26_4638_Agenda_2026-11-04_9_30_00_AM.pdf?documentType=1&amp;meetingId=4638",
-        "agenda": "https://edmweb.halton.ca/OnBaseAgendaOnline/Documents/Downloadfile/REGULAR_MEETING_OF_REGIONAL_COUNCIL_08-26_4638_Agenda_2026-11-04_9_30_00_AM.pdf?documentType=1&amp;meetingId=4638"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "halton",
-      "curated": false
-    },
-    {
-      "id": "haltonhills-609d5f2d-7bd2-47",
-      "municipality": "Town of Halton Hills",
-      "municipalityId": "haltonhills",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-11-04",
-      "time": "6:00 PM",
-      "location": "VIA Zoom Meeting",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=609d5f2d-7bd2-47d4-8715-2f3581ade18a",
-        "agenda": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=609d5f2d-7bd2-47d4-8715-2f3581ade18a"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "oakville-d3590626-4ef5-40",
-      "municipality": "Town of Oakville",
-      "municipalityId": "oakville",
-      "body": "Council Information Packages",
-      "title": "Council Information Packages",
-      "date": "2026-11-04",
-      "time": "9:00 AM",
-      "location": "",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": false,
-        "deputations": false,
-        "registerBy": null,
-        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
-      },
-      "links": {
-        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=d3590626-4ef5-4083-a3dc-037e6a3bfcc3",
-        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=d3590626-4ef5-4083-a3dc-037e6a3bfcc3"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "mississauga-7c33334e-ba45-48",
@@ -3481,6 +3321,38 @@
       "curated": false
     },
     {
+      "id": "halton-region-halton-regional-",
+      "municipality": "Halton Region",
+      "municipalityId": "halton-region",
+      "body": "Halton Regional Council: Inaugural Meeting of 2026-2030 Term - December 9, 2026",
+      "title": "Halton Regional Council: Inaugural Meeting of 2026-2030 Term - December 9, 2026",
+      "date": "2026-12-09",
+      "time": "9:30 AM",
+      "location": "Halton Regional Centre, 1151 Bronte Road, Oakville",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://www.halton.ca/the-region/events/2026/inaugural-meeting-of-2026-2030-council-december-9,-2026",
+        "agenda": "https://www.halton.ca/the-region/events/2026/inaugural-meeting-of-2026-2030-council-december-9,-2026"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "halton",
+      "curated": false
+    },
+    {
       "id": "halton-region-4640",
       "municipality": "Halton Region",
       "municipalityId": "halton-region",
@@ -4153,6 +4025,38 @@
       "curated": false
     },
     {
+      "id": "halton-region-halton-regional-",
+      "municipality": "Halton Region",
+      "municipalityId": "halton-region",
+      "body": "Halton Regional Council meeting - December 16, 2026",
+      "title": "Halton Regional Council meeting - December 16, 2026",
+      "date": "2026-12-16",
+      "time": "9:30 AM",
+      "location": "Halton Regional Centre, 1151 Bronte Road, Oakville",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://www.halton.ca/the-region/events/2026/halton-regional-council-december-16,-2026",
+        "agenda": "https://www.halton.ca/the-region/events/2026/halton-regional-council-december-16,-2026"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "halton",
+      "curated": false
+    },
+    {
       "id": "regionofwaterloo-101bcf5e-12f1-42",
       "municipality": "Region of Waterloo",
       "municipalityId": "regionofwaterloo",
@@ -4406,6 +4310,38 @@
       "topics": {},
       "agendaStatus": "not_posted",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "halton-region-halton-regional-",
+      "municipality": "Halton Region",
+      "municipalityId": "halton-region",
+      "body": "Halton Regional Council: Agency Budget Presentations - January 13, 2027",
+      "title": "Halton Regional Council: Agency Budget Presentations - January 13, 2027",
+      "date": "2027-01-13",
+      "time": "9:30 AM",
+      "location": "Halton Regional Centre, 1151 Bronte Road, Oakville",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://www.halton.ca/the-region/events/2027/halton-regional-council-agency-budget-presentations-january-13,-2027",
+        "agenda": "https://www.halton.ca/the-region/events/2027/halton-regional-council-agency-budget-presentations-january-13,-2027"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "halton",
       "curated": false
     },
     {
@@ -4665,6 +4601,38 @@
       "curated": false
     },
     {
+      "id": "halton-region-halton-regional-",
+      "municipality": "Halton Region",
+      "municipalityId": "halton-region",
+      "body": "Halton Regional Council: Budget Meeting - January 20, 2027",
+      "title": "Halton Regional Council: Budget Meeting - January 20, 2027",
+      "date": "2027-01-20",
+      "time": "9:30 AM",
+      "location": "Halton Regional Centre, 1151 Bronte Road, Oakville",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://www.halton.ca/the-region/events/2027/halton-regional-council-budget-meeting-january-20,-2027",
+        "agenda": "https://www.halton.ca/the-region/events/2027/halton-regional-council-budget-meeting-january-20,-2027"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "halton",
+      "curated": false
+    },
+    {
       "id": "mississauga-d047cecd-12a4-4a",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -4790,6 +4758,38 @@
       "topics": {},
       "agendaStatus": "not_posted",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "halton-region-halton-regional-",
+      "municipality": "Halton Region",
+      "municipalityId": "halton-region",
+      "body": "Halton Regional Council - January 27, 2027",
+      "title": "Halton Regional Council - January 27, 2027",
+      "date": "2027-01-27",
+      "time": "9:30 AM",
+      "location": "Halton Regional Centre, 1151 Bronte Road, Oakville",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://www.halton.ca/the-region/events/2027/halton-regional-council-january-27,-2027",
+        "agenda": "https://www.halton.ca/the-region/events/2027/halton-regional-council-january-27,-2027"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "halton",
       "curated": false
     },
     {
@@ -5728,7 +5728,7 @@
       "title": "Committee of Adjustment",
       "date": "2027-03-04",
       "time": "1:00 PM",
-      "location": "300 City Centre Drive, Mississauga, Ontario, L5B 3C1",
+      "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
@@ -5749,6 +5749,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "peel-region-8dbf6366-176a-47",
+      "municipality": "Region of Peel",
+      "municipalityId": "peel-region",
+      "body": "Regional Council Policies and Procedures Committee",
+      "title": "Regional Council Policies and Procedures Committee",
+      "date": "2027-03-04",
+      "time": "9:30 AM",
+      "location": "Council Chamber, 5th Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=8dbf6366-176a-47c3-8083-cef814287b70",
+        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=8dbf6366-176a-47c3-8083-cef814287b70"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
