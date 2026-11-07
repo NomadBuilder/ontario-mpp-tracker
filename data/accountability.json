@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-sylvia-jones-no-action-taken-if-billing-is-appropriate-ont-he-2026-11-05",
+      "mppNames": [
+        "Sylvia Jones"
+      ],
+      "title": "'No action taken' if billing is appropriate: Ont. health minister on warning letters to physicians - CP24",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX1g3TVVDb1d3cXJZejJZckl4QXdSdENKcTZLRDVWd1JZLUVoblBtZXJsY19OOTk3YXU0M3dOUkNmYlpzYTRDRnI4Zlc5VUUzLVJUNVVMQW9FUEJBckZURFhLUTRqR3YyVHk5TWhYNWdSRWZqenZBcWptd0VsUmxLbTluTmVRd25wTmp6OWhvYWlrNFI0SEtuSXYtZDN0VExqNmxBMm9laWVHVXVrTVE2Z3NWb0p6a1k5MlV2UjZPbXBYYkRDZ2N1UlhneWNQa3JTQURuWmNn?oc=5",
+      "source": "CP24",
+      "date": "2026-11-05",
+      "type": "expenses",
+      "status": "reported"
+    },
     {
       "id": "auto-nolan-quinn-ontario-won-t-make-career-college-osap-audit-pub-2026-11-03",
       "mppNames": [
@@ -1584,22 +1597,6 @@
       "date": "2026-07-24",
       "type": "news",
       "status": "reported"
-    },
-    {
-      "id": "fn-inquiry-wildfire-2026-07",
-      "mppNames": [
-        "Jill Dunlop",
-        "Mike Harris",
-        "Doug Ford"
-      ],
-      "title": "Emergency minister’s CBC interview cut short; First Nations call for wildfire inquiry",
-      "summary": "Staff ended Jill Dunlop’s As It Happens interview after questions about First Nations criticism of Ontario’s wildfire evacuations. Chiefs have called for a public inquiry into delays and gaps in the provincial response.",
-      "url": "https://www.cbc.ca/radio/asithappens/jill-dunlop-as-it-happens-9.7279725",
-      "source": "CBC Radio · As It Happens",
-      "date": "2026-07-23",
-      "type": "investigation",
-      "status": "reported",
-      "curated": true
     }
   ]
 }
