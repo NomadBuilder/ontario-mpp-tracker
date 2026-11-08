@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -16,6 +16,20 @@
       "status": "reported"
     },
     {
+      "id": "auto-nolan-quinn-ford-says-osap-auditors-will-prioritize-low-risk-2026-11-04",
+      "mppNames": [
+        "Nolan Quinn",
+        "Doug Ford"
+      ],
+      "title": "Ford says OSAP auditors will prioritize low-risk career colleges to unfreeze funding, but no timeline given - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16LUs4TzJad25EeWxXQ0dBMHJMMWNhRy1RYUJpb09RdWhlazRGSXpYNDFXUmFhRmk2ZnJOWFdqMWhxNERWU1VqazIyWnVIQjNHbmNXRHFHMGpZTDFFMmdWR1Q2aldkLWk4?oc=5",
+      "source": "CBC",
+      "date": "2026-11-04",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-nolan-quinn-ontario-won-t-make-career-college-osap-audit-pub-2026-11-03",
       "mppNames": [
         "Nolan Quinn"
@@ -23,19 +37,6 @@
       "title": "Ontario won’t make career college OSAP audit public, minister says - CityNews Toronto",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbzY1YjhlUnliOGhBeWd2TG82M3VKaEtfdExudzNwTzNuSUdQb0twZmYtbVNGRDdod1hRaXdTXzBwWkhaRlJueU03TjB1cWFva21Mbm9ZY1FlT1pkaU1PV2pWdXpQbndDYzlSY20tZmpCNE5QTE04R2FYVm9xQ2xIUS0zazVtX2piQWFlRl9rYTJiNnZmM1o3dnFrY2t0QWZyRHJxSWVPRQ?oc=5",
-      "source": "CityNews Toronto",
-      "date": "2026-11-04",
-      "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-ford-says-osap-auditors-will-clear-low-risk-care-2026-11-04",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Ford says OSAP auditors will clear low-risk career colleges first; no timeline given - CityNews Toronto",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1NnMTVtWFZqcFk3c2RuMUl6Q1pOYi16ME15R2V4VFVNM3NCaktDMVdFb2hoWTVYTnNIaWxfZlRCY1FfeG9wQnAwWFMzNHZWbFpVdFJRaTE3MjhyWFpONFJYdkYyWmJ5S0VrOHU5eEZZeHlhZHBuMEFNeU5EcWZOVWh2Mko5SVNNTGYwSzlrZXdiMHMyZkJNR2JsTkJxN0FDRnd2QWI3WnZIMmUwbkdKTy1hTWF5eVhGcm5EWTZkYUk?oc=5",
       "source": "CityNews Toronto",
       "date": "2026-11-04",
       "type": "investigation",
@@ -65,19 +66,6 @@
       "source": "Yahoo News Canada",
       "date": "2026-11-04",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-nolan-quinn-ford-says-osap-auditors-will-prioritize-low-risk-2026-11-04",
-      "mppNames": [
-        "Nolan Quinn"
-      ],
-      "title": "Ford says OSAP auditors will prioritize low-risk career colleges to unfreeze funding, but no timeline given - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16LUs4TzJad25EeWxXQ0dBMHJMMWNhRy1RYUJpb09RdWhlazRGSXpYNDFXUmFhRmk2ZnJOWFdqMWhxNERWU1VqazIyWnVIQjNHbmNXRHFHMGpZTDFFMmdWR1Q2aldkLWk4?oc=5",
-      "source": "CBC",
-      "date": "2026-11-04",
-      "type": "investigation",
       "status": "reported"
     },
     {
@@ -1596,6 +1584,20 @@
       "source": "theglobeandmail.com",
       "date": "2026-07-24",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-graham-mcgregor-brampton-politicians-dodge-resignation-questions-2026-07-22",
+      "mppNames": [
+        "Graham McGregor",
+        "Amarjot Sandhu"
+      ],
+      "title": "Brampton politicians dodge resignation questions amid $49K hotel spending scandal | inBrampton - insauga.com",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORzdzZW5UdkpHMFh0YTBrOUlzb1JnQzByZXNwUWh4T2pVSHhYcVhHYmxkdkFId3BjZkRKYXoxS3JnUTVjOUVmc21nbDBTSGxWY082QXJaWi1QaTE5RmRZZVZRN2c0UFJSbnZTWjVkM1dEZWVhdUFxb3llcndFeTZUaG83dFpPN3IyWUp2QVR4c1BfVHNLZVFQeFlUVV9vWlBiQWR6QTF0ekw?oc=5",
+      "source": "insauga.com",
+      "date": "2026-07-22",
+      "type": "expenses",
       "status": "reported"
     }
   ]

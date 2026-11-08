@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 9,
+      "meetings": 10,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -5870,6 +5870,38 @@
       "links": {
         "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=8dbf6366-176a-47c3-8083-cef814287b70",
         "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=8dbf6366-176a-47c3-8083-cef814287b70"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-d7c44e1f-7639-42",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Community and Infrastructure Services Committee",
+      "title": "Community and Infrastructure Services Committee",
+      "date": "2027-03-08",
+      "time": "12:00 AM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=d7c44e1f-7639-42a7-b0c0-49511a1a1d94",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=d7c44e1f-7639-42a7-b0c0-49511a1a1d94"
       },
       "keywordsMatched": [],
       "snippets": [],
