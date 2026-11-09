@@ -70,7 +70,7 @@
       "name": "Town of Milton",
       "type": "escribe",
       "ok": true,
-      "meetings": 4,
+      "meetings": 5,
       "calendarUrl": "https://pub-milton.escribemeetings.com",
       "note": ""
     },
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 10,
+      "meetings": 13,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -462,6 +462,38 @@
       "links": {
         "meeting": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=53567908-a2a3-4253-b046-2139b9235bcc",
         "agenda": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=53567908-a2a3-4253-b046-2139b9235bcc"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "milton-8d83bdad-73fe-4b",
+      "municipality": "Town of Milton",
+      "municipalityId": "milton",
+      "body": "Council-Elect Workshop",
+      "title": "Council-Elect Workshop",
+      "date": "2026-11-09",
+      "time": "1:00 PM",
+      "location": "Sherwood Community Centre (Room 4)",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=8d83bdad-73fe-4b05-bb28-c5691f6153d8",
+        "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=8d83bdad-73fe-4b05-bb28-c5691f6153d8"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -835,7 +867,7 @@
       "location": "Hall A and B, Caledon East Community Complex / YouTube Livestream",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -852,7 +884,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -4345,6 +4377,38 @@
       "curated": false
     },
     {
+      "id": "kitchener-fe412cea-99b0-45",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Planning and Strategic Initiatives Committee",
+      "title": "Planning and Strategic Initiatives Committee",
+      "date": "2027-01-11",
+      "time": "12:00 AM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=fe412cea-99b0-458a-8b7a-de24e8813905",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=fe412cea-99b0-458a-8b7a-de24e8813905"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-fa2f60d1-3454-48",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -4910,6 +4974,38 @@
       "links": {
         "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=5dcc937d-45fa-440f-a7da-360a783497a9",
         "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=5dcc937d-45fa-440f-a7da-360a783497a9"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-330d8a27-43f2-40",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Planning and Strategic Initiatives Committee",
+      "title": "Planning and Strategic Initiatives Committee",
+      "date": "2027-02-01",
+      "time": "12:00 AM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=330d8a27-43f2-40f3-8bf1-d8ee0b065edf",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=330d8a27-43f2-40f3-8bf1-d8ee0b065edf"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -5902,6 +5998,38 @@
       "links": {
         "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=d7c44e1f-7639-42a7-b0c0-49511a1a1d94",
         "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=d7c44e1f-7639-42a7-b0c0-49511a1a1d94"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-7fb33446-fbe2-44",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Planning and Strategic Initiatives Committee",
+      "title": "Planning and Strategic Initiatives Committee",
+      "date": "2027-03-08",
+      "time": "12:00 AM",
+      "location": "Council Chambers - Hybrid",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=7fb33446-fbe2-449e-a2eb-8dac4e28896c",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=7fb33446-fbe2-449e-a2eb-8dac4e28896c"
       },
       "keywordsMatched": [],
       "snippets": [],

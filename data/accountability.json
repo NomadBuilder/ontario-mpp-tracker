@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-two-years-after-premier-doug-ford-vowed-an-audit-2026-11-09",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Two years after Premier Doug Ford vowed an audit of Ontario’s child welfare sector, the results remain secret - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOakpvb09NT3E3Z1poNVk4bWJXNW01NFMzWXZ0N0VTck9ESGRDak52WXdMVEVrV0ZPOHE0TTFkRjJkU05WVlFQMklOQ1RwV0tXQlJIS0J3cFJ0UElhR29EODZWaDVaR1gxV0JURFBIZHRlb01uTmlQLWdIdUtDMmUxZTJ5U2xLV2JGZmJvbjdtWUVFSlBIcVczelBEU1VjdnJpRXVJeTVwT3dFb05Gd1llU1dPT3V0QmtYZE1fVjQyM0JhWXA3czNDQlJSU21zcUJMTzJlTVk5UkhDbnFMb3hscklMV25lS1FGdzBCckdhNDRxdFhpNXVIWWhpSkZacWg2S3ZZNkk3NldRN1Z2VFFXY2NjSnk4b2RLTFZQVmJjcXJBYXdyVGFLWndB?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-11-09",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-sylvia-jones-no-action-taken-if-billing-is-appropriate-ont-he-2026-11-05",
       "mppNames": [
         "Sylvia Jones"
@@ -1584,20 +1597,6 @@
       "source": "theglobeandmail.com",
       "date": "2026-07-24",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-graham-mcgregor-brampton-politicians-dodge-resignation-questions-2026-07-22",
-      "mppNames": [
-        "Graham McGregor",
-        "Amarjot Sandhu"
-      ],
-      "title": "Brampton politicians dodge resignation questions amid $49K hotel spending scandal | inBrampton - insauga.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORzdzZW5UdkpHMFh0YTBrOUlzb1JnQzByZXNwUWh4T2pVSHhYcVhHYmxkdkFId3BjZkRKYXoxS3JnUTVjOUVmc21nbDBTSGxWY082QXJaWi1QaTE5RmRZZVZRN2c0UFJSbnZTWjVkM1dEZWVhdUFxb3llcndFeTZUaG83dFpPN3IyWUp2QVR4c1BfVHNLZVFQeFlUVV9vWlBiQWR6QTF0ekw?oc=5",
-      "source": "insauga.com",
-      "date": "2026-07-22",
-      "type": "expenses",
       "status": "reported"
     }
   ]
