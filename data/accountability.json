@@ -1,7 +1,21 @@
 {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-10",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-doug-ford-says-he-doesn-t-know-anything-about-mp-2026-11-09",
+      "mppNames": [
+        "Doug Ford",
+        "Laurie Scott"
+      ],
+      "title": "Doug Ford says he doesn’t know anything about MPP’s Mr. X MZO controversy - The Trillium",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONzdKbnhwMVVuZ1ZhX2tUYm90VVF5cTlJTHhWc1VHSE12bFAwRktTMkRfbmJLLUtOZ1U4NGh5VDd2RldjMzdyR29WZ1F1Y0RoVEpYUHlxR0RYazNwLUViWmFycmlDTlp2ck9XOTViVEUzZHFJS3FpTGFJeUJIbWs4VUY2QjFoTVd1OE5naU5YcnNNeURtejJfRXBFNUdQNlhFMm96eFU2clpsZC1qcGtqek95T1JuZ0VrTmU1TFV6T1lqeHlCNXg4?oc=5",
+      "source": "The Trillium",
+      "date": "2026-11-09",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-two-years-after-premier-doug-ford-vowed-an-audit-2026-11-09",
       "mppNames": [
@@ -1582,19 +1596,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50ZHhlb1ZNc1hlZHFEaWUtcGIzLTRRZERjTWFWWUFHU3BGUXlFaEpDLW5ZR040VlMyVUdKMmRSaHZWU3hYVVdNS29mS0hOcTBjM0NvRHIybFVFZw?oc=5",
       "source": "CBC",
-      "date": "2026-07-24",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-adil-shamji-what-to-know-about-ontario-s-approach-to-fightin-2026-07-24",
-      "mppNames": [
-        "Adil Shamji"
-      ],
-      "title": "What to know about Ontario’s approach to fighting wildfires up north - theglobeandmail.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTE9QOTM1WTVHUGlXWllTUmV6SjlDSzZJbjEzbnJEcUJ3MmFkRDJwSFZJX2Q5d3U3dUVZM0JueHYzS3lNUHVmcXIwQ1lZNHBNeEtvbG9FcDc0ZUZBamU3bnUxUjExOE5wM3VUU1BNcUpyd1hHTXJxSVNJZlhidDZ4U1dndVpKUkdaVy1xWFZxSUZBNDhLd19BaHJTeTNmcWNxNFJz?oc=5",
-      "source": "theglobeandmail.com",
       "date": "2026-07-24",
       "type": "news",
       "status": "reported"
