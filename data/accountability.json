@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-former-ceo-of-israeli-spyware-company-seeking-on-2026-11-10",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Former CEO of Israeli spyware company seeking Ontario contracts for his new firm - Investigative Journalism Foundation",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVlEzbS1KYS1sQ2dsREtsb0hrcFpadC1GR3d1aEFNUWR0Tk9fQ3k0QktpVEpEWVBUbjhKa0lJTWJnRk5yLUtaMXV6MWFjcUx2bnI2UUp5NW1mLU9scHhmU1RiVWhhRnFJVTk4R192cGNCemY0Z1FsX2I5M2RmdlJVM3dPMVR5dzZyUkNBX2ozTldfeGpzRzBlZnEyU3pJWVdYc2FjSVY3UVEwR2M?oc=5",
+      "source": "Investigative Journalism Foundation",
+      "date": "2026-11-10",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-doug-ford-says-he-doesn-t-know-anything-about-mp-2026-11-09",
       "mppNames": [
         "Doug Ford",
@@ -1585,19 +1598,6 @@
       "source": "ElliotLakeToday.com",
       "date": "2026-07-24",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-jill-dunlop-call-with-ont-minister-cut-short-after-questions-2026-07-24",
-      "mppNames": [
-        "Jill Dunlop"
-      ],
-      "title": "Call with Ont. minister cut short after questions about wildfire response - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50ZHhlb1ZNc1hlZHFEaWUtcGIzLTRRZERjTWFWWUFHU3BGUXlFaEpDLW5ZR040VlMyVUdKMmRSaHZWU3hYVVdNS29mS0hOcTBjM0NvRHIybFVFZw?oc=5",
-      "source": "CBC",
-      "date": "2026-07-24",
-      "type": "news",
       "status": "reported"
     }
   ]
