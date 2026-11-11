@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-martin-regg-cohn-why-doug-ford-s-osap-scandal-go-2026-11-11",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Martin Regg Cohn: Why Doug Ford’s OSAP scandal goes beyond private colleges - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTnRQSXFoZlNrTnBoTzRJYU1hTjZXSWltWXEyXzh0dWtYLUtxZnpuZkcxWDJucGFsbFppTmh5WHFRYU9TaE9acUtqS21zblNodWNYazRxanpVbGczX0o4SlROOXBFczR5Znd0RXpiYkVkNmhrQjhnc3dseEdKSEFDSnJsUF8tS0pMTGJMY21HU0lVYXlWc0NsaWNyQ0RIV290TVJObkhzWFNiVk9QcTZuVzUtX0JjMVdaUU9BWVd0SFkxeDlmbm1OakFZenZraks3OUx2WjVJTjhUa0hvUGR1X3IwdFVFZkIydExj?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-11-11",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-rob-flack-ontario-appoints-8-new-regional-chairs-after-con-2026-11-10",
       "mppNames": [
         "Rob Flack",
@@ -1586,19 +1599,6 @@
       "source": "Thunder Bay News - TBNewsWatch.com",
       "date": "2026-07-24",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-ontario-liberals-lead-pcs-by-5-as-ford-approval--2026-07-24",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Ontario: Liberals Lead PCs by 5 as Ford Approval Falls to 24% Amid Expense Scandal - Liaison Strategies",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRTNGOTNFdWVRb2JETzNaTUhCdDlHNTVHV0poLU9CLUNBZ0NYZ0cyY3U1ZWpLT202UVF1RWxDalo3WXBmbUt6cjBacDJ3eEJQRTkwaGVVNzJrd3EtYzdtaUtVTXJKQ3Vwck9hbXlWZUFUUy10V1MwZ1RESEtiamNVazZVVGV2ZTFGNC1YWnR2c0VBM3J1SzVVT1QtVGVIWnVVNGg4cnRiczN4RXRMWktz?oc=5",
-      "source": "Liaison Strategies",
-      "date": "2026-07-24",
-      "type": "expenses",
       "status": "reported"
     }
   ]
