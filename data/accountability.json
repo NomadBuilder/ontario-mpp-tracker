@@ -1,7 +1,21 @@
 {
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-rob-flack-ontario-appoints-8-new-regional-chairs-after-con-2026-11-10",
+      "mppNames": [
+        "Rob Flack",
+        "Doug Ford"
+      ],
+      "title": "Ontario appoints 8 new regional chairs after controversial rule change lets minister hand-pick appointees - CBC",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ZTkpPVm9YSTNqaThvb2ZleE5sRVpGY1U1ekg3S3h4N1Q0RHdXeGJYZTA4S011ZmQ4djUyYUZlS284a1dKbW9VZ3VEaGxobnk0?oc=5",
+      "source": "CBC",
+      "date": "2026-11-10",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-former-ceo-of-israeli-spyware-company-seeking-on-2026-11-10",
       "mppNames": [
@@ -1583,19 +1597,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRTNGOTNFdWVRb2JETzNaTUhCdDlHNTVHV0poLU9CLUNBZ0NYZ0cyY3U1ZWpLT202UVF1RWxDalo3WXBmbUt6cjBacDJ3eEJQRTkwaGVVNzJrd3EtYzdtaUtVTXJKQ3Vwck9hbXlWZUFUUy10V1MwZ1RESEtiamNVazZVVGV2ZTFGNC1YWnR2c0VBM3J1SzVVT1QtVGVIWnVVNGg4cnRiczN4RXRMWktz?oc=5",
       "source": "Liaison Strategies",
-      "date": "2026-07-24",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-mohamed-firin-ford-government-minister-reimbursed-riding-assoc-2026-07-24",
-      "mppNames": [
-        "Mohamed Firin"
-      ],
-      "title": "Ford government minister reimbursed riding association for hotel stays before expense scandal erupted - ElliotLakeToday.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRzNhUjFaeTRxek9haDhQMU80cmVhYV9fT1cya2pid2dwaTI3aFhSLVB2N3JUSXk1cDVIYVczakhvWFBkZkEzbnUwVVUtWUlDUzZYLWhFUDhYcDFHRmcxVVl2TFBheW81aC1pWlEzM1FhajlQWmxHaFpxd3g3UmtkZm9lRFNQdmxlWXZZVXQ3SlRpajl2NVFDWlBLVE95RUVRX3BWc3lMUm9aRVJSY1g1NWxvVG5oYkh3a1RvNjU5ZWNwOHBHOGY4SnZrejlUVXVKUk51MktYNV9OTnR6d3hfdDNVZ1ZaajVQ?oc=5",
-      "source": "ElliotLakeToday.com",
       "date": "2026-07-24",
       "type": "expenses",
       "status": "reported"
