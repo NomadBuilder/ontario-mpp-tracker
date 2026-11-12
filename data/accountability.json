@@ -3,6 +3,32 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-nolan-quinn-serious-systematic-concerns-ontario-minister-of--2026-11-12",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "‘Serious systematic concerns’: Ontario Minister of Colleges and Universities on OSAP investigations - CP24",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0NLMWFNVnFkdzlaMUhBNmZuZGk0MTBKRmVnU3RuaXNjUDQzQk1rUXVGLWhkUGlxRmlrMFZ0eW41U1RhQ3pCT1dxZS1sRDZIVWh0WjU1Zl9MaEJIVzc1WllKMGpFVlM3OExxZTg5MlBNcENPc0FWM0lBOUJaRUg4OF9XSXNsMm9XWEoyUjNKN1VycmdDZVdRdm8xQld0amhOOGNCV2Q5bW9pUVRKUUhudTJNY0ltMTdPVzRQbzBGTjJCYkJMdXRPb0tlMDZpQmVX?oc=5",
+      "source": "CP24",
+      "date": "2026-11-12",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-nolan-quinn-ontario-proposes-stronger-osap-oversight-enforce-2026-11-12",
+      "mppNames": [
+        "Nolan Quinn"
+      ],
+      "title": "Ontario proposes stronger OSAP oversight, enforcement amid audit into alleged misuse - Yahoo News Canada",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcnFLbDVwRDZZRU15dG9KNjYtZHhudV9uVENEV0tVSHRzZ1I1MjRTMFkxVnZnQXNXTmljTHdFN2RXRHRqaGRiWWpvSVBTWHlUemhZM0tEdmdMdlo0LURPaHdVeVFRTktaLVk5SlZ1VUhFWFZ4eTZGNHg0dGZtLTdfa0w3WnF5Wm8y?oc=5",
+      "source": "Yahoo News Canada",
+      "date": "2026-11-12",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-martin-regg-cohn-why-doug-ford-s-osap-scandal-go-2026-11-11",
       "mppNames": [
         "Doug Ford"
@@ -1573,32 +1599,6 @@
       "source": "CBC",
       "date": "2026-07-24",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-doug-ford-slumps-to-24-approval-rating-amidst-sp-2026-07-24",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Doug Ford slumps to 24% approval rating amidst spending scandal - globalnews.ca",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwb2lxcmM1QUJSRGRjNGhzY0NMX1lqdG5FN0hfVGdXSm51TVFjTVg4WmpSSDVtRlh3bTRDYjJPTEM1VS1UXzNJSGk4N09DaHBnU0Z6WS16WmR2SW1nZUNVbjVDdV9QRzZMTXBiRWktNA?oc=5",
-      "source": "globalnews.ca",
-      "date": "2026-07-24",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-kevin-holland-there-has-been-improved-communication-holland-ad-2026-07-24",
-      "mppNames": [
-        "Kevin Holland"
-      ],
-      "title": "'There has been improved communication': Holland addresses wildfires - Thunder Bay News - TBNewsWatch.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc1B3dklXemh4eU0zZmgxbEhBcm4tM1pZTldjZmc1Q0JLaGFOenB5eUt6Zlh1cTY2VjFpeGV4RFlpQ2txNHUwQzZkX3dKcHBjeWY3cURUWEVyNGNoclFoN2dTdUhPeXlxd0c5bjFXcFFlcGFxV1ZQX2FlVWpua05PNFhfWkllcXo0c1hwcEhaRU9IQzByM2c3OVN1ZG8xc0VZNkdCbWpjaFJKUU5sYkViUm1Qbw?oc=5",
-      "source": "Thunder Bay News - TBNewsWatch.com",
-      "date": "2026-07-24",
-      "type": "news",
       "status": "reported"
     }
   ]

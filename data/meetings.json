@@ -106,7 +106,7 @@
       "name": "City of Pickering",
       "type": "escribe",
       "ok": true,
-      "meetings": 0,
+      "meetings": 1,
       "calendarUrl": "https://pub-pickering.escribemeetings.com",
       "note": ""
     },
@@ -124,7 +124,7 @@
       "name": "Town of Newmarket",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 4,
       "calendarUrl": "https://pub-newmarket.escribemeetings.com",
       "note": ""
     },
@@ -505,6 +505,38 @@
       "curated": false
     },
     {
+      "id": "pickering-72e197b0-a893-4d",
+      "municipality": "City of Pickering",
+      "municipalityId": "pickering",
+      "body": "Inaugural Council",
+      "title": "Inaugural Council",
+      "date": "2026-11-16",
+      "time": "7:00 PM",
+      "location": "Council Chambers",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=72e197b0-a893-4d4f-b031-b5edefd56075",
+        "agenda": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=72e197b0-a893-4d4f-b031-b5edefd56075"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "caledon-1ba70a47-53eb-45",
       "municipality": "Town of Caledon",
       "municipalityId": "caledon",
@@ -565,6 +597,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "newmarket-65eb9946-6775-4b",
+      "municipality": "Town of Newmarket",
+      "municipalityId": "newmarket",
+      "body": "Special Council - Electronic",
+      "title": "Special Council - Electronic",
+      "date": "2026-11-16",
+      "time": "7:00 PM",
+      "location": "Old Town Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=65eb9946-6775-4bc3-846e-a29805d64588",
+        "agenda": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=65eb9946-6775-4bc3-846e-a29805d64588"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -697,38 +761,6 @@
       "curated": false
     },
     {
-      "id": "ottawa-1d2d50c0-6ecb-4a",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Committee of Adjustment - Panel 3",
-      "title": "Committee of Adjustment - Panel 3",
-      "date": "2026-11-17",
-      "time": "9:00 AM",
-      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1d2d50c0-6ecb-4a4a-a9ce-08b5806e14bb",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1d2d50c0-6ecb-4a4a-a9ce-08b5806e14bb"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "ottawa-137bf37a-21b6-43",
       "municipality": "City of Ottawa",
       "municipalityId": "ottawa",
@@ -750,6 +782,38 @@
       "links": {
         "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=137bf37a-21b6-43f0-b4ff-c951a64718b3",
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=137bf37a-21b6-43f0-b4ff-c951a64718b3"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-1d2d50c0-6ecb-4a",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Committee of Adjustment - Panel 3",
+      "title": "Committee of Adjustment - Panel 3",
+      "date": "2026-11-17",
+      "time": "9:00 AM",
+      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1d2d50c0-6ecb-4a4a-a9ce-08b5806e14bb",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1d2d50c0-6ecb-4a4a-a9ce-08b5806e14bb"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -789,6 +853,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "newmarket-a2a386ae-b9ee-4a",
+      "municipality": "Town of Newmarket",
+      "municipalityId": "newmarket",
+      "body": "Special Council - Electronic",
+      "title": "Special Council - Electronic",
+      "date": "2026-11-17",
+      "time": "1:00 PM",
+      "location": "Glass Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=a2a386ae-b9ee-4aa5-b57d-603980bb1f98",
+        "agenda": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=a2a386ae-b9ee-4aa5-b57d-603980bb1f98"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -899,13 +995,13 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
+        "deputations": true,
+        "registerBy": "calling 90",
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=1db77deb-af8a-4b0d-aae8-a21725b0fab5",
@@ -916,7 +1012,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1237,6 +1333,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "newmarket-bb615d45-f105-43",
+      "municipality": "Town of Newmarket",
+      "municipalityId": "newmarket",
+      "body": "Special Council - Electronic",
+      "title": "Special Council - Electronic",
+      "date": "2026-11-19",
+      "time": "9:00 AM",
+      "location": "Glass Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=bb615d45-f105-43fe-b166-397083bee7f3",
+        "agenda": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=bb615d45-f105-43fe-b166-397083bee7f3"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -6027,8 +6155,7 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
       },
       "keywordsMatched": [
         "data centre",
