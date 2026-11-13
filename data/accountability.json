@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -290,6 +290,19 @@
       "source": "CityNews Toronto",
       "date": "2026-10-27",
       "type": "investigation",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stan-cho-stan-cho-defends-promotion-after-ontario-expense-2026-10-27",
+      "mppNames": [
+        "Stan Cho"
+      ],
+      "title": "Stan Cho Defends Promotion After Ontario Expenses Scandal - Barrie 360",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RLXFMOFJqNzNreUtWMDlkQUdHZTZuMGp5UGlWSGZEQVNjQUJ5aTN1X3dxZmJMbHc5ZlpfdzJ4ejY2ZmNjVEVNTVNBZUstenJjQmJGTDFURHZBWDk5Rnk5YzUxNlN6b19ibG04SlgzOU1XckJ4clBvSXVoUmE3NDQ?oc=5",
+      "source": "Barrie 360",
+      "date": "2026-10-27",
+      "type": "expenses",
       "status": "reported"
     },
     {
@@ -1586,19 +1599,6 @@
       "source": "Thunder Bay News - TBNewsWatch.com",
       "date": "2026-07-25",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-fewer-than-1-in-4-ontarians-now-approve-of-ford--2026-07-24",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Fewer than 1 in 4 Ontarians now approve of Ford amid hotel expense scandal, new poll finds - CBC",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcHBEMkt2bllxV0dQLUwzVGF3cVJlTFhLN2xPWFBreXJwWk9VYzcwa2V5aG0xa3dkWkMzbGNlWXBuY1VjOEFVYnNmak5tM2hlcWw4QUJjYktzSlBOX2VwRld0THlEMXBFYWlOZDliSkpJemNEbFh2R0FoV0dmaURrNHUxMA?oc=5",
-      "source": "CBC",
-      "date": "2026-07-24",
-      "type": "expenses",
       "status": "reported"
     }
   ]

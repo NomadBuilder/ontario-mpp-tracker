@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 6,
+      "meetings": 5,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 35,
+      "meetings": 34,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -25,7 +25,7 @@
       "name": "City of Brampton",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 9,
       "calendarUrl": "https://pub-brampton.escribemeetings.com",
       "note": ""
     },
@@ -70,7 +70,7 @@
       "name": "Town of Milton",
       "type": "escribe",
       "ok": true,
-      "meetings": 4,
+      "meetings": 3,
       "calendarUrl": "https://pub-milton.escribemeetings.com",
       "note": ""
     },
@@ -345,113 +345,17 @@
       "agendaStatus": "posted"
     },
     {
-      "id": "mississauga-96fe3d6e-7d92-4b",
-      "municipality": "City of Mississauga",
-      "municipalityId": "mississauga",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-11-12",
-      "time": "1:00 PM",
-      "location": "Council Chambers, Civic Centre, 2nd Floor",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=96fe3d6e-7d92-4b7f-8213-0696db22264a",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=96fe3d6e-7d92-4b7f-8213-0696db22264a"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "ottawa-7e8e2766-5703-48",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "City Council",
-      "title": "City Council",
-      "date": "2026-11-12",
-      "time": "10:00 AM",
-      "location": "Andrew S. Haydon Hall, 110 Laurier Avenue West, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=7e8e2766-5703-4860-9fc6-7b51b4bd783a",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=7e8e2766-5703-4860-9fc6-7b51b4bd783a"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "milton-ab01e70e-d910-49",
-      "municipality": "Town of Milton",
-      "municipalityId": "milton",
-      "body": "Committee of Adjustment and Consent",
-      "title": "Committee of Adjustment and Consent",
-      "date": "2026-11-12",
-      "time": "6:00 PM",
-      "location": "Council Chambers - In Person",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=ab01e70e-d910-49b2-99e7-16ba5c82ef4d",
-        "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=ab01e70e-d910-49b2-99e7-16ba5c82ef4d"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "brampton-9482aeee-0e42-46",
       "municipality": "City of Brampton",
       "municipalityId": "brampton",
       "body": "City Council - Special Meeting",
       "title": "City Council - Special Meeting",
       "date": "2026-11-16",
-      "time": "6:00 PM",
+      "time": "8:00 PM",
       "location": "Rose Theatre",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -468,7 +372,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -899,7 +803,7 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -916,7 +820,39 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "brampton-b33c502b-5777-49",
+      "municipality": "City of Brampton",
+      "municipalityId": "brampton",
+      "body": "Council Workshop",
+      "title": "Council Workshop",
+      "date": "2026-11-18",
+      "time": "10:30 AM",
+      "location": "Boardroom CH-4A - 4th Floor, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": "May include a closed session — public items only."
+      },
+      "links": {
+        "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=b33c502b-5777-4914-ab44-fec909af0b89",
+        "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=b33c502b-5777-4914-ab44-fec909af0b89"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -6155,7 +6091,8 @@
       "origin": "From June 24, 2026 City Council coverage. Official agenda is on Hamilton’s eScribe portal.",
       "links": {
         "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
-        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463"
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=1b45319f-221b-40ce-99e9-bb04769ab463",
+        "source": "https://www.thespec.com/news/council/data-centres-ai-moratorium-hamilton/article_96c11a59-1352-5560-a13d-7e3b63a6b02f.html"
       },
       "keywordsMatched": [
         "data centre",
@@ -6186,8 +6123,7 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
-        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
       },
       "keywordsMatched": [
         "data centre"
