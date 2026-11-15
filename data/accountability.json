@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-14",
+  "asOf": "2026-11-15",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -710,6 +710,19 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbzNrYUJkaWRsMVlZMHlMSTJwVF9fcEM4ZW9KTE8teDI1VXBnaWpLVHkzMGNGYzVqaEVzd00yS3h2amxCUHRjcFVERHdxRjdiX21wUGN4SGwtcmNPSm1aaXZrWEtHWERSYkZhRVFkMGJoSHE4eklmb25aT2VKbkd3bnl5U1FmcHV1MGY2NjBEdWUycDdRcW56RzFGWHZNc3hVMnRjUzJWOTZMeXBUaGIwU0R5V1dSWld5Vm4yclNmMDRSSmdzaFFVWEg3ckVoN0lIUUxJdExTaFNDcEM0RWViVEhQSWJDd1JiN29FY1hNT3ZVMURKbFluSVRtb2ZMUjNub09MMFJ1bEw2NDRhT18w?oc=5",
       "source": "Toronto Star",
+      "date": "2026-09-29",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-stephanie-bowman-ontario-liberal-finance-trade-critic-every-taxpa-2026-09-29",
+      "mppNames": [
+        "Stephanie Bowman"
+      ],
+      "title": "Ontario Liberal Finance & Trade Critic: “Every taxpayer in Ontario is paying for Ford's bad decisions” - Ontario Liberal Party",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPa094dVQ5dEV3cG1xa05WLS1LZHNTVGp0WmVLeGJfZTExRUd4b3B3TmJvMWJBUFBJSEZNLVlGZktEOWcxeGltclNaUWtDanhaQXNMX2MxQjltNzVnT0lPX0o2U0ZjeV9SVElOVTd0bldNWjdrV2RZcUxWR0QxY2N6UGtDTXVrVWoxUzAzQmtKdzFTSzdaaWZIVW1BMmlxa2o3dzdCbjEwRno2RUdzRjdSeS1oU01EVFJtX0NkT3hvY043S2VySEFadFV2Q1dUUQ?oc=5",
+      "source": "Ontario Liberal Party",
       "date": "2026-09-29",
       "type": "news",
       "status": "reported"
@@ -1586,19 +1599,6 @@
       "source": "Thunder Bay News - TBNewsWatch.com",
       "date": "2026-07-26",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-ontario-news-this-week-brampton-mpps-in-hot-wate-2026-07-26",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Ontario News This Week: Brampton MPPs in hot water over hotel stays, plus Doug Ford’s reaction to Trump tariff threats - insidehalton.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQjg5RWJhaG51c2ZFNkc0T0kwSWVfdkMyVWRYc1dZOXE5VzBKdVo3bmNxeGZLWWxzZzRMYkFtamFacmZzRFd2dWh6Rmc0U2Noc1hBZ3FBRzFMbjFtTXRBUUxDU3drbnpSR09oa2ZtamNEVzRqcDBqbTZLdmxXamNiWlVfaHFaSjlZdkI4TTBBRmdWOHgteklkUHlvUmJJeXI2Wmc4Ujk1WXZxOUU5MGNiQ21oeGNDb1l5b3JFVmRJNHV1STVw?oc=5",
-      "source": "insidehalton.com",
-      "date": "2026-07-26",
-      "type": "expenses",
       "status": "reported"
     }
   ]
