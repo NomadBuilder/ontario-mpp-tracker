@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15",
+  "asOf": "2026-11-16",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 13,
+      "meetings": 14,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -761,38 +761,6 @@
       "curated": false
     },
     {
-      "id": "ottawa-1d2d50c0-6ecb-4a",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Committee of Adjustment - Panel 3",
-      "title": "Committee of Adjustment - Panel 3",
-      "date": "2026-11-17",
-      "time": "9:00 AM",
-      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1d2d50c0-6ecb-4a4a-a9ce-08b5806e14bb",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1d2d50c0-6ecb-4a4a-a9ce-08b5806e14bb"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "ottawa-137bf37a-21b6-43",
       "municipality": "City of Ottawa",
       "municipalityId": "ottawa",
@@ -814,6 +782,38 @@
       "links": {
         "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=137bf37a-21b6-43f0-b4ff-c951a64718b3",
         "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=137bf37a-21b6-43f0-b4ff-c951a64718b3"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-1d2d50c0-6ecb-4a",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Committee of Adjustment - Panel 3",
+      "title": "Committee of Adjustment - Panel 3",
+      "date": "2026-11-17",
+      "time": "9:00 AM",
+      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1d2d50c0-6ecb-4a4a-a9ce-08b5806e14bb",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1d2d50c0-6ecb-4a4a-a9ce-08b5806e14bb"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -6158,6 +6158,38 @@
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=a201e0e0-ee19-49ee-8a69-c322e5c19e86",
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=a201e0e0-ee19-49ee-8a69-c322e5c19e86"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-3aadc909-dbe0-4d",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2027-03-16",
+      "time": "10:00 AM",
+      "location": "City of Kitchener",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=3aadc909-dbe0-4d6e-b64f-d015bc9b3b26",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=3aadc909-dbe0-4d6e-b64f-d015bc9b3b26"
       },
       "keywordsMatched": [],
       "snippets": [],

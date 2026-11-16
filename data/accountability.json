@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-11-15",
+  "asOf": "2026-11-16",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-secret-lobbyist-texts-raise-questions-about-the--2026-11-14",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Secret lobbyist texts raise questions about the origin of the Ford government’s controversial Oakville highrise plan - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQQjMzV1phaE9WcmtoMkdfd25jSm5jeFE2WHl5Wm9UYmVrQTlRVWhwejNGNFRsZ1l5WkR2RW0xZkVMQ295OXZOVGNNZGpSeWQ2ZFBjREViME11WmU0NlpGOFJvcWNPeEZzUWVqRVpEeEdHd3JRekE4aVFYa2czQ01yNjZvZXZnQ2xRLXR5V2U3cTItOXFYd3BsNDh2TVJ1c29DanhHQTUyVU5wbTMwYVp2VmtTaFF2MGNob2tNRVp5WDRUTXhqOGVYSDVEUVNiNnZBaTBVSXdIQkNJZHJfUWJUZkZEQVFENGlrTWtHdVBYZkpZc0NvYkRiem5NTUZ0eWJON05wOEh3b1FtVzZQWmpCVl9DSzZLN2ZMOFJwbzRNV3R1dlM5S2wyS2FxRXQ1T2ZyQXpkZQ?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-11-14",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-nolan-quinn-serious-systematic-concerns-ontario-minister-of--2026-11-12",
       "mppNames": [
@@ -1586,19 +1599,6 @@
       "source": "chch.com",
       "date": "2026-07-27",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-kevin-holland-wildfire-response-fuels-protest-outside-mpp-holl-2026-07-25",
-      "mppNames": [
-        "Kevin Holland"
-      ],
-      "title": "Wildfire response fuels protest outside MPP Holland's office - Thunder Bay News - TBNewsWatch.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaW5FTF85Q004WmRrWXZxOHNVNlViZVNGaTdnVmNJOGhUMHFpMGMxbTc1R3ZndFJ5a055MWZ1UmF3RXk3czRJNHJBZU0tbXNBR0Y2REY1MnVVeW1XNTVqUXR2T0xsSW1PQUZLdHRsdGhnSmVGV19vTW1OMVJuR3lKMGdNTFlLM2FycnZuNTc2ZGZMeDI1OFF1VEVtOU1iZE82XzlJQURvVWxZYmM?oc=5",
-      "source": "Thunder Bay News - TBNewsWatch.com",
-      "date": "2026-07-26",
-      "type": "news",
       "status": "reported"
     }
   ]
