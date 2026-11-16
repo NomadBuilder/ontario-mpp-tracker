@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-doug-ford-defends-niagara-casino-plan-against-cr-2026-11-16",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Doug Ford defends Niagara casino plan against criticism from Tory insiders - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbkt6SnpNVXlaTExuM2l6bTNDMVNldlRTSmpvblFucEpDeTNzbG5MQVlmaElhbFRmQzI2ZUFJQkxjZ3hNSXNiaGlFOXFNaW1FUTIzUGdiM29PMVhTd1J5UDVIRDJZbFFZMDA2X21nY0J4NlMtc0xybVF4RzA5NUgxM1dwZXNkdFAtRDA3TW1GZF9Dc0VuY3hCR29UR1ZrQ2N1ejNDZ29uNFROMVYyVzM5enNOMnNYVTB5UExXSU0wbks1aHdkeldBOTdpZFFIdklMem1uYkRXZWFYS09SR1pWNTFuN1hNRWs4M2NIR2cxWEJBQWp1dnJTV3BWQVE?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-11-16",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-secret-lobbyist-texts-raise-questions-about-the--2026-11-14",
       "mppNames": [
         "Doug Ford"
@@ -1586,19 +1599,6 @@
       "source": "Thunder Bay News - TBNewsWatch.com",
       "date": "2026-07-27",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-neil-lumsden-political-analyst-speaks-on-outlook-of-ontario-b-2026-07-24",
-      "mppNames": [
-        "Neil Lumsden"
-      ],
-      "title": "Political analyst speaks on outlook of Ontario byelections in wake of hotel scandal - chch.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSk85M2tNM1NjVm1TRzZ4cXpPRnZFV21DRmpZN1RJSG5aekNpSF81d0E2MTlIVWtWa0tjNkpzeFhWLVF5ZUV4bURHMVotUDlfd1hRUGJNbTk1ZnFWU2pJN1VfeUxKYnZWWEhsdzBBZkNOUVBBQ2VfdmZqQnJiSVdJREVSRXE4eGRIZDRXUV8xczdJYnRRWnZ3cTNCVkUzWVhPdlRubEt2T1pYYl9tUHl3YlpfYWs2Zw?oc=5",
-      "source": "chch.com",
-      "date": "2026-07-27",
-      "type": "expenses",
       "status": "reported"
     }
   ]
