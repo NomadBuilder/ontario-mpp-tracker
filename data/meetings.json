@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-17",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -16,7 +16,7 @@
       "name": "City of Mississauga",
       "type": "escribe",
       "ok": true,
-      "meetings": 34,
+      "meetings": 33,
       "calendarUrl": "https://pub-mississauga.escribemeetings.com",
       "note": ""
     },
@@ -25,7 +25,7 @@
       "name": "City of Brampton",
       "type": "escribe",
       "ok": true,
-      "meetings": 9,
+      "meetings": 8,
       "calendarUrl": "https://pub-brampton.escribemeetings.com",
       "note": ""
     },
@@ -70,7 +70,7 @@
       "name": "Town of Milton",
       "type": "escribe",
       "ok": true,
-      "meetings": 3,
+      "meetings": 2,
       "calendarUrl": "https://pub-milton.escribemeetings.com",
       "note": ""
     },
@@ -79,7 +79,7 @@
       "name": "Town of Caledon",
       "type": "escribe",
       "ok": true,
-      "meetings": 3,
+      "meetings": 2,
       "calendarUrl": "https://pub-caledon.escribemeetings.com",
       "note": ""
     },
@@ -88,7 +88,7 @@
       "name": "Town of Halton Hills",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 1,
       "calendarUrl": "https://pub-haltonhills.escribemeetings.com",
       "note": ""
     },
@@ -106,7 +106,7 @@
       "name": "City of Pickering",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 0,
       "calendarUrl": "https://pub-pickering.escribemeetings.com",
       "note": ""
     },
@@ -124,7 +124,7 @@
       "name": "Town of Newmarket",
       "type": "escribe",
       "ok": true,
-      "meetings": 4,
+      "meetings": 3,
       "calendarUrl": "https://pub-newmarket.escribemeetings.com",
       "note": ""
     },
@@ -187,7 +187,7 @@
       "name": "City of Sarnia",
       "type": "sarnia",
       "ok": true,
-      "meetings": 0,
+      "meetings": 1,
       "calendarUrl": "https://calendar.sarnia.ca/",
       "note": "Council dates from CivicWeb + calendar.sarnia.ca series; agendas on CivicWeb"
     },
@@ -205,7 +205,7 @@
       "name": "City of St. Thomas",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 1,
       "calendarUrl": "https://pub-stthomas.escribemeetings.com",
       "note": ""
     },
@@ -343,294 +343,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "brampton-9482aeee-0e42-46",
-      "municipality": "City of Brampton",
-      "municipalityId": "brampton",
-      "body": "City Council - Special Meeting",
-      "title": "City Council - Special Meeting",
-      "date": "2026-11-16",
-      "time": "8:00 PM",
-      "location": "Rose Theatre",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=9482aeee-0e42-46a2-975e-ecaeda1bea36",
-        "agenda": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=9482aeee-0e42-46a2-975e-ecaeda1bea36"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "mississauga-76ee2619-127f-4a",
-      "municipality": "City of Mississauga",
-      "municipalityId": "mississauga",
-      "body": "Inaugural Council",
-      "title": "Inaugural Council",
-      "date": "2026-11-16",
-      "time": "7:00 PM",
-      "location": "Living Arts Centre - Hammerson Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=76ee2619-127f-4acd-ab10-1c626fd4a2f6",
-        "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=76ee2619-127f-4acd-ab10-1c626fd4a2f6"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "pickering-72e197b0-a893-4d",
-      "municipality": "City of Pickering",
-      "municipalityId": "pickering",
-      "body": "Inaugural Council",
-      "title": "Inaugural Council",
-      "date": "2026-11-16",
-      "time": "7:00 PM",
-      "location": "Council Chambers",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=72e197b0-a893-4d4f-b031-b5edefd56075",
-        "agenda": "https://pub-pickering.escribemeetings.com/Meeting.aspx?Id=72e197b0-a893-4d4f-b031-b5edefd56075"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "stthomas-b63bcd34-2ffa-40",
-      "municipality": "City of St. Thomas",
-      "municipalityId": "stthomas",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-11-16",
-      "time": "5:00 PM",
-      "location": "COUNCIL CHAMBERS/ZOOM",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=b63bcd34-2ffa-402f-80af-24b0d91895e5",
-        "agenda": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=b63bcd34-2ffa-402f-80af-24b0d91895e5"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "caledon-1ba70a47-53eb-45",
-      "municipality": "Town of Caledon",
-      "municipalityId": "caledon",
-      "body": "Inaugural Council Meeting",
-      "title": "Inaugural Council Meeting",
-      "date": "2026-11-16",
-      "time": "6:00 PM",
-      "location": "Hall A and B, Caledon East Community Complex / YouTube Livestream",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=1ba70a47-53eb-45e6-a1a3-4e31195354d8",
-        "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=1ba70a47-53eb-45e6-a1a3-4e31195354d8"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "haltonhills-08c49c8f-a87c-4c",
-      "municipality": "Town of Halton Hills",
-      "municipalityId": "haltonhills",
-      "body": "Inaugural Council Meeting",
-      "title": "Inaugural Council Meeting",
-      "date": "2026-11-16",
-      "time": "6:30 PM",
-      "location": "Cultural Centre -John Elliot Theatre",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=08c49c8f-a87c-4c1f-b5d5-f6426ac08e7d",
-        "agenda": "https://pub-haltonhills.escribemeetings.com/Meeting.aspx?Id=08c49c8f-a87c-4c1f-b5d5-f6426ac08e7d"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "milton-718315ca-364a-43",
-      "municipality": "Town of Milton",
-      "municipalityId": "milton",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-11-16",
-      "time": "7:00 PM",
-      "location": "Town Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=718315ca-364a-4337-8eb7-5f9293e2ded6",
-        "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=718315ca-364a-4337-8eb7-5f9293e2ded6"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "newmarket-65eb9946-6775-4b",
-      "municipality": "Town of Newmarket",
-      "municipalityId": "newmarket",
-      "body": "Special Council - Electronic",
-      "title": "Special Council - Electronic",
-      "date": "2026-11-16",
-      "time": "7:00 PM",
-      "location": "Old Town Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=65eb9946-6775-4bc3-846e-a29805d64588",
-        "agenda": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=65eb9946-6775-4bc3-846e-a29805d64588"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "oakville-1673392e-f1c8-46",
-      "municipality": "Town of Oakville",
-      "municipalityId": "oakville",
-      "body": "Council",
-      "title": "Council",
-      "date": "2026-11-16",
-      "time": "6:30 PM",
-      "location": "Council Chamber",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=1673392e-f1c8-4681-9a66-380572644eaa",
-        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=1673392e-f1c8-4681-9a66-380572644eaa"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "brantford-602d842b-783a-44",
@@ -1145,6 +857,38 @@
       "curated": false
     },
     {
+      "id": "oakville-fa2ad7ee-5040-49",
+      "municipality": "Town of Oakville",
+      "municipalityId": "oakville",
+      "body": "Special Council",
+      "title": "Special Council",
+      "date": "2026-11-18",
+      "time": "6:30 PM",
+      "location": "Council Chamber",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=fa2ad7ee-5040-4969-958c-96e6bcd79b2e",
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=fa2ad7ee-5040-4969-958c-96e6bcd79b2e"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "king-057c3f2d-0465-45",
       "municipality": "Township of King",
       "municipalityId": "king",
@@ -1590,6 +1334,39 @@
       "topics": {},
       "agendaStatus": "not_posted",
       "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "sarnia-2026-11-23-counc",
+      "municipality": "City of Sarnia",
+      "municipalityId": "sarnia",
+      "body": "Regular Council",
+      "title": "Regular Council",
+      "date": "2026-11-23",
+      "time": "1:00 PM",
+      "location": "City Hall, Sarnia",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://sarnia.civicweb.net/Portal/MeetingInformation.aspx?Id=1593&Org=Cal",
+        "agenda": "https://sarnia.civicweb.net/Portal/MeetingInformation.aspx?Id=1593&Org=Cal",
+        "source": "https://sarnia.civicweb.net/Portal/MeetingInformation.aspx?Id=1593&Org=Cal"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "sarnia",
       "curated": false
     },
     {
@@ -6272,7 +6049,7 @@
       "title": "Committee of Adjustment",
       "date": "2027-03-16",
       "time": "10:00 AM",
-      "location": "City of Kitchener",
+      "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
       "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
@@ -6411,7 +6188,8 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
+        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
       },
       "keywordsMatched": [
         "data centre"

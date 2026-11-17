@@ -1,7 +1,21 @@
 {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-17",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-long-awaited-audit-of-ontario-children-s-aid-soc-2026-11-16",
+      "mppNames": [
+        "Doug Ford",
+        "Michael Parsa"
+      ],
+      "title": "Long-awaited audit of Ontario children’s aid societies reveals growing deficits and rising safety incidents - Toronto Star",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOdHhUTVRONHBSOFRZVkdSRjQ0WGozc1J4NmhLUUpOWlJqWTlTQ3FNcjdGSXBiUTRWOTVaNFU3Z09GTTZRbi1POGIza3hveGNCb3h4cXMtN1VTcjVpSzhEQXB1dDg3RE5lMGdINzIwNVJWRWh3bFREV2tVQjFFUjBrTnI5U1VmQi04ZVAzcGwwQWtIWWNIT0ZvRl9wM2RSZzk2ME9Yd1JEUkw2UjdyLTZtYkV4cEJsVkQtN1ZsNlB6SzAwRzdzajNuN25LLUxxN0MzUUo4UVRKQVh4alVzQTZjUHhYREpLaGhydWlFMFB2YUlYb2ZSbUVnUV9fZlRjeTVwUnRqLXc2XzVDcFRxWjN0ZlRIM2RSeEV0bTBoRFRZUUJMUm9iNlFRbUhB?oc=5",
+      "source": "Toronto Star",
+      "date": "2026-11-16",
+      "type": "investigation",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-doug-ford-defends-niagara-casino-plan-against-cr-2026-11-16",
       "mppNames": [
@@ -1584,19 +1598,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZFlKVkdUbDdYVFRwSnhpSFRkMV9mVXNsc09oSmxIUmprQ09DRWs1NnNrMVhKTlhyeFY5OGJyWTF6dk5TdDFEdllHdXFlUkxwRzRHVDhCa2tteUZHT0RNSnpJZzZtSDJORVlZWHVyTU1hcmtUS0pSeHFKWUJoa2ZoT1M5b1dva0cxc24zSGNZNTRjSkRhR3dseE1OR2k3Rlc5ZTVDcW81dVN1TUt4NXJ5cVNsbExUQUNCR0pTTTJkRmxUQkhVRUpXYlZB?oc=5",
       "source": "BNN Bloomberg",
-      "date": "2026-07-27",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-kevin-holland-video-a-protest-targeting-the-provincial-governm-2026-07-27",
-      "mppNames": [
-        "Kevin Holland"
-      ],
-      "title": "VIDEO: A protest targeting the provincial government's response to wildfires was held outside MPP Kevin Holland's office. - Thunder Bay News - TBNewsWatch.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPajNwVFJUUUdUOGduSEJqaG9tUGZRVHpVUTk5clNxOWlTQ3FVbWk2UDRmSVFZRlo2aGs5Z0RfM3NKUjJMQ3IzSkZtV1lMN1cyNERfZndaRG4xdlZzTWx6cEJVb0V3S3loUU9EODhibkg3WnhNd25oUXhtNzE3NXNSbEhSTW5IQ09SaEphV3FhOEJIYnh1d3VCYWJiZjFuYThKMExMcmx2aHJKRi1kT1dtMGI5VFAzUS1uUVhRVW1tY3czb2JrdXkzUFNQVktLOV9pdkQ5Y1ZzSHJnRXJlY3BTNk1RYkIyT0QwT3l5QnU3VV95end4SHJ5ZUk0SDZDdWRLY3c?oc=5",
-      "source": "Thunder Bay News - TBNewsWatch.com",
       "date": "2026-07-27",
       "type": "news",
       "status": "reported"
