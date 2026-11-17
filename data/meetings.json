@@ -79,7 +79,7 @@
       "name": "Town of Caledon",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 5,
       "calendarUrl": "https://pub-caledon.escribemeetings.com",
       "note": ""
     },
@@ -97,7 +97,7 @@
       "name": "Town of Oakville",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 9,
       "calendarUrl": "https://pub-oakville.escribemeetings.com",
       "note": ""
     },
@@ -214,7 +214,7 @@
       "name": "City of Stratford",
       "type": "escribe",
       "ok": true,
-      "meetings": 4,
+      "meetings": 5,
       "calendarUrl": "https://pub-stratford.escribemeetings.com",
       "note": ""
     },
@@ -241,7 +241,7 @@
       "name": "Region of Peel",
       "type": "escribe",
       "ok": true,
-      "meetings": 13,
+      "meetings": 14,
       "calendarUrl": "https://pub-peelregion.escribemeetings.com/",
       "note": ""
     },
@@ -391,9 +391,9 @@
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=43362d54-5eec-4769-bff0-79a28acd32bc",
@@ -1113,6 +1113,38 @@
       "curated": false
     },
     {
+      "id": "stratford-e4e5029c-f35f-42",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Committee of the Whole Open Session",
+      "title": "Committee of the Whole Open Session",
+      "date": "2026-11-19",
+      "time": "5:00 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=e4e5029c-f35f-4274-bc70-7b40686aea71",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=e4e5029c-f35f-4274-bc70-7b40686aea71"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "vaughan-58f4afa3-dda1-42",
       "municipality": "City of Vaughan",
       "municipalityId": "vaughan",
@@ -1141,6 +1173,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "peel-region-168d04dd-a43e-48",
+      "municipality": "Region of Peel",
+      "municipalityId": "peel-region",
+      "body": "Special Regional Council Meeting",
+      "title": "Special Regional Council Meeting",
+      "date": "2026-11-19",
+      "time": "11:00 AM",
+      "location": "Council Chamber, 5th Floor",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=168d04dd-a43e-4878-a228-431083592fcf",
+        "agenda": "https://pub-peelregion.escribemeetings.com/Meeting.aspx?Id=168d04dd-a43e-4878-a228-431083592fcf"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
       "source": "escribe",
       "curated": false
     },
@@ -1283,11 +1347,11 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -1300,7 +1364,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1572,7 +1636,7 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1589,7 +1653,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1604,11 +1668,11 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -1621,7 +1685,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1764,7 +1828,7 @@
       "location": "Woodbridge Room - Committee Rooms 242/243",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1775,6 +1839,38 @@
       "links": {
         "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=d4d912d3-5c8a-43f4-8d7f-e43dcaa23c08",
         "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=d4d912d3-5c8a-43f4-8d7f-e43dcaa23c08"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "caledon-db8d0fa3-5744-42",
+      "municipality": "Town of Caledon",
+      "municipalityId": "caledon",
+      "body": "General Committee Meeting - Workshop",
+      "title": "General Committee Meeting - Workshop",
+      "date": "2026-11-25",
+      "time": "8:30 AM",
+      "location": "Caledon Centre for Recreation and Wellness, Youth Centre",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=db8d0fa3-5744-42b0-9778-b0bfe704f381",
+        "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=db8d0fa3-5744-42b0-9778-b0bfe704f381"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -2330,6 +2426,38 @@
       "curated": false
     },
     {
+      "id": "caledon-f8b27b81-2288-47",
+      "municipality": "Town of Caledon",
+      "municipalityId": "caledon",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-12-01",
+      "time": "10:00 AM",
+      "location": "Hybrid / Council Chamber",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=f8b27b81-2288-4725-8468-1a82a83b4abc",
+        "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=f8b27b81-2288-4725-8468-1a82a83b4abc"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "brampton-cfc933a2-869c-40",
       "municipality": "City of Brampton",
       "municipalityId": "brampton",
@@ -2778,6 +2906,38 @@
       "curated": false
     },
     {
+      "id": "oakville-15f3b983-6180-4a",
+      "municipality": "Town of Oakville",
+      "municipalityId": "oakville",
+      "body": "Public Meeting Notices",
+      "title": "Public Meeting Notices",
+      "date": "2026-12-07",
+      "time": "6:30 PM",
+      "location": "Council Chamber",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=15f3b983-6180-4aa5-9b1f-9838e73c614c",
+        "agenda": "https://pub-oakville.escribemeetings.com/Meeting.aspx?Id=15f3b983-6180-4aa5-9b1f-9838e73c614c"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "king-54c1c3ca-8c44-4d",
       "municipality": "Township of King",
       "municipalityId": "king",
@@ -2938,38 +3098,6 @@
       "curated": false
     },
     {
-      "id": "markham-9fc3471a-06be-4e",
-      "municipality": "City of Markham",
-      "municipalityId": "markham",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-12-08",
-      "time": "1:00 PM",
-      "location": "Live streamed",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=9fc3471a-06be-4ec1-a4ef-578e1dc08116",
-        "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=9fc3471a-06be-4ec1-a4ef-578e1dc08116"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "markham-ee31036c-972c-4c",
       "municipality": "City of Markham",
       "municipalityId": "markham",
@@ -3055,6 +3183,38 @@
       "links": {
         "meeting": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d318740-9b3b-41be-9a57-504fcf6ca41c",
         "agenda": "https://pub-regionofwaterloo.escribemeetings.com/Meeting.aspx?Id=4d318740-9b3b-41be-9a57-504fcf6ca41c"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "caledon-8fb0c69f-eda0-4f",
+      "municipality": "Town of Caledon",
+      "municipalityId": "caledon",
+      "body": "General Committee Meeting - Workshop",
+      "title": "General Committee Meeting - Workshop",
+      "date": "2026-12-08",
+      "time": "2:30 PM",
+      "location": "Hybrid / Council Chamber",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=8fb0c69f-eda0-4f71-bf28-d20ad4e00cc5",
+        "agenda": "https://pub-caledon.escribemeetings.com/Meeting.aspx?Id=8fb0c69f-eda0-4f71-bf28-d20ad4e00cc5"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -3866,6 +4026,38 @@
       "curated": false
     },
     {
+      "id": "markham-9fc3471a-06be-4e",
+      "municipality": "City of Markham",
+      "municipalityId": "markham",
+      "body": "Council Meeting",
+      "title": "Council Meeting",
+      "date": "2026-12-15",
+      "time": "1:00 PM",
+      "location": "Live streamed",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=9fc3471a-06be-4ec1-a4ef-578e1dc08116",
+        "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=9fc3471a-06be-4ec1-a4ef-578e1dc08116"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "vaughan-5f578b86-1c7a-4b",
       "municipality": "City of Vaughan",
       "municipalityId": "vaughan",
@@ -4032,8 +4224,8 @@
       "body": "Strategic Planning and Budget Committee",
       "title": "Strategic Planning and Budget Committee",
       "date": "2026-12-16",
-      "time": "9:00 AM",
-      "location": "Council Chambers/Electronic",
+      "time": "1:00 PM",
+      "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
       "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",

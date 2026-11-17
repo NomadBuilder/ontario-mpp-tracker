@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-ford-refuses-to-confirm-new-taxpayer-money-for-s-2026-11-17",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ford refuses to confirm new taxpayer money for Stellantis Brampton plant - Western Standard",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbVIyXzdxMWl1Njc3aWJXOHpGYTRVWDE2TkhxVnN2LWtaX0t3dUlRT0R6R2ttNW90dDgzSVpjTmRlc2lGeGtiQVN1bmx5dFdsZlJkM2NRblA3Zjd5ZmM4bnFtYkFodlIzNl9ha2N4OE5UWE9vN3BCU0VGUjJSenhhaXhKZlBDS3UwN3VqYTNRX1ZIQzBtS1k5LTdxVzlLTnI4TkR2QW1ZWnQ1X3N3Y2ZMamM3d2ZVc28?oc=5",
+      "source": "Western Standard",
+      "date": "2026-11-17",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-long-awaited-audit-of-ontario-children-s-aid-soc-2026-11-16",
       "mppNames": [
         "Doug Ford",
@@ -1586,19 +1599,6 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRjAzTGRRU1R1d3pnYUhZOWpsUzFkQUlEX0xWTWE0ZlJva0R2YVkxdmpXNWEwbWxJVnZ2MHk1RHhOYnRkU2JnR0l1XzY5ZGExZExxUU1XRjZYWElKUGJXODhtR3VyWDM2TExHWXYyc2t2eHVDRUJXWGZRWnMxUlRCOXJQekRacU53YUVnNGt1LU9rcGpzanBQMjg5cXd4b2Vy?oc=5",
       "source": "London Free Press",
       "date": "2026-07-28",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-prabmeet-singh-sarkaria-gordie-howe-bridge-to-open-to-cars-today-after-m-2026-07-27",
-      "mppNames": [
-        "Prabmeet Singh Sarkaria"
-      ],
-      "title": "Gordie Howe bridge to open to cars today after months of cross-border controversy - BNN Bloomberg",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZFlKVkdUbDdYVFRwSnhpSFRkMV9mVXNsc09oSmxIUmprQ09DRWs1NnNrMVhKTlhyeFY5OGJyWTF6dk5TdDFEdllHdXFlUkxwRzRHVDhCa2tteUZHT0RNSnpJZzZtSDJORVlZWHVyTU1hcmtUS0pSeHFKWUJoa2ZoT1M5b1dva0cxc24zSGNZNTRjSkRhR3dseE1OR2k3Rlc5ZTVDcW81dVN1TUt4NXJ5cVNsbExUQUNCR0pTTTJkRmxUQkhVRUpXYlZB?oc=5",
-      "source": "BNN Bloomberg",
-      "date": "2026-07-27",
       "type": "news",
       "status": "reported"
     }
