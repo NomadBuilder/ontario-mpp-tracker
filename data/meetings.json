@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "note": "Auto-polled eScribe, CivicPlus, Halton, Toronto TMMIS open data, and Ajax schedules. Keyword hits (data centres and water privatization) are flagged relevant; other upcoming council/planning meetings are listed so organizers can scan agendas. Not every Ontario municipality is covered yet — see coverage[].",
   "coverage": [
     {
@@ -7,7 +7,7 @@
       "name": "City of Ottawa",
       "type": "escribe",
       "ok": true,
-      "meetings": 5,
+      "meetings": 3,
       "calendarUrl": "https://pub-ottawa.escribemeetings.com",
       "note": ""
     },
@@ -43,7 +43,7 @@
       "name": "City of Vaughan",
       "type": "escribe",
       "ok": true,
-      "meetings": 25,
+      "meetings": 24,
       "calendarUrl": "https://pub-vaughan.escribemeetings.com",
       "note": ""
     },
@@ -124,7 +124,7 @@
       "name": "Town of Newmarket",
       "type": "escribe",
       "ok": true,
-      "meetings": 3,
+      "meetings": 2,
       "calendarUrl": "https://pub-newmarket.escribemeetings.com",
       "note": ""
     },
@@ -142,7 +142,7 @@
       "name": "City of London",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 1,
       "calendarUrl": "https://pub-london.escribemeetings.com",
       "note": ""
     },
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 14,
+      "meetings": 13,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -160,7 +160,7 @@
       "name": "City of Cambridge",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 7,
       "calendarUrl": "https://pub-cambridge.escribemeetings.com",
       "note": ""
     },
@@ -196,7 +196,7 @@
       "name": "City of Brantford",
       "type": "escribe",
       "ok": true,
-      "meetings": 10,
+      "meetings": 9,
       "calendarUrl": "https://pub-brantford.escribemeetings.com",
       "note": ""
     },
@@ -205,7 +205,7 @@
       "name": "City of St. Thomas",
       "type": "escribe",
       "ok": true,
-      "meetings": 1,
+      "meetings": 0,
       "calendarUrl": "https://pub-stthomas.escribemeetings.com",
       "note": ""
     },
@@ -343,294 +343,6 @@
       },
       "matchKind": "exact",
       "agendaStatus": "posted"
-    },
-    {
-      "id": "brantford-602d842b-783a-44",
-      "municipality": "City of Brantford",
-      "municipalityId": "brantford",
-      "body": "City Council",
-      "title": "City Council",
-      "date": "2026-11-17",
-      "time": "6:00 PM",
-      "location": "Council Chambers, Brantford City Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=602d842b-783a-4469-a5b3-91a834056593",
-        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=602d842b-783a-4469-a5b3-91a834056593"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "cambridge-43362d54-5eec-47",
-      "municipality": "City of Cambridge",
-      "municipalityId": "cambridge",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-11-17",
-      "time": "6:00 PM",
-      "location": "Council Chambers, Historic City Hall, 46 Dickson Street, 3rd Floor",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": true,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=43362d54-5eec-4769-bff0-79a28acd32bc",
-        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=43362d54-5eec-4769-bff0-79a28acd32bc"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "kitchener-86530660-f27d-49",
-      "municipality": "City of Kitchener",
-      "municipalityId": "kitchener",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2026-11-17",
-      "time": "10:00 AM",
-      "location": "Council Chambers",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=86530660-f27d-4990-829c-30b273275cd3",
-        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=86530660-f27d-4990-829c-30b273275cd3"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "london-0f89d7d2-0a29-4f",
-      "municipality": "City of London",
-      "municipalityId": "london",
-      "body": "Council",
-      "title": "Council",
-      "date": "2026-11-17",
-      "time": "6:00 PM",
-      "location": "RBC Place London, 300 York Street, London, ON",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=0f89d7d2-0a29-4fce-9ad2-89e38fbc16ff",
-        "agenda": "https://pub-london.escribemeetings.com/Meeting.aspx?Id=0f89d7d2-0a29-4fce-9ad2-89e38fbc16ff"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "ottawa-137bf37a-21b6-43",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Committee of Adjustment - Panel 2",
-      "title": "Committee of Adjustment - Panel 2",
-      "date": "2026-11-17",
-      "time": "1:00 PM",
-      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=137bf37a-21b6-43f0-b4ff-c951a64718b3",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=137bf37a-21b6-43f0-b4ff-c951a64718b3"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "ottawa-1d2d50c0-6ecb-4a",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Committee of Adjustment - Panel 3",
-      "title": "Committee of Adjustment - Panel 3",
-      "date": "2026-11-17",
-      "time": "9:00 AM",
-      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1d2d50c0-6ecb-4a4a-a9ce-08b5806e14bb",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=1d2d50c0-6ecb-4a4a-a9ce-08b5806e14bb"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "stthomas-98eb1c3a-be47-4d",
-      "municipality": "City of St. Thomas",
-      "municipalityId": "stthomas",
-      "body": "Special Council Meeting",
-      "title": "Special Council Meeting",
-      "date": "2026-11-17",
-      "time": "5:00 PM",
-      "location": "COUNCIL CHAMBERS/ZOOM",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=98eb1c3a-be47-4d42-9326-c40681058747",
-        "agenda": "https://pub-stthomas.escribemeetings.com/Meeting.aspx?Id=98eb1c3a-be47-4d42-9326-c40681058747"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "vaughan-f1f760a9-c09d-4f",
-      "municipality": "City of Vaughan",
-      "municipalityId": "vaughan",
-      "body": "Inaugural Council",
-      "title": "Inaugural Council",
-      "date": "2026-11-17",
-      "time": "6:30 PM",
-      "location": "222 Rowntree Dairy Road, Vaughan",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=f1f760a9-c09d-4f51-96ee-a82277b2758e",
-        "agenda": "https://pub-vaughan.escribemeetings.com/Meeting.aspx?Id=f1f760a9-c09d-4f51-96ee-a82277b2758e"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
-      "id": "newmarket-a2a386ae-b9ee-4a",
-      "municipality": "Town of Newmarket",
-      "municipalityId": "newmarket",
-      "body": "Special Council - Electronic",
-      "title": "Special Council - Electronic",
-      "date": "2026-11-17",
-      "time": "1:00 PM",
-      "location": "Glass Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": "May include a closed session — public items only."
-      },
-      "links": {
-        "meeting": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=a2a386ae-b9ee-4aa5-b57d-603980bb1f98",
-        "agenda": "https://pub-newmarket.escribemeetings.com/Meeting.aspx?Id=a2a386ae-b9ee-4aa5-b57d-603980bb1f98"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "posted",
-      "source": "escribe",
-      "curated": false
     },
     {
       "id": "brampton-cf48c203-5227-48",
@@ -1123,7 +835,7 @@
       "location": "Council Chamber, City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -1140,7 +852,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },

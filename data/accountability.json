@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -13,6 +13,19 @@
       "source": "Western Standard",
       "date": "2026-11-17",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-doug-ford-ford-government-moves-to-shield-itself-from-laws-2026-11-17",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ford government moves to shield itself from lawsuits related to OSAP fraud probe - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYWhqeEVBZHI3RWo5STVmRTV5NDBNejg5cVh3Wi13V1U2TFRMb3NlalEzdHBEYklnTm9US0JJSHFuLUFYbll4QnNzcUZOanBual9nWmJhTTRHY252TGVJdFdITXhQNTk1TkR0REtBYktVVUFWTEFWSUIwZUticGc1YlRpdFpjTDB6dm5kSWx6dnVTRzBla0hITVBTZEFGY3VkV1cyN2Fsa2lPYzhwbS0tZ1RfenVfakFV?oc=5",
+      "source": "Global News",
+      "date": "2026-11-17",
+      "type": "investigation",
       "status": "reported"
     },
     {
@@ -930,7 +943,8 @@
         "Doug Ford",
         "David Piccini",
         "Sam Oosterhoff",
-        "Kinga Surma"
+        "Kinga Surma",
+        "Zee Hamid"
       ],
       "title": "Doug Ford announces cabinet shuffle, David Piccini moved into new portfolio amid ethics probe - CTV News",
       "summary": "",
@@ -1585,19 +1599,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rVndfdFhkMzEtVmxoa1FCVk9HbHdQR2k4YmRxc24xTm5ITTZpeFFkQjc0ME1CRHdUYmlRMENnd28tekxWWjRvWDl5T3FNVmo4Q0FDRnZsZG15eVhHNXE5UUxOaHpvUmpsM0c0?oc=5",
       "source": "globalnews.ca",
-      "date": "2026-07-28",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-what-happened-to-doug-ford-s-call-for-a-national-2026-07-28",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "What happened to Doug Ford’s call for a national wildfire strategy? - London Free Press",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRjAzTGRRU1R1d3pnYUhZOWpsUzFkQUlEX0xWTWE0ZlJva0R2YVkxdmpXNWEwbWxJVnZ2MHk1RHhOYnRkU2JnR0l1XzY5ZGExZExxUU1XRjZYWElKUGJXODhtR3VyWDM2TExHWXYyc2t2eHVDRUJXWGZRWnMxUlRCOXJQekRacU53YUVnNGt1LU9rcGpzanBQMjg5cXd4b2Vy?oc=5",
-      "source": "London Free Press",
       "date": "2026-07-28",
       "type": "news",
       "status": "reported"
