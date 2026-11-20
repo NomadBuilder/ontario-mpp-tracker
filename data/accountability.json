@@ -1,7 +1,33 @@
 {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-ontario-liberals-request-probe-of-whether-premie-2026-11-17",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ontario Liberals request probe of whether Premier Doug Ford broke ethics rules in OSAP scandal - The Trillium",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOcEFMYTJhZkNYMnFVeFlIWm5Qc0RFRzBXZXk0QVlNYmhibHJ6aHRtMzViUGI4MFZQTlVOUlhWVEw1V2U0Y2hsektZblpyLXBGUXNCNWdYMDZDQzJEQVN6VkFIdnFob2h6Y1dEdTItejJ0T3lNdmp5OVZmN3A3RFRlRzlpbDR6Um1OMDFsS05QT2JHVEp3b3J1MDBfb3pjR2FRMVZsRV9LN1RVY2tVMVBHU2RSbEIyeVlmeklYWi1OVmozb0VYLUppVV9WZ0tqMHFFdXJ1WWFtRWdpMWI3cWlxQ1FCV1p4ZFhnVk1Ub1VwaUplbXFiaFVZZ2RR?oc=5",
+      "source": "The Trillium",
+      "date": "2026-11-19",
+      "type": "integrity",
+      "status": "reported"
+    },
+    {
+      "id": "auto-jill-dunlop-orillia-area-mpp-jill-dunlop-dodges-questions-ab-2026-11-19",
+      "mppNames": [
+        "Jill Dunlop"
+      ],
+      "title": "Orillia-area MPP Jill Dunlop dodges questions about OSAP scandal - Barrie 360",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE01RDhBMDhKSVpjN1pmdE5BZVZxZDIxYWs2Vk83aENCa0ZrRXgzdF9MNmwwY2tvdkRRbmh1SkR4Zm8xdDU4N2w2Uk5mNHpWZ0wxMTEtS2xJZ3dWRThienctclBXNWc0MTE5a3VNY01zUjRIdw?oc=5",
+      "source": "Barrie 360",
+      "date": "2026-11-19",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-doug-ford-ford-refuses-to-confirm-new-taxpayer-money-for-s-2026-11-17",
       "mppNames": [
@@ -26,19 +52,6 @@
       "source": "Global News",
       "date": "2026-11-17",
       "type": "investigation",
-      "status": "reported"
-    },
-    {
-      "id": "auto-ontario-liberals-request-probe-of-whether-premie-2026-11-17",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Ontario Liberals request probe of whether Premier Doug Ford broke ethics rules in OSAP scandal - The Trillium",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOcEFMYTJhZkNYMnFVeFlIWm5Qc0RFRzBXZXk0QVlNYmhibHJ6aHRtMzViUGI4MFZQTlVOUlhWVEw1V2U0Y2hsektZblpyLXBGUXNCNWdYMDZDQzJEQVN6VkFIdnFob2h6Y1dEdTItejJ0T3lNdmp5OVZmN3A3RFRlRzlpbDR6Um1OMDFsS05QT2JHVEp3b3J1MDBfb3pjR2FRMVZsRV9LN1RVY2tVMVBHU2RSbEIyeVlmeklYWi1OVmozb0VYLUppVV9WZ0tqMHFFdXJ1WWFtRWdpMWI3cWlxQ1FCV1p4ZFhnVk1Ub1VwaUplbXFiaFVZZ2RR?oc=5",
-      "source": "The Trillium",
-      "date": "2026-11-17",
-      "type": "integrity",
       "status": "reported"
     },
     {
@@ -1585,19 +1598,6 @@
       "title": "Markham–Stouffville PC MPP Paul Calandra billed taxpayers for 11 Toronto hotel stays - rebelnews.com",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ0ZHS2s2Tl9UTEgtLXE1TkdTMGtMVlc2MGliWlFaM0NfbGJuVUlmNXRxRjhtOFBXeEc3M1NjUWVRNkkzdjFxc1hBbHh6cFpjeVpBQ2tiYWtidEtqQzk4MGVTWmdLMzZkN2JXaGYxLU9NRk5rMU83QWRPRnA5UjJKR29xcGFlaEdFZkpYVnl6QjBWalhQYW5vOU0yclViUUN5SVU3SVFPVTN3MFo3X1dR?oc=5",
-      "source": "rebelnews.com",
-      "date": "2026-07-29",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-oakville-pc-mpp-stephen-crawford-billed-taxpayer-2026-07-29",
-      "mppNames": [
-        "Stephen Crawford"
-      ],
-      "title": "Oakville PC MPP Stephen Crawford billed taxpayers more than $6,500 for Toronto hotels - rebelnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX2RlVHViSmJ5VXotT2tPVk84bkhkbnhFbndCOHdUc3FWa2NaYlpSb3lHZkhhV01nWVlCTWlTZHhPVTNuZUY5a204VkxoMXd3clA1UXd2U0YxVjc0VG55WW9qc3FEVF9NRWhWemRZdmRmajRWaV9WWVZ5aXpGREZQUWdlVzZpWUV6MTJJeHZQUzQ2WkRZX3NVdFp3TjFrVHY4Umwyc1hJVFVBSTZNcW9r?oc=5",
       "source": "rebelnews.com",
       "date": "2026-07-29",
       "type": "expenses",
