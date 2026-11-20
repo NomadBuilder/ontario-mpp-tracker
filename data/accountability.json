@@ -3,6 +3,19 @@
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
+      "id": "auto-doug-ford-as-trade-war-hits-auto-sector-ford-gets-760m-fro-2026-11-20",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "As trade war hits auto sector, Ford gets $760M from taxpayers for Ontario plant - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS2ltcDdibXk3RGFsaDhIS0VhdEFyUGY3ZFFRVWNmRjA5YmQ5YmI2N3BrQWdDRmZyc3pNNHJUNTUxeF9KMlpjOHZJa0J5c1FtamRGZkpMcm5zTE9EdlJKSjBWcXRMOHYtX3NFVGRWeHNIeFEtcHgtYTU5YTc2LXJoeGtSX2tEWnM?oc=5",
+      "source": "Global News",
+      "date": "2026-11-20",
+      "type": "news",
+      "status": "reported"
+    },
+    {
       "id": "auto-ontario-liberals-request-probe-of-whether-premie-2026-11-17",
       "mppNames": [
         "Doug Ford"
@@ -1588,19 +1601,6 @@
       "source": "PressProgress",
       "date": "2026-07-29",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-markham-stouffville-pc-mpp-paul-calandra-billed--2026-07-29",
-      "mppNames": [
-        "Paul Calandra"
-      ],
-      "title": "Markham–Stouffville PC MPP Paul Calandra billed taxpayers for 11 Toronto hotel stays - rebelnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ0ZHS2s2Tl9UTEgtLXE1TkdTMGtMVlc2MGliWlFaM0NfbGJuVUlmNXRxRjhtOFBXeEc3M1NjUWVRNkkzdjFxc1hBbHh6cFpjeVpBQ2tiYWtidEtqQzk4MGVTWmdLMzZkN2JXaGYxLU9NRk5rMU83QWRPRnA5UjJKR29xcGFlaEdFZkpYVnl6QjBWalhQYW5vOU0yclViUUN5SVU3SVFPVTN3MFo3X1dR?oc=5",
-      "source": "rebelnews.com",
-      "date": "2026-07-29",
-      "type": "expenses",
       "status": "reported"
     }
   ]
