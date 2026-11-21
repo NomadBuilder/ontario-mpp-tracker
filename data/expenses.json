@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20",
+  "fetchedAt": "2026-11-21",
   "source": "https://www.ola.org/en/members/expense-disclosure/list",
   "bySlug": {
     "members-expenses-faq": {
@@ -1015,19 +1015,6 @@
       "hospitality": 45.6,
       "claimCount": 1,
       "periodCount": 1
-    },
-    "neil-lumsden": {
-      "slug": "neil-lumsden",
-      "name": "Lumsden, Neil",
-      "riding": "Hamilton East\u2014Stoney Creek (*)",
-      "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/neil-lumsden",
-      "total": 51236.39,
-      "travel": 0.0,
-      "accommodation": 1082.5,
-      "meals": 0.0,
-      "hospitality": 50153.89,
-      "claimCount": 105,
-      "periodCount": 9
     },
     "lisa-macleod": {
       "slug": "lisa-macleod",
@@ -2115,9 +2102,6 @@
     "lindo, laura mae": "laura-mae-lindo",
     "laura mae lindo": "laura-mae-lindo",
     "hon. laura mae lindo": "laura-mae-lindo",
-    "lumsden, neil": "neil-lumsden",
-    "neil lumsden": "neil-lumsden",
-    "hon. neil lumsden": "neil-lumsden",
     "macleod, lisa": "lisa-macleod",
     "lisa macleod": "lisa-macleod",
     "hon. lisa macleod": "lisa-macleod",
