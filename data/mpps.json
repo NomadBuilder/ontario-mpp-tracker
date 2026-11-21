@@ -11518,7 +11518,17 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/Neil_Lumsden.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/neil-lumsden",
-      "expenses": null,
+      "expenses": {
+        "total": 51236.39,
+        "travel": 0.0,
+        "accommodation": 1082.5,
+        "meals": 0.0,
+        "hospitality": 50153.89,
+        "claimCount": 105,
+        "periodCount": 9,
+        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/neil-lumsden",
+        "asOf": "2026-11-21"
+      },
       "sunshine": {
         "salary": 235333.73,
         "benefits": 1227.49,
