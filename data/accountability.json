@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-21",
+  "asOf": "2026-11-22",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -42,6 +42,20 @@
       "status": "reported"
     },
     {
+      "id": "auto-doug-ford-ford-government-moves-to-shield-itself-from-laws-2026-11-17",
+      "mppNames": [
+        "Doug Ford",
+        "Nolan Quinn"
+      ],
+      "title": "Ford government moves to shield itself from lawsuits related to OSAP fraud probe - Global News",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYWhqeEVBZHI3RWo5STVmRTV5NDBNejg5cVh3Wi13V1U2TFRMb3NlalEzdHBEYklnTm9US0JJSHFuLUFYbll4QnNzcUZOanBual9nWmJhTTRHY252TGVJdFdITXhQNTk1TkR0REtBYktVVUFWTEFWSUIwZUticGc1YlRpdFpjTDB6dm5kSWx6dnVTRzBla0hITVBTZEFGY3VkV1cyN2Fsa2lPYzhwbS0tZ1RfenVfakFV?oc=5",
+      "source": "Global News",
+      "date": "2026-11-17",
+      "type": "investigation",
+      "status": "reported"
+    },
+    {
       "id": "auto-doug-ford-ford-refuses-to-confirm-new-taxpayer-money-for-s-2026-11-17",
       "mppNames": [
         "Doug Ford"
@@ -52,19 +66,6 @@
       "source": "Western Standard",
       "date": "2026-11-17",
       "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-ford-government-moves-to-shield-itself-from-laws-2026-11-17",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Ford government moves to shield itself from lawsuits related to OSAP fraud probe - Global News",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYWhqeEVBZHI3RWo5STVmRTV5NDBNejg5cVh3Wi13V1U2TFRMb3NlalEzdHBEYklnTm9US0JJSHFuLUFYbll4QnNzcUZOanBual9nWmJhTTRHY252TGVJdFdITXhQNTk1TkR0REtBYktVVUFWTEFWSUIwZUticGc1YlRpdFpjTDB6dm5kSWx6dnVTRzBla0hITVBTZEFGY3VkV1cyN2Fsa2lPYzhwbS0tZ1RfenVfakFV?oc=5",
-      "source": "Global News",
-      "date": "2026-11-17",
-      "type": "investigation",
       "status": "reported"
     },
     {
