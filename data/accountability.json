@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-23",
+  "asOf": "2026-11-24",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
     {
@@ -13,6 +13,19 @@
       "source": "Global News",
       "date": "2026-11-20",
       "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-jill-dunlop-osap-investigation-grows-in-ontario-former-minis-2026-11-20",
+      "mppNames": [
+        "Jill Dunlop"
+      ],
+      "title": "OSAP Investigation Grows in Ontario, Former Minister Does Not Answer Questions - Turkville",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeU9NalFQUk9nRWtjLXlveW5QZ2dodjhsVGY2a0FER0l5eUc0LThpeU9YX2Y3YWNTV08tUXhQXy1ZVGRnVGtTVUphczVlZWdWeU5lcEMzT2FZaGpLLTBLc292LXVyY3pMYUk3ajFPNTZkR2NRaFV0dWVfeHV5akhGOXZuc2FuYmFmYl9qY1FlWnluX20wOEdOc2I0d2Zwb25iWXpXaw?oc=5",
+      "source": "Turkville",
+      "date": "2026-11-20",
+      "type": "investigation",
       "status": "reported"
     },
     {
@@ -660,6 +673,20 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcjhaaG1rY0NDbTIwb3N3S1Vvd2JkaFc0YjhDdnFfZk9SWFBzc0VSVHQ0a29fX1k3SnZiSlUzaS00QmhJN0l3LUEyTlFnRDhkVmFnU1JWRVdPdzdFdzhTYUp6cHdocW9mRDBnaldMZENVaDY2OXEyRXhzMmxuNmczZ04ydm00OGV0ODMyWFlMcWJ1c0FWRFRiS0NiSGtBMUpDQmgzNVRCcXFBRGo3aXpTV2VaejBKUFRoNGZla2VJZXBmQjB0LUNtT0hKdw?oc=5",
       "source": "The Conversation",
       "date": "2026-10-13",
+      "type": "news",
+      "status": "reported"
+    },
+    {
+      "id": "auto-kinga-surma-young-candidate-embroiled-in-controversy-with-do-2026-10-12",
+      "mppNames": [
+        "Kinga Surma",
+        "Doug Ford"
+      ],
+      "title": "Young candidate embroiled in controversy with Doug Ford has long history with PC leader and Tory politics - National Post",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRzFNYXhhblJPOTAwNzhDNWN0bm9qbVFTQ3MxT3FLbDBEenkyaFJCM2Y5NGJPUGRET3g0TVpsWC1JOWxZcWJSVE1BZEpyb1hDU3ozbFRCcWZCTHlRdlk0UVluNzN5SVVZRDhTaDVEYzY5T2lsT3dqWmdiX21OR3MxeXlHMFlFSml1RUZvXzlnTEV0YTNPaGNzb2hMLU5Ra2RHSzFtMjFSWk5ibm1EcDJNLUliMlhaS1JvZUZzT1VkdmI4T05jelJlTWE0ZkR6aWFJaVE?oc=5",
+      "source": "National Post",
+      "date": "2026-10-12",
       "type": "news",
       "status": "reported"
     },
@@ -1576,32 +1603,6 @@
       "source": "Queen's Park Observer",
       "date": "2026-07-29",
       "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-natalia-kusendova-bashta-mississauga-centre-pc-mpp-natalia-kusendova-bash-2026-07-29",
-      "mppNames": [
-        "Natalia Kusendova-Bashta"
-      ],
-      "title": "Mississauga Centre PC MPP Natalia Kusendova-Bashta billed taxpayers $4,258 for six Toronto hotel stays - rebelnews.com",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVk1yYkJ2Qmx5Z3VsRGdfdXR6X21XaW5DWUZvcm9tb1d1Y3M4YVk5c1VRai1PcDdXaXlReFlFVW1GOVd2T2JoQXhjWUs0S2drcUFLX0JNZ1h6dUM5LWNOeGFsUTF0ZjNPWjBWNGJqcURPM3hwcTZFTkVuUHZkaG1aN1hid3JwQllHN2N2T3EwZ0xCUE5rR1RDZ2NOdlRXNTJJbjBMOERzUldjVGdBV2RubUxkQnZyYTI5THJ5dWxsbGt6MXQ4bmc?oc=5",
-      "source": "rebelnews.com",
-      "date": "2026-07-29",
-      "type": "expenses",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-ludicrous-alberta-ontario-pipeline-fuels-climate-2026-07-29",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "'Ludicrous' Alberta-Ontario Pipeline Fuels Climate Anxiety as Wildfires Rage Across the Country - PressProgress",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZnlKNzlMY3Z2NmZIZFNmX05NaDI0d2VneHg1SU1rWklldjg4RjI3OVVhckN2bGtiNjhoUldlZVQ3TGEwNlZMRk41b0Y3Z2huV2lMNWpzYjRya0xGbTFXMmRsWHlGaEdBZDJzaG9zZzNsaWhoaUpsbmFWcTdmQ09zTUk5MkhYSjFkQTBUNEQ3RnNzVVhQT25vYm1XY2RUdzZiRXNpUFFrX2paWDRyMWI0Vm5PUDA4R3p0YXFB?oc=5",
-      "source": "PressProgress",
-      "date": "2026-07-29",
-      "type": "news",
       "status": "reported"
     }
   ]
