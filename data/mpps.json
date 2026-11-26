@@ -10272,17 +10272,7 @@
       "oacScore": 0,
       "photo": "https://www.ola.org/sites/default/files/member/profile-photo/terence_kernaghan.jpg",
       "profileUrl": "https://www.ola.org/en/members/all/terence-kernaghan",
-      "expenses": {
-        "total": 82155.86,
-        "travel": 40558.3,
-        "accommodation": 1505.19,
-        "meals": 271.67,
-        "hospitality": 39820.7,
-        "claimCount": 171,
-        "periodCount": 9,
-        "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/terence-kernaghan",
-        "asOf": "2026-11-26"
-      },
+      "expenses": null,
       "sunshine": {
         "salary": 163875.64,
         "benefits": 944.38,

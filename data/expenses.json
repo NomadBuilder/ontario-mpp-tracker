@@ -912,19 +912,6 @@
       "claimCount": 48,
       "periodCount": 4
     },
-    "terence-kernaghan": {
-      "slug": "terence-kernaghan",
-      "name": "Kernaghan, Terence",
-      "riding": "London North Centre",
-      "sourceUrl": "https://www.ola.org/en/members/expense-disclosure/terence-kernaghan",
-      "total": 82155.86,
-      "travel": 40558.3,
-      "accommodation": 1505.19,
-      "meals": 271.67,
-      "hospitality": 39820.7,
-      "claimCount": 171,
-      "periodCount": 9
-    },
     "michael-s-kerzner": {
       "slug": "michael-s-kerzner",
       "name": "Kerzner, Michael S.",
@@ -2089,9 +2076,6 @@
     "ke, vincent": "vincent-ke",
     "vincent ke": "vincent-ke",
     "hon. vincent ke": "vincent-ke",
-    "kernaghan, terence": "terence-kernaghan",
-    "terence kernaghan": "terence-kernaghan",
-    "hon. terence kernaghan": "terence-kernaghan",
     "kerzner, michael s.": "michael-s-kerzner",
     "michael s. kerzner": "michael-s-kerzner",
     "hon. michael s. kerzner": "michael-s-kerzner",

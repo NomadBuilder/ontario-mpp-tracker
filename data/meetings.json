@@ -34,7 +34,7 @@
       "name": "City of Hamilton",
       "type": "escribe",
       "ok": true,
-      "meetings": 8,
+      "meetings": 9,
       "calendarUrl": "https://pub-hamilton.escribemeetings.com",
       "note": ""
     },
@@ -70,7 +70,7 @@
       "name": "Town of Milton",
       "type": "escribe",
       "ok": true,
-      "meetings": 2,
+      "meetings": 1,
       "calendarUrl": "https://pub-milton.escribemeetings.com",
       "note": ""
     },
@@ -133,7 +133,7 @@
       "name": "Township of King",
       "type": "escribe",
       "ok": true,
-      "meetings": 3,
+      "meetings": 4,
       "calendarUrl": "https://pub-king.escribemeetings.com",
       "note": ""
     },
@@ -151,7 +151,7 @@
       "name": "City of Kitchener",
       "type": "escribe",
       "ok": true,
-      "meetings": 13,
+      "meetings": 14,
       "calendarUrl": "https://pub-kitchener.escribemeetings.com",
       "note": ""
     },
@@ -160,7 +160,7 @@
       "name": "City of Cambridge",
       "type": "escribe",
       "ok": true,
-      "meetings": 4,
+      "meetings": 7,
       "calendarUrl": "https://pub-cambridge.escribemeetings.com",
       "note": ""
     },
@@ -196,7 +196,7 @@
       "name": "City of Brantford",
       "type": "escribe",
       "ok": true,
-      "meetings": 23,
+      "meetings": 24,
       "calendarUrl": "https://pub-brantford.escribemeetings.com",
       "note": ""
     },
@@ -214,7 +214,7 @@
       "name": "City of Stratford",
       "type": "escribe",
       "ok": true,
-      "meetings": 5,
+      "meetings": 6,
       "calendarUrl": "https://pub-stratford.escribemeetings.com",
       "note": ""
     },
@@ -366,6 +366,38 @@
       "links": {
         "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=111b6f56-654e-497c-a7ef-108783367d62",
         "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=111b6f56-654e-497c-a7ef-108783367d62"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "hamilton-736ffad1-c504-4e",
+      "municipality": "City of Hamilton",
+      "municipalityId": "hamilton",
+      "body": "Council&#39;s Weekly Correspondence Listing",
+      "title": "Council&#39;s Weekly Correspondence Listing",
+      "date": "2026-11-26",
+      "time": "4:00 PM",
+      "location": "Published to Hamilton.ca",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": true,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=736ffad1-c504-4eeb-a12a-8b7d073abbb9",
+        "agenda": "https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=736ffad1-c504-4eeb-a12a-8b7d073abbb9"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -590,6 +622,38 @@
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/Meeting.aspx?Id=958b7dc0-63a8-4daf-ac59-860d39cc0321",
         "agenda": "https://yorkpublishing.escribemeetings.com/Meeting.aspx?Id=958b7dc0-63a8-4daf-ac59-860d39cc0321"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "kitchener-5cc382c9-d61e-4b",
+      "municipality": "City of Kitchener",
+      "municipalityId": "kitchener",
+      "body": "Electronic Council Communication Information Package",
+      "title": "Electronic Council Communication Information Package",
+      "date": "2026-11-27",
+      "time": "2:00 PM",
+      "location": "Electronic Meeting",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": false,
+        "deputations": false,
+        "registerBy": null,
+        "notes": "Correspondence package — not a sitting. Use it to brief the next council / planning meeting."
+      },
+      "links": {
+        "meeting": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=5cc382c9-d61e-4b10-9820-b6d91a7bd9b0",
+        "agenda": "https://pub-kitchener.escribemeetings.com/Meeting.aspx?Id=5cc382c9-d61e-4b10-9820-b6d91a7bd9b0"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -835,7 +899,7 @@
       "location": "Council Chambers",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -852,7 +916,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -867,7 +931,7 @@
       "location": "Walter Gretzky Municipal Golf Course",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -884,7 +948,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1099,13 +1163,13 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=cfc933a2-869c-40f1-a3f1-136df0ce7028",
@@ -1116,7 +1180,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1195,13 +1259,13 @@
       "location": "Council Chambers, Civic Centre, 2nd Floor",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
+        "deputations": true,
+        "registerBy": "calling 90",
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=99eb38b3-9636-43c2-9730-d7e933b46378",
@@ -1212,7 +1276,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1281,6 +1345,38 @@
       "curated": false
     },
     {
+      "id": "brantford-cd61b8a6-1b13-44",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "Council Orientation Workshop",
+      "title": "Council Orientation Workshop",
+      "date": "2026-12-03",
+      "time": "5:30 PM",
+      "location": "Brantford City Hall, 58 Dalhousie Street",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=cd61b8a6-1b13-44a7-a23a-28f61a26fbf3",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=cd61b8a6-1b13-44a7-a23a-28f61a26fbf3"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-10da054e-46d9-45",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -1345,6 +1441,38 @@
       "curated": false
     },
     {
+      "id": "king-82baea35-4873-40",
+      "municipality": "Township of King",
+      "municipalityId": "king",
+      "body": "Special Council Meeting",
+      "title": "Special Council Meeting",
+      "date": "2026-12-03",
+      "time": "8:30 AM",
+      "location": "Eaton Hall and Conference Centre",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=82baea35-4873-409e-8a00-e9cf6031b127",
+        "agenda": "https://pub-king.escribemeetings.com/Meeting.aspx?Id=82baea35-4873-409e-8a00-e9cf6031b127"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "hamilton-2a930338-4ff3-4f",
       "municipality": "City of Hamilton",
       "municipalityId": "hamilton",
@@ -1387,13 +1515,13 @@
       "location": "Hybrid Meeting - Virtual Option & In-Person in Council Chambers – 4th Floor – City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
-        "notes": ""
+        "notes": "May include a closed session — public items only."
       },
       "links": {
         "meeting": "https://pub-brampton.escribemeetings.com/Meeting.aspx?Id=55aea75d-e2ef-4438-a6c4-6678cf0df1b8",
@@ -1404,7 +1532,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1430,6 +1558,38 @@
       "links": {
         "meeting": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=36043955-d0aa-488f-ab2a-aa1abeb51e8e",
         "agenda": "https://pub-mississauga.escribemeetings.com/Meeting.aspx?Id=36043955-d0aa-488f-ab2a-aa1abeb51e8e"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "stratford-f67e691c-626c-4b",
+      "municipality": "City of Stratford",
+      "municipalityId": "stratford",
+      "body": "Special Council",
+      "title": "Special Council",
+      "date": "2026-12-07",
+      "time": "5:30 PM",
+      "location": "Council Chamber, City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=f67e691c-626c-4bc5-adb3-b4a18148ecaa",
+        "agenda": "https://pub-stratford.escribemeetings.com/Meeting.aspx?Id=f67e691c-626c-4bc5-adb3-b4a18148ecaa"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -1473,38 +1633,6 @@
       "curated": false
     },
     {
-      "id": "milton-fb0913fe-a2f9-45",
-      "municipality": "Town of Milton",
-      "municipalityId": "milton",
-      "body": "Council Meeting",
-      "title": "Council Meeting",
-      "date": "2026-12-07",
-      "time": "7:00 PM",
-      "location": "Town Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=fb0913fe-a2f9-45a3-8a92-b92978b40839",
-        "agenda": "https://pub-milton.escribemeetings.com/Meeting.aspx?Id=fb0913fe-a2f9-45a3-8a92-b92978b40839"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "oakville-7318ddb6-a5dc-49",
       "municipality": "Town of Oakville",
       "municipalityId": "oakville",
@@ -1515,11 +1643,11 @@
       "location": "Council Chamber",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
-        "deputations": null,
+        "deputations": true,
         "registerBy": null,
         "notes": ""
       },
@@ -1532,7 +1660,7 @@
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "posted",
       "source": "escribe",
       "curated": false
     },
@@ -1697,38 +1825,6 @@
       "curated": false
     },
     {
-      "id": "markham-5d834874-515d-44",
-      "municipality": "City of Markham",
-      "municipalityId": "markham",
-      "body": "General Committee Meeting",
-      "title": "General Committee Meeting",
-      "date": "2026-12-08",
-      "time": "9:30 AM",
-      "location": "Live streamed",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=5d834874-515d-44cc-bc58-34d3a857e006",
-        "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=5d834874-515d-44cc-bc58-34d3a857e006"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "not_posted",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "markham-ee31036c-972c-4c",
       "municipality": "City of Markham",
       "municipalityId": "markham",
@@ -1750,6 +1846,38 @@
       "links": {
         "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=ee31036c-972c-4cc6-bae1-665df0b0222a",
         "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=ee31036c-972c-4cc6-bae1-665df0b0222a"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "markham-1deb7a4e-2ea7-43",
+      "municipality": "City of Markham",
+      "municipalityId": "markham",
+      "body": "Committee of the Whole",
+      "title": "Committee of the Whole",
+      "date": "2026-12-08",
+      "time": "9:30 AM",
+      "location": "Live streamed",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=1deb7a4e-2ea7-43c7-9dfc-b0e1bd858975",
+        "agenda": "https://pub-markham.escribemeetings.com/Meeting.aspx?Id=1deb7a4e-2ea7-43c7-9dfc-b0e1bd858975"
       },
       "keywordsMatched": [],
       "snippets": [],
@@ -2081,38 +2209,6 @@
       "curated": false
     },
     {
-      "id": "ottawa-64d6195b-4383-40",
-      "municipality": "City of Ottawa",
-      "municipalityId": "ottawa",
-      "body": "Committee of Adjustment - Panel 1",
-      "title": "Committee of Adjustment - Panel 1",
-      "date": "2026-12-09",
-      "time": "1:00 PM",
-      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=64d6195b-4383-401d-9837-0f140aebe275",
-        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=64d6195b-4383-401d-9837-0f140aebe275"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "ottawa-cffa4ed5-ff2e-4f",
       "municipality": "City of Ottawa",
       "municipalityId": "ottawa",
@@ -2141,6 +2237,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "ottawa-64d6195b-4383-40",
+      "municipality": "City of Ottawa",
+      "municipalityId": "ottawa",
+      "body": "Committee of Adjustment - Panel 1",
+      "title": "Committee of Adjustment - Panel 1",
+      "date": "2026-12-09",
+      "time": "1:00 PM",
+      "location": "Ben Franklin Place, The Chamber, Main Floor, 101 Centrepointe Drive, and by electronic participation",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=64d6195b-4383-401d-9837-0f140aebe275",
+        "agenda": "https://pub-ottawa.escribemeetings.com/Meeting.aspx?Id=64d6195b-4383-401d-9837-0f140aebe275"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -2881,17 +3009,17 @@
       "curated": false
     },
     {
-      "id": "brantford-abb6d28f-9d52-4c",
+      "id": "brantford-44acf04e-dfb9-42",
       "municipality": "City of Brantford",
       "municipalityId": "brantford",
-      "body": "Economic Development, Tourism and Cultural Initiatives Advisory Committee",
-      "title": "Economic Development, Tourism and Cultural Initiatives Advisory Committee",
+      "body": "Brantford Tourism Development Corporation",
+      "title": "Brantford Tourism Development Corporation",
       "date": "2026-12-16",
-      "time": "5:00 PM",
+      "time": "4:00 PM",
       "location": "Charlie Ward Room, Brantford City Hall",
       "status": "upcoming",
       "cancelled": false,
-      "issue": "This sitting is on the city’s calendar, but the clerk hasn’t published the agenda package yet — so we can’t scan for data centres or water privatization. Check back closer to the date.",
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
       "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
       "participate": {
         "attend": true,
@@ -2900,15 +3028,15 @@
         "notes": ""
       },
       "links": {
-        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=abb6d28f-9d52-4cc4-9209-f59e44cd12c9",
-        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=abb6d28f-9d52-4cc4-9209-f59e44cd12c9"
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=44acf04e-dfb9-4229-9e50-c971880247ae",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=44acf04e-dfb9-4229-9e50-c971880247ae"
       },
       "keywordsMatched": [],
       "snippets": [],
       "relevant": false,
       "matchKind": "",
       "topics": {},
-      "agendaStatus": "not_posted",
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -3489,38 +3617,6 @@
       "curated": false
     },
     {
-      "id": "brantford-b66fc6b1-d03b-4e",
-      "municipality": "City of Brantford",
-      "municipalityId": "brantford",
-      "body": "Committee of Adjustment",
-      "title": "Committee of Adjustment",
-      "date": "2027-01-14",
-      "time": "5:30 PM",
-      "location": "Council Chambers, Brantford City Hall",
-      "status": "upcoming",
-      "cancelled": false,
-      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
-      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
-      "participate": {
-        "attend": true,
-        "deputations": null,
-        "registerBy": null,
-        "notes": ""
-      },
-      "links": {
-        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=b66fc6b1-d03b-4e89-9563-9d3886711012",
-        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=b66fc6b1-d03b-4e89-9563-9d3886711012"
-      },
-      "keywordsMatched": [],
-      "snippets": [],
-      "relevant": false,
-      "matchKind": "",
-      "topics": {},
-      "agendaStatus": "unknown",
-      "source": "escribe",
-      "curated": false
-    },
-    {
       "id": "mississauga-07584324-c649-40",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -3937,6 +4033,38 @@
       "curated": false
     },
     {
+      "id": "brantford-b66fc6b1-d03b-4e",
+      "municipality": "City of Brantford",
+      "municipalityId": "brantford",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2027-01-21",
+      "time": "5:30 PM",
+      "location": "Council Chambers, Brantford City Hall",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=b66fc6b1-d03b-4e89-9563-9d3886711012",
+        "agenda": "https://pub-brantford.escribemeetings.com/Meeting.aspx?Id=b66fc6b1-d03b-4e89-9563-9d3886711012"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-d047cecd-12a4-4a",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -4029,6 +4157,38 @@
       "matchKind": "",
       "topics": {},
       "agendaStatus": "not_posted",
+      "source": "escribe",
+      "curated": false
+    },
+    {
+      "id": "cambridge-4a22164b-d1f6-49",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2027-01-27",
+      "time": "6:00 PM",
+      "location": "Bowman Room, 1st Floor, City Hall, 50 Dickson St.",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=4a22164b-d1f6-4986-bdd5-cfc385e052c8",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=4a22164b-d1f6-4986-bdd5-cfc385e052c8"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
       "source": "escribe",
       "curated": false
     },
@@ -4865,6 +5025,38 @@
       "curated": false
     },
     {
+      "id": "cambridge-df5c3d48-f218-4c",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2027-02-24",
+      "time": "6:00 PM",
+      "location": "Bowman Room, 1st Floor, City Hall, 50 Dickson St.",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=df5c3d48-f218-4c51-82a5-caf5af3da517",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=df5c3d48-f218-4c51-82a5-caf5af3da517"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-1cc3647b-b56e-48",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -5665,6 +5857,38 @@
       "curated": false
     },
     {
+      "id": "cambridge-a26fb25f-17ab-40",
+      "municipality": "City of Cambridge",
+      "municipalityId": "cambridge",
+      "body": "Committee of Adjustment",
+      "title": "Committee of Adjustment",
+      "date": "2027-03-24",
+      "time": "6:00 PM",
+      "location": "Bowman Room, 1st Floor, City Hall, 50 Dickson St.",
+      "status": "upcoming",
+      "cancelled": false,
+      "issue": "Decision meeting on the calendar — open the agenda and scan for zoning, site plan, utilities, or industrial items.",
+      "why": "Public council / planning meetings are where zoning and servicing get decided — often with little notice.",
+      "participate": {
+        "attend": true,
+        "deputations": null,
+        "registerBy": null,
+        "notes": ""
+      },
+      "links": {
+        "meeting": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=a26fb25f-17ab-4044-ae1e-382492c861c0",
+        "agenda": "https://pub-cambridge.escribemeetings.com/Meeting.aspx?Id=a26fb25f-17ab-4044-ae1e-382492c861c0"
+      },
+      "keywordsMatched": [],
+      "snippets": [],
+      "relevant": false,
+      "matchKind": "",
+      "topics": {},
+      "agendaStatus": "unknown",
+      "source": "escribe",
+      "curated": false
+    },
+    {
       "id": "mississauga-0f309240-a83b-46",
       "municipality": "City of Mississauga",
       "municipalityId": "mississauga",
@@ -5843,8 +6067,7 @@
       "origin": "From Richmond Hill’s July 8 motion and news coverage. Official York agendas live on the Region’s meeting portal.",
       "links": {
         "meeting": "https://yorkpublishing.escribemeetings.com/",
-        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports",
-        "source": "https://www.yorkregion.com/news/york-region-data-centres-may-soon-use-water-for-100k-people/article_378ba5b0-ba69-5cfa-87ce-85d5ea580eee.html"
+        "agenda": "https://www.york.ca/york-region/council-and-committee/agendas-minutes-and-reports"
       },
       "keywordsMatched": [
         "data centre"
