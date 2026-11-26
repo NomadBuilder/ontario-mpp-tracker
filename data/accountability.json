@@ -1,7 +1,20 @@
 {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "note": "Deduped by article URL — one card per story, with all associated MPPs merged. Auto-refreshed from Google News RSS (accountability-signal filter). Hand-written summaries marked curated are preserved on merge.",
   "items": [
+    {
+      "id": "auto-doug-ford-ontario-s-alcohol-overhaul-is-costing-taxpayers--2026-11-26",
+      "mppNames": [
+        "Doug Ford"
+      ],
+      "title": "Ontario’s alcohol overhaul is costing taxpayers more than expected. The LCBO’s finances explain why - Canadian Accountant",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaTB0RlZWVWwxXzZQakhVZGZCLWFlazZCOUl0NXFlMUN3cGtDUk1yS0ZtM0I2Q0lOeGpGTG9NN182VU1hTnpoME0yYjhXYUVJek1kNmVlTF9xRE1fSFNhb3pybVJrY01pWXlMQ2FGUnJfckhDOThjWnNOZjJtaHJZRV92X2ZhMVU?oc=5",
+      "source": "Canadian Accountant",
+      "date": "2026-11-26",
+      "type": "news",
+      "status": "reported"
+    },
     {
       "id": "auto-chandra-pasma-ontario-bill-proposes-tougher-lead-protections-i-2026-11-25",
       "mppNames": [
@@ -685,19 +698,6 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQlpQYkZjNlRaMzRuNWprdXpQSndrU1lJcjlhTGwxWGRaSUhzbnhEQmI3UHRlMHdjdVFsTUoxOXJ6YjdUSVV4TmU0ZGk5eDZfa0N5Wld1QkxfSUVVZ3V2Sm9TcjVmWUlELWxRY2gtQk5ZTWFvZEFPSGFXeDZZeDFET1NJcGVJc0lqNUlVVFpOeGNVZFpROWtHdmVSNU1qX1RJeG5BdERMM3hzVTZ4ZDdDYnJYSFI5WUt0ZjgzUlBvYkZKVkU4dTFWOWJReWdNZ2xrVUMzX3JOQzhEZVB6cmNfN0l5djllelpjRElObkhxanAwYXZGU2N2MWdn?oc=5",
       "source": "Toronto Star",
-      "date": "2026-10-13",
-      "type": "news",
-      "status": "reported"
-    },
-    {
-      "id": "auto-doug-ford-ontario-s-alcohol-overhaul-is-costing-taxpayers--2026-10-13",
-      "mppNames": [
-        "Doug Ford"
-      ],
-      "title": "Ontario’s alcohol overhaul is costing taxpayers more than expected. The LCBO’s finances explain why - The Conversation",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcjhaaG1rY0NDbTIwb3N3S1Vvd2JkaFc0YjhDdnFfZk9SWFBzc0VSVHQ0a29fX1k3SnZiSlUzaS00QmhJN0l3LUEyTlFnRDhkVmFnU1JWRVdPdzdFdzhTYUp6cHdocW9mRDBnaldMZENVaDY2OXEyRXhzMmxuNmczZ04ydm00OGV0ODMyWFlMcWJ1c0FWRFRiS0NiSGtBMUpDQmgzNVRCcXFBRGo3aXpTV2VaejBKUFRoNGZla2VJZXBmQjB0LUNtT0hKdw?oc=5",
-      "source": "The Conversation",
       "date": "2026-10-13",
       "type": "news",
       "status": "reported"
